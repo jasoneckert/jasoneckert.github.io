@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:35 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Linux thin clients&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Saturday, May 5, 2007&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Jon &#x201C;maddog&#x201D; Hall gave a talk about using Linux thin clients (e.g. the Linux Terminal Server Project) to provide Internet and application access to schools, third-world countries and organizations in general.&#xA0; He specifically noted that thin clients (like the&#xA0; HP Compaq t5125 which only uses 10 Watts of power compared to the 550 Watts used by most computers) could easily provide low-power, high-performance computing on a large scale.&#xA0; &#xD;&#xD;After hearing this, it sparked my curiosity since I typically use Remote Desktop as part of my job to connect to Windows Terminal Servers at our college head office.&#xA0; So, I basically used my SGI O2 (180MHz CPU, 64MB RAM, running Gentoo Linux) to do ALL of the work I normally do at home for the past three days by connecting remotely to Windows and Linux Terminal Servers.&#xA0; And yes, aside from downloading music (which is not suited for thin clients), everything that I did worked just as fast on this SGI O2 thin client as compared to the three modern computers I normally use on a daily basis.&#xA0;&#xA0; So, I imagine that the HP Compaq t5125 thin client (with a 400MHz CPU and 128MB of RAM) can only do better at a price of $199.&#xD;&#xD;I can definitely see using thin clients in a school environment (as well as other environments).&#xA0; I wonder if thin clients will catch on.....they would be a good solution for California&#x2019;s power shortages :-)&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="5_Entry_1_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

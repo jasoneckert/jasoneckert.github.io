@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:38 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Server closet Buddha shrine&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Friday, August 10, 2007&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;For the past 2 years, I have had a Buddha Shrine in the server closet in my office.&#xA0; I carefully researched proper Buddha Shrine requirements and styles on Google before I chose the above arrangement (Buddha must be elevated and surrounded by objects that represent tokens of life). &#xD;&#xD;Why did I do this?&#xA0; Simple.&#xA0; To speed up our current Internet access and reduce the number of times that we need to reboot/reset classroom routers (when caches fill up, etc.). &#xD;&#xD;Since I encourage instructors and TAs to reset their own router as necessary to maintain Internet access, I have made some easy-to-follow instructions and placed them on the wall of the server closet:&#xD;&#xD;&lt;/b&gt;&lt;b&gt;To reset the Internet connection for your classroom, perform the following:&#xD;&#xD;Locate the router for your room (each is labeled with a room number).&#xD;Bow slightly and recite the following Buddha Mantra:&#xD;     &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; tayata om bhaykandze bhaykandze maha bhaykandze&#xD;    &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; bhaykandze radza samudgate soha&#xD;Unplug the power from the router and plug it in again.&#xD;&#xD;If performed properly, you should have continuous Internet for the remainder of the day or longer.&lt;/b&gt;&lt;b&gt;&#xD;&#xD;In the past, we had to reset routers at least twice per day, but now we only reset them twice per week.&#xA0; As a result, I have recommended using Buddha Shrines at all of our campus locations (it is scheduled to coincide with our next major upgrade).&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="10_Server_closet_Buddha_shrine_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

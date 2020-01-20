@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:41:54 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Bullseye - A rare tabletop arcade from 1988  &lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, May 10, 2016&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;I collect arcade games and other novelty items, so when I saw this little LED-based tabletop/bartop arcade machine from Merit Technologies (the same company that makes the wildly-famous Megatouch bartop arcade series) , I just had to pick it up ;-)&#xD;&#xD;&#xD;&#xD;There is virtually no info about this game online except for a picture of it here &lt;/b&gt;&lt;b&gt;&lt;a href="http://www.arcade-history.com/?n=bullseye&amp;page=detail&amp;id=14095"&gt;http://www.arcade-history.com/?n=bullse ... l&amp;id=14095&lt;/a&gt;&lt;/b&gt;&lt;b&gt;&#xD;and here &lt;/b&gt;&lt;b&gt;&lt;a href="http://flyers.arcade-museum.com/?page=flyer&amp;db=arcadedb&amp;id=296&amp;image=1"&gt;http://flyers.arcade-museum.com/?page=f ... 96&amp;image=1&lt;/a&gt;&lt;/b&gt;&lt;b&gt;&#xD;&#xD;It has a pretty simple setup - behind the marquee is a single board powered by an Intel MCS-48 microprocessor (the same processor used to provide the sound on Donkey Kong).  This board also acts as the LED display panel:&#xD;&#xD;&#xD;&#xD;If you remove the board, you&#x2019;ll see the standard switching arcade power supply and roll-down quarter coin mechanism:&#xD;&#xD;&#xD;&#xD;The best part of this game is the gameplay itself - it&#x2019;s very simple, but very fun!  You get to choose 1 or 2 players, as well as one of two modes of play:&#xD;&lt;/b&gt;&lt;b&gt;	&#x2022;	Compete for the highest score, or&#xD;	&#x2022;	Try to get 301 points exactly (if 2 player, the closest one to 301 points wins if no one gets 301 points exactly)&#xD;&lt;/b&gt;&lt;b&gt;&#xD;You get 5 rounds, with 3 darts per round.  Simply hold down the SHOOT button to start and release it at the right time to shoot your dart.  If you get a bullseye, then a cool sound plays.&#xD;&#xD;Here is a video I made of its gameplay:&#xD;&lt;/b&gt;&lt;b&gt;&lt;a href="https://youtu.be/brkAWddJ__M"&gt;https://youtu.be/brkAWddJ__M&lt;/a&gt;&lt;/b&gt;&lt;b&gt;&#xD;&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="10_Bullseye_-_A_rare_tabletop_arcade_from_1988_files/shapeimage_1.png" left="0px" top="0px" width="695px" height="400px"/>
+</content>

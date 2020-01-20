@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.2" />
+    <meta name="iWeb-Build" content="local-build-20190818" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>The elusive MIPS R14000 CPU</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="23_The_elusive_MIPS_R14000_CPU_files/23_The_elusive_MIPS_R14000_CPU.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='23_The_elusive_MIPS_R14000_CPU_files/23_The_elusive_MIPS_R14000_CPUIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='../../../../Media/IE8.css'/><![endif]-->
+    <script language="javascript" type="text/javascript"><!--
+
+iWebBlogMainPageName = 'blog.html';
+iWebBlogMainPageTitle = 'blog';
+iWebBlogArchivePageName = 'Archive.html';
+iWebBlogArchivePageTitle = 'Archive';
+
+
+--></script>
+    <script type="text/javascript" src="../../../../Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="http://www.me.com/1/up/comments/scripts/search.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/iWebBlog.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="23_The_elusive_MIPS_R14000_CPU_files/23_The_elusive_MIPS_R14000_CPU.js"></script>
+  </head>
+  <body style="background: rgb(247, 246, 246); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(247, 246, 246); text-align: left; width: 700px; " id="body_content">
+        <div style="float: left; height: 0px; line-height: 0px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 0px; margin-top: 24px; opacity: 1.00; position: relative; width: 700px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts/Widgets/SharedResources', '../../../..', {"path-to-root": "..\/..\/..\/..\/", "navbar-css": ".navbar {\n\tfont-family: 'Helvetica Neue', Arial, sans-serif;\n\tfont-size: .85em;\n\tcolor: #999;\n\tmargin: 0px;\n\tline-height: 20px;\n\tfont-weight: bold;\n}\n\n.navbar-bg {\n\ttext-align: left;\n\tpadding: 0px;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 15px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #999;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #999;\n}\n\nli a:hover\n{\n \tcolor: #F00;\n\ttext-decoration: none;\n}\n\n\nli.current-page a\n{\n\t color: #666;\n\ttext-decoration: none;\n\n}", "current-page-GUID": "3F9CBE75-F5BD-4B35-9E50-35A3B3B60A4E", "isCollectionPage": "YES"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id1" style="visibility: hidden;  height: 41px; left: 40px; position: absolute; top: 416px; width: 620px; z-index: 1; " class="style_SkipStroke shape-with-text">
+            <div class="text-content Normal_External_620_41" style="padding: 0px; ">
+              <div class="Normal">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Title"><span class="Color">The elusive MIPS R14000 CPU</span></p>
+              </div>
+            </div>
+            <div id="generic-title-attributes" class="Title"></div>
+          </div>
+          
+
+
+          <div id="id2" style="visibility: hidden;  height: 41px; left: 40px; position: absolute; top: 448px; width: 620px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content style_External_620_41" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Date">Saturday, November 23, 2013</p>
+              </div>
+            </div>
+            <div id="generic-datefield-attributes" class="Date"></div>
+          </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div style="visibility: hidden;  margin-left: 40px; margin-top: 488px; position: relative; width: 620px; z-index: 1; " class="style_SkipStroke_3 shape-with-text flowDefining">
+            <div class="text-content style_External_620_3203" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="Body">This post is for the chip nerds out there....myself included ;-)<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Some people collect stamps.  But those people are weird.  I collect CPUs, which is perfectly normal.  After all, CPUs are the “heart” of a computer platform, and the thing that performs the calculations needed to run our apps and enhance our lives.  Plus, the CPUs from the 1980s to early 2000s were quite beautiful, especially the ones with gold tops.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">It’s very easy to find standard desktop CPUs (Intel, AMD, etc.), but other architectures are much more difficult since they were part of computers that were far more expensive and made in far fewer numbers.  The hardest to find are DEC CPUs (PDP, VAX, Alpha), SUN CPUs (SPARC, UltraSPARC), HP CPUs (PA-RISC) and SGI MIPS CPUs (R4000, R5000, R10000, R12000, R14000 and R16000). But you don’t need to collect the CPU in order to find out what it looks like - you can simply Google images of it since there are many sites dedicated to collecting CPUs and they will list the specs and host pics of them.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">My favorite CPU was always the SGI MIPS, because it was a “true” RISC CPU with a simple, elegant 5-stage pipeline that allowed it to compute far more than other CPUs that ran at much higher speeds.  MIPS was the “ideal” RISC CPU architecture - most other architectures started with this architecture, and then messed it up a bit (or a lot).<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Now, I’ve had R4400, R5000, R10000 and R12000 CPUs in my collection for years, and you can easily Google images of all of them.  If you Google the R10000 and R12000 CPUs, you’ll get something similar to the pic below (the R10000 is on the left, and the R12000 is on the right):<br /></p>
+                <div class="paragraph Body"><div style="height: 263px; width: 610px;  height: 263px; position: relative; width: 610px; " class="tinyText style_SkipStroke_2 inline-block stroke_0 shadow_0"><img src="23_The_elusive_MIPS_R14000_CPU_files/droppedImage.jpg" alt="" style="border: none; height: 264px; width: 611px; " /></div><br /></div>
+                <p class="Body"><br /></p>
+                <p class="Body">They were large, heavy, gold-topped CPUs that also used gold contacts instead of pins.  <br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">However, if you try to Google R14000 or R16000 (basically faster versions of the R12000), you’ll only find a few pictures of what they look like with the heat sink on, and this has frustrated me to no end........until now!<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">I recently got a free Origin 300 server that had 4 R14000 CPUs in it - here is the motherboard in all of it’s glory:<br /></p>
+                <div class="paragraph Body"><div style="height: 458px; width: 610px;  height: 458px; position: relative; width: 610px; " class="tinyText style_SkipStroke_2 inline-block stroke_0 shadow_1"><img src="23_The_elusive_MIPS_R14000_CPU_files/droppedImage_1.jpg" alt="" style="border: none; height: 458px; width: 611px; " /></div><br /></div>
+                <p class="Body"><br /></p>
+                <p class="Body">The CPUs are under the four smaller black heatsinks on the right (the two other chips are the XBridge (which controls communication between components) and the Bedrock (which connects the CPUs via NUMAlink).  I was going to use this server, until I booted it and got a nasty hardware error.  So.....I removed the heatsinks to check out what the chips looked like:<br /></p>
+                <div class="paragraph Body"><div style="height: 458px; width: 610px;  height: 458px; position: relative; width: 610px; " class="tinyText style_SkipStroke_2 inline-block stroke_0 shadow_2"><img src="23_The_elusive_MIPS_R14000_CPU_files/droppedImage_2.jpg" alt="" style="border: none; height: 458px; width: 611px; " /></div><br /></div>
+                <p class="Body"><br /></p>
+                <p class="Body">And voila, I have a good idea of what the R14000 CPU looks like:<br /></p>
+                <div class="paragraph Body"><div style="height: 306px; width: 610px;  height: 306px; position: relative; width: 610px; " class="tinyText style_SkipStroke_2 inline-block stroke_0 shadow_3"><img src="23_The_elusive_MIPS_R14000_CPU_files/droppedImage_3.jpg" alt="" style="border: none; height: 306px; width: 611px; " /></div><br /></div>
+                <p class="Body"><br /></p>
+                <p class="Body">Take THAT, Internet!!!!<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">I’m not actually surprised, because a year ago I got an SGI server that had dual R12000A CPUs in it that had the exact same look:<br /></p>
+                <div class="paragraph Body"><div style="height: 210px; width: 610px;  height: 210px; position: relative; width: 610px; " class="tinyText style_SkipStroke_2 inline-block stroke_0 shadow_4"><img src="23_The_elusive_MIPS_R14000_CPU_files/droppedImage_4.jpg" alt="" style="border: none; height: 211px; width: 611px; " /></div><br /></div>
+                <p class="Body"><br /></p>
+                <p class="Body">I couldn’t find pics similar to it on the Internet, but since the heat sinks on the R12000 CPU looked identical to the heat sinks I saw on R14000/R16000 pictures on the Internet, I thought that the R14000 and R16000 CPUs may have the same look under those heatsinks.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">And now, I’ve confirmed that.  In fact, the R12000A and R14000 CPUs in the picture above are exactly the same dimensions!  And since the heatsink on the R16000 CPUs pictures on the internet look identical to those on the R14000, I think it’s reasonable to assume that the R16000 is the same.  So, from the R12000A onwards, the form factor changed from a large, heavy, ceramic, gold-topped CPU style to a small, slim CPU style with a metal top and gold mid-section.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Just to excite the other chip nerds, out there, I even removed the top of the R14000 to reveal the gold mid-section and CPU die itself.  Enjoy!<br /></p>
+                <div class="paragraph Body" style="padding-bottom: 0pt; "><div style="height: 264px; width: 610px;  height: 264px; position: relative; width: 610px; " class="tinyText style_SkipStroke_2 inline-block stroke_0 shadow_5"><img src="23_The_elusive_MIPS_R14000_CPU_files/droppedImage_5.jpg" alt="" style="border: none; height: 265px; width: 611px; " /></div></div>
+              </div>
+              <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+            </div>
+            <div id="generic-body-attributes" class="Body"></div>
+          </div>
+          
+
+
+          <div style="height: 400px; width: 700px;  height: 400px; left: 0px; position: absolute; top: 0px; width: 700px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 700px; ">
+              <img src="23_The_elusive_MIPS_R14000_CPU_files/shapeimage_1.png" alt="" style="height: 400px; left: 0px; position: absolute; top: 0px; width: 700px; visibility: hidden; " id="generic-picture-attributes" />
+            </div>
+          </div>
+          <div style="height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id3" style="height: 30px; left: 350px; position: absolute; top: 30px; width: 310px; z-index: 1; " class="style_SkipStroke_4 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_310_30" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Next"><a class="iWebBlogNext" title="" href="">next &gt;</a></p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id4" style="height: 30px; left: 40px; position: absolute; top: 30px; width: 310px; z-index: 1; " class="style_SkipStroke_4 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_310_30" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Previous"><a class="iWebBlogPrev" title="" href="">&lt; previous</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

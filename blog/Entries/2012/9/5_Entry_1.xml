@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:40:36 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Augmented reality brings dinosaurs to life&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Wednesday, September 5, 2012&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;My daughter and I went to see the special exhibit at the Royal Ontario Museum (ROM) this past month entitled &lt;/b&gt;&lt;b&gt;Ultimate Dinosaurs: Giants from Gondwana&lt;/b&gt;&lt;b&gt;.&#xA0; &#xD;&#xD;This was no ordinary dino exhibit (which both my daughter and I also enjoy) - instead, this exhibit used technology to bring the material to life using augmented reality.&#xD;&#xD;Up until now, I really never saw a benefit for the augmented reality apps I&#x2019;ve seen reviewed in online blogs and tech sites.&#xA0; It was &#x201C;meh&#x201D; to me.&#xA0; However, the ROM did an absolutely amazing job of showing us how augmented reality can actually make a great exhibit even more amazing and memorable!&#xA0; It&#x2019;s been almost a month since we saw the exhibit, and I&#x2019;m still thinking about it!&#xD;&#xD;There must have been over 100 iPads scattered throughout the exhibit for people touch for interactive information.&#xA0; Many of these iPads were encased in metal movable mounts in front of the dino skeletons.&#xA0; The screen showed the skeletons and museum fixtures in the background using the camera at the back, but if you touched one of the skeletons, it replaced the skeleton with an animated version of the dinosaur!&#xA0; And the other dino skeletons and museum fixtures remained untouched!&#xD;&#xD;Better yet, the iPads were so close to the dino skeletons, that you had to pan the iPad along the skeleton to see the whole dinosaur - this made it feel like you were scanning the dinosaur with the iPad (a cool task in itself) as well as made you appreciate the sheer size of some of these prehistoric beasts!&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="5_Entry_1_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

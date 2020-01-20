@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:45 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Every class needs a binary clock...&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, March 18, 2008&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;The picture above is the new addition to our classroom - a binary clock! &#xD;&#xD;For years, you could get a small binary clock to sit on your desk, but nobody made a large binary clock that was suitable for hanging in a classroom.&#xA0; Now, they ARE available, and on sale at thinkgeek.com, so I couldn&#x2019;t resist :-)&#xD;&#xD;Below is a picture that describes how to read the time on it.&#xD;&#xD;&#xD;&#xD;I think binary stuff will really catch on.&#xA0; Soon we will see microwave ovens with binary touch pads as well as binary thermostats.&#xA0; That way, you could say things like &#x201C;Hey dear, could you turn the heat up a bit?&#x201D;&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="18_Entry_1_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

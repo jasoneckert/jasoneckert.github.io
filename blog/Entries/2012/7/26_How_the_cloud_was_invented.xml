@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:40:33 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;How the cloud was invented&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Thursday, July 26, 2012&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Back in the 1990s, you could look smart my talking about the &#x201C;Information Superhighway&#x201D; (the Internet).&#xA0; In the early 2000s, the catch-phase of the day was &#x201C;eCommerce&#x201D; (buying crap on the Internet), and in the late 2000s non-technical managers would often toot about &#x201C;Web 2.0&#x201D; (an imaginary Internet that basically is the current Internet, but with more content).&#xA0; &#xD;&#xD;Around 2010, non-technical managers, CIOs, and executives were struggling to find a new BS phrase to call the Internet that will make them look good in meetings.&#xA0; Well, that name has now been chosen, and it is the most retarded named used so far:&#xA0; the cloud.&#xD;&#xD;As a very technical person who has been in computer science and IT for several decades, let me tell you how this term was invented:&#xD;&lt;/b&gt;&lt;b&gt;	1.	Some non-technical idiot saw a network diagram.&#xD;	2.	He/she noticed that the standard symbol we use in network diagrams to identify the Internet is a cloud.&#xD;	3.	Voila!&#xA0; A new BS term for the Internet is invented!&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="26_How_the_cloud_was_invented_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

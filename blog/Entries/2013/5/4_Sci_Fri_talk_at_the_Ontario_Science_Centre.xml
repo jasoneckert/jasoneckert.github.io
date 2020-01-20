@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:40:52 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Sci Fri talk at the Ontario Science Centre&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Saturday, May 4, 2013&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;I was one of the panelists that talked at the Sci Fri event about Games &amp; Art last night at the Ontario Science Centre.&#xA0; I always like to make sure that any information I talk about is available afterwards to those who want it, so I&#x2019;ve uploaded a YouTube video of my narrated presentation that you can watch here: &lt;/b&gt;&lt;b&gt;&lt;a href="http://www.youtube.com/watch?v=JjC1gn20TR0&amp;feature=player_embedded"&gt;http://www.youtube.com/watch?v=JjC1gn20TR0&amp;feature=player_embedded&lt;/a&gt;&lt;/b&gt;&lt;b&gt; (turn the audio up, since I recorded this on a very noisy Alienware laptop ;-)&#xD;&#xD;Sci Fri is a free event that is run each month on a Friday night at the Ontario Science Centre - there are tattoos (like the Pac-man one I got shown here), free food, panelist talks, a Q&amp;A discussion, a battle of the sexes trivia, and a challenge.&#xA0; &#xD;&#xD;The panelist talks were all excellent - Jamie Woo (founder of Gamercamp) did a great opener encouraging the kids to make video games, Felan Parker talked about the defining features of video games as an art form, I did the talk shown above in my YouTube video link, and Tiffany Low Foon (one of our video game students) did a great talk on why video games are art and science.&#xD;&#xD;For the challenge, they had Jeff the World (a prominent Toronto chiptune artist) help people make chiptune music using modded GameBoys and a GameCube as shown to the right (very cool indeed ;-)&#xD;&#xD;Plus, kids got to check out the awesome Game On 2.0 exhibition!&#xA0; &#xD;&#xD;But what happens when you let a bunch of teenagers loose in an exhibition that has some PC-based game kiosks?&#xA0; Well, you can see from the picture below.&#xA0; But don&#x2019;t worry, the original games were reinstated on those kiosks shortly thereafter.&#xA0; The most important thing is that everyone had fun ;-)&#xD;&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="4_Sci_Fri_talk_at_the_Ontario_Science_Centre_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

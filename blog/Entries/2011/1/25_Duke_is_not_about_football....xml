@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:40:16 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Duke is not about football...&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, January 25, 2011&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Most people (myself included) use clothing to express our interests or make a statement.&#xA0; Today I wore my Duke University t-shirt.&#xA0; &#xD;&#xD;For the third time since the beginning of last summer, some stranger commented on it along the lines of "A Duke fan eh? They play good football."&#xD;&#xD;Football?&#xA0; Duke University is the home of USENET - that is why I have the damn shirt.&#xA0; Duke first introduced a USENET server in 1979 and they had it running until 2010 (over 30 years!).&#xA0;&#xA0; That is definitely worth getting a t-shirt over in my mind.&#xA0; Football?  Meh.....&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="25_Duke_is_not_about_football..._files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

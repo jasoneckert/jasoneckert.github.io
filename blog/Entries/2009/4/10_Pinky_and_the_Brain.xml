@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:57 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Pinky and the Brain&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Friday, April 10, 2009&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;We have two Linux file servers in our classroom: Pinky and the Brain.&#xD;&#xD;Pinky is a Dell P4 3GHz running Ubuntu Linux, while Brain is a quad-UltraSPARC Sun Enterprise 450 with lots of SCSI drives and RAM running Red Hat Linux (see above picture).&#xD;&#xD;For those who don&#x2019;t know about the animated TV show &lt;/b&gt;&lt;b&gt;Pinky and the Brain&lt;/b&gt;&lt;b&gt;, the Brain looks and sounds like and evil Orson Welles, and Pinky is &#x201C;happy-go-lucky&#x201D; with a cockney accent.&#xA0; Each episode began with the following two lines:&#xD;&lt;/b&gt;&lt;b&gt;Pinky: "Gee Brain, what do you want to do tonight?"&#xD;The Brain: "The same thing we do every night, Pinky&#x2014;try to take over the world."&#xD;&lt;/b&gt;&lt;b&gt;&#xD;As a result, if you look in the /etc/rc.d/rc.local script on Brain, you will see the following lines (the script is run every morning when we boot Brain):&#xD;&#xD;if [ -x /bin/takeovertheworld ]&#xD;then&#xD;/bin/takeovertheworld&#xD;fi&#xD;&#xD;This script checks to see if the /bin/takeovertheworld program exists and has execute permission.&#xA0; If it does, it will be executed.&#xA0; If it does not, we&#x2019;ll have to wait until tomorrow and then try it again.....&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="10_Pinky_and_the_Brain_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

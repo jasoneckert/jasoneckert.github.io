@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:36 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Roughing it on vacation...&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Saturday, July 7, 2007&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Yup - it&#x2019;s vacation time again!&#xA0; And this next week I plan to do nothing but relax, get a tan, drink &#x201C;Muskoka Dry Pale Ginger Ale&#x201D; and read a few books that I haven&#x2019;t had the time to open yet.&#xA0; And yes, my daughter is going to swim all week long - that is her in the water with the kids from the cottage next door.&#xD;&#xD;Now you are probably wondering why I am blogging on my vacation......shouldn&#x2019;t a vacation be devoid of TV/phones/Internet/computers?&#xA0; Well, in a way, I am abandoning technology for the whole week - I am writing this blog on a greyscale PowerBook 140 (1992), saving my work in ClarisWorks to a floppy, and transporting it to my current Macintosh when I return via an external USB floppy drive.&#xA0; How RETRO!&#xA0; Now that is what I call &#x201C;roughing it&#x201D;.&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="7_Roughing_it_on_vacation..._files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

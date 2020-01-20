@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:43 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Getting ready for Linux...&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Wednesday, January 9, 2008&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Next week, I start teaching Linux again.&#xA0; However, this time I am preparing an SGI Octane computer with a 64-bit R12000 MIPS CPU for it. &#xD;&#xD;As an extra-curricular exercise, I am encouraging students to compile Gentoo Linux from scratch on this SGI computer.&#xA0; It will involve netbooting a Gentoo image, manually creating filesystems, downloading files, compiling the kernel and all software customized for the particular platform. &#xD;&#xD;Basically, installing Linux on a MIPS platform is somewhat like nailing jello to a tree, but highly educational - after compiling Gentoo for a specific MIPS hardware platform, it runs lightning fast.&#xA0; I brought an SGI O2 in last year to demonstrate how a custom MIPS install on a 180MHz R5000 MIPS computer with 64MB of RAM will run Linux faster than our Core 2 Duo Dells with 2GB of RAM.&#xA0; It was shocking.&#xD;&#xD;And to make sure that it works, I just finished installing Gentoo on the Octane today and it is ten times better than the O2 :-)&#xA0;&#xA0; Of course, I will be supplying a new hard drive that does not have Linux on it for the extra curricular project.&#xD;&#xD;It really is too bad that SGI stopped supporting/developing the MIPS platform - it truly is a powerful platform (and the same one used in the Playstation 2).&#xA0; However, Linux breathes new life into the MIPS platform today.&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="9_Entry_1_files/shapeimage_1.png" left="0px" top="0px" width="483px" height="362px"/>
+</content>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:42:00 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;The World Wide Web turns 25 years old today&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, August 23, 2016&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Last month, I posted a blog post detailing NeXT and how Tim Berners-Lee used a NeXT workstation at CERN to create the World Wide Web (&lt;/b&gt;&lt;b&gt;&lt;a href="perma://BLPageReference/C6B53D87-77CC-4264-BD85-3AE45C68CD9A"&gt;click here to read it&lt;/a&gt;&lt;/b&gt;&lt;b&gt;).&#xD;&#xD;I guess you could call that foreshadowing, since this month marks the 25th anniversary of the World Wide Web!  &#xD;&#xD;On August 6, 1991, Tim Berners-Lee created a post detailing his World Wide Web project on a newsgroup called alt.hypertext in order to entice others to collaborate with him and create and host Web pages for the World Wide Web.  However, it wasn&#x2019;t until August 23, 1991 that it was made publicly accessible for the world to see.  You could argue that August 6 is the real birth of the World Wide Web, but most websites and news aggregators acknowledge August 23 as the true birth of the World Wide Web, including Facebook, which included it as a news item today for everyone!&#xD;&#xD;To commemorate this day, I&#x2019;ve included a picture of what the first Web browser looked like running on a NeXT computer at the top of this post (more detailed pics are below).  &#xD;&#xD;The name of the Web browser is actually called &#x201C;World Wide Web&#x201D; (note the title of the application menu in the upper left corner), and it was created on December 20, 1990 - almost eight months before the World Wide Web was publicly released. &#xD;&#xD;The web page shown in the picture is the default Apache home page since the original web page that Tim Berners-Lee created is far more boring (you can see it here: &lt;/b&gt;&lt;b&gt;&lt;a href="http://info.cern.ch/hypertext/WWW/TheProject.html"&gt;http://info.cern.ch/hypertext/WWW/TheProject.html&lt;/a&gt;&lt;/b&gt;&lt;b&gt;).  You&#x2019;ll also notice that there isn&#x2019;t a URL dialog box - to open a web page, you had to click &#x201C;Document&#x201D; on the application menu, select &#x201C;Open given document address&#x201D; and type in your URL (e.g. http://localhost).  &#xD;&#xD;&#xD;&#xD;&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="23_The_World_Wide_Web_turns_25_years_old_today_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.2" />
+    <meta name="iWeb-Build" content="local-build-20190828" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>How to learn vi (vim)</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="27_How_to_learn_vi_%28vim%29_files/27_How_to_learn_vi_%28vim%29.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='27_How_to_learn_vi_%28vim%29_files/27_How_to_learn_vi_%28vim%29IE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='../../../../Media/IE8.css'/><![endif]-->
+    <script language="javascript" type="text/javascript"><!--
+
+iWebBlogMainPageName = 'blog.html';
+iWebBlogMainPageTitle = 'blog';
+iWebBlogArchivePageName = 'Archive.html';
+iWebBlogArchivePageTitle = 'Archive';
+
+
+--></script>
+    <script type="text/javascript" src="../../../../Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="http://www.me.com/1/up/comments/scripts/search.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/iWebBlog.js"></script>
+    <script type="text/javascript" src="../../../../Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="27_How_to_learn_vi_%28vim%29_files/27_How_to_learn_vi_%28vim%29.js"></script>
+  </head>
+  <body style="background: rgb(247, 246, 246); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(247, 246, 246); text-align: left; width: 700px; " id="body_content">
+        <div style="float: left; height: 0px; line-height: 0px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 0px; margin-top: 24px; opacity: 1.00; position: relative; width: 700px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts/Widgets/SharedResources', '../../../..', {"path-to-root": "..\/..\/..\/..\/", "navbar-css": ".navbar {\n\tfont-family: 'Helvetica Neue', Arial, sans-serif;\n\tfont-size: .85em;\n\tcolor: #999;\n\tmargin: 0px;\n\tline-height: 20px;\n\tfont-weight: bold;\n}\n\n.navbar-bg {\n\ttext-align: left;\n\tpadding: 0px;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 15px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #999;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #999;\n}\n\nli a:hover\n{\n \tcolor: #F00;\n\ttext-decoration: none;\n}\n\n\nli.current-page a\n{\n\t color: #666;\n\ttext-decoration: none;\n\n}", "current-page-GUID": "3F9CBE75-F5BD-4B35-9E50-35A3B3B60A4E", "isCollectionPage": "YES"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id1" style="visibility: hidden;  height: 41px; left: 40px; position: absolute; top: 416px; width: 620px; z-index: 1; " class="style_SkipStroke shape-with-text">
+            <div class="text-content Normal_External_620_41" style="padding: 0px; ">
+              <div class="Normal">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Title"><span class="Color">How to learn vi (vim)</span></p>
+              </div>
+            </div>
+            <div id="generic-title-attributes" class="Title"></div>
+          </div>
+          
+
+
+          <div id="id2" style="visibility: hidden;  height: 41px; left: 40px; position: absolute; top: 448px; width: 620px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content style_External_620_41" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Date">Tuesday, August 27, 2019</p>
+              </div>
+            </div>
+            <div id="generic-datefield-attributes" class="Date"></div>
+          </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div style="visibility: hidden;  margin-left: 40px; margin-top: 488px; position: relative; width: 620px; z-index: 1; " class="style_SkipStroke_4 shape-with-text flowDefining">
+            <div class="text-content style_External_620_4515" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="Body">I’ve been a UNIX (and later Linux) user/developer/sysadmin for over 30 years, and have taught UNIX and Linux topics, including the vi text editor, in the college space for over 20 years.  <br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">1. So, what is vi (and vim)?<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">One of the most important tools for any developer or sysadmin on UNIX and Linux systems is a text editor. Mastering a text editor allows you to quickly create and edit the source code for programs, scripts and configuration files (nearly all configuration on a UNIX/Linux system is stored as text).<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The <span class="style_1">vi</span> editor has been one of the most common (if not THE most common) text editor on these systems since it was created in 1969 by Bill Joy. It was a <span class="style_1">vi</span>sual extension to the 1969 <span class="style_1">ex</span> line-based text editor used back when UNIX terminals looked like a printer with a keyboard, and you had to edit an existing text file using obscure commands (without seeing the actual file on your screen):<br /></p>
+                <p class="Body"><br /></p>
+                <div class="paragraph Body"><div style="height: 458px; width: 610px;  height: 458px; position: relative; width: 610px; " class="tinyText style_SkipStroke_2 inline-block stroke_0 shadow_0"><img src="27_How_to_learn_vi_%28vim%29_files/droppedImage.jpg" alt="" style="border: none; height: 458px; width: 611px; " /></div><br /></div>
+                <p class="Body"><br /></p>
+                <p class="Body">Then, Bram Moolenaar created a version of the vi editor with extended functionality in 1991 and called it <span class="style_1">vim (vi improved)</span>. Nearly all UNIX and Linux systems today use vim, but we still refer to it as vi (the vi executable is typically a shortcut to the vim executable). As a result, from this point on, I’ll just refer to it as vi.<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">2. Why should I learn vi? Isn’t it difficult to use?<br /></p>
+                <p class="paragraph_style_1"><br /></p>
+                <p class="Body">For people who open vi for the first time, it may seem difficult since it doesn’t present visual cues on the screen that tell you how to use it.  Of course, this has led to a plethora of vi-related humor on the Internet:<br /></p>
+                <p class="Body"><br /></p>
+                <div class="paragraph Body"><div style="height: 174px; width: 412px;  height: 174px; position: relative; width: 412px; " class="tinyText style_SkipStroke_3 inline-block stroke_1"><img src="27_How_to_learn_vi_%28vim%29_files/droppedImage.png" alt="" style="border: none; height: 174px; width: 412px; " /></div><br /></div>
+                <p class="Body"><br /></p>
+                <p class="Body">But vi isn’t difficult to use at all.<br /></p>
+                <p class="Body">It merely has a small learning curve at the beginning. <br /></p>
+                <p class="Body">In short, it’s: <br /></p>
+                <ol>
+                  <li style="line-height: 20px; padding-left: 30px; text-indent: -20px; " class="full-width">
+                    <p style="text-indent: -20px; " class="paragraph_style_2"><span style="font-size: 14px; " class="Bullet">•</span><span style="width: 15px; " class="inline-block"></span><span class="style_1">Very fast</span> for any purpose<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 30px; text-indent: -20px; " class="full-width">
+                    <p style="text-indent: -20px; " class="paragraph_style_2"><span style="font-size: 14px; " class="Bullet">•</span><span style="width: 15px; " class="inline-block"></span>Easily <span class="style_1">addictive</span>, with a <span class="style_1">1 day learning curve</span> (for the basics)<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 30px; text-indent: -20px; " class="full-width">
+                    <p style="text-indent: -20px; " class="paragraph_style_2"><span style="font-size: 14px; " class="Bullet">•</span><span style="width: 15px; " class="inline-block"></span><span class="style_1">Powerful</span> (800+ built-in functions with plugins &amp; customization ability)<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 30px; text-indent: -20px; " class="full-width">
+                    <p style="text-indent: -20px; " class="paragraph_style_2"><span style="font-size: 14px; " class="Bullet">•</span><span style="width: 15px; " class="inline-block"></span>Found <span class="style_1">standard</span> on nearly all UNIX flavors and Linux distributions<br /></p>
+                  </li>
+                  <li style="line-height: 20px; padding-left: 30px; text-indent: -20px; " class="full-width">
+                    <p style="text-indent: -20px; " class="paragraph_style_2"><span style="font-size: 14px; " class="Bullet">•</span><span style="width: 15px; " class="inline-block"></span><span class="style_1">A vi-able skill</span> for any UNIX/Linux sysadmin, user or developer<br /></p>
+                  </li>
+                </ol>
+                <p class="Body"><br /></p>
+                <p class="Body">As a quick note, the other powerful text editor for UNIX/Linux is Emacs, but it’s not nearly as fast as vi, and if you use it too much, you’ll end up with a LISP ;-)<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">3. How do I learn vi?<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The quickest and easiest way to learn the vi editor is to first focus on essential vi functionality only (what I call the sur<span class="style_1">vi</span>val skills) using some sample text files, and then expand upon that functionality later on.  <br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style">4. Learning the survival skills<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">You can run the following commands to obtain some sample text files on your system, and edit the file called “letter” using the vi editor:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">git clone https://github.com/jasoneckert/classfiles.git<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_1">  cd classfiles<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_1">  vi letter </span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">The cursor is automatically placed at th<span class="style_2">e beginning of the file. The easiest way to navigate the file is to use the cursor (arrow) keys, or PageUp/PageDown. You’ll know when you reach the end of the file, because vi displays</span> ~ (tilde) characters at the bottom. Before you edit or add text, you must first understand that vi has two modes. When you first open the vi editor, you are placed in <span class="style_1">COMMAND MODE</span>, where every key and key combination on your keyboard represents a <span class="style_1">function</span> (e.g. pressing the x key will delete the character your cursor is on). A handful of these functions take you to <span class="style_1">INSERT MODE</span>, where the keys on your keyboard are actually used to <span class="style_1">type/edit text</span> (e.g. pressing the x key will insert the letter x in your document).  To return back to COMMAND MODE after inserting/editing text, simply press the [Esc] key. <br /></p>
+                <p class="Body"><br /></p>
+                <div class="paragraph Body"><div style="height: 107px; width: 425px;  height: 107px; position: relative; width: 425px; " class="tinyText style_SkipStroke_3 inline-block stroke_2"><img src="27_How_to_learn_vi_%28vim%29_files/droppedImage_1.jpg" alt="" style="border: none; height: 108px; width: 425px; " /></div><br /></div>
+                <p class="Body"><br /></p>
+                <p class="Body">Common functions that allow you to enter INPUT MODE include:<br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">a</span>    <span class="style_3">start appending text after current character</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">i</span>    <span class="style_3">start inserting text before current character<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">o</span>    <span class="style_3">open a new line underneath the cursor to insert text<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">A</span>    <span class="style_3">start appending text after current line</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">I</span>    <span class="style_3">start inserting text at the beginning of the current line<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">O</span>    <span class="style_3">open a new line above the cursor to insert text<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">c</span>    <span class="style_3">start inserting text on the character that you are on<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">r</span>    <span class="style_3">replace one character only</span><br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Common functions used when in COMMAND MODE:<br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">yy</span>            <span class="style_3">yank a line of text to the buffer<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">y3y or 3yy</span>    <span class="style_3">yank 3 lines of text to the buffer<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">y3w 3yw</span>       <span class="style_3">yank 3 words of text to the buffer<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">p</span>             <span class="style_3">paste the contents of the buffer below the current line</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">P</span>             <span class="style_3">paste the contents of the buffer above the current line<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">dd</span>            <span class="style_3">delete the current line</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">d3d or 3dd</span>    <span class="style_3">delete 3 lines</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">d5w 5dw</span>       <span class="style_3">delete 5 words</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">x             </span><span class="style_3">delete the current character</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">3x            </span><span class="style_3">delete 3 characters (starting with the current character)</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">J</span>             <span class="style_3">join lines (join line below you to current line)</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">u</span>             <span class="style_3">undo last change</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">[Ctrl]+g</span>      <span class="style_3">current line stats<br /></span></p>
+                <p class="paragraph_style_3"><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">:</span>             <span class="style_3">takes you to the interactive : prompt (called </span><span class="style_4">ex mode</span><span class="style_3">)<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">:wq</span>           <span class="style_3">save and quit<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">:w lala</span>       <span class="style_3">save as file lala<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">:q</span>            <span class="style_3">quit (if no changes were made)<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">:q!</span>           <span class="style_3">quit and throw away any changes<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">:set all</span>      <span class="style_3">to see all vi environment parameters<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">:set number</span>   <span class="style_3">to set auto line numbering<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">:set nonumber</span> <span class="style_3">to unset auto line numbering<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">ZZ            </span><span class="style_3">save and quit (same as </span><span class="style_1">:wq</span><span class="style_3">)<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3"><br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">Spend some time practicing the functions in COMMAND MODE within the “letter” file, including the functions that take you to INSERT MODE.  Insert and delete as much text as you want. Then, hold down the </span><span class="style_1">u</span><span class="style_3"> key in COMMAND MODE to undo all of your changes and use </span><span class="style_1">:q</span><span class="style_3"> to quit the editor.  Next, type </span><span class="style_1">vi small_town</span><span class="style_3"> (a joke file with a lot of typos) and use these same survival skills to fix all of the typos. This time, save your changes using </span><span class="style_1">:wq</span><span class="style_3"> in COMMAND MODE.<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3"><br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3"><br /></span></p>
+                <p class="paragraph_style">5. I’ve mastered the survival skills. Now what?<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">There’s no shortage of things to do after mastering the survival skills. However, I’ve listed those that I find the most useful below, organized by area:<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Navigation in COMMAND MODE (beyond the cursor keys and PageUp/PageDown):<br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">h j k l</span>   <span class="style_3">alternatives to the cursor keys for navigation</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">1G</span>        <span class="style_3">go to line 1<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">23G</span>       <span class="style_3">go to line 23<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">G</span>         <span class="style_3">go to the last line</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">^</span>         <span class="style_3">go to beginning of the current line </span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">$</span>         <span class="style_3">go to beginning of the current line</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">d$</span>        <span class="style_3">delete from cursor to end of the current line</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">d^</span>        <span class="style_3">delete from cursor to the beginning of the current line<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3"><br /></span></p>
+                <p class="Body">Any set options in ex mode can be made permanent for all users by editing the /usr/share/vim/vimrc file, or for just your user account by creating a .vimrc or .exrc file in your home directory (e.g. <span class="style_5">vi ~/.vimrc</span>). The most common options that I place in this file turn on line numbering (number), cursor position (ruler), highlighting of brackets (showmatch), tabs that are equivalent to 4 spaces (ts=4 - the default is 8, which is too much), and programming language highlights (syntax):<br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">set number ruler showmatch ts=4<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_1">  syntax on</span><br /></p>
+                <p class="paragraph_style_3"><span class="style_3"><br /></span></p>
+                <p class="Body"><span class="style_3">Useful functions in COMMAND MODE</span>:<br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">/Mother</span>   <span class="style_3">searches for </span><span class="style_6">Mother</span><span class="style_3"> (</span><span class="style_1">n</span><span class="style_3"> = next occurrence, </span><span class="style_1">N</span><span class="style_3"> = previous occurrence)</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">?Mother</span>   <span class="style_3">the same search, but in the reverse direction (earlier lines)<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">~</span>         <span class="style_3">switch case for current letter <br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">gUU</span>       <span class="style_3">turn entire line to uppercase<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">ddp</span>       <span class="style_3">swap current line with the next one</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">zf5j      </span><span class="style_3">fold the next 5 lines (</span><span class="style_1">zo</span><span class="style_3"> = open/expand, </span><span class="style_1">zc </span><span class="style_3">= close, </span><span class="style_1">zd </span><span class="style_3">= delete)</span><span class="style_4"><br /></span></p>
+                <p class="paragraph_style_3"><span class="style_4">   </span><br /></p>
+                <p class="Body"><span class="style_3">Useful commands in ex mode (the : prompt)</span>:<br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">:% s/the/THE/g</span>     <span class="style_3">search for </span><span class="style_6">the</span><span class="style_3"> and replace with </span><span class="style_6">THE</span><span class="style_3"> in the whole file</span><br /></p>
+                <p class="paragraph_style_3">  <span class="style_1">:1,7 s/the/THE/g</span>   <span class="style_3">same as previous, but only on lines 1 through 7<br /></span></p>
+                <p class="paragraph_style_3">  <span class="style_1">:ab LR Linux Rocks</span> <span class="style_3">when you type </span><span class="style_6">LR</span><span class="style_3"> in INSERT MODE, replace with </span><span class="style_6">Linux Rocks</span><span class="style_3"> <br /></span></p>
+                <p class="paragraph_style_3">                        <span class="style_3">***this can be put into your .vimrc or .exrc file too!<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">:r proposal1</span>       <span class="style_3">insert the contents of the </span><span class="style_1">proposal1</span><span class="style_3"> file under the current line <br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">:r !date</span>           <span class="style_3">insert the output of the </span><span class="style_1">date</span><span class="style_3"> command under the current line<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">:help p</span>            <span class="style_3">display help for functions that start with </span><span class="style_4">p</span><span class="style_3"><br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">:help holy-grail</span>   <span class="style_3">displays help for all ex mode commands<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">:e proposal1</span>       <span class="style_3">edit a new file (</span><span class="style_6">proposal1</span><span class="style_3">) instead of current file<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">:split proposal1</span>   <span class="style_3">edit </span><span class="style_6">proposal1</span><span class="style_3"> in a new split screen (horizontal)<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">:vsplit proposal1</span>  <span class="style_3">edit </span><span class="style_6">proposal1</span><span class="style_3"> in a new split screen (vertical)<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">                      </span><span class="style_3">***you can use </span><span class="style_1">[Ctrl]+ww </span><span class="style_3">to move between screens, or<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">                   </span><span class="style_3">     </span><span class="style_1">[Ctrl]+w</span><span class="style_3">, </span><span class="style_1">_ </span><span class="style_3">to minimize current screen, or </span><span class="style_1">[Ctrl]+w</span><span class="style_3">, </span><span class="style_1">= </span><span class="style_3">to <br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">                                                   restore current screen to original size.<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">:tabe lala      </span>   <span class="style_3">create a new tab called </span><span class="style_6">lala</span><span class="style_4"><br /></span></p>
+                <p class="paragraph_style_3"><span class="style_4">    </span><span class="style_1">:tabs           </span>   <span class="style_3">show tabs<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">:tabn           </span>   <span class="style_3">move to next tab</span><span class="style_4"><br /></span></p>
+                <p class="paragraph_style_3"><span class="style_4">    </span><span class="style_1">:tabp           </span>   <span class="style_3">move to previous tab<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3">    </span><span class="style_1">:set rightleft     </span><span class="style_3">a fun prank (especially if you put it in someone else’s .vimrc ;-)<br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3"><br /></span></p>
+                <p class="paragraph_style_3"><span class="style_3"><br /></span></p>
+                <p class="paragraph_style">6. Still want more?<br /></p>
+                <p class="Body"><br /></p>
+                <p class="Body">Run the <span class="style_5">vimtutor</span> command! This opens a lengthy interactive vi tutorial within vi itself. <br /></p>
+                <p style="padding-bottom: 0pt; " class="Body">If this command isn’t available on your Linux system, it’s because your Linux distribution installed the minimal vim package. Simply run <span class="style_5">dnf install vim</span> or <span class="style_5">apt install vim </span>(depending on your Linux distribution) to get the full vim package that includes the vim tutor!</p>
+              </div>
+              <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+            </div>
+            <div id="generic-body-attributes" class="Body"></div>
+          </div>
+          
+
+
+          <div style="height: 350px; width: 700px;  height: 350px; left: 0px; position: absolute; top: 25px; width: 700px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 700px; ">
+              <img src="27_How_to_learn_vi_%28vim%29_files/shapeimage_1.png" alt="" style="height: 350px; left: 0px; position: absolute; top: 0px; width: 700px; visibility: hidden; " id="generic-picture-attributes" />
+            </div>
+          </div>
+          <div style="height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id3" style="height: 30px; left: 350px; position: absolute; top: 30px; width: 310px; z-index: 1; " class="style_SkipStroke_5 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_310_30" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Next"><a class="iWebBlogNext" title="" href="">next &gt;</a></p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id4" style="height: 30px; left: 40px; position: absolute; top: 30px; width: 310px; z-index: 1; " class="style_SkipStroke_5 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_310_30" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Previous"><a class="iWebBlogPrev" title="" href="">&lt; previous</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

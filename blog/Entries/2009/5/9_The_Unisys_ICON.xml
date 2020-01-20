@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:59 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;The Unisys ICON&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Saturday, May 9, 2009&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Yesterday, someone reminded me of those old Unisys ICON computers (also called the Burroughs ICON) that were used in Ontario schools back in the 1980s and early 1990s.&#xA0; I used them extensively when I attended Galt Collegiate Institute (one of the oldest high schools in Canada - see picture above).&#xD;&#xD;To prevent ICONs from being lost in history, I thought I would add a blog entry about them today.&#xA0; The ICON was an overpriced, underpowered custom computer built for the Ontario Ministry of Education for use in their school system (see picture to the left).&#xA0; &#xD;&#xD;At $2500, they had a Commodore PET look to them, 512KB of RAM and an Intel 80186 CPU (which was just a glorified 8086, and much slower than the 80286 CPUs of the time).&#xA0; Instead of a mouse, they had this weird trackball that was recessed into the case and difficult to move around - plus, it often gave you a static shock when you first touched it.&#xA0; &#xD;&#xD;They were networked together using ARCnet to a classroom fileserver (called LEXICON) which was basically the same hardware (80186 CPU), but with an extra 1MB of RAM, an 8&#x201D; floppy disk for loading programs, and a 70MB hard drive (64MB formatted).&#xA0; &#xD;&#xD;All the ICON computers were diskless clients. They netbooted their OS from this classroom fileserver.&#xA0; One or two of them had a built-in floppy drive, but were only for teacher use.&#xA0; &#xD;&#xD;The best feature of the computer was its OS - it ran QNX (a UNIX operating system that still exists today and runs stuff such as traffic lights and high-end Cisco backbone routers).&#xA0; I must say that the ICON GUI was somewhat slick for the time, but we mainly used the command line to learn stuff like PASCAL, Turing and C programming (the WATCOM compiler tools of course :-).&#xA0;&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="9_The_Unisys_ICON_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

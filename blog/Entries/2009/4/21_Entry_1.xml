@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:58 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Oracle to buy Sun Microsystems&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, April 21, 2009&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Normally, when one organization buys another it&#x2019;s not that much of a big deal.&#xA0; But this one is, and in a good way.&#xD;&#xD;Sun Microsystems is a legendary maker of good UNIX systems (since the 1980s) and has brought the world the UltraSPARC platform (great performer), Solaris UNIX, Java (the best programming language ever), and recently MySQL (the world&#x2019;s fastest database) through acquisition.&#xA0; Unfortunately, Sun has been hammered by other hardware and OS vendors since the late 1990s and has had a hard time staying competitive in today&#x2019;s market (yearly losses all around).&#xD;&#xD;Oracle is used by the largest database systems, and is often run on UNIX systems (e.g. Sun Solaris) and managed by Java-based tools.&#xA0;&#xA0; And unlike Sun, Oracle makes a fortune still today because of their market penetration.&#xA0; &#xD;&#xD;The only thing that Oracle needs to grow into the small/medium environments and perfect the larger environments is a platform that runs &#x201C;Oracle in a box&#x201D;.&#xA0; I don&#x2019;t know........say the ability to sell a custom hardware box running Solaris and Oracle with a rich set of Java tools and middleware........&#xD;&#xD;I think this acquisition is an ideal evolution of both companies!&#xA0; Plus, a combined Oracle platform would simply rock - and it would bite a big chunk out of Microsoft&#x2019;s SQL Server market share (Microsoft SQL Server is the slowest SQL server around and it costs a fortune to license and maintain).&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="21_Entry_1_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

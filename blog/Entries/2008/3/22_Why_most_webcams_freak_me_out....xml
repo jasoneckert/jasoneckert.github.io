@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:46 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Why most webcams freak me out...&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Saturday, March 22, 2008&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Do you see the similarity here?&#xA0; Most webcams (especially Logitech ones) resemble the orb-like HAL 9000 computer eye from the movie 2001: Space Odyssey by Arthur C. Clarke (who coincidentally died last week at the ripe old age of 90).&#xD;&#xD;In the back of my mind, I am always worried that when I sit down and open my Web browser I will hear &#x201C;I&#x2019;m sorry, but I can&#x2019;t do that Dave.&#x201D; in that calm psychotic computer voice......&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="22_Why_most_webcams_freak_me_out..._files/shapeimage_1.png" left="0px" top="0px" width="521px" height="391px"/>
+</content>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:53 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;My Little Cthulhu&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Thursday, January 1, 2009&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Cthulhu is the fictional giant creature that embodies all evil and chaos in H. P. Lovecraft's sci-fi novels.&#xA0; It&#x2019;s described as a huge squid-like creature that invokes absolute terror. &#xD;&#xD;Cthulhu is well known in geek circles - and even plays a main figure in the UserFriendly.org comic strip.&#xA0; So, when John Kovalic designed this hilariously sick and twisted toy (see right) as a parody to &#x201C;My Little Pony&#x201D;, I had to get it.&#xA0; Plus, its Boxing week, so it was on sale :-)&#xD;&#xD;It comes with two terrified victims (shown right) and the warning on the bottom of the box says:&#xD;&#xD;&lt;/b&gt;&lt;b&gt;WARNING - CHOKING HAZARD&#xD;Not for children under the age of 14.&#xD;&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="1_My_Little_Cthulhu_files/shapeimage_1.png" left="0px" top="0px" width="505px" height="379px"/>
+</content>

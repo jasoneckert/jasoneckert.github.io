@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:41:20 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Great Canadian Appathon 4&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Sunday, January 19, 2014&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Today, we finished the fourth Great Canadian Appathon - a Canada-wide competition where students from 18 colleges and universities coast to coast compete to create a mobile video game in 48 hours for a chance to win over $35,000!&#xA0; And we hosted a hub at our Kitchener campus again for the whole weekend.&#xD;&#xD;&#xD;In short, this year's GCA went incredibly well &#x2013; everyone was pumped and loved the experience!&#xA0; We had students from three different campuses attend the event (Kitchener, Hamilton and London), and all teams managed to complete some amazing games and submit them before the deadline.&#xA0; &#xD;&#xD;We monopolized the Twitter feed for the event all weekend.&#xA0; No teams from other hubs tweeted pictures of their games (after seeing the pics of our games, perhaps they felt theirs didn&#x2019;t look nearly as good).&#xA0; We had lots of McDonalds food as well as healthy food too, and as per tradition, we had caffeinated soap in the washrooms.&#xD;&#xA0;&#xD;Bryan Griffiths (our video game instructor in Kitchener shown to the right) deserves special thanks for being awesome (and for proctoring on the night shifts so that I could get some sleep and fetch food and drink).&#xD;&#xD;Below are some pics from the event for your enjoyment!&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="19_Great_Canadian_Appathon_4_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

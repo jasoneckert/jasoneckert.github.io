@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:41 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Amazon Kindle...friend...or foe...&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Thursday, November 22, 2007&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;There has been a lot of hype this week about Kindle - Amazon&#x2019;s eBook reader. &#xD;&#xD;I have always regarded eBooks (also referred to as Digital Ink) as evil.&#xA0; They are almost always DRM (Digital Rights Management) protected so that you can&#x2019;t share information with others and typically require an expensive eBook reader.&#xD;&#xD;On the other side, the idea of storing my book collection on a nice small aesthetic digital device seems attractive to me as a technophile.&#xA0; However, the device would need to be as natural to use as a book and would need to allow non-DRM content as well.&#xD;&#xD;Kindle delivers neither of these.&#xA0; It is butt ugly (monochrome LCD screen, cheesy keyboard), expensive ($400), and geared towards Amazon&#x2019;s evil DRM-formatted content (it allows text, but not PDFs, which are the universal DRM-free viewing format for books).&#xD;&#xD;I was surprised when Cali Lewis (GeekBrief TV) bought one and was far too optimistic about it on her podcast.&#xA0; She focused on the attractive idea of storing books in a portable format and didn&#x2019;t touch upon the freedom issues that eBook DRM imposes.&#xA0; Perhaps she needs to read some Richard Stallman.&#xD;&#xD;Regardless, I do like the idea of eBook readers, but they need to be open and non-DRM.&#xA0; Of course, that would make it less like an eBook reader and more like a portable computer, iPhone or iPod.&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="22_Amazon_Kindle...friend...or_foe..._files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

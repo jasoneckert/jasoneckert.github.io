@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:39:35 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Big fish...&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Monday, April 9, 2007&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Today is a monumental day!&#xA0; Last month I mounted a 7 &amp; 1/2 foot Pacific Sailfish caught in Puerto Vallarta Mexico in my rec room, but I needed to touch up the dorsal fin (the only part of the fish that is made of wood because it can&#x2019;t be preserved).&#xA0; Well, I finally got around to putting the finishing touches on it tonight (the black dots)........hooray!&#xA0; I think it looks great!&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="9_Big_fish..._files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

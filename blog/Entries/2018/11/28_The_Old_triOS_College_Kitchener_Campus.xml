@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
+  <lastEdited clientType="local-build-20190818" date="2019-08-18 21:42:41 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;The Old triOS College Kitchener Campus &lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Wednesday, November 28, 2018&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Back in 2010, the area around King &amp; Victoria in Kitchener underwent a large transformation. As part of that transformation, the triOS College campus I worked at (shown in the 2009 Google image at the top of this post) moved from King &amp; Victoria to King &amp; Frederick (the big glass Market Square building).&#xD;&#xD;But from 1998 to 2010, the old campus at King &amp; Victoria was my second home and home to a lot of great memories. We had a massive common area with pool tables and arcade games. We stayed late to host LAN parties (um, I mean &#x201C;network load testing&#x201D;). The official campus pub was the Howl at the Moon Saloon a block away on King Street. We had a creepy basement dungeon that was used for PC repair, a huge instructor lounge, and a server closet that had a Buddha shrine in it (to keep things running smoothly, of course ;-)&#xD;&#xD;The rooms were initially named after parts of the region (e.g. my classroom was the Berlin room). Below is a picture of my Exchange Server class watching me demonstrate something (I&#x2019;m standing behind the monitors to the left of the picture), and the textbook in the foreground is the Microsoft Official Academic Curriculum (MOAC) I wrote for Wiley for this course (it&#x2019;s nice to teach a course with a book that you wrote ;-)&#xD;&#xD;&#xD;&#xD;And while we got a gorgeous new campus in 2010, I still miss the the old one.....well the memories at least.  Here&#x2019;s what the campus looked like on the corner of King &amp; Victoria before we moved (note the &lt;/b&gt;&lt;b&gt;UHAUL&lt;/b&gt;&lt;b&gt; sign to the right):&#xD;&#xD;&#xD;&#xD;And this is what it looks like today after they demolished the old campus and built a massive sky-rise (note the same &lt;/b&gt;&lt;b&gt;UHAUL&lt;/b&gt;&lt;b&gt; sign to the right):&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;If you remember the old campus, and have any pics or stories from the old campus you&#x2019;d like to share, drop me a line!  &lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="28_The_Old_triOS_College_Kitchener_Campus_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>
