@@ -80,6 +80,16 @@
     text-indent: 0px;
     text-transform: none;
 }
+.style_SkipStroke_1 {
+    background: transparent;
+    float: right;
+    margin: 0px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 0px;
+    margin-top: 12px;
+    opacity: 1.00;
+}
 .style_SkipStroke_2 {
     background: transparent;
     float: none;
@@ -101,16 +111,6 @@
     opacity: 1.00;
 }
 .style_SkipStroke {
-    background: transparent;
-    float: right;
-    margin: 0px;
-    margin-bottom: 12px;
-    margin-left: 12px;
-    margin-right: 0px;
-    margin-top: 12px;
-    opacity: 1.00;
-}
-.style_SkipStroke_1 {
     background: transparent;
     float: right;
     margin: 0px;
@@ -173,7 +173,7 @@
 .graphic_textbox_layout_style_default {
     padding: 4px;
 }
-.graphic_textbox_layout_style_default_External_688_3946 {
+.graphic_textbox_layout_style_default_External_688_3976 {
     position: relative;
 }
 .graphic_textbox_style_default_SkipStroke {
