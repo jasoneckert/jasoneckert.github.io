@@ -82,12 +82,8 @@
 }
 .style_SkipStroke_2 {
     background: transparent;
-    float: right;
+    float: none;
     margin: 0px;
-    margin-bottom: 12px;
-    margin-left: 12px;
-    margin-right: 0px;
-    margin-top: 12px;
     opacity: 1.00;
 }
 .style_SkipStroke_3 {
@@ -102,12 +98,6 @@
 }
 .style_SkipStroke_4 {
     background: transparent;
-    float: none;
-    margin: 0px;
-    opacity: 1.00;
-}
-.style_SkipStroke_5 {
-    background: transparent;
     float: right;
     margin: 0px;
     margin-bottom: 12px;
@@ -116,13 +106,19 @@
     margin-top: 12px;
     opacity: 1.00;
 }
+.style_SkipStroke_5 {
+    background: transparent;
+    float: none;
+    margin: 0px;
+    opacity: 1.00;
+}
 .style_SkipStroke_6 {
     background: transparent;
-    float: left;
+    float: right;
     margin: 0px;
     margin-bottom: 12px;
-    margin-left: 0px;
-    margin-right: 12px;
+    margin-left: 12px;
+    margin-right: 0px;
     margin-top: 12px;
     opacity: 1.00;
 }
@@ -142,8 +138,12 @@
 }
 .style_SkipStroke_1 {
     background: transparent;
-    float: none;
+    float: left;
     margin: 0px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    margin-right: 12px;
+    margin-top: 12px;
     opacity: 1.00;
 }
 .Playlist {
@@ -199,7 +199,7 @@
 .graphic_textbox_layout_style_default {
     padding: 4px;
 }
-.graphic_textbox_layout_style_default_External_688_5041 {
+.graphic_textbox_layout_style_default_External_688_5209 {
     position: relative;
 }
 .graphic_textbox_style_default_SkipStroke {
