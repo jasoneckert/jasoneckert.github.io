@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="Generator" content="iWeb 3.0.2" />
-    <meta name="iWeb-Build" content="local-build-20200518" />
+    <meta name="iWeb-Build" content="local-build-20200519" />
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <meta name="viewport" content="width=700" />
     <title>Customizing macOS for development
@@ -85,7 +85,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
           </div>
           <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
           <div style="visibility: hidden;  margin-left: 40px; margin-top: 488px; position: relative; width: 620px; z-index: 1; " class="style_SkipStroke_3 shape-with-text flowDefining">
-            <div class="text-content style_External_620_4893" style="padding: 0px; ">
+            <div class="text-content style_External_620_4913" style="padding: 0px; ">
               <div class="style">
                 <p style="padding-top: 0pt; " class="paragraph_style">So your boss gave you a Mac for development. Or maybe you bought a Mac because you have to develop iOS apps. Or maybe you bought a MacBook because you need to develop software as well as look good at Starbucks (after the pandemic is over, of course).<br /></p>
                 <p class="paragraph_style"><br /></p>
@@ -122,7 +122,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                 <p class="paragraph_style_2"><br /></p>
                 <p class="paragraph_style"><span class="style_2">Visual Studio Code </span>is arguably the best code editor you can get, and fully customizable. Of course the traditional vi/vim editor is great, but Visual Studio is better suited for development. You can download the binary from <a title="https://code.visualstudio.com/" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>, move the downloaded binary to your /Applications folder and create a link to it on your Dock for easy access.<br /></p>
                 <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style"><span class="style_2">Nerd Fonts </span>are incredibly valuable the more you dive into customizing your desktop experience (trust me). As their GitHub site says, “Nerd Fonts takes popular programming fonts and adds a bunch of Glyphs” (<a title="https://github.com/ryanoasis/nerd-fonts" href="https://github.com/ryanoasis/nerd-fonts">https://github.com/ryanoasis/nerd-fonts</a>). You can install them using the following brew commands:<br /></p>
+                <p class="paragraph_style"><span class="style_2">Nerd Fonts </span>are incredibly valuable the more you dive into customizing your desktop experience and settings within customizable apps (trust me). As their GitHub site says, “Nerd Fonts takes popular programming fonts and adds a bunch of Glyphs” (<a title="https://github.com/ryanoasis/nerd-fonts" href="https://github.com/ryanoasis/nerd-fonts">https://github.com/ryanoasis/nerd-fonts</a>). You can install them using the following brew commands:<br /></p>
                 <p class="paragraph_style_3">   brew tap homebrew/cask-fonts<br /></p>
                 <p class="paragraph_style_3">   brew cask install font-hack-nerd-font<br /></p>
                 <p class="paragraph_style"><br /></p>
@@ -131,7 +131,7 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                 <p class="paragraph_style"><br /></p>
                 <p class="paragraph_style">To avoid the mess that is Aqua, you’ll need a proper window manager. You’ll want to install <span class="style_2">yabai</span> (<a title="https://github.com/koekeishiya/yabai" href="https://github.com/koekeishiya/yabai">https://github.com/koekeishiya/yabai</a>), which manages the windows that you have on your system automatically so that everything is organized perfectly.<br /></p>
                 <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style">Unfortunately, you have to disable two features of macOS System Integrity Protection (SIP) to allow yabai to work. If you research them, you’ll find that they are quite minor, and you’re only disabling them on your second (developer) macOS installation only, so it won’t affect your personal installation of macOS.<br /></p>
+                <p class="paragraph_style">Unfortunately, you have to disable two features of macOS System Integrity Protection (SIP) to allow yabai to work. If you research them, you’ll find that they are quite minor, and you’re only disabling them on your second (development) macOS installation only, so it won’t affect your personal installation of macOS.<br /></p>
                 <p class="paragraph_style"><br /></p>
                 <p class="paragraph_style">To disable these two features of SIP, power down your computer and then boot it while holding down the <span class="style_2">Command (</span><span class="style_5">⌘</span><span class="style_2">) + R</span> key combination to enter recovery mode. Log into your second installation of macOS when prompted and select Terminal from the Utilities menu. Next, type the following command (ignore any warnings) and reboot normally afterwards:<br /></p>
                 <p class="paragraph_style_3">   csrutil enable --without debug --without fs<span class="style_6"> <br /></span></p>
@@ -171,11 +171,11 @@ new NavBar('widget0', '../../../../Scripts/Widgets/Navbar', '../../../../Scripts
                 <p class="paragraph_style"><br /></p>
                 <p class="paragraph_style">If you want the 80s-style Mount Fuji wallpaper (courtesy of r/unixporn), you can get it here: <a title="https://github.com/Who23/dots/blob/master/walls/wallpaper.jpg" href="https://github.com/Who23/dots/blob/master/walls/wallpaper.jpg">https://github.com/Who23/dots/blob/master/walls/wallpaper.jpg</a><br /></p>
                 <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style">Of course, when you open applications (using skhd shortcuts), their layout will be adjusted automatically by yabai as shown below:<br /></p>
+                <p class="paragraph_style">When you open applications (using skhd shortcuts), their layout will be adjusted automatically by yabai as shown below:<br /></p>
                 <p class="paragraph_style"><br /></p>
                 <div class="paragraph paragraph_style_4"><div style="height: 383px; width: 612px;  height: 383px; position: relative; width: 612px; " class="tinyText style_SkipStroke_2 inline-block"><img src="18_Setting_up_macOS_for_development_files/1__$%21%40%21__pastedGraphic.jpg" alt="" style="border: none; height: 383px; width: 612px; " /></div><span class="tinyText"> </span><span style="line-height: 20px; " class="style_10"><br /></span></div>
                 <p class="paragraph_style"><br /></p>
-                <p class="paragraph_style">Of course, you’ll notice that I use <span class="style_2">tmux</span> in my iTerm2 alongside a <span class="style_2">starship</span> prompt to maximize my screen real estate. Both of these can easily be installed using brew:<br /></p>
+                <p class="paragraph_style">You’ll notice that I use <span class="style_2">tmux</span> in my iTerm2 alongside a <span class="style_2">starship</span> prompt to maximize my screen real estate. Both of these can easily be installed using brew:<br /></p>
                 <p class="paragraph_style_3">   brew install tmux<br /></p>
                 <p class="paragraph_style_3">   brew install starship<span class="style_6"> <br /></span></p>
                 <p class="paragraph_style">          (you must also add eval <span class="style_4">&quot;$(starship init zsh)&quot;</span> to your <span class="style_4">~/</span><span class="style_2">.zshrc</span>)<br /></p>
