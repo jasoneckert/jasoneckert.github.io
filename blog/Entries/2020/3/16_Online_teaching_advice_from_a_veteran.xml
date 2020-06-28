@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
-  <lastEdited clientType="local-build-20200321" date="2020-03-21 11:27:10 +0000"/>
+  <lastEdited clientType="local-build-20200627" date="2020-06-28 01:41:16 +0000"/>
   <textBox id="generic-title-attributes" dynamic="no" visible="yes">
     <richText>&lt;b&gt;Tips to survive teaching an online course&lt;/b&gt;</richText>
   </textBox>

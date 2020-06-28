@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <content collectionGUID="6CD99A98-03EA-45F6-9464-3BE6AB01739F">
-  <lastEdited clientType="local-build-20200225" date="2020-02-25 20:55:23 +0000"/>
+  <lastEdited clientType="local-build-20200627" date="2020-06-28 02:21:28 +0000"/>
   <textBox id="generic-title-attributes" dynamic="no" visible="yes">
     <richText>&lt;b&gt;Computer evolution&lt;/b&gt;</richText>
   </textBox>
@@ -10,5 +10,5 @@
   <textBox id="generic-body-attributes" dynamic="no" visible="yes">
     <richText>&lt;b&gt;OK - so Apple released the new Intel Macs this month and shocked everyone with their amazing speed improvements.&#xA0; But what I noticed is that Apple didn&#x2019;t create a whole new look for them - essentially, the new line is in the same beautiful package as the iMac G5 and PowerBook.&#xA0; These designs must be very good if Apple is going to stick with them, and as a result, are key turning points in Mac evolution.&#xA0;&#xA0; Does evolutionary theory apply to computers.&#xA0; I think so.&#xA0; As I am sure the famous Richard Dawkins would point out, there must be some point where we could trace the current models of computers back to common motherboard architecture....&lt;/b&gt;</richText>
   </textBox>
-  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="27_Computer_evolution_files/shapeimage_1.png" left="0px" top="0px" width="595px" height="400px"/>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="27_Computer_evolution_files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
 </content>
