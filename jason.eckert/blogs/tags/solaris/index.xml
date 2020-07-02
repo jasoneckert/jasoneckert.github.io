@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solaris on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/solaris/</link>
+    <description>Recent content in Solaris on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/solaris/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SPARCbook 3000ST - The coolest 90s laptop</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/sparcbook3000st-the-coolest-90s-laptop/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/sparcbook3000st-the-coolest-90s-laptop/</guid>
+      <description>A few weeks back I managed to pick up an incredibly rare laptop in immaculate condition for $50 on Kijiji: a Tadpole Technologies SPARCbook 3000ST from 1997 (it also came with two other working Pentium laptops from the 1990s).
+I had to drive almost three hours to pick it up on the other side of Toronto, but for a SPARCbook it was definitely worth it seeing as I&amp;rsquo;m more likely to find the lost city of Atlantis than another one of these again.</description>
+    </item>
+    
+  </channel>
+</rss>

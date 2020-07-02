@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      The different faces of open source software
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2019-08-09</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+6 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/open-source"
+      title="tags"
+    >open source</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="oss.png#center" alt="Open Source Software" title="Open Source Software"></p>
+<p>The term <em><strong>open source</strong></em> has become a household term in software circles.  Most people who work with technology in some capacity know that the Linux operating system is open source, as is the Firefox Web browser and much of the software that runs on their Android phone.</p>
+<p>However, when it comes to defining open source, most people I’ve talked to aren’t that clear on what it is and how it works, but can often list these three aspects:</p>
+<ol>
+<li>It is freely/collaboratively developed</li>
+<li>Bugs and security loopholes can be detected and fixed much quicker than with closed source software</li>
+<li>It evolves much faster and to a greater extent than closed source software</li>
+</ol>
+<h1 id="but-what-is-open-source-exactly">But what is open source, exactly?</h1>
+<p>At a fundamental level, open source simply means that the source code for the software is made available to other software developers.  What other developers are allowed to do with it afterwards depends on the specific open source license that is used. In general, there are two types of open source licenses available:</p>
+<ol>
+<li>Copyleft licenses, that are promoted by the Free Software Foundation (FSF)</li>
+<li>Permissive licenses</li>
+</ol>
+<p>Copyleft licenses have more restrictions on what happens to the source code once someone modifies it.  In short, if you modify source code released under a copyleft license, you are legally bound to publicly provide the source code for your modifications. This makes copyleft licenses ideal for larger, foundational software products like the Linux operating system where long-term growth and collaboration/standardization should be mandatory.  There are many copyleft licenses available for developers to choose from. The GNU General Public License version 2 (GPLv2) provides a moderate set of restrictions on the source code, whereas GPLv3 provides a high set of restrictions that is better in line with what the FSF promotes. Some copyleft licenses, such as the Mozilla Public License (MPL), provide a lower set of restrictions compared to others but still require that modified source code is made available to others.</p>
+<p>In contrast to copyleft licenses, permissive licenses do not force software developers to publicly provide the modifications that they make to source code that they have obtained. This means that a software developer could copy the source code for software released under a permissive license and modify it for their own private or commercial use, just as long as they cite the original author of the software. This makes permissive licenses more attractive for those who want their software to be incorporated into larger systems or other projects (e.g. startups). Microsoft used the TCP/IP source code from BSD UNIX under a permissive license to create their own TCP/IP software for Windows in order to quickly get Windows on the Internet bandwagon in the 1990s. Today, about half of the underlying macOS operating system, including a third of the macOS kernel is taken from FreeBSD using a permissive license. There are many permissive licenses available, including the Massachusetts Institute of Technology (MIT), Berkeley Software Distribution (BSD) and Apache licenses. Each one varies in the fine print (copyright use, patent terms, whether modifications require notification, etc.).</p>
+<p>In the 2000s, copyleft licenses were the dominant license used for open source software, primarily because most open source software revolved around Linux.  However, with the rise of startup culture and explosion of varied software projects this past decade, permissive licenses are now more common. Moreover, permissive licenses are easier for developers to understand, and often allow developers to incorporate other open source software that use different permissive licenses.</p>
+<p>While different sites on the Internet list different market share breakdowns for open source licenses, the MIT license is often listed as the most frequently-used. The Apache and GPLv2 licenses usually take second and third place, with all others trailing far behind.</p>
+<h1 id="so-what-is-fossfloss">So, what is FOSS/FLOSS?</h1>
+<p>Simply put, the FSF encourages people to use the term Free and Open Source Software (FOSS) when referring to open source software today. More specifically, FOSS refers to software that ethically respects the user’s freedom (use, copy, study, modify).  Since users may not completely understand that the word free was intended to refer to freedom and not price, the FSF now refers to FOSS as Free/Libre and Open Source Software (FLOSS).</p>
+<p>Since permissive licenses can potentially allow software to make its way into proprietary, closed source systems that restrict user freedom, many people in the open source community equate FOSS/FLOSS with copyleft licenses only and criticize permissive licenses for benefiting companies that want to incorporate open source software in their own closed source products. This is reflected in the goodbye statement from the Linux Journal magazine, which ceased publication this week amid financial difficulty:</p>
+<p>&ldquo;It became clearer than ever to me that while Linux and FOSS had won the battle over the tech giants a decade before, new ones had taken their place in the meantime, and we were letting them win.&rdquo;</p>
+<p>While it is very true that most companies (including all of the tech giants) have incorporated a great deal of permissively-licensed open source software this past decade, I see this more as an evolutionary inevitability in the technology market. Copyleft licenses are still alive and well with many projects (e.g. Linux, the largest open source project), and these projects often provide foundational technologies to the entire industry that must remain openly-developed.  The adoption of permissively-licensed open source software by companies isn’t necessarily a bad thing - it provides continuous economic benefits that have made open source the standard for most software projects this past decade (which is why permissive licenses are more common).  In other words, it adds a healthy balance to the open source ecosystem to ensure that open source software continues to thrive.</p>
+<h1 id="its-difficult-to-be-100-open-source">It’s difficult to be 100% open source</h1>
+<p>Even if you run Linux as your main operating system, there are still some closed source components (drivers, firmware) that you may be using on your system.  To make the user experience seamless, nearly all mainstream Linux distributions ship with these components in the installation media so that you don’t need to install them afterwards. This is why the FSF (which believes all software should be copyleft) only recommends a few obscure Linux distributions on their website that do not ship with these components (e.g. Trisquel Linux).</p>
+<p>Moreover, the low-level software that starts your computer and allows the operating system to access the hardware is not open source on most systems.  This low-level software is called the BIOS (or UEFI BIOS). And while developers have created open source replacements for the BIOS (e.g. Libreboot and Coreboot), hardware support for them are limited, in part because of other proprietary hardware components within your system and CPU.</p>
+<p>Speaking of CPUs, nearly all CPU hardware (e.g. Intel, AMD and ARM) are proprietary, but people are developing a new open source CPU architecture called RISC-V that seems to be catching on quickly.</p>
+<p>So, if you are dead set on being 100% open source, you may eventually be able to buy a RISC-V computer that uses Libreboot to load a Linux operating system that doesn’t support any proprietary hardware.</p>
+<p>For most of us, however, using open source software whenever possible (if there is a choice) is probably good enough to feel like we’re participating in the open source community.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/what-nokia-tells-us-about-the-internet-in-2008/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="What Nokia tells us about the Internet in 2008"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/apple-is-regressing-to-their-1990s-disposition/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Apple is regressing to their 1990s disposition"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

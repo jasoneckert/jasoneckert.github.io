@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      PowerShell Essentials for SysAdmins
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2016-03-06</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+9 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/windows"
+      title="tags"
+    >Windows</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/sysadmin"
+      title="tags"
+    >sysadmin</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/tech"
+      title="tags"
+    >tech</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p>PowerShell is essentially a scripting language and shell (command prompt) that you can use on Windows systems.  It’s basically Microsoft’s way of getting a powerful UNIX/Linux/Mac-like shell on the Windows platform (long overdue!).  The first versions of PowerShell were pretty horrific, but it’s come a long way since then.  PowerShell v4 and later is pretty decent (Win10 comes with PowerShell v5).  Luckily, PowerShell v4 comes with Windows Server 2012, and since this post is geared towards sysadmins, I’ll focus everything on Windows Server 2012.</p>
+<h1 id="1-powershell-basics">1. PowerShell Basics</h1>
+<p>When you open up PowerShell (it’s next to your Start button on the taskbar in Windows Server 2012), you’ll get a PS prompt where you can type commands:</p>
+<p><img src="powershell.jpg" alt="PowerShell" title="PowerShell"></p>
+<p>It’s important to note that most DOS commands will work fine within a PowerShell window - try these for example:</p>
+<pre><code>cls
+echo Hello World
+cd \
+copy c:\windows\system32\calc.exe C:\
+mkdir C:\stuff
+ipconfig &gt; lala.txt
+notepad lala.txt
+ipconfig ; dir ; date
+</code></pre><p>However, some DOS commands will not work - specifically those that interface directly with the OS as there is a PowerShell equivalent of doing that:</p>
+<p><code>path</code>&lt;&ndash;Doesn’t work!</p>
+<p><code>$env:Path</code> &lt;&ndash;This is the way to call the PATH environment variable in PowerShell</p>
+<p>Commands in PowerShell are called cmdlets, and have an action-object naming convention (e.g. Get-Help).  And just like DOS, commands are case-insensitive, and the Tab key will auto-complete commands/paths as you type them in (in PowerShell, the Tab key will also auto-complete command options!).</p>
+<p>Other features of PowerShell mimic those in a UNIX/Linux/Mac shell (such as BASH).  For example, output from one command can be piped to another command for processing data, or formatting/reducing output:</p>
+<pre><code>Get-host
+Get-host | Format-List version
+Get-host | fl version
+Get-host | ft version
+</code></pre><p>Similarly, cmdlets can have aliases to them to save typing.  For example, help is an alias to the cmdlet Get-Help. Try these out:</p>
+<pre><code>Get-alias
+Get-alias –name f
+Get-alias –definition Format-List
+Get-alias –definition Get-Alias
+</code></pre><p><code>alias</code> &lt;&ndash; Same as gal / Get-Alias (UNIX style)</p>
+<p><code>ls</code> &lt;&ndash; Ditto</p>
+<p>To get a list of cmdlets and help on those cmdlets, you could try these:</p>
+<pre><code>Get-Command
+Get-Command | more
+Get-Command | Measure-Object –line
+Get-Help Measure-Object
+</code></pre><p>However, if you come from a UNIX/Linux/Mac environment, not everything will work as expected since PowerShell is an additional component to the Windows OS (not an underlying component) - as a result, cmdlets must explicitly be written to support every possible operation.  For example, let’s take the Select-String cmdlet (which is equivalent to UNIX grep):</p>
+<p><code>Get-host | fl version  | select-string -pattern “4.0“</code> &lt;&ndash;BAD!</p>
+<p><code>dir –r C:\Stuff | sls “space“</code>  &lt;&ndash; create text file with space in it under C:\Stuff</p>
+<h1 id="2-powershell-providers--members">2. PowerShell Providers &amp; Members</h1>
+<p>PowerShell has different “dimensions” that it can work with like drive letters - for example, Filesystem (default), certificates, registry, etc.  Each dimension is called a PowerShell provider and is treated like a DOS drive letter.  Try the following out:</p>
+<pre><code>Get-PSProvider
+Get-PSDrive
+gdr
+Set-Location alias:
+dir (or gci)
+sl cert:
+dir
+sl HKCU:
+dir
+cd Software
+dir
+cd Google
+dir
+sl c:
+dir
+dir -Force
+Remove-Item C:\directory –Recurse
+</code></pre><p>Everything within a PowerShell provider (files, directories, certificates, registry keys, etc.) are treated as member objects, and each object has properties.  You can simply pipe objects to Get-Member (gm) to see these properties, as well as use Get-ItemProperty (gp) and Set-ItemProperty (sp) to view and change them.  Try this out:</p>
+<pre><code>gci somefile
+gci somefile | gm
+gp somefile
+gp somefile | fl CreationTime
+sp somefile CreationTime &lt;--put in some date when prompted (e.g. 1/1/2016)
+gci C:\Stuff -Recurse | where {$_.LastWriteTime –gt &quot;02/01/2016&quot;}
+</code></pre><p>Here is some extra stuff to drill in how object-oriented PowerShell really is:</p>
+<pre><code>$a = gci somefile
+$a
+$a.isreadonly
+
+$itunes = new-object -com itunes.application &lt;--install iTunes first &amp; add song
+$itunes.play()
+$itunes.stop()
+$itunes | gm
+
+$ui = (Get-Host).UI.RawUI
+$ui.WindowTitle = &quot;Extreme PowerShell Window!&quot;
+</code></pre><h1 id="3-useful-cmdlets-for-daily-system-administration">3. Useful Cmdlets for Daily System Administration</h1>
+<p>Although most Windows sysadmins typically RDP into a server to administer it graphically, there are a few tasks that save you time if you do them in PowerShell!  Here are some of my favorites by topic area (try them out for yourself to see how cool they are):</p>
+<h3 id="network-admin-cmdlets">Network Admin cmdlets:</h3>
+<pre><code>Test-NetConnection
+Test-NetConnection triosdevelopers.com –Traceroute
+Test-NetConnection triosdevelopers.com –Port 443
+
+Get-NetIPConfiguration
+Get-NetAdapter
+Get-NetAdapterStatistics
+
+New-NetIPAddress –InterfaceAlias Ethernet –IPAddress 192.168.1.50
+  –PrefixLength 24 –DefaultGateway 192.168.1.1
+
+Set-DNSClientServerAddress –InterfaceAlias Ethernet
+  –ServerAddresses 8.8.8.8
+
+Set-NetFirewallProfile –profile domain,public,private –Enabled false
+
+New-NetFirewallRule –DisplayName “Allow Inbound 80 TCP”
+  –Direction Inbound –Localport 80 –Protocol TCP –Action Allow
+</code></pre><h3 id="system-admin-cmdlets">System Admin cmdlets:</h3>
+<p><code>gwmi Win32_ComputerSystem</code></p>
+<p><code>Get-Service | ogv</code>   &lt;&ndash; Out-Gridview</p>
+<p><code>Restart-Service dnscache</code> &lt;&ndash; also stop/start/set-service</p>
+<pre><code>ps | sort –property cpu | select –last 5 &lt;-- ps = get-process
+Stop-process –name iTunes
+</code></pre><p><code>Rename-Computer name</code></p>
+<p><code>Restart-Computer</code> (pipe text file with names to cmdlet to reboot many computers)</p>
+<p><code>Stop-Computer</code></p>
+<p><code>Add-Computer –DomainName domain.com</code></p>
+<pre><code>Test-ComputerSecureChannel
+Test-ComputerSecureChannel –credential domain\administrator –Repair 
+</code></pre><p><code>Get-WindowsFeature | ogv</code></p>
+<pre><code>Install-WindowsFeature –IncludeAllSubfeature
+  –IncludeManagementTools web-server
+</code></pre><p><code>Install-WindowsFeature Net-Framework-Core –Source e:\sources\sxs</code></p>
+<p><code>Get-Hotfix | ogv</code></p>
+<h3 id="vm-20128-cmdlets">VM (2012/8+) cmdlets:</h3>
+<pre><code>copy  X:\2012Template.vhdx   X:\VMs\2012VM.vhdx
+
+New-VM –MemoryStartupBytes 4096MB –Name 2012VM –Path “X:\VMs”
+  –VHDPath “X:\VMs\2012VM.vhdx” (existing VHDX file sysprepped)
+
+Get-VM –Name 2012VM | Get-VMNetworkAdapter | Connect-VMNetworkAdapter
+  –Switchname “External Network”
+</code></pre><h3 id="ad-administration-cmdlets">AD Administration cmdlets:</h3>
+<pre><code>Search-ADAccount –PasswordNeverExpires | ogv
+
+Get-ADForest domain.com | FT SchemaMaster
+Get-ADDomain domain.com | FT PDCEmulator
+
+Move-ADDirectoryServerOperationsMasterRole –Identity NewDCName
+  –OperationsMasterRole SchemaMaster,RIDMaster -Force
+</code></pre><h3 id="remote-management-cmdlets-best-when-run-as-a-domain-admin-within-a-domain-environment">Remote management cmdlets (best when run as a Domain Admin within a domain environment):</h3>
+<pre><code>Restart-Computer –Force –ComputerName exchange.lala.com
+
+Enter-PSSession targetmachine
+
+Invoke-Command -Computername machine1, machine2
+  -Filepath c:\Script\script.ps1
+</code></pre><p>Note that remote management requires winRM (started by default in Windows Server 2012) - if it is not enabled, you could run winrm -quickconfig, or one of the following:</p>
+<pre><code>Set-Service winrm –StartupType automatic
+
+Enable-PSRemoting –Force
+</code></pre><h1 id="4-powershell-scripts">4. PowerShell Scripts</h1>
+<p>Any of the cmdlets discussed previously could be placed into a PowerShell script and executed on the system.  However, you must first make sure that your execution policy allows for script execution by executing the Get-ExecutionPolicy cmdlet.  Here is a description of the different policies:</p>
+<ul>
+<li>Restricted (disabled - default on clients)</li>
+<li>AllSigned (all scripts must be signed)</li>
+<li>RemoteSigned (all scripts downloaded from the Internet must be signed - the default on Windows Server 2012)</li>
+<li>Unrestricted (all scripts run, you’re prompted to continue for unsigned Internet scripts)</li>
+<li>Bypass (all scripts run)</li>
+</ul>
+<p>If you wanted to allow all scripts to run, you could execute <code>Set-ExecutionPolicy Unrestricted</code> (this can also be set with a GPO in a domain to hit multiple computers).</p>
+<p>PowerShell scripts are simply text files with a .ps1 extension - they can be edited in Notepad, but the default editor application for them is PowerShell Integrated Scripting Environment (ISE),which colour codes different parts of the script (useful for testing).</p>
+<p>To execute a script that you created from a PowerShell prompt, simply specify the relative or absolute path to the script - for example:</p>
+<pre><code>./myscript.ps1 
+
+.\myscript.ps1
+
+c:\myscript.ps1
+</code></pre><p>You can also execute PowerShell scripts outside PowerShell (e.g. within a task in Task Scheduler) by calling the PowerShell interpreter first - for example:</p>
+<p><code>PowerShell.exe c:\myscript.ps1</code></p>
+<p>As long as you can read (trace) a PowerShell script, you can copy &amp; modify scripts on the Internet to suit your needs!  The scripts you create can be basic ones that perform a series of tasks using DOS commands or PowerShell cmdlets (much like a simple batch file):</p>
+<pre><code>#Remove logs from the night before
+del \\server1\archive\acctlog_sorted.txt
+
+#Sorts acclog.txt, removes any duplicate lines, and saves it to acclog_sorted.txt.
+$TextFile = &quot;C:\LogStorage\acctlog.txt&quot;
+$NewTextFile = &quot;C:\LogStorage\acclog_sorted.txt&quot;
+Get-Content $TextFile | Sort-Object | Get-Unique &gt; $NewTextFile
+
+#Copy unique sorted accounting log over to archive
+xcopy /s/e/v C:\LogStorage\acctlog.txt \\server1\archive
+
+#Remove old accounting logs
+del c:\LogStorage\acclog_sorted.txt
+del c:\LogStorage\acclog.txt
+</code></pre><p>Or it could use more complex programming constructs (if, switch, for foreach, while, until, functions, and so on):</p>
+<pre><code>#This script uses the .NET method to ping servers listed in the
+#$arrayComputer array #variable – if the computer is pingable, it
+#renames the Administrator account to bob.
+
+$arrayComputer = &quot;10.3.101.2&quot;,&quot;10.3.101.3&quot;,&quot;10.3.101.4&quot;
+
+foreach ($strComputer in $arrayComputer) {
+ $ping = new-object System.Net.NetworkInformation.Ping
+ $Reply = $ping.send($strComputer)
+ if($Reply.status -eq &quot;success&quot;)
+  {
+
+    $admin=[adsi](&quot;WinNT://&quot; + $strComputer + &quot;/administrator, user&quot;)
+    $admin.psbase.rename(&quot;bob&quot;)
+
+  }
+}
+</code></pre><p>And, of course, you can write scripts many different ways - here is a very similar script:</p>
+<pre><code>#This script uses the .NET method to ping servers for a whole network
+#If the computer is pingable, it renames the Administrator account to
+#bob and displays total changes.
+
+write-host &quot;Now Pinging IP's ... please be patient&quot;
+$ping = New-Object System.Net.NetworkInformation.Ping
+$i = 0
+
+1..255 | foreach { $ip = &quot;10.3.101.$_&quot; 
+$Res = $ping.send($ip)
+if ($Res.Status -eq &quot;Success&quot;) {
+   $admin=[adsi](&quot;WinNT://&quot; + $ip + &quot;/administrator, user&quot;)
+   $admin.psbase.rename(&quot;bob&quot;)  
+   $i++
+   }
+}
+
+[string]$i + &quot; Hosts have been modified&quot;
+</code></pre><p>Enough reading!  Try the script below out - simply paste it into Notepad, save it as myscript.ps1 and execute it:</p>
+<pre><code>&quot;&quot;
+function WMIDateStringToDate($Bootup) {
+  [System.Management.ManagementDateTimeconverter]::ToDateTime($Bootup)
+}
+
+#Set $Computer to multiple IPs/names to analyze multiple computers
+
+$Computer = &quot;.&quot;   #adjust as needed to include multiple computers
+$computers = Get-WMIObject -class Win32_OperatingSystem –computer $computer
+
+foreach ($system in $computers) {
+     $Bootup = $system.LastBootUpTime
+     $LastBootUpTime = WMIDateStringToDate($Bootup)
+     $now = Get-Date
+     $Uptime = $now - $lastBootUpTime
+     $d = $Uptime.Days
+     $h = $Uptime.Hours
+     $m = $uptime.Minutes
+     $ms= $uptime.Milliseconds
+     &quot;System Up for: {0} days, {1} hours, {2}.{3} minutes&quot; -f $d,$h,$m,$ms 
+}
+
+&quot;&quot;
+</code></pre><h1 id="5-getting-comfy-with-powershell">5. Getting Comfy with PowerShell</h1>
+<p>On a final note, there are two things that you’ll want to do to make PowerShell a bit more personal for you.  The first thing is to create a custom PowerShell console file that has the extension .psc1 using the following:</p>
+<p><code>Export-Console lala</code> (creates lala.psc1)</p>
+<p>Simply double-click the lala.psc1 file to open PowerShell. Next, customize your window settings to your liking (colour, size, layout, etc.).  Your customizations are saved to the lala.psc1 file automatically and will be there next time you double-click on it!</p>
+<p>The second thing you’ll want to do is enable and use your PowerShell profile. A PowerShell profile is simply a PowerShell script that automatically executes when YOU open PowerShell (sort of like .bash_profile in Linux or .profile on UNIX).  It is stored in your user profile (e.g. C:\Users\bob\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1), and is great for storing custom aliases and functions that make your coding a lot easier!</p>
+<p>First, create your PowerShell profile:</p>
+<p><code>New-Item –path $profile –itemtype file -force</code></p>
+<p>Next, edit your profile:</p>
+<p><code>notepad $profile</code></p>
+<p>And add the following contents (save your changes when finished):</p>
+<pre><code>Write-host  “Greetings Professor Falken&quot;
+Set-alias  c  clear-host
+Function pro {write-host “Editing PS Profile”; start-sleep –s 2;
+   notepad $profile}
+</code></pre><p>Close your PowerShell window, open it again, and notice the greeting!  Try typing <code>c</code> and <code>pro</code> to test your alias and function.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/video-game-reflections/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Video Game Reflections"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/2015-in-review/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="2015 in review"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

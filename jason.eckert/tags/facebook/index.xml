@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Facebook on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/facebook/</link>
+    <description>Recent content in Facebook on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What it&#39;s like a year after quitting Facebook</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/what-its-like-a-year-after-quitting-facebook/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/what-its-like-a-year-after-quitting-facebook/</guid>
+      <description>Just under a year ago, I quit Facebook. Yup. After a decade of using it frequently, with over 10,000 posts and 7,000 pictures.
+It was the best decision I made.
+The original premise of Facebook has always appealed to me: connect with others you know in real life, but online, in order to share pictures and information to keep current. But it also has a lot of negatives:
+ It often becomes your main method of communication to others.</description>
+    </item>
+    
+  </channel>
+</rss>

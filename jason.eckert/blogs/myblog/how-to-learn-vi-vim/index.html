@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      How to learn vi (vim)
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2019-08-27</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+7 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/programming"
+      title="tags"
+    >programming</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/development"
+      title="tags"
+    >development</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="vim.png#center" alt="vim" title="vim"></p>
+<h1 id="1-so-what-is-vi-and-vim">1. So, what is vi (and vim)?</h1>
+<p>One of the most important tools for any developer or sysadmin on UNIX and Linux systems is a text editor. Mastering a text editor allows you to quickly create and edit the source code for programs, scripts and configuration files (nearly all configuration on a UNIX/Linux system is stored as text).</p>
+<p>The vi editor has been one of the most common (if not THE most common) text editor on these systems since it was created in 1969 by Bill Joy. It was a visual extension to the 1969 ex line-based text editor used back when UNIX terminals looked like a printer with a keyboard, and you had to edit an existing text file using obscure commands (without seeing the actual file on your screen):</p>
+<p><img src="teletype.jpg#center" alt="Teletype" title="Teletype"></p>
+<p>Then, Bram Moolenaar created a version of the vi editor with extended functionality in 1991 and called it vim (vi improved). Nearly all UNIX and Linux systems today use vim, but we still refer to it as vi (the vi executable is typically a shortcut to the vim executable). As a result, from this point on, I’ll just refer to it as vi.</p>
+<h1 id="2-why-should-i-learn-vi-isnt-it-difficult-to-use">2. Why should I learn vi? Isn’t it difficult to use?</h1>
+<p><img src="vimtweet.png#right" alt="vim tweet" title="vim tweet"></p>
+<p>For people who open vi for the first time, it may seem difficult since it doesn’t present visual cues on the screen that tell you how to use it.  Of course, this has led to a plethora of vi-related humor on the Internet:</p>
+<p>But vi isn’t difficult to use at all. It merely has a small learning curve at the beginning. In short, it’s:</p>
+<ul>
+<li>Very fast for any purpose</li>
+<li>Easily addictive, with a 1 day learning curve (for the basics)</li>
+<li>Powerful (800+ built-in functions with plugins &amp; customization ability)</li>
+<li>Found standard on nearly all UNIX flavors and Linux distributions</li>
+<li>A vi-able skill for any UNIX/Linux sysadmin, user or developer</li>
+</ul>
+<p>As a quick note, the other powerful text editor for UNIX/Linux is Emacs, but it’s not nearly as fast as vi, and if you use it too much, you’ll end up with a LISP ;-)</p>
+<h1 id="3-how-do-i-learn-vi">3. How do I learn vi?</h1>
+<p>The quickest and easiest way to learn the vi editor is to first focus on essential vi functionality only (what I call the survival skills) using some sample text files, and then expand upon that functionality later on.</p>
+<h1 id="4-learning-the-survival-skills">4. Learning the survival skills</h1>
+<p>You can run the following commands to obtain some sample text files on your system, and edit the file called “letter” using the vi editor:</p>
+<pre><code>    git clone https://github.com/jasoneckert/classfiles.git
+    cd classfiles
+    vi letter
+</code></pre>
+<p>The cursor is automatically placed at the beginning of the file. The easiest way to navigate the file is to use the cursor (arrow) keys, or PageUp/PageDown. You’ll know when you reach the end of the file, because vi displays ~ (tilde) characters at the bottom. Before you edit or add text, you must first understand that vi has two modes. When you first open the vi editor, you are placed in COMMAND MODE, where every key and key combination on your keyboard represents a function (e.g. pressing the x key will delete the character your cursor is on). A handful of these functions take you to INSERT MODE, where the keys on your keyboard are actually used to type/edit text (e.g. pressing the x key will insert the letter x in your document).  To return back to COMMAND MODE after inserting/editing text, simply press the [Esc] key.</p>
+<p>Common functions that allow you to enter INPUT MODE include:</p>
+<ul>
+<li><code>a</code>    starts appending text after current character</li>
+<li><code>i</code>    starts inserting text before current character</li>
+<li><code>o</code>    opens a new line underneath the cursor to insert text</li>
+<li><code>A</code>    starts appending text after current line</li>
+<li><code>I</code>    starts inserting text at the beginning of the current line</li>
+<li><code>O</code>    opens a new line above the cursor to insert text</li>
+<li><code>c</code>    starts inserting text on the character that you are on</li>
+<li><code>r</code>    replaces one character only</li>
+</ul>
+<p>Common functions used when in COMMAND MODE:</p>
+<ul>
+<li><code>yy</code>            yanks a line of text to the buffer</li>
+<li><code>y3y</code> or <code>3yy</code>    yanks 3 lines of text to the buffer</li>
+<li><code>y3w</code> or <code>3yw</code>       yanks 3 words of text to the buffer</li>
+<li><code>p</code>             pastes the contents of the buffer below the current line</li>
+<li><code>P</code>             pastes the contents of the buffer above the current line</li>
+<li><code>dd</code>            deletes the current line</li>
+<li><code>d3d</code> or <code>3dd</code>    deletes 3 lines</li>
+<li><code>d5w</code> or <code>5dw</code>       delete 5 words</li>
+<li><code>x</code>             deletes the current character</li>
+<li><code>3x</code>            deletes 3 characters (starting with the current character)</li>
+<li><code>J</code>             joins lines (join line below you to current line)</li>
+<li><code>u</code>             undoes last change</li>
+<li><code>[Ctrl]+g</code>      shows current line stats</li>
+<li><code>:</code>             takes you to the interactive : prompt (called ex mode)</li>
+<li><code>:wq</code>           saves and quits</li>
+<li><code>:w lala</code>       saves as file lala</li>
+<li><code>:q</code>            quits (if no changes were made)</li>
+<li><code>:q!</code>           quits and throws away any changes</li>
+<li><code>:set all</code>      shows all vi environment parameters</li>
+<li><code>:set number</code>   sets auto line numbering</li>
+<li><code>:set nonumber</code> unsets auto line numbering</li>
+<li><code>ZZ</code>            saves and quits (same as :wq)</li>
+</ul>
+<p>Spend some time practicing the functions in COMMAND MODE within the “letter” file, including the functions that take you to INSERT MODE.  Insert and delete as much text as you want. Then, hold down the u key in COMMAND MODE to undo all of your changes and use :q to quit the editor.  Next, type vi small_town (a joke file with a lot of typos) and use these same survival skills to fix all of the typos. This time, save your changes using :wq in COMMAND MODE.</p>
+<h1 id="5-ive-mastered-the-survival-skills-now-what">5. I’ve mastered the survival skills. Now what?</h1>
+<p>There’s no shortage of things to do after mastering the survival skills. However, I’ve listed those that I find the most useful below, organized by area:</p>
+<p>Navigation in COMMAND MODE (beyond the cursor keys and PageUp/PageDown):</p>
+<ul>
+<li><code>h j k l</code>   are alternatives to the cursor keys for navigation</li>
+<li><code>1G</code>        goes to line 1</li>
+<li><code>23G</code>       goes to line 23</li>
+<li><code>G</code>         goes to the last line</li>
+<li><code>^</code>         goes to beginning of the current line</li>
+<li><code>$</code>         goes to beginning of the current line</li>
+<li><code>d$</code>        deletes from cursor to end of the current line</li>
+<li><code>d^</code>        deletes from cursor to the beginning of the current line</li>
+</ul>
+<p>Any set options in ex mode can be made permanent for all users by editing the /usr/share/vim/vimrc file, or for just your user account by creating a .vimrc or .exrc file in your home directory (e.g. vi ~/.vimrc). The most common options that I place in this file turn on line numbering (<code>number</code>), cursor position (<code>ruler</code>), highlighting of brackets (<code>showmatch</code>), tabs that are equivalent to 4 spaces (<code>ts=4</code> - the default is 8, which is too much), and programming language highlights (<code>syntax</code>):</p>
+<pre><code>    set number ruler showmatch ts=4
+    syntax on
+</code></pre>
+<p>Useful functions in COMMAND MODE:</p>
+<ul>
+<li><code>/Mother</code>   searches for Mother (n = next occurrence, N = previous occurrence)</li>
+<li><code>?Mother</code>   does the same search, but in the reverse direction (earlier lines)</li>
+<li><code>~</code>         switches case for current letter</li>
+<li><code>gUU</code>       turns entire line to uppercase</li>
+<li><code>ddp</code>       swaps current line with the next one</li>
+<li><code>zf5j</code>      folds the next 5 lines (<code>zo</code> = open/expand, <code>zc</code> = close, <code>zd</code> = delete)</li>
+</ul>
+<p>Useful commands in ex mode (the : prompt):</p>
+<ul>
+<li><code>:% s/the/THE/g</code>     searches for the and replace with THE in the whole file</li>
+<li><code>:1,7 s/the/THE/g</code>   same as previous, but only on lines 1 through 7</li>
+<li><code>:ab LR Linux Rocks</code> when you type LR in INSERT MODE, replaces with Linux Rocks - this can be put into your .vimrc or .exrc file too!</li>
+<li><code>:r proposal1</code>       inserts the contents of the proposal1 file under the current line</li>
+<li><code>:r !date</code>           inserts the output of the date command under the current line</li>
+<li><code>:help p</code>            displays help for functions that start with p</li>
+<li><code>:help holy-grail</code>   displays help for all ex mode commands</li>
+<li><code>:e proposal1</code>       edits a new file (proposal1) instead of current file</li>
+<li><code>:split proposal1</code>   edits proposal1 in a new split screen (horizontal)</li>
+<li><code>:vsplit proposal1</code>  edits proposal1 in a new split screen (vertical) - you can use <code>[Ctrl]+ww</code> to move between screens, or <code>[Ctrl]+w</code>, <code>_</code> to minimize current screen, or <code>[Ctrl]+w</code>, <code>=</code> to restore current screen to original size.</li>
+<li><code>:tabe lala</code>         creates a new tab called lala</li>
+<li><code>:tabs</code>              shows tabs</li>
+<li><code>:tabn</code>              moves to next tab</li>
+<li><code>:tabp</code>              moves to previous tab</li>
+<li><code>:set rightleft</code>     a fun prank (especially if you put it in someone else’s .vimrc ;-)</li>
+</ul>
+<h1 id="6-still-want-more">6. Still want more?</h1>
+<p>Run the <code>vimtutor</code> command! This opens a lengthy interactive vi tutorial within vi itself.</p>
+<p>If this command isn’t available on your Linux system, it’s because your Linux distribution installed the minimal vim package. Simply run <code>dnf install vim</code> or <code>apt install vim</code> (depending on your Linux distribution) to get the full vim package that includes the vim tutor!</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/what-its-like-a-year-after-quitting-facebook/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="What it&#39;s like a year after quitting Facebook"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/what-nokia-tells-us-about-the-internet-in-2008/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="What Nokia tells us about the Internet in 2008"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

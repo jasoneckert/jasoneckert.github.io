@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SCO on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/sco/</link>
+    <description>Recent content in SCO on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Dec 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/sco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2011 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2011-in-review/</link>
+      <pubDate>Fri, 30 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2011-in-review/</guid>
+      <description>Personal/Work-Related Events:   I started my new job of Dean of Technology in January. Basically twice the work but the same money. Most of the time it’s a thankless job (because you have to deal with complaints and bitching from everyone), but there is the odd job perk such as flex time and attending social events and conferences. I think the best part is that my official job description has a section that requires that I possess Strong communications skills (fluent in English &amp;amp; Klingon), as well as excellent interpersonal, analytical, strategic, conflict resolution, management, and organizational skills (this is what happens when non-geek HR people ask you for feedback in creating your job description).</description>
+    </item>
+    
+    <item>
+      <title>The end of 2007</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-end-of-2007/</link>
+      <pubDate>Mon, 31 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-end-of-2007/</guid>
+      <description>It has truly been an exciting year, and I wish to take a few moments to reflect on some of the most important events of 2007 in geekdom:
+  Halo 3 being released (I love that game)
+  Microsoft pissing off millions with Vista
+  The death of SCO (may they rot in hell)
+  Apple releasing the iPhone and iPod touch (the next generation interface for everything)</description>
+    </item>
+    
+    <item>
+      <title>The wicked witch is dead</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-wicked-witch-is-dead/</link>
+      <pubDate>Sun, 12 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-wicked-witch-is-dead/</guid>
+      <description>I consider myself to be a very patient person (all things considered) - but one thing that causes me to lose my patience is when I hear of proprietary computer companies that spread FUD (Fear, Uncertainty and Doubt) in order to keep their customers from considering other (and usually much better) technologies.
+While Microsoft has been the main purveyor of FUD since the early 1990s, SCO used FUD in an attempt to downplay the Linux operating system.</description>
+    </item>
+    
+  </channel>
+</rss>

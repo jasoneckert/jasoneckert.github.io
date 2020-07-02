@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Reviving an ancient BSD UNIX workstation
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2019-11-25</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+2 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/retro"
+      title="tags"
+    >retro</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="genixworkstation.png#center" alt="GENIX workstation" title="GENIX workstation"></p>
+<p>Most people will look at this 3-foot-long behemoth of ancient electronics and wonder why it wasn’t scrapped decades ago. But for many of us in the tech industry, these ancient machines are a way to peer into the early days of an industry that has twisted and evolved in leaps and bounds, leaving nearly every player that shaped its landscape forgotten in time.</p>
+<p>The machine sitting in my driveway at the top of this post is a workstation from the early 1980s with a NS32016 CPU (the first 32-bit general purpose microprocessor) and a whopping 1MB of RAM. It&rsquo;s running Genix (BSD UNIX for the NS32016) and performs at a speed of 2.5 MIPS. For comparison, a modern AMD Ryzen 7 system performs at over 300,000 MIPS.</p>
+<p>The person that gave it to me originally built it for the company he was working for at the time. It was to be a graphics workstation that would compete with the other high-end workstation vendors at the time (Sun Microsystems and Silicon Graphics Inc.).  In many ways, it was a revolutionary design for the 1980s as it used a microprocessor that was heavily influenced by the orthogonal design of the DEC VAX (the leading UNIX platform at the time). It also supported demand paging (which was unusual for that time, but later became the standard in CPUs.</p>
+<p>The 40MB hard drive from Computer Memories Inc. is as heavy as a dodge ball, and each circuit board in the computer provides a discrete function. There’s a CPU board, a disk controller board, a memory board, and a serial I/O board - all of which plug into a backplane so that they can talk to each other. Together with the myriad of ribbon cables connecting these boards to external components, it’s reminiscent of the mainframe systems that wandered the Earth in the 1960s.</p>
+<p>To get UNIX started on it, and interface with it from a computer terminal requires that you pour though manuals and schematics, ensure that each board is getting the correct voltage and current, as well as connect serial I/O in a way that it expects. It’s sort of like decoding hieroglyphs in ancient Egypt. But the reward is the same - to understand something that was lost to time. But while this computer was lost to history, the UNIX operating system it ran went on to become the most influential operating system of all time, leading to Linux, Android, macOS, iOS and nearly every system you talk to in the cloud.</p>
+<p><img src="genixmanuals.jpg#center" alt="GENIX manuals" title="GENIX manuals"></p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/2019-in-review/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="2019 in review"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/why-you-should-use-technology-less/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Why you should use technology less"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

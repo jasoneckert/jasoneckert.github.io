@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BSD on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/bsd/</link>
+    <description>Recent content in BSD on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/bsd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reviving an ancient BSD UNIX workstation</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/reviving-an-ancient-bsd-workstation/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/reviving-an-ancient-bsd-workstation/</guid>
+      <description>Most people will look at this 3-foot-long behemoth of ancient electronics and wonder why it wasn’t scrapped decades ago. But for many of us in the tech industry, these ancient machines are a way to peer into the early days of an industry that has twisted and evolved in leaps and bounds, leaving nearly every player that shaped its landscape forgotten in time.
+The machine sitting in my driveway at the top of this post is a workstation from the early 1980s with a NS32016 CPU (the first 32-bit general purpose microprocessor) and a whopping 1MB of RAM.</description>
+    </item>
+    
+  </channel>
+</rss>

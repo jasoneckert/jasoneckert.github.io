@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steve Jobs on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/steve-jobs/</link>
+    <description>Recent content in Steve Jobs on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/steve-jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Non-Fiction &amp; Biographies</title>
+      <link>http://triosdevelopers.com/jason.eckert/reads/non-fiction/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/reads/non-fiction/</guid>
+      <description>Clifford Stoll: The Cuckoo’s Egg (1989) Don’t let the year of this book fool you - it’s probably the best book on computing security. The epilogue is both timeless, and an amazing reflection on the purpose of computer security. Moreover, this book is a very enjoyable read. Cliff, like most of us computer/scientist types, writes with a quirky sense of humour, and isn’t afraid to relay his personal views within the book.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>transputer on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/transputer/</link>
+    <description>Recent content in transputer on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Feb 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/transputer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The transputer</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-transputer/</link>
+      <pubDate>Thu, 17 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-transputer/</guid>
+      <description>So what the heck is a transputer? Well, it is a RISC CPU design from a company in England called INMOS that was designed so that it could interface with other CPUs of the same type in a massively parallel fashion (like a mini supercomputer).
+The reason it was made was because CISC CPU designs of the 1980s were getting too bulky and people thought that it would be hard to advance them (of course they were wrong - never doubt engineers!</description>
+    </item>
+    
+  </channel>
+</rss>

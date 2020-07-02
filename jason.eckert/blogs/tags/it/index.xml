@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/it/</link>
+    <description>Recent content in IT on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The UNIX Philosophy in 2019</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-unix-philosophy-in-2019/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-unix-philosophy-in-2019/</guid>
+      <description>Earlier this week, I did a presentation for WWITPRO that detailed the UNIX philosophy and its relevance today. Given the subject matter, I decided to do the presentation in PostScript on my SPARCbook running Sun Solaris 2.5.1. This blog post details the content of the presentation for posterity!
+What is UNIX? Simply put, UNIX is an operating system that was created by Ken Thompson in 1969 that was rewritten shortly thereafter in Dennis Ritchie’s C programming language.</description>
+    </item>
+    
+    <item>
+      <title>PowerShell Essentials for SysAdmins</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/powershell-essentials-for-sysadmins/</link>
+      <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/powershell-essentials-for-sysadmins/</guid>
+      <description>PowerShell is essentially a scripting language and shell (command prompt) that you can use on Windows systems. It’s basically Microsoft’s way of getting a powerful UNIX/Linux/Mac-like shell on the Windows platform (long overdue!). The first versions of PowerShell were pretty horrific, but it’s come a long way since then. PowerShell v4 and later is pretty decent (Win10 comes with PowerShell v5). Luckily, PowerShell v4 comes with Windows Server 2012, and since this post is geared towards sysadmins, I’ll focus everything on Windows Server 2012.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft ReFS vs Oracle ZFS - FIGHT!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/refs-vs-zfs-fight/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/refs-vs-zfs-fight/</guid>
+      <description>In the past, most IT admins have put their faith in systems and SANs (Storage Area Networks) that use RAID (Redundant Array of Inexpensive Disks) technology. RAID can be used to combine hard disks together into simple volumes (called RAID-0, or JBOD) that aren’t fault tolerant, but can also be used to create mirrored volumes where both drives are identical in case one fails (called RAID-1), or striped volumes with parity where data is written across several disks with parity information that can be used to calculate the missing data if a drive fails (called RAID-5).</description>
+    </item>
+    
+    <item>
+      <title>The evolution of Information Technology</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/evolution-of-info-tech/</link>
+      <pubDate>Wed, 07 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/evolution-of-info-tech/</guid>
+      <description>As a Dean for the technology faculties of a private college in Canada, I’m always looking to make our programs more aligned to the industry - my motto is: always look forward and never look back!
+However, when it comes to Information Technology (IT), I regularly find that the general perception of IT jobs is stuck in the past by at least a decade. I can’t tell you how many times I’ve met people who think that IT guys are stuck in the back closet of some company doing some menial job, such as re-soldering chips on a computer motherboard much like working on the engine of an old car.</description>
+    </item>
+    
+    <item>
+      <title>eBook pilot</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/ebook-pilot/</link>
+      <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/ebook-pilot/</guid>
+      <description>Here is my class with their new Kindle DXs. Notice the absence of heavy textbooks on the desks!
+UPDATE: Unfortunately, while it was cool to carry around all of our textbooks in PDF format on our Kindle DXs, the pilot ultimately led to us not adopting eBooks exclusively. Simply put, many of our students just preferred the ease of printed books. eBooks may become the norm in the future, but probably only when everyone carries a laptop with them, and can access a second monitor for it in the classroom.</description>
+    </item>
+    
+    <item>
+      <title>I created the Internet</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/i-created-the-internet/</link>
+      <pubDate>Tue, 16 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/i-created-the-internet/</guid>
+      <description>Complete with blinking light! It&amp;rsquo;s amazing what you can make with a soldering iron and the spare electrical parts you have in your basement.
+If you are wondering what the hell I am talking about, just watch the BBC sitcom “The IT Crowd” Series 3 Episode 4.</description>
+    </item>
+    
+    <item>
+      <title>War Games shell scripting fun</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/war-games-shell-scripting-fun/</link>
+      <pubDate>Mon, 06 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/war-games-shell-scripting-fun/</guid>
+      <description>While my daughter and I sat across from each other in Starbucks drinking coffee and PIN messaging each other in Leetspeak using our BlackBerries (yes, I realize how drastically nerdy this is), the thought occurred to us that a simple shell script could easily be used to simulate the War Operation Plan Response (WOPR) supercomputer from the movie War Games (1983).
+Anyways, we analyzed the frame-by-frame output from the movie and recreated the output on the Sun Enterprise 450 in my classroom running Red Hat Linux.</description>
+    </item>
+    
+    <item>
+      <title>How to please your IT department</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/how-to-please-your-it-dept/</link>
+      <pubDate>Mon, 04 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-to-please-your-it-dept/</guid>
+      <description>When you call us to have your computer moved, be sure to leave it buried under half a ton of postcards, baby pictures, stuffed animals, dried flowers, bowling trophies and children’s art. We don’t have a life, and we find it deeply moving to catch a fleeting glimpse of yours.
+  Don’t write anything down. Ever. We can play back the error messages from here.
+  When an IT person says he’s coming right over, go for coffee.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Energize IT conference</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/microsoft-energize-it-conference/</link>
+      <pubDate>Sat, 16 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/microsoft-energize-it-conference/</guid>
+      <description>Today, I attended the Microsoft Energize IT Conference at the Convention Centre in Toronto. Having been to many Microsoft conferences in the past, I was reluctant to attend since most of them were a biased propaganda show for sales people and managers.
+Energize IT was a typical Microsoft conference: lots of money, free food and swank. When the keynote presentations started, it looked promising. The first few speakers emphasized the need for feedback from the audience such that Microsoft can adapt to the changing needs of their customers, as well as the need for a sense of “community” amongst us.</description>
+    </item>
+    
+    <item>
+      <title>1. What do I do?</title>
+      <link>http://triosdevelopers.com/jason.eckert/bio/what-do-i-do/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/bio/what-do-i-do/</guid>
+      <description>Besides drinking vast quantities of caffeine, I have taught, developed and managed various Information Technology (IT) courses at triOS College in Ontario (Canada) since 1998 in both our college and corporate training divisions.
+Back in 2011, I took on a different title of Dean of Technology to salvage our video game programs, and it turned into a more strategic role where I was able to help shape the development of our programs and curriculum in the following faculties:</description>
+    </item>
+    
+    <item>
+      <title>5. Tech Slogans</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/techslogans/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/techslogans/</guid>
+      <description>Don&amp;rsquo;t Anthropomorphize computers. They hate that.
+I void warranties
+I read your email
+Code poet
+Byte Me
+I see dead pixels
+cd /pub; more beer  No, I will not fix your computer
+There is no place like 127.0.0.1
+There is no place like ::1
+Bow before me for I am root
+Dilbert is NOT fiction
+It must be user error.
+/* No Comment */  My other shirt is clever</description>
+    </item>
+    
+  </channel>
+</rss>

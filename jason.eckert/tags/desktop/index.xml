@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>desktop on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/desktop/</link>
+    <description>Recent content in desktop on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/desktop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How ricing shifted from cars to computers</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/how-ricing-shifted-from-cars-to-computers/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-ricing-shifted-from-cars-to-computers/</guid>
+      <description>Back in the early 1990s, teenagers with a drivers license made a hobby of tweaking out their cars - adding custom grills, spoilers, paint jobs, and so on. The more crazy, the better. And since the most common car to perform these modifications on were older Honda Civics, which you could get fairly cheap at the time, especially if they were more than 5 years old and needed a bit of work.</description>
+    </item>
+    
+    <item>
+      <title>Pop!_OS: The first real Linux desktop</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/popos-the-first-real-linux-desktop/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/popos-the-first-real-linux-desktop/</guid>
+      <description>Tonight I gave a presentation at the Kitchener-Waterloo Linux User’s Group (KWLUG) about Pop!_OS, and this blog post is essentially a summary of that talk. The Linux development community has never really spent a lot of time making Linux for the desktop - the focus has been on servers and customizability (e.g. embedded systems, mobile, IoT, etc.). There are plenty of desktop-focused Linux distributions such as Linux Mint and ElementaryOS that have positioned themselves as such.</description>
+    </item>
+    
+  </channel>
+</rss>

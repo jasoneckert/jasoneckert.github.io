@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computers on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/computers/</link>
+    <description>Recent content in computers on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/computers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019 in review...</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</guid>
+      <description>This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!
+On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA) Instructor Network.
+This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).</description>
+    </item>
+    
+    <item>
+      <title>Reviving an ancient BSD UNIX workstation</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/reviving-an-ancient-bsd-workstation/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/reviving-an-ancient-bsd-workstation/</guid>
+      <description>Most people will look at this 3-foot-long behemoth of ancient electronics and wonder why it wasn’t scrapped decades ago. But for many of us in the tech industry, these ancient machines are a way to peer into the early days of an industry that has twisted and evolved in leaps and bounds, leaving nearly every player that shaped its landscape forgotten in time.
+The machine sitting in my driveway at the top of this post is a workstation from the early 1980s with a NS32016 CPU (the first 32-bit general purpose microprocessor) and a whopping 1MB of RAM.</description>
+    </item>
+    
+    <item>
+      <title>Roughing it on vacation...</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/roughing-it-on-vacation/</link>
+      <pubDate>Sat, 07 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/roughing-it-on-vacation/</guid>
+      <description>Yup - it’s vacation time again! And this next week I plan to do nothing but relax, get a tan, drink “Muskoka Dry Pale Ginger Ale” and read a few books that I haven’t had the time to open yet. And yes, my daughter is going to swim all week long - that is her in the water with the kids from the cottage next door.
+Now you are probably wondering why I am blogging on my vacation&amp;hellip;&amp;hellip;shouldn’t a vacation be devoid of TV/phones/Internet/computers?</description>
+    </item>
+    
+    <item>
+      <title>Linux thin clients</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/linux-thin-clients/</link>
+      <pubDate>Sat, 05 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/linux-thin-clients/</guid>
+      <description>Jon “maddog” Hall gave a talk about using Linux thin clients (e.g. the Linux Terminal Server Project) to provide Internet and application access to schools, third-world countries and organizations in general. He specifically noted that thin clients (like the HP Compaq t5125 which only uses 10 Watts of power compared to the 550 Watts used by most computers) could easily provide low-power, high-performance computing on a large scale.
+After hearing this, it sparked my curiosity since I typically use Remote Desktop as part of my job to connect to Windows Terminal Servers at our college head office.</description>
+    </item>
+    
+  </channel>
+</rss>

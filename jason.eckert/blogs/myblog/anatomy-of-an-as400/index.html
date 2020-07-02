@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Anatomy of an AS/400
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2009-04-14</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+4 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/ibm"
+      title="tags"
+    >IBM</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/retro"
+      title="tags"
+    >retro</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p>During my spring cleaning, I ended up getting rid of my AS/400 model 9404-D10 from 1991.</p>
+<p>Since the power supply is dead in it, I decided to disassemble and photograph the inside of this amazing machine.  AS/400s are well known for their legendary uptimes, and were the “jewel” of IBM in the late 1980s to 1990s.  In 1993, when IBM was close to splitting up their divisions into smaller companies, Bill Gates said that “the only part of IBM that Microsoft would be interested in was the AS/400 division.”  At the time, many of Microsoft&rsquo;s internal systems ran on the AS/400 platform.</p>
+<p><img src="as400a.png#center" alt="AS/400a" title="AS/400a"></p>
+<p><img src="as400b.jpg#right" alt="AS/400b" title="AS/400b"></p>
+<p>In the picture above, you will see the 6 logic boards (and logic board extensions) that comprise all of the electronics in the AS/400.</p>
+<p>Each of these boards was enclosed in a heavy aluminum case and inserted vertically into the back of the AS/400 where they plugged into the backplane to interconnect (see picture to the right).  To unplug them, you simply had to remove the blue clips at the top and bottom of each aluminum case and slide them out.</p>
+<p>Each card shown in the picture at the top of this post is oriented so that the connector that plugs into the backplane is always on the left, and the connectors visible on the back of the machine are to the right.</p>
+<p>I know that others probably like viewing logic boards as much as I do, so I included close-up images of each one below to describe the components.</p>
+<p>The CPU board (Part No. 73F9327) contains an IBM 48-bit CISC CPU with the label IBM9314 93X0128 PQ - it is a blue chip with a white ceramic base.  Very little is known about AS/400 CPUs prior to them switching to PowerPC RISC CPUs in 1995 - IBM keeps this information very secret (it’s no where on the Net that I could find, and I tried hard!).  You will notice that the CPU board also contains 4MB of RAM (the numerous small black chips), and two connectors for dumb terminal concentrators.</p>
+<p><img src="as400c.jpg#center" alt="AS/400c" title="AS/400c"></p>
+<p>The extra RAM board (Part No. 72X6396) contains 4MB of RAM and connects to 2 additional 4MB RAM expansion boards (Part No. 72X6397) for a total of 12MB of additional RAM.  Combined with the 4MB of RAM on the CPU board, this computer had 16MB of RAM in 1991.</p>
+<p><img src="as400d.jpg#center" alt="AS/400d" title="AS/400d"></p>
+<p>The SCSI disk controller board (Part No. 21F4863) connected to the 6 hard drives, tape drive, and 8” floppy drive.  The gold chip is a Motorola SC81160R20 (a modified Motorola 68020 CPU) that was used to perform most of the disk controller calculations (quite fast for the time).  There is also an external port that could be used to connect another expansion board (probably for external SCSI connections).</p>
+<p><img src="as400e.jpg#center" alt="AS/400e" title="AS/400e"></p>
+<p>The Multi I/O board (Part No. 21F4383) is an all-purpose I/O card that can take additional expansion boards - in this case, it connected to 2 EIA communications adapters (the ones with the big silver chip, Part No. 21F9941), and a diskette controller card (the one with very little chips on it, Part No. 72X6386).  The 2 EIA communications adapters could be used to connect to external SCSI devices, networks, or other serial devices.  The gold cpu in the Multi I/O card is a modified Motorola 68010 CPU (Motorola SC81170R10) used to perform the I/O calculations for the additional expansion boards.</p>
+<p><img src="as400f.jpg#center" alt="AS/400f" title="AS/400f"></p>
+<p>The Communications Controller board (Part No. 85F7223) is simply an optional board that can be used to connect additional dumb terminal concentrators - although there is room for 3 expansion cards, there is only one attached (Part No 21F4867) that has the same dumb terminal concentrator connector as the 2 found on the CPU board.  The gold chip is the same Motorola SC81160R20 CPU found on the SCSI controller board (a modified Motorola 68020 CPU) - it was probably needed to handle all the dumb terminal calculations if all three  expansion cards were used to connect to several more dumb terminal concentrators.</p>
+<p><img src="as400g.jpg#center" alt="AS/400g" title="AS/400g"></p>
+<p>The Workstation Controller was used to connect to administrative terminals and printers using Twinax (old coaxial-like wire that was heavy-duty) - The single brown ceramic chip on this board is and Intel A63652 (a modified 80286 CPU).</p>
+<p><img src="as400h.jpg#center" alt="AS/400h" title="AS/400h"></p>
+<p>That concludes the logic board layout of the AS/400 - these were definitely well built and powerful machines for the time.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/the-unisys-icon/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="The Unisys ICON"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/the-death-of-sgi/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="The death of SGI"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

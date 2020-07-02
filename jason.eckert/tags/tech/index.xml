@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/tech/</link>
+    <description>Recent content in tech on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to write an academic technical textbook</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/how-to-write-an-academic-technical-textbook/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-to-write-an-academic-technical-textbook/</guid>
+      <description>If you head over to My published books page, you’ll see that I’ve written a large number of textbooks over the years for different publishers, as well as worked as a technical editor for many other titles.
+Just this past week, I mentioned to a coworker that I’ve finished submitting the AU1 of the final chapter for my latest textbook Hands-On Windows Server 2019, ISBN: 978-0-357-43615-8 (I&amp;rsquo;ve revised this blog post in June to include a pic of my first printed copy).</description>
+    </item>
+    
+    <item>
+      <title>Why you should use technology less</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/why-you-should-use-technology-less/</link>
+      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/why-you-should-use-technology-less/</guid>
+      <description>Over the past few years, I’ve taken to using technology less and less in my daily life.
+ I leave my phone in the car when going to a party or social event. I’ll only fetch it if I want to take a picture, and only after appreciating the moment I’d like to capture to the fullest. When I listen to music on my phone (via headphones) during the long walks I take to get exercise and relax, I don’t check my phone at all.</description>
+    </item>
+    
+    <item>
+      <title>The UNIX Philosophy in 2019</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-unix-philosophy-in-2019/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-unix-philosophy-in-2019/</guid>
+      <description>Earlier this week, I did a presentation for WWITPRO that detailed the UNIX philosophy and its relevance today. Given the subject matter, I decided to do the presentation in PostScript on my SPARCbook running Sun Solaris 2.5.1. This blog post details the content of the presentation for posterity!
+What is UNIX? Simply put, UNIX is an operating system that was created by Ken Thompson in 1969 that was rewritten shortly thereafter in Dennis Ritchie’s C programming language.</description>
+    </item>
+    
+    <item>
+      <title>SPARCbook 3000ST: The coolest 90s laptop</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/sparcbook3000st-the-coolest-90s-laptop/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/sparcbook3000st-the-coolest-90s-laptop/</guid>
+      <description>A few weeks back I managed to pick up an incredibly rare laptop in immaculate condition for $50 on Kijiji: a Tadpole Technologies SPARCbook 3000ST from 1997 (it also came with two other working Pentium laptops from the 1990s).
+I had to drive almost three hours to pick it up on the other side of Toronto, but for a SPARCbook it was definitely worth it seeing as I&amp;rsquo;m more likely to find the lost city of Atlantis than another one of these again.</description>
+    </item>
+    
+    <item>
+      <title>Cult of Mac Book</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/cult-of-mac-book/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/cult-of-mac-book/</guid>
+      <description>A few weeks ago, I was out at a social event with a bunch of guys and gals from the local Linux/UNIX/developer/IT community (contrary to popular opinion, Linux/UNIX people know how to party hard).
+At one point during the night, we were sitting at a round booth and poking fun at a total Apple fanboy in our group. Someone called him a “Cult of Mac member” and he replied, “And proud to be one - I could write the book on the cult!</description>
+    </item>
+    
+    <item>
+      <title>35th Anniversary of the Macintosh Computer</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/35-anniversary-of-macintosh/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/35-anniversary-of-macintosh/</guid>
+      <description>35 years ago today, Apple announced their Macintosh computer. What made the Macintosh radically different at the time was its graphical user interface (GUI) that was navigated using a mouse (mice were very uncommon in 1984!).
+The first Macintosh only had 128K of RAM and a Motorola 68000 CPU, but it was pretty snappy for the time. The picture at the top of this post is of my daughter next to an original Macintosh 128K (and yes, it still works).</description>
+    </item>
+    
+    <item>
+      <title>Using the Windows Subsystem for Linux</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/using-the-windows-subsystem-for-linux/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/using-the-windows-subsystem-for-linux/</guid>
+      <description>1. So what is WSL? Simply put, it’s a kernel interface (lxcore &amp;amp; lxss) that allows 64-bit Linux binaries to run on a Window 10 or Windows Server 2019 kernel.
+All you need to do is add the userland (file system structure and programs) from an existing Linux distribution, such as Ubuntu, Kali, Debian or SUSE, and that Linux distribution will run natively on the Windows kernel!
+You must access the Linux distribution via a Windows program that associates the userland of the Linux distribution to the WSL (e.</description>
+    </item>
+    
+    <item>
+      <title>SSH Foo</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/ssh-foo/</link>
+      <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/ssh-foo/</guid>
+      <description>Last week, I gave a presentation at a local LUG (which is a Linux User’s Group, for anyone who hasn’t heard of those before) on the subject of SSH Foo.
+In UNIX circles, we refer to tricks of the trade as “Kung Fu” or just “Fu” (which sounds rude), so it is spelled “Foo” ;-)
+In this blog post, I’ll summarize my SSH Foo talk!
+Part 1 - Cryptography Basics: Symmetric cryptography (e.</description>
+    </item>
+    
+    <item>
+      <title>Three reasons why incubators breed failure</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/three-reasons-why-incubators-breed-failure/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/three-reasons-why-incubators-breed-failure/</guid>
+      <description>These past few years, I’ve provided various types of support for some tech incubators in the Kitchener-Waterloo region where I live (it’s a complex arrangement that I won’t go into within this post, but mostly involves helping people with technology implementation issues related to software). It’s not hard to find tech incubators nowadays - they’ve become quite popular this past decade, and larger cities often have several incubators of various sizes.</description>
+    </item>
+    
+    <item>
+      <title>How the cloud grew up around Linux</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/how-the-cloud-grew-up-around-linux/</link>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-the-cloud-grew-up-around-linux/</guid>
+      <description>Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world. Apache on Linux allowed anyone with a computer and Internet connection to implement a Web server to serve Web pages as part of the World Wide Web of Internet resources.</description>
+    </item>
+    
+    <item>
+      <title>A simple guide to git</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/a-simple-guide-to-git/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/a-simple-guide-to-git/</guid>
+      <description>Simply put, Git is a version control system that can be used to keep track of the changes that you make to files over time - it allows you to revert files to a previous state, or see who made changes to a file at different times if several people are working the those files collaboratively.
+Git was original developed back in 2005 by Linus Torvalds (the creator of Linux) to aid in making changes to the Linux kernel, but has since become the most common open source version control system used today.</description>
+    </item>
+    
+    <item>
+      <title>Devops Demystified</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/devops-demystified/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/devops-demystified/</guid>
+      <description>Last week, my friend Scott Elliott did a great guest presentation at the college where he talked about, amongst other things, devops. Moreover, I’ve been involved myself in the setup and configuration of two software development workflows (which technically makes me a devop); one was in 2017 for a tech startup in Kitchener, and the other one was earlier this year for a much larger project at the University of Waterloo.</description>
+    </item>
+    
+    <item>
+      <title>Blockchain for IT pros</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/blockchain-for-it-pros/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/blockchain-for-it-pros/</guid>
+      <description>IT professionals are often asked to describe technologies to others within their organization, and this includes buzz words they may have heard in some tech article or trade magazine:
+There’s definitely no shortage of these buzz words in the tech industry - “the cloud,” “the Web 2.0,” “XaaS,” “CyberSecurity,” and of course “bitcoin” and “blockchain” are layered as thick as possible within articles and blogs to bolster clicks, likes and shares.</description>
+    </item>
+    
+    <item>
+      <title>Halt and Catch Fire</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/halt-and-catch-fire/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/halt-and-catch-fire/</guid>
+      <description>Halt and Catch Fire is an AMC television series that ran for four seasons from 2014-2017, and covers the culture and pivotal aspects of the computing industry from 1983 (just after the release of the IBM PC) to 1994 (when the Internet and World Wide Web exploded).
+You can binge watch it on Netflix if you like today, and trust me - you won’t be disappointed! Halt and Catch Fire is the best drama I’ve ever seen - an emotional rollercoaster like no other.</description>
+    </item>
+    
+    <item>
+      <title>Lessons I&#39;ve learned from teaching 20 years of IT</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/20-years-of-teaching-lessons-learned/</link>
+      <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/20-years-of-teaching-lessons-learned/</guid>
+      <description>I actually started teaching on April 13th 1998 (20 years ago today).
+It was my final year as a student at the University of Waterloo, and as I was finishing up writing my final exams I realized that I needed to actually go out and get a real job to support my family (I was married with a daughter at the time).
+Prior to that, I had worked on some very cool technology projects for various companies (including some big names like Microsoft, DEC and SUN), as well as worked for the University as a Web developer and sysadmin.</description>
+    </item>
+    
+    <item>
+      <title>Ultimate UNIX timeline</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/ultimate-unix-timeline/</link>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/ultimate-unix-timeline/</guid>
+      <description>One thing that has always annoyed me about the Internet surrounds the history and evolution of UNIX-based operating systems. If you Google “UNIX timeline”, you’ll get a bunch of different results that are either incomplete, incorrect, complicated to the point where it’s unreadable, or a combination of all of these things.
+So this blog post aims to rectify this!
+Here are some important things to note about UNIX in general and each of the UNIX flavours depicted on this timeline:</description>
+    </item>
+    
+    <item>
+      <title>RIP PowerBook</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/rip-powerbook/</link>
+      <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/rip-powerbook/</guid>
+      <description>I took the picture at the top of this post sitting in Starbucks recently with my trusty, 12-year-old PowerBook G4 laptop from Apple. Those sitting around me have no idea how ancient my laptop is - they probably see the glow from the Apple logo on the back and realize that it’s just another Apple laptop.
+But it’s more than just another laptop to me. It’s written over a dozen textbooks for various publishers, created countless curriculum documents for my college, and given well over a hundred presentations.</description>
+    </item>
+    
+    <item>
+      <title>The history of IT certification</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/history-of-it-certification/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/history-of-it-certification/</guid>
+      <description>Nearly everyone working in an Information Technology (IT) field has at least one IT-related certification. This is because IT certification is commonly used as a skills benchmark for hiring and promotion, and it’s been that way for a long, long time.
+So where did all this certification stuff start? If you look online, there isn’t even a Wikipedia page that can give you that answer - like many things in the technology world that predated the Internet, it just wasn’t important enough to keep track of in the Internet Age that started in the 1990s.</description>
+    </item>
+    
+    <item>
+      <title>2017 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2017-in-review/</link>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2017-in-review/</guid>
+      <description>So what happened in 2017?
+Last year I thought I completed my basement arcade by getting Donkey Kong (see my blog post entitled &amp;ldquo;2016 in review&amp;rdquo;), but I was wrong! I actually got two new arcade games this year. The first one was an arcade machine I never thought I’d find in good working condition. It’s also the absolute coolest arcade game of the 1980s with its amazing vector graphics (as well as my all-time favourite arcade game)&amp;hellip;&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>RIP Solaris</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/rip-solaris/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/rip-solaris/</guid>
+      <description>The 80s and 90s was a period of intense development in the computer hardware and software worlds. On the hardware side, processors started to become much more powerful, and the word on the streets was that RISC (Reduced Instruction Set Computing) was going to be the way of the future. Powerful RISC platforms emerged during this time, including Sun Microsystems SPARC, HP PA-RISC, SGI MIPS, IBM PowerPC, and the DEC Alpha - these platforms were very powerful, and ushered in 64-bit computing over a decade before it became common in home computers.</description>
+    </item>
+    
+    <item>
+      <title>Get ready for the chip wars!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/get-ready-for-the-chip-wars/</link>
+      <pubDate>Sat, 22 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/get-ready-for-the-chip-wars/</guid>
+      <description>Intel and their x86 computing architecture have pretty much dominated the computing industry since the late 1980s. In other words, nearly all computers that you’ve used at work or home for the past three decades have used Intel’s proprietary x86 (and later, x64) CPUs. The Intel 80-386 running DOS and Win3.1 won the PC wars by the early 1990s. Then came the Intel 80-486, Pentium, Pentium II, Pentium III, Pentium IV, Core Duos, Core i7s, as well as the AMD equivalents that ran the same x86/x64 instruction sets.</description>
+    </item>
+    
+    <item>
+      <title>50 shades of Cray</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/50-shades-of-cray/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/50-shades-of-cray/</guid>
+      <description>If you wanted a fast computer back in 1976, you bought the 5.5 ton, $9 million Cray-1 made by Cray Research. The Cray-1 was dubbed the first supercomputer as it was designed to be much faster than other (more massive) computers of the time.
+It was incredibly successful in the large computing space and Cray subsequently released a much faster model called the Cray X-MP in 1983 (shown in the picture at the top of this post).</description>
+    </item>
+    
+    <item>
+      <title>Futuretech &#39;92</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/futuretech-92/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/futuretech-92/</guid>
+      <description>This year marks Canada’s 150th anniversary (1867-2017), and while there are some cool events happening this year (e.g. National Parks have free admission), there really isn’t a lot of hoopla surrounding it.
+However, I have very fond memories of Canada’s 125th anniversary in 1992, because that’s when I got to go to Alberta as part of a student enrichment event.
+In the summer of 1992, the Canadian government hosted an event called Futuretech ’92, where 125 of the top students from Eastern Canada were flown to Calgary for a week of educational motivation, and 125 of the top students from Western Canada were flown to Montreal for the same.</description>
+    </item>
+    
+    <item>
+      <title>The future of smartphones</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-future-of-smartphones/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-future-of-smartphones/</guid>
+      <description>As you can see from the picture at the top of this post, last week BlackBerry’s smartphone market share fell to 0% in the global marketplace. In all fairness, this number reflects the number of devices running BlackBerry OS (not the number of BlackBerry-branded Android devices, which together with all other Android devices, comprise 82% of the market).
+If you think back to 2007, BlackBerry pretty much owned the smartphone world that they created - they were too big to fail, and too proud to accept that Apple and Google could eat their cake.</description>
+    </item>
+    
+    <item>
+      <title>An evening with The Woz</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/an-evening-with-the-woz/</link>
+      <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/an-evening-with-the-woz/</guid>
+      <description>I specifically attended yesterday’s Fuzenation Technology &amp;amp; Music Summit in Kitchener, Ontario to hear Steve Wozniak (a.k.a. The Woz) speak.
+In short, he’s the co-founder of Apple, and the engineer who created the Apple I and Apple II computers. The Apple II was the first successful, mass-produced personal computer, and as the Woz points out, the “first one that could play arcade games in full colour” (I still have an Apple II that I use to play arcade games like Donkey Kong).</description>
+    </item>
+    
+    <item>
+      <title>The Linux operating system turns 25 years old today</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/linux-turns-25/</link>
+      <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/linux-turns-25/</guid>
+      <description>Today marks the 25th anniversary of the Linux operating system!
+More specifically, it marks the day that Linus Torvalds announced his new operating system (that was later called Linux) in a newsgroup post:
+From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI Date: 25 Aug 91 20:57:08 GMT Organization: University of Helsinki. Hello everybody out there using minix- I&#39;m doing a (free) operating system (just a hobby, won&#39;t be big and professional like gnu) for 386(486) AT clones.</description>
+    </item>
+    
+    <item>
+      <title>The World Wide Web turns 25 years old today</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/www-turns-25/</link>
+      <pubDate>Tue, 23 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/www-turns-25/</guid>
+      <description>On August 6, 1991, Tim Berners-Lee created a post detailing his World Wide Web project on a newsgroup called alt.hypertext in order to entice others to collaborate with him and create and host Web pages for the World Wide Web. However, it wasn’t until August 23, 1991 that it was made publicly accessible for the world to see. You could argue that August 6 is the real birth of the World Wide Web, but most websites and news aggregators acknowledge August 23 as the true birth of the World Wide Web, including Facebook, which included it as a news item today for everyone!</description>
+    </item>
+    
+    <item>
+      <title>The dawn of personal computing</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/dawn-of-personal-computing/</link>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/dawn-of-personal-computing/</guid>
+      <description>If you know me, or have read various sections of my website, you’ll know that I am a die hard member of the computing industry that also likes to collect vintage computers (this is actually quite common - you’d be surprised how many of my colleagues do the same).
+Yesterday, I managed to find a very interesting canvas painting in Toronto (the picture at the top of this post), and just HAD to have it.</description>
+    </item>
+    
+    <item>
+      <title>Some NeXT level stuff</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/some-next-level-stuff/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/some-next-level-stuff/</guid>
+      <description>1. What is NeXT? (pun intended) NeXT was the computer company that Steve Jobs (co-founder of Apple) created after he got kicked out of Apple in the 1980s. They made high-end UNIX workstations that were intended to rival Apple computers, and primarily targeted for the higher education and science/engineering markets. However, they were not as successful as their competitors in this market and when Steve Jobs returned to Apple in 1997, he ensured that Apple purchased NeXT.</description>
+    </item>
+    
+    <item>
+      <title>PowerShell Essentials for SysAdmins</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/powershell-essentials-for-sysadmins/</link>
+      <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/powershell-essentials-for-sysadmins/</guid>
+      <description>PowerShell is essentially a scripting language and shell (command prompt) that you can use on Windows systems. It’s basically Microsoft’s way of getting a powerful UNIX/Linux/Mac-like shell on the Windows platform (long overdue!). The first versions of PowerShell were pretty horrific, but it’s come a long way since then. PowerShell v4 and later is pretty decent (Win10 comes with PowerShell v5). Luckily, PowerShell v4 comes with Windows Server 2012, and since this post is geared towards sysadmins, I’ll focus everything on Windows Server 2012.</description>
+    </item>
+    
+    <item>
+      <title>2015 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2015-in-review/</link>
+      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2015-in-review/</guid>
+      <description>2015 was an interesting year, and one that I really enjoyed!
+I spent a lot of time getting/restoring/playing the last few arcade machines that I’ve wanted in my arcade collection - I just love the retro arcade hobby! As a result, I won’t be getting or restoring any more in 2016 at all (I have a few arcades that I want to work on to upgrade, but that’s about it). I’ll be spending most of my time playing them!</description>
+    </item>
+    
+    <item>
+      <title>World of Commodore conference</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/world-of-commodore-conference/</link>
+      <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/world-of-commodore-conference/</guid>
+      <description>This is the first year that I’ve been to the World of Commodore event in Mississauga, Ontario. It&amp;rsquo;s a yearly gathering of Commodorks who create new software and hardware for vintage Commodore computers. I had no idea that it even existed until someone I knew told me about it. Since it’s relatively close to me, I just had to go. Plus, I have many Commodore computers in my vintage computer collection.</description>
+    </item>
+    
+    <item>
+      <title>Breathe new life into an old PowerBook G4 using Linux</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
+      <description>So what do you do when you have an old PowerBook that still works but can’t run the latest operating system (OS) and software? Well, you could sell it - but it won&amp;rsquo;t fetch much at all (less than $50 in most cases).
+A better option is to install a currently-supported OS that runs really well on limited hardware&amp;hellip;&amp;hellip;.in other words, install Linux on it!
+I recently installed the latest version of Debian Linux on my PowerBook G4 to make it useful again.</description>
+    </item>
+    
+    <item>
+      <title>The fastest computer I have ever owned!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-fastest-computer-i-have-ever-owned/</link>
+      <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-fastest-computer-i-have-ever-owned/</guid>
+      <description>I know it’s been a while since I’ve blogged last&amp;hellip;.I’ve just been incredibly busy. This past month, I’ve been teaching a video game class at the college, writing the 4th edition of my Linux+ book for Cengage on an accelerated schedule, and managing four technology faculties&amp;hellip;&amp;hellip;all at the same time!
+But today, I got a new computer: A Mac Pro (the higher end 6-core Xeon model with dual AMD FirePro D500s).</description>
+    </item>
+    
+    <item>
+      <title>The evolution of BYOD</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-evolution-of-byod/</link>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-evolution-of-byod/</guid>
+      <description>In the 1980s, email remained a luxury for a small number of larger organizations and universities. Mobile email did not exist. Instead, pagers and cellular telephones were the primary tools for mobile communication. However, in the early 1990s, email rose to prominence with the commercialization of the Internet. Although early smartphones did exist at this time (e.g. IBM’s Simon), email was not considered a mobile technology.
+But by the mid 1990s, the computing landscape had exploded.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft ReFS vs Oracle ZFS - FIGHT!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/refs-vs-zfs-fight/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/refs-vs-zfs-fight/</guid>
+      <description>In the past, most IT admins have put their faith in systems and SANs (Storage Area Networks) that use RAID (Redundant Array of Inexpensive Disks) technology. RAID can be used to combine hard disks together into simple volumes (called RAID-0, or JBOD) that aren’t fault tolerant, but can also be used to create mirrored volumes where both drives are identical in case one fails (called RAID-1), or striped volumes with parity where data is written across several disks with parity information that can be used to calculate the missing data if a drive fails (called RAID-5).</description>
+    </item>
+    
+    <item>
+      <title>The evolution of Information Technology</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/evolution-of-info-tech/</link>
+      <pubDate>Wed, 07 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/evolution-of-info-tech/</guid>
+      <description>As a Dean for the technology faculties of a private college in Canada, I’m always looking to make our programs more aligned to the industry - my motto is: always look forward and never look back!
+However, when it comes to Information Technology (IT), I regularly find that the general perception of IT jobs is stuck in the past by at least a decade. I can’t tell you how many times I’ve met people who think that IT guys are stuck in the back closet of some company doing some menial job, such as re-soldering chips on a computer motherboard much like working on the engine of an old car.</description>
+    </item>
+    
+    <item>
+      <title>Marshall McLuhan was right</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/marshall-mcluhan-was-right/</link>
+      <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/marshall-mcluhan-was-right/</guid>
+      <description>Everyone understands, to some degree, the impact that technology has on our lives. However, if you are an avid reader of “idea” books (for lack of a better word), then you also know that some people understand it poorly at best.
+Take, for example, the book The Shallows by Nicholas Carr. Carr argues that the Internet has reduced our ability to carefully reason through problems and use our imagination. And plenty of people have taken the time to carefully point out the flaws in his views.</description>
+    </item>
+    
+    <item>
+      <title>Mocap in action</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/mocap-in-action/</link>
+      <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/mocap-in-action/</guid>
+      <description>I’ve always been a big fan of Ubisoft games - I remember when Splinter Cell was released for the Xbox - I spent every waking minute of my spare time playing it. I loved the graphics, shading, storyline, stealth gameplay (quite frustrating at times)&amp;hellip;..everything. In fact, I love the whole Splinter Cell series. Best yet, this series is developed almost entirely at the Ubisoft Toronto studio right now.
+Ubisoft is located in a dingy area of Toronto, within an old factory building that doesn’t look impressive on the outside.</description>
+    </item>
+    
+    <item>
+      <title>A successful hackathon at our Kitchener campus!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/a-successful-hackathon-at-our-kitchener-campus/</link>
+      <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/a-successful-hackathon-at-our-kitchener-campus/</guid>
+      <description>In August, I worked with our Microsoft Student Partner (MSP) at the Kitchener campus (Mickey) to organize a 3-day Hackathon for creating Windows 8 Metro apps and games using HTML5/Javascript (technically it’s not called Metro anymore). It just took place this past weekend (Sept 7th - 9th), and was a huge undertaking for Mickey and I, but in the end it turned out amazingly well!
+The college was very good at coordinating the event (somewhat last minute because of a staff change), and Microsoft was incredibly generous - they provided a ton of food (Tim Hortons breakfast each day, and a big lunch each day), t-shirts, giveaways, prizes (Microsoft ArcTouch mice for the winners, and a Windows Phone for the GoDevMental draw).</description>
+    </item>
+    
+    <item>
+      <title>Arcade game CPUs</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/arcade-game-cpus/</link>
+      <pubDate>Sun, 02 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/arcade-game-cpus/</guid>
+      <description>I’ve been getting into arcade games pretty heavily this year, and my posts have reflected this for sure ;-) Today’s post is actually a request from John Spitz, who emailed me after reading some of my other video game posts - he wanted to know if there was a typical progression in the types of hardware used in arcade games over the years.
+The short answer is “yes” as you can see in the diagram I made at the top of this post.</description>
+    </item>
+    
+    <item>
+      <title>How the term &#39;cloud&#39; was invented</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/how-the-term-cloud-was-coined/</link>
+      <pubDate>Thu, 26 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-the-term-cloud-was-coined/</guid>
+      <description>Back in the 1990s, you could look smart my talking about the “Information Superhighway” (the Internet). In the early 2000s, the catch-phase of the day was “eCommerce” (buying crap on the Internet), and in the late 2000s non-technical managers would often toot about “Web 2.0” (an imaginary Internet that basically is the current Internet, but with more content).
+Around 2010, non-technical managers, CIOs, and executives were struggling to find a new BS phrase to call the Internet that will make them look good in meetings.</description>
+    </item>
+    
+    <item>
+      <title>QNX on a moon rover</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/qnx-on-a-moon-rover/</link>
+      <pubDate>Mon, 02 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/qnx-on-a-moon-rover/</guid>
+      <description>Back in September 2011, a group of McMaster business and engineering students started a project aimed to build a moon rover that would be run by the QNX operating system on a BlackBerry PlayBook - a Canadian initiative with Canadian technologies (QNX is 100% Canadian). Here is a link to the original article on CrackBerry.com from the beginning of the project: https://crackberry.com/forums-new-group-aims-put-blackberry-playbook-powered-rover-moon
+I reached out to them because of that article since I’ve had experience with QNX and PlayBook development.</description>
+    </item>
+    
+    <item>
+      <title>SOPA and PIPA</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/sopa-and-pipa/</link>
+      <pubDate>Sat, 21 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/sopa-and-pipa/</guid>
+      <description>With the massive SOPA/PIPA website content blackout on January 18th (including major sites such as Wikipedia), the general public suddenly became far more educated on digital freedom issues.
+The music and movie industry has amassed a fortune in the last 50 years selling music and movies before the dawn of the Internet. Back then, if you wanted music, you had to buy it on some physical medium such as a cassette tape or CD.</description>
+    </item>
+    
+    <item>
+      <title>2011 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2011-in-review/</link>
+      <pubDate>Fri, 30 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2011-in-review/</guid>
+      <description>Personal/Work-Related Events:   I started my new job of Dean of Technology in January. Basically twice the work but the same money. Most of the time it’s a thankless job (because you have to deal with complaints and bitching from everyone), but there is the odd job perk such as flex time and attending social events and conferences. I think the best part is that my official job description has a section that requires that I possess Strong communications skills (fluent in English &amp;amp; Klingon), as well as excellent interpersonal, analytical, strategic, conflict resolution, management, and organizational skills (this is what happens when non-geek HR people ask you for feedback in creating your job description).</description>
+    </item>
+    
+    <item>
+      <title>Hard drives are dead</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/hard-drives-are-dead/</link>
+      <pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/hard-drives-are-dead/</guid>
+      <description>That may seem like a bold statement. And it is. However, Apple said the same thing about the floppy in 1997 when they introduced the iMac without it, and it slowly disappeared afterwards. ZDnet said the same thing about optical media (CDs/DVDs) in 2009 when USB flash drives reached critical mass - and of course optical media is slowly disappearing as we speak (the DVD drive in my Alienware laptop died shortly after I got it, but I never called Dell to replace it because I never use it anyways).</description>
+    </item>
+    
+    <item>
+      <title>The transputer</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-transputer/</link>
+      <pubDate>Thu, 17 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-transputer/</guid>
+      <description>So what the heck is a transputer? Well, it is a RISC CPU design from a company in England called INMOS that was designed so that it could interface with other CPUs of the same type in a massively parallel fashion (like a mini supercomputer).
+The reason it was made was because CISC CPU designs of the 1980s were getting too bulky and people thought that it would be hard to advance them (of course they were wrong - never doubt engineers!</description>
+    </item>
+    
+    <item>
+      <title>BCE, CE, and the new IE</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/bce-ce-ie/</link>
+      <pubDate>Mon, 22 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/bce-ce-ie/</guid>
+      <description>I Google everything. What I find annoying is this: When you Google something that existed before the Internet and has no ongoing importance today (such as local landmarks that have since disappeared), there is literally NOTHING on the Internet about it.
+For example, Leisure Lodge was a very large and glorious hall on the outskirts of Preston (now a part of Cambridge, Ontario) that was THE place to go from the 1950s to 1970s - they had their own big band group (the John Kostigian orchestra), and in the 1970s, they were the biggest disco joint around (they even hosted the Miss Nude World Competition one year).</description>
+    </item>
+    
+    <item>
+      <title>Jaron Lanier on technology</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/jaron-lanier-on-technology/</link>
+      <pubDate>Sun, 23 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/jaron-lanier-on-technology/</guid>
+      <description>Jaron Lanier is a technologist who is known for coining the term “virtual reality” in the 1980s (he started VPL Research - the first virtual reality company).
+I saw him speak during on the of the debates at the Quantum to Cosmos festival last year (a Pi Institute event in Waterloo, Ontario), and quickly Googled him (since he was the only person during the debate who actually said anything worth listening to).</description>
+    </item>
+    
+    <item>
+      <title>Copyright in Canada</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/copyright-in-canada/</link>
+      <pubDate>Sat, 23 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/copyright-in-canada/</guid>
+      <description>Thirty years ago, people bought music on a record&amp;hellip;.a tangible thing like any other item for sale in a store. Now, people can download information (text, music, movies, etc.) from the Internet effortlessly. This copying of information has threatened the business models of many large and powerful companies such as music labels and movie producers. And these companies have reacted to their shrinking profits by abusing copyright and suing their customers rather than changing their business models.</description>
+    </item>
+    
+    <item>
+      <title>The Amazon Kindle ROCKS!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-amazon-kindle-rocks/</link>
+      <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-amazon-kindle-rocks/</guid>
+      <description>Recently, the Amazon Kindle 2 (International Edition) arrived in Canada (the last country to get it :-), and I recently picked one up. Since its original introduction in November 2007, I have watched reviews of it fly around the Internet and on blogs such as GeekBrief.tv.
+Although the reviews were generally positive, I really couldn’t visualize myself replacing my book collection with a Kindle for the simple reason that books have their own distinctive “experience” (and smell :-).</description>
+    </item>
+    
+    <item>
+      <title>IBM hard drive from 1981</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/ibm-hard-drive-1981/</link>
+      <pubDate>Tue, 27 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/ibm-hard-drive-1981/</guid>
+      <description>This picture is of an IBM Model 3380 Hard Drive from 1981. Because it looks like a nuclear device or jet engine, I was able to convince my neighbour that I was generating my own nuclear power from now on, as well as the people at the Chrysler convention that it was an electric engine for a transport truck (I was passing them when going to a high school tech presentation at Bingemans where I used this as a fun prop).</description>
+    </item>
+    
+    <item>
+      <title>The Amazon Kindle: Friend or foe?</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/amazon-kindle-friend-or-foe/</link>
+      <pubDate>Thu, 22 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/amazon-kindle-friend-or-foe/</guid>
+      <description>There has been a lot of hype this week about Kindle - Amazon’s eBook reader.
+I have always regarded eBooks (also referred to as Digital Ink) as evil. They are almost always DRM (Digital Rights Management) protected so that you can’t share information with others and typically require an expensive eBook reader.
+On the other side, the idea of storing my book collection on a nice small aesthetic digital device seems attractive to me as a technophile.</description>
+    </item>
+    
+    <item>
+      <title>Thank you, Apple</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/thankyou-apple/</link>
+      <pubDate>Sat, 27 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/thankyou-apple/</guid>
+      <description>I installed Macintosh OS X 10.5 Leopard on all my Macs today. When you upgrade an OS, you always expect to lose some system settings and have some applications that don’t like the new OS. As a result, I chose to install Leopard on my PowerBook G4 first. It has tons of software and I customized it to the max, so I naturally expected to spend a while tweaking it after the upgrade to get an idea of what I can expect when I upgrade my other computers.</description>
+    </item>
+    
+    <item>
+      <title>Server closet Buddha shrine</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/server-closet-buddha-shrine/</link>
+      <pubDate>Fri, 10 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/server-closet-buddha-shrine/</guid>
+      <description>For the past 2 years, I have had a Buddha Shrine in the server closet in my office. I carefully researched proper Buddha Shrine requirements and styles on Google before I chose the above arrangement (Buddha must be elevated and surrounded by objects that represent tokens of life).
+Why did I do this? Simple. To speed up our current Internet access and reduce the number of times that we need to reboot/reset classroom routers (when caches fill up, etc.</description>
+    </item>
+    
+    <item>
+      <title>When Marketing chooses the cover</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/when-marketing-chooses-the-cover/</link>
+      <pubDate>Thu, 26 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/when-marketing-chooses-the-cover/</guid>
+      <description>I saw this book a short while ago at Chapters (book store chain in Canada). What caught my eye was the humour on the front cover!
+This book is on how to secure your PC using Computer Associates Internet Security software (with a Windows Vista update!). However, the laptop that the lady on the cover is using is a MacBook!
+Currently, there are no known viruses or spyware for Macs! But I definitely agree with the subliminal advertising on the cover of this book: Simple Computer Security&amp;hellip;&amp;hellip;buy a Mac!</description>
+    </item>
+    
+    <item>
+      <title>eMac family photo frame</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/emac-family-photo-frame/</link>
+      <pubDate>Sun, 15 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/emac-family-photo-frame/</guid>
+      <description>Sometimes, you just do things that bring out the geek within&amp;hellip;&amp;hellip;well&amp;hellip;&amp;hellip;today is one of those days. Guess what you can do with the front bezel of an Apple eMac? Make a family photo frame!
+Simply find a piece of glass that is 14”x11” and place it on the inside of the bezel. Next, place your picture on the glass (preferably with a nice thick matting to add depth) and screw a 15”x12” piece of pressboard into the existing screw holes on the inside of the bezel and you will have a portrait that geeks will immediately notice when they enter your rec room.</description>
+    </item>
+    
+    <item>
+      <title>New Years security resolutions for 2006</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/new-years-security-resolutions-for-2006/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/new-years-security-resolutions-for-2006/</guid>
+      <description>1. Don’t give personal information to obtain documents on the web Many sites want you to register to get a free document or certain web page. What do you think they use your information for? Spam, spam and more spam. If you want to get these documents without putting in your personal information, simply put the URL for the site in http://bugmenot.com and get past the registration!
+2. Protect against Viruses Use Firefox - Many spyware/malware/viruses have code that targets Internet Explorer.</description>
+    </item>
+    
+    <item>
+      <title>4. Tech Flicks</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/techflicks/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/techflicks/</guid>
+      <description>100 Yen: The Japanese Arcade Experience (2012)
+2001: Space Odyssey (1968)
+8 Bit Generation: The Commodore Wars (2016)
+Antitrust (2001)
+Blade Runner (1982)
+Bright (2017)
+Chasing Ghosts: Beyond the Arcade (2007)
+Cloak and Dagger (1984)
+Contact (1997)
+Die Hard 4: Live Free or Die Hard (2007)
+Every Star Wars and Star Trek movie (from the 1970s+)
+Fanboys (2008)
+Freedom Downtime (2001)
+Funspot: A Small Documentary on the World&amp;rsquo;s Largest Video Game Arcade (2016)</description>
+    </item>
+    
+    <item>
+      <title>5. Tech Slogans</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/techslogans/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/techslogans/</guid>
+      <description>Don&amp;rsquo;t Anthropomorphize computers. They hate that.
+I void warranties
+I read your email
+Code poet
+Byte Me
+I see dead pixels
+cd /pub; more beer  No, I will not fix your computer
+There is no place like 127.0.0.1
+There is no place like ::1
+Bow before me for I am root
+Dilbert is NOT fiction
+It must be user error.
+/* No Comment */  My other shirt is clever</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>macOS on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/macos/</link>
+    <description>Recent content in macOS on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Customizing macOS for development</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/customizing-macos-for-development/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/customizing-macos-for-development/</guid>
+      <description>So your boss gave you a Mac for development. Or maybe you bought a Mac because you have to develop iOS apps. Or maybe you bought a MacBook because you need to develop software as well as look good at Starbucks (after the pandemic is over, of course).
+Unfortunately doing serious development using macOS is cumbersome at best. The Aqua desktop in macOS has few features or components geared towards developers.</description>
+    </item>
+    
+    <item>
+      <title>2019 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</guid>
+      <description>This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!
+On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA) Instructor Network.
+This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).</description>
+    </item>
+    
+    <item>
+      <title>Apple is regressing to their 1990s disposition</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/apple-is-regressing-to-their-1990s-disposition/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/apple-is-regressing-to-their-1990s-disposition/</guid>
+      <description>A friend of mine found himself working for a school in the mid 1990s, deploying a new lab of Apple Mac computers designed to teach graphic design. Before the deployment, he went to the technology decision-makers and told them that they could build a much faster lab for half the cost, since their Adobe software can also run on PC. He also noted that Macs play well with other proprietary Apple stuff, whereas PCs played well with most technologies and had a much longer useful lifetime due to upgradability.</description>
+    </item>
+    
+    <item>
+      <title>Cult of Mac Book</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/cult-of-mac-book/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/cult-of-mac-book/</guid>
+      <description>A few weeks ago, I was out at a social event with a bunch of guys and gals from the local Linux/UNIX/developer/IT community (contrary to popular opinion, Linux/UNIX people know how to party hard).
+At one point during the night, we were sitting at a round booth and poking fun at a total Apple fanboy in our group. Someone called him a “Cult of Mac member” and he replied, “And proud to be one - I could write the book on the cult!</description>
+    </item>
+    
+    <item>
+      <title>35th Anniversary of the Macintosh Computer</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/35-anniversary-of-macintosh/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/35-anniversary-of-macintosh/</guid>
+      <description>35 years ago today, Apple announced their Macintosh computer. What made the Macintosh radically different at the time was its graphical user interface (GUI) that was navigated using a mouse (mice were very uncommon in 1984!).
+The first Macintosh only had 128K of RAM and a Motorola 68000 CPU, but it was pretty snappy for the time. The picture at the top of this post is of my daughter next to an original Macintosh 128K (and yes, it still works).</description>
+    </item>
+    
+    <item>
+      <title>Some NeXT level stuff</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/some-next-level-stuff/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/some-next-level-stuff/</guid>
+      <description>1. What is NeXT? (pun intended) NeXT was the computer company that Steve Jobs (co-founder of Apple) created after he got kicked out of Apple in the 1980s. They made high-end UNIX workstations that were intended to rival Apple computers, and primarily targeted for the higher education and science/engineering markets. However, they were not as successful as their competitors in this market and when Steve Jobs returned to Apple in 1997, he ensured that Apple purchased NeXT.</description>
+    </item>
+    
+    <item>
+      <title>Breathe new life into an old PowerBook G4 using Linux</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
+      <description>So what do you do when you have an old PowerBook that still works but can’t run the latest operating system (OS) and software? Well, you could sell it - but it won&amp;rsquo;t fetch much at all (less than $50 in most cases).
+A better option is to install a currently-supported OS that runs really well on limited hardware&amp;hellip;&amp;hellip;.in other words, install Linux on it!
+I recently installed the latest version of Debian Linux on my PowerBook G4 to make it useful again.</description>
+    </item>
+    
+    <item>
+      <title>The fastest computer I have ever owned!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-fastest-computer-i-have-ever-owned/</link>
+      <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-fastest-computer-i-have-ever-owned/</guid>
+      <description>I know it’s been a while since I’ve blogged last&amp;hellip;.I’ve just been incredibly busy. This past month, I’ve been teaching a video game class at the college, writing the 4th edition of my Linux+ book for Cengage on an accelerated schedule, and managing four technology faculties&amp;hellip;&amp;hellip;all at the same time!
+But today, I got a new computer: A Mac Pro (the higher end 6-core Xeon model with dual AMD FirePro D500s).</description>
+    </item>
+    
+    <item>
+      <title>Happy Epoch Day!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/happy-epoch-day/</link>
+      <pubDate>Fri, 13 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/happy-epoch-day/</guid>
+      <description>Today is a special day in the I-don’t-have-a-life-and-can-prove-it-mathematically geek world&amp;hellip;..for today, the epoch will be 1234567890 at precisely 6:31pm (and 30 seconds) Eastern time.
+UNIX (including Mac OS X) and Linux systems use an internal time called the epoch - it is the number of seconds since January 1st, 1970 (the “birth” of UNIX). This is also why UNIX and Linux geeks weren’t too concerned that their OS was going to blow up at Y2K, since the time would simply be 946684800.</description>
+    </item>
+    
+    <item>
+      <title>The Nostradamus of UNIX</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-nostradamus-of-unix/</link>
+      <pubDate>Thu, 22 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-nostradamus-of-unix/</guid>
+      <description>Every so often I re-read a book that I read years ago to remember what it is about. Mostly, I re-read sci-fi or notable works such as Neuromancer (William Gibson) or The Hitchhiker’s Guide to the Galaxy (Douglas Adams) since those are the types of books that I kept over the years.
+However, I kept a book from 1989 called Life with UNIX (Don Libes &amp;amp; Sandy Ressler) that I remember using as a good UNIX reference a long time ago.</description>
+    </item>
+    
+    <item>
+      <title>The UNIX way</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-unix-way/</link>
+      <pubDate>Tue, 29 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-unix-way/</guid>
+      <description>Back in the 1980s, someone started the UNIX-HATERS mailing list as a means of venting UNIX-related frustrations. In 1994, Simson Garfinkel, Daniel Weise, and Steven Strassmann collected these frustrations and published them in a book called “The UNIX-HATERS Handbook” with extra commentary aimed to portray one view: UNIX sucks. The book itself contains plenty of great information about different technologies such as shell scripting, UNIX commands, email and file systems – it’s too bad that they cast everything in a very negative light.</description>
+    </item>
+    
+    <item>
+      <title>Are you a Mac or a PC?</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/are-you-a-mac-or-pc/</link>
+      <pubDate>Thu, 13 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/are-you-a-mac-or-pc/</guid>
+      <description>If you are ultra-Mac, you prefer to use an aesthetic computer that “just works” - as a result, you are usually sexy, artistic and cool.
+If you are ultra-PC, you prefer to use a clunky un-aesthetic computer that is difficult to use, crashes often, is a virus hell, yet is guaranteed to work with any piece of hardware with a software driver written by a 10-year-old boy in a barn in China - as a result, you are nerdy, cheap and non-cool.</description>
+    </item>
+    
+    <item>
+      <title>Thank you, Apple</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/thankyou-apple/</link>
+      <pubDate>Sat, 27 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/thankyou-apple/</guid>
+      <description>I installed Macintosh OS X 10.5 Leopard on all my Macs today. When you upgrade an OS, you always expect to lose some system settings and have some applications that don’t like the new OS. As a result, I chose to install Leopard on my PowerBook G4 first. It has tons of software and I customized it to the max, so I naturally expected to spend a while tweaking it after the upgrade to get an idea of what I can expect when I upgrade my other computers.</description>
+    </item>
+    
+    <item>
+      <title>iPhone first impressions</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/iphone-first-impressions/</link>
+      <pubDate>Sat, 30 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/iphone-first-impressions/</guid>
+      <description>The iPhone went on sale in the US yesterday. And yes, for the past several months since its introduction, I wanted one badly&amp;hellip;..but after hearing from those who have one, I am not so upset now that the iPhone is not available in Canada until later this year.
+Basically, those who have one say that it “feels like a 1.0 device”, which it is. It uses the old EDGE service rather than new and fast 3G Mobile service in order to save battery power (Apple rationalizes that most will use the iPhone’s WiFi to browse the Internet instead).</description>
+    </item>
+    
+    <item>
+      <title>iThink therefore iMac</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/ithink-therefore-imac/</link>
+      <pubDate>Wed, 22 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/ithink-therefore-imac/</guid>
+      <description>The old expression “Mac users usually swear by their computers&amp;hellip;..Windows users typically swear at their computers” got to me last week when my instructor computer’s Windows desktop and applications froze 3 times at the beginning of class. As a result, my Terminal Services connection (that I use to record daily quiz marks) was destroyed each time. So I brought an old iMac G3 with OS X Tiger into my classroom this week and put it on a switch box so that I can use it to record marks across Terminal Services (OS X doesn’t crash) while keeping my instructor computer free for classroom use.</description>
+    </item>
+    
+    <item>
+      <title>1. Operating Systems</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/operatingsystems/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/operatingsystems/</guid>
+      <description>UNIX UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX.</description>
+    </item>
+    
+  </channel>
+</rss>

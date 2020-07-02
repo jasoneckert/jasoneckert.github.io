@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      War Games shell scripting fun
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2008-10-06</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+6 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/sysadmin"
+      title="tags"
+    >sysadmin</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="wargames.png#right" alt="War Games" title="War Games"></p>
+<p>While my daughter and I sat across from each other in Starbucks drinking coffee and PIN messaging each other in Leetspeak using our BlackBerries (yes, I realize how drastically nerdy this is), the thought occurred to us that a simple shell script could easily be used to simulate the War Operation Plan Response (WOPR) supercomputer from the movie War Games (1983).</p>
+<p>Anyways, we analyzed the frame-by-frame output from the movie and recreated the output on the Sun Enterprise 450 in my classroom running Red Hat Linux.</p>
+<p>Basically, we created a user called Joshua with no password (simply remove the !! from the password field in the /etc/shadow file to make a blank password).</p>
+<p>Next, we modified the /etc/issue and /etc/issue.net files to remove all existing lines so that only the LOGIN: prompt appears when you connect to the machine (we also had to remove the lines at the end of /etc/rc.d/rc.local that overwrite the /etc/issue and /etc/issue.net files at boot time).</p>
+<p>Next, we created the /home/Joshua/.hushlogin file to prevent the typical crap (i.e. last login) from appearing after logging in as Joshua.</p>
+<p>Next, we made a shell script called /home/Joshua/wopr and added the line “.  /home/Joshua/wopr” to the end of the environment file /home/Joshua/.bash_profile such that it is called into the current environment following login.  The shell script is shown below (it is accurate to the movie and uses “sleep 0” commands to slow things down to a 1983 rate):</p>
+<pre><code>#!/bin/bash
+export PS1=&quot;&quot;
+clear
+echo -e &quot;\0077145    11458                11009       11893       11972        11315&quot;
+echo -e &quot;\007PRT CON. 3.4.5.   SECTRAN 9.4.3.                    PORT STAT: SD-345&quot;
+sleep 0
+echo -e &quot;\007&quot;
+echo -e &quot;\007(311) 699-7385&quot;
+echo -e &quot;\007\182\182\182\182\182\182\182\182\182\182\182\182&quot;
+sleep 0
+sleep 0
+clear
+echo -e &quot;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&quot;
+echo -e &quot;\007(311) 699-7385&quot;
+sleep 0 &amp;&amp; sleep 0
+clear
+echo -e &quot;\n\n\n\n\n\n&quot;
+echo -e &quot;\007(311) 767-8739&quot;
+echo -e &quot;\007(311) 938-2364&quot;
+sleep 0
+echo -e &quot;\007-            PRT.STAT.                              CRT. DEF.&quot;
+echo -e &quot;\007           ================================================&quot;
+sleep 0
+echo -e &quot;\007               3453                                    3594&quot;
+echo -e &quot;\007F543.4.50: SDSDKJ: SDFJSL:                     DKSJL: SKFJJ: SDKFJLJ:&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;\007SYSPROC FUNCT READY                       ALT NET READY&quot;
+echo -e &quot;\007CPU AUTH RV-345-AX8      SYSCOMP STATUS:  ALL PORTS ACTIVE&quot;
+sleep 0
+echo -e &quot;22/34534.50/3209                                      11CVB-3904-39490&quot;
+sleep 0
+echo -e &quot;(311) 938-2364&quot;
+sleep 0
+echo -e &quot;22/34534.50/3209                                      11CVB-3904-39490&quot;
+echo -e &quot;728/34X24 568500291&quot;
+sleep 0
+clear
+echo -e &quot;\00712934-AD-43KJ: CONTR PAK&quot;
+echo -e &quot;(311) 767-1083&quot;
+sleep 0
+echo -e &quot;     FLD CRS: 33.34.544   HPBS: 34/45/56/83/  STATUS FLT   034/304&quot;
+sleep 0 &amp;&amp; sleep 0
+clear
+echo -e &quot;\n\n\n\n\n\n\n\n\n\n\n\n&quot;
+echo -e &quot;\007\182\182\182\182\182\182\182\182\182\182\182\182&quot;
+sleep 0
+echo -e &quot;1145-45-F6-3456                   NOPR STATUS: TRAK OFF      PRON ACTIVE&quot;
+echo -e &quot;#45:L34:45 11 WER: 45/29/01  XCOMP: 43249582   YCOMP:34929430D  ZCOMP:343906834&quot;
+echo -e &quot;\007\182\182\182\182\182\182\182               TRON: 65=65/74/24/65/87&quot;
+sleep 0
+echo -e &quot;\007-            PRT.STAT.                              CRT. DEF.&quot;
+echo -e &quot;\007           ================================================&quot;
+sleep 0
+echo -e &quot;\007               3453                                    3594&quot;
+sleep 0
+clear
+echo -e &quot;\007FL742   TK01   BM93   RG01   PZ90   6J82   FP03   ZW08   JM89&quot;
+echo -e &quot;REF TRAPCOM: 43.45342.349&quot;
+echo -e &quot;\007SYSPROC FUNCT READY                       ALT NET READY&quot;
+sleep 0 &amp;&amp; sleep 0
+clear
+echo -e &quot;\007(311) 767-8739&quot;
+echo -e &quot;\007(311) 938-2364&quot;
+sleep 0
+echo -e &quot;\007-            PRT.STAT.                              CRT. DEF.&quot;
+echo -e &quot;\007           ================================================&quot;
+sleep 0
+echo -e &quot;\007               3453                                    3594&quot;
+echo -e &quot;\007F543.4.50: SDSDKJ: SDFJSL:                     DKSJL: SKFJJ: SDKFJLJ:&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;\007SYSPROC FUNCT READY                       ALT NET READY&quot;
+echo -e &quot;\007CPU AUTH RV-345-AX8      SYSCOMP STATUS:  ALL PORTS ACTIVE&quot;
+sleep 0
+echo -e &quot;22/34534.50/3209                                      11CVB-3904-39490&quot;
+sleep 0
+echo -e &quot;(311) 938-2364&quot;
+sleep 0
+echo -e &quot;22/34534.50/3209                                      11CVB-3904-39490&quot;
+echo -e &quot;728/34X24 568500291&quot;
+sleep 0
+clear
+echo -e &quot;\00712934-AD-43KJ: CONTR PAK&quot;
+echo -e &quot;(311) 767-1083&quot;
+sleep 0
+echo -e &quot;     FLD CRS: 33.34.544   HPBS: 34/45/56/83/  STATUS FLT   034/304&quot;
+sleep 0
+clear
+echo -e &quot;\007(311) 767-8739&quot;
+echo -e &quot;\007(311) 938-2364&quot;
+sleep 0
+echo -e &quot;\007-            PRT.STAT.                              CRT. DEF.&quot;
+echo -e &quot;\007           ================================================&quot;
+sleep 0
+echo -e &quot;\007               3453                                    3594&quot;
+echo -e &quot;\007F543.4.50: SDSDKJ: SDFJSL:                     DKSJL: SKFJJ: SDKFJLJ:&quot;
+sleep 0
+echo -e &quot;\007SYSPROC FUNCT READY                       ALT NET READY&quot;
+echo -e &quot;\007CPU AUTH RV-345-AX8      SYSCOMP STATUS:  ALL PORTS ACTIVE&quot;
+sleep 0
+echo -e &quot;22/34534.50/3209                                      11CVB-3904-39490&quot;
+sleep 0
+echo -e &quot;(311) 938-2364&quot;
+sleep 0
+echo -e &quot;22/34534.50/3209                                      11CVB-3904-39490&quot;
+echo -e &quot;728/34X24 568500291&quot;
+sleep 0
+clear
+echo -e &quot;\00712934-AD-43KJ: CONTR PAK&quot;
+echo -e &quot;(311) 767-1083&quot;
+sleep 0
+echo -e &quot;     FLD CRS: 33.34.544   HPBS: 34/45/56/83/  STATUS FLT   034/304&quot;
+sleep 1
+clear
+sleep 4
+echo -e &quot;G\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;R\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;E\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;E\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;T\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;I\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;N\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;G\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;S\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot; \c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;P\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;R\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;O\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;F\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;E\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;S\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;S\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;O\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;R\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot; \c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;F\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;A\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;L\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;K\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;E\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;N\c&quot;
+sleep 0 &amp;&amp; sleep 0
+echo -e &quot;.&quot;
+sleep 0 &amp;&amp; sleep 0
+</code></pre><p>Next, we decided to create a login called HELP GAMES that also has a blank password (we had to place double quotes around each backquoted section in /etc/profile to prevent errors setting variables after login).  Next, we created a “/home/HELP GAMES/games” shell script that has the lines below and added the line “.  /home/HELP GAMES/wopr” to the end of “/home/HELP GAMES/.bash_profile” to have it load after login:</p>
+<pre><code>#!/bin/bash
+export PS1=&quot;&quot;
+clear
+echo -e &quot;'GAMES' REFERS TO MODELS, SIMULATIONS, AND GAMES&quot;
+echo -e &quot;WHICH HAVE TACTICAL, AND STRATEGIC APPLICATIONS.&quot;
+echo -e
+echo -e &quot;\n\n&quot;
+sleep 1
+echo -e &quot;FALKEN'S MAZE &quot;
+sleep 1
+echo -e &quot;BLACK JACK &quot;
+sleep 1
+echo -e &quot;GIN RUMMY &quot;
+sleep 1
+echo -e &quot;HEARTS &quot;
+sleep 1
+echo -e &quot;BRIDGE &quot;
+sleep 1
+echo -e &quot;CHECKERS &quot;
+sleep 1
+echo -e &quot;CHESS &quot;
+sleep 1
+echo -e &quot;POKER &quot;
+sleep 1
+echo -e &quot;FIGHTER COMBAT &quot;
+sleep 1
+echo -e &quot;GUERRILLA ENGAGEMENT &quot;
+sleep 1
+echo -e &quot;DESERT WARFARE &quot;
+sleep 1
+echo -e &quot;AIR-TO-GROUND ACTIONS &quot;
+sleep 1
+echo -e &quot;THEATERWIDE TACTICAL WARFARE &quot;
+sleep 1
+echo -e &quot;THEATERWIDE BIOTOXIC AND CHEMICAL WARFARE &quot;
+sleep 1
+echo -e &quot;\n &quot;
+echo -e &quot;GLOBAL THERMONUCLEAR WAR &quot;
+sleep 5
+exit 0
+</code></pre><p>Now, you can simply type HELP GAMES to get a list of games or type Joshua to get the same screens that Matthew Broderick got in the War Games movie.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/crackberry-book/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="CrackBerry Book"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/how-to-please-your-it-dept/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="How to please your IT department"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

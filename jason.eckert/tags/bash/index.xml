@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bash on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/bash/</link>
+    <description>Recent content in bash on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Oct 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>War Games shell scripting fun</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/war-games-shell-scripting-fun/</link>
+      <pubDate>Mon, 06 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/war-games-shell-scripting-fun/</guid>
+      <description>While my daughter and I sat across from each other in Starbucks drinking coffee and PIN messaging each other in Leetspeak using our BlackBerries (yes, I realize how drastically nerdy this is), the thought occurred to us that a simple shell script could easily be used to simulate the War Operation Plan Response (WOPR) supercomputer from the movie War Games (1983).
+Anyways, we analyzed the frame-by-frame output from the movie and recreated the output on the Sun Enterprise 450 in my classroom running Red Hat Linux.</description>
+    </item>
+    
+  </channel>
+</rss>

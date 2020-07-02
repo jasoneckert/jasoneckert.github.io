@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/security/</link>
+    <description>Recent content in security on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jul 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When Marketing chooses the cover...</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/when-marketing-chooses-the-cover/</link>
+      <pubDate>Thu, 26 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/when-marketing-chooses-the-cover/</guid>
+      <description>I saw this book a short while ago at Chapters (book store chain in Canada). What caught my eye was the humour on the front cover!
+This book is on how to secure your PC using Computer Associates Internet Security software (with a Windows Vista update!). However, the laptop that the lady on the cover is using is a MacBook!
+Currently, there are no known viruses or spyware for Macs! But I definitely agree with the subliminal advertising on the cover of this book: Simple Computer Security&amp;hellip;&amp;hellip;buy a Mac!</description>
+    </item>
+    
+    <item>
+      <title>New Years security resolutions for 2006</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/new-years-security-resolutions-for-2006/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/new-years-security-resolutions-for-2006/</guid>
+      <description>1. Don’t give personal information to obtain documents on the web Many sites want you to register to get a free document or certain web page. What do you think they use your information for? Spam, spam and more spam. If you want to get these documents without putting in your personal information, simply put the URL for the site in http://bugmenot.com and get past the registration!
+2. Protect against Viruses Use Firefox - Many spyware/malware/viruses have code that targets Internet Explorer.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      How to write an academic technical textbook
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2020-02-19</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+7 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/books"
+      title="tags"
+    >books</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="cover.jpg#right" alt="Cengage cover" title="Cengage cover"></p>
+<p>If you head over to <a href="../../bio/my-published-books/" title="My published books">My published books</a> page, you’ll see that I’ve written a large number of textbooks over the years for different publishers, as well as worked as a technical editor for many other titles.</p>
+<p>Just this past week, I mentioned to a coworker that I’ve finished submitting the AU1 of the final chapter for my latest textbook Hands-On Windows Server 2019, ISBN: 978-0-357-43615-8 (I&rsquo;ve revised this blog post in June to include a pic of my first printed copy).</p>
+<p>Their response was “That’s great, but what is an AU1?” I’ve written so many textbooks that I take terms like AU1 for granted. In this blog post I’ll share the process used to write an academic technical textbook, and give some tips along the way!</p>
+<h1 id="the-people">The people:</h1>
+<p>There are several people involved in the development of an academic textbook, regardless of the publisher. And while different publishers vary in the number and type of these roles, most academic authoring projects involve:</p>
+<ul>
+<li>
+<p>The author (or authors if multiple people are creating content).</p>
+</li>
+<li>
+<p>A technical editor (TE). The TE reviews everything that the author creates, verifying technical details to ensure that the content is accurate. This involves verifying technical details online, testing URLs, and ensuring that the content is technically sound.</p>
+</li>
+<li>
+<p>One or more reviewers. Reviewers are often college instructors who teach a course that aligns well with the textbook content. Their main job is to read over the material and identify whether there are areas that they think will be difficult for their students to understand, as well as give their general impressions about content and flow. You can think of reviewers as the private beta testers for a textbook project.</p>
+</li>
+<li>
+<p>A copyeditor (CE). The CE is a content editor that checks for grammatical errors and modifies content according to a style guide (a large set of rules for wording consistency and flow created by the publisher). They also review every sentence to ensure readability and comprehension. If there is a sentence that they do not understand, they will ask for clarity. They also check structural elements for consistency. If a sentence refers to a particular figure, key term or concept, they will check the reference to ensure that it is accurate. Copyeditors transform the content into a beautiful and consistent state.</p>
+</li>
+<li>
+<p>A project manager (PM). The PM sets and modifies the schedule during the project. PMs typically manage several different authoring projects at the same time.</p>
+</li>
+<li>
+<p>A developmental editor (DE). The DE is the central point of contact for all other people in the project (PM, CE, reviewers, TE and author). They distribute files as necessary and provide the communication that keeps everyone updated and on track. They also edit content for structure, flow and consistency before distributing it to others. DEs are often experienced or senior editors that have the background needed to oversee an authoring project. You can think of DEs as the movie directors for a textbook project.</p>
+</li>
+</ul>
+<h1 id="the-process">The process:</h1>
+<p>The steps involved in authoring a textbook are listed below. Each step is given a deadline for completion by the PM in the project schedule:</p>
+<ol>
+<li>
+<p>Chapters are submitted by the author to the DE. This submission is called an Author 1st (AU1) and is often a Microsoft Word document and supporting figure files.</p>
+</li>
+<li>
+<p>The DE sends the AU1 to the TE and reviewers.</p>
+</li>
+<li>
+<p>After reading through the chapter, the TE and reviewers add their comments to the chapter (using the Comments feature of Microsoft Word) and send it back to the DE.</p>
+</li>
+<li>
+<p>The DE combines all TE and reviewer comments into a single chapter document and edits it for flow and consistency before sending it back to the author.</p>
+</li>
+<li>
+<p>The author responds to all TE and reviewer comments, making associated changes (if necessary) before sending it back to the DE as an Author 2nd (AU2).</p>
+</li>
+<li>
+<p>The DE sends the AU2 to the CE, who performs an in-depth edit of the content (using the Track Changes feature of Microsoft Word). The CE also adds comments for sentences that need clarification (using the Comments feature of Microsoft Word) before sending the chapter back to the DE.</p>
+</li>
+<li>
+<p>The DE sends the copyedited chapter to the author, who accepts/rejects the changes (with rationale) and responds to all comments before returning it back to the DE.</p>
+</li>
+<li>
+<p>The DE releases the chapter to the production department, who composites the chapter content (including figures) to produce a finished PDF. This PDF (called the first pages) is returned to the DE.</p>
+</li>
+<li>
+<p>The DE sends the first pages to the author for validation. If there are problems with command spacing, figure or information layout, the author will add the relevant notes to the PDF (using the Comments feature of Adobe Acrobat) before returning it to the DE. This is called a page proof (PP).</p>
+</li>
+<li>
+<p>The DE sends the PP to the production department, who fix any problems and create another PDF (called the second pages) that is ready for print.</p>
+</li>
+</ol>
+<p>It is important to note that steps 1 through 10 are performed concurrently for different chapters on a project. As an author, you may be writing the AU1 for Chapter 5 while you are working on the AU2 for Chapter 3 and PP for Chapter 1. So you’ll need to check your schedule often and be comfortable juggling multiple different tasks simultaneously.</p>
+<h1 id="the-prerequisites">The prerequisites:</h1>
+<p>Every author will tell you that authoring isn’t for everyone. Creating content is always more difficult than it looks, and takes time and practice to master. In addition,</p>
+<ul>
+<li>
+<p>You must master the English language and be able to generate structured prose quickly, without having to rewrite it multiple times. If you are an avid reader, you’ll likely be a great author. If you need to rely on the Grammarly plugin, then authoring probably isn’t for you.</p>
+</li>
+<li>
+<p>You must master the associated technical subject matter, as well as be a skilled teacher. Technical concepts must be structured and worded in a way that can be easily understood by readers. As Albert Einstein said, “If you can&rsquo;t explain it simply, you don&rsquo;t understand it well enough.”</p>
+</li>
+<li>
+<p>You must avoid using idioms that other cultures will have difficulty understanding.</p>
+</li>
+<li>
+<p>You must use direct language. For example, use in instead of within, and you will instead of a person will. The third person is for research papers only.</p>
+</li>
+</ul>
+<h1 id="other-tips">Other tips:</h1>
+<ul>
+<li>
+<p>Planning is the most important part of an authoring project. I often spend 2-3 weeks at the beginning of each authoring project to plan the structure of each major and minor topic for all chapters (including the major tasks performed in each lab exercise).</p>
+</li>
+<li>
+<p>Your software setup is vital during a project. Rely on virtual machines, and take snapshots regularly so that you can return to a previous state to test something later on.</p>
+</li>
+<li>
+<p>Don’t use MacBooks to write anything (their keyboards are garbage and you won’t get much done). If you have to use a MacBook for vanity reasons, go out and purchase a good USB keyboard to use with it.</p>
+</li>
+<li>
+<p>Remember that nothing goes smoothly in an authoring project. There will be times where a format or convention change requires that you revisit previous chapters, or times when a TE or reviewer is late submitting material, pushing back other deadlines. Never let these things stress you out, and keep current with each schedule change.</p>
+</li>
+<li>
+<p>Stay caffeinated. Purchase enough coffee at the beginning of the project to last for about half the project duration, and keep it varied (mostly dark roast). For example, the following is what you’ll need for the first half of a 12 chapter textbook:</p>
+</li>
+</ul>
+<p><img src="supplies.jpg#center" alt="Coffee supply" title="Coffee supply"></p>
+<h1 id="how-do-i-break-into-textbook-writing">How do I break into textbook writing?</h1>
+<p>I get this question frequently. My response is always “Why? Are you a masochist?”</p>
+<p>But if you possess the right qualities to be a good author, the best way to break into textbook writing is to reach out to an acquisitions editor at a publisher (you can find them on LinkedIn) and let them know your background and areas of strength. In general, new book projects typically go to veteran authors for obvious reasons. However, when a publisher has a need for a book in a new topic area where an existing author is unavailable, you may be offered the book project!</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/tips-to-survive-teaching-an-online-course/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Tips to survive teaching an online course"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/i-finally-beat-tetris/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="I finally beat Tetris!"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

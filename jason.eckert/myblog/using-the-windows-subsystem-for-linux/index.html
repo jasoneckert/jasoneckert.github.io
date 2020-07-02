@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Using the Windows Subsystem for Linux
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2019-01-07</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+4 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/windows"
+      title="tags"
+    >Windows</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/tech"
+      title="tags"
+    >tech</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <h1 id="1-so-what-is-wsl">1. So what is WSL?</h1>
+<p><img src="wsl1.jpg#right" alt="WSL1" title="WSL1"></p>
+<p>Simply put, it’s a kernel interface (lxcore &amp; lxss) that allows 64-bit Linux binaries to run on a Window 10 or Windows Server 2019 kernel.</p>
+<p>All you need to do is add the userland (file system structure and programs) from an existing Linux distribution, such as Ubuntu, Kali, Debian or SUSE, and that Linux distribution will run natively on the Windows kernel!</p>
+<p>You must access the Linux distribution via a Windows program that associates the userland of the Linux distribution to the WSL (e.g. for Kali Linux, this would be kali.exe), and you can install and use multiple Linux distribution userlands simultaneously with the WSL.</p>
+<p>WSL was designed to support developers who have the need to create and test Linux software on Windows, without having to mess around with virtual machines running Linux.  And because it’s a developer technology, Microsoft is actively changing it all the time.</p>
+<p>If you are interested in learning more about its architecture in depth, visit <a href="https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/">https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/</a>. It’s a bit outdated (for example, replace bash.exe below with kali.exe for the Kali Linux userland), but it provides a great amount of depth.</p>
+<p><img src="wsl2.jpg#center" alt="WSL2" title="WSL2"></p>
+<h1 id="2-how-do-i-install-wsl-and-a-linux-userland-on-win10">2. How do I install WSL and a Linux userland on Win10?</h1>
+<p>Simply navigate to Settings, Update &amp; Security and For developers. Next, enable Developer mode and reboot. Finally navigate to Apps and Features, Programs and Features, Turn Windows features on or off, and add the WSL feature. This process is illustrated in the following screenshots:</p>
+<p><img src="wsl3.jpg#center" alt="WSL3" title="WSL3"></p>
+<p><img src="wsl4.jpg#center" alt="WSL4" title="WSL4"></p>
+<p><img src="wsl5.jpg#center" alt="WSL5" title="WSL5"></p>
+<p><img src="wsl6.jpg#center" alt="WSL6" title="WSL6"></p>
+<p>Next, you can navigate to the Windows Store and search for Linux. There are currently five different Linux distributions that you can install - each one is approximately a 200MB download (800MB - 1.2GB footprint following installation before software is added). Make sure you read the notes next to the distribution you install for important links and information.  In the following screenshots, I chose to install the Kali Linux distribution.</p>
+<p><img src="wsl7.jpg#center" alt="WSL7" title="WSL7"></p>
+<p><img src="wsl8.jpg#center" alt="WSL8" title="WSL8"></p>
+<p><img src="wsl9.jpg#center" alt="WSL9" title="WSL9"></p>
+<h1 id="3-completing-the-installation-and-using-your-linux-distribution">3. Completing the installation and using your Linux distribution:</h1>
+<p>One the download has completed, you can start your Linux distribution for the first time using the appropriate command (or icon on the Start menu):</p>
+<ul>
+<li>Ubuntu: <code>ubuntu.exe</code></li>
+<li>openSUSE Leap 42: <code>opensuse-42.exe</code></li>
+<li>SUSE Linux Enterprise Server 12: <code>sles-12.exe</code></li>
+<li>Debian: <code>debian.exe</code></li>
+<li>Kali: <code>kali.exe</code></li>
+</ul>
+<p>Since I installed Kali Linux, I ran kali.exe, and was prompted to specify a UNIX username and password, since it was my first time accessing the distribution:</p>
+<p><img src="wsl10.jpg#center" alt="WSL10" title="WSL10"></p>
+<p>You can then proceed to give the root user a password (sudo passwd root), update your distribution, install software, and access Windows volumes like C:. Kali Linux also comes with a script you can download to install X.org (which can be accessed using Remote Desktop Connection on port 3390).  Here are some relevant commands for Kali Linux:</p>
+<ul>
+<li><code>su –</code></li>
+<li><code>apt-get update</code></li>
+<li><code>wget https://kali.sh/xfce4.sh &amp;&amp; sh xfce.sh</code></li>
+<li><code>/etc/init.d/xrdp start</code> (connect to localhost:3390 within Remote Desktop Connection)</li>
+<li><code>apt install metasploit-framework</code></li>
+<li><code>apt install ssh</code></li>
+<li><code>apt install xbill</code></li>
+<li><code>apt install apache2</code> (or whole LAMP stack, if you like)</li>
+<li><code>apachectl start</code> (connect to localhost:80 within a Windows Web browser)</li>
+<li><code>ls /mnt/c</code></li>
+</ul>
+<p>Some important paths to understand include:</p>
+<ul>
+<li>C:\Users\name\AppData\Local\Microsoft\WindowsApps\KaliLinux.*\kali.exe (this is the actual executable for the Linux distribution)</li>
+<li>C:\Users\name\AppData\Local\Packages\KaliLinux.*\ (this stores your Linux distribution userland (in this case Kali Linux)</li>
+</ul>
+<p>You should add this folder as an exception within your AV software if it barks at you!</p>
+<ul>
+<li>C:\Users\name\AppData\Local\Packages\KaliLinux.*\LocalState\rootfs</li>
+</ul>
+<p>This allows you to access the root filesystem in your Linux distribution userland. It uses a special filesystem called is VolFs. Copying to VoIFs is flakey, but accessing C:\ from WSL (/mnt/c) is not flakey. This means that you must use symlinks to access Windows dev content (via /mnt/c).</p>
+<p>Since WSL is only a kernel interface, and not a real Linux kernel, any software the requires kernel modules or low-level access to Linux components, such as the IP stack, will produce and error if you try to execute them (unless Microsoft builds the equivalent functionality into WSL). This includes programs like nmap, Wireshark, and so on. Remember that WSL was designed for developers. However, it can easily be used to perform remote administration of other systems (ssh and python work very well), or even provide remote systems the ability to connect to Windows via sshd (openssh-server). Plus, it looks cool - look ma, I’m running Linux without virtual machines!</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/35-anniversary-of-macintosh/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="35th Anniversary of the Macintosh Computer"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/2018-in-review/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="2018 in review"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

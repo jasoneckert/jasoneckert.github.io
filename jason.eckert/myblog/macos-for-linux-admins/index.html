@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      macOS for Linux admins
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2018-02-17</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+25 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/sysadmin"
+      title="tags"
+    >sysadmin</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/macos"
+      title="tags"
+    >macOS</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="macos1.png#right" alt="macos1" title="macos1"></p>
+<p>As I mentioned in my CompTIA blog post All About Linux and Linux+ ( <a href="https://www.comptia.org/blog/all-about-linux-and-linux">https://www.comptia.org/blog/all-about-linux-and-linux</a> ), Linux is essentially an open-source UNIX operating system. And since nearly all of the concepts, commands and files are identical between UNIX and Linux, anyone who works with Linux could easily administer a UNIX system.</p>
+<p>Likewise, the macOS operating system that runs on Apple computers is also a flavor of UNIX.  Thus, most of the concepts that you use when administering a Linux system are also applicable to macOS.  While Windows is the most common client operating system used today, many organizations have some macOS clients that they need to support. It’s not uncommon to find Apple laptops running macOS within organizations today, or even Apple desktops within certain departments, such as Marketing, where they are often used for graphics and desktop publishing. Consequently, when applying for IT administration and support jobs that require a macOS skillset, Linux is a big benefit!</p>
+<p>However, before supporting macOS within an organization, it’s important to understand the similarities and differences between Linux and macOS from an IT point-of-view. In the next ten sections of this blog post, I’ll give you an overview of what macOS is, and how each of the major Linux administration topics relate to macOS.</p>
+<h1 id="1-overview-of-macos">1. Overview of macOS</h1>
+<p>Simply put, macOS is the operating system that Apple ships on their desktop and laptop computers.  While macOS can host server services, macOS was designed primarily as an end user operating system, and not as a server (Apple does not sell server hardware products).</p>
+<p>It’s also important to note that macOS is mostly comprised of open source software.  The underlying operating system is an open source operating system called Darwin that is largely maintained by the BSD UNIX community. Apple simply adds the remaining closed source components that comprise the graphical desktop and app frameworks.</p>
+<p>The kernel that macOS uses is called XNU.  XNU is one-third MACH 3.0 microkernel, one-third BSD UNIX kernel (filesystem &amp; networking), and one-third I/O Kit (which is a driver framework that allows the other two components to interact with Darwin). Both XNU and Darwin are directly evolved from NeXTSTEP UNIX.  When Apple purchased NeXT in the late 1990s, they essentially rebranded NeXTSTEP UNIX as Mac OS X (now called macOS).  The latest version of macOS at the time of this writing is called High Sierra (version 10.13).</p>
+<h1 id="2-macos-filesystem-structure">2. macOS Filesystem Structure</h1>
+<p>Although macOS 10.1 through 10.12 typically used HFS+ (Hierarchical File System Plus), the default macOS filesystem in macOS 10.13 is the Apple File System (APFS).  Both HFS+ and APFS contain the same features found in modern Linux filesystems such as ext4, as well as macOS-specific features such as the storage of file fork information used by earlier Apple operating systems.</p>
+<p>Regardless of which filesystem is used, the directory structure on macOS is very similar to Linux since all UNIX systems support the Filesystem Hierarchy Standard (FHS). However, there are some notable differences such as the absence of a /proc filesystem and the use of the /Users directory instead of /home. A list of common macOS directories is shown below:</p>
+<pre><code>/Applications       Stores most user apps
+/bin                Contains binary executables
+/dev                Contain device files
+/etc                Contains most system configuration
+/Library            Contains app libraries, settings &amp; documentation
+/Network            Contains remote libraries and information
+/private            Contains OS information
+/sbin               Contains superuser (root) executables
+/System             Contains most OS &amp; system configuration files
+/tmp                Contains temporary files used by apps
+/Users              Default location for regular user home directories
+/User Information   Contains system documentation
+/usr                Stores most executables &amp; their documentation
+/var                Contains log files and spool/content directories
+/Volumes            Contains subdirectories for mounting devices to
+</code></pre><p>Only the /Applications, /Library, /System, /User Information, and /Users folders are shown in the graphical desktop by default. All other directories are hidden from normal view and may be viewed using a BASH shell.</p>
+<p>The same filename rules in Linux apply in macOS. Filenames may be 255 characters in length and contain upper and lowercase letters, numbers, underscore ( _ ) and dash ( - ) characters. Hidden files start with a period ( . ) and there are two special files in each directory: ( . ) = current directory, ( .. ) = parent directory.</p>
+<h1 id="3-the-macos-desktop">3. The macOS Desktop</h1>
+<p>As you can see in the picture below, the macOS desktop is very similar to the GNOME desktop in Linux. The Dock along the bottom of the desktop is the macOS equivalent of the sidebar in the GNOME desktop. It contains the Trash can (a hidden folder in the user’s home directory, ~/.Trash/*) as well as shortcuts to common apps, including the Finder (file explorer) and System Preferences (system settings). The context-sensitive menu bar at the top of the macOS desktop is used to control the foreground app, as well as perform common system tasks such as connecting to a Wi-Fi network or shutting down your system.</p>
+<p><img src="macos2.jpg#center" alt="macos2" title="macos2"></p>
+<p>Under the hood, the macOS desktop does not reside on X Windows as in Linux. In macOS, Quartz provides the same functionality of X Windows, and the desktop environment that runs on top of it is called Aqua.  X Windows is an optional add-on component in macOS called XQuartz that allows you to run Linux graphical apps within the macOS desktop.</p>
+<h1 id="4-using-terminal-bash-in-macos">4. Using Terminal (BASH) in macOS</h1>
+<p>Unlike Linux, macOS does not support virtual terminals by default. Instead, you can use the Terminal app (/Applications/Utilities/Terminal) to obtain a command line terminal and BASH shell. Alternatively, you can type &gt;console as the username at the macOS login prompt (no password) to obtain a login prompt that allows you to log directly into a command line terminal and obtain a BASH shell.</p>
+<p>If you wish to perform system administration as the root user, you must first enable the root user using the Directory Utility (/System/Library/CoreServices/Applications). Once you open this app, simply select Change Root Password from the Edit menu.</p>
+<p>After you obtain a BASH shell, you can run many of the same commands you’ve become accustomed to on Linux.  It’s also important to note that the same syntax rules that you used on Linux apply to BASH on macOS:</p>
+<ul>
+<li>All commands are case sensitive.</li>
+<li>Regular options (<code>-h</code>) and POSIX options (<code>--help</code>) are listed for most commands.</li>
+<li>The manual pages (man who) and the info pages (<code>info who</code>) list most command documentation. The help command displays BASH function help (<code>help echo</code>).</li>
+<li>Commands may be chained using semicolons (<code>date; who</code>).</li>
+<li>The Standard Output of one command may be sent to the Standard Input of another command using a pipe ( | ) symbol (<code>ps aux | less</code>).</li>
+<li>The Standard Output and Standard Error of a command may be redirected to a file (<code>find /Users &gt; usersfile 2&gt; errorfile</code>).</li>
+<li>Single quotes protect all special shell characters, double quotes protect most shell characters (variables are one exception), backquotes perform command substitution and the backslash protects the next character (<code>echo You owe \$4.50</code>).</li>
+<li>The ~ metacharacter represents user’s home directories.</li>
+<li>The Tab key completes commands and file paths.</li>
+<li>The Ctrl+c key combination cancels a command by sending a SIGINT kill signal to the foreground process.</li>
+<li>Wildcard metacharacters may be used with commands and regular expressions may be used within text utilities.</li>
+<li>BASH control structures and functions may be used to create BASH shell scripts.</li>
+</ul>
+<h1 id="5-common-macos-commands">5. Common macOS Commands</h1>
+<p>Below are some common macOS commands, organized by general function. Although most options to these commands are identical between Linux and macOS, be sure to view the manual page for commands that you will use in the future.</p>
+<h3 id="system-documentation">System Documentation</h3>
+<pre><code>man        Displays/searches the manual page database
+apropos    Searches the manual page database by keyword
+info       Displays/searches the info page database
+help       Displays help on BASH functions
+</code></pre><h3 id="file-management">File Management</h3>
+<pre><code>pwd        Displays the current directory
+cd         Changes the current directory
+ls         Lists files
+file       Displays file type
+locate     Finds files using a pre-defined database
+which      Searches the PATH variable for files
+find       Finds files on the filesystem based on certain criteria
+cp         Copies files and directories
+mv         Moves/renames files and directories
+rm         Removes files and directories
+rmdir      Removes empty directories
+mkdir      Creates empty directories
+ln         Creates hard links. The –s option creates symbolic links
+chown      Changes ownership for files and directories
+chgrp      Changes group ownership for files and directories
+chmod      Changes the permissions (mode) on files and directories
+umask      Changes the UMASK variable
+</code></pre><h3 id="text-tools">Text Tools</h3>
+<pre><code>cat        Displays the contents of text files
+more       Displays the contents of text files page-by-page
+less       Offers more functionality than the more command
+head       Displays the beginning of a text file
+tail       Displays the end of a text file
+sort       Sorts lines in text files
+wc         Counts the lines, words and characters in a text file
+grep       Searches text files for regular expressions
+egrep      A version of grep that supports extended regular expressions
+sed        Edits text files using search-and-replace functions
+awk        Edits and formats text using predefined functions
+vi (vim)   The vi text editor (common to all UNIX systems)
+emacs      The GNU Emacs text editor
+nano       A small easy-to-use text editor
+</code></pre><h3 id="filesystem-administration">Filesystem Administration</h3>
+<pre><code>mount      Mounts a filesystem to a mount point directory
+umount     Unmounts a filesystem from a mount point directory
+pdisk      Creates Apple disk partitions
+newfs_type Creates a new filesystem (apfs, hfs, udf, exfat, msdos)
+fuser      Lists the users accessing a certain file
+df         Displays disk free space by filesystem
+du         Displays disk free space by directory
+quota      Displays quotas for a certain user
+edquota    Edits user quotas
+repquota   Displays a report on quotas by user
+quotacheck Updates quota limits on the filesystem
+</code></pre><p>Disk quotas are configured differently in macOS. In Linux, you enabled quotas using the appropriate option in /etc/fstab. However, /etc/fstab is deprecated in macOS. Instead, you must create two files in the root of the filesystem that you wish to enable quotas on (.quota.ops.user and .quota.ops.group).</p>
+<h3 id="shutdown--system-state">Shutdown &amp; System State</h3>
+<pre><code>shutdown   Shuts down or reboots the system at a specified time
+halt       Shuts down the system immediately
+reboot     Reboots the system immediately
+</code></pre><h3 id="compression-backup--software">Compression, Backup &amp; Software</h3>
+<pre><code>compress   Compresses files using a Lempel-Zif algorithm
+gzip       Compresses files using a standard Lempel-Zif algorithm
+bzip2      Compresses files using a block-sorting algorithm
+tar        Used to create small tar archives and tarballs
+cpio       Used to create full filesystem backups
+make       Manages software compiling using gcc and Makefile settings
+gcc        The GNU C compiler used to compile software
+</code></pre><h3 id="bash-management">BASH Management</h3>
+<pre><code>set        Displays all variables in your shell
+env        Displays exported variables in your shell
+alias      Creates special alias variables
+unalias    Removes special alias variables
+export     Creates and exports variables
+ulimit     Sets BASH limits for users
+</code></pre><p>As in Linux, macOS stores its variables in environment files. The /etc/profile and /etc/bashrc files are used by default on the system. Each user can also create their own ~/.bash_profile and ~/.bashrc files. In addition, ~/.bash_logout may be used to perform tasks at shell exit.</p>
+<h3 id="process-management">Process Management</h3>
+<pre><code>ps         Displays system and user processes
+top        Displays top processes and system statistics
+kill       Sends kill signals to processes by PID
+killall    Sends kill signals to processes by name
+jobs       Displays background processes
+fg         Moves a background process to the foreground
+bg         Moves a foreground process to the background
+nice       Changes the priority of a process as it is started
+renice     Changes the priority of a running process
+at         Schedules commands to run at a later time
+atq        Views at jobs
+atrm       Removes an at job
+crontab    Edits user cron tables (for command scheduling)
+</code></pre><h3 id="users--groups">Users &amp; Groups</h3>
+<pre><code>whoami     Displays the current user name
+who am i   Displays your username and computer information
+groups     Displays the current user’s group memberships
+id         Prints the current User ID (UID) and Group IDs (GIDs)
+chfn       Changes the user description used by the finger command
+finger     Displays user description information
+chsh       Changes the shell for a user account
+passwd     Changes user passwords
+who        Displays who is on the system
+w          Displays who is on the system and what they are doing
+</code></pre><p>User and group administration differs slightly in macOS from Linux. There are no <code>useradd</code> or <code>userdel</code> commands - instead, you must use the System Preferences utility to create user accounts properly. User information is stored in a directory database under the /var/db directory. The /etc/shadow file does not exist and the /etc/passwd and /etc/group files exists only to provide information to apps.</p>
+<h3 id="cups-printing">CUPS Printing</h3>
+<pre><code>lp          Prints a file
+lpstat      Views print jobs and printer status
+cancel      Removes a print job from the print queue
+cupsaccept  Allows jobs to enter a print queue
+cupsreject  Prevents jobs from entering a print queue
+cupsenable  Allows jobs to be sent to the printer from the print queue
+cupsdisable Prevents jobs from leaving the print queue
+</code></pre><h3 id="network--and-security-related">Network- and Security-Related</h3>
+<pre><code>ifconfig    Displays and configures TCP/IP network interfaces
+ping        Tests connectivity between hosts
+whois       Queries domain name registration information
+arp         Views and manages the ARP cache
+netstat     Views TCP/IP network statistics and the routing table
+route       Manages the TCP/IP routing table
+traceroute  Traces and IP packet across routers
+hostname    Sets the system host name
+host        Resolves host names to IP addresses and vice versa
+nslookup    Resolves host names to IP addresses and vice versa
+dig         Resolves host names to IP addresses and vice versa
+su          Switches your user account to another account
+sudo        Performs tasks as another user via entries in /etc/sudoers
+last        Displays a detailed list of previous user logins
+tcpdump     Captures packets on a network interface
+</code></pre><p>Network devices also have different names in macOS. The first Ethernet adapter is called en0 (typically wired Ethernet), and the second Ethernet adapter is called en1 (typically wireless Ethernet). Ensure that you use System Preferences to change any network parameters as they are no longer stored in text files as they are on Linux systems. For example, the /etc/resolv.conf file still exists in macOS and lists DNS servers configured in System Preferences, but it is not used by the system - it is merely there in case an app queries it. The only network-related file that is used actively and may be edited is /etc/hosts (for local host name resolution).</p>
+<h3 id="system--miscellaneous">System &amp; Miscellaneous</h3>
+<pre><code>date        Displays the current date and time
+exit        Exits out of the shell (logout)
+echo        Displays the argument to the terminal screen
+clear       Clears the screen
+uname       Displays system information (–a shows all information)
+uptime      Lists system statistics and uptime
+cal         Lists the calendar for the current month
+banner      Prints an ASCII banner
+iostat      Displays I/O statistics for the system
+</code></pre><h1 id="6-understanding-apps-in-macos">6. Understanding Apps in macOS</h1>
+<p>macOS is very different from Linux when it comes to apps. When you install an app in Linux via a package manager (e.g. *.rpm or *.deb), the files that comprise the app itself are distributed across the file system in various directories, such as /etc, /bin, /opt, /usr, and /var.</p>
+<p>In macOS, all of the binary executable files, supporting data files, configuration information and other app-related information are stored in a single directory called a bundle. Bundles are simply directories that end with the *.app extension.  However, they do not look like directories when you view them in your Finder app - the *.app extension is hidden, and when you double-click the bundle icon, the app is loaded into memory and executed. To execute an app from the command prompt, you can use the open command followed by the pathname to the app bundle (e.g. <code>open /Applications/Firefox.app</code>). Alternatively, if you drag the bundle icon to the Trash, you will remove the entire bundle directory and everything associated with your app – there will be no loose ends left on the system other than user-specific files and settings.</p>
+<p>To look inside a bundle, simply run the cd /Applications/bundle_name.app command from the Terminal app or right-click the bundle in the Finder app and choose Show Package Contents.</p>
+<p>Apps typically rely on shared libraries, which are sets of reusable functions. In Linux, they are stored as shared objects in the in the /lib directory. However, in macOS these libraries are called Frameworks and are stored within bundle files that have the *.framework extension in the /System/Library/Frameworks directory. Frameworks are automatically advertised to running apps by the system.</p>
+<p>The configuration information and settings for macOS apps are stored in plist files (*.plist) within the app bundle itself.  Plist files are written in XML, and can be easily modified to change how the app works on the system. For example, to rename the Trash icon in your Dock, you could open a terminal, switch to the root user (<code>su - root</code>) and run the following commands:</p>
+<pre><code>cd /System/Library/CoreServices/Dock.app/Contents/Resources/en.lproj
+vi InfoPlist.strings
+</code></pre><p>Next, change the line <code>TrashName = “Trash”</code> to <code>TrashName = “Whateveryouwant”</code> and save your changes when finished. To reload your Dock to apply the changes, simply type the following at the command prompt:</p>
+<p><code>killall Dock</code></p>
+<p>If you have several apps that can open a particular file type (e.g. two PDF readers), you can change the default file association for the file type (e.g. ensure that *.pdf files are opened with FoxIT Reader instead of Adobe Reader by default). To do this, simply right-click your file and select Get Info and change the section Open with.</p>
+<p>Although you can compile apps from source code using the <code>make</code> utility (and <code>gcc</code>) as described in the previous section, most apps that you install in macOS are distributed as Disk Image Files (*.dmg) that are downloaded from a Web site or the Apple App Store.</p>
+<p>Disk Image Files are an extension of ISO images. When you download a *.dmg file, it automatically mounts to a directory on your Desktop such that you can access the files and apps within the *.dmg file itself. When you access the mounted directory on your Desktop, you will either see an icon that you can run to install the app, or you will see the actual app bundle itself that you can copy to the /Applications folder in order to install it on your local system. If you install and app via the Apple App Store, then this process is automated for you.</p>
+<h1 id="7-working-with-macos-devices">7. Working with macOS Devices</h1>
+<p>In Linux, device drivers were either compiled into the Linux kernel and referenced using a block or character device file in the /dev directory, or loaded into the Linux kernel as a module. macOS has a somewhat similar structure - the /dev directory has several block and character device files for many system devices. However, the names of those device files are different. For example, the first SATA/SCSI hard disk in Linux is represented by the block device file /dev/sda, and the first primary partition on this hard disk would be represented by the block device file /dev/sda1.</p>
+<p>In macOS, all hard disks typically contain a single partition that is sliced into file systems. By default, the block device file /dev/disk0 refers to the whole partition on the
+first hard disk, /dev/disk0s1 refers to the first slice within this partition, and /dev/disk0s2 refers to the second slice within this partition. Since partition and slice operations cannot be done with block device files in linux, there are also character (or raw) device files for all disks (e.g. /dev/rdisk0, /dev/rdisk0s1, /dev/rdisk0s2). Block device files within macOS are primarily used for mounting filesystems.</p>
+<p>On Linux systems, any device that does not have a device file in the /dev directory typically loads its device driver into the kernel itself from the /lib/modules directory structure. The same is true within macOS, however these modules are called kernel extensions (*.kext) and are loaded into the XNU kernel from the /System/Library/Extensions directory structure. To view the currently loaded kernel extensions, simply type the <code>kextstat</code> command. Similarly, the <code>kextload</code> and <code>kextunload</code> commands may be used to load and unload kernel extensions. Alternatively, you can use the /Applications/Utilities/System Information utility to view loaded kernel extensions.</p>
+<h1 id="8-macos-system-initialization">8. macOS System Initialization</h1>
+<p>Modern Intel-based Apple computers use an EFI BIOS that controls the loading of the macOS bootloader.  To pause the system during startup, simply press the Option key (Alt key on a Windows keyboard) - the EFI BIOS will then scan your hard disk partitions, CD/DVD devices, and USB ports for operating systems and allow you to select the operating system to boot (which could include the macOS installation app from a USB stick).</p>
+<p>You can also press Command+V on an Intel-based Apple computer during boot time to view detailed information about the boot process as well as interact with the macOS boot process itself (the Command key on an Apple keyboard is the same as the Windows key on a PC keyboard).</p>
+<p>The bootloader in macOS is called boot.efi. It is stored in the first slice on the hard disk that contains your operating system (in the /System/Library/CoreServices directory). If the bootloader is missing on the volume, you will see a circle with slash icon, otherwise the bootloader loads the XNU kernel (/System/Library/Kernels/kernel).  XNU in turn starts the Launch Daemon (launchd), which is very similar to the systemd daemon on newer Linux systems.</p>
+<p>The Launch Daemon then loads all other system daemons to bring the system to a useable state via entries within the /Library/LaunchAgents and /Library/LaunchDaemons directories, as well as any optional apps listed in the /System/Library/StartupItems directory. Pressing the Command+S key combination at boot time instructs launchd to boot to Single User Mode (Runlevel 1 in Linux). As in Linux, Single User Mode is a useful place to perform system administration or repair the filesystem, since there are few processes loaded to interfere with these tasks.</p>
+<p>To list available services (daemons) after system initialization, simply switch to the root user (<code>su - root</code>) and use the <code>launchctl list</code> command. You can then stop and start services using the appropriate arguments to the <code>launchctl</code> command (view the man page for available options).</p>
+<h1 id="9-common-macos-administrative-tasks">9. Common macOS Administrative Tasks</h1>
+<h3 id="installing-or-reinstalling-macos">Installing or Reinstalling macOS</h3>
+<p>All Apple computers come pre-installed with macOS.  However, if you ever need to reinstall an Apple computer, you will need to know how to start and perform a typical macOS installation.</p>
+<p>Although it is not the fastest method, the easiest way to reinstall macOS is across the Internet.  Simply press Command+R during boot time until you receive a prompt that allows you to choose Reinstall a new copy of macOS.  Of course, your computer must be connected to either a wired or wireless connection for this method to work.</p>
+<p>Alternatively, to install from DVD or USB installation media, simply insert the media and boot the computer while holding down the Option key. Once the installation app starts, you will be prompted to create an APFS or HFS+ file system as well as select the installation type. You can choose to perform a clean installation (existing filesystems will be erased), update your existing system (this reinstalls OS files, but preserves all settings, apps and user files), or archive your current system and install a fresh copy of the operating system (the old OS is saved to the /PreviousSystems directory). For this third option, the macOS install will try to migrate as many user settings and apps as it can and will keep all user files on the file system.</p>
+<h3 id="updates">Updates</h3>
+<p>You should always keep your macOS system up-to-date with respect to patches for software. By navigating to the Apple icon in the upper left of the macOS desktop and choosing Software Update, you will be able to search for any app and macOS updates. If updates are found, you will be prompted to install them. To see which updates were successfully installed, simply view the contents of the /Library/Receipts directory.</p>
+<h3 id="log-files">Log Files</h3>
+<p>As in Linux, macOS writes system events to log files in the /var/log directory. For example, /var/log/install.log is a log file from installation whereas /var/log/system.log records events from the Darwin kernel subsystem.</p>
+<p>Instead of viewing these log files using the command line, macOS provides a central log file viewer called Console (/Applications/Utilities/Console). Console contains shortcuts to all major log files on the system. Perhaps one of the best features of Console is that it also displays detailed information about apps (e.g. app crashes) that is often very helpful in finding the root cause of an app problem.</p>
+<h3 id="app-passwords">App Passwords</h3>
+<p>If apps ask for passwords (e.g. your web browser asks you if it should remember the login information for a particular website), then this information gets added to a central database of user passwords attached to your user account called a Keychain. Keychains are private to your user account. If you wish to modify, add or remove keychains, you can use the Keychain Access Utility (/Applications/Utilities/Keychain Access). Often, problems associated with running certain apps are a result of a bad keychain – simply remove the keychain entries in the Keychain Access utility to fix the problem.</p>
+<h3 id="file-system-permissions">File System Permissions</h3>
+<p>Although you are probably very comfortable changing permissions on the command line from Linux (the commands are identical in macOS), you can also change permissions and ownership in the Finder app within the macOS desktop by right-clicking any file or directory and choosing Get Info (or the Command+i key combination). If you accidentally change permissions on key macOS system files, you can fix permissions on these files by opening the Disk Utility (/Applications/Utilities/Disk Utility) app and selecting Repair Disk Permissions from the First Aid tab.</p>
+<p>Special permissions are also common in macOS. For example, to facilitate the sharing of files amongst users on the same computer, there is a /Users/Shared directory that gives all users Write access but has the special Sticky Bit permission set such that these users do not delete files they do not own.</p>
+<h3 id="working-with-disks-and-images">Working with Disks and Images</h3>
+<p>The Disk Utility app discussed in the previous section can do much more than verify and repair disk permissions. It can also verify and repair file systems themselves, mount filesystems, erase disks and create file systems, partition/slice hard disks, burn CDs/DVDs (even from ISO images), create ISO/DMG images from files and directories, encrypt ISO/DMG images, as well as create and manage RAID 0 and RAID 1 volumes.</p>
+<p>You can also burn CDs and DVDs using the Finder app. Simply insert a blank disc, and a disc icon will appear on the macOS desktop. Next, drag the files you want to burn to the disc icon on the macOS desktop, and finally drag the disc icon to the Trash.  The Trash icon will turn into a burn icon and proceed to burn your CD/DVD.</p>
+<h3 id="working-with-processes">Working with Processes</h3>
+<p>The Activity Monitor (/Applications/Utilities/Activity Monitor) app is the graphical macOS equivalent of the top command in Linux (top also exists in macOS). By default, Activity Monitor displays the top processes on the system as well as system statistics.  It also allows you to kill processes or view more information about them. Alternatively, you can kill apps using the Cmd+Option+Esc key combination, or by selecting right-clicking the app’s icon on the Dock and selecting Force Quit.</p>
+<h3 id="working-with-user-accounts">Working with User Accounts</h3>
+<p>There are three main user types in macOS: normal user, administrative user, and system
+administrator (the root user). By default, the user account you create during the installation process is an administrative user that has nearly full control over the system configuration.</p>
+<p>The root user is disabled by default and must be manually enabled using the Directory Utility (as discussed earlier in section 4). To create normal and administrative user accounts, you can use the User Accounts section of the System Preferences app. When you create a new user using System Preferences, you can also specify that the user’s home directory be encrypted using the FileVault feature of macOS.  FileVault is a great feature for laptop computers since it guarantees that data will not be viewable if the laptop is stolen. If you enable FileVault, the user’s home directory (/Users/username) will be mounted as an encrypted disk image and the encryption key will be stored in the properties of the user account.  As a safeguard, you can also specify a Master Password that may be used to decrypt FileVault images on the system.</p>
+<h1 id="10-macos-networking">10. macOS Networking</h1>
+<p>You can configure macOS as a client in nearly any network environment, as well as use macOS as a network server. To configure client networking within macOS, simply choose Network within the System Preferences app. macOS organizes all network interface configuration into Locations much like firewalld does on a modern Linux system that uses Systemd.  For example, you could make a Location called Work that uses a TCP/IP configuration for your work network, as well as a Location called Home that uses a TCP/IP configuration for your Internet access at home. By default, your configuration is stored in the Automatic Location, but you can configure as many Locations as you like and switch between them as needed.</p>
+<p>Under each Location, you will see ports that represent a network interface (Ethernet wired NIC, Wi-Fi NIC, Thunderbolt, Bluetooth, etc.). When you select a port and choose Configure, you can configure your TCP/IP protocol (as shown below) or click Advanced to configure advanced settings such as MAC info, DNS, WINS, PPPoE (xDSL), proxy servers, and so on:</p>
+<p><img src="macos3.png#center" alt="macos3" title="macos3"></p>
+<p>If you wish to join your macOS system to an Active Directory domain, or configure your macOS computer as a client to other authentication-based network services, simply open the Directory Utility and configure the appropriate options.</p>
+<p>To configure server services within macOS, simply choose Sharing within the System Preferences app. You will see a simple interface that will allow you to configure basic network services as shown in the graphic below. These same services can also be configured using commands within a Terminal app, and the configuration files for each of these services in the /etc directory is nearly identical to the configuration files for the same services on a Linux system.</p>
+<ul>
+<li>Screen Sharing provides VNC screen sharing.</li>
+<li>File Sharing allows you to share files using the legacy Apple File Protocol (AFP) or using Samba/SMB (Windows File Sharing).</li>
+<li>Printer Sharing uses CUPS and IPP (connect using CUPS from any UNIX/Linux client or using http://servername:631/printers/).</li>
+<li>Remote Login is Secure Shell (SSH).</li>
+<li>Remote Management configures Apple Remote Desktop.</li>
+<li>Remote Apple Events activates central logging from other Apple/UNIX/Linux computers using the syslog daemon.</li>
+<li>Internet Sharing configures your computer as a Network Address Translation (NAT) router to share Internet access with other computers on your LAN.</li>
+<li>Bluetooth Sharing allows your computer to pair with other Bluetooth devices for file sharing.</li>
+</ul>
+<p><img src="macos4.png#center" alt="macos4" title="macos4"></p>
+<p>If you wish to configure a firewall on your macOS system, simply choose Security in System Preferences. Next, click on the Firewall tab and supply the protocol or ports that you wish to allow or deny.</p>
+<p>You can also configure advanced server services on a macOS system by installing the necessary open source packages manually, or by purchasing the Server app from the Apple App store.  The Server app will allow you to configure Apache, DNS, DHCP, OpenDirectory, and a large number of additional server services from an interface that is just as easy to use as the Sharing app in System Preferences.  The Server app also allows you to control the settings on all of the iPads, iPhones and macOS computers within your organization via Web-based enrollment.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/history-of-it-certification/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="The history of IT certification"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/2017-in-review/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="2017 in review"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
