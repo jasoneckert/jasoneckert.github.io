@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bio on Welcome to My Site!</title>
-    <link>http://triosdevelopers.com/jason.eckert/tags/bio/</link>
+    <link>http://jasoneckert.github.io/tags/bio/</link>
     <description>Recent content in bio on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/bio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jasoneckert.github.io/tags/bio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2019 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2019-in-review/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2019-in-review/</guid>
       <description>This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!
 On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA) Instructor Network.
 This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).</description>
@@ -24,10 +24,10 @@ This, of course, fit well since I just finished writing the 5th edition of my Li
     
     <item>
       <title>What it&#39;s like a year after quitting Facebook</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/what-its-like-a-year-after-quitting-facebook/</link>
+      <link>http://jasoneckert.github.io/myblog/what-its-like-a-year-after-quitting-facebook/</link>
       <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/what-its-like-a-year-after-quitting-facebook/</guid>
+      <guid>http://jasoneckert.github.io/myblog/what-its-like-a-year-after-quitting-facebook/</guid>
       <description>Just under a year ago, I quit Facebook. Yup. After a decade of using it frequently, with over 10,000 posts and 7,000 pictures.
 It was the best decision I made.
 The original premise of Facebook has always appealed to me: connect with others you know in real life, but online, in order to share pictures and information to keep current. But it also has a lot of negatives:
@@ -36,10 +36,10 @@ The original premise of Facebook has always appealed to me: connect with others 
     
     <item>
       <title>2018 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2018-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2018-in-review/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2018-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2018-in-review/</guid>
       <description>At the end of each year, I take some time to reflect on the previous year - it provides perspective, and is a lot of fun!
 For me, 2018 was the year I spent a lot of time improving myself physically, challenging myself mentally, and most importantly, enjoying life!
 On the personal side, I cut out the bad foods from my diet:
@@ -48,10 +48,10 @@ On the personal side, I cut out the bad foods from my diet:
     
     <item>
       <title>Lessons I&#39;ve learned from teaching 20 years of IT</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/20-years-of-teaching-lessons-learned/</link>
+      <link>http://jasoneckert.github.io/myblog/20-years-of-teaching-lessons-learned/</link>
       <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/20-years-of-teaching-lessons-learned/</guid>
+      <guid>http://jasoneckert.github.io/myblog/20-years-of-teaching-lessons-learned/</guid>
       <description>I actually started teaching on April 13th 1998 (20 years ago today).
 It was my final year as a student at the University of Waterloo, and as I was finishing up writing my final exams I realized that I needed to actually go out and get a real job to support my family (I was married with a daughter at the time).
 Prior to that, I had worked on some very cool technology projects for various companies (including some big names like Microsoft, DEC and SUN), as well as worked for the University as a Web developer and sysadmin.</description>
@@ -59,30 +59,30 @@ Prior to that, I had worked on some very cool technology projects for various co
     
     <item>
       <title>2017 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2017-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2017-in-review/</link>
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2017-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2017-in-review/</guid>
       <description>So what happened in 2017?
 Last year I thought I completed my basement arcade by getting Donkey Kong (see my blog post entitled &amp;ldquo;2016 in review&amp;rdquo;), but I was wrong! I actually got two new arcade games this year. The first one was an arcade machine I never thought I’d find in good working condition. It’s also the absolute coolest arcade game of the 1980s with its amazing vector graphics (as well as my all-time favourite arcade game)&amp;hellip;&amp;hellip;.</description>
     </item>
     
     <item>
       <title>Finding Idylwild Park</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/finding-idylwild-park/</link>
+      <link>http://jasoneckert.github.io/myblog/finding-idylwild-park/</link>
       <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/finding-idylwild-park/</guid>
+      <guid>http://jasoneckert.github.io/myblog/finding-idylwild-park/</guid>
       <description>I grew up (and currently live) in the city of Cambridge in Ontario, Canada. The city was formed when 3 smaller towns (Hespeler, Preston and Galt) amalgamated in 1973, but the towns have a rich history as some of the key centers for industry in Upper Canada during the 1800s and early 1900s.
 When I was Googling something related to the new light rail transit system currently being installed in the region, I came across a Wikipedia page where I learned that there was an electric passenger railway between Hespeler, Preston and Galt from the late 1800s until 1955 called the Galt, Preston &amp;amp; Hespeler (GP&amp;amp;H) Street Railway.</description>
     </item>
     
     <item>
       <title>Futuretech &#39;92</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/futuretech-92/</link>
+      <link>http://jasoneckert.github.io/myblog/futuretech-92/</link>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/futuretech-92/</guid>
+      <guid>http://jasoneckert.github.io/myblog/futuretech-92/</guid>
       <description>This year marks Canada’s 150th anniversary (1867-2017), and while there are some cool events happening this year (e.g. National Parks have free admission), there really isn’t a lot of hoopla surrounding it.
 However, I have very fond memories of Canada’s 125th anniversary in 1992, because that’s when I got to go to Alberta as part of a student enrichment event.
 In the summer of 1992, the Canadian government hosted an event called Futuretech ’92, where 125 of the top students from Eastern Canada were flown to Calgary for a week of educational motivation, and 125 of the top students from Western Canada were flown to Montreal for the same.</description>
@@ -90,20 +90,20 @@ In the summer of 1992, the Canadian government hosted an event called Futuretech
     
     <item>
       <title>2016 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2016-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2016-in-review/</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2016-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2016-in-review/</guid>
       <description>For the past years, I’ve done a “year in review” blog post, and of course this one is for 2016! It’s a great way to reflect on the events that have happened during the year, and to honest, is actually a lot of fun!
 Just a quick disclaimer: I have no intention of talking about the shallow-but-popular celebrity death fixation that has taken over the Internet (must be a millennial thing).</description>
     </item>
     
     <item>
       <title>10 years of Facebook humour</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/10-years-of-facebook-humour/</link>
+      <link>http://jasoneckert.github.io/myblog/10-years-of-facebook-humour/</link>
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/10-years-of-facebook-humour/</guid>
+      <guid>http://jasoneckert.github.io/myblog/10-years-of-facebook-humour/</guid>
       <description>While most of my posts are pictures (funny pictures, persona pictures, memes, etc.), I’ve also got lots of funny text posts. I got a chuckle out of reading them again, so I thought I’d share them here for others to enjoy!
 Here they are, sorted from newest to oldest:
 If you want to rapidly get through a crowded area, just carry a clipboard and try to make eye contact with people.</description>
@@ -111,30 +111,30 @@ If you want to rapidly get through a crowded area, just carry a clipboard and tr
     
     <item>
       <title>Video Game Reflections</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/video-game-reflections/</link>
+      <link>http://jasoneckert.github.io/myblog/video-game-reflections/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/video-game-reflections/</guid>
+      <guid>http://jasoneckert.github.io/myblog/video-game-reflections/</guid>
       <description>The Atari days When it came to video games growing up, my parents were fairly progressive – although they had no desire to play them, they didn’t see them as anything but fun and somewhat educational. And in the early 80s, when home game consoles were all the rage, my parents bought us an Atari 2600 (the all-black “Darth Vader” model shown to the right) and some games.
 We lived in a big old house, and there was a very large, unused room upstairs (we affectionately called “the back room”) that was used as the toy/Atari room.</description>
     </item>
     
     <item>
       <title>2015 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2015-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2015-in-review/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2015-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2015-in-review/</guid>
       <description>2015 was an interesting year, and one that I really enjoyed!
 I spent a lot of time getting/restoring/playing the last few arcade machines that I’ve wanted in my arcade collection - I just love the retro arcade hobby! As a result, I won’t be getting or restoring any more in 2016 at all (I have a few arcades that I want to work on to upgrade, but that’s about it). I’ll be spending most of my time playing them!</description>
     </item>
     
     <item>
       <title>Breathe new life into an old PowerBook G4 using Linux</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
+      <link>http://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
+      <guid>http://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
       <description>So what do you do when you have an old PowerBook that still works but can’t run the latest operating system (OS) and software? Well, you could sell it - but it won&amp;rsquo;t fetch much at all (less than $50 in most cases).
 A better option is to install a currently-supported OS that runs really well on limited hardware&amp;hellip;&amp;hellip;.in other words, install Linux on it!
 I recently installed the latest version of Debian Linux on my PowerBook G4 to make it useful again.</description>
@@ -142,86 +142,86 @@ I recently installed the latest version of Debian Linux on my PowerBook G4 to ma
     
     <item>
       <title>2014 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2014-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2014-in-review/</link>
       <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2014-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2014-in-review/</guid>
       <description>I think it’s always a good idea each year to reflect on the events that happened during the year - it’s a great way to remember some of the great things that have happened, as well as put some of the not-so-great things that have happened in perspective. If you regularly post to social media (e.g. Facebook or Twitter), looking back on your posts are a great way to revisit the major events that took place during the year.</description>
     </item>
     
     <item>
       <title>GMOs explained</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/gmos-explained/</link>
+      <link>http://jasoneckert.github.io/myblog/gmos-explained/</link>
       <pubDate>Fri, 14 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/gmos-explained/</guid>
+      <guid>http://jasoneckert.github.io/myblog/gmos-explained/</guid>
       <description>Like many other people who hold a degree in science, I look at those poor bastards who are currently upset about GMO products with pity and disdain. They don’t know what it is, but they’re willing to call it evil for whatever reason.
 GMO stands for genetically modified organism, which is essentially any organism (plant, animal, amoeba, etc.) that has had its DNA modified in some way. DNA are the blueprints of a living cell that in turn produce the RNA that produces the proteins that make up the useful bits of the cell itself.</description>
     </item>
     
     <item>
       <title>100 silly facts about ME</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/100-facts-about-me/</link>
+      <link>http://jasoneckert.github.io/myblog/100-facts-about-me/</link>
       <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/100-facts-about-me/</guid>
+      <guid>http://jasoneckert.github.io/myblog/100-facts-about-me/</guid>
       <description>Although I don’t watch television, I’ve been watching the episodes of The Goldbergs online because it’s absolutely hilarious and I relate to a lot of the stuff in it from my own childhood experiences. The final episode of season 1 was this week, and it starts off by talking about how the father never bragged about past events (no matter how cool), and would occasionally say something that totally made you think you knew nothing about him ;-)</description>
     </item>
     
     <item>
       <title>George H. Jenner</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/george-h-jenner/</link>
+      <link>http://jasoneckert.github.io/myblog/george-h-jenner/</link>
       <pubDate>Thu, 24 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/george-h-jenner/</guid>
+      <guid>http://jasoneckert.github.io/myblog/george-h-jenner/</guid>
       <description>The picture above is the only mall in the Hespeler area of Cambridge (where I grew up). If you look carefully, you’ll see that it’s currently being demolished (at the time of this post, it is almost entirely demolished). I moved back to Hespeler after school to raise my daughter because it was a place I knew well, and I have many fond memories of this mall because I used to work there teaching piano for George H.</description>
     </item>
     
     <item>
       <title>GAME ON 2.0 and triOS College</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/game-on-and-trios-college/</link>
+      <link>http://jasoneckert.github.io/myblog/game-on-and-trios-college/</link>
       <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/game-on-and-trios-college/</guid>
+      <guid>http://jasoneckert.github.io/myblog/game-on-and-trios-college/</guid>
       <description>The best technologies are those that spark our imagination. They create a sense of optimism about what “can” be accomplished in the future.
 Atari’s Pong was one of the first technologies to do this because it allowed us to interact with our televisions, instead of just watching them. And we started thinking about the types of wonderful interactions that the future would bring to our televisions, video displays, and Holodecks (for the trekkies out there).</description>
     </item>
     
     <item>
       <title>Driving educational change</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/driving-educational-change/</link>
+      <link>http://jasoneckert.github.io/myblog/driving-educational-change/</link>
       <pubDate>Sun, 02 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/driving-educational-change/</guid>
+      <guid>http://jasoneckert.github.io/myblog/driving-educational-change/</guid>
       <description>In the past, education was assessment based - you sat a class, wrote down notes, memorized those notes, and wrote a test based on those notes. The focus was on following this generic structure, and not necessarily on understanding the material or building knowledge in additional areas.
 Of course, some kids would understand many of these topics in good depth and be able to relate them to other topics easily - they were labelled the “smart” kids by their peers.</description>
     </item>
     
     <item>
       <title>2011 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2011-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2011-in-review/</link>
       <pubDate>Fri, 30 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2011-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2011-in-review/</guid>
       <description>Personal/Work-Related Events:   I started my new job of Dean of Technology in January. Basically twice the work but the same money. Most of the time it’s a thankless job (because you have to deal with complaints and bitching from everyone), but there is the odd job perk such as flex time and attending social events and conferences. I think the best part is that my official job description has a section that requires that I possess Strong communications skills (fluent in English &amp;amp; Klingon), as well as excellent interpersonal, analytical, strategic, conflict resolution, management, and organizational skills (this is what happens when non-geek HR people ask you for feedback in creating your job description).</description>
     </item>
     
     <item>
       <title>How to do an out-of-office auto reply</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/how-to-do-an-out-of-office-autoreply/</link>
+      <link>http://jasoneckert.github.io/myblog/how-to-do-an-out-of-office-autoreply/</link>
       <pubDate>Sat, 12 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-to-do-an-out-of-office-autoreply/</guid>
+      <guid>http://jasoneckert.github.io/myblog/how-to-do-an-out-of-office-autoreply/</guid>
       <description>I haven’t posted for a while simply because I just got back from vacation today rejuvenated. In IT, you either take vacation or spend tons of $$ on therapy and alcohol. I prefer the vacation :-)
 People still email me during my vacation, but I have an Outlook autoreply email configured to let them know that I won’t be replying anytime soon (it’s your basic “fuck off and die because I am on vacation” email).</description>
     </item>
     
     <item>
       <title>The end of 2007</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-end-of-2007/</link>
+      <link>http://jasoneckert.github.io/myblog/the-end-of-2007/</link>
       <pubDate>Mon, 31 Dec 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-end-of-2007/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-end-of-2007/</guid>
       <description>It has truly been an exciting year, and I wish to take a few moments to reflect on some of the most important events of 2007 in geekdom:
   Halo 3 being released (I love that game)
   Microsoft pissing off millions with Vista
@@ -231,47 +231,47 @@ People still email me during my vacation, but I have an Outlook autoreply email 
     
     <item>
       <title>Big fish</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/big-fish/</link>
+      <link>http://jasoneckert.github.io/myblog/big-fish/</link>
       <pubDate>Mon, 09 Apr 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/big-fish/</guid>
+      <guid>http://jasoneckert.github.io/myblog/big-fish/</guid>
       <description>Today is a monumental day! Last month I mounted a 7 &amp;amp; 1/2 foot Pacific Sailfish caught in Puerto Vallarta Mexico in my rec room, but I needed to touch up the dorsal fin (the only part of the fish that is made of wood because it can’t be preserved). Well, I finally got around to putting the finishing touches on it tonight (the black dots)&amp;hellip;&amp;hellip;..hooray! I think it looks great!</description>
     </item>
     
     <item>
       <title>Summer is here. Finally.</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/summer-is-here/</link>
+      <link>http://jasoneckert.github.io/myblog/summer-is-here/</link>
       <pubDate>Sun, 09 Jul 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/summer-is-here/</guid>
+      <guid>http://jasoneckert.github.io/myblog/summer-is-here/</guid>
       <description>We just got back from vacation this week! No computers, no telephones, no IM, no text messages, no stress (just the occasional deer, moose or bear). Several years ago, I didn’t take any vacation at all during the year and promptly vowed never to do that again. In just one week of vacation, you can reduce all of the stress that you worked so hard to build up all year long.</description>
     </item>
     
     <item>
       <title>1. What do I do?</title>
-      <link>http://triosdevelopers.com/jason.eckert/bio/what-do-i-do/</link>
+      <link>http://jasoneckert.github.io/bio/what-do-i-do/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/bio/what-do-i-do/</guid>
+      <guid>http://jasoneckert.github.io/bio/what-do-i-do/</guid>
       <description>Besides drinking vast quantities of caffeine, I have taught, developed and managed various Information Technology (IT) courses at triOS College in Ontario (Canada) since 1998 in both our college and corporate training divisions.
 Back in 2011, I took on a different title of Dean of Technology to salvage our video game programs, and it turned into a more strategic role where I was able to help shape the development of our programs and curriculum in the following faculties:</description>
     </item>
     
     <item>
       <title>3. Personal Interests</title>
-      <link>http://triosdevelopers.com/jason.eckert/bio/personal/</link>
+      <link>http://jasoneckert.github.io/bio/personal/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/bio/personal/</guid>
+      <guid>http://jasoneckert.github.io/bio/personal/</guid>
       <description>Parenting I am a happily divorced proud father of one. I’ve pretty much raised my daughter since she was 5 years old on my own, and yes, I’ve made school lunches, threw kids parties, went to great places (Ontario Science Centre, ROM, SportsWorld, Storybook Gardens, Disney World and more!), spent vacations camping/cottaging, and watched far too many Land Before Time movies. The picture on the left is my daughter while we were vacationing at Disney World in Florida over a decade ago.</description>
     </item>
     
     <item>
       <title>Non-Fiction &amp; Biographies</title>
-      <link>http://triosdevelopers.com/jason.eckert/reads/non-fiction/</link>
+      <link>http://jasoneckert.github.io/reads/non-fiction/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/reads/non-fiction/</guid>
+      <guid>http://jasoneckert.github.io/reads/non-fiction/</guid>
       <description>Clifford Stoll: The Cuckoo’s Egg (1989) Don’t let the year of this book fool you - it’s probably the best book on computing security. The epilogue is both timeless, and an amazing reflection on the purpose of computer security. Moreover, this book is a very enjoyable read. Cliff, like most of us computer/scientist types, writes with a quirky sense of humour, and isn’t afraid to relay his personal views within the book.</description>
     </item>
     

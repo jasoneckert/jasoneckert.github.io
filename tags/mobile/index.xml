@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mobile on Welcome to My Site!</title>
-    <link>http://triosdevelopers.com/jason.eckert/tags/mobile/</link>
+    <link>http://jasoneckert.github.io/tags/mobile/</link>
     <description>Recent content in mobile on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jasoneckert.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why you should use technology less</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/why-you-should-use-technology-less/</link>
+      <link>http://jasoneckert.github.io/myblog/why-you-should-use-technology-less/</link>
       <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/why-you-should-use-technology-less/</guid>
+      <guid>http://jasoneckert.github.io/myblog/why-you-should-use-technology-less/</guid>
       <description>Over the past few years, I’ve taken to using technology less and less in my daily life.
  I leave my phone in the car when going to a party or social event. I’ll only fetch it if I want to take a picture, and only after appreciating the moment I’d like to capture to the fullest. When I listen to music on my phone (via headphones) during the long walks I take to get exercise and relax, I don’t check my phone at all.</description>
     </item>
     
     <item>
       <title>What Nokia tells us about the Internet in 2008</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/what-nokia-tells-us-about-the-internet-in-2008/</link>
+      <link>http://jasoneckert.github.io/myblog/what-nokia-tells-us-about-the-internet-in-2008/</link>
       <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/what-nokia-tells-us-about-the-internet-in-2008/</guid>
+      <guid>http://jasoneckert.github.io/myblog/what-nokia-tells-us-about-the-internet-in-2008/</guid>
       <description>While cleaning out a drawer last night, I came across my old, beloved Nokia N810 Internet appliance that I bought in early 2008. This thing was sexy and entirely made of aluminum. It had a touchscreen (and stylus), backlit slide-out keyboard, expandable SD storage, GPS and front-facing webcam running Maemo Linux on an ARM CPU.
 The N810 came out shortly after the iPhone in 2007, and just before Android phones started hitting the market en mass in 2008.</description>
     </item>
     
     <item>
       <title>The future of smartphones</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-future-of-smartphones/</link>
+      <link>http://jasoneckert.github.io/myblog/the-future-of-smartphones/</link>
       <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-future-of-smartphones/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-future-of-smartphones/</guid>
       <description>As you can see from the picture at the top of this post, last week BlackBerry’s smartphone market share fell to 0% in the global marketplace. In all fairness, this number reflects the number of devices running BlackBerry OS (not the number of BlackBerry-branded Android devices, which together with all other Android devices, comprise 82% of the market).
 If you think back to 2007, BlackBerry pretty much owned the smartphone world that they created - they were too big to fail, and too proud to accept that Apple and Google could eat their cake.</description>
     </item>
     
     <item>
       <title>The evolution of BYOD</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-evolution-of-byod/</link>
+      <link>http://jasoneckert.github.io/myblog/the-evolution-of-byod/</link>
       <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-evolution-of-byod/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-evolution-of-byod/</guid>
       <description>In the 1980s, email remained a luxury for a small number of larger organizations and universities. Mobile email did not exist. Instead, pagers and cellular telephones were the primary tools for mobile communication. However, in the early 1990s, email rose to prominence with the commercialization of the Internet. Although early smartphones did exist at this time (e.g. IBM’s Simon), email was not considered a mobile technology.
 But by the mid 1990s, the computing landscape had exploded.</description>
     </item>
     
     <item>
       <title>Why BlackBerry failed</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/why-blackberry-failed/</link>
+      <link>http://jasoneckert.github.io/myblog/why-blackberry-failed/</link>
       <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/why-blackberry-failed/</guid>
+      <guid>http://jasoneckert.github.io/myblog/why-blackberry-failed/</guid>
       <description>To be honest, I really didn’t want to do another BlackBerry-related post. It just doesn’t feel like something that interests me anymore. But today I decided to do one anyways for several reasons:
   I’ve been a long-time BlackBerry user and author of their academic textbooks - as a result, I know their technology inside-out, and have worked closely with the organization.
   I have lived and taught computer science in the K-W region for the past 15 years, so many of my friends and past students have worked for (or still work for) RIM.</description>
@@ -64,80 +64,80 @@ But by the mid 1990s, the computing landscape had exploded.</description>
     
     <item>
       <title>Perspective on RIM</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/perspective-on-rim/</link>
+      <link>http://jasoneckert.github.io/myblog/perspective-on-rim/</link>
       <pubDate>Thu, 22 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/perspective-on-rim/</guid>
+      <guid>http://jasoneckert.github.io/myblog/perspective-on-rim/</guid>
       <description>I’ve always considered myself someone who has a super-natural ability to put things in perspective and explain them to others. After all, I’ve taught adults for 13 years, and EVERYTHING must be put into perspective when you teach adults ;-)
 However, it is difficult to put a large situation in perspective when you are too close to the action (for lack of a better phrase). And I’ve been close to RIM for many years both physically (I live 15 minutes from the RIM headquarters in Canada) and mentally (I’ve dealt with them for years on the academic program front and used their products).</description>
     </item>
     
     <item>
       <title>RIM is dead. Long live RIM.</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/rim-is-dead-long-live-rim/</link>
+      <link>http://jasoneckert.github.io/myblog/rim-is-dead-long-live-rim/</link>
       <pubDate>Fri, 16 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/rim-is-dead-long-live-rim/</guid>
+      <guid>http://jasoneckert.github.io/myblog/rim-is-dead-long-live-rim/</guid>
       <description>The worst possible news for RIM right now is a delay in bringing some sort of modern product to market. In other words, delaying their QNX “killer” smartphone. But that is exactly what they announced last night - QNX phones won’t be ready until the end of 2012.
 The problem is that they are already behind their competitors with little chance at turning the company around and maintaining a big presence in the smartphone market.</description>
     </item>
     
     <item>
       <title>How I threw my back out playing Angry Birds</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/how-i-threw-my-back-out-playing-angry-birds/</link>
+      <link>http://jasoneckert.github.io/myblog/how-i-threw-my-back-out-playing-angry-birds/</link>
       <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-i-threw-my-back-out-playing-angry-birds/</guid>
+      <guid>http://jasoneckert.github.io/myblog/how-i-threw-my-back-out-playing-angry-birds/</guid>
       <description>I know this sounds extremely lame, but on Wednesday August 3rd, I threw my back out playing Angry Birds. And each time I’ve told people that, they’ve either burst out laughing, gave me the quizzical look (as if I’m joking), or simply state something along the lines of “if it were to happen, it would have happened to you.”
 I definitely plan on telling people that I threw my back out playing Angry Birds at future events (it is a great ice breaker for sure!</description>
     </item>
     
     <item>
       <title>BlackBerry 950 teardown</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/blackberry-950-teardown/</link>
+      <link>http://jasoneckert.github.io/myblog/blackberry-950-teardown/</link>
       <pubDate>Sun, 11 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/blackberry-950-teardown/</guid>
+      <guid>http://jasoneckert.github.io/myblog/blackberry-950-teardown/</guid>
       <description>As I was moving the stuff in my desk from the old campus to the new campus yesterday, I found an old BlackBerry 950&amp;hellip;&amp;hellip;..so I took it apart and found an Intel FW88386VXSD CPU, which is an embedded version of the famous Intel 80386 CPU (big black chip on the right side of the picture above).
 I remember having an 80386 PC that weighed a ton back in 1990, so this is like carrying that PC around in your pocket.</description>
     </item>
     
     <item>
       <title>BlackBerry then and now</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/blackberry-then-and-now/</link>
+      <link>http://jasoneckert.github.io/myblog/blackberry-then-and-now/</link>
       <pubDate>Wed, 28 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/blackberry-then-and-now/</guid>
+      <guid>http://jasoneckert.github.io/myblog/blackberry-then-and-now/</guid>
       <description>You know - most technologies change drastically over time. As a result, I got my hands on an old BlackBerry 950 model from 1998 (the 850/950 series were the original BlackBerry smartphones on the 800/900 MHz Mobitex networks, respectively).
 The problem is this: It really hasn’t changed that much. Aside from the color and graphics, the BlackBerry 950 running BlackBerry Device Software 2.5 had pretty much the same applications and functionality as the BlackBerry 8830 running BlackBerry Device Software 4.</description>
     </item>
     
     <item>
       <title>CrackBerry Book</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/crackberry-book/</link>
+      <link>http://jasoneckert.github.io/myblog/crackberry-book/</link>
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/crackberry-book/</guid>
+      <guid>http://jasoneckert.github.io/myblog/crackberry-book/</guid>
       <description>Yes, I am definitely a CrackBerry user.
 As a result, when I saw a new book on Amazon called CrackBerry: True Tales of BlackBerry Use and Abuse, I simply had to order it and pay the inflated shipping and US exchange rate to have it delivered to Canada. And I am glad I did - it was a hilarious read, and I must admit that I can relate well to the crazy stories within.</description>
     </item>
     
     <item>
       <title>Linuxtopia</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/linuxtopia/</link>
+      <link>http://jasoneckert.github.io/myblog/linuxtopia/</link>
       <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/linuxtopia/</guid>
+      <guid>http://jasoneckert.github.io/myblog/linuxtopia/</guid>
       <description>In the past several months (and year), it seems that Linux is really making its way into the desktop market (up until now, it has ruled the server market). Every time I pick up a magazine at Chapters or read Google news, there is some new Linux device or technology. Here are a few that have caught my eye in the past short while:
  The rapid development of Compiz (formerly Beryl), which puts shame to all other desktop effects and is extremely easy to use and requires very few hardware resources to run.</description>
     </item>
     
     <item>
       <title>iPhone first impressions</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/iphone-first-impressions/</link>
+      <link>http://jasoneckert.github.io/myblog/iphone-first-impressions/</link>
       <pubDate>Sat, 30 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/iphone-first-impressions/</guid>
+      <guid>http://jasoneckert.github.io/myblog/iphone-first-impressions/</guid>
       <description>The iPhone went on sale in the US yesterday. And yes, for the past several months since its introduction, I wanted one badly&amp;hellip;..but after hearing from those who have one, I am not so upset now that the iPhone is not available in Canada until later this year.
 Basically, those who have one say that it “feels like a 1.0 device”, which it is. It uses the old EDGE service rather than new and fast 3G Mobile service in order to save battery power (Apple rationalizes that most will use the iPhone’s WiFi to browse the Internet instead).</description>
     </item>

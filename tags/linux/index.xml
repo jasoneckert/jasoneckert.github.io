@@ -2,88 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Welcome to My Site!</title>
-    <link>http://triosdevelopers.com/jason.eckert/tags/linux/</link>
+    <link>http://jasoneckert.github.io/tags/linux/</link>
     <description>Recent content in Linux on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>FreeBSD UNIX for Linux sysadmins</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/freebsd-unix-for-linux-sysadmins/</link>
+      <link>http://jasoneckert.github.io/myblog/freebsd-unix-for-linux-sysadmins/</link>
       <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/freebsd-unix-for-linux-sysadmins/</guid>
+      <guid>http://jasoneckert.github.io/myblog/freebsd-unix-for-linux-sysadmins/</guid>
       <description>If you’ve ever installed and explored another Linux distro (what Linux sysadmin hasn’t?!?), then exploring FreeBSD is going be somewhat similar with a few key differences. While there is no graphical installation, the installation process is straightforward and similar to installing a server-based Linux distro. Just make sure you choose the local_unbound package when prompted if you want to cache DNS lookups locally, as FreeBSD doesn’t have a built-in local DNS resolver that does this.</description>
     </item>
     
     <item>
       <title>How to learn vi (vim)</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/how-to-learn-vi-vim/</link>
+      <link>http://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-to-learn-vi-vim/</guid>
+      <guid>http://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</guid>
       <description>1. So, what is vi (and vim)? One of the most important tools for any developer or sysadmin on UNIX and Linux systems is a text editor. Mastering a text editor allows you to quickly create and edit the source code for programs, scripts and configuration files (nearly all configuration on a UNIX/Linux system is stored as text).
 The vi editor has been one of the most common (if not THE most common) text editor on these systems since it was created in 1969 by Bill Joy.</description>
     </item>
     
     <item>
       <title>What Nokia tells us about the Internet in 2008</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/what-nokia-tells-us-about-the-internet-in-2008/</link>
+      <link>http://jasoneckert.github.io/myblog/what-nokia-tells-us-about-the-internet-in-2008/</link>
       <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/what-nokia-tells-us-about-the-internet-in-2008/</guid>
+      <guid>http://jasoneckert.github.io/myblog/what-nokia-tells-us-about-the-internet-in-2008/</guid>
       <description>While cleaning out a drawer last night, I came across my old, beloved Nokia N810 Internet appliance that I bought in early 2008. This thing was sexy and entirely made of aluminum. It had a touchscreen (and stylus), backlit slide-out keyboard, expandable SD storage, GPS and front-facing webcam running Maemo Linux on an ARM CPU.
 The N810 came out shortly after the iPhone in 2007, and just before Android phones started hitting the market en mass in 2008.</description>
     </item>
     
     <item>
       <title>The different faces of open source software</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-different-faces-of-open-source-software/</link>
+      <link>http://jasoneckert.github.io/myblog/the-different-faces-of-open-source-software/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-different-faces-of-open-source-software/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-different-faces-of-open-source-software/</guid>
       <description>The term open source has become a household term in software circles. Most people who work with technology in some capacity know that the Linux operating system is open source, as is the Firefox Web browser and much of the software that runs on their Android phone.
 However, when it comes to defining open source, most people I’ve talked to aren’t that clear on what it is and how it works, but can often list these three aspects:</description>
     </item>
     
     <item>
       <title>The Dark Side of GNU</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-dark-side-of-gnu/</link>
+      <link>http://jasoneckert.github.io/myblog/the-dark-side-of-gnu/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-dark-side-of-gnu/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-dark-side-of-gnu/</guid>
       <description>In computing, GNU (which stands for “GNU’s Not UNIX”) started as a project led by Richard Stallman aimed to replace all of the components of the UNIX operating system with freely-developed versions.
 It also led to the creation of the GNU Public License (GPL) that protected freely-developed software from being exploited by others. Software released under the GPL is commonly called open source software today, and there are dozens of open source licenses available in addition to the GPL.</description>
     </item>
     
     <item>
       <title>How ricing shifted from cars to computers</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/how-ricing-shifted-from-cars-to-computers/</link>
+      <link>http://jasoneckert.github.io/myblog/how-ricing-shifted-from-cars-to-computers/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-ricing-shifted-from-cars-to-computers/</guid>
+      <guid>http://jasoneckert.github.io/myblog/how-ricing-shifted-from-cars-to-computers/</guid>
       <description>Back in the early 1990s, teenagers with a drivers license made a hobby of tweaking out their cars - adding custom grills, spoilers, paint jobs, and so on. The more crazy, the better. And since the most common car to perform these modifications on were older Honda Civics, which you could get fairly cheap at the time, especially if they were more than 5 years old and needed a bit of work.</description>
     </item>
     
     <item>
       <title>Pop!_OS: The first real Linux desktop</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/popos-the-first-real-linux-desktop/</link>
+      <link>http://jasoneckert.github.io/myblog/popos-the-first-real-linux-desktop/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/popos-the-first-real-linux-desktop/</guid>
+      <guid>http://jasoneckert.github.io/myblog/popos-the-first-real-linux-desktop/</guid>
       <description>Tonight I gave a presentation at the Kitchener-Waterloo Linux User’s Group (KWLUG) about Pop!_OS, and this blog post is essentially a summary of that talk. The Linux development community has never really spent a lot of time making Linux for the desktop - the focus has been on servers and customizability (e.g. embedded systems, mobile, IoT, etc.). There are plenty of desktop-focused Linux distributions such as Linux Mint and ElementaryOS that have positioned themselves as such.</description>
     </item>
     
     <item>
       <title>Using the Windows Subsystem for Linux</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/using-the-windows-subsystem-for-linux/</link>
+      <link>http://jasoneckert.github.io/myblog/using-the-windows-subsystem-for-linux/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/using-the-windows-subsystem-for-linux/</guid>
+      <guid>http://jasoneckert.github.io/myblog/using-the-windows-subsystem-for-linux/</guid>
       <description>1. So what is WSL? Simply put, it’s a kernel interface (lxcore &amp;amp; lxss) that allows 64-bit Linux binaries to run on a Window 10 or Windows Server 2019 kernel.
 All you need to do is add the userland (file system structure and programs) from an existing Linux distribution, such as Ubuntu, Kali, Debian or SUSE, and that Linux distribution will run natively on the Windows kernel!
 You must access the Linux distribution via a Windows program that associates the userland of the Linux distribution to the WSL (e.</description>
@@ -91,10 +91,10 @@ You must access the Linux distribution via a Windows program that associates the
     
     <item>
       <title>SSH Foo</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/ssh-foo/</link>
+      <link>http://jasoneckert.github.io/myblog/ssh-foo/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/ssh-foo/</guid>
+      <guid>http://jasoneckert.github.io/myblog/ssh-foo/</guid>
       <description>Last week, I gave a presentation at a local LUG (which is a Linux User’s Group, for anyone who hasn’t heard of those before) on the subject of SSH Foo.
 In UNIX circles, we refer to tricks of the trade as “Kung Fu” or just “Fu” (which sounds rude), so it is spelled “Foo” ;-)
 In this blog post, I’ll summarize my SSH Foo talk!
@@ -103,10 +103,10 @@ Part 1 - Cryptography Basics: Symmetric cryptography (e.</description>
     
     <item>
       <title>Ultimate UNIX timeline</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/ultimate-unix-timeline/</link>
+      <link>http://jasoneckert.github.io/myblog/ultimate-unix-timeline/</link>
       <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/ultimate-unix-timeline/</guid>
+      <guid>http://jasoneckert.github.io/myblog/ultimate-unix-timeline/</guid>
       <description>One thing that has always annoyed me about the Internet surrounds the history and evolution of UNIX-based operating systems. If you Google “UNIX timeline”, you’ll get a bunch of different results that are either incomplete, incorrect, complicated to the point where it’s unreadable, or a combination of all of these things.
 So this blog post aims to rectify this!
 Here are some important things to note about UNIX in general and each of the UNIX flavours depicted on this timeline:</description>
@@ -114,30 +114,30 @@ Here are some important things to note about UNIX in general and each of the UNI
     
     <item>
       <title>The history of IT certification</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/history-of-it-certification/</link>
+      <link>http://jasoneckert.github.io/myblog/history-of-it-certification/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/history-of-it-certification/</guid>
+      <guid>http://jasoneckert.github.io/myblog/history-of-it-certification/</guid>
       <description>Nearly everyone working in an Information Technology (IT) field has at least one IT-related certification. This is because IT certification is commonly used as a skills benchmark for hiring and promotion, and it’s been that way for a long, long time.
 So where did all this certification stuff start? If you look online, there isn’t even a Wikipedia page that can give you that answer - like many things in the technology world that predated the Internet, it just wasn’t important enough to keep track of in the Internet Age that started in the 1990s.</description>
     </item>
     
     <item>
       <title>macOS for Linux admins</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/macos-for-linux-admins/</link>
+      <link>http://jasoneckert.github.io/myblog/macos-for-linux-admins/</link>
       <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/macos-for-linux-admins/</guid>
+      <guid>http://jasoneckert.github.io/myblog/macos-for-linux-admins/</guid>
       <description>As I mentioned in my CompTIA blog post All About Linux and Linux+ ( https://www.comptia.org/blog/all-about-linux-and-linux ), Linux is essentially an open-source UNIX operating system. And since nearly all of the concepts, commands and files are identical between UNIX and Linux, anyone who works with Linux could easily administer a UNIX system.
 Likewise, the macOS operating system that runs on Apple computers is also a flavor of UNIX. Thus, most of the concepts that you use when administering a Linux system are also applicable to macOS.</description>
     </item>
     
     <item>
       <title>Windows and macOS could move to Linux</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/windows-and-macos-could-move-to-linux/</link>
+      <link>http://jasoneckert.github.io/myblog/windows-and-macos-could-move-to-linux/</link>
       <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/windows-and-macos-could-move-to-linux/</guid>
+      <guid>http://jasoneckert.github.io/myblog/windows-and-macos-could-move-to-linux/</guid>
       <description>For those in the tech world, the title of this post may seem both radical and pretentious.
 However, in the following four parts of this blog post, I hope to shed light on why this is a real possibility in the not-so-distant future and why.
 PART 1: OS overview First of all, an operating system (OS) is essentially the core software that allows your computer to run - it provides a core component (called a kernel) that understands how to use the hardware in your computer, a user interface (e.</description>
@@ -145,10 +145,10 @@ PART 1: OS overview First of all, an operating system (OS) is essentially the co
     
     <item>
       <title>The Linux operating system turns 25 years old today</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/linux-turns-25/</link>
+      <link>http://jasoneckert.github.io/myblog/linux-turns-25/</link>
       <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/linux-turns-25/</guid>
+      <guid>http://jasoneckert.github.io/myblog/linux-turns-25/</guid>
       <description>Today marks the 25th anniversary of the Linux operating system!
 More specifically, it marks the day that Linus Torvalds announced his new operating system (that was later called Linux) in a newsgroup post:
 From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI Date: 25 Aug 91 20:57:08 GMT Organization: University of Helsinki. Hello everybody out there using minix- I&#39;m doing a (free) operating system (just a hobby, won&#39;t be big and professional like gnu) for 386(486) AT clones.</description>
@@ -156,10 +156,10 @@ From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.mi
     
     <item>
       <title>Breathe new life into an old PowerBook G4 using Linux</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
+      <link>http://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
+      <guid>http://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
       <description>So what do you do when you have an old PowerBook that still works but can’t run the latest operating system (OS) and software? Well, you could sell it - but it won&amp;rsquo;t fetch much at all (less than $50 in most cases).
 A better option is to install a currently-supported OS that runs really well on limited hardware&amp;hellip;&amp;hellip;.in other words, install Linux on it!
 I recently installed the latest version of Debian Linux on my PowerBook G4 to make it useful again.</description>
@@ -167,19 +167,19 @@ I recently installed the latest version of Debian Linux on my PowerBook G4 to ma
     
     <item>
       <title>Microsoft ReFS vs Oracle ZFS - FIGHT!</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/refs-vs-zfs-fight/</link>
+      <link>http://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</link>
       <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/refs-vs-zfs-fight/</guid>
+      <guid>http://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</guid>
       <description>In the past, most IT admins have put their faith in systems and SANs (Storage Area Networks) that use RAID (Redundant Array of Inexpensive Disks) technology. RAID can be used to combine hard disks together into simple volumes (called RAID-0, or JBOD) that aren’t fault tolerant, but can also be used to create mirrored volumes where both drives are identical in case one fails (called RAID-1), or striped volumes with parity where data is written across several disks with parity information that can be used to calculate the missing data if a drive fails (called RAID-5).</description>
     </item>
     
     <item>
       <title>The rise and fall of DEC</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-rise-and-fall-of-dec/</link>
+      <link>http://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</link>
       <pubDate>Wed, 26 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-rise-and-fall-of-dec/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</guid>
       <description>Firstly, the information that I’m presenting here is taken from various sources, including people I knew who worked for DEC, my own experiences, and the book DEC Is Dead, Long Live DEC by Edgar H. Schein.
 Quick background info: DEC was the first knowledge-based company - a company who valued the knowledge of its employees over anything else, and used it to drive change and sell products.
 The founder and father icon of DEC, Ken Olsen, spent time working at IBM.</description>
@@ -187,50 +187,50 @@ The founder and father icon of DEC, Ken Olsen, spent time working at IBM.</descr
     
     <item>
       <title>All about DEC</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/all-about-dec/</link>
+      <link>http://jasoneckert.github.io/myblog/all-about-dec/</link>
       <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/all-about-dec/</guid>
+      <guid>http://jasoneckert.github.io/myblog/all-about-dec/</guid>
       <description>Digital Equipment Corporation (DEC) was born in the late 1950s when it was lucrative to make computers that cost a ton of money. And DEC was good - they would make computers that would perform much better and cost significantly less than the IBM equivalent (IBM mainframes back then were expensive behemoths).
 The DEC PDP (Programmed Data Processor) line of minicomputers were so good and inexpensive, you’d be hard pressed to NOT find one in your local university.</description>
     </item>
     
     <item>
       <title>The Gospel of Tux v1.0</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-gospel-of-tux/</link>
+      <link>http://jasoneckert.github.io/myblog/the-gospel-of-tux/</link>
       <pubDate>Tue, 28 Dec 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-gospel-of-tux/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-gospel-of-tux/</guid>
       <description>Every generation has a mythology. Every millennium has a doomsday cult. Every legend gets the distortion knob wound up until the speaker melts. Archeologists at the University of Helsinki today uncovered what could be the earliest known writings from the Cult of Tux, a fanatical religious sect that flourished during the early Silicon Age, just before the dawn of the third millennium AD.
 In the beginning Turing created the Machine. And the Machine was crufty and bodacious, existing in theory only.</description>
     </item>
     
     <item>
       <title>Funny Internet Shakespeare typo</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/funny-internet-shakespeare-typo/</link>
+      <link>http://jasoneckert.github.io/myblog/funny-internet-shakespeare-typo/</link>
       <pubDate>Wed, 17 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/funny-internet-shakespeare-typo/</guid>
+      <guid>http://jasoneckert.github.io/myblog/funny-internet-shakespeare-typo/</guid>
       <description>I’m currently finishing the 3rd edition of my Guide To Linux Certification for Cengage. In Chapter 7, I used the following text from Shakespeare in the section on the stream editor (sed):
  Two households, both alike in dignity, In fair Verona, where we lay our scene, From ancient grudge break to new mutiny, Where civil blood makes civil hands unclean. From forth the fatal loins of these two foes A pair of star-cross’d lovers take their life; Whole misadventured piteous overthrows Do with their death bury their parents’ strife.</description>
     </item>
     
     <item>
       <title>The Amazon Kindle ROCKS!</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-amazon-kindle-rocks/</link>
+      <link>http://jasoneckert.github.io/myblog/the-amazon-kindle-rocks/</link>
       <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-amazon-kindle-rocks/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-amazon-kindle-rocks/</guid>
       <description>Recently, the Amazon Kindle 2 (International Edition) arrived in Canada (the last country to get it :-), and I recently picked one up. Since its original introduction in November 2007, I have watched reviews of it fly around the Internet and on blogs such as GeekBrief.tv.
 Although the reviews were generally positive, I really couldn’t visualize myself replacing my book collection with a Kindle for the simple reason that books have their own distinctive “experience” (and smell :-).</description>
     </item>
     
     <item>
       <title>10 years of UserFriendly.org</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/10-years-of-userfriendly/</link>
+      <link>http://jasoneckert.github.io/myblog/10-years-of-userfriendly/</link>
       <pubDate>Sun, 08 Mar 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/10-years-of-userfriendly/</guid>
+      <guid>http://jasoneckert.github.io/myblog/10-years-of-userfriendly/</guid>
       <description>I haven’t blogged for a while.
 This is partly because my daughter and I have been enjoying some major events in Toronto (Ontario Science Centre, ROM, shopping, more shopping, etc.), and not much has happened in the Geek world aside from the new Apple hardware updates and Firefox achieving 100% market share in Antarctica.
 However, the main reason I haven’t blogged is that I have been engrossed with reading the 10th Anniversary book from UserFriendly.</description>
@@ -238,59 +238,59 @@ However, the main reason I haven’t blogged is that I have been engrossed with 
     
     <item>
       <title>Happy Epoch Day!</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/happy-epoch-day/</link>
+      <link>http://jasoneckert.github.io/myblog/happy-epoch-day/</link>
       <pubDate>Fri, 13 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/happy-epoch-day/</guid>
+      <guid>http://jasoneckert.github.io/myblog/happy-epoch-day/</guid>
       <description>Today is a special day in the I-don’t-have-a-life-and-can-prove-it-mathematically geek world&amp;hellip;..for today, the epoch will be 1234567890 at precisely 6:31pm (and 30 seconds) Eastern time.
 UNIX (including Mac OS X) and Linux systems use an internal time called the epoch - it is the number of seconds since January 1st, 1970 (the “birth” of UNIX). This is also why UNIX and Linux geeks weren’t too concerned that their OS was going to blow up at Y2K, since the time would simply be 946684800.</description>
     </item>
     
     <item>
       <title>War Games shell scripting fun</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/war-games-shell-scripting-fun/</link>
+      <link>http://jasoneckert.github.io/myblog/war-games-shell-scripting-fun/</link>
       <pubDate>Mon, 06 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/war-games-shell-scripting-fun/</guid>
+      <guid>http://jasoneckert.github.io/myblog/war-games-shell-scripting-fun/</guid>
       <description>While my daughter and I sat across from each other in Starbucks drinking coffee and PIN messaging each other in Leetspeak using our BlackBerries (yes, I realize how drastically nerdy this is), the thought occurred to us that a simple shell script could easily be used to simulate the War Operation Plan Response (WOPR) supercomputer from the movie War Games (1983).
 Anyways, we analyzed the frame-by-frame output from the movie and recreated the output on the Sun Enterprise 450 in my classroom running Red Hat Linux.</description>
     </item>
     
     <item>
       <title>The Nostradamus of UNIX</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-nostradamus-of-unix/</link>
+      <link>http://jasoneckert.github.io/myblog/the-nostradamus-of-unix/</link>
       <pubDate>Thu, 22 May 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-nostradamus-of-unix/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-nostradamus-of-unix/</guid>
       <description>Every so often I re-read a book that I read years ago to remember what it is about. Mostly, I re-read sci-fi or notable works such as Neuromancer (William Gibson) or The Hitchhiker’s Guide to the Galaxy (Douglas Adams) since those are the types of books that I kept over the years.
 However, I kept a book from 1989 called Life with UNIX (Don Libes &amp;amp; Sandy Ressler) that I remember using as a good UNIX reference a long time ago.</description>
     </item>
     
     <item>
       <title>The UNIX way</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-unix-way/</link>
+      <link>http://jasoneckert.github.io/myblog/the-unix-way/</link>
       <pubDate>Tue, 29 Apr 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-unix-way/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-unix-way/</guid>
       <description>Back in the 1980s, someone started the UNIX-HATERS mailing list as a means of venting UNIX-related frustrations. In 1994, Simson Garfinkel, Daniel Weise, and Steven Strassmann collected these frustrations and published them in a book called “The UNIX-HATERS Handbook” with extra commentary aimed to portray one view: UNIX sucks. The book itself contains plenty of great information about different technologies such as shell scripting, UNIX commands, email and file systems – it’s too bad that they cast everything in a very negative light.</description>
     </item>
     
     <item>
       <title>Linuxtopia</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/linuxtopia/</link>
+      <link>http://jasoneckert.github.io/myblog/linuxtopia/</link>
       <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/linuxtopia/</guid>
+      <guid>http://jasoneckert.github.io/myblog/linuxtopia/</guid>
       <description>In the past several months (and year), it seems that Linux is really making its way into the desktop market (up until now, it has ruled the server market). Every time I pick up a magazine at Chapters or read Google news, there is some new Linux device or technology. Here are a few that have caught my eye in the past short while:
  The rapid development of Compiz (formerly Beryl), which puts shame to all other desktop effects and is extremely easy to use and requires very few hardware resources to run.</description>
     </item>
     
     <item>
       <title>The end of 2007</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-end-of-2007/</link>
+      <link>http://jasoneckert.github.io/myblog/the-end-of-2007/</link>
       <pubDate>Mon, 31 Dec 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-end-of-2007/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-end-of-2007/</guid>
       <description>It has truly been an exciting year, and I wish to take a few moments to reflect on some of the most important events of 2007 in geekdom:
   Halo 3 being released (I love that game)
   Microsoft pissing off millions with Vista
@@ -300,58 +300,58 @@ However, I kept a book from 1989 called Life with UNIX (Don Libes &amp;amp; Sand
     
     <item>
       <title>Ontario Linux Fest</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/ontario-linux-fest/</link>
+      <link>http://jasoneckert.github.io/myblog/ontario-linux-fest/</link>
       <pubDate>Sun, 14 Oct 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/ontario-linux-fest/</guid>
+      <guid>http://jasoneckert.github.io/myblog/ontario-linux-fest/</guid>
       <description>Yesterday, I teamed up with and old friend of mine (Scott Elliott) and went to the Ontario Linux Fest at the Toronto Congress Centre. For those who do not know Scott, he is a VMWare guru (you can join his Southwestern Ontario VMWare user’s group @ www.vmware.com), as well as a master in the 8th layer of the OSI Model (the political layer). Although he won’t admit it, he knows UNIX very well and is an advocate of the Open Source movement even though he works mainly with Windows.</description>
     </item>
     
     <item>
       <title>More about Open Source Software and Linux</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/more-about-open-source-software-and-linux/</link>
+      <link>http://jasoneckert.github.io/myblog/more-about-open-source-software-and-linux/</link>
       <pubDate>Sat, 06 Oct 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/more-about-open-source-software-and-linux/</guid>
+      <guid>http://jasoneckert.github.io/myblog/more-about-open-source-software-and-linux/</guid>
       <description>In light of the upcoming Ontario Linux Fest, I decided to use this blog entry to reflect on Open Source Software and Linux.
 Free Software and the Free Software Foundation (FSF) were pioneered by the famous Richard Stallman. Free Software does not mean “at no monetary cost”&amp;hellip;&amp;hellip;..it means that the source code is free to anyone who wants to use it (source code freedom). In the words of Stallman, think “free” as in “freedom”, not “free” as in “free beer”.</description>
     </item>
     
     <item>
       <title>The wicked witch is dead</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-wicked-witch-is-dead/</link>
+      <link>http://jasoneckert.github.io/myblog/the-wicked-witch-is-dead/</link>
       <pubDate>Sun, 12 Aug 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-wicked-witch-is-dead/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-wicked-witch-is-dead/</guid>
       <description>I consider myself to be a very patient person (all things considered) - but one thing that causes me to lose my patience is when I hear of proprietary computer companies that spread FUD (Fear, Uncertainty and Doubt) in order to keep their customers from considering other (and usually much better) technologies.
 While Microsoft has been the main purveyor of FUD since the early 1990s, SCO used FUD in an attempt to downplay the Linux operating system.</description>
     </item>
     
     <item>
       <title>Linux thin clients</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/linux-thin-clients/</link>
+      <link>http://jasoneckert.github.io/myblog/linux-thin-clients/</link>
       <pubDate>Sat, 05 May 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/linux-thin-clients/</guid>
+      <guid>http://jasoneckert.github.io/myblog/linux-thin-clients/</guid>
       <description>Jon “maddog” Hall gave a talk about using Linux thin clients (e.g. the Linux Terminal Server Project) to provide Internet and application access to schools, third-world countries and organizations in general. He specifically noted that thin clients (like the HP Compaq t5125 which only uses 10 Watts of power compared to the 550 Watts used by most computers) could easily provide low-power, high-performance computing on a large scale.
 After hearing this, it sparked my curiosity since I typically use Remote Desktop as part of my job to connect to Windows Terminal Servers at our college head office.</description>
     </item>
     
     <item>
       <title>1. Operating Systems</title>
-      <link>http://triosdevelopers.com/jason.eckert/info/operatingsystems/</link>
+      <link>http://jasoneckert.github.io/info/operatingsystems/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/info/operatingsystems/</guid>
+      <guid>http://jasoneckert.github.io/info/operatingsystems/</guid>
       <description>UNIX UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX.</description>
     </item>
     
     <item>
       <title>2. My published books</title>
-      <link>http://triosdevelopers.com/jason.eckert/bio/my-published-books/</link>
+      <link>http://jasoneckert.github.io/bio/my-published-books/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/bio/my-published-books/</guid>
+      <guid>http://jasoneckert.github.io/bio/my-published-books/</guid>
       <description>Perhaps one of my more famous achievements is the authoring of several textbooks for Course Technology, Cengage, Nelson, Thompson/Delmar and Wiley. I&amp;rsquo;ve listed their details in chronological order here (oldest to newest) with cover pictures below:
  Linux+ Guide to Linux Certification (ISBN: 0-619-13004-0) Guide to UNIX System Administration (ISBN: 0-619-13041-5) Linux+ In Depth (ISBN: 1-59200-062-2) MCSE Guide to Managing a Microsoft Windows Server 2003 Network (ISBN: 0-619-12029-0) Linux+ Guide to Linux Certification - 2nd Edition (ISBN: 0-619-21621-2) Linux+ 2005 In Depth (ISBN: 1-59200-728-7) Novell&amp;rsquo;s Guide to CompTIA&amp;rsquo;s Linux+ (Course 3060) (ISBN: 1-4188-3730-X) SUSE Linux Enterprise Server Administration (Course 3037) (ISBN: 1-4188-3731-8) Advanced SUSE Linux Enterprise Server Administration (Course 3038) (ISBN: 1-4188-3732-6) Microsoft Windows Vista Guide (ISBN: 1-4188-3757-1) SUSE Linux Enterprise Desktop Administration (ISBN: 1-4283-2227-2) SUSE Linux Enterprise Server Security (ISBN: 1-4283-2223-X) Microsoft Official Academic Course (MOAC): Exchange Server 2007 Exam 70-236 (ISBN: 978-0-470-31227-8) Linux+ Guide to Linux Certification - 3rd Edition (ISBN: 978-1-418-83721-1) SUSE Linux Enterprise Server 11 Administration (ISBN: 978-1-111-54003-6) Linux+ Guide to Linux Certification - International Edition (ISBN: 978-1-111-54153-8) Linux+ Guide to Linux Certification - 4th Edition (ISBN: 978-1-305-10716-8) Linux+ and LPIC-1 Guide to Linux Certification - 5th Edition (ISBN: 978-13375-6979-8) Hands-On Windows Server 2019 - 3rd Edition (ISBN: 978-0-357-43615-8)  Moreover, I&amp;rsquo;ve worked as a technical editor for numerous Linux and software development titles for both Wiley and Pearson, as well as wrote 6 books for Research in Motion (RIM) on BlackBerry Enterprise Server 4.</description>
     </item>

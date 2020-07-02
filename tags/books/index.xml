@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>books on Welcome to My Site!</title>
-    <link>http://triosdevelopers.com/jason.eckert/tags/books/</link>
+    <link>http://jasoneckert.github.io/tags/books/</link>
     <description>Recent content in books on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/books/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jasoneckert.github.io/tags/books/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to write an academic technical textbook</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/how-to-write-an-academic-technical-textbook/</link>
+      <link>http://jasoneckert.github.io/myblog/how-to-write-an-academic-technical-textbook/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-to-write-an-academic-technical-textbook/</guid>
+      <guid>http://jasoneckert.github.io/myblog/how-to-write-an-academic-technical-textbook/</guid>
       <description>If you head over to My published books page, you’ll see that I’ve written a large number of textbooks over the years for different publishers, as well as worked as a technical editor for many other titles.
 Just this past week, I mentioned to a coworker that I’ve finished submitting the AU1 of the final chapter for my latest textbook Hands-On Windows Server 2019, ISBN: 978-0-357-43615-8 (I&amp;rsquo;ve revised this blog post in June to include a pic of my first printed copy).</description>
     </item>
     
     <item>
       <title>2019 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2019-in-review/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2019-in-review/</guid>
       <description>This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!
 On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA) Instructor Network.
 This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).</description>
@@ -34,10 +34,10 @@ This, of course, fit well since I just finished writing the 5th edition of my Li
     
     <item>
       <title>Rest in Peace, MAD Magazine</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/rest-in-peace-mad-magazine/</link>
+      <link>http://jasoneckert.github.io/myblog/rest-in-peace-mad-magazine/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/rest-in-peace-mad-magazine/</guid>
+      <guid>http://jasoneckert.github.io/myblog/rest-in-peace-mad-magazine/</guid>
       <description>This past week, MAD Magazine announced that, after 67 years, it would cease publication by the end of the year. Maybe it shouldn’t be surprising - print magazines have been going extinct for almost two decades already. I honestly can’t remember the last time I bought a magazine of any kind.
 The Internet has killed print publication just like video killed the radio star.
 But I’m sad for MAD. I have many fond memories of it growing up in the 1980s.</description>
@@ -45,10 +45,10 @@ But I’m sad for MAD. I have many fond memories of it growing up in the 1980s.<
     
     <item>
       <title>2018 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2018-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2018-in-review/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2018-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2018-in-review/</guid>
       <description>At the end of each year, I take some time to reflect on the previous year - it provides perspective, and is a lot of fun!
 For me, 2018 was the year I spent a lot of time improving myself physically, challenging myself mentally, and most importantly, enjoying life!
 On the personal side, I cut out the bad foods from my diet:
@@ -57,59 +57,59 @@ On the personal side, I cut out the bad foods from my diet:
     
     <item>
       <title>2015 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2015-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2015-in-review/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2015-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2015-in-review/</guid>
       <description>2015 was an interesting year, and one that I really enjoyed!
 I spent a lot of time getting/restoring/playing the last few arcade machines that I’ve wanted in my arcade collection - I just love the retro arcade hobby! As a result, I won’t be getting or restoring any more in 2016 at all (I have a few arcades that I want to work on to upgrade, but that’s about it). I’ll be spending most of my time playing them!</description>
     </item>
     
     <item>
       <title>2014 in review</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/2014-in-review/</link>
+      <link>http://jasoneckert.github.io/myblog/2014-in-review/</link>
       <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/2014-in-review/</guid>
+      <guid>http://jasoneckert.github.io/myblog/2014-in-review/</guid>
       <description>I think it’s always a good idea each year to reflect on the events that happened during the year - it’s a great way to remember some of the great things that have happened, as well as put some of the not-so-great things that have happened in perspective. If you regularly post to social media (e.g. Facebook or Twitter), looking back on your posts are a great way to revisit the major events that took place during the year.</description>
     </item>
     
     <item>
       <title>Funny Internet Shakespeare typo</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/funny-internet-shakespeare-typo/</link>
+      <link>http://jasoneckert.github.io/myblog/funny-internet-shakespeare-typo/</link>
       <pubDate>Wed, 17 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/funny-internet-shakespeare-typo/</guid>
+      <guid>http://jasoneckert.github.io/myblog/funny-internet-shakespeare-typo/</guid>
       <description>I’m currently finishing the 3rd edition of my Guide To Linux Certification for Cengage. In Chapter 7, I used the following text from Shakespeare in the section on the stream editor (sed):
  Two households, both alike in dignity, In fair Verona, where we lay our scene, From ancient grudge break to new mutiny, Where civil blood makes civil hands unclean. From forth the fatal loins of these two foes A pair of star-cross’d lovers take their life; Whole misadventured piteous overthrows Do with their death bury their parents’ strife.</description>
     </item>
     
     <item>
       <title>eBook pilot</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/ebook-pilot/</link>
+      <link>http://jasoneckert.github.io/myblog/ebook-pilot/</link>
       <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/ebook-pilot/</guid>
+      <guid>http://jasoneckert.github.io/myblog/ebook-pilot/</guid>
       <description>Here is my class with their new Kindle DXs. Notice the absence of heavy textbooks on the desks!
 UPDATE: Unfortunately, while it was cool to carry around all of our textbooks in PDF format on our Kindle DXs, the pilot ultimately led to us not adopting eBooks exclusively. Simply put, many of our students just preferred the ease of printed books. eBooks may become the norm in the future, but probably only when everyone carries a laptop with them, and can access a second monitor for it in the classroom.</description>
     </item>
     
     <item>
       <title>The Amazon Kindle ROCKS!</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-amazon-kindle-rocks/</link>
+      <link>http://jasoneckert.github.io/myblog/the-amazon-kindle-rocks/</link>
       <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-amazon-kindle-rocks/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-amazon-kindle-rocks/</guid>
       <description>Recently, the Amazon Kindle 2 (International Edition) arrived in Canada (the last country to get it :-), and I recently picked one up. Since its original introduction in November 2007, I have watched reviews of it fly around the Internet and on blogs such as GeekBrief.tv.
 Although the reviews were generally positive, I really couldn’t visualize myself replacing my book collection with a Kindle for the simple reason that books have their own distinctive “experience” (and smell :-).</description>
     </item>
     
     <item>
       <title>The Amazon Kindle: Friend or foe?</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/amazon-kindle-friend-or-foe/</link>
+      <link>http://jasoneckert.github.io/myblog/amazon-kindle-friend-or-foe/</link>
       <pubDate>Thu, 22 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/amazon-kindle-friend-or-foe/</guid>
+      <guid>http://jasoneckert.github.io/myblog/amazon-kindle-friend-or-foe/</guid>
       <description>There has been a lot of hype this week about Kindle - Amazon’s eBook reader.
 I have always regarded eBooks (also referred to as Digital Ink) as evil. They are almost always DRM (Digital Rights Management) protected so that you can’t share information with others and typically require an expensive eBook reader.
 On the other side, the idea of storing my book collection on a nice small aesthetic digital device seems attractive to me as a technophile.</description>
@@ -117,38 +117,38 @@ On the other side, the idea of storing my book collection on a nice small aesthe
     
     <item>
       <title>2. My published books</title>
-      <link>http://triosdevelopers.com/jason.eckert/bio/my-published-books/</link>
+      <link>http://jasoneckert.github.io/bio/my-published-books/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/bio/my-published-books/</guid>
+      <guid>http://jasoneckert.github.io/bio/my-published-books/</guid>
       <description>Perhaps one of my more famous achievements is the authoring of several textbooks for Course Technology, Cengage, Nelson, Thompson/Delmar and Wiley. I&amp;rsquo;ve listed their details in chronological order here (oldest to newest) with cover pictures below:
  Linux+ Guide to Linux Certification (ISBN: 0-619-13004-0) Guide to UNIX System Administration (ISBN: 0-619-13041-5) Linux+ In Depth (ISBN: 1-59200-062-2) MCSE Guide to Managing a Microsoft Windows Server 2003 Network (ISBN: 0-619-12029-0) Linux+ Guide to Linux Certification - 2nd Edition (ISBN: 0-619-21621-2) Linux+ 2005 In Depth (ISBN: 1-59200-728-7) Novell&amp;rsquo;s Guide to CompTIA&amp;rsquo;s Linux+ (Course 3060) (ISBN: 1-4188-3730-X) SUSE Linux Enterprise Server Administration (Course 3037) (ISBN: 1-4188-3731-8) Advanced SUSE Linux Enterprise Server Administration (Course 3038) (ISBN: 1-4188-3732-6) Microsoft Windows Vista Guide (ISBN: 1-4188-3757-1) SUSE Linux Enterprise Desktop Administration (ISBN: 1-4283-2227-2) SUSE Linux Enterprise Server Security (ISBN: 1-4283-2223-X) Microsoft Official Academic Course (MOAC): Exchange Server 2007 Exam 70-236 (ISBN: 978-0-470-31227-8) Linux+ Guide to Linux Certification - 3rd Edition (ISBN: 978-1-418-83721-1) SUSE Linux Enterprise Server 11 Administration (ISBN: 978-1-111-54003-6) Linux+ Guide to Linux Certification - International Edition (ISBN: 978-1-111-54153-8) Linux+ Guide to Linux Certification - 4th Edition (ISBN: 978-1-305-10716-8) Linux+ and LPIC-1 Guide to Linux Certification - 5th Edition (ISBN: 978-13375-6979-8) Hands-On Windows Server 2019 - 3rd Edition (ISBN: 978-0-357-43615-8)  Moreover, I&amp;rsquo;ve worked as a technical editor for numerous Linux and software development titles for both Wiley and Pearson, as well as wrote 6 books for Research in Motion (RIM) on BlackBerry Enterprise Server 4.</description>
     </item>
     
     <item>
       <title>Cyberpunk, Sci-Fi &amp; General Fiction</title>
-      <link>http://triosdevelopers.com/jason.eckert/reads/fiction/</link>
+      <link>http://jasoneckert.github.io/reads/fiction/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/reads/fiction/</guid>
+      <guid>http://jasoneckert.github.io/reads/fiction/</guid>
       <description>Thomas J. Ryan: The Adolescence of P-1 (1977) This is probably the best book I have ever read regarding our human desire for artificial intelligence (AI). It’s about a University of Waterloo student who creates an AI on IBM mainframes. Don’t let that bore you though - it’s a captivating read and has a great ending. I wouldn’t be surprised if this book influenced later movies such as War Games (1983), and books such as Neuromancer (1984).</description>
     </item>
     
     <item>
       <title>Non-Fiction &amp; Biographies</title>
-      <link>http://triosdevelopers.com/jason.eckert/reads/non-fiction/</link>
+      <link>http://jasoneckert.github.io/reads/non-fiction/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/reads/non-fiction/</guid>
+      <guid>http://jasoneckert.github.io/reads/non-fiction/</guid>
       <description>Clifford Stoll: The Cuckoo’s Egg (1989) Don’t let the year of this book fool you - it’s probably the best book on computing security. The epilogue is both timeless, and an amazing reflection on the purpose of computer security. Moreover, this book is a very enjoyable read. Cliff, like most of us computer/scientist types, writes with a quirky sense of humour, and isn’t afraid to relay his personal views within the book.</description>
     </item>
     
     <item>
       <title>Video Game Books</title>
-      <link>http://triosdevelopers.com/jason.eckert/reads/gaming/</link>
+      <link>http://jasoneckert.github.io/reads/gaming/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/reads/gaming/</guid>
+      <guid>http://jasoneckert.github.io/reads/gaming/</guid>
       <description>Martin Amis: Invasion of the Space Invaders (1982) This is probably the most sought-after video game book of the 1980s by the uber-famous, world-renowned author Martin Amis (most copies sell for over $200 today). Martin Amis has a unique way of bringing you back to the video game world of 1978-1982 using verbal imagery and humour - after all, he was a video game addict at the time! Some of the high-resolution colour photos in the book (including the one above) say more than words ever could.</description>
     </item>
     

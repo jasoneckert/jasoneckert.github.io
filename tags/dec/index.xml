@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DEC on Welcome to My Site!</title>
-    <link>http://triosdevelopers.com/jason.eckert/tags/dec/</link>
+    <link>http://jasoneckert.github.io/tags/dec/</link>
     <description>Recent content in DEC on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Aug 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/dec/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jasoneckert.github.io/tags/dec/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The dawn of personal computing</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/dawn-of-personal-computing/</link>
+      <link>http://jasoneckert.github.io/myblog/dawn-of-personal-computing/</link>
       <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/dawn-of-personal-computing/</guid>
+      <guid>http://jasoneckert.github.io/myblog/dawn-of-personal-computing/</guid>
       <description>If you know me, or have read various sections of my website, you’ll know that I am a die hard member of the computing industry that also likes to collect vintage computers (this is actually quite common - you’d be surprised how many of my colleagues do the same).
 Yesterday, I managed to find a very interesting canvas painting in Toronto (the picture at the top of this post), and just HAD to have it.</description>
     </item>
     
     <item>
       <title>The rise and fall of DEC</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/the-rise-and-fall-of-dec/</link>
+      <link>http://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</link>
       <pubDate>Wed, 26 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-rise-and-fall-of-dec/</guid>
+      <guid>http://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</guid>
       <description>Firstly, the information that I’m presenting here is taken from various sources, including people I knew who worked for DEC, my own experiences, and the book DEC Is Dead, Long Live DEC by Edgar H. Schein.
 Quick background info: DEC was the first knowledge-based company - a company who valued the knowledge of its employees over anything else, and used it to drive change and sell products.
 The founder and father icon of DEC, Ken Olsen, spent time working at IBM.</description>
@@ -34,20 +34,20 @@ The founder and father icon of DEC, Ken Olsen, spent time working at IBM.</descr
     
     <item>
       <title>All about DEC</title>
-      <link>http://triosdevelopers.com/jason.eckert/myblog/all-about-dec/</link>
+      <link>http://jasoneckert.github.io/myblog/all-about-dec/</link>
       <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/myblog/all-about-dec/</guid>
+      <guid>http://jasoneckert.github.io/myblog/all-about-dec/</guid>
       <description>Digital Equipment Corporation (DEC) was born in the late 1950s when it was lucrative to make computers that cost a ton of money. And DEC was good - they would make computers that would perform much better and cost significantly less than the IBM equivalent (IBM mainframes back then were expensive behemoths).
 The DEC PDP (Programmed Data Processor) line of minicomputers were so good and inexpensive, you’d be hard pressed to NOT find one in your local university.</description>
     </item>
     
     <item>
       <title>2. Retro Computers</title>
-      <link>http://triosdevelopers.com/jason.eckert/info/retrocomputers/</link>
+      <link>http://jasoneckert.github.io/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://triosdevelopers.com/jason.eckert/info/retrocomputers/</guid>
+      <guid>http://jasoneckert.github.io/info/retrocomputers/</guid>
       <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
     </item>
     

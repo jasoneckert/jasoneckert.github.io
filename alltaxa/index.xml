@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Search on Welcome to My Site!</title>
-    <link>http://triosdevelopers.com/jason.eckert/alltaxa/</link>
+    <link>http://jasoneckert.github.io/alltaxa/</link>
     <description>Recent content in Search on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://triosdevelopers.com/jason.eckert/alltaxa/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jasoneckert.github.io/alltaxa/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
