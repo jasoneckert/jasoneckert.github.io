@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teaching on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/teaching/</link>
+    <description>Recent content in teaching on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tips to survive teaching an online course</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/tips-to-survive-teaching-an-online-course/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/tips-to-survive-teaching-an-online-course/</guid>
+      <description>The COVID-19 virus has forced colleges and universities in Canada to quickly move their stuff to an online format to allow classes to continue using social isolation. One teacher even wrote a funny song about it: https://www.youtube.com/watch?v=CCe5PaeAeew
+I’m luckier than most, since I’ve been doing online seminars and classes for a wide variety of different organizations for many years now. Most of these sessions have been Train the Trainer (TTT) classes where I teach a course to other technical instructors worldwide.</description>
+    </item>
+    
+    <item>
+      <title>1. What do I do?</title>
+      <link>http://triosdevelopers.com/jason.eckert/bio/what-do-i-do/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/bio/what-do-i-do/</guid>
+      <description>Besides drinking vast quantities of caffeine, I have taught, developed and managed various Information Technology (IT) courses at triOS College in Ontario (Canada) since 1998 in both our college and corporate training divisions.
+Back in 2011, I took on a different title of Dean of Technology to salvage our video game programs, and it turned into a more strategic role where I was able to help shape the development of our programs and curriculum in the following faculties:</description>
+    </item>
+    
+  </channel>
+</rss>

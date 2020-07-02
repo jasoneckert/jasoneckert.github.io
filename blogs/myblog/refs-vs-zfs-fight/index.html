@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Microsoft ReFS vs Oracle ZFS - FIGHT!
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2014-02-25</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+8 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/windows"
+      title="tags"
+    >Windows</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/sysadmin"
+      title="tags"
+    >sysadmin</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/computing"
+      title="tags"
+    >computing</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="refszfs1.png#center" alt="Fight" title="Fight"></p>
+<p>In the past, most IT admins have put their faith in systems and SANs (Storage Area Networks) that use RAID (Redundant Array of Inexpensive Disks) technology.  RAID can be used to combine hard disks together into simple volumes (called RAID-0, or JBOD) that aren’t fault tolerant, but can also be used to create mirrored volumes where both drives are identical in case one fails (called RAID-1), or striped volumes with parity where data is written across several disks with parity information that can be used to calculate the missing data if a drive fails (called RAID-5).</p>
+<p>The biggest problem with this approach is that it only protects against hard disk failure.  What about the plethora of different problems that can corrupt data as it is actually written to the file system by the operating system itself?  These include:</p>
+<ul>
+<li>Accidental driver overwrites</li>
+<li>Bit rot</li>
+<li>Disk firmware bugs</li>
+<li>Driver &amp; kernel buffer errors</li>
+<li>Misdirected writes</li>
+<li>Phantom writes</li>
+<li>Silent data corruption</li>
+</ul>
+<p>Both ReFS and ZFS solve these problems at the file system level! More specifically, they both:</p>
+<ul>
+<li>Detect and repair data errors in real time</li>
+<li>Accommodate volumes in the thousands of disks</li>
+<li>Support huge numbers of files</li>
+<li>Allow you to modify/resize volumes without taking the volume offline</li>
+</ul>
+<p>Now let’s take a more in-depth look at each one…..starting with ZFS.</p>
+<h1 id="zettabyte-file-system-zfs">Zettabyte File System (ZFS):</h1>
+<ul>
+<li>Is a 128-bit filesystem</li>
+<li>Has a capacity of 256 quadrillion Zettabytes (1 Zettabyte = 1 billion Terabytes)</li>
+<li>Has been around for a long time (first introduced in 2001, officially released in 2005)</li>
+<li>Is multi-platform (Solaris, Mac OSX, Linux, FreeBSD, FreeNAS, and more)</li>
+<li>Supports nearly all file system features (Deduplication, snapshots, cloning, compression, encryption, NFSv4, volume management, etc.)</li>
+<li>Has checksums built into its entire fabric – it’s very obvious that ZFS was designed to implement checksums in a very efficient way at every level</li>
+</ul>
+<h1 id="zfs-terminology">ZFS Terminology:</h1>
+<ul>
+<li>ZFS pool = bunch of physical disks (managed with the zpool command)</li>
+<li>ZFS file systems = volumes created from ZFS pools (managed with the zpool and zfs commands)</li>
+</ul>
+<h1 id="creating-zfs-volumes">Creating ZFS volumes:</h1>
+<p>I did this on an Oracle UltraSPARC server running Solaris 10, but you can pretty much use any operating system that has ZFS support installed.  You can give ZFS anything to use – you could give it a device file for a raw device, a partition, a volume, or even a file on a filesystem!  For ease, I’m going to create 3 simple files off of the root of my system to use:</p>
+<pre><code>   mkfile 256m /disk1
+
+   mkfile 256m /disk2
+
+   mkfile 256m /disk3
+</code></pre>
+<p>Next, I can create a simple ZFS volume from all three devices called lala, and automatically mount it to the /lala directory using a single command:</p>
+<pre><code>   zpool create lala /disk1 /disk2 /disk3
+</code></pre>
+<p>I can then copy files to /lala or check out the details using the zpool command:</p>
+<pre><code>   cp /etc/hosts /lala
+
+   ls -lh /lala
+
+   zpool list
+</code></pre>
+<p>I can also remove the ZFS volume entirely and return to my original configuration:</p>
+<pre><code>   zpool destroy lala
+</code></pre>
+<p>Similarly, to create a mirror called po using just /disk1 and /disk2, and mount it to the /po directory, I could use:</p>
+<pre><code>   zpool create po mirror /disk1 /disk2
+
+   zpool list
+
+   cp /etc/hosts /lala
+
+   zpool status po
+</code></pre>
+<p>If I overwrite part of /disk1 (simulating corruption) using the dd command, I can use the zpool scrub command to check for the error and then detach /disk1 (the failed disk) and attach /disk3 (a new disk).  Finally, I’ll check out some more detailed I/O stats and remove the po volume:</p>
+<pre><code>   dd if=/dev/random of=/disk1 bs=512 count=1
+
+   zpool scrub po
+
+   zpool status
+
+   zpool detach po /disk1
+
+   zpool status po
+
+   zpool attach po /disk2 /disk3
+
+   zpool list
+
+   zpool status po
+
+   zpool iostat -v po
+
+   zpool destroy po
+</code></pre>
+<p>To do a striped volume with parity, you can use the keyword raidz alongside the zpool command.  RAID-Z is like RAID-5, but more intelligent because it uses a variable-sized stripe (hence the new name, RAID-Z)!  Like RAID-5, RAID-Z requires a minimum of 3 devices.  You can also use raidz2 (double parity like RAID-6, requires 4+ devices) and raidz3 (triple partity, requires 5+ devices).  Let’s just create a regular RAID-Z volume called noonoo and check it out:</p>
+<pre><code>   zpool create noonoo raidz /disk1 /disk2 /disk3
+
+   zpool status noonoo
+
+   zpool iostat -v noonoo
+</code></pre>
+<p>There is far more to ZFS than I’ll discuss here – you can resize/modify/whatever using various zpool commands.  But what I’ll leave you with for now is that most of the cool features of the ZFS filesystem can be managed using the zfs command.  For example, I could create three subdirectories under the /noonoo filesystem for three users using the zfs command (which is better than simply using mkdir to create them because it tells ZFS to keeps track of them):</p>
+<pre><code>   zfs create noonoo/larry
+
+   zfs create noonoo/curly
+
+   zfs create noonoo/moe
+
+   zfs list
+</code></pre>
+<p>Now you could get a list of the properties for the /noonoo/larry subdirectory to see a list of things you could modify, or even set a quota for larry:</p>
+<pre><code>   zfs get all noonoo/larry
+
+   zfs set quota=10G noonoo/larry
+</code></pre>
+<h1 id="resilient-file-system-refs">Resilient File System (ReFS):</h1>
+<ul>
+<li>Support Windows Server 2012+ / Windows 8+ only</li>
+<li>Is a 64-bit filesystem</li>
+<li>Has a capacity = 1 Yottabyte (=1024 Zettabytes)</li>
+<li>Puts 64-bit checksums on all metadata</li>
+<li>Puts 64-bit checksums on data (if integrity attribute set)</li>
+<li>Has NO support for EFS, quotas, compression, 8.3 names, deduplication, etc. (Bitlocker is supported though)</li>
+</ul>
+<h1 id="refs-terminology">ReFS Terminology:</h1>
+<ul>
+<li>Storage pool = a bunch of physical disks</li>
+<li>Storage spaces = virtual disks / volumes made from storage pools (can be NTFS or ReFS)</li>
+</ul>
+<h1 id="creating-refs-volumes">Creating ReFS Volumes:</h1>
+<p>ReFS works with Storage Spaces to create either simple volumes from one or more disks, mirrored volumes (RAID-1, requires 2 devices), or parity volumes (RAID-5, requires 3+ devices).  ReFS automatically corrects file corruption on a parity space if the the integrity attribute is set (it is set by default on parity volumes, but can be changed using the Set-FileIntegrity cmdlet in PowerShell).</p>
+<p>Unfortunately, you can’t just create a file and give it to Storage Spaces for creating ReFS volumes – you actually have to use real devices.  As a result, I’ve installed Windows Server 2012 R2 in a Hyper-V virtual machine and attached 3 additional 5GB virtual disks to it.</p>
+<p>You can easily create a storage pool within Server Manager by navigating to File and Storage Services &gt; Volumes &gt; Storage Spaces.  When you choose the appropriate Task option to create a Storage Space, you’ll get a wizard that asks you to choose the disks you want to put in the pool - you can then give it a name and complete the wizard.  At this point, you’ll have something that looks like this:</p>
+<p><img src="refszfs2.jpg#center" alt="ReFS1" title="ReFS1"></p>
+<p>Next, you’ll want to choose the Tasks menu in the Virtual Disks section shown above and create a new Storage Space volume.  This opens two wizards.  The first wizard asks you to choose the pool you want to use, and then give the Storage Space a name, layout (Simple, Mirror or Parity) and size.  The second wizard creates the filesystem on the Storage Space - it prompts you to choose your Storage Space, volume size, mount point (e.g. F:), and file system (choose ReFS!!!).  And BOOM!  You’re done.  You should have a new volume listed under Virtual Disks:</p>
+<p><img src="refszfs3.jpg#center" alt="ReFS2" title="ReFS2"></p>
+<p>OK, now for the performance comparison!  I’ve had the pleasure of being able to run both file systems in a production-class test environment, and bog them down using various software suites.  Here is what I’ve found from my experience:</p>
+<h1 id="refs-performance">ReFS Performance:</h1>
+<p>To say it is poor, would be very kind.  The parity (RAID-5) has dismal performance, especially if you simulate corruption.  Microsoft’s only solution to this is to add an SSD (it will move frequently-access stuff to the SSD – a feature called storage tier support).  Why is this?!?!?  Well, according to Microsoft, ReFS requires that existing parity information &ldquo;&hellip;be read and processed before a new write can occur.”  Archaic to say the least.</p>
+<h1 id="zfs-performance">ZFS Performance:</h1>
+<p>Amazing would be an understatement.  You throw anything at ZFS, and it seems to use it in the most efficent way possible (including PCIe SSDs and battery-backed RAM disk devices with ultra-low latency).  There are also 3 levels of caching available with ZFS:</p>
+<ul>
+<li>ARC (Adaptive Replacement Cache), which is essentially intelligent memory caching</li>
+<li>L2ARC, which is non-storage SSD read caching</li>
+<li>ZIL (ZFS intent log), which is SSD write caching</li>
+</ul>
+<p>More importantly, ZFS writes parity info with a variable-sized stripe.  This feature almost entirely eliminates poor performance, AND corrects the infamous RAID 5 Hole (data lost in the event of a power failure).</p>
+<h1 id="conclusion">Conclusion:</h1>
+<p>Both ZFS and ReFS detect and repair data errors without dismounting volumes, but ZFS does a much better job.  ZFS uses checksums that trickle up through all data and metadata in the file system hierarchy.  ReFS approximates this using the integrity attribute, but it has a huge hit on performance and very high latency.   ZFS also supports more file system features and storage technologies (deduplication, PCI-e SSDs, Pro RAMdisks, compression, cloning, snapshots, encryption, and more).</p>
+<p>Consequently, ZFS wins hands down.  However, don’t write ReFS off just yet.  Keep in mind that ZFS is very mature, and currently in production in massive enterprise environments.  ReFS has just been introduced by Microsoft – it’s essentially a “1.0” feature that is rough around the edges.  The important thing is that Microsoft wants a file system like ZFS, and it looks like they are moving in the right direction (which is a good thing).</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/george-h-jenner/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="George H. Jenner"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/great-canadian-appathon-4/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Great Canadian Appathon 4"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

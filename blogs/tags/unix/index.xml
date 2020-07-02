@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UNIX on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/unix/</link>
+    <description>Recent content in UNIX on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FreeBSD UNIX for Linux sysadmins</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/freebsd-unix-for-linux-sysadmins/</link>
+      <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/freebsd-unix-for-linux-sysadmins/</guid>
+      <description>If you’ve ever installed and explored another Linux distro (what Linux sysadmin hasn’t?!?), then exploring FreeBSD is going be somewhat similar with a few key differences. While there is no graphical installation, the installation process is straightforward and similar to installing a server-based Linux distro. Just make sure you choose the local_unbound package when prompted if you want to cache DNS lookups locally, as FreeBSD doesn’t have a built-in local DNS resolver that does this.</description>
+    </item>
+    
+    <item>
+      <title>2019 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</guid>
+      <description>This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!
+On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA) Instructor Network.
+This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).</description>
+    </item>
+    
+    <item>
+      <title>Reviving an ancient BSD UNIX workstation</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/reviving-an-ancient-bsd-workstation/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/reviving-an-ancient-bsd-workstation/</guid>
+      <description>Most people will look at this 3-foot-long behemoth of ancient electronics and wonder why it wasn’t scrapped decades ago. But for many of us in the tech industry, these ancient machines are a way to peer into the early days of an industry that has twisted and evolved in leaps and bounds, leaving nearly every player that shaped its landscape forgotten in time.
+The machine sitting in my driveway at the top of this post is a workstation from the early 1980s with a NS32016 CPU (the first 32-bit general purpose microprocessor) and a whopping 1MB of RAM.</description>
+    </item>
+    
+    <item>
+      <title>How to learn vi (vim)</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/how-to-learn-vi-vim/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-to-learn-vi-vim/</guid>
+      <description>1. So, what is vi (and vim)? One of the most important tools for any developer or sysadmin on UNIX and Linux systems is a text editor. Mastering a text editor allows you to quickly create and edit the source code for programs, scripts and configuration files (nearly all configuration on a UNIX/Linux system is stored as text).
+The vi editor has been one of the most common (if not THE most common) text editor on these systems since it was created in 1969 by Bill Joy.</description>
+    </item>
+    
+    <item>
+      <title>The UNIX Philosophy in 2019</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-unix-philosophy-in-2019/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-unix-philosophy-in-2019/</guid>
+      <description>Earlier this week, I did a presentation for WWITPRO that detailed the UNIX philosophy and its relevance today. Given the subject matter, I decided to do the presentation in PostScript on my SPARCbook running Sun Solaris 2.5.1. This blog post details the content of the presentation for posterity!
+What is UNIX? Simply put, UNIX is an operating system that was created by Ken Thompson in 1969 that was rewritten shortly thereafter in Dennis Ritchie’s C programming language.</description>
+    </item>
+    
+    <item>
+      <title>How ricing shifted from cars to computers</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/how-ricing-shifted-from-cars-to-computers/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-ricing-shifted-from-cars-to-computers/</guid>
+      <description>Back in the early 1990s, teenagers with a drivers license made a hobby of tweaking out their cars - adding custom grills, spoilers, paint jobs, and so on. The more crazy, the better. And since the most common car to perform these modifications on were older Honda Civics, which you could get fairly cheap at the time, especially if they were more than 5 years old and needed a bit of work.</description>
+    </item>
+    
+    <item>
+      <title>SPARCbook 3000ST: The coolest 90s laptop</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/sparcbook3000st-the-coolest-90s-laptop/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/sparcbook3000st-the-coolest-90s-laptop/</guid>
+      <description>A few weeks back I managed to pick up an incredibly rare laptop in immaculate condition for $50 on Kijiji: a Tadpole Technologies SPARCbook 3000ST from 1997 (it also came with two other working Pentium laptops from the 1990s).
+I had to drive almost three hours to pick it up on the other side of Toronto, but for a SPARCbook it was definitely worth it seeing as I&amp;rsquo;m more likely to find the lost city of Atlantis than another one of these again.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft ReFS vs Oracle ZFS - FIGHT!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/refs-vs-zfs-fight/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/refs-vs-zfs-fight/</guid>
+      <description>In the past, most IT admins have put their faith in systems and SANs (Storage Area Networks) that use RAID (Redundant Array of Inexpensive Disks) technology. RAID can be used to combine hard disks together into simple volumes (called RAID-0, or JBOD) that aren’t fault tolerant, but can also be used to create mirrored volumes where both drives are identical in case one fails (called RAID-1), or striped volumes with parity where data is written across several disks with parity information that can be used to calculate the missing data if a drive fails (called RAID-5).</description>
+    </item>
+    
+    <item>
+      <title>Impressed by a 10 year old desktop computer</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/impressed-by-a-10-year-old-desktop/</link>
+      <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/impressed-by-a-10-year-old-desktop/</guid>
+      <description>Long story short, I scored a free SGI Fuel computer along with the SGI Origin 300 computer I described two posts ago.
+But the SGI Fuel is a much more “usable” computer because it is a powerful single-processor graphical desktop computer (what Silicon Graphics was best known for).
+Here is what it comes with:
+ 4GB RAM 600MHz R14000A MIPS CPU (64-bit) Two SCSI hard disks DVD writer Odyssey video card (DVI) that takes up the entire bottom of the cabinet IRIX 6.</description>
+    </item>
+    
+    <item>
+      <title>QNX on a moon rover</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/qnx-on-a-moon-rover/</link>
+      <pubDate>Mon, 02 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/qnx-on-a-moon-rover/</guid>
+      <description>Back in September 2011, a group of McMaster business and engineering students started a project aimed to build a moon rover that would be run by the QNX operating system on a BlackBerry PlayBook - a Canadian initiative with Canadian technologies (QNX is 100% Canadian). Here is a link to the original article on CrackBerry.com from the beginning of the project: https://crackberry.com/forums-new-group-aims-put-blackberry-playbook-powered-rover-moon
+I reached out to them because of that article since I’ve had experience with QNX and PlayBook development.</description>
+    </item>
+    
+    <item>
+      <title>The rise and fall of DEC</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-rise-and-fall-of-dec/</link>
+      <pubDate>Wed, 26 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-rise-and-fall-of-dec/</guid>
+      <description>Firstly, the information that I’m presenting here is taken from various sources, including people I knew who worked for DEC, my own experiences, and the book DEC Is Dead, Long Live DEC by Edgar H. Schein.
+Quick background info: DEC was the first knowledge-based company - a company who valued the knowledge of its employees over anything else, and used it to drive change and sell products.
+The founder and father icon of DEC, Ken Olsen, spent time working at IBM.</description>
+    </item>
+    
+    <item>
+      <title>All about DEC</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/all-about-dec/</link>
+      <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/all-about-dec/</guid>
+      <description>Digital Equipment Corporation (DEC) was born in the late 1950s when it was lucrative to make computers that cost a ton of money. And DEC was good - they would make computers that would perform much better and cost significantly less than the IBM equivalent (IBM mainframes back then were expensive behemoths).
+The DEC PDP (Programmed Data Processor) line of minicomputers were so good and inexpensive, you’d be hard pressed to NOT find one in your local university.</description>
+    </item>
+    
+    <item>
+      <title>NeXTSTEP is cool</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/nextstep-is-cool/</link>
+      <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/nextstep-is-cool/</guid>
+      <description>When Steve Jobs left Apple in the 1980s, he started a new venture that produced NeXT UNIX computers that ran a custom UNIX system called NeXTSTEP on Motorola 68000-series computers. The first Web browser was made my Tim Berners-Lee on one of these NeXT computers!
+When I was an undergrad student at the University of Waterloo, we had a few NeXT computers (literally two of them I believe) and a bunch of HP PA-RISC 712s running NeXTSTEP for object-oriented software development (it was more common to see Sun or SGI UNIX systems at the university back them).</description>
+    </item>
+    
+    <item>
+      <title>The death of SGI</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-death-of-sgi/</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-death-of-sgi/</guid>
+      <description>Today is definitely a sad day - SGI announced their bankruptcy.
+SGI was once a great company - in the 1990s, they made the best computers ever, such as the Indigo2, O2, and Octane. The cases and designs looked awesome, and they had amazingly fast 64-bit MIPS RISC CPUs and stellar video cards! Plus, they made an excellent graphical UNIX operating system: IRIX.
+Although I am a Mac OS X UNIX user now, IRIX will always be my favourite UNIX.</description>
+    </item>
+    
+    <item>
+      <title>10 years of UserFriendly.org</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/10-years-of-userfriendly/</link>
+      <pubDate>Sun, 08 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/10-years-of-userfriendly/</guid>
+      <description>I haven’t blogged for a while.
+This is partly because my daughter and I have been enjoying some major events in Toronto (Ontario Science Centre, ROM, shopping, more shopping, etc.), and not much has happened in the Geek world aside from the new Apple hardware updates and Firefox achieving 100% market share in Antarctica.
+However, the main reason I haven’t blogged is that I have been engrossed with reading the 10th Anniversary book from UserFriendly.</description>
+    </item>
+    
+    <item>
+      <title>Happy Epoch Day!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/happy-epoch-day/</link>
+      <pubDate>Fri, 13 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/happy-epoch-day/</guid>
+      <description>Today is a special day in the I-don’t-have-a-life-and-can-prove-it-mathematically geek world&amp;hellip;..for today, the epoch will be 1234567890 at precisely 6:31pm (and 30 seconds) Eastern time.
+UNIX (including Mac OS X) and Linux systems use an internal time called the epoch - it is the number of seconds since January 1st, 1970 (the “birth” of UNIX). This is also why UNIX and Linux geeks weren’t too concerned that their OS was going to blow up at Y2K, since the time would simply be 946684800.</description>
+    </item>
+    
+    <item>
+      <title>The Nostradamus of UNIX</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-nostradamus-of-unix/</link>
+      <pubDate>Thu, 22 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-nostradamus-of-unix/</guid>
+      <description>Every so often I re-read a book that I read years ago to remember what it is about. Mostly, I re-read sci-fi or notable works such as Neuromancer (William Gibson) or The Hitchhiker’s Guide to the Galaxy (Douglas Adams) since those are the types of books that I kept over the years.
+However, I kept a book from 1989 called Life with UNIX (Don Libes &amp;amp; Sandy Ressler) that I remember using as a good UNIX reference a long time ago.</description>
+    </item>
+    
+    <item>
+      <title>The UNIX way</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-unix-way/</link>
+      <pubDate>Tue, 29 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-unix-way/</guid>
+      <description>Back in the 1980s, someone started the UNIX-HATERS mailing list as a means of venting UNIX-related frustrations. In 1994, Simson Garfinkel, Daniel Weise, and Steven Strassmann collected these frustrations and published them in a book called “The UNIX-HATERS Handbook” with extra commentary aimed to portray one view: UNIX sucks. The book itself contains plenty of great information about different technologies such as shell scripting, UNIX commands, email and file systems – it’s too bad that they cast everything in a very negative light.</description>
+    </item>
+    
+    <item>
+      <title>The wicked witch is dead</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-wicked-witch-is-dead/</link>
+      <pubDate>Sun, 12 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-wicked-witch-is-dead/</guid>
+      <description>I consider myself to be a very patient person (all things considered) - but one thing that causes me to lose my patience is when I hear of proprietary computer companies that spread FUD (Fear, Uncertainty and Doubt) in order to keep their customers from considering other (and usually much better) technologies.
+While Microsoft has been the main purveyor of FUD since the early 1990s, SCO used FUD in an attempt to downplay the Linux operating system.</description>
+    </item>
+    
+    <item>
+      <title>1. Operating Systems</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/operatingsystems/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/operatingsystems/</guid>
+      <description>UNIX UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX.</description>
+    </item>
+    
+    <item>
+      <title>2. My published books</title>
+      <link>http://triosdevelopers.com/jason.eckert/bio/my-published-books/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/bio/my-published-books/</guid>
+      <description>Perhaps one of my more famous achievements is the authoring of several textbooks for Course Technology, Cengage, Nelson, Thompson/Delmar and Wiley. I&amp;rsquo;ve listed their details in chronological order here (oldest to newest) with cover pictures below:
+ Linux+ Guide to Linux Certification (ISBN: 0-619-13004-0) Guide to UNIX System Administration (ISBN: 0-619-13041-5) Linux+ In Depth (ISBN: 1-59200-062-2) MCSE Guide to Managing a Microsoft Windows Server 2003 Network (ISBN: 0-619-12029-0) Linux+ Guide to Linux Certification - 2nd Edition (ISBN: 0-619-21621-2) Linux+ 2005 In Depth (ISBN: 1-59200-728-7) Novell&amp;rsquo;s Guide to CompTIA&amp;rsquo;s Linux+ (Course 3060) (ISBN: 1-4188-3730-X) SUSE Linux Enterprise Server Administration (Course 3037) (ISBN: 1-4188-3731-8) Advanced SUSE Linux Enterprise Server Administration (Course 3038) (ISBN: 1-4188-3732-6) Microsoft Windows Vista Guide (ISBN: 1-4188-3757-1) SUSE Linux Enterprise Desktop Administration (ISBN: 1-4283-2227-2) SUSE Linux Enterprise Server Security (ISBN: 1-4283-2223-X) Microsoft Official Academic Course (MOAC): Exchange Server 2007 Exam 70-236 (ISBN: 978-0-470-31227-8) Linux+ Guide to Linux Certification - 3rd Edition (ISBN: 978-1-418-83721-1) SUSE Linux Enterprise Server 11 Administration (ISBN: 978-1-111-54003-6) Linux+ Guide to Linux Certification - International Edition (ISBN: 978-1-111-54153-8) Linux+ Guide to Linux Certification - 4th Edition (ISBN: 978-1-305-10716-8) Linux+ and LPIC-1 Guide to Linux Certification - 5th Edition (ISBN: 978-13375-6979-8) Hands-On Windows Server 2019 - 3rd Edition (ISBN: 978-0-357-43615-8)  Moreover, I&amp;rsquo;ve worked as a technical editor for numerous Linux and software development titles for both Wiley and Pearson, as well as wrote 6 books for Research in Motion (RIM) on BlackBerry Enterprise Server 4.</description>
+    </item>
+    
+    <item>
+      <title>2. Retro Computers</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/retrocomputers/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/retrocomputers/</guid>
+      <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
+    </item>
+    
+  </channel>
+</rss>

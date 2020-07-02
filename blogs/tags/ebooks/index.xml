@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eBooks on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/ebooks/</link>
+    <description>Recent content in eBooks on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Sep 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/ebooks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>eBook pilot</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/ebook-pilot/</link>
+      <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/ebook-pilot/</guid>
+      <description>Here is my class with their new Kindle DXs. Notice the absence of heavy textbooks on the desks!
+UPDATE: Unfortunately, while it was cool to carry around all of our textbooks in PDF format on our Kindle DXs, the pilot ultimately led to us not adopting eBooks exclusively. Simply put, many of our students just preferred the ease of printed books. eBooks may become the norm in the future, but probably only when everyone carries a laptop with them, and can access a second monitor for it in the classroom.</description>
+    </item>
+    
+    <item>
+      <title>The Amazon Kindle ROCKS!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-amazon-kindle-rocks/</link>
+      <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-amazon-kindle-rocks/</guid>
+      <description>Recently, the Amazon Kindle 2 (International Edition) arrived in Canada (the last country to get it :-), and I recently picked one up. Since its original introduction in November 2007, I have watched reviews of it fly around the Internet and on blogs such as GeekBrief.tv.
+Although the reviews were generally positive, I really couldn’t visualize myself replacing my book collection with a Kindle for the simple reason that books have their own distinctive “experience” (and smell :-).</description>
+    </item>
+    
+    <item>
+      <title>Amazon Kindle...friend...or foe...</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/amazon-kindle-friend-or-foe/</link>
+      <pubDate>Thu, 22 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/amazon-kindle-friend-or-foe/</guid>
+      <description>There has been a lot of hype this week about Kindle - Amazon’s eBook reader.
+I have always regarded eBooks (also referred to as Digital Ink) as evil. They are almost always DRM (Digital Rights Management) protected so that you can’t share information with others and typically require an expensive eBook reader.
+On the other side, the idea of storing my book collection on a nice small aesthetic digital device seems attractive to me as a technophile.</description>
+    </item>
+    
+  </channel>
+</rss>

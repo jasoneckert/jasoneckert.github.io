@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      The Dark Side of GNU
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2019-05-12</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+3 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/open-source"
+      title="tags"
+    >open source</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="gnubad.png#right" alt="GAHNOO" title="GAHNOO"></p>
+<p>In computing, GNU (which stands for “GNU’s Not UNIX”) started as a project led by Richard Stallman aimed to replace all of the components of the UNIX operating system with freely-developed versions.</p>
+<p>It also led to the creation of the GNU Public License (GPL) that protected freely-developed software from being exploited by others. Software released under the GPL is commonly called open source software today, and there are dozens of open source licenses available in addition to the GPL.</p>
+<p>Nearly all major software evolution that we’ve seen in the past few decades was made possible because of open source, as well as the Linux operating system, which runs most of the world today (servers, desktops, gaming rigs, Android, nearly the entire cloud, all major network devices, IoT smart devices, etc.).  After all, Linux is essentially Linus Torvald’s open source operating system kernel running alongside thousands of open source software packages that together comprise a complete operating system. Many of these open source packages originated with the GNU project (which had difficulty getting their kernel to work before Linus did).</p>
+<p>And while we typically use “Linux” and “open source” today instead of “GNU” when referring to modern software practices, GNU has undeniably had a tremendous impact on software in general.</p>
+<p>While GNU still technically exists to promote and encourage open source software development, there’s also a dark side to GNU that people within the open source community resent: GNU is a bitter loser. They are the whiny little bitch trying to get the attention they deserve in a world that is busy creating open source software.</p>
+<p>You can’t attend a talk from Richard Stallman without him asking the audience to pronounce Linux as GNU/Linux, which emphasizes GNU’s importance in its development and gives credit where Richard thinks credit it due.</p>
+<p>And there are a handful of loyal GNU social justice warriors that exist to do the same. They even created a Reddit bot that adds this comment every time you make a post with Linux in the name:</p>
+<p><img src="bot.jpg#center" alt="bot" title="bot"></p>
+<p>Rather than emphasizing their current contributions to the open source community (e.g. new versions of the GPL, public awareness of open source software), the GNU project is fixated with claiming their righteous place in the list of household names associated with computing. They resent that Linux has stolen their spotlight. In many ways, it’s like this funny NASA Michael Jackson conspiracy theory:</p>
+<p><img src="conspiracy.jpg#center" alt="conspiracy" title="conspiracy"></p>
+<p><img src="gnulogo.png#right" alt="GNU logo" title="GNU logo"></p>
+<p>Sadly, GNU will never steal back the spotlight from Linux; GNU will never become a household name.  And most of us in the computing world view GNU as the Jehovah’s Witnesses of the open source community; they have the right to advertise their beliefs, but most of us just nod our head politely, say “No thanks” and quickly walk away while muttering “fuuuuuck” under our breath. Do we call it NEXTSTEP/macOS, or DOS/Windows10? Nope. Because things evolve in this industry, including names. Sorry GNU, like everyone else, I call it Linux, not GNU/Linux. Move on. Get some therapy to deal with it, if necessary. Linux is what was chosen by popular opinion over time. It is easy to both pronounce and type. And, unlike GNU, the Linux logo doesn’t suck (GNU logo shown right).</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/the-unix-philosophy-in-2019/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="The UNIX Philosophy in 2019"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/how-ricing-shifted-from-cars-to-computers/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="How ricing shifted from cars to computers"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

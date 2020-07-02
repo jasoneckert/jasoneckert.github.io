@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Customizing macOS for development
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2020-05-18</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+10 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/macos"
+      title="tags"
+    >macOS</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/apple"
+      title="tags"
+    >Apple</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/programming"
+      title="tags"
+    >programming</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/development"
+      title="tags"
+    >development</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p>So your boss gave you a Mac for development. Or maybe you bought a Mac because you have to develop iOS apps. Or maybe you bought a MacBook because you need to develop software as well as look good at Starbucks (after the pandemic is over, of course).</p>
+<p>Unfortunately doing serious development using macOS is cumbersome at best. The Aqua desktop in macOS has few features or components geared towards developers. If you look over the shoulder of most Mac users, you’ll notice that their desktop looks like a very messy desk. The more you use macOS, the more you realize this messy desktop practice is caused by the design of Aqua and not the user. After all, Apple designed every aspect of Aqua to fit the needs of the most novice users, and not power users such as developers. Luckily, there are several things you can do to tweak your Mac into a fast developer workstation that boasts an interface with the productivity features you’re used to on Windows 10 and Linux desktops. In this blog post, I’ll share my general recommendations for turning macOS into a developer workstation.</p>
+<p>This blog post assumes you know the basic structure of the macOS operating system. If you don’t, or you’re somewhat new to macOS but have some Linux knowledge, read my “macOS for Linux Admins” blog post first!</p>
+<h1 id="1-install-macos-a-second-time">1. Install macOS a second time</h1>
+<p>This is something I highly recommend on any developer workstation, for reasons I’ll get to shortly. You can easily (and safely) install macOS multiple times on the same system because Apple now uses the APFS filesystem, which supports logical volumes on the same underlying partition.</p>
+<p>Modern Macs come with a small ARM processor called the T2 chip that acts as the SSD controller, sound controller, touchbar controller, Trusted Platform Module (TPM), and pretty much anything else Apple wants to cram in there to save cost and maximize profit. When you get a new Mac, the filesystem on the SSD is encrypted by default, and this encryption is performed entirely by the T2 chip. While this is generally a good thing for personal files, it causes havoc if you perform many small writes to the filesystem because the T2 chip just can’t handle the load like other storage controllers can (it was designed for the storage needs of Facebook users at Starbucks, not the demands of a developer workstation). Thus, if you are testing a containerized app using a Docker/LinuxKit setup, K8s, or a Linux/Windows virtual machine (which incur a large storage performance cost on macOS for some reason), it’s best to create another “development” installation of macOS alongside your default “personal” installation of macOS that is not encrypted to ensure that the T2 chip can give you fast storage performance. Each time you boot your Mac, you can hold down the Option key on your keyboard to get a menu that allows you to choose which macOS installation you want to boot (development or personal).</p>
+<p>Another reason to install macOS a second time is that your personal and development installations can have different Apple IDs attached to them. This allows you to easily separate your personal Apple ID from another Apple ID that is used solely for developing software, or as part of an Apple Developer Program for your organization.</p>
+<p>To install macOS a second time, you must first create a new APFS logical volume:</p>
+<ol>
+<li>Open Disk Utility (/Applications/Utilities/Disk Utility).</li>
+<li>Click the drop-down menu beside the View button in the toolbar and choose Show All Devices.</li>
+<li>Click the + button to create a new APFS volume.</li>
+<li>Specify a name for your APFS volume (e.g. development) and optionally set a Reserve (minimum) or Quota (maximum) size if you want to guarantee or limit the space the new logical volume can consume from the underlying partition, respectively.</li>
+</ol>
+<p>Next, you can open the App Store, search for macOS Catalina and choose to download it (approx. 8GB). When the download has finished, the installation will start automatically. At the beginning of the installation, you’ll be prompted for the volume to install macOS to. Simply choose the new volume you created (e.g. development) and proceed through the rest of the installation normally. The new volume will not be encrypted, and the system will automatically boot into macOS installed on your new volume (unless you hold down the Option key on your Mac keyboard at boot time and select your personal macOS installation).</p>
+<p>Once you’re booted into your new macOS installation, you can set up your environment, as described in the following sections.</p>
+<h1 id="2-install-a-package-manager">2. Install a package manager</h1>
+<p>In order to make macOS a useful developer workstation, you need to add a LOT of open source software to it. Homebrew (or just brew) is a proper package manger for macOS that allows you to obtain open source software from GitHub and compile it (if necessary) to run on macOS with simple commands. For example, <code>brew install neofetch</code> will install neofetch, while <code>brew install nvim</code> will install neovim. You can also use brew to remove software or restart services that were installed via brew. Most open source software that you’re ever going to need can be installed using brew if there isn’t a pre-compiled binary app available from some website. To install brew, go to <a href="https://brew.sh/">https://brew.sh/</a> and copy the command shown into a terminal window. This will first download the Xcode command line tools (approx. 2.5GB) before installing the brew system files.</p>
+<h1 id="3-install-a-better-terminal-code-editor-and-font-set">3. Install a better terminal, code editor and font set</h1>
+<p>The three I’ve chosen below are the ones I use the most, but you may prefer different packages, or additional ones depending on your development needs. For example, you may need to install additional developer frameworks and IDEs for your development (my recommendations here don’t assume what sort of development you’ll be doing).</p>
+<ul>
+<li>iTerm is a feature-rich and fully customizable terminal emulator that replaces the limited one that comes with macOS (/Applications/Utilities/Terminal.app). You can download the iTerm app from <a href="https://www.iterm2.com">https://www.iterm2.com</a>. Next, you should move the downloaded iTerm2 app to your /Applications folder and create a link to it on your Dock for easy access.</li>
+<li>Visual Studio Code is arguably the best text and code editor for many different types of development. In addition to being fully customizable, Visual Studio Code has some pretty slick Intellisense. You can download the Visual Studio Code app from <a href="https://code.visualstudio.com">https://code.visualstudio.com</a>. Next, you should move the downloaded app to your /Applications folder and create a link to it on your Dock for easy access.</li>
+<li>Nerd Fonts provides a font set that is better suited towards developers compared to the default font set provided by macOS. You can use Nerd Fonts in any app that allows you to customize the font set, as well as within macOS itself. You can install Nerd Fonts using the <code>brew tap homebrew/cask-fonts</code> and <code>brew cask install font-hack-nerd-font</code> commands.</li>
+</ul>
+<h1 id="4-install-an-automatic-tiling-window-manager">4. Install an automatic tiling window manager</h1>
+<p>To avoid the mess that is Aqua, you’ll need a proper window manager. You’ll want to install yabai (<a href="https://github.com/koekeishiya/yabai),">https://github.com/koekeishiya/yabai),</a> which manages the windows that you have on your desktop automatically so that everything is organized perfectly.</p>
+<p>Unfortunately, you have to disable two features of macOS System Integrity Protection (SIP) to allow yabai to work. If you research them, you’ll find that they are quite minor, and you’re only disabling them on your second (development) macOS installation only, so it won’t affect your personal installation of macOS. Once these two features are disabled, you’ll also notice a dramatic speed improvement when using macOS (for this reason alone, many macOS power users choose disable it).</p>
+<p>To disable these two features of SIP, power down your computer and then boot it while holding down the Command (⌘) + R key combination to enter recovery mode. Log into your second installation of macOS when prompted and select Terminal from the Utilities menu. Next, type the following command (ignore any warnings) and reboot normally afterwards:</p>
+<pre><code>csrutil enable --without debug --without fs
+</code></pre>
+<p>Following this, you can install yabai using brew, and then start and allow yabai to run on your system. The detailed steps to perform these tasks are listed on the yabai website: <a href="https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release)">https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release)</a>.</p>
+<p>You’ll also need to create a ~/.yabairc file that contains your desired yabai configuration. The example yabairc file listed on the yabai website would likely suit your needs, and the options within are rather self-explanatory. That being said, here is <a href="yabairc.txt" title="my ~/.yabairc configuration">my ~/.yabairc configuration</a> in case you want to paste it into your ~/.yabairc file.</p>
+<h1 id="5-install-a-hotkey-daemon">5. Install a hotkey daemon</h1>
+<p>As a programmer, there is nothing more important than a great set of customized keyboard shortcuts for everything you need to do. That’s where a hotkey daemon, such as skhd (<a href="https://github.com/koekeishiya/skhd">https://github.com/koekeishiya/skhd</a>) comes in. You can install and start the skhd hotkey daemon using brew:</p>
+<pre><code>brew install koekeishiya/formulae/skhd
+brew services start skhd
+</code></pre>
+<p>You’ll also need to create a ~/.skhdrc file with your desired configuration. The example .skhdrc file listed on the skhd website has plenty of great examples, but here is <a href="skhdrc.txt" title="my ~/.skhdrc configuration">my ~/.skhdrc configuration</a> in case you want to paste it into your ~/.skhdrc file.</p>
+<p>In my ~/.skhdrc file, the first three lines set keyboard shortcuts for my iTerm, Visual Studio Code and Firefox apps (the open command searches /Applications for the name specified):</p>
+<pre><code>cmd - return : open -a iTerm
+cmd + shift - return : open -a &quot;Visual Studio Code&quot;
+alt - return : open -a Firefox
+</code></pre>
+<p>The remaining (many) lines of my ~/.skhdrc file create shortcuts that use yabai to modify window behavior. For example, these four lines shift window focus:</p>
+<pre><code>alt - left : yabai -m window --focus west
+alt - down : yabai -m window --focus south
+alt - up : yabai -m window --focus north
+alt - right : yabai -m window --focus east
+</code></pre>
+<p>You’ll want to spend time to look over and modify these ~/.skhdrc lines to suit your needs!</p>
+<h1 id="6-clean-up-aqua-and-install-a-widget-system">6. Clean up Aqua and install a widget system</h1>
+<p>It’s also important to remove any visual distractions from your macOS desktop. To do this, open the System Preferences app and perform the following steps:</p>
+<ol>
+<li>Navigate to General and select the option to auto-hide the menu bar.</li>
+<li>Navigate to Dock and, select the option to move your Dock position to the right of the screen (since we tile windows from left to right, this will maximize the vertical space used by them). Also select the option to auto-hide the Dock so that it stays out of view unless you need it.</li>
+</ol>
+<p>Of course, there are always some things you’ll want to display on your desktop in the absence of a menu bar or Dock. For these, you can install a widget system, such as Übersicht. You can download the Übersicht app from <a href="http://tracesof.net/uebersicht">http://tracesof.net/uebersicht</a>.  Next, you should move the downloaded app to your /Applications folder, and create a link to it on your Dock for easy access.</p>
+<p>The Übersicht website also has widgets for you to download and drag to your widgets folder (you can see this folder by selecting Open Widgets Folder from the Übersicht menu in the top menu bar). To customize the widgets, edit the .jsx file (they are written in JavaScript + React&rsquo;s JSX) and possibly the related .json file, depending on the widget.</p>
+<p>The three widgets I have on my desktop (shown below) display the top Hacker News posts in the upper left, system statistics and time information in the lower left, and a random XKCD comic in the lower right (for sanity purposes):</p>
+<p><img src="pic1.jpg#center" alt="Desktop" title="Desktop"></p>
+<p>If you want to use the Mount Fuji wallpaper shown above, you can download it from <a href="https://github.com/Who23/dots/blob/master/walls/wallpaper.jpg">https://github.com/Who23/dots/blob/master/walls/wallpaper.jpg</a>.</p>
+<p>When you open applications (using skhd shortcuts), their layout will be adjusted automatically by yabai as shown below:</p>
+<p><img src="pic2.jpg#center" alt="Desktop windows" title="Desktop windows"></p>
+<p>In the above desktop, you’ll notice that I also use tmux in my iTerm2 alongside a starship prompt to maximize my terminal width. Both of these can easily be installed using brew:</p>
+<pre><code>brew install tmux
+brew install starship
+</code></pre>
+<p>(you must also add eval <code>$(starship init zsh)</code> to your ~/.zshrc)</p>
+<p>That’s pretty much the basic configuration I’d recommend doing for any developer using macOS. I hope you find it helpful!</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/the-old-web-was-fun/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="The old Web was fun"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/freebsd-unix-for-linux-sysadmins/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="FreeBSD UNIX for Linux sysadmins"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

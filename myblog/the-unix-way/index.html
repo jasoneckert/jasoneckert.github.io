@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      The UNIX way
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2008-04-29</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+4 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/macos"
+      title="tags"
+    >macOS</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="unixway.png#right" alt="The UNIX way" title="The UNIX way"></p>
+<p>Back in the 1980s, someone started the UNIX-HATERS mailing list as a means of venting UNIX-related frustrations.  In 1994, Simson Garfinkel, Daniel Weise, and Steven Strassmann collected these frustrations and published them in a book called “The UNIX-HATERS Handbook” with extra commentary aimed to portray one view: UNIX sucks. The book itself contains plenty of great information about different technologies such as shell scripting, UNIX commands, email and file systems – it’s too bad that they cast everything in a very negative light.</p>
+<p>Basically, the book is just a “rant” on UNIX frustrations from some guys that are convinced that UNIX is evil and should go away. It is a book written by people who don’t understand “the UNIX way”.</p>
+<p>I didn’t actually know that this book existed until recently (although it was written back in 1994), so I decided to pick it up and read it.  Many things are funny today simply because of the time the rant was written.  For example, the email problems that this book talk about with UNIX are all seen today in some form (plus many more problems that were unfathomable back then) but the book attributes them to UNIX because UNIX systems were the only email systems back then.</p>
+<p>Most of the people I know and work with love UNIX – and I am one of them.  Why do I love it?  I love it because I understand “the UNIX way”.  For a new UNIX user with fresh eyes, older UNIX systems did look scary – the graphical interface was crude and the command line shell and related commands had a huge learning curve (there were over 3000 commands back then on a typical UNIX system).</p>
+<p>But for us computer science folk, computers are tools.  And like artists, we tend to choose a medium with tools that provide flexibility and power over those that have a small learning curve.  Back then, it was easy to see that if you mastered UNIX, you could pretty much do anything!</p>
+<p>So we mastered UNIX, and that was that&hellip;&hellip;..but as we learned how UNIX worked and the infinite possibilities of the system, the more we craved it&hellip;&hellip;.the more we wanted to solve problems and build systems with UNIX&hellip;&hellip;&hellip;&hellip;.it was a learning roller-coaster that was extremely addictive and gratifying at the same time.</p>
+<p>Eventually, you learned that UNIX is all about building powerful systems from simple components in different ways.  That is “the UNIX way”.</p>
+<p>Not everyone has the ability or desire to see that.  You must be a power user to use UNIX.  In “The UNIX-HATERS Handbook”, most frustrations mentioned are funny since they are from people who don’t understand (or in some cases don’t want to understand) UNIX.  For example, there was this post from a guy who was upset when he ran the exec ls command without first researching what exec does (the command executes ls without forking and hence kills the current shell).  There is also some guy who ran the rm * .txt command (because there is a space between * and .txt, the rm command removes all files and the .txt file instead of all files that end in .txt).  UNIX just did what those people told it to do.  Dumb carbon-based life forms are to blame :-)</p>
+<p>Although I have used UNIX for over 20 years and many people call me a UNIX guru, UNIX never ceases to amaze me - solving problems with UNIX is as exciting for me today as it was 20 years ago.</p>
+<p>The UNIX graphical interface (X Windows) did seem a bit out-of-date back in the late 1980s and early 1990s compared to the slick Macintosh graphical interface.  However, UNIX and X Windows were built with modularity&hellip;&hellip;.they were built with the future in mind.  And today, UNIX has blossomed.  Macintosh OS X is basically a UNIX system that anyone can use – it is fast, stable, secure and is generally considered far superior to Windows today (just watch those Mac vs PC commercials).   Linux has taken the world by storm and is the most powerful UNIX system today.  It is fast replacing Windows in the server market (Red Hat, SuSE, Debian) as well as the desktop market (Ubuntu, mini-PC distributions).  Not only is Linux lightning fast, its graphical abilities (still using X Windows) can swim circles around the graphical abilities of both Macintoshes and Windows PCs (Compiz effects).</p>
+<p>I would be interested to know whether Simson Garfinkel, Daniel Weise, and Steven Strassmann still think that UNIX sucks today :-)</p>
+<p>Coincidentally, the Macintosh advertisement shown above was the reason I switched from PCs to Macintoshes three years ago.  Macintosh OS X was beautiful, intuitive and user-friendly&hellip;&hellip;and it was UNIX!  Plus Apple hardware is amazing today!</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/the-nostradamus-of-unix/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="The Nostradamus of UNIX"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/are-you-a-mac-or-pc/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Are you a Mac or a PC?"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

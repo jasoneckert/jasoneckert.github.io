@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fish on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/fish/</link>
+    <description>Recent content in fish on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Apr 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/fish/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Big fish...</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/big-fish/</link>
+      <pubDate>Mon, 09 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/big-fish/</guid>
+      <description>Today is a monumental day! Last month I mounted a 7 &amp;amp; 1/2 foot Pacific Sailfish caught in Puerto Vallarta Mexico in my rec room, but I needed to touch up the dorsal fin (the only part of the fish that is made of wood because it can’t be preserved). Well, I finally got around to putting the finishing touches on it tonight (the black dots)&amp;hellip;&amp;hellip;..hooray! I think it looks great!</description>
+    </item>
+    
+  </channel>
+</rss>

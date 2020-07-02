@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hard drive on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/hard-drive/</link>
+    <description>Recent content in hard drive on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 May 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/hard-drive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IBM hard drive from 1981</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/ibm-hard-drive-1981/</link>
+      <pubDate>Tue, 27 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/ibm-hard-drive-1981/</guid>
+      <description>This picture is of an IBM Model 3380 Hard Drive from 1981. Because it looks like a nuclear device or jet engine, I was able to convince my neighbour that I was generating my own nuclear power from now on, as well as the people at the Chrysler convention that it was an electric engine for a transport truck (I was passing them when going to a high school tech presentation at Bingemans where I used this as a fun prop).</description>
+    </item>
+    
+  </channel>
+</rss>

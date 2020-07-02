@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      FreeBSD UNIX for Linux sysadmins
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2020-05-02</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+14 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/sysadmin"
+      title="tags"
+    >sysadmin</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="runbsd.png#left" alt="Run BSD" title="Run BSD"></p>
+<p>If you’ve ever installed and explored another Linux distro (what Linux sysadmin hasn’t?!?), then exploring FreeBSD is going be somewhat similar with a few key differences. While there is no graphical installation, the installation process is straightforward and similar to installing a server-based Linux distro. Just make sure you choose the local_unbound package when prompted if you want to cache DNS lookups locally, as FreeBSD doesn’t have a built-in local DNS resolver that does this.</p>
+<p>Following installation, the directory structure is almost identical to Linux. Of course, you’ll notice some small differences here and there (e.g. regular user home directories are located under /usr/home instead of /home). Moreover, Standard UNIX commands such as <code>ls</code>, <code>chmod</code>, <code>find</code>, <code>which</code>, <code>ps</code>, <code>nice</code>, <code>ifconfig</code>, <code>netstat</code>, <code>sockstat</code> (the <code>ss</code> command in Linux) are exactly as you’d expect, but with some different options here and there that you’ll see in the man pages. And yes, <code>reboot</code> and <code>poweroff</code> are there too.</p>
+<h1 id="why-freebsd">Why FreeBSD?</h1>
+<p>The main benefit FreeBSD has over Linux is speed. You thought Linux was fast? Try FreeBSD. It has the fastest IP stack of any operating system by a long shot. Since it’s UNIX and you can provide the same services (e.g. Samba, Apache, NFS, Nginx), this means you can provide them faster and leaner.</p>
+<p>FreeBSD has also kept to its KISS (Keep It Simple Stupid) UNIX roots without compromising features, while Linux configuration gets more and more complex as time goes on. Want to start a service at boot time? You just add a line that says servicename=”YES” to a small text file (described later). And this small text file stores 90% of your system configuration, including your IP settings. In short, configuring a FreeBSD system is both fun and addictive.</p>
+<p>While configuring FreeBSD is easy, it’s also incredibly powerful. There are granular security features and system configuration/recovery features in FreeBSD that you won’t find in other operating systems. For those who want to go down that rabbit hole, it’s well worth your time! And, of course, native support for ZFS (the most advanced filesystem on the planet) is a big plus.</p>
+<p>In the following sections, I’ll describe some key differences and features of FreeBSD that you’ll want to know coming from a Linux sysadmin background. Of course, I’m assuming that you already know the associated topics in Linux before reading these sections! Key filenames and components are in red, while commands and configuration parameters are in code font.</p>
+<h1 id="1-system-configuration">1. System configuration</h1>
+<p>/etc/rc.conf contains nearly all system configuration, including IP configuration, hostname, default GW, services (daemons) that should start at boot time, and so on. Lines within this file have parameter=value syntax and are easy to edit using a text editor, such as vi. You can also  use the <code>sysrc -a</code> command to show all of the configured values in /etc/rc.conf, or the <code>sysrc parameter=value</code> command to modify or add configuration.</p>
+<p>FreeBSD stores the default parameters for configuration files in a defaults subdirectory. For example, /etc/defaults/rc.conf stores a large number of system-configured defaults that are overridden by /etc/rc.conf. Never change the entries in /etc/defaults/rc.conf - instead, just override them by adding the same lines to /etc/rc.conf with the values you want. There’s also a /etc/rc.conf.d/ directory that software packages can add files to that set system parameters (it’s empty on a default installation of FreeBSD).</p>
+<h1 id="2-boot-loader-and-kernel-configuration">2. Boot loader and kernel configuration</h1>
+<p>Boot loader configuration is stored in /boot/loader.conf (and /boot/defaults/loader.conf), and uses the same syntax as /etc/rc.conf.</p>
+<p>To view modules inserted into the kernel, you can use <code>kldstat</code>. You can also load and unload modules manually. For example:</p>
+<ul>
+<li><code>kldload linprocfs.ko</code>  (loads the Linux procfs filesystem module)</li>
+<li><code>kldunload linprocfs.ko</code>  (unloads the same module)</li>
+</ul>
+<p>To make sure this module gets loaded automatically each time you boot, you could add the following line to the /boot/loader.conf file:</p>
+<pre><code>    [cmd=]kldload /boot/kernel/linprocfs.ko[/cmd]
+</code></pre>
+<p>The FreeBSD kernel also has many properties and parameters that you can view and configure. You can use the <code>kenv</code> command to view the currently-configured parameters on your system, or the <code>sysctl -o -a</code> command to view all available parameters and their default values.  The <code>sysctl</code> command can also be used to view specific parameters. For example:</p>
+<ul>
+<li><code>sysctl kern</code>  (shows all parameters starting with kern)</li>
+<li><code>sysctl kern.securelevel</code>  (shows current value of the kernel security level)</li>
+<li><code>sysctl hw.model</code>  (shows your CPU model)</li>
+</ul>
+<p>To set a kernel parameter at boot time, add the appropriate line to the /etc/sysctl.conf file.</p>
+<h1 id="3-system-initialization">3. System initialization</h1>
+<p>Just like the GRUB2 boot loader on Linux, FreeBSD has an interactive boot loader called boot0 that is much more user friendly. It displays a menu for 10 seconds by default that allows you to enter rescue mode or modify kernel values manually, among other things. If you are repairing a system, a copy of useful binary programs is stored under the /rescue/ directory and made available to boot0.</p>
+<p>Once the kernel is loaded by boot0, the init daemon parses the large /etc/rc script to start the other daemons that you specified within /etc/rc.conf by executing the appropriate daemon scripts under the /etc/rc.d/ directory. There also are other scripts executed by init at boot time. For example, /etc/netstart configures the network according to the parameters you specified in /etc/rc.conf.</p>
+<p>After your system has booted, you can view the /var/run/dmesg.boot file to see the hardware detected and modules loaded by your kernel, or view the /var/log/messages file to view the daemons and components that were started by init (including any errors).</p>
+<h1 id="4-storage-configuration">4. Storage configuration</h1>
+<p>FreeBSD uses different device files for storage as well as different methods for partitioning and creating filesystems. To see a list of the physical storage devices you have, you can use the following two commands:</p>
+<ul>
+<li><code>camcontrol devlist</code></li>
+<li><code>geom disk list</code></li>
+</ul>
+<p>Some sample device files for these storage devices include:</p>
+<ul>
+<li>/dev/cd0   (first CD/DVD)</li>
+<li>/dev/da0   (first SCSI/SAS disk or USB drive, which emulates SCSI)</li>
+<li>/dev/ada0   (first IDE/SATA disk)</li>
+<li>/dev/nvme0   (first NVMe SSD)</li>
+<li>/dev/nvme0ns1   (first namespace on the first NVMe SSD)</li>
+</ul>
+<p>Say, for example, you have one SATA SSD in your system that has a GPT partition table. FreeBSD will likely create three partitions on it during the installation:</p>
+<ul>
+<li>/dev/ada0p1  (usually a 512KB FreeBSD boot partition or UEFI boot partition)</li>
+<li>/dev/ada0p2  (usually a swap partition)</li>
+<li>/dev/ada0p3  (rest of disk - usually given to ZFS, or mounted to / if you use UFS)</li>
+</ul>
+<p>If you have older storage devices that use an MBR partition table, each primary partition is called a slice in FreeBSD, and further subdivided into up to 7 device nodes using a special BSD disk label. For example, the first slice on /dev/ada0 could be subdivided into 4 device nodes, with each one assigned a letter:</p>
+<ul>
+<li>/dev/ada0s1a  (first device node in the first slice on ada0)</li>
+<li>/dev/ada0s1b  (second device node in the first slice on ada0)</li>
+<li>/dev/ada0s1c  (third device node in the first slice on ada0)</li>
+<li>/dev/ada0s1d  (fourth device node in the first slice on ada0)</li>
+</ul>
+<p>You can view your disk configuration using the gpart command (which can also create/manage partitions too):</p>
+<ul>
+<li><code>gpart show -p ada0</code>  (shows partitions on ada0)</li>
+<li><code>gpart show -l ada0</code>  (shows labels on ada0, which match files under /dev/gpt/)</li>
+</ul>
+<p>If you just want to se the partition labels for disks on the system, you could instead run the <code>glabel list</code> command.</p>
+<h1 id="5-filesystem-configuration">5. Filesystem configuration</h1>
+<p>The only two filesystems that are commonly used on FreeBSD for storage are UFS (which is ancient and should only be used if you have serious mental health issues), and ZFS (which is amazing, and commonly configured on production Linux servers).</p>
+<p>After creating partitions on a GPT disk (or slices and device nodes on an MBR disk), you can use the following commands create and work with UFS filesystems:</p>
+<ul>
+<li><code>newfs</code>  (creates a UFS filesystem)</li>
+<li><code>growfs</code>  (extends the size of a UFS filesystem)</li>
+<li><code>tunefs</code>  (tunes UFS filesystem parameters)</li>
+<li><code>mksnap_ffs</code>  (creates a UFS filesystem snapshot)</li>
+<li><code>fsck</code>  (checks a UFS filesystem for errors)</li>
+</ul>
+<p>Normally, you’d use ZFS instead of UFS on a FreeBSD system as it has superior enterprise features, including corruption protection and device fault tolerance. The same <code>zpool</code> and <code>zfs</code> commands you used on Linux to configure ZFS can also be used on FreeBSD. For example, to create a RAID-Z1 dataset called lala from the space on 3 different SCSI disks and put a ZFS filesystem on it, you could use the following command:</p>
+<pre><code>    zpool create lala raidz /dev/da1p1 /dev/da2p1 /dev/da3p1      
+</code></pre>
+<p>Some other sample zpool and zfs commands include:</p>
+<ul>
+<li><code>zpool status lala</code>  (view status of the lala dataset)</li>
+<li><code>zpool list</code>  (lists all ZFS datasets)</li>
+<li><code>zpool get free</code>  (displays free space information from all ZFS datasets)</li>
+<li><code>zfs create lala/stuff</code>  (creates another ZFS dataset under the lala dataset)</li>
+<li><code>zfs list</code>  (displays all ZFS datasets and where they are mounted)</li>
+<li><code>zfs get compression</code>  (displays compression setting for all ZFS datasets)</li>
+<li><code>zfs set compression=lz4 lala/stuff</code> (enables compression for lala/stuff)</li>
+</ul>
+<p>When you run the <code>zfs list</code> command on a newly-installed system, you’ll see that there is one ZFS dataset called zroot that is created by the FreeBSD installer. This dataset contains many other datasets underneath it for different system directories:</p>
+<ul>
+<li>zroot/ROOT/default is mounted to /</li>
+<li>zroot/usr is mounted to /usr</li>
+<li>zroot/usr/home is mounted to /usr/home</li>
+<li>zroot/var is mounted to /var</li>
+</ul>
+<p>and so on.</p>
+<p>What you may find odd is that zroot/ROOT/default is mounted to the root of the system. This is because FreeBSD supports different boot environments if you take ZFS snapshots of the / filesystem. Before performing a risky configuration, you could take a snapshot of your system called zroot/ROOT/May2 and then revert to it if your risky configuration fails! You can even choose your a previous boot environment at the FreeBSD boot loader menu when you boot the system. Here are some useful boot environment commands:</p>
+<ul>
+<li><code>pkg install beadm</code>  (installs the boot environment package - pkg is discussed later)</li>
+<li><code>beadm create May2</code>  (create snapshot of system called May2)</li>
+<li><code>zfs list</code>  (you should see zroot/ROOT/default and zroot/ROOT/May2)</li>
+<li><code>beadm activate May2 &amp;&amp; reboot</code>  (reverts system to May2 snapshot)</li>
+</ul>
+<p>There is also a /etc/fstab file that mounts non-ZFS filesystems at boot just as you’d expect on a Linux system. If you use ZFS exclusively, /etc/fstab just activates the swap partition only. And just as Linux has udev rules for restricting access to storage devices, you can add lines to /etc/devfs.conf or /etc/devfs.rules to do this on FreeBSD.</p>
+<p>The only other glaring difference between Linux and FreeBSD when it comes to the filesystem is the use of filesystem attributes. On Linux systems, you could set filesystem attributes using the <code>chattr</code> command, and list them with the <code>lsattr</code> command. However, FreeBSD uses a different set of attributes called filesystem flags that can be set at the system or user level:</p>
+<ul>
+<li><code>chflags sunlink file</code>  (sets the system unlink flag on a file, to prevent file deletion)</li>
+<li><code>chkflags nosunlink file</code>  (unsets the system unlink flag on a file)</li>
+<li><code>ls -lo file</code>  (displays flags on a file)</li>
+</ul>
+<h1 id="6-users-and-groups">6. Users and groups</h1>
+<p>As on Linux systems, FreeBSD stores user configuration in /etc/passwd (readable by everyone), but converts it to a /etc/pwd.db database for fast system access. However, instead of using the /etc/shadow file like Linux does, FreeBSD stores all user and password configuration in /etc/master.passwd (readable by root only) and converts it to /etc/spwd.db for fast system access. Groups are stored in /etc/group as you’d expect, but there is there is no sudo functionality - instead, you must be part of the wheel (big wheel) group to use the su command to run commands as root or obtain a root shell.</p>
+<p>Default home directory files for new users are copied from /usr/share/skel/. You can also create rules to allow or prevent user access in the /etc/login.access file, as well as define user classes for accessing system resources in the /etc/login.conf file.</p>
+<p>Common commands to create and manage users include:</p>
+<ul>
+<li><code>adduser</code>  (creates a user - defaults values are taken from /etc/adduser.conf)</li>
+<li><code>adduser -C</code>  (creates the /etc/adduser.conf file with values you specify)</li>
+<li><code>rmuser</code>  (removes a user)</li>
+<li><code>pw useradd/userdel/usermod/lock/unlock</code>  (creates &amp; manages users)</li>
+<li><code>chpass</code>  (modifies settings for a user using the vi editor)</li>
+<li><code>vipw</code>  (edits /etc/master.passwd using vi, and then rebuilds /etc/spwd.db)</li>
+</ul>
+<h1 id="7-packages-services-and-monitoring">7. Packages, services and monitoring</h1>
+<p>Installing and managing packages on FreeBSD is just as easy as using the Red Hat or Debian package managers on a Linux system. Instead of <code>dnf</code> or <code>apt</code>, you use the <code>pkg</code> command:</p>
+<ul>
+<li><code>pkg update</code>  (updates package list from online repository)</li>
+<li><code>pkg search bash</code>  (searches online repository for bash packages)</li>
+<li><code>pkg install bash</code>  (installs bash package from online repository)</li>
+<li><code>pkg upgrade bash</code>  (upgrades bash to latest version)</li>
+<li><code>pkg info bash</code>  (displays package details)</li>
+<li><code>pkg info -l bash</code>  (displays package file contents)</li>
+<li><code>pkg check bash</code>  (checks bash package content for missing/corrupted files)</li>
+<li><code>pkg lock bash</code>  (prevents modification or removal of package)</li>
+<li><code>pkg remove bash</code>  (removes bash package)</li>
+<li><code>pkg clean</code>  (cleans up files in the package repository, /var/cache/pkg/)</li>
+<li><code>pkg autoremove</code>   (auto removes unneeded dependency packages)</li>
+<li><code>pkg which /usr/local/bin/bash</code>  (displays package the bash file belongs to)</li>
+<li><code>freebsd-update fetch</code>  (downloads latest version of FreeBSD)</li>
+<li><code>freebsd-update install</code>  (installs latest version of FreeBSD - reboot after)</li>
+</ul>
+<p>After installing a daemon package, you must also configure it to start at boot time by adding a line to the /etc/rc.conf file. For example, after installing the apache24 package (for the Apache Web server daemon), you could start it at boot time by adding the <code>apache24_enable=”YES”</code> line to /etc/rc.conf (yes, it’s that easy).</p>
+<p>The configuration files for any daemons that you install are under /etc or /usr/local/etc. For example, you’ll find the httpd.conf configuration file for Apache in the /usr/local/etc/apache24/ directory on FreeBSD.</p>
+<p>You can also manage daemons using the same service command used in Linux systems prior to Systemd:</p>
+<ul>
+<li><code>service -e</code>  (displays daemons that are enabled and order they are started at boot)</li>
+<li><code>service sshd stop/start/restart</code>  (stops/starts/restarts the sshd daemon)</li>
+<li><code>service sshd onestart</code> (starts the sshd daemon if it is not listed in /etc/rc.conf)</li>
+<li><code>service sshd extracommands</code>      (displays additional options for working with sshd)</li>
+</ul>
+<p>Of course, loading additional daemons will impact the performance of your system, especially as the number of clients connecting to them increases. You can monitor the performance of your FreeBSD system using the same <code>vmstat</code> and <code>top</code> commands you’re used to in Linux (the FreeBSD top command also lists ZFS performance statistics), as well as monitor disk performance using the <code>gstat</code> command.</p>
+<p>Similarly, you can use a plethora of different network commands in FreeBSD to monitor network statistics. Here are some of my favourites:</p>
+<ul>
+<li><code>netstat -w 1 -d</code>  (displays packet stats every 1 second)</li>
+<li><code>netstat -na -f inet</code>  (displays active IPv4 connections)</li>
+<li><code>netstat -na -f inet6</code>  (displays active IPv6 connections)</li>
+<li><code>netstat -m</code>  (displays tunable memory buffer information for IP stack)</li>
+<li><code>sockstat -4</code>  (displays IPv4 sockets)</li>
+<li><code>sockstat -6</code>  (displays IPv6 sockets)</li>
+</ul>
+<h1 id="8-other-stuff">8. Other stuff</h1>
+<p>The previous 7 sections outlined the main areas of FreeBSD that most Linux admins will want to know. In this final section, I’ll list some extra stuff (in no particular order).</p>
+<p>Compiling software from source is very easy in FreeBSD. You can run the <code>portsnap auto</code> command to download the source code for the ready-to-compile ports tree from the FreeBSD repository to the /usr/ports/ directory and then use the appropriate make commands to compile and install it on your system.</p>
+<p>If you want to configure a firewall, there are three firewall systems to choose from (if you view the FreeBSD handbook), but the most common one is PF from OpenBSD. You place your rules in /etc/pf.conf and use the <code>pfctl</code> command to control the firewall. You can also use blacklistd to block undesired connections (or too many connections). You can use <code>blacklistctl</code> to control blacklistd, as well as list connection rules in /etc/blacklistd.conf.</p>
+<p>FreeBSD jails are one of the earliest examples of OS virtualization/containerization. To create a FreeBSD jail, you download a userland (filesystem) tarball from the FreeBSD repository and extract it to a directory of your choice (e.g. /jails/container1). Next, you add a paragraph to the /etc/jail.conf file that configures the jail parameters (e.g. IP address, etc.). Finally, you can start and manage your jail using a wide variety of different commands, including:</p>
+<ul>
+<li><code>service jail start container1</code>  (starts the container1 jail)</li>
+<li><code>service jail stop container1</code>  (stops the container1 jail)</li>
+<li><code>jls</code>  (views all jails running on the system)</li>
+<li><code>jexec container1 command</code>   (executes a command in the container1 jail)</li>
+<li><code>pkg -j container1 install apache24</code>  (installs Apache in the container1 jail)</li>
+</ul>
+<p>If you start the NFSv4 file sharing daemons (installed by default) by adding the appropriate entries to /etc/rc.conf, you can add lines to /etc/exports to share out directories on your system. However, you can instead use ZFS to share datasets using NFSv4. These datasets are listed in /etc/zfs/exports. For example, to share out the /usr/home directory using NFS, you could use the following command: <code>zfs set sharenfs=on zroot/usr/home</code></p>
+<p>If you’ve been a Linux or UNIX administrator for a long time, you’ll likely run into things on FreeBSD that remind you of days gone by. For example, you can still start daemons on demand using inetd and entries within /etc/inetd.conf, or use the old LPD printing system by adding printer entries to /etc/printcap (please install and use CUPS instead&hellip;.seriously). FreeBSD also uses the old syslogd to log system events using the entries in /etc/syslog.conf (it works well so why change it, right?). However, instead of <code>logrotate</code>, FreeBSD uses <code>newsyslog</code> to rotate log files according to rules in /etc/newsyslog.conf.</p>
+<p>And yes, if you want to use FreeBSD as a workstation, you can install X.org and GNOME. But given that Linux is leading the charge in that area, it’d be wiser to use Linux as your workstation, and leverage FreeBSD as a wicked fast server.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/customizing-macos-for-development/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Customizing macOS for development"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/microsoft-turns-45/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Microsoft turns 45"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

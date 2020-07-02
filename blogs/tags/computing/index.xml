@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computing on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/computing/</link>
+    <description>Recent content in computing on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2019-in-review/</guid>
+      <description>This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!
+On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA) Instructor Network.
+This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).</description>
+    </item>
+    
+    <item>
+      <title>Reviving an ancient BSD UNIX workstation</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/reviving-an-ancient-bsd-workstation/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/reviving-an-ancient-bsd-workstation/</guid>
+      <description>Most people will look at this 3-foot-long behemoth of ancient electronics and wonder why it wasn’t scrapped decades ago. But for many of us in the tech industry, these ancient machines are a way to peer into the early days of an industry that has twisted and evolved in leaps and bounds, leaving nearly every player that shaped its landscape forgotten in time.
+The machine sitting in my driveway at the top of this post is a workstation from the early 1980s with a NS32016 CPU (the first 32-bit general purpose microprocessor) and a whopping 1MB of RAM.</description>
+    </item>
+    
+    <item>
+      <title>Why you should use technology less</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/why-you-should-use-technology-less/</link>
+      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/why-you-should-use-technology-less/</guid>
+      <description>Over the past few years, I’ve taken to using technology less and less in my daily life.
+ I leave my phone in the car when going to a party or social event. I’ll only fetch it if I want to take a picture, and only after appreciating the moment I’d like to capture to the fullest. When I listen to music on my phone (via headphones) during the long walks I take to get exercise and relax, I don’t check my phone at all.</description>
+    </item>
+    
+    <item>
+      <title>The UNIX Philosophy in 2019</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-unix-philosophy-in-2019/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-unix-philosophy-in-2019/</guid>
+      <description>Earlier this week, I did a presentation for WWITPRO that detailed the UNIX philosophy and its relevance today. Given the subject matter, I decided to do the presentation in PostScript on my SPARCbook running Sun Solaris 2.5.1. This blog post details the content of the presentation for posterity!
+What is UNIX? Simply put, UNIX is an operating system that was created by Ken Thompson in 1969 that was rewritten shortly thereafter in Dennis Ritchie’s C programming language.</description>
+    </item>
+    
+    <item>
+      <title>How ricing shifted from cars to computers</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/how-ricing-shifted-from-cars-to-computers/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/how-ricing-shifted-from-cars-to-computers/</guid>
+      <description>Back in the early 1990s, teenagers with a drivers license made a hobby of tweaking out their cars - adding custom grills, spoilers, paint jobs, and so on. The more crazy, the better. And since the most common car to perform these modifications on were older Honda Civics, which you could get fairly cheap at the time, especially if they were more than 5 years old and needed a bit of work.</description>
+    </item>
+    
+    <item>
+      <title>SPARCbook 3000ST: The coolest 90s laptop</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/sparcbook3000st-the-coolest-90s-laptop/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/sparcbook3000st-the-coolest-90s-laptop/</guid>
+      <description>A few weeks back I managed to pick up an incredibly rare laptop in immaculate condition for $50 on Kijiji: a Tadpole Technologies SPARCbook 3000ST from 1997 (it also came with two other working Pentium laptops from the 1990s).
+I had to drive almost three hours to pick it up on the other side of Toronto, but for a SPARCbook it was definitely worth it seeing as I&amp;rsquo;m more likely to find the lost city of Atlantis than another one of these again.</description>
+    </item>
+    
+    <item>
+      <title>Pop!_OS: The first real Linux desktop</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/popos-the-first-real-linux-desktop/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/popos-the-first-real-linux-desktop/</guid>
+      <description>Tonight I gave a presentation at the Kitchener-Waterloo Linux User’s Group (KWLUG) about Pop!_OS, and this blog post is essentially a summary of that talk. The Linux development community has never really spent a lot of time making Linux for the desktop - the focus has been on servers and customizability (e.g. embedded systems, mobile, IoT, etc.). There are plenty of desktop-focused Linux distributions such as Linux Mint and ElementaryOS that have positioned themselves as such.</description>
+    </item>
+    
+    <item>
+      <title>2018 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2018-in-review/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2018-in-review/</guid>
+      <description>At the end of each year, I take some time to reflect on the previous year - it provides perspective, and is a lot of fun!
+For me, 2018 was the year I spent a lot of time improving myself physically, challenging myself mentally, and most importantly, enjoying life!
+On the personal side, I cut out the bad foods from my diet:
+ breads starches alcohol  On top of this, I upped my indoor and outdoor exercise to lose a whopping 85 pounds since mid 2017 - I feel great, have loads of energy, and no longer have any back pain whatsoever!</description>
+    </item>
+    
+    <item>
+      <title>2016 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2016-in-review/</link>
+      <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2016-in-review/</guid>
+      <description>For the past years, I’ve done a “year in review” blog post, and of course this one is for 2016! It’s a great way to reflect on the events that have happened during the year, and to honest, is actually a lot of fun!
+Just a quick disclaimer: I have no intention of talking about the shallow-but-popular celebrity death fixation that has taken over the Internet (must be a millennial thing).</description>
+    </item>
+    
+    <item>
+      <title>An evening with The Woz</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/an-evening-with-the-woz/</link>
+      <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/an-evening-with-the-woz/</guid>
+      <description>I specifically attended yesterday’s Fuzenation Technology &amp;amp; Music Summit in Kitchener, Ontario to hear Steve Wozniak (a.k.a. The Woz) speak.
+In short, he’s the co-founder of Apple, and the engineer who created the Apple I and Apple II computers. The Apple II was the first successful, mass-produced personal computer, and as the Woz points out, the “first one that could play arcade games in full colour” (I still have an Apple II that I use to play arcade games like Donkey Kong).</description>
+    </item>
+    
+    <item>
+      <title>The Linux operating system turns 25 years old today</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/linux-turns-25/</link>
+      <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/linux-turns-25/</guid>
+      <description>Today marks the 25th anniversary of the Linux operating system!
+More specifically, it marks the day that Linus Torvalds announced his new operating system (that was later called Linux) in a newsgroup post:
+From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI Date: 25 Aug 91 20:57:08 GMT Organization: University of Helsinki. Hello everybody out there using minix- I&#39;m doing a (free) operating system (just a hobby, won&#39;t be big and professional like gnu) for 386(486) AT clones.</description>
+    </item>
+    
+    <item>
+      <title>The World Wide Web turns 25 years old today</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/www-turns-25/</link>
+      <pubDate>Tue, 23 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/www-turns-25/</guid>
+      <description>On August 6, 1991, Tim Berners-Lee created a post detailing his World Wide Web project on a newsgroup called alt.hypertext in order to entice others to collaborate with him and create and host Web pages for the World Wide Web. However, it wasn’t until August 23, 1991 that it was made publicly accessible for the world to see. You could argue that August 6 is the real birth of the World Wide Web, but most websites and news aggregators acknowledge August 23 as the true birth of the World Wide Web, including Facebook, which included it as a news item today for everyone!</description>
+    </item>
+    
+    <item>
+      <title>The dawn of personal computing</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/dawn-of-personal-computing/</link>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/dawn-of-personal-computing/</guid>
+      <description>If you know me, or have read various sections of my website, you’ll know that I am a die hard member of the computing industry that also likes to collect vintage computers (this is actually quite common - you’d be surprised how many of my colleagues do the same).
+Yesterday, I managed to find a very interesting canvas painting in Toronto (the picture at the top of this post), and just HAD to have it.</description>
+    </item>
+    
+    <item>
+      <title>Some NeXT level stuff</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/some-next-level-stuff/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/some-next-level-stuff/</guid>
+      <description>1. What is NeXT? (pun intended) NeXT was the computer company that Steve Jobs (co-founder of Apple) created after he got kicked out of Apple in the 1980s. They made high-end UNIX workstations that were intended to rival Apple computers, and primarily targeted for the higher education and science/engineering markets. However, they were not as successful as their competitors in this market and when Steve Jobs returned to Apple in 1997, he ensured that Apple purchased NeXT.</description>
+    </item>
+    
+    <item>
+      <title>PowerShell Essentials for SysAdmins</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/powershell-essentials-for-sysadmins/</link>
+      <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/powershell-essentials-for-sysadmins/</guid>
+      <description>PowerShell is essentially a scripting language and shell (command prompt) that you can use on Windows systems. It’s basically Microsoft’s way of getting a powerful UNIX/Linux/Mac-like shell on the Windows platform (long overdue!). The first versions of PowerShell were pretty horrific, but it’s come a long way since then. PowerShell v4 and later is pretty decent (Win10 comes with PowerShell v5). Luckily, PowerShell v4 comes with Windows Server 2012, and since this post is geared towards sysadmins, I’ll focus everything on Windows Server 2012.</description>
+    </item>
+    
+    <item>
+      <title>2015 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2015-in-review/</link>
+      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2015-in-review/</guid>
+      <description>2015 was an interesting year, and one that I really enjoyed!
+I spent a lot of time getting/restoring/playing the last few arcade machines that I’ve wanted in my arcade collection - I just love the retro arcade hobby! As a result, I won’t be getting or restoring any more in 2016 at all (I have a few arcades that I want to work on to upgrade, but that’s about it). I’ll be spending most of my time playing them!</description>
+    </item>
+    
+    <item>
+      <title>World of Commodore conference</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/world-of-commodore-conference/</link>
+      <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/world-of-commodore-conference/</guid>
+      <description>This is the first year that I’ve been to the World of Commodore event in Mississauga, Ontario. It&amp;rsquo;s a yearly gathering of Commodorks who create new software and hardware for vintage Commodore computers. I had no idea that it even existed until someone I knew told me about it. Since it’s relatively close to me, I just had to go. Plus, I have many Commodore computers in my vintage computer collection.</description>
+    </item>
+    
+    <item>
+      <title>Breathe new life into an old PowerBook G4 using Linux</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
+      <description>So what do you do when you have an old PowerBook that still works but can’t run the latest operating system (OS) and software? Well, you could sell it - but it won&amp;rsquo;t fetch much at all (less than $50 in most cases).
+A better option is to install a currently-supported OS that runs really well on limited hardware&amp;hellip;&amp;hellip;.in other words, install Linux on it!
+I recently installed the latest version of Debian Linux on my PowerBook G4 to make it useful again.</description>
+    </item>
+    
+    <item>
+      <title>2014 in review</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/2014-in-review/</link>
+      <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/2014-in-review/</guid>
+      <description>I think it’s always a good idea each year to reflect on the events that happened during the year - it’s a great way to remember some of the great things that have happened, as well as put some of the not-so-great things that have happened in perspective. If you regularly post to social media (e.g. Facebook or Twitter), looking back on your posts are a great way to revisit the major events that took place during the year.</description>
+    </item>
+    
+    <item>
+      <title>The fastest computer I have ever owned!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-fastest-computer-i-have-ever-owned/</link>
+      <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-fastest-computer-i-have-ever-owned/</guid>
+      <description>I know it’s been a while since I’ve blogged last&amp;hellip;.I’ve just been incredibly busy. This past month, I’ve been teaching a video game class at the college, writing the 4th edition of my Linux+ book for Cengage on an accelerated schedule, and managing four technology faculties&amp;hellip;&amp;hellip;all at the same time!
+But today, I got a new computer: A Mac Pro (the higher end 6-core Xeon model with dual AMD FirePro D500s).</description>
+    </item>
+    
+    <item>
+      <title>The evolution of BYOD</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-evolution-of-byod/</link>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-evolution-of-byod/</guid>
+      <description>In the 1980s, email remained a luxury for a small number of larger organizations and universities. Mobile email did not exist. Instead, pagers and cellular telephones were the primary tools for mobile communication. However, in the early 1990s, email rose to prominence with the commercialization of the Internet. Although early smartphones did exist at this time (e.g. IBM’s Simon), email was not considered a mobile technology.
+But by the mid 1990s, the computing landscape had exploded.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft ReFS vs Oracle ZFS - FIGHT!</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/refs-vs-zfs-fight/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/refs-vs-zfs-fight/</guid>
+      <description>In the past, most IT admins have put their faith in systems and SANs (Storage Area Networks) that use RAID (Redundant Array of Inexpensive Disks) technology. RAID can be used to combine hard disks together into simple volumes (called RAID-0, or JBOD) that aren’t fault tolerant, but can also be used to create mirrored volumes where both drives are identical in case one fails (called RAID-1), or striped volumes with parity where data is written across several disks with parity information that can be used to calculate the missing data if a drive fails (called RAID-5).</description>
+    </item>
+    
+    <item>
+      <title>The evolution of Information Technology</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/evolution-of-info-tech/</link>
+      <pubDate>Wed, 07 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/evolution-of-info-tech/</guid>
+      <description>As a Dean for the technology faculties of a private college in Canada, I’m always looking to make our programs more aligned to the industry - my motto is: always look forward and never look back!
+However, when it comes to Information Technology (IT), I regularly find that the general perception of IT jobs is stuck in the past by at least a decade. I can’t tell you how many times I’ve met people who think that IT guys are stuck in the back closet of some company doing some menial job, such as re-soldering chips on a computer motherboard much like working on the engine of an old car.</description>
+    </item>
+    
+    <item>
+      <title>Arcade game CPUs</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/arcade-game-cpus/</link>
+      <pubDate>Sun, 02 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/arcade-game-cpus/</guid>
+      <description>I’ve been getting into arcade games pretty heavily this year, and my posts have reflected this for sure ;-) Today’s post is actually a request from John Spitz, who emailed me after reading some of my other video game posts - he wanted to know if there was a typical progression in the types of hardware used in arcade games over the years.
+The short answer is “yes” as you can see in the diagram I made at the top of this post.</description>
+    </item>
+    
+    <item>
+      <title>Hard drives are dead</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/hard-drives-are-dead/</link>
+      <pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/hard-drives-are-dead/</guid>
+      <description>That may seem like a bold statement. And it is. However, Apple said the same thing about the floppy in 1997 when they introduced the iMac without it, and it slowly disappeared afterwards. ZDnet said the same thing about optical media (CDs/DVDs) in 2009 when USB flash drives reached critical mass - and of course optical media is slowly disappearing as we speak (the DVD drive in my Alienware laptop died shortly after I got it, but I never called Dell to replace it because I never use it anyways).</description>
+    </item>
+    
+    <item>
+      <title>The transputer</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-transputer/</link>
+      <pubDate>Thu, 17 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-transputer/</guid>
+      <description>So what the heck is a transputer? Well, it is a RISC CPU design from a company in England called INMOS that was designed so that it could interface with other CPUs of the same type in a massively parallel fashion (like a mini supercomputer).
+The reason it was made was because CISC CPU designs of the 1980s were getting too bulky and people thought that it would be hard to advance them (of course they were wrong - never doubt engineers!</description>
+    </item>
+    
+    <item>
+      <title>NeXTSTEP is cool</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/nextstep-is-cool/</link>
+      <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/nextstep-is-cool/</guid>
+      <description>When Steve Jobs left Apple in the 1980s, he started a new venture that produced NeXT UNIX computers that ran a custom UNIX system called NeXTSTEP on Motorola 68000-series computers. The first Web browser was made my Tim Berners-Lee on one of these NeXT computers!
+When I was an undergrad student at the University of Waterloo, we had a few NeXT computers (literally two of them I believe) and a bunch of HP PA-RISC 712s running NeXTSTEP for object-oriented software development (it was more common to see Sun or SGI UNIX systems at the university back them).</description>
+    </item>
+    
+    <item>
+      <title>The famous Pentium FDIV bug</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-famous-pentium-fdiv-bug/</link>
+      <pubDate>Mon, 08 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-famous-pentium-fdiv-bug/</guid>
+      <description>One of my favourite CPUs from my CPU collection is the original Pentium 60MHz shown here. The reason that this model (SX835 with Gold top) is one of my favourites in not because it looks good, but rather that it was one of the Pentium models that had the famous FDIV bug.
+The FDIV bug was a problem with the floating point unit in early Pentium CPUs that resulted in reduced precision of division operations (FDIV is the x86 assembly language instruction for floating point division).</description>
+    </item>
+    
+    <item>
+      <title>The Unisys ICON</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-unisys-icon/</link>
+      <pubDate>Sat, 09 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-unisys-icon/</guid>
+      <description>Yesterday, someone reminded me of those old Unisys ICON computers (also called the Burroughs ICON) that were used in Ontario schools back in the 1980s and early 1990s. I used them extensively when I attended Galt Collegiate Institute (one of the oldest high schools in Canada).
+To prevent ICONs from being lost in history, I thought I would add a blog entry about them today. The ICON was an overpriced, underpowered custom computer built for the Ontario Ministry of Education for use in their school system (see picture to the left).</description>
+    </item>
+    
+    <item>
+      <title>Anatomy of an AS/400</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/anatomy-of-an-as400/</link>
+      <pubDate>Tue, 14 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/anatomy-of-an-as400/</guid>
+      <description>During my spring cleaning, I ended up getting rid of my AS/400 model 9404-D10 from 1991.
+Since the power supply is dead in it, I decided to disassemble and photograph the inside of this amazing machine. AS/400s are well known for their legendary uptimes, and were the “jewel” of IBM in the late 1980s to 1990s. In 1993, when IBM was close to splitting up their divisions into smaller companies, Bill Gates said that “the only part of IBM that Microsoft would be interested in was the AS/400 division.</description>
+    </item>
+    
+    <item>
+      <title>The UNIX way</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/the-unix-way/</link>
+      <pubDate>Tue, 29 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/the-unix-way/</guid>
+      <description>Back in the 1980s, someone started the UNIX-HATERS mailing list as a means of venting UNIX-related frustrations. In 1994, Simson Garfinkel, Daniel Weise, and Steven Strassmann collected these frustrations and published them in a book called “The UNIX-HATERS Handbook” with extra commentary aimed to portray one view: UNIX sucks. The book itself contains plenty of great information about different technologies such as shell scripting, UNIX commands, email and file systems – it’s too bad that they cast everything in a very negative light.</description>
+    </item>
+    
+    <item>
+      <title>Are you a Mac or a PC?</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/are-you-a-mac-or-pc/</link>
+      <pubDate>Thu, 13 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/are-you-a-mac-or-pc/</guid>
+      <description>If you are ultra-Mac, you prefer to use an aesthetic computer that “just works” - as a result, you are usually sexy, artistic and cool.
+If you are ultra-PC, you prefer to use a clunky un-aesthetic computer that is difficult to use, crashes often, is a virus hell, yet is guaranteed to work with any piece of hardware with a software driver written by a 10-year-old boy in a barn in China - as a result, you are nerdy, cheap and non-cool.</description>
+    </item>
+    
+    <item>
+      <title>Thank you, Apple</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/thankyou-apple/</link>
+      <pubDate>Sat, 27 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/thankyou-apple/</guid>
+      <description>I installed Macintosh OS X 10.5 Leopard on all my Macs today. When you upgrade an OS, you always expect to lose some system settings and have some applications that don’t like the new OS. As a result, I chose to install Leopard on my PowerBook G4 first. It has tons of software and I customized it to the max, so I naturally expected to spend a while tweaking it after the upgrade to get an idea of what I can expect when I upgrade my other computers.</description>
+    </item>
+    
+    <item>
+      <title>Roughing it on vacation</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/roughing-it-on-vacation/</link>
+      <pubDate>Sat, 07 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/roughing-it-on-vacation/</guid>
+      <description>Yup - it’s vacation time again! And this next week I plan to do nothing but relax, get a tan, drink “Muskoka Dry Pale Ginger Ale” and read a few books that I haven’t had the time to open yet. And yes, my daughter is going to swim all week long - that is her in the water with the kids from the cottage next door.
+Now you are probably wondering why I am blogging on my vacation&amp;hellip;&amp;hellip;shouldn’t a vacation be devoid of TV/phones/Internet/computers?</description>
+    </item>
+    
+    <item>
+      <title>Linux thin clients</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/linux-thin-clients/</link>
+      <pubDate>Sat, 05 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/linux-thin-clients/</guid>
+      <description>Jon “maddog” Hall gave a talk about using Linux thin clients (e.g. the Linux Terminal Server Project) to provide Internet and application access to schools, third-world countries and organizations in general. He specifically noted that thin clients (like the HP Compaq t5125 which only uses 10 Watts of power compared to the 550 Watts used by most computers) could easily provide low-power, high-performance computing on a large scale.
+After hearing this, it sparked my curiosity since I typically use Remote Desktop as part of my job to connect to Windows Terminal Servers at our college head office.</description>
+    </item>
+    
+    <item>
+      <title>Computer evolution</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/computer-evolution/</link>
+      <pubDate>Fri, 27 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/computer-evolution/</guid>
+      <description>OK - so Apple released the new Intel Macs this month and shocked everyone with their amazing speed improvements. But what I noticed is that Apple didn’t create a whole new look for them - essentially, the new line is in the same beautiful package as the iMac G5 and PowerBook. These designs must be very good if Apple is going to stick with them, and as a result, are key turning points in Mac evolution.</description>
+    </item>
+    
+    <item>
+      <title>New Years security resolutions for 2006</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/new-years-security-resolutions-for-2006/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/new-years-security-resolutions-for-2006/</guid>
+      <description>1. Don’t give personal information to obtain documents on the web Many sites want you to register to get a free document or certain web page. What do you think they use your information for? Spam, spam and more spam. If you want to get these documents without putting in your personal information, simply put the URL for the site in http://bugmenot.com and get past the registration!
+2. Protect against Viruses Use Firefox - Many spyware/malware/viruses have code that targets Internet Explorer.</description>
+    </item>
+    
+    <item>
+      <title>Old Macs never die</title>
+      <link>http://triosdevelopers.com/jason.eckert/myblog/old-macs-never-die/</link>
+      <pubDate>Sat, 08 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/myblog/old-macs-never-die/</guid>
+      <description>We just came back from the Ontario Science Centre today. While my daughter checked out the educational exhibits (obviously learning important information), I was more impressed by the fact that some exhibits that haven&amp;rsquo;t changed for several years are still powered by Mac Classics! And to boot, the exhibits were still pretty damn good with those old computers.</description>
+    </item>
+    
+    <item>
+      <title>2. Retro Computers</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/retrocomputers/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/retrocomputers/</guid>
+      <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
+    </item>
+    
+    <item>
+      <title>3. Personal Interests</title>
+      <link>http://triosdevelopers.com/jason.eckert/bio/personal/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/bio/personal/</guid>
+      <description>Parenting I am a happily divorced proud father of one. I’ve pretty much raised my daughter since she was 5 years old on my own, and yes, I’ve made school lunches, threw kids parties, went to great places (Ontario Science Centre, ROM, SportsWorld, Storybook Gardens, Disney World and more!), spent vacations camping/cottaging, and watched far too many Land Before Time movies. The picture on the left is my daughter while we were vacationing at Disney World in Florida over a decade ago.</description>
+    </item>
+    
+    <item>
+      <title>5. Tech Slogans</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/techslogans/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/techslogans/</guid>
+      <description>Don&amp;rsquo;t Anthropomorphize computers. They hate that.
+I void warranties
+I read your email
+Code poet
+Byte Me
+I see dead pixels
+cd /pub; more beer  No, I will not fix your computer
+There is no place like 127.0.0.1
+There is no place like ::1
+Bow before me for I am root
+Dilbert is NOT fiction
+It must be user error.
+/* No Comment */  My other shirt is clever</description>
+    </item>
+    
+  </channel>
+</rss>

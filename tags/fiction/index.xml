@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fiction on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/tags/fiction/</link>
+    <description>Recent content in fiction on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/tags/fiction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cyberpunk, Sci-Fi &amp; General Fiction</title>
+      <link>http://triosdevelopers.com/jason.eckert/reads/fiction/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/reads/fiction/</guid>
+      <description>Thomas J. Ryan: The Adolescence of P-1 (1977) This is probably the best book I have ever read regarding our human desire for artificial intelligence (AI). It’s about a University of Waterloo student who creates an AI on IBM mainframes. Don’t let that bore you though - it’s a captivating read and has a great ending. I wouldn’t be surprised if this book influenced later movies such as War Games (1983), and books such as Neuromancer (1984).</description>
+    </item>
+    
+  </channel>
+</rss>

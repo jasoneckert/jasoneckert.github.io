@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/jason.eckert/css/mero.css" />
+
+  <script src="/jason.eckert/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/jason.eckert/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://triosdevelopers.com/jason.eckert/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/jason.eckert/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/jason.eckert/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Tips to survive teaching an online course
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2020-03-20</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+7 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/jason.eckert/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/internet"
+      title="tags"
+    >Internet</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/jason.eckert/tags/web"
+      title="tags"
+    >Web</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="award.jpg#right" alt="CompTIA award" title="CompTIA award"></p>
+<p>The COVID-19 virus has forced colleges and universities in Canada to quickly move their stuff to an online format to allow classes to continue using social isolation. One teacher even wrote a funny song about it: <a href="https://www.youtube.com/watch?v=CCe5PaeAeew">https://www.youtube.com/watch?v=CCe5PaeAeew</a></p>
+<p>I’m luckier than most, since I’ve been doing online seminars and classes for a wide variety of different organizations for many years now. Most of these sessions have been Train the Trainer (TTT) classes where I teach a course to other technical instructors worldwide. Apparently I’ve gotten so good at it that I was voted best TTT instructor in 2019 by members of the Computing Technology Industry Association (CompTIA), and won their annual award at their summit in Vegas!</p>
+<p>And while many “How to teach online” posts and videos have appeared this past week, none of them I’ve seen mention what you “actually” need to pull it off, so I thought I’d offer my take on it here.</p>
+<p>While the physical classroom environment can’t be replicated online, there are ways to make an online learning experience great - and it’s merely a combination of what you already know with some online-only tips and tricks.</p>
+<h1 id="1-first-you-need-some-tools">1. First, you need some tools:</h1>
+<ul>
+<li>
+<p>A modern computer with a webcam and microphone. Most laptops come with these already, but desktops often do not.</p>
+</li>
+<li>
+<p>A reliable Internet connection. A basic Internet plan is fine as long as it’s high speed.</p>
+</li>
+<li>
+<p>Video conferencing software. This could be Zoom, ON24, Microsoft Teams, Cisco WebEx, or one or several others. The one you use should have these core features:</p>
+</li>
+<li>
+<p>The ability to do in-person video/audio and screen sharing</p>
+</li>
+<li>
+<p>A chat window</p>
+</li>
+<li>
+<p>The ability to share files</p>
+</li>
+<li>
+<p>The ability to record a session for later viewing</p>
+</li>
+</ul>
+<p>The video conferencing software is your home online. For your class to participate with you online, you must invite each attendee to your group in the video conferencing software (your organization may instead do this). Next, you start a video/audio conference call at the beginning of each class where students can see you and hear you speak. In this conference call, you can display and narrate a slide deck (e.g. PowerPoint) to students, as well as use or demonstrate programs on your PC that you wish to screen share. You can also screen share your entire Desktop to get the same experience as using a classroom projector (just move any personal files from your Desktop to another location first).</p>
+<h1 id="2-preparing-for-an-online-class">2. Preparing for an online class:</h1>
+<ul>
+<li>
+<p>Explore the video conferencing software as much as possible. Don’t try to learn every feature of this software. Just focus on the core functionality (the rest can come over time, and only if you find it useful). Your organization may train you how to use this software, or provide videos that walk you through the configuration.</p>
+</li>
+<li>
+<p>Design your class around a slide deck (e.g. PowerPoint). This provides a central structure for your class that you can return to. The slide deck should also start with an agenda.</p>
+</li>
+<li>
+<p>Plan to provide continuous visual and audio stimulation at all times. Instead of narrating a particular slide for a long period of time, break the slide up into several smaller slides that you can advance periodically as you talk.</p>
+</li>
+<li>
+<p>Plan to switch your delivery methods frequently (e.g. every 5 slides). You could switch to a screen share to demonstrate software configuration or open a Web page, or you could introduce a discussion topic or question that students can respond to in the chat window. For example, after discussing the cp command in a Linux course, I may ask students to answer this question in the chat window (give them 30 seconds to respond before taking up the answer):</p>
+</li>
+</ul>
+<p><img src="question.jpg#center" alt="question" title="question"></p>
+<ul>
+<li>Do what is comfortable for you. When creating custom content for a slide deck, you could create a diagram in a program such as Microsoft Paint if you are quick doing so, or you could just write it on paper, take a picture of it with your phone and add it:</li>
+</ul>
+<p><img src="picnotes.jpg#center" alt="picture of notes" title="picture of notes"></p>
+<ul>
+<li>
+<p>Plan to assign homework tasks or lab exercises each class. Online training should always extend beyond the online presentation component. These tasks and exercises can be reviewed and discussed at the beginning of the next class using the chat window.</p>
+</li>
+<li>
+<p>Plan for an online session that takes no more than 2 hours. We can only stay focused in an online session for up to 2 hours, which is why it is widely considered the maximum time for online training sessions. If your organization teaches a class for more than 2 hours, you could use the remaining time to help students with their homework tasks or lab exercises using the chat or individual video calling features of your conferencing software.</p>
+</li>
+<li>
+<p>Plan to provide your students with as much direction as possible. Any detailed information that is easily lost during a demonstration or when a slide advances should be provided to students. This can include hyperlinks, supporting files, commands, and so on. If you share your PowerPoint presentation with your students or record each session, you can put this information in the slide deck itself. Alternatively, you could put this information in a file that you upload to your video conferencing software or send to students in a follow-up email.</p>
+</li>
+</ul>
+<h1 id="3-before-starting-an-online-class">3. Before starting an online class:</h1>
+<ul>
+<li>
+<p>Make sure you eliminate possible audio distractions on your end. This means putting kids and pets somewhere you can’t hear them, as well as turning the ringer off on all phones (mobile and landline). Since my dog likes to bark at things she sees outside of my big living room window, I put up a doggy gate at the living room entrance before online training to ensure she can’t get to that window.</p>
+</li>
+<li>
+<p>Unplug any virtual assistants (e.g. Google Home, Amazon Alexa) and make sure your family members aren’t playing online games or watching online videos (e.g. YouTube/Netflix) to guarantee Internet bandwidth for your session.</p>
+</li>
+<li>
+<p>Test your audio and video. You may need to enable these in your conferencing software and operating system, or adjust their levels. If there is audio static, turn down the volume on your speakers to prevent the audio feedback loop. If video is not working, check to ensure that the shutter on your webcam isn’t closed.</p>
+</li>
+<li>
+<p>Fill a sealable bottle with water and keep it at your feet. Online training involves more talking than classroom training, so you’ll need it if your mouth gets dry.</p>
+</li>
+<li>
+<p>Take a bathroom break. Just like you do before going on a long car ride.</p>
+</li>
+</ul>
+<h1 id="4-when-teaching-an-online-class">4. When teaching an online class:</h1>
+<ul>
+<li>
+<p>Mute all students at the beginning of the session. The amount of background audio feedback from students will prevent you from hearing anything. Most conferencing software has a “mute all” function, but you may have to mute each student connection individually in the software, or ask participants to mute their own microphones.</p>
+</li>
+<li>
+<p>Keep it simple and informal. Students feel more comfortable (and hence learn more) in  a casual session.</p>
+</li>
+<li>
+<p>Focus on the material and the students. While most of what you do will be presenting or demonstrating material, try to interact with your students as much as possible. This means providing regular questions or discussion topics. Periodically pause during your session and ask “Does anyone have any questions about ______?” and give people time to respond.</p>
+</li>
+<li>
+<p>Talk slower and watch your chat window continuously for student questions. You could respond to them right away, or periodically (e.g. after you finish a topic or sentence) depending on your teaching style.</p>
+</li>
+<li>
+<p>Do NOT aim for perfection. This isn’t Broadway, and you’ll gradually get better and better after doing many more online sessions.</p>
+</li>
+<li>
+<p>Expect things to go wrong. When they do, give your class a 5 minute discussion break so that you can try to resolve them. Also keep your tech support phone/email handy!</p>
+</li>
+</ul>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div>
+    <a
+      href="/jason.eckert/myblog/getting-the-most-out-of-your-online-course/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Getting the most out of your online course"
+      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
+    >
+  </div>
+  <div>
+    <a
+      href="/jason.eckert/myblog/how-to-write-an-academic-technical-textbook/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="How to write an academic technical textbook"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

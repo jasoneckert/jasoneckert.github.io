@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>operating systems on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/categories/operating-systems/</link>
+    <description>Recent content in operating systems on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/categories/operating-systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1. Operating Systems</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/operatingsystems/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/operatingsystems/</guid>
+      <description>UNIX UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX.</description>
+    </item>
+    
+  </channel>
+</rss>

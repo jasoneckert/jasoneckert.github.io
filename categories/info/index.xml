@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>info on Welcome to My Site!</title>
+    <link>http://triosdevelopers.com/jason.eckert/categories/info/</link>
+    <description>Recent content in info on Welcome to My Site!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://triosdevelopers.com/jason.eckert/categories/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1. Operating Systems</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/operatingsystems/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/operatingsystems/</guid>
+      <description>UNIX UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX.</description>
+    </item>
+    
+    <item>
+      <title>2. Retro Computers</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/retrocomputers/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/retrocomputers/</guid>
+      <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
+    </item>
+    
+    <item>
+      <title>3. Arcade Games</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/arcadegames/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/arcadegames/</guid>
+      <description>Growing up in the 80s was awesome! One of the best things about growing up in the 80s for me was that I developed a love of video games. I loved spending time at the arcade playing the classics like Tempest, Missile Command and Galaga. At home, we had an Atari 2600 and later a Nintendo NES. I loved it all.
+In recent years, I purchased my absolute favourite arcade games of all time&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>4. Tech Flicks</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/techflicks/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/techflicks/</guid>
+      <description>100 Yen: The Japanese Arcade Experience (2012)
+2001: Space Odyssey (1968)
+8 Bit Generation: The Commodore Wars (2016)
+Antitrust (2001)
+Blade Runner (1982)
+Bright (2017)
+Chasing Ghosts: Beyond the Arcade (2007)
+Cloak and Dagger (1984)
+Contact (1997)
+Die Hard 4: Live Free or Die Hard (2007)
+Every Star Wars and Star Trek movie (from the 1970s+)
+Fanboys (2008)
+Freedom Downtime (2001)
+Funspot: A Small Documentary on the World&amp;rsquo;s Largest Video Game Arcade (2016)</description>
+    </item>
+    
+    <item>
+      <title>5. Tech Slogans</title>
+      <link>http://triosdevelopers.com/jason.eckert/info/techslogans/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://triosdevelopers.com/jason.eckert/info/techslogans/</guid>
+      <description>Don&amp;rsquo;t Anthropomorphize computers. They hate that.
+I void warranties
+I read your email
+Code poet
+Byte Me
+I see dead pixels
+cd /pub; more beer  No, I will not fix your computer
+There is no place like 127.0.0.1
+There is no place like ::1
+Bow before me for I am root
+Dilbert is NOT fiction
+It must be user error.
+/* No Comment */  My other shirt is clever</description>
+    </item>
+    
+  </channel>
+</rss>
