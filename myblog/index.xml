@@ -6,10 +6,19 @@
     <description>Recent content in Blog Posts on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fundamental computer science concepts every software developer should know</title>
+      <link>http://jasoneckert.github.io/myblog/fundamental-comp-sci/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/fundamental-comp-sci/</guid>
+      <description>To be a software developer (a.k.a. programmer or software engineer) today, you don&amp;rsquo;t need a degree in computer science. In fact, computer science really isn&amp;rsquo;t about &amp;ldquo;how&amp;rdquo; you develop software today at all. It&amp;rsquo;s about how we approach software problems theoretically. And to be frank, you don&amp;rsquo;t need to worry about computer science theory to be a good software developer today. You just need to know how to solve problems using code, be good at using existing software frameworks, as well as know how to Google stuff and read programming language documentation.</description>
+    </item>
     
     <item>
       <title>The old Web was fun</title>
@@ -27,8 +36,8 @@ And while I’ve enjoyed watching the evolution of the web, I still think the ol
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
       <guid>http://jasoneckert.github.io/myblog/customizing-macos-for-development/</guid>
-      <description>So your boss gave you a Mac for development. Or maybe you bought a Mac because you have to develop iOS apps. Or maybe you bought a MacBook because you need to develop software as well as look good at Starbucks (after the pandemic is over, of course).
-Unfortunately doing serious development using macOS is cumbersome at best. The Aqua desktop in macOS has few features or components geared towards developers.</description>
+      <description>So your boss gave you a Mac for development. Or maybe you bought a Mac to develop iOS apps. Or maybe you bought a MacBook because you need to develop software as well as look good at Starbucks (after the pandemic is over, of course).
+Unfortunately doing serious development using macOS is cumbersome at best. The Aqua desktop in macOS has few features or components geared towards developers. If you look over the shoulder of most Mac users, you’ll notice that their desktop looks like a very messy desk.</description>
     </item>
     
     <item>

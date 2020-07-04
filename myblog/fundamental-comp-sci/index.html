@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Fundamental computer science concepts every software developer should know
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2020-07-03</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+7 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/programming"
+      title="tags"
+    >programming</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/development"
+      title="tags"
+    >development</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p>To be a software developer (a.k.a. programmer or software engineer) today, you don&rsquo;t need a degree in computer science. In fact, computer science really isn&rsquo;t about &ldquo;how&rdquo; you develop software today at all. It&rsquo;s about how we approach software problems theoretically. And to be frank, you don&rsquo;t need to worry about computer science theory to be a good software developer today. You just need to know how to solve problems using code, be good at using existing software frameworks, as well as know how to Google stuff and read programming language documentation.</p>
+<p>This is why many of the largest tech companies these past few years have publicly announced that they don&rsquo;t require computer science degrees for any of their software developer jobs: <a href="https://www.glassdoor.com/blog/no-degree-required/">https://www.glassdoor.com/blog/no-degree-required/</a></p>
+<p>However, there are some essential computer science concepts that every software developer should know. While they don&rsquo;t help you develop software per se, they allow you to get better at visualizing the performance and nature of software problems, as well as allow you to understand the terminology that coworkers with computer science degrees will use in these regards. More specifically, you should understand the following in computer science lingo:</p>
+<ul>
+<li>The difficulty/complexity of a problem</li>
+<li>How an algorithm scales at its inputs scale</li>
+</ul>
+<p>Before we dive into these concepts, I&rsquo;ll start with a basic history of computer science. Because, you should also be able to discuss the origins of your profession!</p>
+<h1 id="history-of-computer-science">History of computer science</h1>
+<h3 id="charles-babbage-and-ada-lovelace">Charles Babbage and Ada Lovelace</h3>
+<p>Computer science actually started in the 1840s. Charles Babbage designed  (but didn&rsquo;t fully implement) a machine called the Difference Engine that could compute information. He later evolved this design into the Analytical Engine, which would accept information on punch cards for computation. Ada Lovelace (a.k.a. The Countess of Lovelace) developed an algorithm that allowed the Analytical Engine to calculate a sequence of Bernoulli numbers (the first software program). She also postulated other uses for the Analytical Engine as well!</p>
+<p>Unfortunately the Analytical Engine never became a reality, and the work by Babbage and Lovelace was largely forgotten until a decade later.</p>
+<h3 id="alonzo-church-and-λ-calculus">Alonzo Church and λ calculus</h3>
+<p>In the 1930s, Alonzo Church invented Lambda (λ) calculus and set the stage for computing in the field of mathematics. In λ calculus, there are only functions. There are no numbers or data types, and calculation is performed by reduction (much like what the Analytical Engine did).</p>
+<p>For example, here is a function that multiplies x by x:</p>
+<pre><code>    λx.(x * x)
+</code></pre>
+<p>Thus, if you feed this function the number 5, it produces 25:</p>
+<pre><code>    λx.(x * x)(5)  //outputs the number 25
+</code></pre>
+<p>In JavaScript, this would be:</p>
+<pre><code>    let square = x =&gt; x * x
+    square(5)  //outputs the number 25
+</code></pre>
+<p>It was also universal - any mathematical problem could theoretically be solved using λ calculus. <em><strong>As an aside, Y Combinator (which provides seed funding for startups in Silicon Valley and also runs Hacker News) gets its name from the Y combinator in λ calculus, which is a recursive function that finds the point where the function output equals the function input.</strong></em></p>
+<h3 id="alan-turing-and-the-turing-machine">Alan Turing and the Turing Machine</h3>
+<p>In the 1940s, Alan Turing applied λ calculus to prove that a machine could be used to compute almost ANY algorithm. This machine was called a Turing Machine, and needed to have:</p>
+<ul>
+<li>conditional branching</li>
+<li>loops</li>
+<li>variables and memory/storage</li>
+</ul>
+<p>Moreover, he drew attention to the fact that Turing Machines could be run within other Turing Machines. Programs (which run within an operating system program), virtual machines, and containers are examples of this today. He also further defined many other types of Turing Machines, such as Finite State Machines and Pushdown Machines (Google them if you want to know more). Anything that can simulate a Turing Machine is said to be Turing-complete (most modern programming languages are Turing-complete).</p>
+<h3 id="john-von-neumann-and-the-von-neumann-architecture">John von Neumann and the von Neumann architecture</h3>
+<p>Also in the 1940s, John von Neumann laid the groundwork for a modern Turing Machine architecture that would later be used by all computers (even those today):</p>
+<p><img src="vna.png#center" alt="von Neumann architecture" title="von Neumann architecture"></p>
+<h3 id="eniac-and-edvac">ENIAC and EDVAC</h3>
+<p>The first general purpose computer (Turing Machine) that could solve nearly any mathematical equation through programming was created by J. Presper Eckert and John Mauchly in 1945 and called ENIAC (Electronic Numerical Integrator and Computer). They followed this success up with the EDVAC (Electronic Discrete Variable Automatic Computer) computer in 1949. EDVAC computed data in binary (not decimal like ENIAC) and contained the memory/storage needed to implement the von Neumann architecture.</p>
+<p>EDVAC led to mainframes, which led to more people creating programs (Ada Lovelace-style) and the formalization of software development tools and techniques in the 1960s onwards!</p>
+<h1 id="how-difficult-or-complex-is-a-problem-in-computer-science">How difficult or complex is a problem in computer science?</h1>
+<p>It&rsquo;s important to understand how to discuss the difficulty or complexity of software development problems. In computer science, we define complexity not in the number of lines of code or the amount of caffeine needed to produce the code, but in the time it takes for a Turing Machine to solve it.</p>
+<ul>
+<li>
+<p><em><strong>P (polynomial time)</strong></em> is the time to solve a problem using a polynomial expression (involving variables, coefficients and operators). Since computers can solve the same polynomial in the same period of time, so we say that polynomial time is deterministic. Most simple problems are said to be solvable in P.</p>
+</li>
+<li>
+<p><em><strong>Exp (exponential time)</strong></em> describes complex problems that take much longer to solve (or may never be solved), depending on the input and nature of the problem itself. They could take a few seconds to solve or a few years to solve, depending on the input. If the solution can be verified as &ldquo;optimal&rdquo; using a true/false polynomial expression, then we say the problem is <em><strong>Exp-complete</strong></em>. If we can&rsquo;t verify it or must verify it using reduction, we say it is <em><strong>Exp-hard</strong></em>. <em><strong>R (recursive)</strong></em> problems are an example of Exp-hard.</p>
+</li>
+<li>
+<p><em><strong>NP (non-deterministic polynomial time)</strong></em> is what we strive for when it comes to solving complex Exp problems. Think of NP as a shortcut that you take when solving an Exp problem (i.e. a stroke of inspiration) that allows you to solve it much quicker. If you are able to use a true/false polynomial expression to verify that your solution was the optimal one, then we say the problem is <em><strong>NP-complete</strong></em>. Otherwise we say it is <em><strong>NP-hard</strong></em> (i.e. we&rsquo;ll assume it was the optimal one by reduction, or just look the other way). Tetris is an example of an NP-complete problem. You can solve each line quickly using a stroke of inspiration, and later watch a recording of your gameplay to determine if it was the optimal solution at the time (or write code to verify it using polynomial expressions).</p>
+</li>
+</ul>
+<p>The relationship between P, Exp and NP is shown below:</p>
+<p><img src="np.png#center" alt="P, NP, Exp and R" title="P, NP, Exp and R"></p>
+<h1 id="how-does-an-algorithm-scale-as-its-inputs-scale">How does an algorithm scale as its inputs scale?</h1>
+<p>Another important concept you should be able to discuss concerns the nature of algorithms. In computer science, we use Big-Order (or Big-O) notation to describe how many CPU operations it takes to solve an algorithm based on the inputs that are provided to the algorithm.</p>
+<ul>
+<li><em><strong>O(1)</strong></em> means that the algorithm takes the same number of CPU operations to solve regardless of the input.</li>
+<li><em><strong>O(n)</strong></em> means that the number of CPU operations scales linearly as the input is increased.</li>
+<li><em><strong>O(n^2)</strong></em> means that the number CPU operations scales exponentially as the inputs are increased (this should be avoided for obvious reasons). For example, an iterative search is an example of O(n^2).</li>
+<li><em><strong>O(log n)</strong></em> means that the number of CPU operations scales logarithmically as the inputs are increased. For example, a B-tree search is an example of O(log n). O(n^2) algorithms should be restructured to be O(log n) whenever possible.</li>
+</ul>
+<p>The relationship between these Big-O algorithms is shown below:</p>
+<p><img src="bigo.png#center" alt="Big-O" title="Big-O"></p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/the-old-web-was-fun/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="The old Web was fun"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

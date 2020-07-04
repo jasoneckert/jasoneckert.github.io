@@ -6,10 +6,19 @@
     <description>Recent content on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fundamental computer science concepts every software developer should know</title>
+      <link>http://jasoneckert.github.io/myblog/fundamental-comp-sci/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/fundamental-comp-sci/</guid>
+      <description>To be a software developer (a.k.a. programmer or software engineer) today, you don&amp;rsquo;t need a degree in computer science. In fact, computer science really isn&amp;rsquo;t about &amp;ldquo;how&amp;rdquo; you develop software today at all. It&amp;rsquo;s about how we approach software problems theoretically. And to be frank, you don&amp;rsquo;t need to worry about computer science theory to be a good software developer today. You just need to know how to solve problems using code, be good at using existing software frameworks, as well as know how to Google stuff and read programming language documentation.</description>
+    </item>
     
     <item>
       <title>The old Web was fun</title>

@@ -4,12 +4,42 @@
   
   <url>
     <loc>http://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/computing/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/development/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/myblog/fundamental-comp-sci/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/programming/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,11 +63,6 @@
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/tags/apple/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
@@ -48,17 +73,7 @@
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/tags/development/</loc>
-    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/tags/macos/</loc>
-    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/programming/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,11 +133,6 @@
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/tags/arcade/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
@@ -144,11 +154,6 @@
   
   <url>
     <loc>http://jasoneckert.github.io/tags/bio/</loc>
-    <lastmod>2019-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/computing/</loc>
     <lastmod>2019-12-22T00:00:00+00:00</lastmod>
   </url>
   
