@@ -209,7 +209,7 @@ ipconfig &gt; lala.txt
 notepad lala.txt
 ipconfig ; dir ; date
 </code></pre><p>However, some DOS commands will not work - specifically those that interface directly with the OS as there is a PowerShell equivalent of doing that:</p>
-<p><code>path</code>&lt;&ndash;Doesn’t work!</p>
+<p><code>path</code> &lt;&ndash;Doesn’t work!</p>
 <p><code>$env:Path</code> &lt;&ndash;This is the way to call the PATH environment variable in PowerShell</p>
 <p>Commands in PowerShell are called cmdlets, and have an action-object naming convention (e.g. Get-Help).  And just like DOS, commands are case-insensitive, and the Tab key will auto-complete commands/paths as you type them in (in PowerShell, the Tab key will also auto-complete command options!).</p>
 <p>Other features of PowerShell mimic those in a UNIX/Linux/Mac shell (such as BASH).  For example, output from one command can be piped to another command for processing data, or formatting/reducing output:</p>

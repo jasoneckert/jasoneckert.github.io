@@ -108,8 +108,7 @@ You must access the Linux distribution via a Windows program that associates the
       <guid>http://jasoneckert.github.io/myblog/ssh-foo/</guid>
       <description>Last week, I gave a presentation at a local LUG (which is a Linux User’s Group, for anyone who hasn’t heard of those before) on the subject of SSH Foo.
 In UNIX circles, we refer to tricks of the trade as “Kung Fu” or just “Fu” (which sounds rude), so it is spelled “Foo” ;-)
-In this blog post, I’ll summarize my SSH Foo talk!
-Part 1 - Cryptography Basics: Symmetric cryptography (e.</description>
+In this blog post, I’ll summarize my SSH Foo talk! Be aware that this is not an introduction to SSH, but a more advanced look at some interesting SSH features for those who are already comfortable with it.</description>
     </item>
     
     <item>
@@ -413,8 +412,7 @@ Take, for example, the book The Shallows by Nicholas Carr. Carr argues that the 
       <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>http://jasoneckert.github.io/myblog/mocap-in-action/</guid>
-      <description>I’ve always been a big fan of Ubisoft games - I remember when Splinter Cell was released for the Xbox - I spent every waking minute of my spare time playing it. I loved the graphics, shading, storyline, stealth gameplay (quite frustrating at times)&amp;hellip;..everything. In fact, I love the whole Splinter Cell series. Best yet, this series is developed almost entirely at the Ubisoft Toronto studio right now.
-Ubisoft is located in a dingy area of Toronto, within an old factory building that doesn’t look impressive on the outside.</description>
+      <description>I’ve always been a big fan of Ubisoft games - I remember when Splinter Cell was released for the Xbox - I spent every waking minute of my spare time playing it. I loved the graphics, shading, storyline, stealth gameplay (quite frustrating at times) - everything. In fact, I love the whole Splinter Cell series. Best yet, this series is developed almost entirely at the Ubisoft Toronto studio right now.</description>
     </item>
     
     <item>

@@ -312,8 +312,7 @@ On the personal side, I cut out the bad foods from my diet:
       <guid>http://jasoneckert.github.io/myblog/ssh-foo/</guid>
       <description>Last week, I gave a presentation at a local LUG (which is a Linux User’s Group, for anyone who hasn’t heard of those before) on the subject of SSH Foo.
 In UNIX circles, we refer to tricks of the trade as “Kung Fu” or just “Fu” (which sounds rude), so it is spelled “Foo” ;-)
-In this blog post, I’ll summarize my SSH Foo talk!
-Part 1 - Cryptography Basics: Symmetric cryptography (e.</description>
+In this blog post, I’ll summarize my SSH Foo talk! Be aware that this is not an introduction to SSH, but a more advanced look at some interesting SSH features for those who are already comfortable with it.</description>
     </item>
     
     <item>
@@ -660,7 +659,7 @@ I recently installed the latest version of Debian Linux on my PowerBook G4 to ma
       <pubDate>Fri, 14 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://jasoneckert.github.io/myblog/gmos-explained/</guid>
-      <description>Like many other people who hold a degree in science, I look at those poor bastards who are currently upset about GMO products with pity and disdain. They don’t know what it is, but they’re willing to call it evil for whatever reason.
+      <description>Like many other people who hold a degree in science, I look at people who are currently upset about GMO products with pity and disdain. They don’t know what it is, but they’re willing to call it evil for whatever reason.
 GMO stands for genetically modified organism, which is essentially any organism (plant, animal, amoeba, etc.) that has had its DNA modified in some way. DNA are the blueprints of a living cell that in turn produce the RNA that produces the proteins that make up the useful bits of the cell itself.</description>
     </item>
     
@@ -840,8 +839,7 @@ Although this year’s DIG conference was a bit smaller than last year, there we
       <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>http://jasoneckert.github.io/myblog/mocap-in-action/</guid>
-      <description>I’ve always been a big fan of Ubisoft games - I remember when Splinter Cell was released for the Xbox - I spent every waking minute of my spare time playing it. I loved the graphics, shading, storyline, stealth gameplay (quite frustrating at times)&amp;hellip;..everything. In fact, I love the whole Splinter Cell series. Best yet, this series is developed almost entirely at the Ubisoft Toronto studio right now.
-Ubisoft is located in a dingy area of Toronto, within an old factory building that doesn’t look impressive on the outside.</description>
+      <description>I’ve always been a big fan of Ubisoft games - I remember when Splinter Cell was released for the Xbox - I spent every waking minute of my spare time playing it. I loved the graphics, shading, storyline, stealth gameplay (quite frustrating at times) - everything. In fact, I love the whole Splinter Cell series. Best yet, this series is developed almost entirely at the Ubisoft Toronto studio right now.</description>
     </item>
     
     <item>
@@ -1191,7 +1189,7 @@ The problem is this: It really hasn’t changed that much. Aside from the color 
       
       <guid>http://jasoneckert.github.io/myblog/i-created-the-internet/</guid>
       <description>Complete with blinking light! It&amp;rsquo;s amazing what you can make with a soldering iron and the spare electrical parts you have in your basement.
-If you are wondering what the hell I am talking about, just watch the BBC sitcom “The IT Crowd” Series 3 Episode 4.</description>
+If you are wondering what the heck I am talking about, just watch the BBC sitcom “The IT Crowd” Series 3 Episode 4.</description>
     </item>
     
     <item>
@@ -1232,7 +1230,7 @@ Anyways, we analyzed the frame-by-frame output from the movie and recreated the 
       
       <guid>http://jasoneckert.github.io/myblog/how-to-do-an-out-of-office-autoreply/</guid>
       <description>I haven’t posted for a while simply because I just got back from vacation today rejuvenated. In IT, you either take vacation or spend tons of $$ on therapy and alcohol. I prefer the vacation :-)
-People still email me during my vacation, but I have an Outlook autoreply email configured to let them know that I won’t be replying anytime soon (it’s your basic “fuck off and die because I am on vacation” email).</description>
+People still email me during my vacation, but I have an Outlook autoreply email configured to let them know that I won’t be replying anytime soon (it’s your basic “leave me alone because I am on vacation” email).</description>
     </item>
     
     <item>
@@ -1299,7 +1297,7 @@ If you are ultra-PC, you prefer to use a clunky un-aesthetic computer that is di
       <pubDate>Wed, 02 Jan 2008 00:00:00 +0000</pubDate>
       
       <guid>http://jasoneckert.github.io/myblog/netscape-rip-1994-2008/</guid>
-      <description>When I read my Google news today and found out that AOL is no longer going to develop and support Netscape as of February 2008, the first thing that came to mind was: What the hell? I thought Netscape was already dead!
+      <description>When I read my Google news today and found out that AOL is no longer going to develop and support Netscape as of February 2008, the first thing that came to mind was: What the heck? I thought Netscape was already dead!
 I always equated Netscape with older systems such as Windows 9x and SCO Unixware 7.1.2 (the only web browser that ran on its crappy GUI). I haven’t heard anyone who has used the browser in years.</description>
     </item>
     

@@ -88,8 +88,7 @@ I had to drive almost three hours to pick it up on the other side of Toronto, bu
       <guid>http://jasoneckert.github.io/myblog/ssh-foo/</guid>
       <description>Last week, I gave a presentation at a local LUG (which is a Linux User’s Group, for anyone who hasn’t heard of those before) on the subject of SSH Foo.
 In UNIX circles, we refer to tricks of the trade as “Kung Fu” or just “Fu” (which sounds rude), so it is spelled “Foo” ;-)
-In this blog post, I’ll summarize my SSH Foo talk!
-Part 1 - Cryptography Basics: Symmetric cryptography (e.</description>
+In this blog post, I’ll summarize my SSH Foo talk! Be aware that this is not an introduction to SSH, but a more advanced look at some interesting SSH features for those who are already comfortable with it.</description>
     </item>
     
     <item>

@@ -211,12 +211,12 @@
 <ol>
 <li>Connect your PowerBook to your home router using an Ethernet cable (the Wi-Fi driver isn’t available during Debian installation, and it needs to download many packages)</li>
 <li>Download and burn the ISO for the latest version of Debian Linux for PowerPC (PPC)</li>
-<li>Boot your PowerBook from the CD/DVD by holding down the “c” key at boot time</li>
+<li>Boot your PowerBook from the CD/DVD by holding down the C key at boot time</li>
 <li>Complete the installation</li>
 </ol>
 <p>After the installation, you’ll notice that your Wi-Fi card isn’t detected, and that you don’t have sound!  Luckily, you can fix both easily.</p>
-<p>To get your Wi-Fi card working, open a terminal and switch to the root user using the “su - root” command.  Then, edit the /etc/apt/sources.list file and add the keyword “contrib” after the keyword “main” next to each repository listed.  Run the “apt-get update” command to update the repository list to include the contrib repositories, and then run the “apt-get install b43-fwcutter wpasupplicant firmware-b43-installer” command to install the firmware and driver modules for your wireless card.  It should be ready to use right after the command is done, and will be persistent after a reboot.</p>
-<p>To get sound, simply open a terminal, switch to the root user (“su - root”), and edit the /etc/modprobe.d/blacklist.local.conf file.  Remove all the snd* entries in the file, add a single line that reads “snd-powermac” and reboot to let Debian autodetect the right sound driver.</p>
+<p>To get your Wi-Fi card working, open a terminal and switch to the root user using the <code>su - root</code> command.  Then, edit the /etc/apt/sources.list file and add the keyword <code>contrib</code> after the keyword <code>main</code> next to each repository listed.  Run the <code>apt-get update</code> command to update the repository list to include the contrib repositories, and then run the <code>apt-get install b43-fwcutter wpasupplicant firmware-b43-installer</code> command to install the firmware and driver modules for your wireless card.  It should be ready to use right after the command is done, and will be persistent after a reboot.</p>
+<p>To get sound, simply open a terminal, switch to the root user (<code>su - root</code>), and edit the /etc/modprobe.d/blacklist.local.conf file.  Remove all the <code>snd*</code> entries in the file, add a single line that reads <code>snd-powermac</code> and reboot to let Debian autodetect the right sound driver.</p>
 <p>That’s it!</p>
 
   </div>

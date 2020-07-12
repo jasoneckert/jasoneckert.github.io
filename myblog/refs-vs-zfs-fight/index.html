@@ -244,9 +244,7 @@
 <h1 id="creating-zfs-volumes">Creating ZFS volumes:</h1>
 <p>I did this on an Oracle UltraSPARC server running Solaris 10, but you can pretty much use any operating system that has ZFS support installed.  You can give ZFS anything to use – you could give it a device file for a raw device, a partition, a volume, or even a file on a filesystem!  For ease, I’m going to create 3 simple files off of the root of my system to use:</p>
 <pre><code>   mkfile 256m /disk1
-
    mkfile 256m /disk2
-
    mkfile 256m /disk3
 </code></pre>
 <p>Next, I can create a simple ZFS volume from all three devices called lala, and automatically mount it to the /lala directory using a single command:</p>
@@ -254,9 +252,7 @@
 </code></pre>
 <p>I can then copy files to /lala or check out the details using the zpool command:</p>
 <pre><code>   cp /etc/hosts /lala
-
    ls -lh /lala
-
    zpool list
 </code></pre>
 <p>I can also remove the ZFS volume entirely and return to my original configuration:</p>
@@ -264,53 +260,35 @@
 </code></pre>
 <p>Similarly, to create a mirror called po using just /disk1 and /disk2, and mount it to the /po directory, I could use:</p>
 <pre><code>   zpool create po mirror /disk1 /disk2
-
    zpool list
-
    cp /etc/hosts /lala
-
    zpool status po
 </code></pre>
 <p>If I overwrite part of /disk1 (simulating corruption) using the dd command, I can use the zpool scrub command to check for the error and then detach /disk1 (the failed disk) and attach /disk3 (a new disk).  Finally, I’ll check out some more detailed I/O stats and remove the po volume:</p>
 <pre><code>   dd if=/dev/random of=/disk1 bs=512 count=1
-
    zpool scrub po
-
    zpool status
-
    zpool detach po /disk1
-
    zpool status po
-
    zpool attach po /disk2 /disk3
-
    zpool list
-
    zpool status po
-
    zpool iostat -v po
-
    zpool destroy po
 </code></pre>
 <p>To do a striped volume with parity, you can use the keyword raidz alongside the zpool command.  RAID-Z is like RAID-5, but more intelligent because it uses a variable-sized stripe (hence the new name, RAID-Z)!  Like RAID-5, RAID-Z requires a minimum of 3 devices.  You can also use raidz2 (double parity like RAID-6, requires 4+ devices) and raidz3 (triple partity, requires 5+ devices).  Let’s just create a regular RAID-Z volume called noonoo and check it out:</p>
 <pre><code>   zpool create noonoo raidz /disk1 /disk2 /disk3
-
    zpool status noonoo
-
    zpool iostat -v noonoo
 </code></pre>
 <p>There is far more to ZFS than I’ll discuss here – you can resize/modify/whatever using various zpool commands.  But what I’ll leave you with for now is that most of the cool features of the ZFS filesystem can be managed using the zfs command.  For example, I could create three subdirectories under the /noonoo filesystem for three users using the zfs command (which is better than simply using mkdir to create them because it tells ZFS to keeps track of them):</p>
 <pre><code>   zfs create noonoo/larry
-
    zfs create noonoo/curly
-
    zfs create noonoo/moe
-
    zfs list
 </code></pre>
 <p>Now you could get a list of the properties for the /noonoo/larry subdirectory to see a list of things you could modify, or even set a quota for larry:</p>
 <pre><code>   zfs get all noonoo/larry
-
    zfs set quota=10G noonoo/larry
 </code></pre>
 <h1 id="resilient-file-system-refs">Resilient File System (ReFS):</h1>

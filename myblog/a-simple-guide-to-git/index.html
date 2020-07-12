@@ -302,22 +302,17 @@ Date:   Mon Aug 13 14:53:05 2018 -0400
 [jason.eckert@csc-studev01 myscripts]$ _
 </code></pre><p>If I view the filemaintain.sh script now, the XFS stuff I added will no longer be there!</p>
 <p>Here is a summary of git commands that you should find useful at this point:</p>
-<pre><code>  git config = Sets general Git parameters like user name and email
-
-  git init = Creates a Git repo within the current directory (also creates .git folder)
-
-  git add &lt;filenames&gt; = Adds the specified filenames to the Git index (called staging)
-
-  git rm &lt;filenames&gt; = Removes the specified filenames from the Git index
-
-  git commit -m &lt;description&gt; = Creates a snapshot/commit with a specified description
-
-  git status = Views the status of a repo
-
-  git log = Views the commit history of a repo
-
-  git reset --hard &lt;commit_ID&gt; = Reverts files within a repo to a previous commit
-</code></pre><p>If you are a triOS/Eastern College student and have access to triosdevelopers.com or easterndevelopers.ca, you can remotely connect to your home directory using Secure Shell (SSH) and perform all of the commands I’ve performed above. If you are using a macOS or Linux computers, simply run the ssh <a href="mailto:username@triosdevelopers.com">username@triosdevelopers.com</a> or ssh <a href="mailto:username@easterndevelopers.ca">username@easterndevelopers.ca</a> command from a BASH shell prompt and supply your password when prompted.  If you are using Windows, simply download and run the free Putty program and specify to connect to triosdevelopers.com or easterndevelopers.ca with SSH, and then supply your username and password when prompted.</p>
+<ul>
+<li><code>git config</code> Sets general Git parameters like user name and email</li>
+<li><code>git init</code> Creates a Git repo within the current directory (also creates .git folder)</li>
+<li><code>git add &lt;filenames&gt;</code> Adds the specified filenames to the Git index (called staging)</li>
+<li><code>git rm &lt;filenames&gt;</code> Removes the specified filenames from the Git index</li>
+<li><code>git commit -m &lt;description&gt;</code> Creates a snapshot/commit with a specified description</li>
+<li><code>git status</code> Views the status of a repo</li>
+<li><code>git log</code> Views the commit history of a repo</li>
+<li><code>git reset --hard &lt;commit_ID&gt;</code> Reverts files within a repo to a previous commit</li>
+</ul>
+<p>If you are a triOS/Eastern College student and have access to triosdevelopers.com or easterndevelopers.ca, you can remotely connect to your home directory using Secure Shell (SSH) and perform all of the commands I’ve performed above. If you are using a macOS or Linux computers, simply run the ssh <a href="mailto:username@triosdevelopers.com">username@triosdevelopers.com</a> or ssh <a href="mailto:username@easterndevelopers.ca">username@easterndevelopers.ca</a> command from a BASH shell prompt and supply your password when prompted.  If you are using Windows, simply download and run the free Putty program and specify to connect to triosdevelopers.com or easterndevelopers.ca with SSH, and then supply your username and password when prompted.</p>
 <h1 id="part-2-using-git-collaboratively">PART 2: Using Git collaboratively</h1>
 <p>While we just saw how Git can perform version control for your local files, other users can download (or clone) copies of your Git repos on the same computer, or across a network (LAN or Internet). Those users can then create commits periodically after making changes to the files in their cloned repo, and then push those changes back to your original repo. Any computer running Git can clone a Git repo from any other computer running Git, regardless of the operating system used, and there are many Websites that you can freely use to host Git repos online, including GitHub and GitLab.</p>
 <p>Look back at the output of the git status command earlier and you will notice that it mentions that you are “On branch master.” A branch is simply a section of your Git repo, much like the different partitions on a hard disk. Any changes you make to an original or cloned Git repo are part of the master branch by default. But you can create as many other branches as you like to store changes that you may want to experiment with. Once you are satisfied that the changes work as you expected, you can merge the changes you made in your branch with the files in the master branch.</p>
@@ -393,22 +388,17 @@ Already up-to-date.
 <li>When they are happy with their changes, the other users push the branch to the original repo, where it can be viewed by others and merged into the master branch.</li>
 </ul>
 <p>Here is a summary of git commands that you should find useful at this point:</p>
-<pre><code>  git clone /path = Clones a local Git repo to the current directory
-
-  git clone username@hostname:/path = Clones a remote Git repo to the current directory
-
-  git checkout -b &lt;branchname&gt; = Creates a new branch, and switches to it
-
-  git checkout &lt;branchname&gt; = Switches to a different branch
-
-  git branch = Views branches in the repo
-
-  git branch -d &lt;branchname&gt; = Deletes a branch
-
-  git push origin &lt;branchname&gt; = Pushes a branch to the original repo location
-
-  git pull origin &lt;branchname&gt; = Pulls a branch from the original repo location
-</code></pre><h1 id="part-3-so-what-about-online-repo-sites-like-github">PART 3: So what about online repo sites like GitHub?</h1>
+<ul>
+<li><code>git clone /path</code> Clones a local Git repo to the current directory</li>
+<li><code>git clone username@hostname:/path</code> Clones a remote Git repo to the current directory</li>
+<li><code>git checkout -b &lt;branchname&gt;</code> Creates a new branch, and switches to it</li>
+<li><code>git checkout &lt;branchname&gt;</code> Switches to a different branch</li>
+<li><code>git branch</code> Views branches in the repo</li>
+<li><code>git branch -d &lt;branchname&gt;</code> Deletes a branch</li>
+<li><code>git push origin &lt;branchname&gt;</code> Pushes a branch to the original repo location</li>
+<li><code>git pull origin &lt;branchname&gt;</code> Pulls a branch from the original repo location</li>
+</ul>
+<h1 id="part-3-so-what-about-online-repo-sites-like-github">PART 3: So what about online repo sites like GitHub?</h1>
 <p>Well, that’s easier than you think!  Go to GitHub.com and create a free account.  Next, create a new public repository called myscripts.</p>
 <p><img src="git2.jpg#center" alt="git2" title="git2"></p>
 <p>Finally, on your local computer, you can run the following commands to push the contents of the your repo to GitHub and set GitHub as the original repo (which turns your local computer’s repo into a cloned copy from that point onwards).</p>
