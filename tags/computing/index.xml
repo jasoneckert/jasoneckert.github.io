@@ -6,10 +6,20 @@
     <description>Recent content in computing on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/tags/computing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tracing difficult shell scripts</title>
+      <link>http://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</guid>
+      <description>Whether you&amp;rsquo;re an IT systems administrator, developer or devop working with Linux/UNIX shell scripts, you&amp;rsquo;re likely going to come across some that are not well documented and difficult to trace (read and understand) as a result.
+While these scripts discourage others from tracing them, you can easily trace even the most difficult shell scripts if you follow good tracing procedures. Moreover, by tracing a difficult shell script, you build your knowledge of specific Linux/UNIX components, as well as scripting in general.</description>
+    </item>
     
     <item>
       <title>Fundamental computer science concepts every software developer should know</title>
