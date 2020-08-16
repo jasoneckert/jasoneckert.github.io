@@ -4,51 +4,71 @@
   
   <url>
     <loc>http://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/development/</loc>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/linux/</loc>
-    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</loc>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/open-source/</loc>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/programming/</loc>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/sysadmin/</loc>
-    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</loc>
-    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/unix/</loc>
-    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/</loc>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</loc>
     <lastmod>2020-08-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,17 +88,7 @@
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/tags/development/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/myblog/fundamental-comp-sci/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/programming/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -200,11 +210,6 @@
   <url>
     <loc>http://jasoneckert.github.io/myblog/what-nokia-tells-us-about-the-internet-in-2008/</loc>
     <lastmod>2019-08-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/open-source/</loc>
-    <lastmod>2019-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>

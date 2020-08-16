@@ -6,10 +6,20 @@
     <description>Recent content in programming on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Open does not always mean Open Source</title>
+      <link>http://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</guid>
+      <description>In the technology world today, the term Open is most commonly associated with Open Source.
+Open Source refers to software released under a license that gives other software developers access to modify the original Source code that was used to create the software. This, in turn allows other software developers worldwide to quickly identify and fix bugs and security loopholes, as well as make feature improvements to the software. Consequently, Open Source software evolves more rapidly than other (Closed Source) software, and is considered the gold standard for software today.</description>
+    </item>
     
     <item>
       <title>Fundamental computer science concepts every software developer should know</title>
