@@ -3,42 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://jasoneckert.github.io/tags/apple/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/development/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/internet/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/linux/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+    <loc>http://jasoneckert.github.io/tags/macos/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/microsoft/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/open-source/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/unix/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/web/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/windows/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,37 +103,12 @@
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/unix/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</loc>
     <lastmod>2020-08-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/tags/internet/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/myblog/so-you-think-online-conferencing-is-new/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/web/</loc>
     <lastmod>2020-07-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -103,17 +128,7 @@
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/tags/apple/</loc>
-    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/myblog/customizing-macos-for-development/</loc>
-    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/macos/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -123,17 +138,7 @@
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/tags/microsoft/</loc>
-    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/myblog/microsoft-turns-45/</loc>
-    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/windows/</loc>
     <lastmod>2020-04-04T00:00:00+00:00</lastmod>
   </url>
   
