@@ -3,22 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://jasoneckert.github.io/tags/apple/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/computing/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/myblog/cybersecurity-in-the-90s/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/it/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/sysadmin/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/apple/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -29,11 +54,6 @@
   
   <url>
     <loc>http://jasoneckert.github.io/tags/internet/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/it/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,22 +83,12 @@
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/tags/unix/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/web/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -94,11 +104,6 @@
   
   <url>
     <loc>http://jasoneckert.github.io/tags/programming/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/sysadmin/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url>
   

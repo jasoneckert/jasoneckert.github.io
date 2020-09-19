@@ -6,10 +6,19 @@
     <description>Recent content on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cybersecurity in the early 1990&#39;s</title>
+      <link>http://jasoneckert.github.io/myblog/cybersecurity-in-the-90s/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/cybersecurity-in-the-90s/</guid>
+      <description>Back in the late 1980&amp;rsquo;s and early 1990&amp;rsquo;s, I remember collecting MS-DOS computer viruses. I’d download them from BBS systems and store them on floppy disks in compressed format to prevent them from executing. For fun, some friends and I would occasionally release them on one of our systems to see what they did, and then reinstall MS-DOS afterwards. Most viruses didn’t do very much, but some others (e.g. BBkiller) would remove or modify the contents of files.</description>
+    </item>
     
     <item>
       <title>Most people don&#39;t want a computer</title>
