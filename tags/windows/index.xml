@@ -6,10 +6,20 @@
     <description>Recent content in Windows on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A brief history of technology</title>
+      <link>http://jasoneckert.github.io/myblog/a-brief-history-of-technology/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/a-brief-history-of-technology/</guid>
+      <description>Technology is a crazy ride, and like that lyric in the Talking Heads song Once in a Lifetime, &amp;ldquo;&amp;hellip;you may ask yourself, well, how did I get here?&amp;rdquo;
+If that&amp;rsquo;s the case, you&amp;rsquo;re in luck, because this post is a no-nonsense, give-me-the-big-picture timeline of what the heck happened in the technology landscape these past 50 years. Of course, not every little detail is in there. Just those that are actually important (in my expert opinion, of course ;-) Enjoy!</description>
+    </item>
     
     <item>
       <title>Most people don&#39;t want a computer</title>
