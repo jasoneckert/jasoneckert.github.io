@@ -6,10 +6,21 @@
     <description>Recent content in Web on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why I love teaching online</title>
+      <link>http://jasoneckert.github.io/myblog/why-i-love-teaching-online/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/why-i-love-teaching-online/</guid>
+      <description>When the pandemic hit earlier this year, schools around the globe quickly embraced online teaching to continue their curriculum. While online teaching wasn&amp;rsquo;t entirely new in this space, it certainly wasn&amp;rsquo;t the norm. This meant that many teachers had to adapt quickly, as these 2 funny videos illustrate:
+ https://www.youtube.com/watch?v=CCe5PaeAeew https://www.youtube.com/watch?v=Zy_y9yOrgxk  However, I&amp;rsquo;ve loved every part of this transition because I absolutely love teaching tech courses online.
+Grant you, I&amp;rsquo;ve had some practice prior to 2020, as well as a general interest in how the Web could be used for education.</description>
+    </item>
     
     <item>
       <title>A brief history of technology</title>
