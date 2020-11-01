@@ -6,10 +6,20 @@
     <description>Recent content in IT on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/tags/it/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>5 Zsh features that will encourage you to switch from Bash</title>
+      <link>http://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</guid>
+      <description>The command line interface on your system is provided by a shell. And while there are dozens of different shells available to choose from, nearly every UNIX and Linux system over the past two decades has used the feature-rich Bash shell as the default login shell.
+Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions have switched their default shell to Zsh.</description>
+    </item>
     
     <item>
       <title>Why I love teaching online</title>
