@@ -3,27 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://jasoneckert.github.io/tags/it/</loc>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/myblog/seldom-discussed-tech-industry-tips/</loc>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/sysadmin/</loc>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/</loc>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,22 +53,7 @@
   </url>
   
   <url>
-    <loc>http://jasoneckert.github.io/tags/sysadmin/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://jasoneckert.github.io/tags/unix/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
