@@ -9,7 +9,7 @@ Plan:
 Aside from being 98% chimp, I do stuff @ triOS College in Canada, write textbooks for various publishers, contribute to cool dev projects, build private clouds (and keep them running), collect vintage computers, and restore classic arcade machines.<br/>
 <span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->ls -l <!-- kjsdfhkjdhsfkjdshfkj -->
 total 16
--rw-rw-r-- 1 jasoneckert jasoneckert  743 Jan  1  1970 socialmedialinks.sh
+-rwxrwxr-x 1 jasoneckert jasoneckert  743 Jan  1  1970 socialmedialinks.sh
 -rw-rw-r-- 1 jasoneckert jasoneckert  279 Jan  1  1970 poem.txt
 -rw-rw-r-- 1 jasoneckert jasoneckert  144 Jan  1  1970 reallylongbiography.txt
 <span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->./socialmedialinks.sh 
