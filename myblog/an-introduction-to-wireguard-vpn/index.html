@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.73.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      An introduction to WireGuard VPN
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2020-12-27</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+6 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/internet"
+      title="tags"
+    >Internet</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/web"
+      title="tags"
+    >Web</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="wireguard.png#right" alt="WireGuard logo" title="WireGuard logo"></p>
+<h1 id="why-wireguard">Why WireGuard?</h1>
+<p>I know what you&rsquo;re thinking - 2020 sucked! Worst year ever! The COVID-19 pandemic, no social gatherings, no dine-in restaurants, no gyms, the US Trumpster fire, and most importantly to those of us in the tech world: Red Hat terminating CentOS development.</p>
+<h1 id="vpn-basics">VPN basics</h1>
+<p>PSSH</p>
+<h1 id="our-sample-vpn-setup">Our sample VPN setup</h1>
+<p>PSSH</p>
+<h1 id="installing-wireguard">Installing WireGuard</h1>
+<p>Visit <a href="https://www.wireguard.com/install/">https://www.wireguard.com/install/</a> to see how to install WireGuard on your operating system. You can usually install WireGuard from your Linux or BSD UNIX repository. For Windows, Android, macOS and iOS there is an app you can get, but you should avoid the macOS app and instead use the Homebrew package manager method (the macOS app is flakey at the time of this writing).</p>
+<p>For Fedora Linux (the Linux distribution we&rsquo;ll use for our server and client in this blog post), you can install WireGuard from a software repository using the <code>dnf install wireguard-tools</code> command as root (or via <code>sudo</code>) on both your server and client.</p>
+<h1 id="configuring-wireguard">Configuring WireGuard</h1>
+<p>The first step to configuring WireGuard is to generate a public/private key pair on each system that will participate in WireGuard.  To do this, you can use the <code>wg genkey</code> command to generate the private key, and then send it back to the <code>wg</code> command, which will generate the matching public key. To do this in one line, saving the private key to the file <code>privatekey</code> and the public key to the file <code>publickey</code> in your current directory and view the results, you can run the following commands on both your server and client:</p>
+<pre><code>[root@server ~]# wg genkey | tee privatekey | wg pubkey &gt; publickey
+[root@server ~]# cat privatekey 
++FqYdSx+rIg2gwwyd3hCfap/1Vz3z2UuRZCPKKwMaXw=
+[root@server ~]# cat publickey 
+cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs=
+
+[root@client ~]# wg genkey | tee privatekey | wg pubkey &gt; publickey
+[root@client ~]# cat privatekey 
+0EQpGsSfGwVRdxcCywG2ymnLG7mjmv+rB02UodcH10k=
+[root@client ~]# cat publickey 
+8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE=
+</code></pre>
+<p>Next, you must construct a WireGuard interface that has a virtual private IP address and port number of your choice. This IP can be IPv4 or IPv6, but we&rsquo;ll stick to IPv4 for readability. The first WireGuard interface is called wg0, and should use the private key you generated and saved to the <code>privatekey</code> file (you don&rsquo;t need to specify the public key as WireGuard will generate it from the private key). To configure a new wg0 interface on the server that listens on port 55234 using the virtual private IP 10.0.0.99 and view the results, you can run the following commands:</p>
+<pre><code>[root@server ~]# ip link add wg0 type wireguard
+[root@server ~]# ip addr add 10.0.0.99/24 dev wg0
+[root@server ~]# wg set wg0 private-key ./privatekey listen-port 55234
+[root@server ~]# ip link set wg0 up
+[root@server ~]# wg
+interface: wg0
+  public key: cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs=
+  private key: (hidden)
+  listening port: 55234
+</code></pre>
+<p>To configure a new wg0 interface on the client that listens on port 55123 using the virtual private IP 10.0.0.1 and view the results, you can run the following commands:</p>
+<pre><code>[root@client ~]# ip link add wg0 type wireguard
+[root@client ~]# ip addr add 10.0.0.1/24 dev wg0
+[root@client ~]# wg set wg0 private-key ./privatekey listen-port 55123
+[root@client ~]# ip link set wg0 up
+[root@client ~]# wg
+interface: wg0
+  public key: 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE=
+  private key: (hidden)
+  listening port: 55123
+</code></pre>
+<p>Now that you have a WireGuard wg0 interface on both system, you must add the client&rsquo;s public key, IP and port number on the server, as well as add the server&rsquo;s public key, IP and port number on the client in order to allow each system to trust each other. You must also specify the IP addresses or networks you will allow over WireGuard. You can do all of this with one command on each machine (I&rsquo;ll let you decide how you want to copy/paste the public keys into these commands):</p>
+<pre><code>[root@server ~]# wg set wg0 peer 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE= allowed-ips 10.0.0.0/24 endpoint 192.168.1.107:55123
+
+[root@client ~]# wg set wg0 peer cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs= allowed-ips 10.0.0.0/24 endpoint 192.168.1.106:55234
+</code></pre>
+<p>The <code>allowed-ips</code> argument is important to note. When fireguard is sending information to the other system, 10.0.0.0/24 is treated like a target route. In other words, if your system sends data to the 10.0.0.0/24 network, it triggers Wireguard to start the VPN. However, when receiving information from the other system, 10.0.0.0/24 is treated like an access control list. In other words, your system won&rsquo;t accept traffic unless it comes from the 10.0.0.0/24 network.</p>
+<p>That&rsquo;s it, you now have WireGuard ready to go! Let&rsquo;s <code>ping</code> the virtual private IP of the server (10.0.0.99) from client and view the output of <code>wg</code> on both systems:</p>
+<pre><code>[root@client ~]# ping 10.0.0.99
+&lt;output omitted&gt;
+[root@client ~]# wg
+interface: wg0
+   public key: 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE=
+   private key: (hidden)
+   listening port: 55123
+peer: cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs=
+   endpoint: 192.168.1.106:55234
+   allowed ips: 10.0.0.0/24
+   latest handshake: 18 seconds ago
+   transfer: 8.21 KiB received, 15.10 KiB sent
+
+[root@server ~]# wg
+interface: wg0
+   public key: cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs=
+   private key: (hidden)
+   listening port: 55192
+peer: 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE=
+   endpoint: 192.168.1.107:51423
+   allowed ips: 10.0.0.0/24
+   latest handshake: 27 seconds ago
+   transfer: 7.01 KiB received, 11.39 KiB sent
+</code></pre>
+<h1 id="how-do-i-make-wg0-persistent">How do I make wg0 persistent?</h1>
+<p>When you reboot, your wg0 interface and WireGuard configuration is gone. All that is left are your <code>privatekey</code> and <code>publickey</code> files. Thus, you would need to repeat the same commands on both systems again to set up the same WireGuard VPN.</p>
+<p>Why would WireGuard do this? The simple answer is that WireGuard is a VPN technology only - they let others choose how to handle the configuration of their configuration parameters. This allows tremendous flexibility, and prevents unnecessary bloat in WireGuard. For example, for organizations that use Infrastructure as Code (IaC), they could put the necessary commands and keys in their automation software (e.g. Ansible) or Continuous Deployment (CD) orchestration software (e.g. Kubernetes). Similarly, you could write a BASH shell script and execute it each time you wish to create your VPN, or configure your operating system to start it automatically at boot time. Since the private and public keys are already generated, you could create the following script on the client, for example:</p>
+<pre><code>[root@client ~]# cat wireguard-client.sh 
+#!/bin/bash
+ip link add wg0 type wireguard
+ip addr add 10.0.0.1/24 dev wg0
+wg set wg0 private-key ./privatekey listen-port 55123
+ip link set wg0 up
+wg set wg0 peer cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs= allowed-ips 10.0.0.0/24 endpoint 192.168.1.106:55234
+</code></pre>
+<p>Alternatively, if you&rsquo;d like to make this WireGuard VPN a permanent fixture on your system, you can generate a WireGuard configuration file from wg0 and save it to the <code>/etc/wireguard/wg0.conf</code> file. You&rsquo;ll also need to copy your <code>privatekey</code> and <code>publickey</code> files to the same directory and ensure that only root has read and write permission to the WireGuard files:</p>
+<pre><code>[root@client ~]# wg showconf wg0 &gt; /etc/wireguard/wg0.conf
+[root@client ~]# cp *key /etc/wireguard/
+[root@client ~]# chmod 600 /etc/wireguard/*
+</code></pre>
+<p>Next, you can use the <code>wg-quick up wg0</code> and <code>wg-quick down wg0</code> commands to activate and deactivate your WireGuard interface, or set your system to automatically activate the WireGuard interface at boot time using <code>systemctl enable wg-quick@wg0.service</code>.</p>
+<h1 id="other-considerations">Other considerations</h1>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/2020-in-review/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="2020 in review"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
