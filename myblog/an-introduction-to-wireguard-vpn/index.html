@@ -261,7 +261,7 @@ interface: wg0
   private key: (hidden)
   listening port: 55123
 </code></pre>
-<p>Now that you have a wg0 interface on both system, you must add the client&rsquo;s public key, IP and port number on the server, as well as add the server&rsquo;s public key, IP and port number on the client in order to allow the systems to identify and communicate with each other. You must also specify the IP addresses or networks you will allow over WireGuard. You can do all of this with one command on each system:</p>
+<p>Now that you have a wg0 interface on both systems, you must add the client&rsquo;s public key, IP and port number on the server, as well as add the server&rsquo;s public key, IP and port number on the client in order to allow the systems to identify and communicate with each other. You must also specify the IP addresses or networks you will allow over WireGuard. You can do all of this with one command on each system:</p>
 <pre><code>[root@server ~]# wg set wg0 peer 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE= allowed-ips 172.16.0.0/16 endpoint 192.168.1.107:55123
 
 [root@client ~]# wg set wg0 peer cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs= allowed-ips 172.16.0.0/16 endpoint 192.168.1.106:55234
@@ -326,7 +326,7 @@ wg set wg0 peer cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs= allowed-ips 172.16.
 <p>This use case is called <em><strong>remote access</strong></em> (or <em><strong>site access</strong></em>), and allows a client to securely access the resources on a corporate network from across the Internet as if their system was physically located on it.</p>
 <p>The configuration of a remote access VPN depends on the structure of your target network. A sample network is shown below. Both home and corporate LANs connect to the Internet via their Internet Service Provider (ISP). On the corporate side, the ISP often provides a demarcation point (demarc) router that provides a public IP address to a Next Generation Firewall (NGFW). In addition to providing security functionality, the NGFW is often configured as a Network Address Translation (NAT) router to allow corporate LANs to access the Internet using private IP address ranges, such as the 10.0.x.0/24 networks shown below for the demilitarized zone (DMZ), as well as the department LANs that connect to the DMZ using a regular router. The client shown below also has a private IP address (192.168.1.107) because it&rsquo;s usually on a home network behind a NAT router as well.</p>
 <p><img src="2intro.png#center" alt="Network Diagram" title="Network Diagram"></p>
-<p>There are two main configurations for remote access, depending on whether the WireGuard server is located behind the NGFW, or directly connected to the demarc.</p>
+<p>There are two main configuration methods for remote access, depending on whether the WireGuard server is located behind the NGFW, or directly connected to the demarc.</p>
 <h3 id="method-1-remote-access-using-a-wireguard-server-behind-a-ngfw">Method 1: Remote Access using a WireGuard server behind a NGFW</h3>
 <p>In the configuration shown below, the WireGuard server (10.0.0.99) is located on the private 10.0.0.0/24 network behind the NGFW.</p>
 <p><img src="2.png#center" alt="Remote access behind NAT" title="Remote access behind NAT"></p>
