@@ -111,7 +111,7 @@
     class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
     style="position: absolute; top: -19px; font-size: 0.9em;"
   >
-    <time>2020-12-27</time>    
+    <time>2021-01-01</time>    
     <span
       class="more"
       style="font-size: 1.5em;"
@@ -125,7 +125,7 @@
   <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
     <div>
       Reading Time: 
-6 mins
+13 mins
       
     </div>
     <div>
@@ -194,6 +194,18 @@
       title="tags"
     >Linux</a>
     
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/windows"
+      title="tags"
+    >Windows</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/macos"
+      title="tags"
+    >macOS</a>
+    
   </div>
   
   
@@ -201,18 +213,19 @@
 </div>
   <div class="article pb-3 pt-3 border-bottom border-top">
     
-    <p><img src="wireguard.png#right" alt="WireGuard logo" title="WireGuard logo"></p>
-<h1 id="why-wireguard">Why WireGuard?</h1>
-<p>I know what you&rsquo;re thinking - 2020 sucked! Worst year ever! The COVID-19 pandemic, no social gatherings, no dine-in restaurants, no gyms, the US Trumpster fire, and most importantly to those of us in the tech world: Red Hat terminating CentOS development.</p>
-<h1 id="vpn-basics">VPN basics</h1>
-<p>PSSH</p>
-<h1 id="our-sample-vpn-setup">Our sample VPN setup</h1>
-<p>PSSH</p>
-<h1 id="installing-wireguard">Installing WireGuard</h1>
-<p>Visit <a href="https://www.wireguard.com/install/">https://www.wireguard.com/install/</a> to see how to install WireGuard on your operating system. You can usually install WireGuard from your Linux or BSD UNIX repository. For Windows, Android, macOS and iOS there is an app you can get, but you should avoid the macOS app and instead use the Homebrew package manager method (the macOS app is flakey at the time of this writing).</p>
-<p>For Fedora Linux (the Linux distribution we&rsquo;ll use for our server and client in this blog post), you can install WireGuard from a software repository using the <code>dnf install wireguard-tools</code> command as root (or via <code>sudo</code>) on both your server and client.</p>
-<h1 id="configuring-wireguard">Configuring WireGuard</h1>
-<p>The first step to configuring WireGuard is to generate a public/private key pair on each system that will participate in WireGuard.  To do this, you can use the <code>wg genkey</code> command to generate the private key, and then send it back to the <code>wg</code> command, which will generate the matching public key. To do this in one line, saving the private key to the file <code>privatekey</code> and the public key to the file <code>publickey</code> in your current directory and view the results, you can run the following commands on both your server and client:</p>
+    <h1 id="1-why-wireguard">1. Why WireGuard?</h1>
+<p><img src="wireguard.png#right" alt="WireGuard logo" title="WireGuard logo"></p>
+<p>When it comes to encrypting traffic between systems, there are a wide variety of different <em><strong>Virtual Private Network (VPN)</strong></em> software available, some of which have been used since the 1990s. Each of them focus on different encryption algorithms and flow control strategies, alongside mechanisms for providing for secure authentication and negotiating encryption keys. Unfortunately, this complexity often translates to more problems, slower traffic, as well fewer use cases and supported operating systems.</p>
+<p>WireGuard uses high-performance strong cryptography, such as ChaCha20 (for symmetric data encryption) and Curve25519 (for asymmetric key negotiation), alongside a framework similar to SSH and Git. Moreover, it provides VPN functionality only when traffic is sent, doesn&rsquo;t include complex authentication mechanisms, and is available for all desktop and mobile operating systems. In short, WireGuard is a cross-platform VPN that minimizes bandwidth and maximizes data transfer speed while boasting top-notch security and a lower attack surface.</p>
+<h1 id="2-a-basic-vpn-configuration">2. A basic VPN configuration</h1>
+<p>Like its name suggests, a <em><strong>VPN</strong></em> is a <em><strong>virtual network</strong></em> that overlays your ordinary network. When data is sent on this virtual network, it is automatically encrypted to ensure that the data remains <em><strong>private</strong></em>. We often say that this data is <em><strong>tunnelled</strong></em> through the VPN.</p>
+<p>WireGuard does not have a separate client and server component - each system that participates in a WireGuard VPN is considered equal and called a <em><strong>peer</strong></em> in WireGuard documentation. However, it&rsquo;s easier to visualize communication when we think in terms of clients and servers, so we&rsquo;ll call one system a client and the other a server. And while WireGuard works equally well with IPv4 or IPv6 networks, we’ll stick to IPv4 for readability.</p>
+<p>The following diagram shows a client (IP address 192.168.1.107) and server (IP address 192.168.1.106) connected to the same IPv4 LAN (192.168.1.0/24). After creating a VPN, each system will have a second IP address on the VPN (e.g. 172.16.0.1 for the client and 172.16.0.99 for the server). In the following sections, we&rsquo;ll implement this basic VPN configuration using WireGuard, and then discuss the configuration for other use cases.</p>
+<p><img src="1.png#center" alt="Simple VPN setup" title="Simple VPN setup"></p>
+<h1 id="3-installing-wireguard">3. Installing WireGuard</h1>
+<p>Visit <a href="https://www.wireguard.com/install/">https://www.wireguard.com/install/</a> to see how to install WireGuard on your operating system. You can usually install WireGuard from your Linux or BSD UNIX repository. For Windows, Android, macOS and iOS there is an app you can get, but you should avoid the macOS app and instead use the Homebrew package manager method (the macOS app is problematic at the time of this writing). Since the client and server I use run Fedora Linux, I ran the <code>dnf install wireguard-tools</code> command as root (or via <code>sudo</code>) to install WireGuard on them.</p>
+<h1 id="4-configuring-wireguard">4. Configuring WireGuard</h1>
+<p>The first step for configuring WireGuard is to generate an asymmetric public/private key pair on each system that will participate in WireGuard. To generate and save the private key to the file <code>privatekey</code>, as well as generate and save the associated public key to the file <code>publickey</code> and view the results, you can run the following commands on both your server and client:</p>
 <pre><code>[root@server ~]# wg genkey | tee privatekey | wg pubkey &gt; publickey
 [root@server ~]# cat privatekey 
 +FqYdSx+rIg2gwwyd3hCfap/1Vz3z2UuRZCPKKwMaXw=
@@ -225,9 +238,10 @@ cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs=
 [root@client ~]# cat publickey 
 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE=
 </code></pre>
-<p>Next, you must construct a WireGuard interface that has a virtual private IP address and port number of your choice. This IP can be IPv4 or IPv6, but we&rsquo;ll stick to IPv4 for readability. The first WireGuard interface is called wg0, and should use the private key you generated and saved to the <code>privatekey</code> file (you don&rsquo;t need to specify the public key as WireGuard will generate it from the private key). To configure a new wg0 interface on the server that listens on port 55234 using the virtual private IP 10.0.0.99 and view the results, you can run the following commands:</p>
+<p>Next, you must construct a WireGuard interface on each system that has a virtual private IP address and port number of your choice. The first WireGuard interface is called wg0, and should use the private key you generated and saved to the <code>privatekey</code> file earlier (you don&rsquo;t need to specify the public key as WireGuard will automatically generate it from the private key).</p>
+<p>To configure a new wg0 interface on the server that listens on port 55234 using the virtual private IP 172.16.0.99 and view the results, you can run the following commands:</p>
 <pre><code>[root@server ~]# ip link add wg0 type wireguard
-[root@server ~]# ip addr add 10.0.0.99/24 dev wg0
+[root@server ~]# ip addr add 172.16.0.99/24 dev wg0
 [root@server ~]# wg set wg0 private-key ./privatekey listen-port 55234
 [root@server ~]# ip link set wg0 up
 [root@server ~]# wg
@@ -236,9 +250,9 @@ interface: wg0
   private key: (hidden)
   listening port: 55234
 </code></pre>
-<p>To configure a new wg0 interface on the client that listens on port 55123 using the virtual private IP 10.0.0.1 and view the results, you can run the following commands:</p>
+<p>To configure a new wg0 interface on the client that listens on port 55123 using the virtual private IP 172.16.0.1 and view the results, you can run the following commands:</p>
 <pre><code>[root@client ~]# ip link add wg0 type wireguard
-[root@client ~]# ip addr add 10.0.0.1/24 dev wg0
+[root@client ~]# ip addr add 172.16.0.1/24 dev wg0
 [root@client ~]# wg set wg0 private-key ./privatekey listen-port 55123
 [root@client ~]# ip link set wg0 up
 [root@client ~]# wg
@@ -247,14 +261,14 @@ interface: wg0
   private key: (hidden)
   listening port: 55123
 </code></pre>
-<p>Now that you have a WireGuard wg0 interface on both system, you must add the client&rsquo;s public key, IP and port number on the server, as well as add the server&rsquo;s public key, IP and port number on the client in order to allow each system to trust each other. You must also specify the IP addresses or networks you will allow over WireGuard. You can do all of this with one command on each machine (I&rsquo;ll let you decide how you want to copy/paste the public keys into these commands):</p>
-<pre><code>[root@server ~]# wg set wg0 peer 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE= allowed-ips 10.0.0.0/24 endpoint 192.168.1.107:55123
+<p>Now that you have a wg0 interface on both system, you must add the client&rsquo;s public key, IP and port number on the server, as well as add the server&rsquo;s public key, IP and port number on the client in order to allow the systems to identify and communicate with each other. You must also specify the IP addresses or networks you will allow over WireGuard. You can do all of this with one command on each system:</p>
+<pre><code>[root@server ~]# wg set wg0 peer 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE= allowed-ips 172.16.0.0/16 endpoint 192.168.1.107:55123
 
-[root@client ~]# wg set wg0 peer cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs= allowed-ips 10.0.0.0/24 endpoint 192.168.1.106:55234
+[root@client ~]# wg set wg0 peer cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs= allowed-ips 172.16.0.0/16 endpoint 192.168.1.106:55234
 </code></pre>
-<p>The <code>allowed-ips</code> argument is important to note. When fireguard is sending information to the other system, 10.0.0.0/24 is treated like a target route. In other words, if your system sends data to the 10.0.0.0/24 network, it triggers Wireguard to start the VPN. However, when receiving information from the other system, 10.0.0.0/24 is treated like an access control list. In other words, your system won&rsquo;t accept traffic unless it comes from the 10.0.0.0/24 network.</p>
-<p>That&rsquo;s it, you now have WireGuard ready to go! Let&rsquo;s <code>ping</code> the virtual private IP of the server (10.0.0.99) from client and view the output of <code>wg</code> on both systems:</p>
-<pre><code>[root@client ~]# ping 10.0.0.99
+<p>The <code>allowed-ips 172.16.0.0/16</code> argument in these commands is important to note. When WireGuard is sending information to the other system, 172.16.0.0/16 is treated like a target route. In other words, if your system sends data to the 172.16.0.0/16 network, it triggers WireGuard to start the VPN. However, when receiving information from the other system, 172.16.0.0/16 is treated like an access control list. In other words, your system won&rsquo;t accept VPN traffic unless it originates from the 172.16.0.0/16 network.</p>
+<p>That&rsquo;s it, you now have WireGuard ready to go! Let&rsquo;s <code>ping</code> the virtual private IP of the server (172.16.0.99) from the client and view the output of <code>wg</code> on both systems:</p>
+<pre><code>[root@client ~]# ping 172.16.0.99
 &lt;output omitted&gt;
 [root@client ~]# wg
 interface: wg0
@@ -263,7 +277,7 @@ interface: wg0
    listening port: 55123
 peer: cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs=
    endpoint: 192.168.1.106:55234
-   allowed ips: 10.0.0.0/24
+   allowed ips: 172.16.0.0/16
    latest handshake: 18 seconds ago
    transfer: 8.21 KiB received, 15.10 KiB sent
 
@@ -274,28 +288,118 @@ interface: wg0
    listening port: 55192
 peer: 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE=
    endpoint: 192.168.1.107:51423
-   allowed ips: 10.0.0.0/24
+   allowed ips: 172.16.0.0/16
    latest handshake: 27 seconds ago
    transfer: 7.01 KiB received, 11.39 KiB sent
 </code></pre>
-<h1 id="how-do-i-make-wg0-persistent">How do I make wg0 persistent?</h1>
+<h1 id="5-making-wireguard-configuration-persistent">5. Making WireGuard configuration persistent</h1>
 <p>When you reboot, your wg0 interface and WireGuard configuration is gone. All that is left are your <code>privatekey</code> and <code>publickey</code> files. Thus, you would need to repeat the same commands on both systems again to set up the same WireGuard VPN.</p>
-<p>Why would WireGuard do this? The simple answer is that WireGuard is a VPN technology only - they let others choose how to handle the configuration of their configuration parameters. This allows tremendous flexibility, and prevents unnecessary bloat in WireGuard. For example, for organizations that use Infrastructure as Code (IaC), they could put the necessary commands and keys in their automation software (e.g. Ansible) or Continuous Deployment (CD) orchestration software (e.g. Kubernetes). Similarly, you could write a BASH shell script and execute it each time you wish to create your VPN, or configure your operating system to start it automatically at boot time. Since the private and public keys are already generated, you could create the following script on the client, for example:</p>
+<p>For organizations that use Infrastructure as Code (IaC), the necessary commands and keys could be placed in their automation software (e.g. Ansible) or Continuous Deployment (CD) orchestration software (e.g. Kubernetes). Alternatively, you could place these commands within a shell script and configure your system to execute it at boot time. Since the private and public keys are already generated, you could create the following BASH shell script on the client, for example:</p>
 <pre><code>[root@client ~]# cat wireguard-client.sh 
 #!/bin/bash
 ip link add wg0 type wireguard
-ip addr add 10.0.0.1/24 dev wg0
+ip addr add 172.16.0.1/16 dev wg0
 wg set wg0 private-key ./privatekey listen-port 55123
 ip link set wg0 up
-wg set wg0 peer cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs= allowed-ips 10.0.0.0/24 endpoint 192.168.1.106:55234
+wg set wg0 peer cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs= allowed-ips 172.16.0.0/16 endpoint 192.168.1.106:55234
 </code></pre>
-<p>Alternatively, if you&rsquo;d like to make this WireGuard VPN a permanent fixture on your system, you can generate a WireGuard configuration file from wg0 and save it to the <code>/etc/wireguard/wg0.conf</code> file. You&rsquo;ll also need to copy your <code>privatekey</code> and <code>publickey</code> files to the same directory and ensure that only root has read and write permission to the WireGuard files:</p>
+<p>However, a better method for making your WireGuard configuration persistent is to generate a WireGuard configuration file from wg0 and save it to the <code>/etc/wireguard/wg0.conf</code> file. You&rsquo;ll also need to copy your <code>privatekey</code> and <code>publickey</code> files to the same directory and ensure that only root has read and write permission to the contents of the <code>/etc/wireguard/</code> directory.</p>
+<p>To do this on the client, and view the results, you can run the following commands:</p>
 <pre><code>[root@client ~]# wg showconf wg0 &gt; /etc/wireguard/wg0.conf
 [root@client ~]# cp *key /etc/wireguard/
 [root@client ~]# chmod 600 /etc/wireguard/*
+[root@client ~]# cat /etc/wireguard/wg0.conf
+  [Interface]
+  Address = 172.16.0.1/16
+  ListenPort = 55123
+  PrivateKey = 0EQpGsSfGwVRdxcCywG2ymnLG7mjmv+rB02UodcH10k=
+
+  [Peer]
+  PublicKey = cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs=
+  AllowedIPs = 172.16.0.0/16
+  Endpoint = 192.168.1.106:55234
 </code></pre>
-<p>Next, you can use the <code>wg-quick up wg0</code> and <code>wg-quick down wg0</code> commands to activate and deactivate your WireGuard interface, or set your system to automatically activate the WireGuard interface at boot time using <code>systemctl enable wg-quick@wg0.service</code>.</p>
-<h1 id="other-considerations">Other considerations</h1>
+<p>After creating <code>/etc/wireguard/wg0.conf</code>, you can use the <code>wg-quick up wg0</code> and <code>wg-quick down wg0</code> commands to activate and deactivate wg0, or set your system to automatically activate wg0 at boot time using <code>systemctl enable wg-quick@wg0.service</code>.</p>
+<p>You can connect multiple clients to the same server. In this case, the server will need to know the PublicKey, IP and port for each client, so you will have multiple <code>[Peer]</code> sections in the <code>/etc/wireguard/wg0.conf</code> file on the server, one for each client. After adding a new <code>[Peer]</code> section to this file, you must run the <code>wg-quick down wg0 ; wg-quick up wg0</code> command on the server to activate the new configuration.</p>
+<h1 id="6-using-wireguard-for-remote-access-to-a-network">6. Using WireGuard for remote access to a network</h1>
+<p>While having a VPN between a client and a server allows for encrypted communication between them, the most common use case for a VPN is to encrypt communication between a client and a network (typically a corporate network).  In this case, the server functions as a router on this target network, and will route packets from the client to the target network after decrypting them. To ensure that all client traffic is forwarded to the server across the VPN, the client uses the VPN as their default gateway route. Moreover, if the resource the client requests is not on the corporate network, then the server will use its own default gateway route to sent the traffic out the corporate Internet connection.</p>
+<p>This use case is called <em><strong>remote access</strong></em> (or <em><strong>site access</strong></em>), and allows a client to securely access the resources on a corporate network from across the Internet as if their system was physically located on it.</p>
+<p>The configuration of a remote access VPN depends on the structure of your target network. A sample network is shown below. Both home and corporate LANs connect to the Internet via their Internet Service Provider (ISP). On the corporate side, the ISP often provides a demarcation point (demarc) router that provides a public IP address to a Next Generation Firewall (NGFW). In addition to providing security functionality, the NGFW is often configured as a Network Address Translation (NAT) router to allow corporate LANs to access the Internet using private IP address ranges, such as the 10.0.x.0/24 networks shown below for the demilitarized zone (DMZ), as well as the department LANs that connect to the DMZ using a regular router. The client shown below also has a private IP address (192.168.1.107) because it&rsquo;s usually on a home network behind a NAT router as well.</p>
+<p><img src="2intro.png#center" alt="Network Diagram" title="Network Diagram"></p>
+<p>There are two main configurations for remote access, depending on whether the WireGuard server is located behind the NGFW, or directly connected to the demarc.</p>
+<h3 id="method-1-remote-access-using-a-wireguard-server-behind-a-ngfw">Method 1: Remote Access using a WireGuard server behind a NGFW</h3>
+<p>In the configuration shown below, the WireGuard server (10.0.0.99) is located on the private 10.0.0.0/24 network behind the NGFW.</p>
+<p><img src="2.png#center" alt="Remote access behind NAT" title="Remote access behind NAT"></p>
+<p>Thus, when configuring WireGuard on the client (192.168.1.107), you would specify <code>endpoint publicIP</code>, where publicIP is the the public IP address of the NGFW visible across the Internet. The NGFW must also be configured to accept WireGuard traffic on the port you specify and forward it internally to the server (10.0.0.99) using standard port forwarding or reverse proxy.</p>
+<p>To force all client traffic to the server using WireGuard, you would specify <code>allowed-ips 0.0.0.0/0</code> in the WireGuard configuration on the client (but still use <code>allowed-ips 172.16.0.0/16</code> in the WireGuard configuration on the server). Any Internet requests sent to the server from the client on the VPN will be forwarded to the server&rsquo;s default gateway (the NGFW) for relay to the Internet. Responses received by the server will then be sent to the client on the VPN.</p>
+<p>Since the client is behind a NAT router (e.g. on a home network) and not directly visible to the server across the Internet, there is also no need to include the <code>listen-port 55123</code> configuration on the client, nor the <code>endpoint 192.168.1.107:55123</code> on the server. When the client contacts the server using WireGuard, the server will reply to the public IP address on the NAT router the client is behind.</p>
+<p>Finally, to allow the server to forward IPv4 requests it receives from the client to other LANs, you must perform the following tasks on the server:</p>
+<ul>
+<li>Turn on IP routing using the command <code>sysctl -w net.ipv4.ip_forward=1 &gt;&gt; /etc/sysctl.conf</code></li>
+<li>Enable IP masquerading for requests from wg0 on the physical network interface connected to the DMZ LAN (e.g. eth0) using the command <code>iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE</code></li>
+</ul>
+<p>Of course, all of this configuration could also be added to <code>/etc/wireguard/wg0.conf</code> on the client and server:</p>
+<pre><code>[root@client ~]# cat /etc/wireguard/wg0.conf
+  [Interface]
+  PrivateKey = 0EQpGsSfGwVRdxcCywG2ymnLG7mjmv+rB02UodcH10k=
+  Address = 172.16.0.1/16
+  DNS = 1.1.1.1   #By specifying your DNS configuration here, name resolution is faster
+  #No ListenPort needed!
+
+  [Peer]
+  PublicKey = cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs=
+  AllowedIPs = 0.0.0.0/0   #This forwards all traffic to the WireGuard server
+  Endpoint = publicIP:55234
+
+[root@server ~]# cat /etc/wireguard/wg0.conf
+  [Interface]
+  PrivateKey = +FqYdSx+rIg2gwwyd3hCfap/1Vz3z2UuRZCPKKwMaXw=
+  Address = 172.16.0.99/16
+  ListenPort = 55234
+  PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+  PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+  
+  [Peer]
+  PublicKey = 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE=
+  AllowedIPs = 172.16.0.0/16
+  #No Endpoint needed!
+</code></pre>
+<h3 id="method-2-remote-access-using-a-wireguard-server-connected-to-the-demarc">Method 2: Remote Access using a WireGuard server connected to the demarc</h3>
+<p>In the configuration shown below, the WireGuard server is connected directly to the demarc and obtains a public IP address, but has a second network interface connected to the DMZ (10.0.0.99). In this case, we call the WireGuard server an <em><strong>edge device</strong></em> as it sits on the edge of the corporate network.</p>
+<p><img src="3.png#center" alt="Remote access using edge device" title="Remote access using edge device"></p>
+<p>The biggest difference between this configuration and the previous one is that when configuring WireGuard on the client (192.168.1.107), you would specify <code>endpoint publicIP</code>, where publicIP is the the public IP address of the server connected to the demarc. Consequently, there&rsquo;s no need to configure the NGFW to forward requests to 10.0.0.99.</p>
+<p>All other configuration is identical to the previous example. However, recall that you must specify the network interface that is connected to the DMZ when configuring IP masquerading on the server. If this network is eth1 (since eth0 is connected to the demarc), you would need to run the <code>iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE</code> command on the server.</p>
+<h1 id="7-using-wireguard-to-secure-traffic-between-two-or-more-networks">7. Using WireGuard to secure traffic between two (or more) networks</h1>
+<p>If you have WireGuard servers configured as edge devices in two (or more) locations, and each location uses unique private IP ranges (e.g. 10.1.x.0/24 and 10.2.x.0/24), you could use WireGuard to allow systems on the 10.1.x.0/24 networks to securely access the systems on the 10.2.x.0/24 networks, and vice versa. This is often called a <em><strong>site-to-site VPN</strong></em>.</p>
+<p><img src="4.png#center" alt="Site to site VPN" title="Site to site VPN"></p>
+<p>The configuration would be very similar to our basic example at the beginning of this blog post. Instead of a client and a server, we could have server1 and server2, and each server would be configured as a router that performs masquerading. The <code>/etc/wireguard/wg0.conf</code> configuration for these systems is shown below:</p>
+<pre><code>[root@server1 ~]# cat /etc/wireguard/wg0.conf
+  [Interface]
+  PrivateKey = 0EQpGsSfGwVRdxcCywG2ymnLG7mjmv+rB02UodcH10k=
+  Address = 172.16.1.99/16
+  ListenPort = 55123
+  PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
+  PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth1 -j MASQUERADE
+
+  [Peer]
+  PublicKey = cjmyZf4c+6U3pD2QT+6Bxkjj9qzU8EePjc8dSeuXvWs=
+  AllowedIPs = 10.2.0.0/16   #This forwards all traffic for 10.2.x.0/24 networks to server2
+  Endpoint = server2publicIP:55234
+
+[root@server2 ~]# cat /etc/wireguard/wg0.conf
+  [Interface]
+  PrivateKey = +FqYdSx+rIg2gwwyd3hCfap/1Vz3z2UuRZCPKKwMaXw=
+  Address = 172.16.2.99/16
+  ListenPort = 55234
+  PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
+  PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth1 -j MASQUERADE
+  
+  [Peer]
+  PublicKey = 8pfWwwPK8R+Qe/fuN5FZ0P2ddngWd8s79sOQw5Q7SXE=
+  AllowedIPs = 10.1.0.0/16   #This forwards all traffic for 10.1.x.0/24 networks to server1
+  Endpoint = server1publicIP:55123
+</code></pre>
+<p>It&rsquo;s also important to note that many NGFWs have site-to-site VPNs built into them. I imagine that most of them will move to using WireGuard for this functionality over time for performance and security reasons!</p>
 
   </div>
   <div class="mt-4 d-flex flex-row justify-content-around">

@@ -6,10 +6,19 @@
     <description>Recent content in tech on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An introduction to WireGuard VPN</title>
+      <link>http://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</guid>
+      <description>1. Why WireGuard? When it comes to encrypting traffic between systems, there are a wide variety of different Virtual Private Network (VPN) software available, some of which have been used since the 1990s. Each of them focus on different encryption algorithms and flow control strategies, alongside mechanisms for providing for secure authentication and negotiating encryption keys. Unfortunately, this complexity often translates to more problems, slower traffic, as well fewer use cases and supported operating systems.</description>
+    </item>
     
     <item>
       <title>2020 in review</title>
