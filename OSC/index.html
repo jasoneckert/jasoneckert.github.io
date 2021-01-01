@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<!-- Original version by Richard Mitchell - Red Gate Software Ltd -->
+<!-- Modified by Jason Eckert with no fewer than 30 swear words -->
+<head>
+  <title id="title">killer coding ninja monkeys</title>
+  <link rel="stylesheet" href="assets/reset-min.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/styles.css" type="text/css" media="all" />
+  
+  <script type="text/javascript" src="assets/scripts/jquery-1.4.4.min.js"></script>
+  <script type="text/javascript" src="assets/scripts/jquery-ui-1.8.5.custom.min.js"></script>
+  <!-- Warning - I have modified this file slightly to make it work for my nefarious porpoises -->
+  <script type="text/javascript" src="assets/scripts/jquery.carousel.edited.js"></script>
+</head>
+<body>
+  <ul class="carousel-wrap" data-time="30000" id="pages">
+  </ul>
+  <script type="text/javascript">
+    $(function () {
+      var totalPage = 1;
+      // In the main stylesheet are selections of colors used to highlight different content
+      // currently these are cld oth and foo
+      var colorCounts = { cld: -1, foo: -1, oth: -1 };
+      var maxColorCounts = { cld: 4, foo: 4, oth: 4 };
+
+      function loadPage(div, page) {
+        // For each page load up an <li> into the <ul> on the page so that the carousel will work
+        var title = $(div).attr('title') == null ? 'Page ' + page : $(div).attr('title');
+
+        // Load the <html><title> with the title of the first page
+        if (page == 1)
+          $('#title').text(title);
+
+        var newPage = $('<li>' +
+                              '<div id="page' + page + '" class="page">' +
+                                '<div class="title">' + title + '</div>' +
+                                (page > 1 ? '<div class="back"/>' : '') +
+                              '</div>' +
+                            '</li>').appendTo('#pages');
+
+        // Each segment on the page
+        var segments = $($(div).html()).filter('div');
+        segments.each(function () {
+          var half = $(this).hasClass('halfWidth');
+          var doubleWidth = $(this).hasClass('doubleWidth');
+          var doubleHeight = $(this).hasClass('doubleHeight');
+          var full = $(this).hasClass('full');
+
+          var style = '';
+          // If there is only one segment <div> in the data for the page then it is counted as a full page
+          if (full || segments.length == 1)
+            style = ' full-segment';
+          else {
+            // This should probably just copy all of the classes from the data <div> to the display segment <div>
+            style += $(this).hasClass('widthHalf') ? ' widthHalf' : '';
+            style += $(this).hasClass('width2') ? ' width2' : '';
+            style += $(this).hasClass('width3') ? ' width3' : '';
+            style += $(this).hasClass('height2') ? ' height2' : '';
+            style += $(this).hasClass('height3') ? ' height3' : '';
+            style += $(this).hasClass('dark') ? ' dark' : '';
+          }
+
+          // Based on the known class names 'cld', 'foo' and 'oth' (default) work out a colour scheme class
+          // for the segement e.g. cld1 for the first 'cld' cld2 for the second 'cld' etc. Each colour scheme
+          // has it's own counters
+          var colourScheme = $(this).hasClass('cld') ? 'cld' : ($(this).hasClass('foo') ? 'foo' : 'oth');
+          colorCounts[colourScheme] = (colorCounts[colourScheme] + 1) % maxColorCounts[colourScheme];
+
+          // Create the segment the known class 'nomargin' allows content (e.g. images) to fill segments
+          // all the way to the edge
+          var pageLink = $(this).attr('ref');
+          var newSeg = $('<div class="segment ' + colourScheme + (colorCounts[colourScheme] + 1) + style + '">' +
+                          (pageLink != null ? '<div class="ref"></div>' : '') +
+                          '<div class="content ' + ($(this).hasClass('nomargin') ? 'nomargin' : '') + '">' +
+                            $(this).html() +
+                          '</div>' +
+                        '</div>').appendTo($('#page' + page));
+
+          // Pagelink refers to the attribute 'ref' on the data <div> this can be a page number or a url
+          // that will be opened in a new window ( I think popup blockers may sometimes stop this )
+          if (pageLink != null) {
+            $(newSeg).addClass('fade');
+
+            if (typeof (pageLink) == 'string' && pageLink.substr(0, 4) == 'http') {
+              // Turn the short segment into a link to the new page via the clicking the carousel blob
+              $(newSeg).click(function () {
+                // Probably should insert a <a> element instead of this javascript that gets caught by some pop-up blockers
+                window.open($(this).attr('data-page'));
+                return true;
+              })
+              .css('cursor', 'pointer')
+              .attr('data-page', pageLink);
+            }
+            else {
+              // Turn the short segment into a link to the new page via the clicking the carousel blob
+              $(newSeg).click(function () {
+                // Nasty way to show a certain <li> of the carousel
+                $('#blob' + $(this).attr('data-page')).click();
+                return false;
+              })
+              .css('cursor', 'pointer')
+              .attr('data-page', pageLink);
+            }
+          }
+        });
+
+      }
+
+      jQuery.ajax(
+			{
+			  type: 'GET',
+			  url: 'data/oobla.html?q=' + new Date().getTime(), // To prevent caching I force a get of this every time with the querystring
+			  success: function (html) {
+			    // Interpet the data file starting at the root data <div>
+			    $(html).filter('div').each(function () {
+			      loadPage($(this), totalPage++);
+			    });
+
+			    // Set-up the carousel after the page load has completed and all <li> elements are in place
+			    $('.carousel-wrap').carousel();
+
+			    // Simple way to jump back to the first page from any sub page - if there is only page that links to a sub-page
+			    // this should probably go to the "parent" page
+			    $('.back').click(function () {
+			      $('#blob0').click();
+			      return false;
+			    });
+
+			    // Modified version of http://www.hv-designs.co.uk/2010/01/13/learn-how-to-add-a-jquery-fade-in-and-out-effect/
+			    $("div.fade").hover(
+          function () {
+            // Was playing around with "growing" the segments but couldn't get it to work neatly so settled for a fast fade-out-in
+            //$(this).stop(true, false).animate({ top: '-=10', left: '-=10', bottom: '+=20', right:'+=20' }, "fast");
+            $(this).stop().animate({ opacity: 0.7 }, "fast", function () { $(this).animate({ opacity: 1.0 }, "slow"); });
+          }, function () {
+            //$(this).stop(true, false).animate({ top: '+=10', left: '+=10', bottom: '-=20', bottom: '-=20' }, "fast");
+          });
+			  }
+			});
+    });
+  </script>
+</body>
+</html>
