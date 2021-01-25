@@ -6,10 +6,20 @@
     <description>Recent content in Internet on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The computer that saved Apple</title>
+      <link>http://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</guid>
+      <description>The very first iMac model (shown above) was released in 1998, came in one colour called Bondi Blue, and had a semi-translucent case that allowed you to see the components inside. It had a 233MHz PowerPC G3 CPU, 32MB of RAM, CD-ROM drive, and shipped with MacOS 8.1 (soon upgraded to MacOS 9 - the last version before Apple moved to Mac OS X).
+While passing by a convenience store in my home town of Hespeler, I muttered in distaste when I noticed that someone had dumped a lot of furniture and various other household items next to the already-full dumpster at the back.</description>
+    </item>
     
     <item>
       <title>An introduction to WireGuard VPN</title>
