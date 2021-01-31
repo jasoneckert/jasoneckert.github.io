@@ -105,7 +105,7 @@
 <article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
   <div class="header">
     <h1 style="font-size: 2.5em;">
-      5 Zsh features that will encourage you to switch from Bash
+      5 Z shell features that will encourage you to switch from Bash
     </h1>
     <div
     class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
@@ -125,7 +125,7 @@
   <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
     <div>
       Reading Time: 
-6 mins
+7 mins
       
     </div>
     <div>
@@ -203,23 +203,23 @@
     
     <p><img src="tuxzsh.jpg#right" alt="tux zsh shell" title="tux zsh shell"></p>
 <p>The command line interface on your system is provided by a shell. And while there are dozens of different shells available to choose from, nearly every UNIX and Linux system over the past two decades has used the feature-rich Bash shell as the default login shell.</p>
-<p>Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions have switched their default shell to Zsh. The Zsh shell has been around for three decades, and is the second most popular shell next to Bash.</p>
-<p>On the surface, the Zsh shell is nearly identical to the Bash shell; it has the same command line and shell scripting features, but displays a <code>%_</code> prompt instead of a <code>$_</code> prompt. As a Bash shell user, this means that you can immediately start working within a Zsh shell, as well as create shell scripts exactly like you would in a Bash shell (the only change would be using <code>#!/bin/zsh</code> instead of <code>#!/bin/bash</code> on the first line of the shell script).</p>
-<p>Zsh also has a similar environment file structure. The ~/.zshrc file works just like ~/.bashrc in that it is executed for each new Zsh shell you create. And just like /etc/bashrc, there&rsquo;s a /etc/zshrc that contains system-wide Zsh options. Similarly, the /etc/bash_profile and ~/.bash_profile login scripts also have Zsh equivalents (/etc/zshprofile and ~/.zshprofile).</p>
-<p>So, if Zsh is so similar to Bash, why do some users prefer using it? The simple answer is: <em><strong>Zsh can do more than Bash</strong></em>.</p>
-<p>We&rsquo;ll examine five awesome Zsh features that you can try in your own Zsh shell throughout this blog post. Even if it isn&rsquo;t your default login shell, Zsh is typically installed by default on most UNIX and Linux systems. Thus, you can obtain a Zsh shell by typing <code>zsh</code> within an existing Bash shell. If you decide to use Zsh as your login shell instead of Bash after reading this blog post, simply run the <code>chsh -s /bin/zsh</code> command.</p>
+<p>Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions (e.g. Kali) have switched their default shell to the Z shell (<code>zsh</code>), and this trend is likely to continue. The Z shell has been around for three decades, and is the second most popular shell next to Bash.</p>
+<p>On the surface, the Z shell is nearly identical to the Bash shell; it has the same command line and shell scripting features, but displays a <code>%_</code> prompt instead of a <code>$_</code> prompt. As a Bash shell user, this means that you can immediately start working within a Z shell, as well as create shell scripts exactly like you would in a Bash shell (the only change would be using <code>#!/bin/zsh</code> instead of <code>#!/bin/bash</code> on the first line of the shell script).</p>
+<p>The Z shell also has a similar environment file structure. The ~/.zshrc file works just like ~/.bashrc in that it is executed for each new Z shell you create. And just like /etc/bashrc, there&rsquo;s a /etc/zshrc that contains system-wide Z shell options. Similarly, the /etc/bash_profile and ~/.bash_profile login scripts also have Z shell equivalents (/etc/zshprofile and ~/.zshprofile).</p>
+<p>So, if Z shell is so similar to Bash, why do some users prefer using it? The simple answer is: <em><strong>Z shell can do more than Bash</strong></em>.</p>
+<p>We&rsquo;ll examine five awesome Z shell features that you can try throughout this blog post. Even if it isn&rsquo;t your default login shell, the Z shell is installed by default on most UNIX and Linux systems. Thus, you can obtain a Z shell by typing <code>zsh</code> within an existing Bash shell. If you decide to use the Z shell as your login shell instead of Bash after reading this blog post, simply run the <code>chsh -s /bin/zsh</code> command.</p>
 <h1 id="1-flexible-redirection-and-piping">1. Flexible redirection and piping</h1>
-<p>Using Zsh, you can redirect standard input, output and error to multiple files, as well as use standard output redirection within a pipe (eliminating the need for the <code>tee</code> command). For example, the following command sends the standard output of the <code>lsblk</code> command to both file1.txt and file2.txt:</p>
+<p>Using the Z shell, you can redirect standard input, output and error to multiple files, as well as use standard output redirection within a pipe (eliminating the need for the <code>tee</code> command). For example, the following command sends the standard output of the <code>lsblk</code> command to both file1.txt and file2.txt:</p>
 <pre><code>% lsblk &gt;file1.txt &gt;file2.txt
 </code></pre><p>You could instead send the standard output to file1.txt as well as pipe it to the <code>grep</code> command to extract &ldquo;xfs&rdquo; lines and save them to file2.txt:</p>
 <pre><code>% lsblk &gt;file1.txt | grep xfs &gt;file2.txt
-</code></pre><p>Redirecting standard input from multiple files is a Zsh feature I use often. The following will merge and sort bigfile1.txt and bigfile2.txt, saving the combined sorted output to output.txt:</p>
+</code></pre><p>Redirecting standard input from multiple files is a Z shell feature I use often. The following will merge and sort bigfile1.txt and bigfile2.txt, saving the combined sorted output to output.txt:</p>
 <pre><code>% sort &lt;bigfile1.txt &lt;bigfile2.txt &gt;output.txt
-</code></pre><p>Another neat Zsh trick is to use input redirection to view files. The following is an alternative to running the <code>more output.txt</code> command:</p>
+</code></pre><p>Another neat Z shell trick is to use input redirection to view files. The following is an alternative to running the <code>more output.txt</code> command:</p>
 <pre><code>% &lt;output.txt 
-</code></pre><h1 id="2-zsh-options">2. Zsh options</h1>
-<p>By setting Zsh options, you can control nearly every aspect of the Zsh shell, including auto-completion, file globbing, command history, input/output processing, shell emulation, function handling, and more.</p>
-<p>Two Zsh options that I regularly use are <em><strong>autocd</strong></em> and <em><strong>correct</strong></em>. The easiest way to set these two options is to add the line <code>setopt autocd correct</code> to your ~/.zshrc file. After doing this, you&rsquo;ll need to start a new Zsh shell (or run <code>source ~/.zshrc</code> to reload ~/.zshrc in your current shell).</p>
+</code></pre><h1 id="2-z-shell-options">2. Z shell options</h1>
+<p>By setting Z shell options, you can control nearly every aspect of the shell, including auto-completion, file globbing, command history, input/output processing, shell emulation, function handling, and more.</p>
+<p>Two options that I regularly use are <em><strong>autocd</strong></em> and <em><strong>correct</strong></em>. The easiest way to set these two options is to add the line <code>setopt autocd correct</code> to your ~/.zshrc file. After doing this, you&rsquo;ll need to start a new Z shell (or run <code>source ~/.zshrc</code> to reload ~/.zshrc in your current shell).</p>
 <p>The <em><strong>autocd</strong></em> option allows you to change to a directory by specifying the directory name only (without the <code>cd</code> command).  For example,</p>
 <pre><code>% pwd
 /home/jaoneckert
@@ -238,9 +238,9 @@ Su Mo Tu We Th Fr Sa
 22 23 24 25 26 27 28  
 29 30            
 %              
-</code></pre><p>For a full list of Zsh options available, visit <a href="http://zsh.sourceforge.net/Doc/Release/Options.html">http://zsh.sourceforge.net/Doc/Release/Options.html</a></p>
-<h1 id="3-zsh-modules">3. Zsh modules</h1>
-<p>The built-in commands in the Zsh shell are modular; you can choose which ones are available in your Zsh shell by loading the appropriate Zsh modules. To view the default Zsh modules loaded in your shell, run the <code>zmodload</code> command without arguments:</p>
+</code></pre><p>For a full list of options available, visit <a href="http://zsh.sourceforge.net/Doc/Release/Options.html">http://zsh.sourceforge.net/Doc/Release/Options.html</a></p>
+<h1 id="3-z-shell-modules">3. Z shell modules</h1>
+<p>The built-in commands in the Z shell are modular; you can choose which ones are available by loading the appropriate modules. To view the default modules loaded in your Z shell, run the <code>zmodload</code> command without arguments:</p>
 <pre><code>% zmodload
 zsh/complete
 zsh/main
@@ -250,16 +250,16 @@ zsh/terminfo
 zsh/zle
 zsh/zutil
 %
-</code></pre><p>To get additional built-in commands in your Zsh shell, you can choose to load additional modules. For example, to use the <code>strftime</code> built-in command to obtain detailed time and date information, you must load the zsh/datetime module, as shown below:</p>
+</code></pre><p>To get additional built-in commands in your Z shell, you can choose to load additional modules. For example, to use the <code>strftime</code> built-in command to obtain detailed time and date information, you must load the zsh/datetime module, as shown below:</p>
 <pre><code>% zmodload zsh/datetime
 % strftime &quot;%a, %d %b %y %T %z&quot;
 Sun, 01 Nov 20 08:57:08 -0500
 %
-</code></pre><p>To ensure that the datetime module is loaded each time you start a Zsh shell, add the line <code>zmodload zsh/datetime</code> to your ~/.zshrc file.</p>
-<p>Using built-in Zsh commands in shell scripts makes them more robust and portable. While the <code>date</code> command on one system may not support the same options as on another system, the <code>strftime</code> built-in Zsh command will always work the same way on any system running Zsh. Similarly, by loading the zsh/mathfunc module, you can use mathematical functions such as <code>sqrt</code> (square root) within a Zsh shell script without having to rely on other programs installed on the underlying UNIX or Linux system. For a full list of Zsh modules available, visit <a href="http://zsh.sourceforge.net/Doc/Release/Zsh-Modules.html">http://zsh.sourceforge.net/Doc/Release/Zsh-Modules.html</a></p>
-<h1 id="4-zsh-functions">4. Zsh functions</h1>
-<p>Zsh also supports the loading of additional functions from directories specified in the $fpath variable. These directories contain many useful functions by default, and programs you install may add even more.</p>
-<p>One of my favourite Zsh functions is <em><strong>compinit</strong></em>, which extends the built-in Tab key completion feature for commands and filenames to include command options and arguments as well. To ensure that this function is loaded each time you start a new Zsh shell, add the line <code>autoload -U compinit &amp;&amp; compinit</code> to your ~/.zshrc file.</p>
+</code></pre><p>To ensure that the datetime module is loaded each time you start a Z shell, add the line <code>zmodload zsh/datetime</code> to your ~/.zshrc file.</p>
+<p>Using built-in commands in Z shell scripts makes them more robust and portable. While the <code>date</code> command on one system may not support the same options as on another system, the <code>strftime</code> built-in command will always work the same way on any system running the Z shell. Similarly, by loading the zsh/mathfunc module, you can use mathematical functions such as <code>sqrt</code> (square root) within a Z shell script without having to rely on other programs installed on the underlying UNIX or Linux system. For a full list of modules available, visit <a href="http://zsh.sourceforge.net/Doc/Release/Zsh-Modules.html">http://zsh.sourceforge.net/Doc/Release/Zsh-Modules.html</a></p>
+<h1 id="4-z-shell-functions">4. Z shell functions</h1>
+<p>The Z shell also supports the loading of additional functions from directories specified in the $fpath variable. These directories contain many useful functions by default, and programs you install may add even more.</p>
+<p>One of my favourite functions is <em><strong>compinit</strong></em>, which extends the built-in Tab key completion feature for commands and filenames to include command options and arguments as well. To ensure that this function is loaded each time you start a new Z shell, add the line <code>autoload -U compinit &amp;&amp; compinit</code> to your ~/.zshrc file.</p>
 <p>Next, when you type a command like <code>tar</code>, you can type <code>-</code> and press the Tab key to see the available options:</p>
 <pre><code>% tar - 
 A  -- append to an archive
@@ -270,10 +270,10 @@ u  -- update archive
 v  -- verbose output
 x  -- extract files from an archive
 </code></pre><p>If the available options are POSIX options (e.g.<code>--universal</code>), you can also use the Tab key to autocomplete the option name after typing the first few letters. For complex commands that require specific option combinations, you&rsquo;ll be prompted to select required options before selecting secondary options. Additionally, for commands that accept a predefined list of arguments, you can use the Tab key to autocomplete those arguments as well.</p>
-<h1 id="5-zsh-themes-and-plugins">5. Zsh themes and plugins</h1>
-<p>Perhaps the most attractive feature of Zsh is its support for plugins and themes. There are currently over 250 Zsh plugins that provide a wide range of additional functionality, from integrating <code>git</code> features into the Zsh prompt to displaying the current weather in your terminal using Unicode symbols. If you&rsquo;d like to modify the look and feel of your Zsh shell, there are over 150 themes available for you to add.</p>
-<p>To search for and install Zsh plugins and themes, follow the instructions at <a href="https://github.com/ohmyzsh/ohmyzsh">https://github.com/ohmyzsh/ohmyzsh</a></p>
-<p>As with other Zsh configuration, you specify the theme and plugins you wish to use in your ~/.zshrc file. For example, the following lines apply the <em><strong>agnoster</strong></em> theme as well as load the <em><strong>git</strong></em> and <em><strong>dotenv</strong></em> plugins:</p>
+<h1 id="5-z-shell-themes-and-plugins">5. Z shell themes and plugins</h1>
+<p>Perhaps the most attractive feature of the Z shell is its support for plugins and themes. There are currently over 250 plugins that provide a wide range of additional functionality, from integrating <code>git</code> features into the Z shell prompt to displaying the current weather in your terminal using Unicode symbols. If you&rsquo;d like to modify the look and feel of your Z shell, there are over 150 themes available for you to add.</p>
+<p>To search for and install Z shell plugins and themes, follow the instructions at <a href="https://github.com/ohmyzsh/ohmyzsh">https://github.com/ohmyzsh/ohmyzsh</a></p>
+<p>As with other Z shell configuration, you specify the theme and plugins you wish to use in your ~/.zshrc file. For example, the following lines apply the <em><strong>agnoster</strong></em> theme as well as load the <em><strong>git</strong></em> and <em><strong>dotenv</strong></em> plugins:</p>
 <pre><code>ZSH_THEME=&quot;agnoster&quot;
 plugins=(
   git
