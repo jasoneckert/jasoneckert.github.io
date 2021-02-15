@@ -6,10 +6,20 @@
     <description>Recent content in IT on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://jasoneckert.github.io/tags/it/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mastering the Zen of TrackPoint</title>
+      <link>http://jasoneckert.github.io/myblog/mastering-the-zen-of-trackpoint/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/mastering-the-zen-of-trackpoint/</guid>
+      <description>Lenovo (formerly IBM) ThinkPad laptops are widely known for three things:
+ An amazing keyboard (often touted as the best for professional work) Rugged build quality (it&amp;rsquo;s hard to kill a Thinkpad: https://youtu.be/OMilj81s9SI) The TrackPoint, which has been standard on ThinkPads since the first model in 1992  What is a TrackPoint? Simply put, it is an alternative to using a mouse or trackpad on laptops. To ensure that your index fingers can easily reach it, it&amp;rsquo;s situated in the middle of the keyboard between the G, H and B keys.</description>
+    </item>
     
     <item>
       <title>The computer that saved Apple</title>
