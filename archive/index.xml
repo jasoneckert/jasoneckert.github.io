@@ -5,10 +5,6 @@
     <link>http://jasoneckert.github.io/archive/</link>
     <description>Recent content in Blog Archive on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://jasoneckert.github.io/archive/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://jasoneckert.github.io/archive/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

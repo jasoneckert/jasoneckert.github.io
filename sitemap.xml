@@ -1,1088 +1,657 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/apple/</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>http://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/computing/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/ibm/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/internet/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/it/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/mobile/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/myblog/mainframe-computing-is-the-future/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/web/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/apple/</loc>
     <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/development/</loc>
     <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/internet/</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/programming/</loc>
     <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</loc>
     <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/web/</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/ibm/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/mastering-the-zen-of-trackpoint/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/macos/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/linux/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/unix/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/windows/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/2020-in-review/</loc>
     <lastmod>2020-12-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/bio/</loc>
     <lastmod>2020-12-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/books/</loc>
     <lastmod>2020-12-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/seldom-discussed-tech-industry-tips/</loc>
     <lastmod>2020-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/sysadmin/</loc>
     <lastmod>2020-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/why-i-love-teaching-online/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/a-brief-history-of-technology/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/microsoft/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/open-source/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/cybersecurity-in-the-90s/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</loc>
     <lastmod>2020-08-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/so-you-think-online-conferencing-is-new/</loc>
     <lastmod>2020-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/fundamental-comp-sci/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/retro/</loc>
     <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-old-web-was-fun/</loc>
     <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/customizing-macos-for-development/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/freebsd-unix-for-linux-sysadmins/</loc>
     <lastmod>2020-05-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/microsoft-turns-45/</loc>
     <lastmod>2020-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/getting-the-most-out-of-your-online-course/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/tips-to-survive-teaching-an-online-course/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/how-to-write-an-academic-technical-textbook/</loc>
     <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/arcade/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/i-finally-beat-tetris/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/video-games/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/2019-in-review/</loc>
     <lastmod>2019-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/reviving-an-ancient-bsd-workstation/</loc>
     <lastmod>2019-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jasoneckert.github.io/tags/mobile/</loc>
-    <lastmod>2019-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/why-you-should-use-technology-less/</loc>
     <lastmod>2019-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/what-its-like-a-year-after-quitting-facebook/</loc>
     <lastmod>2019-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/what-nokia-tells-us-about-the-internet-in-2008/</loc>
     <lastmod>2019-08-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-different-faces-of-open-source-software/</loc>
     <lastmod>2019-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/apple-is-regressing-to-their-1990s-disposition/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/rest-in-peace-mad-magazine/</loc>
     <lastmod>2019-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-unix-philosophy-in-2019/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-dark-side-of-gnu/</loc>
     <lastmod>2019-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/how-ricing-shifted-from-cars-to-computers/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/sparcbook3000st-the-coolest-90s-laptop/</loc>
     <lastmod>2019-03-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/popos-the-first-real-linux-desktop/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-power-of-open-source-software/</loc>
     <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/cult-of-mac-book/</loc>
     <lastmod>2019-02-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/35-anniversary-of-macintosh/</loc>
     <lastmod>2019-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/using-the-windows-subsystem-for-linux/</loc>
     <lastmod>2019-01-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/2018-in-review/</loc>
     <lastmod>2018-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/ssh-foo/</loc>
     <lastmod>2018-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</loc>
     <lastmod>2018-10-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</loc>
     <lastmod>2018-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/a-simple-guide-to-git/</loc>
     <lastmod>2018-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/devops-demystified/</loc>
     <lastmod>2018-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/blockchain-for-it-pros/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/halt-and-catch-fire/</loc>
     <lastmod>2018-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/sun/</loc>
     <lastmod>2018-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/20-years-of-teaching-lessons-learned/</loc>
     <lastmod>2018-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/ultimate-unix-timeline/</loc>
     <lastmod>2018-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/rip-powerbook/</loc>
     <lastmod>2018-03-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/history-of-it-certification/</loc>
     <lastmod>2018-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/macos-for-linux-admins/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/2017-in-review/</loc>
     <lastmod>2017-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/rip-solaris/</loc>
     <lastmod>2017-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/windows-and-macos-could-move-to-linux/</loc>
     <lastmod>2017-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/get-ready-for-the-chip-wars/</loc>
     <lastmod>2017-07-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/why-you-should-buy-an-old-arcade-machine/</loc>
     <lastmod>2017-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/finding-idylwild-park/</loc>
     <lastmod>2017-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/50-shades-of-cray/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/futuretech-92/</loc>
     <lastmod>2017-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/rim/</loc>
     <lastmod>2017-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-future-of-smartphones/</loc>
     <lastmod>2017-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/2016-in-review/</loc>
     <lastmod>2016-12-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/10-years-of-facebook-humour/</loc>
     <lastmod>2016-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/an-evening-with-the-woz/</loc>
     <lastmod>2016-09-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/linux-turns-25/</loc>
     <lastmod>2016-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/www-turns-25/</loc>
     <lastmod>2016-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/commodore/</loc>
     <lastmod>2016-08-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/dec/</loc>
     <lastmod>2016-08-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/dawn-of-personal-computing/</loc>
     <lastmod>2016-08-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/some-next-level-stuff/</loc>
     <lastmod>2016-07-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/video-game-reflections/</loc>
     <lastmod>2016-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/powershell-essentials-for-sysadmins/</loc>
     <lastmod>2016-03-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/2015-in-review/</loc>
     <lastmod>2015-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/world-of-commodore-conference/</loc>
     <lastmod>2015-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/video-game-transcendental-meditation/</loc>
     <lastmod>2015-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</loc>
     <lastmod>2015-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/2014-in-review/</loc>
     <lastmod>2014-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/gmos-explained/</loc>
     <lastmod>2014-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/science/</loc>
     <lastmod>2014-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-fastest-computer-i-have-ever-owned/</loc>
     <lastmod>2014-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-evolution-of-byod/</loc>
     <lastmod>2014-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/100-facts-about-me/</loc>
     <lastmod>2014-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/george-h-jenner/</loc>
     <lastmod>2014-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</loc>
     <lastmod>2014-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/great-canadian-appathon-4/</loc>
     <lastmod>2014-01-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/impressed-by-a-10-year-old-desktop/</loc>
     <lastmod>2013-11-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/sgi/</loc>
     <lastmod>2013-11-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/why-blackberry-failed/</loc>
     <lastmod>2013-10-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-dotcom-bubble/</loc>
     <lastmod>2013-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/game-on-wraps-up/</loc>
     <lastmod>2013-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/evolution-of-info-tech/</loc>
     <lastmod>2013-08-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/reddit-took-down-my-site/</loc>
     <lastmod>2013-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/marshall-mcluhan-was-right/</loc>
     <lastmod>2013-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/game-on-and-trios-college/</loc>
     <lastmod>2013-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/driving-educational-change/</loc>
     <lastmod>2012-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-best-keynote-of-all-time/</loc>
     <lastmod>2012-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-galaga-no-fire-cheat-mystery/</loc>
     <lastmod>2012-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/mocap-in-action/</loc>
     <lastmod>2012-09-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/a-successful-hackathon-at-our-kitchener-campus/</loc>
     <lastmod>2012-09-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/arcade-game-cpus/</loc>
     <lastmod>2012-09-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/how-the-term-cloud-was-coined/</loc>
     <lastmod>2012-07-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/how-to-properly-pronounce-galaga/</loc>
     <lastmod>2012-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/guide-to-buying-old-arcade-games/</loc>
     <lastmod>2012-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/how-our-video-games-evolved-over-time/</loc>
     <lastmod>2012-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/qnx-on-a-moon-rover/</loc>
     <lastmod>2012-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/sopa-and-pipa/</loc>
     <lastmod>2012-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/using-google-like-a-pro/</loc>
     <lastmod>2012-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/2011-in-review/</loc>
     <lastmod>2011-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/sco/</loc>
     <lastmod>2011-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/perspective-on-rim/</loc>
     <lastmod>2011-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/rim-is-dead-long-live-rim/</loc>
     <lastmod>2011-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/hard-drives-are-dead/</loc>
     <lastmod>2011-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/how-i-threw-my-back-out-playing-angry-birds/</loc>
     <lastmod>2011-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-transputer/</loc>
     <lastmod>2011-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</loc>
     <lastmod>2011-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/all-about-dec/</loc>
     <lastmod>2011-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/atari-2600-deep-dive/</loc>
     <lastmod>2011-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-gospel-of-tux/</loc>
     <lastmod>2010-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/bce-ce-ie/</loc>
     <lastmod>2010-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/funny-internet-shakespeare-typo/</loc>
     <lastmod>2010-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/ebook-pilot/</loc>
     <lastmod>2010-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/nextstep-is-cool/</loc>
     <lastmod>2010-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/jaron-lanier-on-technology/</loc>
     <lastmod>2010-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/blackberry-950-teardown/</loc>
     <lastmod>2010-04-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/copyright-in-canada/</loc>
     <lastmod>2010-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-amazon-kindle-rocks/</loc>
     <lastmod>2009-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-famous-pentium-fdiv-bug/</loc>
     <lastmod>2009-06-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-unisys-icon/</loc>
     <lastmod>2009-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/anatomy-of-an-as400/</loc>
     <lastmod>2009-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-death-of-sgi/</loc>
     <lastmod>2009-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/10-years-of-userfriendly/</loc>
     <lastmod>2009-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/happy-epoch-day/</loc>
     <lastmod>2009-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/blackberry-then-and-now/</loc>
     <lastmod>2009-01-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/i-created-the-internet/</loc>
     <lastmod>2008-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/crackberry-book/</loc>
     <lastmod>2008-12-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/war-games-shell-scripting-fun/</loc>
     <lastmod>2008-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/how-to-please-your-it-dept/</loc>
     <lastmod>2008-08-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/how-to-do-an-out-of-office-autoreply/</loc>
     <lastmod>2008-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/bill-gates-steps-down-today/</loc>
     <lastmod>2008-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/ibm-hard-drive-1981/</loc>
     <lastmod>2008-05-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-nostradamus-of-unix/</loc>
     <lastmod>2008-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-unix-way/</loc>
     <lastmod>2008-04-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</loc>
     <lastmod>2008-03-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/linuxtopia/</loc>
     <lastmod>2008-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/netscape-rip-1994-2008/</loc>
     <lastmod>2008-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/history-of-game-consoles/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-end-of-2007/</loc>
     <lastmod>2007-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/amazon-kindle-friend-or-foe/</loc>
     <lastmod>2007-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/anniversary-of-the-world-wide-web/</loc>
     <lastmod>2007-11-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/thankyou-apple/</loc>
     <lastmod>2007-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/ontario-linux-fest/</loc>
     <lastmod>2007-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/more-about-open-source-software-and-linux/</loc>
     <lastmod>2007-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-wicked-witch-is-dead/</loc>
     <lastmod>2007-08-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/server-closet-buddha-shrine/</loc>
     <lastmod>2007-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/richard-stallman-talk-at-uw/</loc>
     <lastmod>2007-07-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/when-marketing-chooses-the-cover/</loc>
     <lastmod>2007-07-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/emac-family-photo-frame/</loc>
     <lastmod>2007-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/roughing-it-on-vacation/</loc>
     <lastmod>2007-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/iphone-first-impressions/</loc>
     <lastmod>2007-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/microsoft-energize-it-conference/</loc>
     <lastmod>2007-06-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/linux-thin-clients/</loc>
     <lastmod>2007-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/big-fish/</loc>
     <lastmod>2007-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/ithink-therefore-imac/</loc>
     <lastmod>2006-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/summer-is-here/</loc>
     <lastmod>2006-07-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/computer-evolution/</loc>
     <lastmod>2006-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/new-years-security-resolutions-for-2006/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/myblog/old-macs-never-die/</loc>
     <lastmod>2004-08-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/info/operatingsystems/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/bio/what-do-i-do/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/bio/my-published-books/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/info/retrocomputers/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/info/arcadegames/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/bio/personal/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/info/techflicks/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/info/techslogans/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/bio/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/categories/about-me/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/cyberpunk/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/reads/fiction/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/categories/info/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/reads/non-fiction/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/reads/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/categories/recommended-reads/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/tags/sci-fi/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/info/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/reads/gaming/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/archive/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://jasoneckert.github.io/alltaxa/</loc>
   </url>
-  
 </urlset>

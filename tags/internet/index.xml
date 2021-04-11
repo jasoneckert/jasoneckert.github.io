@@ -6,10 +6,16 @@
     <description>Recent content in Internet on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://jasoneckert.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The future looks a lot like mainframe computing</title>
+      <link>http://jasoneckert.github.io/myblog/mainframe-computing-is-the-future/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/mainframe-computing-is-the-future/</guid>
+      <description>Mainframe computers, like the IBM one shown above, were the first digital computers that started appearing in big companies during the 1950s. They were room-sized behemoths of circuitry and steel primarily used to generate balance sheets and income statements. And while IBM still sells a small number of mainframe computers today, they only enjoyed mainstream popularity until the late 1980s.
+While early mainframes were only accessed by the people who managed it, most mainframes of the 1970s and 1980s ran programs that were accessed by remote users via a dumb terminal.</description>
+    </item>
     
     <item>
       <title>Relating Silicon Valley to the Toronto-Waterloo Corridor</title>
