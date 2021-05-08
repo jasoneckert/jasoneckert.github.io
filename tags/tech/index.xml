@@ -6,7 +6,17 @@
     <description>Recent content in tech on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cybersecurity in a Nutshell</title>
+      <link>http://jasoneckert.github.io/myblog/cybersecurity-in-a-nutshell/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/cybersecurity-in-a-nutshell/</guid>
+      <description>Simply put, Cybersecurity is an umbrella term that encompasses all aspects of computer, network and data security. While Cybersecurity-specific job roles are commonplace in larger organizations, smaller organizations often require that existing IT roles perform Cybersecurity-specific tasks. And since Cybersecurity is only going to grow in importance over time, anyone working in IT should have a solid knowledge of it.
+So what does Cybersecurity involve? You can divide cybersecurity into four main areas today:</description>
+    </item>
+    
     <item>
       <title>The future looks a lot like mainframe computing</title>
       <link>http://jasoneckert.github.io/myblog/mainframe-computing-is-the-future/</link>
