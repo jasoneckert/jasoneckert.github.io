@@ -6,7 +6,16 @@
     <description>Recent content in development on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UNIX/Linux is now a core skill for anyone working in tech</title>
+      <link>http://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</guid>
+      <description>If you had asked me in the 1990s whether most people in the tech world would be using a UNIX or Linux shell to manage their servers, I would have chuckled and said &amp;ldquo;No.&amp;rdquo; But two decades later we find ourselves in a world where 96% of the cloud is comprised of Linux servers running Web apps made with open source frameworks, and the majority of software development is done on UNIX (macOS) or Linux workstations.</description>
+    </item>
+    
     <item>
       <title>Relating Silicon Valley to the Toronto-Waterloo Corridor</title>
       <link>http://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</link>

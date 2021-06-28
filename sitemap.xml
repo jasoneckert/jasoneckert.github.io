@@ -3,27 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jasoneckert.github.io/myblog/cybersecurity-in-a-nutshell/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+    <loc>http://jasoneckert.github.io/tags/development/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/linux/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/open-source/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/programming/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/tags/sysadmin/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/unix/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/web/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/myblog/cybersecurity-in-a-nutshell/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/tags/ibm/</loc>
@@ -38,16 +59,7 @@
     <loc>http://jasoneckert.github.io/myblog/mainframe-computing-is-the-future/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jasoneckert.github.io/tags/web/</loc>
-    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://jasoneckert.github.io/tags/apple/</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jasoneckert.github.io/tags/development/</loc>
-    <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jasoneckert.github.io/tags/programming/</loc>
     <lastmod>2021-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</loc>
@@ -63,12 +75,6 @@
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jasoneckert.github.io/tags/linux/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jasoneckert.github.io/tags/unix/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/tags/windows/</loc>
@@ -96,9 +102,6 @@
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/tags/microsoft/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jasoneckert.github.io/tags/open-source/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/myblog/cybersecurity-in-the-90s/</loc>
