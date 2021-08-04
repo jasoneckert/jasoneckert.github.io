@@ -6,7 +6,16 @@
     <description>Recent content in Linux on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Copyleft is dying</title>
+      <link>http://jasoneckert.github.io/myblog/copyleft-is-dying/</link>
+      <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/copyleft-is-dying/</guid>
+      <description>Software licensing is the catalyst that drives the modern tech industry. This is because reusable software code released under an open source license (permitting its reuse) is the norm for nearly all software development today. After all, if we couldn&amp;rsquo;t reuse existing code in new software packages, it would take far longer to bring technologies to market, and the overall software industry wouldn&amp;rsquo;t be able to evolve as quickly. Moreover, there are two major types of open source licenses.</description>
+    </item>
+    
     <item>
       <title>It&#39;s a great time to be a developer</title>
       <link>http://jasoneckert.github.io/myblog/it-is-a-great-time-to-be-a-developer/</link>
