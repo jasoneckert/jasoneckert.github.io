@@ -6,7 +6,17 @@
     <description>Recent content in Blog Posts on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An overview of cloud buzz words</title>
+      <link>http://jasoneckert.github.io/myblog/cloud-buzz-words/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jasoneckert.github.io/myblog/cloud-buzz-words/</guid>
+      <description>As this Dilbert comic eloquently illustrates, there&amp;rsquo;s no shortage of cloud buzz words thrown around today. But as strange and complex as they may sound (even to seasoned developers and system administrators), they are not difficult to understand. In this blog post, I&amp;rsquo;ll walk through the different components and features of the cloud, explaining the associated buzz words along the way.
+What is the cloud? Back in the early 1990s, when the US government sold off parts of their ARPAnet and NSFnet to private companies (later called Internet Service Providers, or ISPs) to create the public Internet, there wasn&amp;rsquo;t anything exciting about the Internet at all.</description>
+    </item>
+    
     <item>
       <title>Work-from-home is the new BlackBerry</title>
       <link>http://jasoneckert.github.io/myblog/work-from-home-is-the-new-blackberry/</link>
