@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://jasoneckert.github.io/myblog/cloud-buzz-words/</loc>
-    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+    <loc>http://jasoneckert.github.io/tags/apple/</loc>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/myblog/arm-on-the-desktop/</loc>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/tags/computing/</loc>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/it/</loc>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/macos/</loc>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/tags/unix/</loc>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/</loc>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://jasoneckert.github.io/myblog/cloud-buzz-words/</loc>
     <lastmod>2021-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/tags/development/</loc>
@@ -35,13 +56,7 @@
     <loc>http://jasoneckert.github.io/tags/sysadmin/</loc>
     <lastmod>2021-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://jasoneckert.github.io/tags/web/</loc>
-    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jasoneckert.github.io/</loc>
     <lastmod>2021-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/tags/rim/</loc>
@@ -50,20 +65,11 @@
     <loc>http://jasoneckert.github.io/myblog/work-from-home-is-the-new-blackberry/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jasoneckert.github.io/tags/apple/</loc>
-    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://jasoneckert.github.io/myblog/copyleft-is-dying/</loc>
     <lastmod>2021-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2021-07-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://jasoneckert.github.io/myblog/it-is-a-great-time-to-be-a-developer/</loc>
     <lastmod>2021-07-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jasoneckert.github.io/tags/unix/</loc>
-    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
@@ -82,9 +88,6 @@
   </url><url>
     <loc>http://jasoneckert.github.io/myblog/mastering-the-zen-of-trackpoint/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://jasoneckert.github.io/tags/macos/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>

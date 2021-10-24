@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.82.0" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
 
   <link
     rel="stylesheet"
@@ -201,7 +201,7 @@
 <p>So why did Apple choose to open source 80% of their OS 20 years ago?  The answer is quite simple: Apple was close to bankruptcy at the time and didn’t have the money to fund the continued development of NeXTSTEP to replace their aging OS called Mac OS 9.  To solve this dilemma, they open sourced 80% of the NeXTSTEP code and courted FreeBSD UNIX open source developers who had a desire to maintain and improve it over time.  This allowed Apple to focus what little money they had on developing the last 20%.  While it wasn’t widely publicized, it was definitely a smart move on the part of Apple.</p>
 <p>Now let’s examine the structure of macOS.  Recall that the core component of an OS is called a kernel - the macOS kernel is called XNU.  One third of XNU is the MACH 3.0 microkernel from NeXTSTEP UNIX.  Another third of XNU is the FreeBSD UNIX kernel (mostly the networking and filesystem components).  And the final third of XNU is a bulky, inefficient part called I/O kit that ties the other two components together and provides device driver support.  If you take the XNU kernel and add all of the other open source operating system components, you’ve got the Darwin OS.  And if you take the Darwin OS and add the Apple-proprietary graphical components, you’ve got macOS.</p>
 <p>So basically:</p>
-<pre><code>XNU (MACH 3.0 + FreeBSD UNIX kernel + I/O kit)
+<pre tabindex="0"><code>XNU (MACH 3.0 + FreeBSD UNIX kernel + I/O kit)
 + OS components (open source)
 = Darwin OS
 + Apple-proprietary components (closed source)

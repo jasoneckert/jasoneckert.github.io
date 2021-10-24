@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.82.0" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
 
   <link
     rel="stylesheet"
@@ -190,7 +190,7 @@
 <p>Next, we modified the /etc/issue and /etc/issue.net files to remove all existing lines so that only the LOGIN: prompt appears when you connect to the machine (we also had to remove the lines at the end of /etc/rc.d/rc.local that overwrite the /etc/issue and /etc/issue.net files at boot time).</p>
 <p>Next, we created the /home/Joshua/.hushlogin file to prevent the typical crap (i.e. last login) from appearing after logging in as Joshua.</p>
 <p>Next, we made a shell script called /home/Joshua/wopr and added the line “.  /home/Joshua/wopr” to the end of the environment file /home/Joshua/.bash_profile such that it is called into the current environment following login.  The shell script is shown below (it is accurate to the movie and uses “sleep 0” commands to slow things down to a 1983 rate):</p>
-<pre><code>#!/bin/bash
+<pre tabindex="0"><code>#!/bin/bash
 export PS1=&quot;&quot;
 clear
 echo -e &quot;\0077145    11458                11009       11893       11972        11315&quot;
@@ -359,7 +359,7 @@ sleep 0 &amp;&amp; sleep 0
 echo -e &quot;.&quot;
 sleep 0 &amp;&amp; sleep 0
 </code></pre><p>Next, we decided to create a login called HELP GAMES that also has a blank password (we had to place double quotes around each backquoted section in /etc/profile to prevent errors setting variables after login).  Next, we created a “/home/HELP GAMES/games” shell script that has the lines below and added the line “.  /home/HELP GAMES/wopr” to the end of “/home/HELP GAMES/.bash_profile” to have it load after login:</p>
-<pre><code>#!/bin/bash
+<pre tabindex="0"><code>#!/bin/bash
 export PS1=&quot;&quot;
 clear
 echo -e &quot;'GAMES' REFERS TO MODELS, SIMULATIONS, AND GAMES&quot;

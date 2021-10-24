@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.82.0" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
 
   <link
     rel="stylesheet"
@@ -210,25 +210,25 @@
 <p>We&rsquo;ll examine five awesome Z shell features that you can try throughout this blog post. Even if it isn&rsquo;t your default login shell, the Z shell is installed by default on most UNIX and Linux systems. Thus, you can obtain a Z shell by typing <code>zsh</code> within an existing Bash shell. If you decide to use the Z shell as your login shell instead of Bash after reading this blog post, simply run the <code>chsh -s /bin/zsh</code> command.</p>
 <h1 id="1-flexible-redirection-and-piping">1. Flexible redirection and piping</h1>
 <p>Using the Z shell, you can redirect standard input, output and error to multiple files, as well as use standard output redirection within a pipe (eliminating the need for the <code>tee</code> command). For example, the following command sends the standard output of the <code>lsblk</code> command to both file1.txt and file2.txt:</p>
-<pre><code>% lsblk &gt;file1.txt &gt;file2.txt
+<pre tabindex="0"><code>% lsblk &gt;file1.txt &gt;file2.txt
 </code></pre><p>You could instead send the standard output to file1.txt as well as pipe it to the <code>grep</code> command to extract &ldquo;xfs&rdquo; lines and save them to file2.txt:</p>
-<pre><code>% lsblk &gt;file1.txt | grep xfs &gt;file2.txt
+<pre tabindex="0"><code>% lsblk &gt;file1.txt | grep xfs &gt;file2.txt
 </code></pre><p>Redirecting standard input from multiple files is a Z shell feature I use often. The following will merge and sort bigfile1.txt and bigfile2.txt, saving the combined sorted output to output.txt:</p>
-<pre><code>% sort &lt;bigfile1.txt &lt;bigfile2.txt &gt;output.txt
+<pre tabindex="0"><code>% sort &lt;bigfile1.txt &lt;bigfile2.txt &gt;output.txt
 </code></pre><p>Another neat Z shell trick is to use input redirection to view files. The following is an alternative to running the <code>more output.txt</code> command:</p>
-<pre><code>% &lt;output.txt 
+<pre tabindex="0"><code>% &lt;output.txt 
 </code></pre><h1 id="2-z-shell-options">2. Z shell options</h1>
 <p>By setting Z shell options, you can control nearly every aspect of the shell, including auto-completion, file globbing, command history, input/output processing, shell emulation, function handling, and more.</p>
 <p>Two options that I regularly use are <em><strong>autocd</strong></em> and <em><strong>correct</strong></em>. The easiest way to set these two options is to add the line <code>setopt autocd correct</code> to your ~/.zshrc file. After doing this, you&rsquo;ll need to start a new Z shell (or run <code>source ~/.zshrc</code> to reload ~/.zshrc in your current shell).</p>
 <p>The <em><strong>autocd</strong></em> option allows you to change to a directory by specifying the directory name only (without the <code>cd</code> command).  For example,</p>
-<pre><code>% pwd
+<pre tabindex="0"><code>% pwd
 /home/jaoneckert
 % Desktop 
 % pwd
 /home/jasoneckert/Desktop
 %
 </code></pre><p>The <em><strong>correct</strong></em> option allows your shell to auto-correct misspelled commands. For example, if you type the <code>cal</code> (calendar) command incorrectly:</p>
-<pre><code>% cla
+<pre tabindex="0"><code>% cla
 zsh: correct 'cla' to 'cal' [nyae]? y
    November 2020      
 Su Mo Tu We Th Fr Sa  
@@ -241,7 +241,7 @@ Su Mo Tu We Th Fr Sa
 </code></pre><p>For a full list of options available, visit <a href="http://zsh.sourceforge.net/Doc/Release/Options.html">http://zsh.sourceforge.net/Doc/Release/Options.html</a></p>
 <h1 id="3-z-shell-modules">3. Z shell modules</h1>
 <p>The built-in commands in the Z shell are modular; you can choose which ones are available by loading the appropriate modules. To view the default modules loaded in your Z shell, run the <code>zmodload</code> command without arguments:</p>
-<pre><code>% zmodload
+<pre tabindex="0"><code>% zmodload
 zsh/complete
 zsh/main
 zsh/parameter
@@ -251,7 +251,7 @@ zsh/zle
 zsh/zutil
 %
 </code></pre><p>To get additional built-in commands in your Z shell, you can choose to load additional modules. For example, to use the <code>strftime</code> built-in command to obtain detailed time and date information, you must load the zsh/datetime module, as shown below:</p>
-<pre><code>% zmodload zsh/datetime
+<pre tabindex="0"><code>% zmodload zsh/datetime
 % strftime &quot;%a, %d %b %y %T %z&quot;
 Sun, 01 Nov 20 08:57:08 -0500
 %
@@ -261,7 +261,7 @@ Sun, 01 Nov 20 08:57:08 -0500
 <p>The Z shell also supports the loading of additional functions from directories specified in the $fpath variable. These directories contain many useful functions by default, and programs you install may add even more.</p>
 <p>One of my favourite functions is <em><strong>compinit</strong></em>, which extends the built-in Tab key completion feature for commands and filenames to include command options and arguments as well. To ensure that this function is loaded each time you start a new Z shell, add the line <code>autoload -U compinit &amp;&amp; compinit</code> to your ~/.zshrc file.</p>
 <p>Next, when you type a command like <code>tar</code>, you can type <code>-</code> and press the Tab key to see the available options:</p>
-<pre><code>% tar - 
+<pre tabindex="0"><code>% tar - 
 A  -- append to an archive
 c  -- create a new archive
 f  -- specify archive file or device
@@ -274,7 +274,7 @@ x  -- extract files from an archive
 <p>Perhaps the most attractive feature of the Z shell is its support for plugins and themes. There are currently over 250 plugins that provide a wide range of additional functionality, from integrating <code>git</code> features into the Z shell prompt to displaying the current weather in your terminal using Unicode symbols. If you&rsquo;d like to modify the look and feel of your Z shell, there are over 150 themes available for you to add.</p>
 <p>To search for and install Z shell plugins and themes, follow the instructions at <a href="https://github.com/ohmyzsh/ohmyzsh">https://github.com/ohmyzsh/ohmyzsh</a></p>
 <p>As with other Z shell configuration, you specify the theme and plugins you wish to use in your ~/.zshrc file. For example, the following lines apply the <em><strong>agnoster</strong></em> theme as well as load the <em><strong>git</strong></em> and <em><strong>dotenv</strong></em> plugins:</p>
-<pre><code>ZSH_THEME=&quot;agnoster&quot;
+<pre tabindex="0"><code>ZSH_THEME=&quot;agnoster&quot;
 plugins=(
   git
   dotenv

@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.82.0" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
 
   <link
     rel="stylesheet"
@@ -206,10 +206,10 @@
 <p>Git was original developed back in 2005 by Linus Torvalds (the creator of Linux) to aid in making changes to the Linux kernel, but has since become the most common open source version control system used today. You can run Git on most platforms, including Windows, Linux and macOS. Although people primarily use it today for version controlling software projects, you can use it to provide version control for any files on your system.  In this blog post, I’ll use it to provide version control and central access for Linux shell scripts (something that is very useful for Linux administrators).</p>
 <h1 id="part-1-using-git-to-provide-local-version-control">PART 1: Using Git to provide local version control</h1>
 <p>Git essentially takes snapshots (called commits) of the files that you have within a particular folder (called a repository, or repo) on your system. Each commit contains the changes you’ve made to the files since the last commit, so that you can easily rollback those changes (much like a Windows System Restore point). Before you use Git to create commits, you must first tell Git about yourself using the git config command, since that information must be added to each commit that you create:</p>
-<pre><code>[jason.eckert@csc-studev01 myscripts]$ git config --global user.name &quot;Jason Eckert&quot;
+<pre tabindex="0"><code>[jason.eckert@csc-studev01 myscripts]$ git config --global user.name &quot;Jason Eckert&quot;
 [jason.eckert@csc-studev01 myscripts]$ git config --global user.email &quot;jasonec@trios.com&quot;
 </code></pre><p>To turn an existing folder into a Git repo, simply use the git init command.  For example, if you are in the myscripts directory under your home directory on a Linux system, you could run the following commands to turn the myscripts directory into a Git repo (this will also create a hidden .git folder underneath the myscripts directory):</p>
-<pre><code>[jason.eckert@csc-studev01 ~]$ pwd
+<pre tabindex="0"><code>[jason.eckert@csc-studev01 ~]$ pwd
 /home/jason.eckert
 [jason.eckert@csc-studev01 ~]$ cd myscripts/
 [jason.eckert@csc-studev01 myscripts]$ pwd
@@ -236,7 +236,7 @@ nothing added to commit but untracked files present (use &quot;git add&quot; to 
 [jason.eckert@csc-studev01 myscripts]$ _
 </code></pre><p>Notice that the git status command above listed the files in the myscripts directory, but said that they were untracked - this is normal, because Git doesn’t assume you want everything version controlled. After creating a Git repo, you have to tell Git which files you want to version control by staging them with the git add command. Staging simply adds the files to an index that represents the files that Git can take a snapshot/commit of.</p>
 <p>After the files have been staged, you can take snapshots of them using the git commit command. The following commands stage all the files in the myscripts folder using the * wildcard (because I’m lazy), shows that they are ready for committing, and then creates a new commit with the description “My first commit”:</p>
-<pre><code>[jason.eckert@csc-studev01 myscripts]$ git add *
+<pre tabindex="0"><code>[jason.eckert@csc-studev01 myscripts]$ git add *
 [jason.eckert@csc-studev01 myscripts]$ git status
 On branch master
 
@@ -261,7 +261,7 @@ create mode 100644 seccheck.sh
 create mode 100644 sysusage.sh
 [jason.eckert@csc-studev01 myscripts]$ _
 </code></pre><p>Next, let’s modify the filemaintain.sh shell script using the vi editor, see that Git detected the modification, stage the files in our repo again, and create a new commit using an appropriate description of the changes that we made (in this example, I added XFS checking to the script):</p>
-<pre><code>[jason.eckert@csc-studev01 myscripts]$ vi filemaintain.sh
+<pre tabindex="0"><code>[jason.eckert@csc-studev01 myscripts]$ vi filemaintain.sh
 [jason.eckert@csc-studev01 myscripts]$ git status
 On branch master
 Changes not staged for commit:
@@ -277,7 +277,7 @@ no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&q
 1 file changed, 1 insertion(+)
 [jason.eckert@csc-studev01 myscripts]$ _
 </code></pre><p>To see a list of all commits (and who made them), you can use the git log command, and to rollback to a previous version of the file, you can use the git reset &ndash;hard command. Say, for example, that I didn’t like the XFS checking addition I made to filemaintain.sh and wanted to roll it back to the previous version. To see all the changes I made to the files in my repo, and rollback the change to “My first commit”, I could use the following commands (HEAD is simply a reference to the most recent commit):</p>
-<pre><code>[jason.eckert@csc-studev01 myscripts]$ git log
+<pre tabindex="0"><code>[jason.eckert@csc-studev01 myscripts]$ git log
 commit 08e7f90fd4c1820eab77968ee98c8a7682c43aa8
 Author: Jason Eckert &lt;jasonec@trios.com&gt;
 Date:   Mon Aug 13 14:54:20 2018 -0400
@@ -319,7 +319,7 @@ Date:   Mon Aug 13 14:53:05 2018 -0400
 <p>Normally, you maintain an original repo on your computer that other users download (clone). Rather than modifying the master branch on their cloned copy, the other users would normally create separate branches on their cloned copy to test their modifications, and perform commits as necessary. Once the modifications are working well, they can upload (push) the branch to the original repo on your computer where you can view the changes and merge them into the master branch. And after there’s an updated master branch on the original repo, others can then download (pull) a fresh copy of the master branch to get the new changes.</p>
 <p>Let’s experiment with this using another user (root) on the same computer - the only requirement is that the other user have read/write access to your repo folder.</p>
 <p>The following commands run by the root user (the other user) create a cloned copy of the myscripts repo (/home/jason.eckert/myscripts) within the root user’s home directory (/root) using the git clone command:</p>
-<pre><code>[root@csc-studev01 myscripts]# pwd
+<pre tabindex="0"><code>[root@csc-studev01 myscripts]# pwd
 /root
 [root@csc-studev01 ~]# git clone /home/jason.eckert/myscripts/
 Cloning into 'myscripts'...
@@ -332,14 +332,14 @@ chownscript.sh  filemaintain.sh  newuserscript.sh  seccheck.sh  sysusage.sh
 [root@csc-studev01 myscripts]# _
 </code></pre><p>If you were cloning this from another computer, you’d have to use git clone username@hostname:/path instead.  For example, to clone this repo on triosdevelopers.com to your local computer, you’d have to use the command git clone <a href="mailto:root@triosdevelopers.com">root@triosdevelopers.com</a>:/home/jason.eckert/myscripts/ and supply the root user’s password when prompted.</p>
 <p>Now, let’s make a branch called AddSIEM that we can use to test out adding SIEM functionality to our seccheck.sh script and view our branch when finished:</p>
-<pre><code>[root@csc-studev01 myscripts]# git checkout -b AddSIEM
+<pre tabindex="0"><code>[root@csc-studev01 myscripts]# git checkout -b AddSIEM
 Switched to a new branch 'AddSIEM'
 [root@csc-studev01 myscripts]# git branch
 * AddSIEM
   master
 [root@csc-studev01 myscripts]# _
 </code></pre><p>Notice that the git branch command indicates that AddSIEM is our current branch (*).  Now, let’s modify the script, view the modification, stage and commit it:</p>
-<pre><code>[root@csc-studev01 myscripts]# vi seccheck.sh
+<pre tabindex="0"><code>[root@csc-studev01 myscripts]# vi seccheck.sh
 [root@csc-studev01 myscripts]# git status
 On branch AddSIEM
 Changes not staged for commit:
@@ -356,7 +356,7 @@ no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&q
 [root@csc-studev01 myscripts]# _
 </code></pre><p>At this point, you’ve modified the seccheck.sh script in the AddSIEM branch only.  If you switched back to the master branch in your cloned repo using the git checkout master command and viewed the seccheck.sh file, you’d see that your changes are not there!  That’s because they are only shown in the AddSIEM branch.</p>
 <p>Now, let’s push our branch to the original repo - luckily, you don’t have to remember the location of the original repo, because after you clone a repo, Git remembers the original location and allows you to use the word “origin” to refer to it:</p>
-<pre><code>[root@csc-studev01 myscripts]# git push origin AddSIEM
+<pre tabindex="0"><code>[root@csc-studev01 myscripts]# git push origin AddSIEM
 Counting objects: 3, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (3/3), done.
@@ -366,7 +366,7 @@ To /home/jason.eckert/myscripts/
 * [new branch]      AddSIEM -&gt; AddSIEM
 [root@csc-studev01 myscripts]# _
 </code></pre><p>This uploaded the AddSIEM branch from the cloned repo (in /root/myscripts) to the original repo (in /home/jason.eckert/myscripts). Let’s switch back to the jason.eckert user and see if the branch was successfully uploaded to the original repo with the git branch command, and then merge the changes in the AddSIEM branch with our current branch (master) using the git merge command:</p>
-<pre><code>[jason.eckert@csc-studev01 myscripts]$ git branch
+<pre tabindex="0"><code>[jason.eckert@csc-studev01 myscripts]$ git branch
   AddSIEM
 * master
 [jason.eckert@csc-studev01 myscripts]$ git merge AddSIEM
@@ -376,7 +376,7 @@ seccheck.sh | 2 +-
 1 file changed, 1 insertion(+), 1 deletion(-)
 [jason.eckert@csc-studev01 myscripts]$ _
 </code></pre><p>That’s it!  Now, other users who have a cloned copy of the original repo can run git pull origin master to download an updated (merged) copy of the master branch from the original location that has the new SIEM feature added to the seccheck.sh script. Let’s switch back to the cloned repo in the root user’s home directory and do this:</p>
-<pre><code>[root@csc-studev01 myscripts]# git pull origin master
+<pre tabindex="0"><code>[root@csc-studev01 myscripts]# git pull origin master
 From /home/jason.eckert/myscripts
 * branch            master     -&gt; FETCH_HEAD
    53f9566..e94d34e  master     -&gt; origin/master
@@ -402,7 +402,7 @@ Already up-to-date.
 <p>Well, that’s easier than you think!  Go to GitHub.com and create a free account.  Next, create a new public repository called myscripts.</p>
 <p><img src="git2.jpg#center" alt="git2" title="git2"></p>
 <p>Finally, on your local computer, you can run the following commands to push the contents of the your repo to GitHub and set GitHub as the original repo (which turns your local computer’s repo into a cloned copy from that point onwards).</p>
-<pre><code>cd /path/to/repo
+<pre tabindex="0"><code>cd /path/to/repo
 git remote add origin https://github.com/accountname/nameofGitHubrepo.git
 </code></pre><p>But you don’t have to remember these commands because when you create a new repo within GitHub, it gives you the commands at the bottom of the screen:</p>
 <p><img src="git3.jpg#center" alt="git3" title="git3"></p>

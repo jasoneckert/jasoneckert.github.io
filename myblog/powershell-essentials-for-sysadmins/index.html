@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.82.0" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
 
   <link
     rel="stylesheet"
@@ -200,7 +200,7 @@
 <p>When you open up PowerShell (it’s next to your Start button on the taskbar in Windows Server 2012), you’ll get a PS prompt where you can type commands:</p>
 <p><img src="powershell.jpg" alt="PowerShell" title="PowerShell"></p>
 <p>It’s important to note that most DOS commands will work fine within a PowerShell window - try these for example:</p>
-<pre><code>cls
+<pre tabindex="0"><code>cls
 echo Hello World
 cd \
 copy c:\windows\system32\calc.exe C:\
@@ -213,19 +213,19 @@ ipconfig ; dir ; date
 <p><code>$env:Path</code> &lt;&ndash;This is the way to call the PATH environment variable in PowerShell</p>
 <p>Commands in PowerShell are called cmdlets, and have an action-object naming convention (e.g. Get-Help).  And just like DOS, commands are case-insensitive, and the Tab key will auto-complete commands/paths as you type them in (in PowerShell, the Tab key will also auto-complete command options!).</p>
 <p>Other features of PowerShell mimic those in a UNIX/Linux/Mac shell (such as BASH).  For example, output from one command can be piped to another command for processing data, or formatting/reducing output:</p>
-<pre><code>Get-host
+<pre tabindex="0"><code>Get-host
 Get-host | Format-List version
 Get-host | fl version
 Get-host | ft version
 </code></pre><p>Similarly, cmdlets can have aliases to them to save typing.  For example, help is an alias to the cmdlet Get-Help. Try these out:</p>
-<pre><code>Get-alias
+<pre tabindex="0"><code>Get-alias
 Get-alias –name f
 Get-alias –definition Format-List
 Get-alias –definition Get-Alias
 </code></pre><p><code>alias</code> &lt;&ndash; Same as gal / Get-Alias (UNIX style)</p>
 <p><code>ls</code> &lt;&ndash; Ditto</p>
 <p>To get a list of cmdlets and help on those cmdlets, you could try these:</p>
-<pre><code>Get-Command
+<pre tabindex="0"><code>Get-Command
 Get-Command | more
 Get-Command | Measure-Object –line
 Get-Help Measure-Object
@@ -234,7 +234,7 @@ Get-Help Measure-Object
 <p><code>dir –r C:\Stuff | sls “space“</code>  &lt;&ndash; create text file with space in it under C:\Stuff</p>
 <h1 id="2-powershell-providers--members">2. PowerShell Providers &amp; Members</h1>
 <p>PowerShell has different “dimensions” that it can work with like drive letters - for example, Filesystem (default), certificates, registry, etc.  Each dimension is called a PowerShell provider and is treated like a DOS drive letter.  Try the following out:</p>
-<pre><code>Get-PSProvider
+<pre tabindex="0"><code>Get-PSProvider
 Get-PSDrive
 gdr
 Set-Location alias:
@@ -252,14 +252,14 @@ dir
 dir -Force
 Remove-Item C:\directory –Recurse
 </code></pre><p>Everything within a PowerShell provider (files, directories, certificates, registry keys, etc.) are treated as member objects, and each object has properties.  You can simply pipe objects to Get-Member (gm) to see these properties, as well as use Get-ItemProperty (gp) and Set-ItemProperty (sp) to view and change them.  Try this out:</p>
-<pre><code>gci somefile
+<pre tabindex="0"><code>gci somefile
 gci somefile | gm
 gp somefile
 gp somefile | fl CreationTime
 sp somefile CreationTime &lt;--put in some date when prompted (e.g. 1/1/2016)
 gci C:\Stuff -Recurse | where {$_.LastWriteTime –gt &quot;02/01/2016&quot;}
 </code></pre><p>Here is some extra stuff to drill in how object-oriented PowerShell really is:</p>
-<pre><code>$a = gci somefile
+<pre tabindex="0"><code>$a = gci somefile
 $a
 $a.isreadonly
 
@@ -273,7 +273,7 @@ $ui.WindowTitle = &quot;Extreme PowerShell Window!&quot;
 </code></pre><h1 id="3-useful-cmdlets-for-daily-system-administration">3. Useful Cmdlets for Daily System Administration</h1>
 <p>Although most Windows sysadmins typically RDP into a server to administer it graphically, there are a few tasks that save you time if you do them in PowerShell!  Here are some of my favorites by topic area (try them out for yourself to see how cool they are):</p>
 <h3 id="network-admin-cmdlets">Network Admin cmdlets:</h3>
-<pre><code>Test-NetConnection
+<pre tabindex="0"><code>Test-NetConnection
 Test-NetConnection triosdevelopers.com –Traceroute
 Test-NetConnection triosdevelopers.com –Port 443
 
@@ -295,21 +295,21 @@ New-NetFirewallRule –DisplayName “Allow Inbound 80 TCP”
 <p><code>gwmi Win32_ComputerSystem</code></p>
 <p><code>Get-Service | ogv</code>   &lt;&ndash; Out-Gridview</p>
 <p><code>Restart-Service dnscache</code> &lt;&ndash; also stop/start/set-service</p>
-<pre><code>ps | sort –property cpu | select –last 5 &lt;-- ps = get-process
+<pre tabindex="0"><code>ps | sort –property cpu | select –last 5 &lt;-- ps = get-process
 Stop-process –name iTunes
 </code></pre><p><code>Rename-Computer name</code></p>
 <p><code>Restart-Computer</code> (pipe text file with names to cmdlet to reboot many computers)</p>
 <p><code>Stop-Computer</code></p>
 <p><code>Add-Computer –DomainName domain.com</code></p>
-<pre><code>Test-ComputerSecureChannel
+<pre tabindex="0"><code>Test-ComputerSecureChannel
 Test-ComputerSecureChannel –credential domain\administrator –Repair 
 </code></pre><p><code>Get-WindowsFeature | ogv</code></p>
-<pre><code>Install-WindowsFeature –IncludeAllSubfeature
+<pre tabindex="0"><code>Install-WindowsFeature –IncludeAllSubfeature
   –IncludeManagementTools web-server
 </code></pre><p><code>Install-WindowsFeature Net-Framework-Core –Source e:\sources\sxs</code></p>
 <p><code>Get-Hotfix | ogv</code></p>
 <h3 id="vm-20128-cmdlets">VM (2012/8+) cmdlets:</h3>
-<pre><code>copy  X:\2012Template.vhdx   X:\VMs\2012VM.vhdx
+<pre tabindex="0"><code>copy  X:\2012Template.vhdx   X:\VMs\2012VM.vhdx
 
 New-VM –MemoryStartupBytes 4096MB –Name 2012VM –Path “X:\VMs”
   –VHDPath “X:\VMs\2012VM.vhdx” (existing VHDX file sysprepped)
@@ -317,7 +317,7 @@ New-VM –MemoryStartupBytes 4096MB –Name 2012VM –Path “X:\VMs”
 Get-VM –Name 2012VM | Get-VMNetworkAdapter | Connect-VMNetworkAdapter
   –Switchname “External Network”
 </code></pre><h3 id="ad-administration-cmdlets">AD Administration cmdlets:</h3>
-<pre><code>Search-ADAccount –PasswordNeverExpires | ogv
+<pre tabindex="0"><code>Search-ADAccount –PasswordNeverExpires | ogv
 
 Get-ADForest domain.com | FT SchemaMaster
 Get-ADDomain domain.com | FT PDCEmulator
@@ -325,14 +325,14 @@ Get-ADDomain domain.com | FT PDCEmulator
 Move-ADDirectoryServerOperationsMasterRole –Identity NewDCName
   –OperationsMasterRole SchemaMaster,RIDMaster -Force
 </code></pre><h3 id="remote-management-cmdlets-best-when-run-as-a-domain-admin-within-a-domain-environment">Remote management cmdlets (best when run as a Domain Admin within a domain environment):</h3>
-<pre><code>Restart-Computer –Force –ComputerName exchange.lala.com
+<pre tabindex="0"><code>Restart-Computer –Force –ComputerName exchange.lala.com
 
 Enter-PSSession targetmachine
 
 Invoke-Command -Computername machine1, machine2
   -Filepath c:\Script\script.ps1
 </code></pre><p>Note that remote management requires winRM (started by default in Windows Server 2012) - if it is not enabled, you could run winrm -quickconfig, or one of the following:</p>
-<pre><code>Set-Service winrm –StartupType automatic
+<pre tabindex="0"><code>Set-Service winrm –StartupType automatic
 
 Enable-PSRemoting –Force
 </code></pre><h1 id="4-powershell-scripts">4. PowerShell Scripts</h1>
@@ -347,7 +347,7 @@ Enable-PSRemoting –Force
 <p>If you wanted to allow all scripts to run, you could execute <code>Set-ExecutionPolicy Unrestricted</code> (this can also be set with a GPO in a domain to hit multiple computers).</p>
 <p>PowerShell scripts are simply text files with a .ps1 extension - they can be edited in Notepad, but the default editor application for them is PowerShell Integrated Scripting Environment (ISE),which colour codes different parts of the script (useful for testing).</p>
 <p>To execute a script that you created from a PowerShell prompt, simply specify the relative or absolute path to the script - for example:</p>
-<pre><code>./myscript.ps1 
+<pre tabindex="0"><code>./myscript.ps1 
 
 .\myscript.ps1
 
@@ -355,7 +355,7 @@ c:\myscript.ps1
 </code></pre><p>You can also execute PowerShell scripts outside PowerShell (e.g. within a task in Task Scheduler) by calling the PowerShell interpreter first - for example:</p>
 <p><code>PowerShell.exe c:\myscript.ps1</code></p>
 <p>As long as you can read (trace) a PowerShell script, you can copy &amp; modify scripts on the Internet to suit your needs!  The scripts you create can be basic ones that perform a series of tasks using DOS commands or PowerShell cmdlets (much like a simple batch file):</p>
-<pre><code>#Remove logs from the night before
+<pre tabindex="0"><code>#Remove logs from the night before
 del \\server1\archive\acctlog_sorted.txt
 
 #Sorts acclog.txt, removes any duplicate lines, and saves it to acclog_sorted.txt.
@@ -370,7 +370,7 @@ xcopy /s/e/v C:\LogStorage\acctlog.txt \\server1\archive
 del c:\LogStorage\acclog_sorted.txt
 del c:\LogStorage\acclog.txt
 </code></pre><p>Or it could use more complex programming constructs (if, switch, for foreach, while, until, functions, and so on):</p>
-<pre><code>#This script uses the .NET method to ping servers listed in the
+<pre tabindex="0"><code>#This script uses the .NET method to ping servers listed in the
 #$arrayComputer array #variable – if the computer is pingable, it
 #renames the Administrator account to bob.
 
@@ -388,7 +388,7 @@ foreach ($strComputer in $arrayComputer) {
   }
 }
 </code></pre><p>And, of course, you can write scripts many different ways - here is a very similar script:</p>
-<pre><code>#This script uses the .NET method to ping servers for a whole network
+<pre tabindex="0"><code>#This script uses the .NET method to ping servers for a whole network
 #If the computer is pingable, it renames the Administrator account to
 #bob and displays total changes.
 
@@ -407,7 +407,7 @@ if ($Res.Status -eq &quot;Success&quot;) {
 
 [string]$i + &quot; Hosts have been modified&quot;
 </code></pre><p>Enough reading!  Try the script below out - simply paste it into Notepad, save it as myscript.ps1 and execute it:</p>
-<pre><code>&quot;&quot;
+<pre tabindex="0"><code>&quot;&quot;
 function WMIDateStringToDate($Bootup) {
   [System.Management.ManagementDateTimeconverter]::ToDateTime($Bootup)
 }
@@ -440,7 +440,7 @@ foreach ($system in $computers) {
 <p>Next, edit your profile:</p>
 <p><code>notepad $profile</code></p>
 <p>And add the following contents (save your changes when finished):</p>
-<pre><code>Write-host  “Greetings Professor Falken&quot;
+<pre tabindex="0"><code>Write-host  “Greetings Professor Falken&quot;
 Set-alias  c  clear-host
 Function pro {write-host “Editing PS Profile”; start-sleep –s 2;
    notepad $profile}

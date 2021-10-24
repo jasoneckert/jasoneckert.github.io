@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      ARM on the desktop is here to stay
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2021-10-24</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+4 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/apple"
+      title="tags"
+    >Apple</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/macos"
+      title="tags"
+    >macOS</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="arm.png#right" alt="ARM Powered logo" title="ARM Powered logo"></p>
+<p>Back in the 1990s, <em><strong>Reduced Instruction Set Computing (RISC)</strong></em> architecture was widely seen as the future. UNIX workstations from Silicon Graphics and Sun Microsystems boasted powerful RISC CPUs at the time, but were prohibitively expensive and died out in the early 2000s as a result. Only the <em><strong>Acorn RISC Machine (ARM)</strong></em> architecture used in low-power devices (e.g. PDAs) survived past the early 2000s, and only because of the rise of mobile devices that relied on battery power.</p>
+<p>Of course, the ARM CPUs used in mobile devices got far more powerful after the iPhone hit the market. Since then, iPhones, Android phones, tablets, cars, smart assistants, and nearly every other Internet-connected device has relied on ARM, which uses an open architecture that allows manufacturers to easily modify and extend its features and design. By the mid 2010s, multi-core ARM CPUs were starting to become powerful enough for general purpose desktop computing, and Microsoft announced Windows 10 for ARM in 2017. I saw this as a clear sign that we&rsquo;d see ARM proliferate on the desktop soon afterwards and even wrote a blog post on it: <a href="../get-ready-for-the-chip-wars/" title="Get ready for the chip wars">Get ready for the chip wars</a>.</p>
+<p>Unfortunately, I was wrong. Windows 10 on ARM didn&rsquo;t really take off at all, and still hasn&rsquo;t. While some low-end Chromebooks use ARM, that majority of them use low-end Intel CPUs. And no one in their right mind would consider the Raspberry Pi to be a general purpose desktop computer.</p>
+<p>Around that same time, cloud datacenters started experimenting with high-core ARM CPUs designed to run large compute workloads at lower power consumption. This combination of compute and power efficiency is ideal for cloud computing, as shown by the <em><strong>Graviton</strong></em> ARM CPUs that Amazon uses in part of their AWS cloud today. The only problem was (and is) mainstream adoption. Without ARM on the desktop, it&rsquo;s difficult for ARM to gain traction in the cloud because software developers will still be bound to the Intel/AMD desktop and development mentality.</p>
+<p>So, following several years of rumours, when Apple announced in 2020 that they&rsquo;d be ditching Intel for their own custom ARM CPU, it should have spurred a lot of interest in ARM. But it didn&rsquo;t, because Apple technology is a walled garden, and moving to ARM was largely seen as a way to keep people in their ecosystem while boosting their already high profit margins. And given Apple&rsquo;s actions in the past 5 years, many of us in the tech industry (myself included) thought Apple wouldn&rsquo;t do a great job of the transition and essentially be pushing underpowered Chromebook equivalents to their faithful fan base with deep pockets.</p>
+<p>Fortunately, I was wrong. Their <em><strong>Apple Silicon M1</strong></em> ARM CPU released last fall was incredibly well designed for general purpose desktop computing and quickly WOW&rsquo;d everyone in the tech community. I started using it this past month and had to eat the Apple ARM jokes I made this past year ;-) Nearly all software for the macOS platform is available in native ARM-compiled format, and the desktop experience is close to flawless otherwise.</p>
+<p><img src="m1.png#center" alt="Apple Silicon M1 Mac" title="Apple Silicon M1 Mac"></p>
+<p>So it ended up being Apple - not Microsoft - that was first to bring ARM to the desktop. I think many software vendors and hardware manufacturers weren&rsquo;t willing to bet a lot of money on ARM in an Intel/AMD-dominated desktop landscape, and were waiting for someone to go first and succeed. And now that that has happened, they&rsquo;ll follow suit. We&rsquo;re already starting to see a lot more custom ARM CPUs hit the market, and it&rsquo;s just a matter of time before we see more powerful ARM-based Chrome, Linux and Windows PCs.</p>
+<p>ARM on the desktop is here to stay this time, and that&rsquo;s a good thing for both desktop and cloud computing. I imagine we&rsquo;ll start a proliferation of mainstream ARM desktops over the next few years, as well as a large shift to ARM-based servers both in the cloud and within organizations.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/cloud-buzz-words/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="An overview of cloud buzz words"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

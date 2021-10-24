@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.82.0" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
 
   <link
     rel="stylesheet"
@@ -205,11 +205,11 @@
 <p>Whether you&rsquo;re an IT systems administrator, developer or devop working with Linux/UNIX shell scripts, you&rsquo;re likely going to come across some that are not well documented and difficult to trace (read and understand) as a result.</p>
 <p>While these scripts discourage others from tracing them, you can easily trace even the most difficult shell scripts if you follow good tracing procedures. Moreover, by tracing a difficult shell script, you build your knowledge of specific Linux/UNIX components, as well as scripting in general.</p>
 <p>To demonstrate this, let&rsquo;s trace an undocumented <code>treed</code> shell script that I made several decades ago for my students. If you execute this shell script, it performs a hierarchical listing of the contents of a directory name that you must specify as an argument (much like the MS-DOS <code>tree</code> command that has no equivalent on Linux/UNIX systems). If you execute it without supplying an argument, it returns usage information as shown below:</p>
-<pre><code>$ ./treed
+<pre tabindex="0"><code>$ ./treed
 usage: ./treed directory
 $
 </code></pre><p>To view a list of files and subdirectories under the classfiles directory, you could run the script with the directory name as an argument:</p>
-<pre><code>$ ./treed classfiles
+<pre tabindex="0"><code>$ ./treed classfiles
 classfiles
 |
 |__ Miscellaneous
@@ -238,7 +238,7 @@ classfiles
 $ 
 </code></pre><p>The classfiles directory shown above contains two files (proposal1 and proposal2) as well as two subdirectories. The Miscellaneous subdirectory contains two files (mystery and letter), and the Poems subdirectory contains three files (rhyme, nursery and twister) as well as three subdirectories (Blake, Shakespeare and Yeats) with additional files.</p>
 <p>Now, let&rsquo;s examine the contents of the shell script that produced these results:</p>
-<pre><code>:
+<pre tabindex="0"><code>:
 [ $# -eq 0 ] &amp;&amp; {  
 	echo &quot;usage: $0 directory&quot; &gt;&amp;2
 	exit 1
@@ -256,20 +256,20 @@ find $base -print | sed '
 Let&rsquo;s examine some shell script tracing strategies that we can apply to this shell script.</p>
 <h1 id="1-start-with-what-you-know">1. Start with what you know</h1>
 <p>With a basic knowledge of shell scripting from a course or other learning resource, you&rsquo;ve likely learned about standard input/output redirection, positional parameters (shell script command line arguments), as well as <code>if</code> statements their equivalent conditional ANDs and ORs. Thus, you&rsquo;ll probably be able to easily trace the following part of the shell script that tests whether the number of positional parameters (<code>$#</code>) is equal to zero AND (<code>&amp;&amp;</code>) prints a usage line to the screen using standard error (<code>&gt;&amp;2</code>) if this is the case, stopping the shell script with a false exit status (<code>exit 1</code>):</p>
-<pre><code>[ $# -eq 0 ] &amp;&amp; {  
+<pre tabindex="0"><code>[ $# -eq 0 ] &amp;&amp; {  
 	echo &quot;usage: $0 directory&quot; &gt;&amp;2
 	exit 1
 }
 </code></pre><p>You&rsquo;ve also likely learned about variables, so you know that <code>$0</code> stores the shell script name, <code>$1</code> stores the first positional parameter, and that the following code copies the first positional parameter to a new variable called <code>base</code> that is made available to other commands run by the shell (<code>export base</code>) and also printed to the screen via standard output using the <code>echo</code> command (the first line you see when executing the shell script):</p>
-<pre><code>base=$1
+<pre tabindex="0"><code>base=$1
 export base
 echo &quot;$base&quot;
 </code></pre><p>So, by focusing on your existing basic shell script knowledge, you can trace the code that produces usage information if you don&rsquo;t supply an argument to the shell script, as well as trace the code that prints the top of the directory listing in the shell script output.</p>
 <h1 id="2-research-specific-command-usage">2. Research specific command usage</h1>
 <p>The next part of the shell is the hardest to trace as it leverages two powerful Linux/UNIX commands: <code>find</code> and <code>sed</code> (the stream editor). The <code>find</code> command is fairly common knowledge for any Linux/UNIX user, so you&rsquo;ll be able to identify that the following line generates a recursive list of files and subdirectories starting from the directory supplied as an argument to the shell script (the <code>$base</code> variable) and sends that recursive list to the <code>sed</code> command for processing via a pipe (<code>|</code>)</p>
-<pre><code>find $base -print | sed '
+<pre tabindex="0"><code>find $base -print | sed '
 </code></pre><p>Where it likely gets difficult to trace for most people is in the single-quoted, multi-line argument that follows the <code>sed</code> command:</p>
-<pre><code>find $base -print | sed '
+<pre tabindex="0"><code>find $base -print | sed '
 	s:^'$base':|:
 	s:/\([^/]*\)$:?? \1:
 	s:/[^ ?/]*:   |:g
@@ -277,13 +277,13 @@ echo &quot;$base&quot;
 	'
 </code></pre><p>This isn&rsquo;t about knowing shell scripting per se, but instead understanding the complex usage of a command that is used within the shell script (there are hundreds of such tools). Of course, you&rsquo;ll need to spend some time looking through manual page (<code>man sed</code>) or some examples online. While it may take you several minutes (maybe even an hour or more) to learn how <code>sed</code> is used here, you&rsquo;ll also be learning a powerful tool that you can use in other shell scripts for processing data using search-and-replace statements. Basically the old Linux/UNIX saying <em><strong>He said. She said. We all said &ldquo;Use sed&rdquo;</strong></em> ;-)</p>
 <p>After researching <code>sed</code> usage, you&rsquo;ll learn that <code>s</code> stands for search, and the first character after <code>s</code> is the delimiter for each statement (<code>:</code> in this case). The first <code>sed</code> command searches for lines that start with <code>$base</code>, and replaces them with a pipe (<code>|</code>) character:</p>
-<pre><code>	s:^'$base':|:
+<pre tabindex="0"><code>	s:^'$base':|:
 </code></pre><p>The second <code>sed</code> command matches patterns starting with a <code>/</code>, with anything but a slash (<code>[^/]</code>) in the middle, and ending with End-of-Line character (<code>$</code>) - this represents a filename. Next, it prepends a <code>?? </code> to this filename as a marker for the third <code>sed</code> command:</p>
-<pre><code>	s:/\([^/]*\)$:?? \1:
+<pre tabindex="0"><code>	s:/\([^/]*\)$:?? \1:
 </code></pre><p>The third <code>sed</code> command matches patterns starting with a <code>/</code>, until the next space, <code>?</code> or <code>/</code> character. It then replaces this pattern globally throughout each line (<code>g</code>) with 3 spaces and a pipe, (<code>|</code>). This recursively strips parent directories from each line but their own, replacing them with pipe symbols.</p>
-<pre><code>	s:/[^ ?/]*:   |:g
+<pre tabindex="0"><code>	s:/[^ ?/]*:   |:g
 </code></pre><p>And the fourth <code>sed</code> command replaces all <code>?</code> characters with underscore (<code>_</code>) characters, globally throughout each line:</p>
-<pre><code>	s:?:_:g
+<pre tabindex="0"><code>	s:?:_:g
 </code></pre><h1 id="3-verify-your-trace-using-script-output-or-functionality">3. Verify your trace using script output or functionality</h1>
 <p>After tracing enough of your script, make sure you correlate it to the actual functionality of the script, which can often be achieved by examining the output generated by the script, or the tasks that the script performs. After printing the <code>$base</code> variable to the screen in our example, the <code>sed</code> command modified the output of a recursive <code>find</code> listing by replacing directories at the beginning of the hierarchy with spaces, pipe symbols and underscore characters (via a <code>??</code> placeholder).  You can easily verify your trace logic by examining the classfiles directory output generated by the script.</p>
 <p>Furthermore, certain things you didn&rsquo;t know can easily be deduced by examining the output of a script. For example, if you didn&rsquo;t know what <code>$0</code> represented, you could run the script without arguments to see the message generated, and then compare it to the script contents to see that it represents the script path.</p>

@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.82.0" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
 
   <link
     rel="stylesheet"
@@ -238,7 +238,7 @@
 <h3 id="33-the-nextstep-unix-system">3.3 The NeXTSTEP UNIX system</h3>
 <p>If you take a look at the underpinnings of the UNIX system in NeXTSTEP, you’ll realize that they are <em>almost</em> identical to Mac OS X today!</p>
 <p>Firstly, let’s take a look at the directory structure on my NeXTSTEP 3.3 system.  If you run the <code>ls -l /</code> command to view the contents of the root directory, you’ll notice many of the same folders on a modern Mac OS X system:</p>
-<pre><code>total 1693
+<pre tabindex="0"><code>total 1693
 drwxr-xr-x  4 root        1024 Apr  3 18:49 .NeXT/
 -rw-r--r--  1 root         460 Oct 21  1994 .cshrc
 -rw-r--r--  1 root         130 Jul 31  1992 .hidden
@@ -271,7 +271,7 @@ drwxr-xr-x 14 root        1024 Nov 11  1994 usr/
 <li>A /Users directory to store all user home directories</li>
 </ul>
 <p>Moreover, the /Applications directory in Mac OS X is similar to the /Next* directories in NeXTSTEP.  For example, doing an <code>ls -l /NextApps</code> will show you the standard users application bundles (which normally show up as the name of the app only when in the desktop):</p>
-<pre><code>total 9
+<pre tabindex="0"><code>total 9
 drwxr-xr-x  3 root        1024 Oct 21  1994 Edit.app/
 drwxr-xr-x  3 root        1024 Oct 21  1994 FaxReader.app/
 drwxr-xr-x  3 root        1024 Oct 21  1994 Grab.app/
@@ -282,7 +282,7 @@ drwxr-xr-x  3 root        1024 Oct 21  1994 Preview.app/
 drwxr-xr-x  3 root        1024 Oct 21  1994 PrintManager.app/
 drwxr-xr-x  3 root        1024 Oct 21  1994 Terminal.app/
 </code></pre><p>Unlike Mac OS X (which uses the Macintosh HFS+ filesystem by default), NeXTSTEP uses the BSD UFS filesystem.  If you view the contents of /etc/fstab (e.g. <code>cat /etc/fstab</code>), you’ll notice that it has a very simple structure that mounts the first partition on the first SCSI hard disk to the root (/) directory using the UFS (4.3) filesystem:</p>
-<pre><code>#
+<pre tabindex="0"><code>#
 #  DO NOT DELETE THIS FILE, IT IS REQUIRED FOR BOOTING
 #
 #  This file contains information used to mount local hard disks.
@@ -292,7 +292,7 @@ drwxr-xr-x  3 root        1024 Oct 21  1994 Terminal.app/
 #
 /dev/sd0a / 4.3 rw,noquota 0 1
 </code></pre><p>That being said, mounting removable media is very similar in NeXTSTEP and Mac OS X.  When I inserted a DOS floppy disk, it automounted it to a directory off the root named for the label on the media (in this case, lala, so it mounted it to the /lala directory and put a shortcut on my desktop to it).  You can easily see what is mounted using the <code>df</code> command:</p>
-<pre><code>Filesystem         kbytes    used   avail capacity  Mounted on
+<pre tabindex="0"><code>Filesystem         kbytes    used   avail capacity  Mounted on
 /dev/sd0a           98442   73548   19971    79%    /
 /private/swapfile   98442   73548   19971    79%    /private/swapfile
 /dev/rfd0b           1415     130    1284     9%    /lala
@@ -302,7 +302,7 @@ drwxr-xr-x  3 root        1024 Oct 21  1994 Terminal.app/
 <p>Next, I wanted to obtain a Web page.  Since I didn’t have the curl command or a Web browser on the NeXT workstation, I simply interacted with port 80 (HTTP) using <code>telnet 192.168.1.4 80</code> (the IP address of the machine is 192.168.1.4) and entered in a <code>GET / HTTP/1.1</code> and <code>HOST: 192.168.1.4</code> command to get the sample Web page that comes with Apache.  Better yet, I accessed 192.168.1.4 in Chrome from my Mac OS X machine and got the sample homepage in all of it’s glory:</p>
 <p><img src="next7.png#center" alt="NeXT7" title="NeXT7"></p>
 <p>The page loaded fast, and I was able to navigate the documentation link hierarchy as fast as you’d expect from a modern Web server.  But I wanted a more in-depth look at the performance, so I opened a terminal on my Mac OS X machine and ran the Apache benchmark command (<code>ab -c100 -n1000 http://192.168.1.4/</code>) and got the following results:</p>
-<pre><code>This is ApacheBench, Version 2.3 &lt;$Revision: 1706008 $&gt;
+<pre tabindex="0"><code>This is ApacheBench, Version 2.3 &lt;$Revision: 1706008 $&gt;
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 

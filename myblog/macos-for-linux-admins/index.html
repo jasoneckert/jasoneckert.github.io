@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.82.0" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
 
   <link
     rel="stylesheet"
@@ -206,7 +206,7 @@
 <h1 id="2-macos-filesystem-structure">2. macOS Filesystem Structure</h1>
 <p>Although macOS 10.1 through 10.12 typically used HFS+ (Hierarchical File System Plus), the default macOS filesystem in macOS 10.13 is the Apple File System (APFS).  Both HFS+ and APFS contain the same features found in modern Linux filesystems such as ext4, as well as macOS-specific features such as the storage of file fork information used by earlier Apple operating systems.</p>
 <p>Regardless of which filesystem is used, the directory structure on macOS is very similar to Linux since all UNIX systems support the Filesystem Hierarchy Standard (FHS). However, there are some notable differences such as the absence of a /proc filesystem and the use of the /Users directory instead of /home. A list of common macOS directories is shown below:</p>
-<pre><code>/Applications       Stores most user apps
+<pre tabindex="0"><code>/Applications       Stores most user apps
 /bin                Contains binary executables
 /dev                Contain device files
 /etc                Contains most system configuration
@@ -248,12 +248,12 @@
 <h1 id="5-common-macos-commands">5. Common macOS Commands</h1>
 <p>Below are some common macOS commands, organized by general function. Although most options to these commands are identical between Linux and macOS, be sure to view the manual page for commands that you will use in the future.</p>
 <h3 id="system-documentation">System Documentation</h3>
-<pre><code>man        Displays/searches the manual page database
+<pre tabindex="0"><code>man        Displays/searches the manual page database
 apropos    Searches the manual page database by keyword
 info       Displays/searches the info page database
 help       Displays help on BASH functions
 </code></pre><h3 id="file-management">File Management</h3>
-<pre><code>pwd        Displays the current directory
+<pre tabindex="0"><code>pwd        Displays the current directory
 cd         Changes the current directory
 ls         Lists files
 file       Displays file type
@@ -271,7 +271,7 @@ chgrp      Changes group ownership for files and directories
 chmod      Changes the permissions (mode) on files and directories
 umask      Changes the UMASK variable
 </code></pre><h3 id="text-tools">Text Tools</h3>
-<pre><code>cat        Displays the contents of text files
+<pre tabindex="0"><code>cat        Displays the contents of text files
 more       Displays the contents of text files page-by-page
 less       Offers more functionality than the more command
 head       Displays the beginning of a text file
@@ -286,7 +286,7 @@ vi (vim)   The vi text editor (common to all UNIX systems)
 emacs      The GNU Emacs text editor
 nano       A small easy-to-use text editor
 </code></pre><h3 id="filesystem-administration">Filesystem Administration</h3>
-<pre><code>mount      Mounts a filesystem to a mount point directory
+<pre tabindex="0"><code>mount      Mounts a filesystem to a mount point directory
 umount     Unmounts a filesystem from a mount point directory
 pdisk      Creates Apple disk partitions
 newfs_type Creates a new filesystem (apfs, hfs, udf, exfat, msdos)
@@ -299,11 +299,11 @@ repquota   Displays a report on quotas by user
 quotacheck Updates quota limits on the filesystem
 </code></pre><p>Disk quotas are configured differently in macOS. In Linux, you enabled quotas using the appropriate option in /etc/fstab. However, /etc/fstab is deprecated in macOS. Instead, you must create two files in the root of the filesystem that you wish to enable quotas on (.quota.ops.user and .quota.ops.group).</p>
 <h3 id="shutdown--system-state">Shutdown &amp; System State</h3>
-<pre><code>shutdown   Shuts down or reboots the system at a specified time
+<pre tabindex="0"><code>shutdown   Shuts down or reboots the system at a specified time
 halt       Shuts down the system immediately
 reboot     Reboots the system immediately
 </code></pre><h3 id="compression-backup--software">Compression, Backup &amp; Software</h3>
-<pre><code>compress   Compresses files using a Lempel-Zif algorithm
+<pre tabindex="0"><code>compress   Compresses files using a Lempel-Zif algorithm
 gzip       Compresses files using a standard Lempel-Zif algorithm
 bzip2      Compresses files using a block-sorting algorithm
 tar        Used to create small tar archives and tarballs
@@ -311,7 +311,7 @@ cpio       Used to create full filesystem backups
 make       Manages software compiling using gcc and Makefile settings
 gcc        The GNU C compiler used to compile software
 </code></pre><h3 id="bash-management">BASH Management</h3>
-<pre><code>set        Displays all variables in your shell
+<pre tabindex="0"><code>set        Displays all variables in your shell
 env        Displays exported variables in your shell
 alias      Creates special alias variables
 unalias    Removes special alias variables
@@ -319,7 +319,7 @@ export     Creates and exports variables
 ulimit     Sets BASH limits for users
 </code></pre><p>As in Linux, macOS stores its variables in environment files. The /etc/profile and /etc/bashrc files are used by default on the system. Each user can also create their own ~/.bash_profile and ~/.bashrc files. In addition, ~/.bash_logout may be used to perform tasks at shell exit.</p>
 <h3 id="process-management">Process Management</h3>
-<pre><code>ps         Displays system and user processes
+<pre tabindex="0"><code>ps         Displays system and user processes
 top        Displays top processes and system statistics
 kill       Sends kill signals to processes by PID
 killall    Sends kill signals to processes by name
@@ -333,7 +333,7 @@ atq        Views at jobs
 atrm       Removes an at job
 crontab    Edits user cron tables (for command scheduling)
 </code></pre><h3 id="users--groups">Users &amp; Groups</h3>
-<pre><code>whoami     Displays the current user name
+<pre tabindex="0"><code>whoami     Displays the current user name
 who am i   Displays your username and computer information
 groups     Displays the current user’s group memberships
 id         Prints the current User ID (UID) and Group IDs (GIDs)
@@ -345,7 +345,7 @@ who        Displays who is on the system
 w          Displays who is on the system and what they are doing
 </code></pre><p>User and group administration differs slightly in macOS from Linux. There are no <code>useradd</code> or <code>userdel</code> commands - instead, you must use the System Preferences utility to create user accounts properly. User information is stored in a directory database under the /var/db directory. The /etc/shadow file does not exist and the /etc/passwd and /etc/group files exists only to provide information to apps.</p>
 <h3 id="cups-printing">CUPS Printing</h3>
-<pre><code>lp          Prints a file
+<pre tabindex="0"><code>lp          Prints a file
 lpstat      Views print jobs and printer status
 cancel      Removes a print job from the print queue
 cupsaccept  Allows jobs to enter a print queue
@@ -353,7 +353,7 @@ cupsreject  Prevents jobs from entering a print queue
 cupsenable  Allows jobs to be sent to the printer from the print queue
 cupsdisable Prevents jobs from leaving the print queue
 </code></pre><h3 id="network--and-security-related">Network- and Security-Related</h3>
-<pre><code>ifconfig    Displays and configures TCP/IP network interfaces
+<pre tabindex="0"><code>ifconfig    Displays and configures TCP/IP network interfaces
 ping        Tests connectivity between hosts
 whois       Queries domain name registration information
 arp         Views and manages the ARP cache
@@ -370,7 +370,7 @@ last        Displays a detailed list of previous user logins
 tcpdump     Captures packets on a network interface
 </code></pre><p>Network devices also have different names in macOS. The first Ethernet adapter is called en0 (typically wired Ethernet), and the second Ethernet adapter is called en1 (typically wireless Ethernet). Ensure that you use System Preferences to change any network parameters as they are no longer stored in text files as they are on Linux systems. For example, the /etc/resolv.conf file still exists in macOS and lists DNS servers configured in System Preferences, but it is not used by the system - it is merely there in case an app queries it. The only network-related file that is used actively and may be edited is /etc/hosts (for local host name resolution).</p>
 <h3 id="system--miscellaneous">System &amp; Miscellaneous</h3>
-<pre><code>date        Displays the current date and time
+<pre tabindex="0"><code>date        Displays the current date and time
 exit        Exits out of the shell (logout)
 echo        Displays the argument to the terminal screen
 clear       Clears the screen
@@ -385,7 +385,7 @@ iostat      Displays I/O statistics for the system
 <p>To look inside a bundle, simply run the cd /Applications/bundle_name.app command from the Terminal app or right-click the bundle in the Finder app and choose Show Package Contents.</p>
 <p>Apps typically rely on shared libraries, which are sets of reusable functions. In Linux, they are stored as shared objects in the in the /lib directory. However, in macOS these libraries are called Frameworks and are stored within bundle files that have the *.framework extension in the /System/Library/Frameworks directory. Frameworks are automatically advertised to running apps by the system.</p>
 <p>The configuration information and settings for macOS apps are stored in plist files (*.plist) within the app bundle itself.  Plist files are written in XML, and can be easily modified to change how the app works on the system. For example, to rename the Trash icon in your Dock, you could open a terminal, switch to the root user (<code>su - root</code>) and run the following commands:</p>
-<pre><code>cd /System/Library/CoreServices/Dock.app/Contents/Resources/en.lproj
+<pre tabindex="0"><code>cd /System/Library/CoreServices/Dock.app/Contents/Resources/en.lproj
 vi InfoPlist.strings
 </code></pre><p>Next, change the line <code>TrashName = “Trash”</code> to <code>TrashName = “Whateveryouwant”</code> and save your changes when finished. To reload your Dock to apply the changes, simply type the following at the command prompt:</p>
 <p><code>killall Dock</code></p>
