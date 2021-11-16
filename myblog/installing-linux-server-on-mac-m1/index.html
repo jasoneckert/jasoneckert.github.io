@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Installing a fast Linux server on a Mac M1
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2021-11-15</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+5 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/apple"
+      title="tags"
+    >Apple</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/macos"
+      title="tags"
+    >macOS</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/development"
+      title="tags"
+    >development</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/programming"
+      title="tags"
+    >programming</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p>One of the biggest worries that IT users have regarding the new ARM-based M1 platform that Apple has recently adopted is the ability to run <em><strong>virtual machines (VMs)</strong></em> of other operating systems using hypervisor software. And while it&rsquo;s possible to run virtual machines of both Windows and Linux operating systems made for the Intel platform on the M1, the performance cost of translating Intel instructions to ARM is high (even with the optimizations Apple has within their M1 CPU).</p>
+<p>Luckily, the most common virtual machine that an IT systems administrator or developer will install is Linux, and ARM versions of Linux have been mainstream for well over a decade now.</p>
+<p>Instead of buying an expensive Parallels or VMWare Fusion license to run a VM of Linux (slowly) on the M1, you can use the free <em><strong>UTM</strong></em> app. UTM leverages the native hypervisor framework in macOS alongside the open source Qemu framework that is used for virtualizing operating systems on Linux. If you run an Intel version of Linux in UTM, Qemu will translate the Intel instructions to run on the M1 and there will be a noticable performance cost. However, if you run an ARM version of Linux in UTM, Qemu will run it directly on the M1 at near native speed. Better yet, the VirtIO storage bus used by Qemu and the Linux kernel can also access the underlying storage in the Mac at near native speed. Thus, UTM allows you to run ARM-based Linux VMs very very fast on the M1 platform for free.</p>
+<p>To get started, you should first download an ARM-based Linux distribution. If you need a graphical desktop, I recommend the latest version of Fedora Workstation (shown below in UTM), which comes with the GNOME desktop that is similar to the macOS desktop. If you just want to host a server (no graphical desktop), I recommend Ubuntu Server as it will likely be the same distribution that is hosting your services and Web apps in the cloud. You can download the DVD ISO image for the latest Fedora Workstation (aarch64) from <a href="https://getfedora.org/en/workstation/download/">https://getfedora.org/en/workstation/download/</a> or visit <a href="https://ubuntu.com/download/server">https://ubuntu.com/download/server</a> to download the DVD ISO image for the latest Ubuntu Server (ARM).<br>
+<img src="fedora-arm.png#center" alt="ARM Powered logo" title="ARM Powered logo"></p>
+<p>Next, you can perform the following steps to create a Linux server VM using UTM:</p>
+<ol>
+<li>Download the free version of UTM from <a href="https://mac.getutm.app">https://mac.getutm.app</a> and install it to your Applications folder.</li>
+<li>Open UTM and click <code>+</code> to create a new VM and then click <code>Start from Scratch</code>.</li>
+<li>On the Information tab, supply an appropriate name and select <code>Operating System</code> from the Style drop-down box.</li>
+<li>On the System tab, select <code>ARM64 (aarch64)</code> from the Architecture drop-down box, and then specify the amount of memory you&rsquo;d like to give your VM in the Memory dialog box. For Linux with a graphical desktop (e.g. Fedora Workstation), specify <code>4096</code> to give your VM 4GB (4096MB) of memory. For a Linux server without a graphical desktop (e.g. Ubuntu Server), specify <code>1024</code> to give your VM 1GB (1024MB) of memory.</li>
+<li>On the Drives tab, click <code>New Drive</code>, ensure that <code>VirtIO</code> is displayed in the Interface drop-down box, type <code>127</code> in the Size dialog box (for a dynamically expanding virtual hard drive that uses up to 127GB of storage) and click <code>Create</code>. Click <code>New Drive</code> again, select the <code>Removeable</code> checkbox to create a USB drive that we’ll later attach to the Linux DVD ISO you downloaded and click <code>Create</code>. At this point, your screen should look like the following:</li>
+</ol>
+<p><img src="utm-drives.png#center" alt="UTM drives" title="UTM drives"></p>
+<ol start="6">
+<li>On the Network tab, select <code>Bridged (Advanced)</code> from the Network Mode drop-down box to ensure that your VM appears as a separate system on your network alongside macOS and then click <code>Save</code>.</li>
+<li>In the UTM window for your VM, select <code>Browse</code> from the CD/DVD drop-down box, select the Linux DVD ISO from your Downloads folder to insert it into the removable drive and then click the large Play icon to start your VM. Some distributions validate the checksum of the DVD first. If you see a black window with the UTM logo in it for a few minutes, be patient - your Linux installer will start after the checksum is verified.</li>
+<li>Install your Linux distribution as you normally would. The 127GB virtual disk will show up as <code>/dev/vda</code> instead of <code>/dev/sda</code> because we&rsquo;re using the very fast VirtIO interface instead of emulating a SCSI, SATA or NVMe interface.</li>
+</ol>
+<p>During the Linux installation, you&rsquo;ll be prompted to create a regular user account (e.g. jason). While this first user account is automatically added to the wheel or sudo group on your Linux distribution to allow it to run administrative commands as the root user, you should set the root user password following installation using the <code>sudo passwd root</code> command.</p>
+<p>If you are a developer that needs a local Linux server for testing your Web apps, you&rsquo;ll need to install additional software packages. For example, to install the Apache Web server, Very Secure FTP daemon (for uploading files), MySQL/MariaDB database server, and PHP (including the most useful plugins) on an Ubuntu Server, you could switch to the root user (<code>su -</code>) and run the following commands:</p>
+<pre tabindex="0"><code>apt update
+apt upgrade
+apt install apache2 vsftpd mysql-server 
+mysql_secure_installation    #Configure your MySQL settings and password
+apt install php libapache2-mod-php php-mysql phpmyadmin php-mbstring php-zip php-gd php-json php-curl
+vi /etc/apache2/mods-enabled/dir.conf    #Add index.php to the DirectoryIndex line
+systemctl restart apache2
+</code></pre><p>While running Linux at near native speed is definitely possible on the M1 platform using UTM on macOS, you will soon be able to install Linux natively on M1 hardware, eliminating the need for macOS entirely. Most of this development is done already by those working on the Asahi Linux project. Visit <a href="https://asahilinux.org/about/">https://asahilinux.org/about/</a> to learn more.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/arm-on-the-desktop/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="ARM on the desktop is here to stay"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
