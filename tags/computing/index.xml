@@ -13,7 +13,7 @@
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>http://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</guid>
-      <description>One of the biggest worries that IT users have regarding the new ARM-based M1 platform that Apple has recently adopted is the ability to run virtual machines (VMs) of other operating systems using hypervisor software. And while it&amp;rsquo;s possible to run virtual machines of both Windows and Linux operating systems made for the Intel platform on the M1, the performance cost of translating Intel instructions to ARM is high (even with the optimizations Apple has within their M1 CPU).</description>
+      <description>One of the biggest worries that IT users have regarding Apple&amp;rsquo;s new ARM-based M1 platform is the ability to run virtual machines (VMs) of other operating systems using hypervisor software. And while it&amp;rsquo;s possible to run virtual machines of both Windows and Linux operating systems made for the Intel platform on the M1, the performance cost of translating Intel instructions to ARM is high (even with the optimizations Apple has within their M1 CPU).</description>
     </item>
     
     <item>
