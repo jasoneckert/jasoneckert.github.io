@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>development on Welcome to My Site!</title>
-    <link>http://jasoneckert.github.io/tags/development/</link>
+    <link>https://jasoneckert.github.io/tags/development/</link>
     <description>Recent content in development on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing a fast Linux server on an M1-based Mac</title>
-      <link>http://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</link>
+      <link>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</guid>
+      <guid>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</guid>
       <description>One of the biggest worries that IT users have regarding Apple&amp;rsquo;s new ARM-based M1 platform is the ability to run virtual machines (VMs) of other operating systems using hypervisor software. And while it&amp;rsquo;s possible to run virtual machines of both Windows and Linux operating systems made for the Intel platform on the M1, the performance cost of translating Intel instructions to ARM is high (even with the optimizations Apple has within their M1 CPU).</description>
     </item>
     
     <item>
       <title>An overview of cloud buzz words</title>
-      <link>http://jasoneckert.github.io/myblog/cloud-buzz-words/</link>
+      <link>https://jasoneckert.github.io/myblog/cloud-buzz-words/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/cloud-buzz-words/</guid>
+      <guid>https://jasoneckert.github.io/myblog/cloud-buzz-words/</guid>
       <description>As this Dilbert comic eloquently illustrates, there&amp;rsquo;s no shortage of cloud buzz words thrown around today. But as strange and complex as they may sound (even to seasoned developers and system administrators), they are not difficult to understand. In this blog post, I&amp;rsquo;ll walk through the different components and features of the cloud, explaining the associated buzz words along the way.
 What is the cloud? Back in the early 1990s, when the US government sold off parts of their ARPAnet and NSFnet to private companies (later called Internet Service Providers, or ISPs) to create the public Internet, there wasn&amp;rsquo;t anything exciting about the Internet at all.</description>
     </item>
     
     <item>
       <title>Copyleft is dying</title>
-      <link>http://jasoneckert.github.io/myblog/copyleft-is-dying/</link>
+      <link>https://jasoneckert.github.io/myblog/copyleft-is-dying/</link>
       <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/copyleft-is-dying/</guid>
+      <guid>https://jasoneckert.github.io/myblog/copyleft-is-dying/</guid>
       <description>Software licensing is the catalyst that drives the modern tech industry. This is because reusable software code released under an open source license (permitting its reuse) is the norm for nearly all software development today. After all, if we couldn&amp;rsquo;t reuse existing code in new software projects, it would take far longer to bring technologies to market, and the overall software industry wouldn&amp;rsquo;t be able to evolve as quickly. Moreover, there are two major types of open source licenses.</description>
     </item>
     
     <item>
       <title>It&#39;s a great time to be a developer</title>
-      <link>http://jasoneckert.github.io/myblog/it-is-a-great-time-to-be-a-developer/</link>
+      <link>https://jasoneckert.github.io/myblog/it-is-a-great-time-to-be-a-developer/</link>
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/it-is-a-great-time-to-be-a-developer/</guid>
+      <guid>https://jasoneckert.github.io/myblog/it-is-a-great-time-to-be-a-developer/</guid>
       <description>I&amp;rsquo;ve been a developer for over 3 decades. I remember prompt statements in dBASE III, M68k Assembly and those awful Borland tools. Documentation was provided in large printed binders and often left a lot to the imagination.
 Things got better in the late 1990s and early 2000s, but it wasn&amp;rsquo;t until the late 2000s when things really started to heat up. Sun Microsystem&amp;rsquo;s early 1990s slogan &amp;ldquo;The network is the computer&amp;rdquo; became a reality with the rise of cloud computing, object storage and slick frontend/backend stacks.</description>
     </item>
     
     <item>
       <title>UNIX/Linux is now a core skill for anyone working in tech</title>
-      <link>http://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</guid>
       <description>If you had asked me in the 1990s whether most people in the tech world would be using a UNIX or Linux shell to manage their servers, I would have chuckled and said &amp;ldquo;No.&amp;rdquo; But two decades later we find ourselves in a world where 96% of the cloud is comprised of Linux servers running Web apps made with open source frameworks, and the majority of software development is done on UNIX (macOS) or Linux workstations.</description>
     </item>
     
     <item>
       <title>Relating Silicon Valley to the Toronto-Waterloo Corridor</title>
-      <link>http://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</link>
+      <link>https://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</link>
       <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</guid>
+      <guid>https://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</guid>
       <description>Silicon Valley is an HBO comedy series that aired from 2014-2019. It follows a group of software engineers as they journey from creating their own apps in a home-based tech incubator in California&amp;rsquo;s Silicon Valley to creating a new decentralized Internet in their own venture capital-funded tech company.
 From the beginning, its creators (Mike Judge and Alec Berg) aimed to make the series an entertaining and accurate depiction of Silicon Valley tech culture, icons and events.</description>
     </item>
     
     <item>
       <title>Why I love teaching online</title>
-      <link>http://jasoneckert.github.io/myblog/why-i-love-teaching-online/</link>
+      <link>https://jasoneckert.github.io/myblog/why-i-love-teaching-online/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/why-i-love-teaching-online/</guid>
+      <guid>https://jasoneckert.github.io/myblog/why-i-love-teaching-online/</guid>
       <description>When the pandemic hit earlier this year, schools around the globe quickly embraced online teaching to continue their curriculum. While online teaching wasn&amp;rsquo;t entirely new in this space, it certainly wasn&amp;rsquo;t the norm. This meant that many teachers had to adapt quickly, as these 2 funny videos illustrate:
  https://www.youtube.com/watch?v=CCe5PaeAeew https://www.youtube.com/watch?v=Zy_y9yOrgxk  However, I&amp;rsquo;ve loved every part of this transition because I absolutely love teaching tech courses online.
 Grant you, I&amp;rsquo;ve had some practice prior to 2020, as well as a general interest in how the Web could be used for education.</description>
@@ -77,205 +77,205 @@ Grant you, I&amp;rsquo;ve had some practice prior to 2020, as well as a general 
     
     <item>
       <title>Most people don&#39;t want a computer</title>
-      <link>http://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</link>
+      <link>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</guid>
+      <guid>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</guid>
       <description>In the past few decades, people of all ages across North America have become technology-literate in some way or another. Many of them weren&amp;rsquo;t introduced to technology via desktop or laptop computers, but instead through a smartphone or tablet. Similarly, many desktop and laptop users have switched to using their smartphone or tablet over the past decade to interact with the online world.
 After all, smartphones and tablets are incredibly easy to use.</description>
     </item>
     
     <item>
       <title>Open does not always mean Open Source</title>
-      <link>http://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</link>
+      <link>https://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</guid>
+      <guid>https://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</guid>
       <description>In the technology world today, the term Open is most commonly associated with Open Source.
 Open Source refers to software released under a license that gives other software developers access to modify the original Source code that was used to create the software. This, in turn allows other software developers worldwide to quickly identify and fix bugs and security loopholes, as well as make feature improvements to the software. Consequently, Open Source software evolves more rapidly than other (Closed Source) software, and is considered the gold standard for software today.</description>
     </item>
     
     <item>
       <title>Fundamental computer science concepts every software developer should know</title>
-      <link>http://jasoneckert.github.io/myblog/fundamental-comp-sci/</link>
+      <link>https://jasoneckert.github.io/myblog/fundamental-comp-sci/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/fundamental-comp-sci/</guid>
+      <guid>https://jasoneckert.github.io/myblog/fundamental-comp-sci/</guid>
       <description>To be a software developer (a.k.a. programmer or software engineer) today, you don&amp;rsquo;t need a degree in computer science. In fact, computer science really isn&amp;rsquo;t about &amp;ldquo;how&amp;rdquo; you develop software today at all. It&amp;rsquo;s about how we approach software problems theoretically. And to be frank, you don&amp;rsquo;t need to worry about computer science theory to be a good software developer today. You just need to know how to solve problems using code, be good at using existing software frameworks, as well as know how to Google stuff and read programming language documentation.</description>
     </item>
     
     <item>
       <title>Customizing macOS for development</title>
-      <link>http://jasoneckert.github.io/myblog/customizing-macos-for-development/</link>
+      <link>https://jasoneckert.github.io/myblog/customizing-macos-for-development/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/customizing-macos-for-development/</guid>
+      <guid>https://jasoneckert.github.io/myblog/customizing-macos-for-development/</guid>
       <description>So your boss gave you a Mac for development. Or maybe you bought a Mac to develop iOS apps. Or maybe you bought a MacBook because you need to develop software as well as look good at Starbucks (after the pandemic is over, of course).
 Unfortunately doing serious development using macOS is cumbersome at best. The Aqua desktop in macOS has few features or components geared towards developers. If you look over the shoulder of most Mac users, you’ll notice that their desktop looks like a very messy desk.</description>
     </item>
     
     <item>
       <title>How to learn vi (vim)</title>
-      <link>http://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</link>
+      <link>https://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</guid>
+      <guid>https://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</guid>
       <description>1. So, what is vi (and vim)? One of the most important tools for any developer or sysadmin on UNIX and Linux systems is a text editor. Mastering a text editor allows you to quickly create and edit the source code for programs, scripts and configuration files (nearly all configuration on a UNIX/Linux system is stored as text).
 The vi editor has been one of the most common (if not THE most common) text editor on these systems since it was created in 1969 by Bill Joy.</description>
     </item>
     
     <item>
       <title>The UNIX Philosophy in 2019</title>
-      <link>http://jasoneckert.github.io/myblog/the-unix-philosophy-in-2019/</link>
+      <link>https://jasoneckert.github.io/myblog/the-unix-philosophy-in-2019/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/the-unix-philosophy-in-2019/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-unix-philosophy-in-2019/</guid>
       <description>Earlier this week, I did a presentation for WWITPRO that detailed the UNIX philosophy and its relevance today. Given the subject matter, I decided to do the presentation in PostScript on my SPARCbook running Sun Solaris 2.5.1. This blog post details the content of the presentation for posterity!
 What is UNIX? Simply put, UNIX is an operating system that was created by Ken Thompson in 1969 that was rewritten shortly thereafter in Dennis Ritchie’s C programming language.</description>
     </item>
     
     <item>
       <title>The Power of Open Source Software</title>
-      <link>http://jasoneckert.github.io/myblog/the-power-of-open-source-software/</link>
+      <link>https://jasoneckert.github.io/myblog/the-power-of-open-source-software/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/the-power-of-open-source-software/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-power-of-open-source-software/</guid>
       <description>Two decades ago, a piece of open source software I wrote for a Canadian HPC project caught the attention of someone working for NASA JPL, and after a few emails and a call regarding our experience applying it, a modified version of it was used in a small way to help the Mars Exploration Rover (MER) mission involving the rovers Spirit and Opportunity.
 With last week’s announcement that the MER mission is officially over, it&amp;rsquo;s nice to know that a piece of software I wrote helped, even if it was in a small way - it made me smile over coffee that morning, and it’s made me smile several times since then!</description>
     </item>
     
     <item>
       <title>Three reasons why incubators breed failure</title>
-      <link>http://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</link>
+      <link>https://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</guid>
+      <guid>https://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</guid>
       <description>These past few years, I’ve provided various types of support for some tech incubators in the Kitchener-Waterloo region where I live (it’s a complex arrangement that I won’t go into within this post, but mostly involves helping people with technology implementation issues related to software). It’s not hard to find tech incubators nowadays - they’ve become quite popular this past decade, and larger cities often have several incubators of various sizes.</description>
     </item>
     
     <item>
       <title>How the cloud grew up around Linux</title>
-      <link>http://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</link>
+      <link>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</guid>
+      <guid>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</guid>
       <description>Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world. Apache on Linux allowed anyone with a computer and Internet connection to implement a Web server to serve Web pages as part of the World Wide Web of Internet resources.</description>
     </item>
     
     <item>
       <title>A simple guide to git</title>
-      <link>http://jasoneckert.github.io/myblog/a-simple-guide-to-git/</link>
+      <link>https://jasoneckert.github.io/myblog/a-simple-guide-to-git/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/a-simple-guide-to-git/</guid>
+      <guid>https://jasoneckert.github.io/myblog/a-simple-guide-to-git/</guid>
       <description>Simply put, Git is a version control system that can be used to keep track of the changes that you make to files over time - it allows you to revert files to a previous state, or see who made changes to a file at different times if several people are working the those files collaboratively.
 Git was original developed back in 2005 by Linus Torvalds (the creator of Linux) to aid in making changes to the Linux kernel, but has since become the most common open source version control system used today.</description>
     </item>
     
     <item>
       <title>Devops Demystified</title>
-      <link>http://jasoneckert.github.io/myblog/devops-demystified/</link>
+      <link>https://jasoneckert.github.io/myblog/devops-demystified/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/devops-demystified/</guid>
+      <guid>https://jasoneckert.github.io/myblog/devops-demystified/</guid>
       <description>Last week, my friend Scott Elliott did a great guest presentation at the college where he talked about, amongst other things, devops. Moreover, I’ve been involved myself in the setup and configuration of two software development workflows (which technically makes me a devop); one was in 2017 for a tech startup in Kitchener, and the other one was earlier this year for a much larger project at the University of Waterloo.</description>
     </item>
     
     <item>
       <title>Great Canadian Appathon 4</title>
-      <link>http://jasoneckert.github.io/myblog/great-canadian-appathon-4/</link>
+      <link>https://jasoneckert.github.io/myblog/great-canadian-appathon-4/</link>
       <pubDate>Sun, 19 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/great-canadian-appathon-4/</guid>
+      <guid>https://jasoneckert.github.io/myblog/great-canadian-appathon-4/</guid>
       <description>Today, we finished the fourth Great Canadian Appathon - a Canada-wide competition where students from 18 colleges and universities coast to coast compete to create a mobile video game in 48 hours for a chance to win over $35,000! And we hosted a hub at our Kitchener campus again for the whole weekend.
 In short, this year&amp;rsquo;s GCA went incredibly well – everyone was pumped and loved the experience! We had students from three different campuses attend the event (Kitchener, Hamilton and London), and all teams managed to complete some amazing games and submit them before the deadline.</description>
     </item>
     
     <item>
       <title>GAME ON 2.0 wraps up!</title>
-      <link>http://jasoneckert.github.io/myblog/game-on-wraps-up/</link>
+      <link>https://jasoneckert.github.io/myblog/game-on-wraps-up/</link>
       <pubDate>Fri, 30 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/game-on-wraps-up/</guid>
+      <guid>https://jasoneckert.github.io/myblog/game-on-wraps-up/</guid>
       <description>All good things must come to an end&amp;hellip;..and unfortunately this also applies to the Game On 2.0 exhibition at the Ontario Science Centre, which ran for the past 6 months (starting March 9th). This Labour Day weekend is the final time that you can check it out as it closes Sept 2nd.
 Our college (triOS College) was the presenting sponsor for the exhibition, which, for me was incredible - not only because I run our video game program, created the information for our game development booth, gave numerous Ontario Science Centre talks on gaming topics, and helped organize various game-themed events - but because I’m an avid retro gamer who has many of the same arcade machines and vintage consoles showcased in Game On 2.</description>
     </item>
     
     <item>
       <title>The evolution of Information Technology</title>
-      <link>http://jasoneckert.github.io/myblog/evolution-of-info-tech/</link>
+      <link>https://jasoneckert.github.io/myblog/evolution-of-info-tech/</link>
       <pubDate>Wed, 07 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/evolution-of-info-tech/</guid>
+      <guid>https://jasoneckert.github.io/myblog/evolution-of-info-tech/</guid>
       <description>As a Dean for the technology faculties of a private college in Canada, I’m always looking to make our programs more aligned to the industry - my motto is: always look forward and never look back!
 However, when it comes to Information Technology (IT), I regularly find that the general perception of IT jobs is stuck in the past by at least a decade. I can’t tell you how many times I’ve met people who think that IT guys are stuck in the back closet of some company doing some menial job, such as re-soldering chips on a computer motherboard much like working on the engine of an old car.</description>
     </item>
     
     <item>
       <title>GAME ON 2.0 and triOS College</title>
-      <link>http://jasoneckert.github.io/myblog/game-on-and-trios-college/</link>
+      <link>https://jasoneckert.github.io/myblog/game-on-and-trios-college/</link>
       <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/game-on-and-trios-college/</guid>
+      <guid>https://jasoneckert.github.io/myblog/game-on-and-trios-college/</guid>
       <description>The best technologies are those that spark our imagination. They create a sense of optimism about what “can” be accomplished in the future.
 Atari’s Pong was one of the first technologies to do this because it allowed us to interact with our televisions, instead of just watching them. And we started thinking about the types of wonderful interactions that the future would bring to our televisions, video displays, and Holodecks (for the trekkies out there).</description>
     </item>
     
     <item>
       <title>Driving educational change</title>
-      <link>http://jasoneckert.github.io/myblog/driving-educational-change/</link>
+      <link>https://jasoneckert.github.io/myblog/driving-educational-change/</link>
       <pubDate>Sun, 02 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/driving-educational-change/</guid>
+      <guid>https://jasoneckert.github.io/myblog/driving-educational-change/</guid>
       <description>In the past, education was assessment based - you sat a class, wrote down notes, memorized those notes, and wrote a test based on those notes. The focus was on following this generic structure, and not necessarily on understanding the material or building knowledge in additional areas.
 Of course, some kids would understand many of these topics in good depth and be able to relate them to other topics easily - they were labelled the “smart” kids by their peers.</description>
     </item>
     
     <item>
       <title>The best keynote presentation of all time!</title>
-      <link>http://jasoneckert.github.io/myblog/the-best-keynote-of-all-time/</link>
+      <link>https://jasoneckert.github.io/myblog/the-best-keynote-of-all-time/</link>
       <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/the-best-keynote-of-all-time/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-best-keynote-of-all-time/</guid>
       <description>Today I attended the annual DIG conference. DIG stands for Digital, Interactive &amp;amp; Gaming, and is essentially a large conference in London, Ontario that brings together the interactive, game, and digital media companies for both networking and educational/informative sessions.
 Although this year’s DIG conference was a bit smaller than last year, there were more industry professionals present, and far more meaningful conversation! Instead of the regular “hello&amp;hellip;.what do you do&amp;hellip;.let’s exchange business cards” stuff that normally goes on at these conferences, I got plenty of time to actually have in-depth discussions with dozens of different app and game developers on what was working for them, what challenges they’ve had, as well as their views on the industry and the future.</description>
     </item>
     
     <item>
       <title>Mocap in action</title>
-      <link>http://jasoneckert.github.io/myblog/mocap-in-action/</link>
+      <link>https://jasoneckert.github.io/myblog/mocap-in-action/</link>
       <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/mocap-in-action/</guid>
+      <guid>https://jasoneckert.github.io/myblog/mocap-in-action/</guid>
       <description>I’ve always been a big fan of Ubisoft games - I remember when Splinter Cell was released for the Xbox - I spent every waking minute of my spare time playing it. I loved the graphics, shading, storyline, stealth gameplay (quite frustrating at times) - everything. In fact, I love the whole Splinter Cell series. Best yet, this series is developed almost entirely at the Ubisoft Toronto studio right now.</description>
     </item>
     
     <item>
       <title>A successful hackathon at our Kitchener campus!</title>
-      <link>http://jasoneckert.github.io/myblog/a-successful-hackathon-at-our-kitchener-campus/</link>
+      <link>https://jasoneckert.github.io/myblog/a-successful-hackathon-at-our-kitchener-campus/</link>
       <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/a-successful-hackathon-at-our-kitchener-campus/</guid>
+      <guid>https://jasoneckert.github.io/myblog/a-successful-hackathon-at-our-kitchener-campus/</guid>
       <description>In August, I worked with our Microsoft Student Partner (MSP) at the Kitchener campus (Mickey) to organize a 3-day Hackathon for creating Windows 8 Metro apps and games using HTML5/Javascript (technically it’s not called Metro anymore). It just took place this past weekend (Sept 7th - 9th), and was a huge undertaking for Mickey and I, but in the end it turned out amazingly well!
 The college was very good at coordinating the event (somewhat last minute because of a staff change), and Microsoft was incredibly generous - they provided a ton of food (Tim Hortons breakfast each day, and a big lunch each day), t-shirts, giveaways, prizes (Microsoft ArcTouch mice for the winners, and a Windows Phone for the GoDevMental draw).</description>
     </item>
     
     <item>
       <title>1. What do I do?</title>
-      <link>http://jasoneckert.github.io/bio/what-do-i-do/</link>
+      <link>https://jasoneckert.github.io/bio/what-do-i-do/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/bio/what-do-i-do/</guid>
+      <guid>https://jasoneckert.github.io/bio/what-do-i-do/</guid>
       <description>Besides drinking vast quantities of caffeine, I have taught, developed and managed various Information Technology (IT) and computer programming courses at triOS College in Ontario (Canada) since 1998 in both our college and corporate training divisions.
 Back in 2011, I took on a different title of Dean of Technology to salvage our video game programs, and it turned into a more strategic role where I was able to help shape the development of our programs and curriculum in the following faculties:</description>
     </item>
     
     <item>
       <title>5. Tech Slogans</title>
-      <link>http://jasoneckert.github.io/info/techslogans/</link>
+      <link>https://jasoneckert.github.io/info/techslogans/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/info/techslogans/</guid>
+      <guid>https://jasoneckert.github.io/info/techslogans/</guid>
       <description>Don&amp;rsquo;t Anthropomorphize computers. They hate that.
 I void warranties
 I read your email

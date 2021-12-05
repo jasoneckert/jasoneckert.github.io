@@ -2,104 +2,104 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sysadmin on Welcome to My Site!</title>
-    <link>http://jasoneckert.github.io/tags/sysadmin/</link>
+    <link>https://jasoneckert.github.io/tags/sysadmin/</link>
     <description>Recent content in sysadmin on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An overview of cloud buzz words</title>
-      <link>http://jasoneckert.github.io/myblog/cloud-buzz-words/</link>
+      <link>https://jasoneckert.github.io/myblog/cloud-buzz-words/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/cloud-buzz-words/</guid>
+      <guid>https://jasoneckert.github.io/myblog/cloud-buzz-words/</guid>
       <description>As this Dilbert comic eloquently illustrates, there&amp;rsquo;s no shortage of cloud buzz words thrown around today. But as strange and complex as they may sound (even to seasoned developers and system administrators), they are not difficult to understand. In this blog post, I&amp;rsquo;ll walk through the different components and features of the cloud, explaining the associated buzz words along the way.
 What is the cloud? Back in the early 1990s, when the US government sold off parts of their ARPAnet and NSFnet to private companies (later called Internet Service Providers, or ISPs) to create the public Internet, there wasn&amp;rsquo;t anything exciting about the Internet at all.</description>
     </item>
     
     <item>
       <title>UNIX/Linux is now a core skill for anyone working in tech</title>
-      <link>http://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</guid>
       <description>If you had asked me in the 1990s whether most people in the tech world would be using a UNIX or Linux shell to manage their servers, I would have chuckled and said &amp;ldquo;No.&amp;rdquo; But two decades later we find ourselves in a world where 96% of the cloud is comprised of Linux servers running Web apps made with open source frameworks, and the majority of software development is done on UNIX (macOS) or Linux workstations.</description>
     </item>
     
     <item>
       <title>Cybersecurity in a Nutshell</title>
-      <link>http://jasoneckert.github.io/myblog/cybersecurity-in-a-nutshell/</link>
+      <link>https://jasoneckert.github.io/myblog/cybersecurity-in-a-nutshell/</link>
       <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/cybersecurity-in-a-nutshell/</guid>
+      <guid>https://jasoneckert.github.io/myblog/cybersecurity-in-a-nutshell/</guid>
       <description>Simply put, Cybersecurity is an umbrella term that encompasses all aspects of computer, network and data security. While Cybersecurity-specific job roles are commonplace in larger organizations, smaller organizations often require that existing IT roles perform Cybersecurity-specific tasks. And since Cybersecurity is only going to grow in importance over time, anyone working in IT should have a solid knowledge of it.
 So what does Cybersecurity involve? You can divide cybersecurity into four main areas today:</description>
     </item>
     
     <item>
       <title>Seldom discussed tips for working in the tech industry</title>
-      <link>http://jasoneckert.github.io/myblog/seldom-discussed-tech-industry-tips/</link>
+      <link>https://jasoneckert.github.io/myblog/seldom-discussed-tech-industry-tips/</link>
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/seldom-discussed-tech-industry-tips/</guid>
+      <guid>https://jasoneckert.github.io/myblog/seldom-discussed-tech-industry-tips/</guid>
       <description>There are plenty of blog posts on the Web that give sage advice for anyone working in the tech industry. However, most of them focus on the same topics: time management, resourcefulness, continuous learning, verbal and written communication skills, caffeine consumption, and so on.
 In this blog post, I&amp;rsquo;ll discuss 6 tech industry tips that are rarely discussed online, but that are equally (if not more) important from my experience over the past three decades in this industry.</description>
     </item>
     
     <item>
       <title>5 Z shell features that will encourage you to switch from Bash</title>
-      <link>http://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</link>
+      <link>https://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</guid>
+      <guid>https://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</guid>
       <description>The command line interface on your system is provided by a shell. And while there are dozens of different shells available to choose from, nearly every UNIX and Linux system over the past two decades has used the feature-rich Bash shell as the default login shell.
 Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions (e.g. Kali) have switched their default shell to the Z shell (zsh), and this trend is likely to continue.</description>
     </item>
     
     <item>
       <title>Cybersecurity in the early 1990&#39;s</title>
-      <link>http://jasoneckert.github.io/myblog/cybersecurity-in-the-90s/</link>
+      <link>https://jasoneckert.github.io/myblog/cybersecurity-in-the-90s/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/cybersecurity-in-the-90s/</guid>
+      <guid>https://jasoneckert.github.io/myblog/cybersecurity-in-the-90s/</guid>
       <description>Back in the late 1980&amp;rsquo;s and early 1990&amp;rsquo;s, I remember collecting MS-DOS computer viruses. I’d download them from an online Bulletin Board System (BBS) and store them on floppy disks in compressed format to prevent them from executing. For fun, some friends and I would occasionally release them on one of our systems to see what they did, and then reinstall MS-DOS afterwards. Most viruses didn’t do very much, but some others (e.</description>
     </item>
     
     <item>
       <title>Open does not always mean Open Source</title>
-      <link>http://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</link>
+      <link>https://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</guid>
+      <guid>https://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</guid>
       <description>In the technology world today, the term Open is most commonly associated with Open Source.
 Open Source refers to software released under a license that gives other software developers access to modify the original Source code that was used to create the software. This, in turn allows other software developers worldwide to quickly identify and fix bugs and security loopholes, as well as make feature improvements to the software. Consequently, Open Source software evolves more rapidly than other (Closed Source) software, and is considered the gold standard for software today.</description>
     </item>
     
     <item>
       <title>Tracing difficult shell scripts</title>
-      <link>http://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</link>
+      <link>https://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</guid>
+      <guid>https://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</guid>
       <description>Whether you&amp;rsquo;re an IT systems administrator, developer or devop working with Linux/UNIX shell scripts, you&amp;rsquo;re likely going to come across some that are not well documented and difficult to trace (read and understand) as a result.
 While these scripts discourage others from tracing them, you can easily trace even the most difficult shell scripts if you follow good tracing procedures. Moreover, by tracing a difficult shell script, you build your knowledge of specific Linux/UNIX components, as well as scripting in general.</description>
     </item>
     
     <item>
       <title>FreeBSD UNIX for Linux sysadmins</title>
-      <link>http://jasoneckert.github.io/myblog/freebsd-unix-for-linux-sysadmins/</link>
+      <link>https://jasoneckert.github.io/myblog/freebsd-unix-for-linux-sysadmins/</link>
       <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/freebsd-unix-for-linux-sysadmins/</guid>
+      <guid>https://jasoneckert.github.io/myblog/freebsd-unix-for-linux-sysadmins/</guid>
       <description>If you’ve ever installed and explored another Linux distro (what Linux sysadmin hasn’t?!?), then exploring FreeBSD is going be somewhat similar with a few key differences. While there is no graphical installation, the installation process is straightforward and similar to installing a server-based Linux distro. Just make sure you choose the local_unbound package when prompted if you want to cache DNS lookups locally, as FreeBSD doesn’t have a built-in local DNS resolver that does this.</description>
     </item>
     
     <item>
       <title>SSH Foo</title>
-      <link>http://jasoneckert.github.io/myblog/ssh-foo/</link>
+      <link>https://jasoneckert.github.io/myblog/ssh-foo/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/ssh-foo/</guid>
+      <guid>https://jasoneckert.github.io/myblog/ssh-foo/</guid>
       <description>Last week, I gave a presentation at a local LUG (which is a Linux User’s Group, for anyone who hasn’t heard of those before) on the subject of SSH Foo.
 In UNIX circles, we refer to tricks of the trade as “Kung Fu” or just “Fu” (which sounds rude), so it is spelled “Foo” ;-)
 In this blog post, I’ll summarize my SSH Foo talk! Be aware that this is not an introduction to SSH, but a more advanced look at some interesting SSH features for those who are already comfortable with it.</description>
@@ -107,57 +107,57 @@ In this blog post, I’ll summarize my SSH Foo talk! Be aware that this is not a
     
     <item>
       <title>Three reasons why incubators breed failure</title>
-      <link>http://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</link>
+      <link>https://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</guid>
+      <guid>https://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</guid>
       <description>These past few years, I’ve provided various types of support for some tech incubators in the Kitchener-Waterloo region where I live (it’s a complex arrangement that I won’t go into within this post, but mostly involves helping people with technology implementation issues related to software). It’s not hard to find tech incubators nowadays - they’ve become quite popular this past decade, and larger cities often have several incubators of various sizes.</description>
     </item>
     
     <item>
       <title>How the cloud grew up around Linux</title>
-      <link>http://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</link>
+      <link>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</guid>
+      <guid>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</guid>
       <description>Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world. Apache on Linux allowed anyone with a computer and Internet connection to implement a Web server to serve Web pages as part of the World Wide Web of Internet resources.</description>
     </item>
     
     <item>
       <title>A simple guide to git</title>
-      <link>http://jasoneckert.github.io/myblog/a-simple-guide-to-git/</link>
+      <link>https://jasoneckert.github.io/myblog/a-simple-guide-to-git/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/a-simple-guide-to-git/</guid>
+      <guid>https://jasoneckert.github.io/myblog/a-simple-guide-to-git/</guid>
       <description>Simply put, Git is a version control system that can be used to keep track of the changes that you make to files over time - it allows you to revert files to a previous state, or see who made changes to a file at different times if several people are working the those files collaboratively.
 Git was original developed back in 2005 by Linus Torvalds (the creator of Linux) to aid in making changes to the Linux kernel, but has since become the most common open source version control system used today.</description>
     </item>
     
     <item>
       <title>Devops Demystified</title>
-      <link>http://jasoneckert.github.io/myblog/devops-demystified/</link>
+      <link>https://jasoneckert.github.io/myblog/devops-demystified/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/devops-demystified/</guid>
+      <guid>https://jasoneckert.github.io/myblog/devops-demystified/</guid>
       <description>Last week, my friend Scott Elliott did a great guest presentation at the college where he talked about, amongst other things, devops. Moreover, I’ve been involved myself in the setup and configuration of two software development workflows (which technically makes me a devop); one was in 2017 for a tech startup in Kitchener, and the other one was earlier this year for a much larger project at the University of Waterloo.</description>
     </item>
     
     <item>
       <title>Halt and Catch Fire</title>
-      <link>http://jasoneckert.github.io/myblog/halt-and-catch-fire/</link>
+      <link>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/halt-and-catch-fire/</guid>
+      <guid>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</guid>
       <description>Halt and Catch Fire is an AMC television series that ran for four seasons from 2014-2017, and covers the culture and pivotal aspects of the computing industry from 1983 (just after the release of the IBM PC) to 1994 (when the Internet and World Wide Web exploded).
 You can binge watch it on Netflix if you like today, and trust me - you won’t be disappointed! Halt and Catch Fire is the best drama I’ve ever seen - an emotional rollercoaster like no other.</description>
     </item>
     
     <item>
       <title>Lessons I&#39;ve learned from teaching 20 years of IT</title>
-      <link>http://jasoneckert.github.io/myblog/20-years-of-teaching-lessons-learned/</link>
+      <link>https://jasoneckert.github.io/myblog/20-years-of-teaching-lessons-learned/</link>
       <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/20-years-of-teaching-lessons-learned/</guid>
+      <guid>https://jasoneckert.github.io/myblog/20-years-of-teaching-lessons-learned/</guid>
       <description>I actually started teaching on April 13th 1998 (20 years ago today).
 It was my final year as a student at the University of Waterloo, and as I was finishing up writing my final exams I realized that I needed to actually go out and get a real job to support my family (I was married with a daughter at the time).
 Prior to that, I had worked on some very cool technology projects for various companies (including some big names like Microsoft, DEC and SUN), as well as worked for the University as a Web developer and sysadmin.</description>
@@ -165,58 +165,58 @@ Prior to that, I had worked on some very cool technology projects for various co
     
     <item>
       <title>The history of IT certification</title>
-      <link>http://jasoneckert.github.io/myblog/history-of-it-certification/</link>
+      <link>https://jasoneckert.github.io/myblog/history-of-it-certification/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/history-of-it-certification/</guid>
+      <guid>https://jasoneckert.github.io/myblog/history-of-it-certification/</guid>
       <description>Nearly everyone working in an Information Technology (IT) field has at least one IT-related certification. This is because IT certification is commonly used as a skills benchmark for hiring and promotion, and it’s been that way for a long, long time.
 So where did all this certification stuff start? If you look online, there isn’t even a Wikipedia page that can give you that answer - like many things in the technology world that predated the Internet, it just wasn’t important enough to keep track of in the Internet Age that started in the 1990s.</description>
     </item>
     
     <item>
       <title>macOS for Linux admins</title>
-      <link>http://jasoneckert.github.io/myblog/macos-for-linux-admins/</link>
+      <link>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</link>
       <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/macos-for-linux-admins/</guid>
+      <guid>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</guid>
       <description>As I mentioned in my CompTIA blog post All About Linux and Linux+ ( https://www.comptia.org/blog/all-about-linux-and-linux ), Linux is essentially an open-source UNIX operating system. And since nearly all of the concepts, commands and files are identical between UNIX and Linux, anyone who works with Linux could easily administer a UNIX system.
 Likewise, the macOS operating system that runs on Apple computers is also a flavor of UNIX. Thus, most of the concepts that you use when administering a Linux system are also applicable to macOS.</description>
     </item>
     
     <item>
       <title>PowerShell Essentials for SysAdmins</title>
-      <link>http://jasoneckert.github.io/myblog/powershell-essentials-for-sysadmins/</link>
+      <link>https://jasoneckert.github.io/myblog/powershell-essentials-for-sysadmins/</link>
       <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/powershell-essentials-for-sysadmins/</guid>
+      <guid>https://jasoneckert.github.io/myblog/powershell-essentials-for-sysadmins/</guid>
       <description>PowerShell is essentially a scripting language and shell (command prompt) that you can use on Windows systems. It’s basically Microsoft’s way of getting a powerful UNIX/Linux/Mac-like shell on the Windows platform (long overdue!). The first versions of PowerShell were pretty horrific, but it’s come a long way since then. PowerShell v4 and later is pretty decent (Win10 comes with PowerShell v5). Luckily, PowerShell v4 comes with Windows Server 2012, and since this post is geared towards sysadmins, I’ll focus everything on Windows Server 2012.</description>
     </item>
     
     <item>
       <title>Microsoft ReFS vs Oracle ZFS - FIGHT!</title>
-      <link>http://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</link>
+      <link>https://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</link>
       <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</guid>
+      <guid>https://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</guid>
       <description>In the past, most IT admins have put their faith in systems and SANs (Storage Area Networks) that use RAID (Redundant Array of Inexpensive Disks) technology. RAID can be used to combine hard disks together into simple volumes (called RAID-0, or JBOD) that aren’t fault tolerant, but can also be used to create mirrored volumes where both drives are identical in case one fails (called RAID-1), or striped volumes with parity where data is written across several disks with parity information that can be used to calculate the missing data if a drive fails (called RAID-5).</description>
     </item>
     
     <item>
       <title>The evolution of Information Technology</title>
-      <link>http://jasoneckert.github.io/myblog/evolution-of-info-tech/</link>
+      <link>https://jasoneckert.github.io/myblog/evolution-of-info-tech/</link>
       <pubDate>Wed, 07 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/evolution-of-info-tech/</guid>
+      <guid>https://jasoneckert.github.io/myblog/evolution-of-info-tech/</guid>
       <description>As a Dean for the technology faculties of a private college in Canada, I’m always looking to make our programs more aligned to the industry - my motto is: always look forward and never look back!
 However, when it comes to Information Technology (IT), I regularly find that the general perception of IT jobs is stuck in the past by at least a decade. I can’t tell you how many times I’ve met people who think that IT guys are stuck in the back closet of some company doing some menial job, such as re-soldering chips on a computer motherboard much like working on the engine of an old car.</description>
     </item>
     
     <item>
       <title>10 years of UserFriendly.org</title>
-      <link>http://jasoneckert.github.io/myblog/10-years-of-userfriendly/</link>
+      <link>https://jasoneckert.github.io/myblog/10-years-of-userfriendly/</link>
       <pubDate>Sun, 08 Mar 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/10-years-of-userfriendly/</guid>
+      <guid>https://jasoneckert.github.io/myblog/10-years-of-userfriendly/</guid>
       <description>I haven’t blogged for a while.
 This is partly because my daughter and I have been enjoying some major events in Toronto (Ontario Science Centre, ROM, shopping, more shopping, etc.), and not much has happened in the Geek world aside from the new Apple hardware updates and Firefox achieving 100% market share in Antarctica.
 However, the main reason I haven’t blogged is that I have been engrossed with reading the 10th Anniversary book from UserFriendly.</description>
@@ -224,30 +224,30 @@ However, the main reason I haven’t blogged is that I have been engrossed with 
     
     <item>
       <title>I created the Internet</title>
-      <link>http://jasoneckert.github.io/myblog/i-created-the-internet/</link>
+      <link>https://jasoneckert.github.io/myblog/i-created-the-internet/</link>
       <pubDate>Tue, 16 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/i-created-the-internet/</guid>
+      <guid>https://jasoneckert.github.io/myblog/i-created-the-internet/</guid>
       <description>Complete with blinking light! It&amp;rsquo;s amazing what you can make with a soldering iron and the spare electrical parts you have in your basement.
 If you are wondering what the heck I am talking about, just watch the BBC sitcom “The IT Crowd” Series 3 Episode 4.</description>
     </item>
     
     <item>
       <title>War Games shell scripting fun</title>
-      <link>http://jasoneckert.github.io/myblog/war-games-shell-scripting-fun/</link>
+      <link>https://jasoneckert.github.io/myblog/war-games-shell-scripting-fun/</link>
       <pubDate>Mon, 06 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/war-games-shell-scripting-fun/</guid>
+      <guid>https://jasoneckert.github.io/myblog/war-games-shell-scripting-fun/</guid>
       <description>While my daughter and I sat across from each other in Starbucks drinking coffee and PIN messaging each other in Leetspeak using our BlackBerries (yes, I realize how drastically nerdy this is), the thought occurred to us that a simple shell script could easily be used to simulate the War Operation Plan Response (WOPR) supercomputer from the movie War Games (1983).
 Anyways, we analyzed the frame-by-frame output from the movie and recreated the output on the Sun Enterprise 450 in my classroom running Red Hat Linux.</description>
     </item>
     
     <item>
       <title>How to please your IT department</title>
-      <link>http://jasoneckert.github.io/myblog/how-to-please-your-it-dept/</link>
+      <link>https://jasoneckert.github.io/myblog/how-to-please-your-it-dept/</link>
       <pubDate>Mon, 04 Aug 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/how-to-please-your-it-dept/</guid>
+      <guid>https://jasoneckert.github.io/myblog/how-to-please-your-it-dept/</guid>
       <description>When you call us to have your computer moved, be sure to leave it buried under half a ton of postcards, baby pictures, stuffed animals, dried flowers, bowling trophies and children’s art. We don’t have a life, and we find it deeply moving to catch a fleeting glimpse of yours.
   Don’t write anything down. Ever. We can play back the error messages from here.
   When an IT person says he’s coming right over, go for coffee.</description>
@@ -255,10 +255,10 @@ Anyways, we analyzed the frame-by-frame output from the movie and recreated the 
     
     <item>
       <title>5. Tech Slogans</title>
-      <link>http://jasoneckert.github.io/info/techslogans/</link>
+      <link>https://jasoneckert.github.io/info/techslogans/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/info/techslogans/</guid>
+      <guid>https://jasoneckert.github.io/info/techslogans/</guid>
       <description>Don&amp;rsquo;t Anthropomorphize computers. They hate that.
 I void warranties
 I read your email

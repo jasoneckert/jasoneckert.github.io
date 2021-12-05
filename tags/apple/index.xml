@@ -2,172 +2,172 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apple on Welcome to My Site!</title>
-    <link>http://jasoneckert.github.io/tags/apple/</link>
+    <link>https://jasoneckert.github.io/tags/apple/</link>
     <description>Recent content in Apple on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/apple/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing a fast Linux server on an M1-based Mac</title>
-      <link>http://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</link>
+      <link>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</guid>
+      <guid>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</guid>
       <description>One of the biggest worries that IT users have regarding Apple&amp;rsquo;s new ARM-based M1 platform is the ability to run virtual machines (VMs) of other operating systems using hypervisor software. And while it&amp;rsquo;s possible to run virtual machines of both Windows and Linux operating systems made for the Intel platform on the M1, the performance cost of translating Intel instructions to ARM is high (even with the optimizations Apple has within their M1 CPU).</description>
     </item>
     
     <item>
       <title>ARM on the desktop is here to stay</title>
-      <link>http://jasoneckert.github.io/myblog/arm-on-the-desktop/</link>
+      <link>https://jasoneckert.github.io/myblog/arm-on-the-desktop/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/arm-on-the-desktop/</guid>
+      <guid>https://jasoneckert.github.io/myblog/arm-on-the-desktop/</guid>
       <description>Back in the 1990s, Reduced Instruction Set Computing (RISC) architecture was widely seen as the future. UNIX workstations from Silicon Graphics and Sun Microsystems boasted powerful RISC CPUs at the time, but were prohibitively expensive and died out in the early 2000s as a result. Only the Acorn RISC Machine (ARM) architecture used in low-power devices (e.g. PDAs) survived past the early 2000s, and only because of the rise of mobile devices that relied on battery power.</description>
     </item>
     
     <item>
       <title>Copyleft is dying</title>
-      <link>http://jasoneckert.github.io/myblog/copyleft-is-dying/</link>
+      <link>https://jasoneckert.github.io/myblog/copyleft-is-dying/</link>
       <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/copyleft-is-dying/</guid>
+      <guid>https://jasoneckert.github.io/myblog/copyleft-is-dying/</guid>
       <description>Software licensing is the catalyst that drives the modern tech industry. This is because reusable software code released under an open source license (permitting its reuse) is the norm for nearly all software development today. After all, if we couldn&amp;rsquo;t reuse existing code in new software projects, it would take far longer to bring technologies to market, and the overall software industry wouldn&amp;rsquo;t be able to evolve as quickly. Moreover, there are two major types of open source licenses.</description>
     </item>
     
     <item>
       <title>Relating Silicon Valley to the Toronto-Waterloo Corridor</title>
-      <link>http://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</link>
+      <link>https://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</link>
       <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</guid>
+      <guid>https://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</guid>
       <description>Silicon Valley is an HBO comedy series that aired from 2014-2019. It follows a group of software engineers as they journey from creating their own apps in a home-based tech incubator in California&amp;rsquo;s Silicon Valley to creating a new decentralized Internet in their own venture capital-funded tech company.
 From the beginning, its creators (Mike Judge and Alec Berg) aimed to make the series an entertaining and accurate depiction of Silicon Valley tech culture, icons and events.</description>
     </item>
     
     <item>
       <title>The computer that saved Apple</title>
-      <link>http://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</link>
+      <link>https://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</guid>
       <description>The very first iMac model (shown above) was released in 1998, came in one colour called Bondi Blue, and had a semi-translucent case that allowed you to see the components inside. It had a 233MHz PowerPC G3 CPU, 32MB of RAM, CD-ROM drive, and shipped with MacOS 8.1 (soon upgraded to MacOS 9 - the last version before Apple moved to Mac OS X).
 While passing by a convenience store in my home town of Hespeler, I muttered in distaste when I noticed that someone had dumped a lot of furniture and various other household items next to the already-full dumpster at the back.</description>
     </item>
     
     <item>
       <title>A brief history of technology</title>
-      <link>http://jasoneckert.github.io/myblog/a-brief-history-of-technology/</link>
+      <link>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/a-brief-history-of-technology/</guid>
+      <guid>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</guid>
       <description>Technology is a crazy ride, and like that lyric in the Talking Heads song Once in a Lifetime, &amp;ldquo;&amp;hellip;you may ask yourself, well, how did I get here?&amp;rdquo;
 If that&amp;rsquo;s the case, you&amp;rsquo;re in luck, because this post is a no-nonsense, give-me-the-big-picture timeline of what the heck happened in the technology landscape these past 50 years. Of course, not every little detail is in there. Just those that are actually important (in my expert opinion, of course ;-) Enjoy!</description>
     </item>
     
     <item>
       <title>Most people don&#39;t want a computer</title>
-      <link>http://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</link>
+      <link>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</guid>
+      <guid>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</guid>
       <description>In the past few decades, people of all ages across North America have become technology-literate in some way or another. Many of them weren&amp;rsquo;t introduced to technology via desktop or laptop computers, but instead through a smartphone or tablet. Similarly, many desktop and laptop users have switched to using their smartphone or tablet over the past decade to interact with the online world.
 After all, smartphones and tablets are incredibly easy to use.</description>
     </item>
     
     <item>
       <title>Customizing macOS for development</title>
-      <link>http://jasoneckert.github.io/myblog/customizing-macos-for-development/</link>
+      <link>https://jasoneckert.github.io/myblog/customizing-macos-for-development/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/customizing-macos-for-development/</guid>
+      <guid>https://jasoneckert.github.io/myblog/customizing-macos-for-development/</guid>
       <description>So your boss gave you a Mac for development. Or maybe you bought a Mac to develop iOS apps. Or maybe you bought a MacBook because you need to develop software as well as look good at Starbucks (after the pandemic is over, of course).
 Unfortunately doing serious development using macOS is cumbersome at best. The Aqua desktop in macOS has few features or components geared towards developers. If you look over the shoulder of most Mac users, you’ll notice that their desktop looks like a very messy desk.</description>
     </item>
     
     <item>
       <title>Apple is regressing to their 1990s disposition</title>
-      <link>http://jasoneckert.github.io/myblog/apple-is-regressing-to-their-1990s-disposition/</link>
+      <link>https://jasoneckert.github.io/myblog/apple-is-regressing-to-their-1990s-disposition/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/apple-is-regressing-to-their-1990s-disposition/</guid>
+      <guid>https://jasoneckert.github.io/myblog/apple-is-regressing-to-their-1990s-disposition/</guid>
       <description>A friend of mine found himself working for a school in the mid 1990s, deploying a new lab of Apple Mac computers designed to teach graphic design. Before the deployment, he went to the technology decision-makers and told them that they could build a much faster lab for half the cost, since their Adobe software can also run on PC. He also noted that Macs play well with other proprietary Apple stuff, whereas PCs played well with most technologies and had a much longer useful lifetime due to upgradability.</description>
     </item>
     
     <item>
       <title>Cult of Mac Book</title>
-      <link>http://jasoneckert.github.io/myblog/cult-of-mac-book/</link>
+      <link>https://jasoneckert.github.io/myblog/cult-of-mac-book/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/cult-of-mac-book/</guid>
+      <guid>https://jasoneckert.github.io/myblog/cult-of-mac-book/</guid>
       <description>A few weeks ago, I was out at a social event with a bunch of guys and gals from the local Linux/UNIX/developer/IT community (contrary to popular opinion, Linux/UNIX people know how to party hard).
 At one point during the night, we were sitting at a round booth and poking fun at a total Apple fanboy in our group. Someone called him a “Cult of Mac member” and he replied, “And proud to be one - I could write the book on the cult!</description>
     </item>
     
     <item>
       <title>35th Anniversary of the Macintosh Computer</title>
-      <link>http://jasoneckert.github.io/myblog/35-anniversary-of-macintosh/</link>
+      <link>https://jasoneckert.github.io/myblog/35-anniversary-of-macintosh/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/35-anniversary-of-macintosh/</guid>
+      <guid>https://jasoneckert.github.io/myblog/35-anniversary-of-macintosh/</guid>
       <description>35 years ago today, Apple announced their Macintosh computer. What made the Macintosh radically different at the time was its graphical user interface (GUI) that was navigated using a mouse (mice were very uncommon in 1984!).
 The first Macintosh only had 128K of RAM and a Motorola 68000 CPU, but it was pretty snappy for the time. The picture at the top of this post is of my daughter next to an original Macintosh 128K (and yes, it still works).</description>
     </item>
     
     <item>
       <title>RIP PowerBook</title>
-      <link>http://jasoneckert.github.io/myblog/rip-powerbook/</link>
+      <link>https://jasoneckert.github.io/myblog/rip-powerbook/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/rip-powerbook/</guid>
+      <guid>https://jasoneckert.github.io/myblog/rip-powerbook/</guid>
       <description>I took the picture at the top of this post sitting in Starbucks recently with my trusty, 12-year-old PowerBook G4 laptop from Apple. Those sitting around me have no idea how ancient my laptop is - they probably see the glow from the Apple logo on the back and realize that it’s just another Apple laptop.
 But it’s more than just another laptop to me. It’s written over a dozen textbooks for various publishers, created countless curriculum documents for my college, and given well over a hundred presentations.</description>
     </item>
     
     <item>
       <title>The future of smartphones</title>
-      <link>http://jasoneckert.github.io/myblog/the-future-of-smartphones/</link>
+      <link>https://jasoneckert.github.io/myblog/the-future-of-smartphones/</link>
       <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/the-future-of-smartphones/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-future-of-smartphones/</guid>
       <description>As you can see from the picture at the top of this post, last week BlackBerry’s smartphone market share fell to 0% in the global marketplace. In all fairness, this number reflects the number of devices running BlackBerry OS (not the number of BlackBerry-branded Android devices, which together with all other Android devices, comprise 82% of the market).
 If you think back to 2007, BlackBerry pretty much owned the smartphone world that they created - they were too big to fail, and too proud to accept that Apple and Google could eat their cake.</description>
     </item>
     
     <item>
       <title>An evening with The Woz</title>
-      <link>http://jasoneckert.github.io/myblog/an-evening-with-the-woz/</link>
+      <link>https://jasoneckert.github.io/myblog/an-evening-with-the-woz/</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/an-evening-with-the-woz/</guid>
+      <guid>https://jasoneckert.github.io/myblog/an-evening-with-the-woz/</guid>
       <description>I specifically attended yesterday’s Fuzenation Technology &amp;amp; Music Summit in Kitchener, Ontario to hear Steve Wozniak (a.k.a. The Woz) speak.
 In short, he’s the co-founder of Apple, and the engineer who created the Apple I and Apple II computers. The Apple II was the first successful, mass-produced personal computer, and as the Woz points out, the “first one that could play arcade games in full colour” (I still have an Apple II that I use to play arcade games like Donkey Kong).</description>
     </item>
     
     <item>
       <title>The dawn of personal computing</title>
-      <link>http://jasoneckert.github.io/myblog/dawn-of-personal-computing/</link>
+      <link>https://jasoneckert.github.io/myblog/dawn-of-personal-computing/</link>
       <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/dawn-of-personal-computing/</guid>
+      <guid>https://jasoneckert.github.io/myblog/dawn-of-personal-computing/</guid>
       <description>If you know me, or have read various sections of my website, you’ll know that I am a die hard member of the computing industry that also likes to collect vintage computers (this is actually quite common - you’d be surprised how many of my colleagues do the same).
 Yesterday, I managed to find a very interesting canvas painting in Toronto (the picture at the top of this post), and just HAD to have it.</description>
     </item>
     
     <item>
       <title>Some NeXT level stuff</title>
-      <link>http://jasoneckert.github.io/myblog/some-next-level-stuff/</link>
+      <link>https://jasoneckert.github.io/myblog/some-next-level-stuff/</link>
       <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/some-next-level-stuff/</guid>
+      <guid>https://jasoneckert.github.io/myblog/some-next-level-stuff/</guid>
       <description>1. What is NeXT? (pun intended) NeXT was the computer company that Steve Jobs (co-founder of Apple) created after he got kicked out of Apple in the 1980s. They made high-end UNIX workstations that were intended to rival Apple computers, and primarily targeted for the higher education and science/engineering markets. However, they were not as successful as their competitors in this market and when Steve Jobs returned to Apple in 1997, he ensured that Apple purchased NeXT.</description>
     </item>
     
     <item>
       <title>Breathe new life into an old PowerBook G4 using Linux</title>
-      <link>http://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
+      <link>https://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
+      <guid>https://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
       <description>So what do you do when you have an old PowerBook that still works but can’t run the latest operating system (OS) and software? Well, you could sell it - but it won&amp;rsquo;t fetch much at all (less than $50 in most cases).
 A better option is to install a currently-supported OS that runs really well on limited hardware&amp;hellip;&amp;hellip;.in other words, install Linux on it!
 I recently installed the latest version of Debian Linux on my PowerBook G4 to make it useful again.</description>
@@ -175,39 +175,39 @@ I recently installed the latest version of Debian Linux on my PowerBook G4 to ma
     
     <item>
       <title>The fastest computer I have ever owned!</title>
-      <link>http://jasoneckert.github.io/myblog/the-fastest-computer-i-have-ever-owned/</link>
+      <link>https://jasoneckert.github.io/myblog/the-fastest-computer-i-have-ever-owned/</link>
       <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/the-fastest-computer-i-have-ever-owned/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-fastest-computer-i-have-ever-owned/</guid>
       <description>I know it’s been a while since I’ve blogged last&amp;hellip;.I’ve just been incredibly busy. This past month, I’ve been teaching a video game class at the college, writing the 4th edition of my Linux+ book for Cengage on an accelerated schedule, and managing four technology faculties&amp;hellip;&amp;hellip;all at the same time!
 But today, I got a new computer: A Mac Pro (the higher end 6-core Xeon model with dual AMD FirePro D500s).</description>
     </item>
     
     <item>
       <title>2011 in review</title>
-      <link>http://jasoneckert.github.io/myblog/2011-in-review/</link>
+      <link>https://jasoneckert.github.io/myblog/2011-in-review/</link>
       <pubDate>Fri, 30 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/2011-in-review/</guid>
+      <guid>https://jasoneckert.github.io/myblog/2011-in-review/</guid>
       <description>Personal/Work-Related Events:   I started my new job of Dean of Technology in January. Basically twice the work but the same money. Most of the time it’s a thankless job (because you have to deal with complaints and bitching from everyone), but there is the odd job perk such as flex time and attending social events and conferences. I think the best part is that my official job description has a section that requires that I possess Strong communications skills (fluent in English &amp;amp; Klingon), as well as excellent interpersonal, analytical, strategic, conflict resolution, management, and organizational skills (this is what happens when non-geek HR people ask you for feedback in creating your job description).</description>
     </item>
     
     <item>
       <title>Are you a Mac or a PC?</title>
-      <link>http://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</link>
+      <link>https://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</link>
       <pubDate>Thu, 13 Mar 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</guid>
+      <guid>https://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</guid>
       <description>If you are ultra-Mac, you prefer to use an aesthetic computer that “just works” - as a result, you are usually sexy, artistic and cool.
 If you are ultra-PC, you prefer to use a clunky un-aesthetic computer that is difficult to use, crashes often, is a virus hell, yet is guaranteed to work with any piece of hardware with a software driver written by a 10-year-old boy in a barn in China - as a result, you are nerdy, cheap and non-cool.</description>
     </item>
     
     <item>
       <title>The end of 2007</title>
-      <link>http://jasoneckert.github.io/myblog/the-end-of-2007/</link>
+      <link>https://jasoneckert.github.io/myblog/the-end-of-2007/</link>
       <pubDate>Mon, 31 Dec 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/the-end-of-2007/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-end-of-2007/</guid>
       <description>It has truly been an exciting year, and I wish to take a few moments to reflect on some of the most important events of 2007 in geekdom:
   Halo 3 being released (I love that game)
   Microsoft pissing off millions with Vista
@@ -217,19 +217,19 @@ If you are ultra-PC, you prefer to use a clunky un-aesthetic computer that is di
     
     <item>
       <title>Thank you, Apple</title>
-      <link>http://jasoneckert.github.io/myblog/thankyou-apple/</link>
+      <link>https://jasoneckert.github.io/myblog/thankyou-apple/</link>
       <pubDate>Sat, 27 Oct 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/thankyou-apple/</guid>
+      <guid>https://jasoneckert.github.io/myblog/thankyou-apple/</guid>
       <description>I installed Macintosh OS X 10.5 Leopard on all my Macs today. When you upgrade an OS, you always expect to lose some system settings and have some applications that don’t like the new OS. As a result, I chose to install Leopard on my PowerBook G4 first. It has tons of software and I customized it to the max, so I naturally expected to spend a while tweaking it after the upgrade to get an idea of what I can expect when I upgrade my other computers.</description>
     </item>
     
     <item>
       <title>When Marketing chooses the cover</title>
-      <link>http://jasoneckert.github.io/myblog/when-marketing-chooses-the-cover/</link>
+      <link>https://jasoneckert.github.io/myblog/when-marketing-chooses-the-cover/</link>
       <pubDate>Thu, 26 Jul 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/when-marketing-chooses-the-cover/</guid>
+      <guid>https://jasoneckert.github.io/myblog/when-marketing-chooses-the-cover/</guid>
       <description>I saw this book a short while ago at Chapters (book store chain in Canada). What caught my eye was the humour on the front cover!
 This book is on how to secure your PC using Computer Associates Internet Security software (with a Windows Vista update!). However, the laptop that the lady on the cover is using is a MacBook!
 Currently, there are no known viruses or spyware for Macs! But I definitely agree with the subliminal advertising on the cover of this book: Simple Computer Security&amp;hellip;&amp;hellip;buy a Mac!</description>
@@ -237,57 +237,57 @@ Currently, there are no known viruses or spyware for Macs! But I definitely agre
     
     <item>
       <title>eMac family photo frame</title>
-      <link>http://jasoneckert.github.io/myblog/emac-family-photo-frame/</link>
+      <link>https://jasoneckert.github.io/myblog/emac-family-photo-frame/</link>
       <pubDate>Sun, 15 Jul 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/emac-family-photo-frame/</guid>
+      <guid>https://jasoneckert.github.io/myblog/emac-family-photo-frame/</guid>
       <description>Sometimes, you just do things that bring out the geek within&amp;hellip;&amp;hellip;well&amp;hellip;&amp;hellip;today is one of those days. Guess what you can do with the front bezel of an Apple eMac? Make a family photo frame!
 Simply find a piece of glass that is 14”x11” and place it on the inside of the bezel. Next, place your picture on the glass (preferably with a nice thick matting to add depth) and screw a 15”x12” piece of pressboard into the existing screw holes on the inside of the bezel and you will have a portrait that geeks will immediately notice when they enter your rec room.</description>
     </item>
     
     <item>
       <title>iPhone first impressions</title>
-      <link>http://jasoneckert.github.io/myblog/iphone-first-impressions/</link>
+      <link>https://jasoneckert.github.io/myblog/iphone-first-impressions/</link>
       <pubDate>Sat, 30 Jun 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/iphone-first-impressions/</guid>
+      <guid>https://jasoneckert.github.io/myblog/iphone-first-impressions/</guid>
       <description>The iPhone went on sale in the US yesterday. And yes, for the past several months since its introduction, I wanted one badly&amp;hellip;..but after hearing from those who have one, I am not so upset now that the iPhone is not available in Canada until later this year.
 Basically, those who have one say that it “feels like a 1.0 device”, which it is. It uses the old EDGE service rather than new and fast 3G Mobile service in order to save battery power (Apple rationalizes that most will use the iPhone’s WiFi to browse the Internet instead).</description>
     </item>
     
     <item>
       <title>iThink therefore iMac</title>
-      <link>http://jasoneckert.github.io/myblog/ithink-therefore-imac/</link>
+      <link>https://jasoneckert.github.io/myblog/ithink-therefore-imac/</link>
       <pubDate>Wed, 22 Nov 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/ithink-therefore-imac/</guid>
+      <guid>https://jasoneckert.github.io/myblog/ithink-therefore-imac/</guid>
       <description>The old expression “Mac users usually swear by their computers&amp;hellip;..Windows users typically swear at their computers” got to me last week when my instructor computer’s Windows desktop and applications froze 3 times at the beginning of class. As a result, my Terminal Services connection (that I use to record daily quiz marks) was destroyed each time. So I brought an old iMac G3 with OS X Tiger into my classroom this week and put it on a switch box so that I can use it to record marks across Terminal Services (OS X doesn’t crash) while keeping my instructor computer free for classroom use.</description>
     </item>
     
     <item>
       <title>Computer evolution</title>
-      <link>http://jasoneckert.github.io/myblog/computer-evolution/</link>
+      <link>https://jasoneckert.github.io/myblog/computer-evolution/</link>
       <pubDate>Fri, 27 Jan 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/computer-evolution/</guid>
+      <guid>https://jasoneckert.github.io/myblog/computer-evolution/</guid>
       <description>OK - so Apple released the new Intel Macs this month and shocked everyone with their amazing speed improvements. But what I noticed is that Apple didn’t create a whole new look for them - essentially, the new line is in the same beautiful package as the iMac G5 and PowerBook. These designs must be very good if Apple is going to stick with them, and as a result, are key turning points in Mac evolution.</description>
     </item>
     
     <item>
       <title>Old Macs never die</title>
-      <link>http://jasoneckert.github.io/myblog/old-macs-never-die/</link>
+      <link>https://jasoneckert.github.io/myblog/old-macs-never-die/</link>
       <pubDate>Wed, 18 Aug 2004 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/old-macs-never-die/</guid>
+      <guid>https://jasoneckert.github.io/myblog/old-macs-never-die/</guid>
       <description>We just came back from the Ontario Science Centre today. While my daughter checked out the educational exhibits (obviously learning important information), I was more impressed by the fact that some exhibits that haven&amp;rsquo;t changed for several years are still powered by Mac Classics! And to boot, the exhibits were still pretty damn good with those old computers.</description>
     </item>
     
     <item>
       <title>2. Retro Computers</title>
-      <link>http://jasoneckert.github.io/info/retrocomputers/</link>
+      <link>https://jasoneckert.github.io/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/info/retrocomputers/</guid>
+      <guid>https://jasoneckert.github.io/info/retrocomputers/</guid>
       <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
     </item>
     

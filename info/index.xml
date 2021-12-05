@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech Stuff on Welcome to My Site!</title>
-    <link>http://jasoneckert.github.io/info/</link>
+    <link>https://jasoneckert.github.io/info/</link>
     <description>Recent content in Tech Stuff on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Operating Systems</title>
-      <link>http://jasoneckert.github.io/info/operatingsystems/</link>
+      <link>https://jasoneckert.github.io/info/operatingsystems/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/info/operatingsystems/</guid>
+      <guid>https://jasoneckert.github.io/info/operatingsystems/</guid>
       <description>UNIX UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX.</description>
     </item>
     
     <item>
       <title>2. Retro Computers</title>
-      <link>http://jasoneckert.github.io/info/retrocomputers/</link>
+      <link>https://jasoneckert.github.io/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/info/retrocomputers/</guid>
+      <guid>https://jasoneckert.github.io/info/retrocomputers/</guid>
       <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
     </item>
     
     <item>
       <title>3. Arcade Games</title>
-      <link>http://jasoneckert.github.io/info/arcadegames/</link>
+      <link>https://jasoneckert.github.io/info/arcadegames/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/info/arcadegames/</guid>
+      <guid>https://jasoneckert.github.io/info/arcadegames/</guid>
       <description>Growing up in the 80s was awesome! One of the best things about growing up in the 80s for me was that I developed a love of video games. I loved spending time at the arcade playing the classics like Tempest, Missile Command and Galaga. At home, we had an Atari 2600 and later a Nintendo NES. I loved it all.
 In recent years, I purchased my absolute favourite arcade games of all time&amp;hellip;.</description>
     </item>
     
     <item>
       <title>4. Tech Flicks</title>
-      <link>http://jasoneckert.github.io/info/techflicks/</link>
+      <link>https://jasoneckert.github.io/info/techflicks/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/info/techflicks/</guid>
+      <guid>https://jasoneckert.github.io/info/techflicks/</guid>
       <description>100 Yen: The Japanese Arcade Experience (2012)
 2001: Space Odyssey (1968)
 8 Bit Generation: The Commodore Wars (2016)
@@ -59,10 +59,10 @@ Funspot: A Small Documentary on the World&amp;rsquo;s Largest Video Game Arcade 
     
     <item>
       <title>5. Tech Slogans</title>
-      <link>http://jasoneckert.github.io/info/techslogans/</link>
+      <link>https://jasoneckert.github.io/info/techslogans/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/info/techslogans/</guid>
+      <guid>https://jasoneckert.github.io/info/techslogans/</guid>
       <description>Don&amp;rsquo;t Anthropomorphize computers. They hate that.
 I void warranties
 I read your email

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SGI on Welcome to My Site!</title>
-    <link>http://jasoneckert.github.io/tags/sgi/</link>
+    <link>https://jasoneckert.github.io/tags/sgi/</link>
     <description>Recent content in SGI on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="http://jasoneckert.github.io/tags/sgi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/sgi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Impressed by a 10 year old desktop computer</title>
-      <link>http://jasoneckert.github.io/myblog/impressed-by-a-10-year-old-desktop/</link>
+      <link>https://jasoneckert.github.io/myblog/impressed-by-a-10-year-old-desktop/</link>
       <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/impressed-by-a-10-year-old-desktop/</guid>
+      <guid>https://jasoneckert.github.io/myblog/impressed-by-a-10-year-old-desktop/</guid>
       <description>Long story short, I scored a free SGI Fuel computer along with the SGI Origin 300 computer I described two posts ago.
 But the SGI Fuel is a much more “usable” computer because it is a powerful single-processor graphical desktop computer (what Silicon Graphics was best known for).
 Here is what it comes with:
@@ -21,10 +21,10 @@ Here is what it comes with:
     
     <item>
       <title>The death of SGI</title>
-      <link>http://jasoneckert.github.io/myblog/the-death-of-sgi/</link>
+      <link>https://jasoneckert.github.io/myblog/the-death-of-sgi/</link>
       <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/myblog/the-death-of-sgi/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-death-of-sgi/</guid>
       <description>Today is definitely a sad day - SGI announced their bankruptcy.
 SGI was once a great company - in the 1990s, they made the best computers ever, such as the Indigo2, O2, and Octane. The cases and designs looked awesome, and they had amazingly fast 64-bit MIPS RISC CPUs and stellar video cards! Plus, they made an excellent graphical UNIX operating system: IRIX.
 Although I am a Mac OS X UNIX user now, IRIX will always be my favourite UNIX.</description>
@@ -32,10 +32,10 @@ Although I am a Mac OS X UNIX user now, IRIX will always be my favourite UNIX.</
     
     <item>
       <title>2. Retro Computers</title>
-      <link>http://jasoneckert.github.io/info/retrocomputers/</link>
+      <link>https://jasoneckert.github.io/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>http://jasoneckert.github.io/info/retrocomputers/</guid>
+      <guid>https://jasoneckert.github.io/info/retrocomputers/</guid>
       <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
     </item>
     
