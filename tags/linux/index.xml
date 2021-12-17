@@ -6,7 +6,16 @@
     <description>Recent content in Linux on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Quickstart</title>
+      <link>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</guid>
+      <description>In the IT world, we&amp;rsquo;ve shifted from running servers bare metal to running them almost exclusively within virtual machines (VMs). More recently we&amp;rsquo;ve seen another shift to running servers within containers. Like VMs, containers are servers that contain a unique filesystem, IP stack and software. But unlike VMs, containers do not contain a full operating system or operating system kernel. Instead they rely on an underlying operating system that runs the container using a container runtime, such as Docker.</description>
+    </item>
+    
     <item>
       <title>Installing a fast Linux server on an M1-based Mac</title>
       <link>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</link>
