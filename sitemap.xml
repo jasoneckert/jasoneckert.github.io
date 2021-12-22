@@ -2,25 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jasoneckert.github.io/tags/apple/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+    <loc>https://jasoneckert.github.io/myblog/2021-in-review/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/development/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/internet/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/it/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/programming/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/web/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/apple/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</loc>
@@ -32,19 +47,7 @@
     <loc>https://jasoneckert.github.io/tags/macos/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/programming/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/tags/unix/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/web/</loc>
-    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</loc>

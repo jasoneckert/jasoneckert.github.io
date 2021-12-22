@@ -6,7 +6,16 @@
     <description>Recent content in tech on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021 in Review</title>
+      <link>https://jasoneckert.github.io/myblog/2021-in-review/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/2021-in-review/</guid>
+      <description>While 2020 introduced a slew of changes to everyone&amp;rsquo;s personal and professional lives, these changes were considerably less pronounced for those of us working in tech fields. Nearly all software engineering and server/cloud configuration was performed remotely before the pandemic, and remote communication tools/processes for tech workers were already the norm. Adapting to online tech teaching in the college was a welcome challenge, and also more relevant for the industry.</description>
+    </item>
+    
     <item>
       <title>Kubernetes Quickstart</title>
       <link>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</link>
