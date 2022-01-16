@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Understanding the Cult of Mac
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2022-01-15</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+54 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/apple"
+      title="tags"
+    >Apple</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/macos"
+      title="tags"
+    >macOS</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="cultofmac.jpg#right" alt="Cult of Mac" title="Cult of Mac"></p>
+<p>Exactly 3 years ago, I wrote a non-fiction work of satire called <em><strong>Escaping the Cult of Mac: A Guide from a Cult Survivor</strong></em> to win a bet with some members of the local tech community in Kitchener-Waterloo. It was incredibly fun, and it got plenty of laughs. A friend recently requested I do up a shorter, safe-for-work version that could easily be shared. And this blog post is essentially that!</p>
+<h1 id="table-of-contents">Table of Contents:</h1>
+<ol>
+<li>Introduction</li>
+<li>Acquiring context: A brief history of personal computers and Apple</li>
+<li>Defining the cult: What’s it all about?</li>
+<li>Psychology, fake ideals and influencers: Why people join the cult</li>
+<li>Cult evangelism: Keeping you in the cult</li>
+<li>Leaving the cult: The why and how</li>
+<li>Final thoughts</li>
+<li>Additional reading</li>
+</ol>
+<h1 id="1-introduction">1. Introduction</h1>
+<p>I pulled my hood tighter over my head and blew hot air into my frozen hands before stuffing them back into my pockets for warmth. “Only one more hour,” I reminded myself as I looked back to see that the line in front of the Best Buy had already wrapped around the building. The two guys in front of me looked to be in their mid-twenties and were unphased by the cold; they were constantly chattering about the two games they were waiting to pick up during the Boxing Day sale.
+<img src="emac.jpg#right" alt="eMac" title="eMac"></p>
+<p>A few minutes later, a lady from Best Buy came down the line with a clipboard and slips, asking each person what Boxing Day exclusives they were waiting for, and giving out slips that guaranteed them one if they were lucky enough to arrive early. I heard some sighs further up the line as the last 46&quot; Plasma TV was spoken for. The two guys in front of me were able to procure a slip that guaranteed them their games, but the lady said they were fairly close to the cut-off point. I was next. It took the lady quite some time to find the right slip when I replied “the eMac for $999,” and I got the clear impression that I was the first (and maybe only) person in line waiting for that particular item.</p>
+<p>In retrospect, it made perfect sense. It was 2004 and Apple computers were considered an unusual staple to have in any store. Best Buy in Canada had only recently started carrying them, and would stop carrying non-iPod-related Apple products the following year due to poor sales. But for me, it was my entry into the modern Apple world for the first time, and at a price I could afford.</p>
+<p>Of course, I had used Apple computers previously, but I had never owned one. My grade school had a few Apple II computers in the library that we used when the Commodore 64 lab was full, and my high school had a few Macintosh II and Macintosh SE computers scattered amongst the plethora of IBM PCs and Unisys ICONs.</p>
+<p>However, by the early 1990s, Apple Macintosh computers (commonly referred to as <em><strong>Macs</strong></em> by then) were widely considered inferior to IBM and IBM-compatible PCs (commonly referred to as <em><strong>PCs</strong></em> by then). The Macintosh LC computers in two of the computer science lab rooms at my undergraduate university were frequently the subject of conjecture – we called them <em><strong>beige toasters</strong></em> because they were beige in color and about as powerful as a toaster. It didn’t help that the antiquated Mac OS they ran was feature-limited, temperamental, and had a very limited software library compared to the other Windows and UNIX systems at the university.</p>
+<p>By the mid-1990s, Apple was in serious financial trouble. But after the return of their co-founder Steve Jobs in 1997, and a bit of cash infusion from Microsoft, they were back in the black and selling underpowered all-in-one iMac computers that could connect to the Internet using the same temperamental Mac OS that was used on previous Macintosh computers. While the iMac allowed many novice and elderly users to access the Internet for the first time, it was barely noticed by anyone who worked in technology fields, myself included.</p>
+<p>But that changed in 2003, when a student of mine showed me their new PowerBook G4 laptop running an entirely new operating system called Mac OS X. Not only was the hardware and build quality of the PowerBook G4 admirable (the PowerPC G4 CPU was quite powerful at the time), but the operating system was incredibly fast, and based on the NeXTSTEP UNIX operating system I used heavily in the mid-1990s to do object-oriented programming at university. Apple simply re-skinned NeXTSTEP UNIX to create Mac OS X, which meant that I could compile and run nearly any UNIX software on it. Cool.</p>
+<p>The price, however, was not so cool. At well over $3000 CDN, it was four times the cost of a more powerful, high-end PC that I could build at the time. But when the low-end eMac went on sale for $999 the following year, I took the plunge and got up at 4:00am on Boxing Day to secure one by waiting in line in the freezing cold… like an idiot.</p>
+<p>It took me less than a few weeks of holiday vacation to master the graphical desktop and UNIX underpinnings of the NeXTSTEP-based Mac OS X operating system. In my spare time during the next month, I even managed to write a device driver that allowed me to use my daughter’s USB microscope with Mac OS X.</p>
+<p>Mac OS X quickly became my favorite UNIX OS. Then fate happened. In the same building that housed our college campus, an Apple reseller called Carbon Computing opened up shop. I remember telling my students, “If you ever see me walking into that store, tackle me to the ground. Kick me in the crotch if you have to. Just don’t let me spend money in that store.” It didn’t work, of course. I wore a cup.</p>
+<p>It wasn’t long before I had an iMac G5 and a 12” Aluminum PowerBook G4 (the last model before Apple switched to Intel CPUs). Later, I moved to a 2013 Mac Pro with a cylindrical case and powerful Intel Xeon CPU (still my favorite computer of all time). Today, I use a 16” MacBook Pro with 64GB of RAM, 8TB NVMe SSD and 8-core Core i9-9980HK CPU running macOS and Windows 10. It runs my containers and virtual machines, my development tools, and my producitivity software.</p>
+<p>In short, the eMac eventually turned me into an Apple fanatic, a member of the infamous Cult of Mac. I put Apple decals on my cars and watched every new product announcement like a crazed soccer fan. I started collecting vintage Apple computers (in addition to other vintage computers), and I read every single book available on Apple history. I spoke about how great Mac OS X and Apple hardware was to anyone who listened. I pitied non-Mac users and felt a natural bond to other Mac users. Every time I visited a new city, I’d visit the local Apple and/or Apple reseller stores so that I could talk with like-minded Apple worshipers. I was featured in MacWorld magazine for an eMac photo frame that I created, and people often joked that I named my daughter Mac after Apple Mac computers (this was untrue of course – my daughter decided to call herself Mac because Mackenzie was too long).</p>
+<p>Over a decade later, I find myself looking back at that time with great embarrassment. It’s like seeing an old VHS video of you dancing to <em><strong>Wake me up before you go-go</strong></em> by <em><strong>Wham!</strong></em> while wearing a Michael Jackson glove and sporting a mullet.</p>
+<p>Today, Apple has grown to become the largest consumer technology device company in the world, thanks primarily to the success of the iPhone, the iPad, and their profit-focused, BMW-style pricing model. The Apple logo is seen as a trendy status symbol for those that can afford it, and the Cult of Mac is bigger than ever before.</p>
+<p>Mac OS X is now called macOS, and Apple has been systematically locking it down since 2014 by eliminating open standards and software components and replacing them with their own proprietary versions. These changes were certainly not for security reasons – the number of serious (or <em><strong>zero-day</strong></em>) exploits in macOS and iOS has skyrocketed in recent years, and even with some bad press, the average Cult of Mac member believes that they are safe. Mac hardware also had a slew of quality and performance issues in the late 2010s. The butterfly keyboard used on Mac laptops between 2015 and 2019 is a good example - it was arguably one of the worst keyboards ever produced (and keyboards are very important for laptop users). It took a tremendous amount of bad press, customer complaints, lawsuits and mass recalls before Apple changed it. And while Apple attributes the high failure rate of this keyboard to dust entering the keys, several hardware experts have proved that it was just a bad design.</p>
+<p>Before Apple’s recent switch to their own ARM-based platform, Macs were just slower than the equivalent Intel-based PC because Apple capped the performance of many components to reduce heat. During most of the 2010s, tech geeks saw Macs as the overpriced, underpowered, Beats by Dr. Dre laptop used by hipsters to get dates at Starbucks. To the Apple-faithful, however, they were infallible.</p>
+<p>Apple has always wanted to control their whole ecosystem, because it makes it difficult for customers to buy non-Apple products for fear of incompatibility with existing Apple products. And while they’ve been moving in this direction with macOS since 2014, in 2020 they expanded this to the hardware side by replacing the Intel CPUs in their computer line with a custom ARM-based System on a Chip (SoC) version called the M1 so that they have complete control of their ecosystem. To Apple’s credit, however, the M1 has incredible performance for general-purpose computing tasks due to good design alongside low latency between CPU, graphics, memory, and storage. And even more surprising to those of us in the tech industry, Apple actually listened to their customer base and reintroduced useful hardware features (e.g., useful ports on the MacBook) they previously removed to make their products more aesthetic.</p>
+<p>Through a series of disenchanting experiences, I was fortunate enough to escape the Cult of Mac with my sanity over the last decade, and continue to maintain a healthy relationship with technology and technology brands, including Apple, without bias or perversion. I’m able to say “the iPad is my favorite tablet for X reasons” or “macOS is hot garbage for X reasons” without a feeling like I’m biased towards or against a certain brand. Since I’m no longer a Cult of Mac member, I’m not committing blasphemy if I say something bad about Apple.</p>
+<p>While not perfect by any stretch of the imagination, macOS is a decent operating system for many tasks, and is currently used by many people today to do meaningful work. Like many tech companies, Apple has a few decent technology products on the market, as well as some absolutely terrible ones.</p>
+<p>But Apple doesn’t want you to see terrible products for what they are. In fact, Apple doesn’t want to sell you a product at all. They want to sell you their brand, and have you believe in that brand above all else. Apple’s brand evangelism is not only good for business, it’s been their corporate strategy since the 1970s, and they’re incredibly good at it. Apple tries very hard to make you a cult member, so that they can freely abuse your trust, while profiting in the process. In a Wired article, Ziff Davis editor Matthew Rothenberg put it plainly: &ldquo;It&rsquo;s like a B&amp;D (bondage and dominance) relationship. There needs to a psychosexual analysis of the Mac community.&rdquo;</p>
+<p>Before we dive into the <em><strong>what</strong></em>, <em><strong>why</strong></em> and <em><strong>how</strong></em> of the Cult, let&rsquo;s explore the history of Apple to give us context.</p>
+<h1 id="2-acquiring-context-a-brief-history-of-personal-computers-and-apple">2. Acquiring context: A brief history of personal computers and Apple</h1>
+<p>Personal computing began in the 1970s. Nearly all computers in the early 1970s were either large mainframe computers used primarily for business, or minicomputers that had a wide variety of uses in business, education, science and engineering. Minicomputers, however, were anything but mini – they were quite massive, incredibly expensive, and not something you’d see in someone’s home. They were smaller than mainframe computers, but certainly not personal computers (PCs).</p>
+<p>By the mid-1970s, computer memory (also called Random Access Memory, or RAM) started to come down in price, and inexpensive all-in-one computer processing units that could perform most computer functions on a single computer chip started appearing on the market for the first time, including the Intel 8080, Motorola 6800, and MOS 6502. These microprocessors (also called Central Processing Units, or CPUs) are what allowed computer manufacturers to create inexpensive PCs during the late 1970s.</p>
+<p>So, what was the first PC? That’s difficult to answer, since many companies started making PCs as soon as microprocessors became available. Some companies sold computer kits that needed to be assembled by someone with soldering ability, while others produced polished commercial products. It’s more accurate to say there were several companies in the late 1970s that brought PCs to market, including MITS, IMSAI, Tandy Radio Shack (TRS), Commodore, Atari, and Apple Computer.
+<img src="appleii.jpg#right" alt="Apple II" title="Apple II"></p>
+<p>The Apple II computer from 1977 was Apple Computer’s first commercial product. Yes, there was an Apple I, but it was simply a computer kit that Steve Wozniak built to demonstrate his ability to build a computer to his fellow computer hobbyists.</p>
+<p>So, who is Steve Wozniak? Steve Wozniak (often called “the Woz”) is the co-founder of Apple Computer, and the technical genius who designed the Apple I – a computer he later refined and improved to create the Apple II. The other Steve that you normally hear about in Apple-related press today (Steve Jobs) was Steve Wozniak’s friend who had just enough technical knowledge to be a sales guy. Thus, Apple Computer was founded by two Steves (a third founder, Ronald Wayne, left two weeks afterwards and never contributed to the success of Apple Computer).</p>
+<p>Unfortunately, neither Steve had the money to start a successful computer company. That’s where multimillionaire Mike Markkula comes into the picture. Markkula was an experienced businessman who invested $250,000 into Apple Computer and drove the business side of things to make it successful. His strategy was to price the Apple II well above the competition at the time, thus providing a larger profit margin. This profit margin allowed Apple Computer to spend a lot more on marketing and cosmetic features like the computer case. Markkula thought that people would be willing to spend more for a computer if it looked good and was marketed aggressively.</p>
+<p>The Apple II boasted a very sturdy build, multiple expansion ports, and the ability to output color text to the video display. The ability to display color was not common in early PCs of the 1970s. As a result, Apple Computer chose a rainbow logo to advertise the color capabilities of the Apple II.</p>
+<p>Together with an aggressive marketing strategy, the Apple II made its way into nearly every industry in a short period of time. The Visicalc spreadsheet program made the Apple II a great business tool, its ease of use made it extremely popular in the school system, and its BASIC interpreter and easy expandability made it famous with hackers, engineers, scientists, and mathematicians.</p>
+<p>While the Apple II was a great PC, it was also very expensive compared to other PCs at the time. It enjoyed success in business, libraries, and schools, but few families could afford one. In fact, I didn’t know anyone in the 1970s or 1980s that had an Apple II at home. However, I can rhyme off over a hundred people I knew during that time who had a family Commodore, TRS, or Atari computer.</p>
+<p>The Apple II was Apple Computer’s bread and butter for well over a decade. Its early success led to a massive library of available software programs on the market, and this in turn gave the Apple II a very long lifespan. In fact, Apple IIs were manufactured and sold from 1977 to 1993.<br>
+<img src="mac128k.jpg#right" alt="Mac 128k" title="Mac 128k"></p>
+<p>After viewing the latest graphical technology at the Palo Alto Research Center (PARC), Apple Computer focused much of its R&amp;D on creating a computer that had a mouse and Graphical User Interface (GUI).  The first attempt at this was the Apple Lisa in 1983 (later renamed the Macintosh XL), which used the advanced Motorola 68000 CPU.  Due to its high cost ($10,000 US) and sparse software support, the Lisa was a commercial failure. During the creation of the Apple Lisa, Steve Jobs led a secret research team off company premises that eventually led to the creation of the Macintosh computer in 1984.  In addition to having a faster Motorola 68000 CPU than the Apple Lisa, the Macintosh shipped with Mac OS, which had a GUI desktop similar to the desktop you’d find on modern OSes today. It was quite revolutionary at the time it was introduced. Since Steve Jobs considered each Macintosh a work of art, the insides of early Macintosh cases were molded with the signatures of each person who worked on the Macintosh team.</p>
+<p>The only problem? The Macintosh sold poorly. At $2,500 US in 1984, it was just too expensive. Luckily the Apple II kept money flowing in until the Macintosh (or Mac) picked up steam in the late 1980s. But, even in the late 1980s, the Mac didn’t infiltrate every market like the Apple II did. Instead, the Mac was primarily used in two markets:</p>
+<ul>
+<li><em><strong>Education</strong></em>, where Apple Computer had a strong presence because of the Apple II, and,</li>
+<li><em><strong>Desktop publishing</strong></em>, where a GUI was considered valuable for creating and editing content.</li>
+</ul>
+<p>As Apple Computer grew, both Steves left the company. Steve Wozniak left in 1981 after becoming disenchanted with the large corporate culture and Steve Jobs was forced out in 1985 after senior management got tired of him being a jerk.</p>
+<p>After leaving Apple Computer, Steve Wozniak entered semi-retirement – he funded and ran a few music festivals, became a school teacher, and continues to give the occasional talk today. Steve Jobs, on the other hand, had no plans on settling down after getting booted out of Apple Computer. He formed another company designed to compete with Apple Computer called NeXT, and hired many of the people from the original Macintosh team to create the NeXT computer that launched in 1988.
+<img src="nextcube.jpg#right" alt="NeXT Cube" title="NeXT Cube"></p>
+<p>The NeXT computer didn’t have revolutionary hardware specs whatsoever when it launched - its 25MHz Motorola 68030 CPU was not considered high-end at the time. Plus, it was tremendously overpriced at $6,500 US. Worse yet, it didn’t even have a color display because that would have further increased the cost. What it did have was a cool looking case (magnesium alloy cube), as well as an excellent graphical OS called NeXTSTEP. By the 1980s, UNIX was considered the most powerful operating system in the world, and the basis for future computing. NeXTSTEP was a UNIX system. The core component of NeXTSTEP was called the Mach microkernel, and was considered revolutionary at the time. Surprisingly, NeXTSTEP performed very well on the limited NeXT computer hardware. This is because NeXT computers offloaded a lot of processing (sound, video, network, input/output, etc.) to a large number of different computer chips on the NeXT computer’s motherboard, so that the Motorola 68030 CPU didn’t need to perform as much processing.</p>
+<p>Better yet, NeXTSTEP boasted a polished GUI desktop and amazing object-oriented programming environment, including a tool called Interface Builder, that allowed you to create graphical programs very quickly using the Objective-C language (which NeXT licensed from StepStone).</p>
+<p>As for scope, NeXT focused on creating UNIX workstations that were intended to rival Apple computers, but targeted to the higher education and science/engineering markets. Unfortunately, they failed. NeXT hardware was overpriced and underpowered compared to higher-end RISC workstations available at the time from SUN Microsystems and Silicon Graphics Inc (SGI). By 1994, they had stopped making their own computer hardware and shifted to selling NeXTSTEP (later called OPENSTEP) alongside their objective-oriented development tools. They ported NeXTSTEP and these tools to run on Intel 486 PCs (that were widely-available at the time), as well as high-end SUN Microsystems SPARC and HP PA-RISC computers.</p>
+<p>I was at the University of Waterloo during this time, and used NeXTSTEP extensively, but not on NeXT hardware. The university purchased high-end HP PA-RISC 712 workstations and installed copies of NeXTSTEP on them to perform software development. Universities didn’t care about NeXT hardware, but they loved NeXT software and development tools. Luckily, this kept NeXT afloat until they were purchased by Apple Computer a few years later.</p>
+<p>So what was Apple Computer doing in the late 1980s and early 1990s while NeXT was trying to be successful? Long story short: not much. While Apple Computer raked in over $1 billion US in annual sales during most of the 1980s, the 1990s was a dismal decade for them. The IBM PC entered the market in 1981 and was cloned by dozens of manufacturers.  By 1990 it was clear that the IBM PC was the standard in the personal computing market by a long shot. Apple computers were a distant second. Anything that was IBM-compatible became synonymous with PC, and a Mac was viewed by most as something else that wasn’t a PC – a weird relic from the 1980s. Apple Computer was essentially a big company advertising overpriced Macs and getting hammered by the PC competition, especially since the graphical features of Mac OS were fast becoming irrelevant during the rapid proliferation of Microsoft Windows.</p>
+<p>Not many people I knew bought anything but PCs in the 1990s, even for desktop publishing. Macs were still common in the schools, but that loyalty was viewed as a strange by most. My university had a lab full of Power Macintosh 6100s, which came with a PowerPC processor to run the Macintosh OS as well as an Intel 486 CPU to run Windows 3.11. It was as if Apple was saying “Yes, we know our OS sucks, so we’ll sell you an overpriced machine that can also run Windows 3.11 to make it useful. Just buy it please!” Not Apple’s finest moment.</p>
+<p>By 1996, Apple was on the verge of bankruptcy. When asked about Apple Computer at the time, Michael Dell (founder of Dell) said &ldquo;I&rsquo;d shut it down and give the money back to the shareholders.&rdquo; Luckily, Steve Jobs returned to run Apple Computer the following year on the condition that they buy his failing company, NeXT.</p>
+<p>This was a good thing for both NeXT and Apple Computer. NeXT had great software development tools, but universities were getting wooed by Microsoft at the time, leaving NeXT with a shrinking revenue stream. And, of course, Apple Computer was in dire need of a new OS that didn’t suck, to replace their antiquated Mac OS.</p>
+<p>But Apple Computer didn’t have much time. Steve Jobs told the press that “Apple is like a ship with a hole in the bottom, leaking water and my job is to get the ship pointed in the right direction.” The first thing he did was cut their large product line to include only three product categories (a laptop, a standard desktop, and a high-end workstation). The second thing he did was get the new computer that Apple Computer had been developing for the past few years to market as quickly as possible. This new computer was called the iMac.
+<img src="imacg3.png#right" alt="iMac G3" title="iMac G3"></p>
+<p>The iMac sold very well, largely because it was an all-in-one product that allowed people with little computer knowledge to get on the Internet. And most importantly, it wasn’t priced well above the competition at the time. By the end of 1998, Apple Computer wasn’t losing money anymore – they actually had a small profit for the first time in years.</p>
+<p>Unfortunately, the iMac ran the antiquated Mac OS, which was subject to a lot of crashing, especially when using the Internet Explorer Web browser (widely considered the best Web browser at the time). Thus, focus shifted to getting NeXTSTEP ready as a replacement for Mac OS.</p>
+<p>Keep in mind that Apple Computer was still a sinking ship at this time, and resources were tight. Modifying NeXTSTEP to become the next Mac OS would have been incredibly taxing, or even impossible at the time, without the help of the open source developer community. So Apple Computer open sourced the NeXTSTEP operating system to allow others to freely develop it. This new open source NeXTSTEP was called Darwin, and there were many NeXTSTEP developers in the academic community that were happy to help update the core NeXTSTEP OS. This, in turn, allowed Apple Computer to focus on creating the proprietary GUI desktop and application frameworks that they could add to Darwin and use as a replacement for Mac OS.</p>
+<p>The end product was called Mac OS X, and was released in 2001.</p>
+<p>Mac OS X was fast and smooth, but had a very limited set of applications when it was first released. To combat this, early versions of Mac OS X included a Classic Environment that allowed you to run programs written for older Mac OS within Mac OS X. As developers realized how easy it was to create graphical applications using Interface Builder and the NeXTSTEP developer tools (later called Xcode), applications for Mac OS X started to appear rather rapidly on the market, and the Classic Environment was eventually retired.</p>
+<p>The year 2001 was also when Apple Computer released the iPod digital music player that became hottest technology in the world for many years and made Apple a household name. The iPod (not the iMac) is what put Apple Computer back into the game. Mac sales increased as a result, and people started to view Mac OS X as a much easier and secure (virus free) alternative to Windows XP (the low install base of Mac OS X didn’t attract virus makers until 2006). Mac computers were priced well above PCs, but the build quality was definitely there and made it worth it for people who were willing to spend the money. For example, my 2005 PowerBook G4 lasted me 12 years of incredibly heavy use (including being dropped dozens of times).</p>
+<p>For the next decade, Apple Computer brought new offerings to the table that impressed many of us who worked in technology-related fields. By 2006, Apple Computer was making $2.4 billion in profit annually and had some nice brand appeal. They switched their hardware from the PowerPC CPU platform to the Intel CPU platform that was standard in the industry without any issues, as they released tools that allowed developers to create applications that would work for both platforms (called Universal apps).</p>
+<p>In January 2007, they dropped Computer from their name and renamed themselves Apple. However, the biggest leap forward for Apple was in summer 2007, when they put a slimmed-down version of Mac OS X called iOS onto a phone with a touchscreen and called it the iPhone. It changed the smartphone paradigm and industry overnight, eventually replaced the iPod and became the next cool thing (alongside the iPad tablet a few years later). The iPhone and iPad are arguably Apple’s largest technological achievements, and provide the majority of Apple’s revenue today. The iPad is also credited with getting many baby boomers (and older generations) on the Internet for the first time.</p>
+<p>By 2011, Apple was making $16.6 billion in profit annually and this number was growing fast. While the iPod led to more Mac sales in the early 2000s, the iPhone led to tremendously more Mac sales after 2007. By 2011, if you wanted to look cool, forget the Nike shoes – you needed a Mac and an iPhone.</p>
+<p>Unfortunately, only one person got credit for all of Apple’s success: Steve Jobs. After his death in 2011, mainstream media glorified him as the patron saint of Apple technology – the person who single-handedly brought every Apple product to market. While Steve Jobs deserves credit as a businessman for turning the company around in the late 1990s, it doesn’t take a genius to figure out that most products are the result of people with technical ability and vision. People like Steve Wozniak. Apple had a lot of talented-but-uncredited Steve Wozniaks, most of whom probably didn’t give a darn about Steve Jobs.</p>
+<p>This public glorification of Steve Jobs was amplified by a big budget movie and best-selling biography following his death. In short, Steve Jobs was portrayed as the God of technology to the general public. For Cult of Mac members, this public portrayal of Steve Jobs as a patron saint was a form of validation. It strengthened their cult dedication, as well as legitimized their cult membership in the eyes of the general public.</p>
+<p>In 2012, Mac computers were still going strong, thanks to the iPhone and iPad, which paired nicely with other Apple products. These Macs were priced higher than PCs with similar specifications, but not outrageously so. Their solid build quality and OS easily justified the added cost. For anyone who was willing to pay more than the bare minimum for a computer, the Mac is what I recommended to others who asked my advice at the time.</p>
+<p>But then corporate greed took over. By 2013, Apple was massive and operating under a new leader who was focused on making as much profit as possible: Tim Cook. Tim knew Apple had the brand everyone wanted, and a loyal fan base that would buy whatever Apple put out onto the market. Apple’s phones got more expensive, and improvements didn’t WOW anyone when compared to the same improvements on Android phones.</p>
+<p>In an attempt to encourage users to continue purchasing new iPhone models as they became available, Apple released updates that slowed down older iPhones, as well as sued small iPhone repair shops to discourage people from repairing their broken iPhone screens.</p>
+<p>The quality and upgradability of their Mac computers also went down while prices remained dramatically higher than the competition. Keyboard problems, GPU issues and thermal throttling plagued Apple laptops, and Apple decided to take steps to encourage users to continue purchasing new models, instead of using their older model for longer. This included using proprietary screws to deter people from repairing internal components, as well as ensuring that components could not be upgraded by soldering them directly to the motherboard. If you want more RAM or storage, you have to purchase a model that has more from Apple at a massive premium. The famous self-repair website ifixit.com gives most recent Apple products a reparability score of 1 out of 10 (the worst reparability score). Moreover, if any component on your motherboard dies, then the entire Mac is rendered useless and you must purchase a new one.</p>
+<p>Newer Intel-based Macs also include a T2 security chip. However, the T2 chip has less to do with security and more to do with cost savings by combining the sound, Web camera and SSD storage controller into a single chip based on an open ARM standard that is cheap to design and manufacture. Like other SSD controllers, the T2 chip encrypts data as it is stored on the SSD. Unfortunately, it also prevents you from installing unauthorized OSes on your Mac SSD, including Linux. Many users often install Linux on older Mac computers to extend their lifespan, as Linux runs very fast on limited hardware. Thus, by holding the SSD storage hostage with the T2 chip, Apple is preventing you from extending the lifespan of your Mac when Apple decides that your hardware is no longer fit for the latest version of their OS.</p>
+<p>In 2018, an undercover CBC National documentary entitled <em><strong>Apple under fire for allegations of controversial business practices</strong></em> determined that Apple customers are regularly told that their Mac computers are not worth fixing, or charged exorbitant amounts for repairs, even when a minor repair could easily remedy the problem. They even interviewed Apple repair shops that told their stories of how Apple regularly sues or threatens to sue for repairing Apple products, or for publishing information that allows users to repair their own Apple products. In short, Apple wants you to regularly buy their products instead of upgrade or repair them, and they’ll do anything to encourage that. They’ve got their profit margin to protect, after all.</p>
+<p>In 2020, Apple finally made the bold move to switch away from Intel CPUs to their own ARM-based SoC (the M1) that is an evolution of the A12Z SoC used in their previous iPad Pro. This move makes perfect sense from a computing perspective since SoCs have their processing, graphics and other functionality on the same chip to greatly enhance speed. Apple also stuck the memory on the M1 SoC as well as the functionality of the T2 chip. Together, this made the M1 the first ARM SoC with excellent performance for general computing tasks, and Apple should be applauded for their efforts here.</p>
+<p>Hardware aside, Mac OS X has seen constant improvements over the years, and was renamed macOS in 2016 (to match the naming convention used for iOS). Following are the different versions, including the code names that they are often called by:</p>
+<ul>
+<li>Mac OS X 10.0: Cheetah - 24 March 2001</li>
+<li>Mac OS X 10.1: Puma - 25 September 2001</li>
+<li>Mac OS X 10.2: Jaguar - 24 August 2002</li>
+<li>Mac OS X 10.3 Panther - 24 October 2003</li>
+<li>Mac OS X 10.4 Tiger - 29 April 2005</li>
+<li>Mac OS X 10.5 Leopard - 26 October 2007</li>
+<li>Mac OS X 10.6 Snow Leopard - 28 August 2009</li>
+<li>Mac OS X 10.7 Lion - 20 July 2011</li>
+<li>Mac OS X 10.8 Mountain Lion - 25 July 2012</li>
+<li>Mac OS X 10.9 Mavericks - 22 October 2013</li>
+<li>Mac OS X 10.10: Yosemite - 16 October 2014</li>
+<li>Mac OS X 10.11: El Capitan - 30 September 2015</li>
+<li>macOS 10.12: Sierra - 20 September 2016</li>
+<li>macOS 10.13: High Sierra - 25 September 2017</li>
+<li>macOS 10.14: Mojave - 24 September 2018</li>
+<li>macOS 10.15: Catalina - 7 October 2019</li>
+<li>macOS 11: Big Sur - November 2020</li>
+<li>macOS 12: Monterey - October 2021</li>
+</ul>
+<p>Most improvements to macOS since Mavericks have involved adding different tools or window layouts, as well as new security measures to combat the increasing presence of malware on the macOS platform. During 2019, macOS saw a dramatic rise in malware, and macOS 10.15 introduced several desperate (yet inadequate) measures to combat it, including setting core OS files to read-only. Unfortunately, numerous bugs in macOS 10.15 have earned it the title of “the Windows Vista of macOS.” This trend continuing with macOS 11 (Big Sur), as the focus was to get it optimized to work with ARM CPUs, rather than fixing previous bugs or security flaws.</p>
+<p>And while I still use macOS today, there’s no compelling reason for anyone to use it compared to Windows or Linux today. Buying an Apple product today is more about whether you are willing to pay a lot more for the Apple brand, without getting a dramatically better OS or decently priced hardware.</p>
+<p>It’s no secret that Apple’s brand is incredibly powerful today, and the continued perception of its value on the stock market slingshot Apple past the $1 trillion valuation mark in 2018, and $3 trillion mark in 2022. Let’s recap how Apple got here:</p>
+<ul>
+<li>1970s: The Apple II was a popular, well-made computer. It was priced higher than competing PCs, but marketed aggressively.</li>
+<li>1980s: Macintosh was a revolutionary new graphical computer that was too expensive. It did well in education and desktop publishing.</li>
+<li>1990s: IBM-compatible PCs won the PC race, and Apple neared bankruptcy. The return of Steve Jobs and release of the iMac saved the company.</li>
+<li>Early 2000s: The iPod took the world by storm and helped sell Macs that were running the new Mac OS X operating system (based on NeXTSTEP from the NeXT acquisition in the 1990s).</li>
+<li>Late 2000s: The iPhone took the world by storm and drove Mac sales even further.</li>
+<li>Early 2010s: The iPad solidified Apple’s success in the mobile market, and Macs were widely considered the best computer on the market.</li>
+<li>Late 2010s: By driving up prices, lowering quality, and taking measures to ensure that brand-loyal customers buy products frequently, Apple reached a $1 trillion valuation.</li>
+<li>2020: Apple finally achieves a completely closed software and hardware ecosystem by switching to the ARM-based M1 and macOS 11 (Big Sur).</li>
+<li>2022: With the switch from Intel to ARM nearing completion in their product line, Apple reaches a $3 trillion valuation.</li>
+</ul>
+<h1 id="3-defining-the-cult-whats-it-all-about">3. Defining the cult: What’s it all about?</h1>
+<p><img src="cult.jpg#right" alt="Cult shirt" title="Cult shirt"></p>
+<p>Not all cult members wear black robes and carry a picture of Steve Jobs. Instead, they come from all walks of life. Unkempt hippies, sharply-dressed sales people, reclusive nerds, construction workers, and heavy metal head knockers are just as likely to be cult members as the artsy hipsters in Starbucks. I’ve met hundreds of them over the years, and been to many of their homes too. Some of them don’t worship Steve Jobs or know much about Apple history, while others have a shrine with hundreds of vintage Apple memorabilia. Some of them are minimalistic clean freaks, whereas others are cluttered and messy. Some of them work in technical fields, while others possess almost no technical knowledge whatsoever. What they do share, is an unhealthy adoration of everything Apple, and the intense desire to spread the Apple gospel. Furthermore, cult members typically regard themselves as having four main responsibilities:</p>
+<ul>
+<li>Recruiting new members into the cult</li>
+<li>Relaying the history and culture of the Apple brand. New members must understand that Apple stands for: <em><strong>Nonconformity</strong></em> (counterculture), <em><strong>Liberty</strong></em> (free thinking), <em><strong>Creativity</strong></em>, and <em><strong>Simplicity</strong></em> (user friendliness)</li>
+<li>Freely (yes, freely) providing information and support to other cult members</li>
+<li>Putting pressure on existing cult members to ensure that they remain loyal to the cult</li>
+</ul>
+<p>These four responsibilities arguably provide the best definition for a Cult of Mac member, even today. However, it’s also important to note that the cult has changed dramatically during the past three decades.</p>
+<p>During the 1990s, the cult was widely seen as quirky and harmless by most. Just as sports fans chose to cheer for a particular team, computer users in the 1990s chose to cheer for their favorite computer maker or OS. <em><strong>Dilbert</strong></em> ran a series of comics starting in 1995 with the theme <em><strong>computer holy wars</strong></em> that depicted Mac users as French artists, and a lighthearted Mac Evangelist&rsquo;s Oath floated around different newsgroups and message boards that both described and poked fun at early Cult of Mac members:</p>
+<ul>
+<li>I will seek to promote the notion that the person using the computer is the person with the greatest interest in what that computer is and what operating system it runs.</li>
+<li>I will be patient with those who remind me constantly that my Mac won&rsquo;t run the thousands of software packages I don&rsquo;t want to run anyway (at least until I install Windows).</li>
+<li>I will also be patient with those who do not understand that being able to color coordinate your computer system is a good thing.</li>
+<li>I will seek to understand that UNIX users are my distant kin, in that they want to get their work done too, it&rsquo;s just that their work is generally far different than mine own.</li>
+<li>I will not taunt Windows users, for they have chosen their own worst punishment.</li>
+</ul>
+<p>Of course, there were some cult members that went far beyond the tenets of this oath during Apple’s darkest days in the mid-1990s, but this was largely an exception to the norm in the cult during that time. During the mid-1990s, when Apple was sliding towards bankruptcy, many Cult of Mac members took it upon themselves to harass the writer of any article that put Apple in an unfavorable light. One example of this is James Coates, who received more than 500 hostile emails after writing a story about Apple in the Chicago Tribune.</p>
+<p>Technology has advanced immensely since the 1990s, and our relationship to technology at every level has intensified to match. Products like the iPod, iPhone and iPad have reached far more people than the Mac, and have had tremendously more impact on society. Some newer members to the cult have never used a Mac. Instead, their iPhone or iPad was their ticket into the cult.</p>
+<p>The widespread proliferation of Apple products into mainstream society during the 2000s added a perverted legitimacy to those who adore Apple technology, and fundamentally changed the nature of the cult, especially as new cult members were added. By the late 2000s, cult members were no longer the quirky underdogs spreading the cultural values of the Apple brand. By then, Apple was anything but an underdog – they ubiquitously became THE desired brand. They were the BMW of technology that every Kardashian wannabe had to have, as well as a household name that no longer relied on the help of cult members to bolster sales.</p>
+<p>As for cultural values – <em><strong>Nonconformity</strong></em>, <em><strong>Liberty</strong></em>, <em><strong>Creativity</strong></em> and <em><strong>Simplicity</strong></em> are still preached by the modern cult. However, two more values were implicitly added after the immense success of the iPad, iPhone and iPad: <em><strong>Success</strong></em> and <em><strong>Money</strong></em> (two of America’s most coveted things). In other words, the cult used to consist largely of Democrats, but now most of their members are Republicans.</p>
+<p>Because of these two new cultural values, modern cult members take their worship much more seriously than cult members of the 1990s. Apple is their lord and savior, their path to success and money, and the only technology company that matters. This is also why you see a lot of Macs in creative startups and technology incubators. People think that if they use a Mac, they’re more likely to make something great, because Apple is synonymous with success and money. But in reality, most people within creative startups and technology incubators are probably just using their Mac to check their Twitter feed while they fail at their hopes and dreams. They probably cry into their MacBook every night, shake their fist at the sky and scream “Why… Why have you failed me, Steve Jobs?!?” Poor buggers.</p>
+<p>Following are some basic tenets of the modern Cult of Mac:</p>
+<ul>
+<li>Apple products are superior, and will always be superior to any other technology product on the market. Consequently, owning an Apple product makes you superior to others around you who do not.</li>
+<li>Thou shalt not criticize any Apple product. Any imperfections are intentional and designed to enhance user experience. Hardware failure is always the result of human misuse, and should never be attributed to Apple.</li>
+<li>If you encounter someone criticizing an Apple product, they are both a simpleton and enemy #1 to the Cult of Mac. Unleash your fury as you deem appropriate!</li>
+<li>New Apple product features are to be praised as innovation, even if other technology vendors have already introduced it beforehand. Apple is the only innovator in the technology industry.</li>
+<li>You should buy new Apple products as each one becomes available on the market. Keeping older Apple products prevents you from living your life to the fullest, as those products do not contain the latest innovations. Plus, you won’t look cool in Starbucks.</li>
+</ul>
+<h1 id="4-psychology-fake-ideals-and-influencers-why-people-join-the-cult">4. Psychology, fake ideals and influencers: Why people join the cult</h1>
+<p>In 1984, Sherry Turkle published <em><strong>The Second Self</strong></em> – a book that dissected our growing relationship with technology at the time. However, the concepts and observations that Turkle made in her book are equally applicable today. She discussed how we view and relate to computers at various stages of our lives, whether it is to satisfy our innate curiosity, create content, or escape reality. But more importantly, Turkle discussed how computers and technology have an incredible power to become an extension of the self both socially and psychologically.</p>
+<p>This second self is what ultimately leads to the personification and anthropomorphizing of computers and technology in general. Computers are essentially our companions, but without the emotional demands that moderate our interaction with them in healthy ways.</p>
+<p>In other words, within the right social and psychological environment, it isn’t difficult for us to think that computers and technology are more than just tools. We can convince ourselves that a particular technology can represent an ideal, such as nonconformity, liberty, creativity or simplicity. Alternatively, we can convince ourselves that a particular technology has a personality – a conscience that is performing actions that keep our own personal interests in mind. This is why we say things like “I guess the computer doesn’t want to do this today” when something doesn’t work.</p>
+<p>This psychological relationship between us and technology can have incredible depth. It can also transcend a single technology, computer or device and be applied to an entire community of people who use the same technology. Given the right environment and stimulation, we can anthropomorphize a technology company, such as Apple, as well as feel a strong psychological and social bond with other Apple users. You can essentially find the perfect love (or perfect friendship) in this bond to technology and technology brands. In Turkle’s words, “you can be a loner, but never alone.”</p>
+<p>In short, the anthropomorphizing or personification of technology, alongside social and psychological bonding to the Apple brand, are what turn people into Cult of Mac members.</p>
+<p>What most cult members don’t overtly realize is that Apple doesn’t sell you a product, they sell you a brand and heavily encourage you to be a fan of that brand. Famous brand marketing expert Marc Gobe said in a 2002 Wired article: &ldquo;Without the brand, Apple would be dead. Absolutely. Completely. The brand is all they&rsquo;ve got. The power of their branding is all that keeps them alive. It&rsquo;s got nothing to do with products.&rdquo;</p>
+<p>Of course, there are some great products that Apple has brought to market – some Apple II models, some PowerBooks models, some Mac Pro models, some MacBook models, some iPods, some iPads and some iPhones, as well as some versions of macOS and iOS. But if you look at any other company, you can say that they’ve brought some great products to market as well. What makes Apple different is that they focus on making you believe that they – their brand – their logo – stands for something that is close and personal to you, and that you need it.</p>
+<p>They sell a dream. And that dream is their brand.
+<img src="macheads.jpg#right" alt="MacHEADS" title="MacHEADS"></p>
+<p>It’s this brand worship that makes a cult member believe that everything Apple does is the best, and nothing else matters. Keyboard problems? Shady business practices? Blasphemy! Cult members have bonded to the Apple brand, will defend it until their last dying breath.  They’ll make sure that Apple is well fed, forever. If you want to learn more about what goes on in the mind of Cult of Mac members, watch the 2009 documentary, <em><strong>MacHEADS</strong></em>. It’s both funny and disturbing at the same time.</p>
+<p>Parodies of Apple have also become common. The 2018 Netflix movie <em><strong>Next Gen</strong></em> heavily parodies Apple and Cult of Mac members. In this movie, the protagonist (Mai) hates technology because her mother is a Cult of Mac member who is in love with technology, and uses it to drown out the memories of Mai’s father in order to gain a sense of fulfillment in her life.</p>
+<p>When Mai’s mother drags her to MacWorld to see Steve Jobs introduce their latest technology (Gen 6) to crowds of cheering, mindless cult members, Mai is less than enthused and escapes. This is where she meets a special robot that becomes the second protagonist in the movie. Plus, all of this happens while Mai’s mother is at the MacWorld keynote, seemingly unconcerned that her daughter has gone missing in the wake of all the excitement surrounding the new Apple announcements. During the MacWorld keynote, Steve Jobs even mocks his loyal audience, and they love it. One guy in the audience excitedly proclaims that Steve Jobs understands him personally: &ldquo;He really gets me!&rdquo; Oh, and yes, Steve Jobs turns out to be the evil antagonist who wants to take over the world with his technology and obliterate humankind, while the kind, gentle genius creating all the technology in the background (Steve Wozniak) is trying to prevent it from happening.</p>
+<p>Perhaps the funniest poke at Cult of Mac members is from the cheesy 2019 sci-fi flick <em><strong>Iron Sky 2: The Coming Race</strong></em>. On the moon base in the movie is a religious cult that worships Apple and prays to Steve Jobs (using an ePrayer app on their iPads). The whole movie is absolutely hilarious and over-the-top, and the Cult of Mac is strangely appropriate in the movie and used throughout (spoiler alert: the cult members die a horrible death). Here’s a snippet from around the 13-minute mark:</p>
+<p><em><strong>Cult Leader:</strong></em> &ldquo;Are we in a closed system or an open system? We are in a closed system. It is only in a closed system, where we control all of the inputs so the outputs will be in harmony… It is the perfect mechanism. Now let us pray for our holy father Steve to shed light on us. Now look at your ePrayer app.&rdquo;</p>
+<p><em><strong>Congregation (in prayer):</strong></em> &ldquo;Holy Steve, who walk in the path. Hallowed be thy designs. Thy will return as the CEO where others have failed us. Give us our devices pricing…&rdquo;</p>
+<p><em><strong>Cult Leader: (interrupting the prayer when a jailbroken app is detected on his iPad):</strong></em> &ldquo;There is someone here who doesn’t appreciate flawless design. Someone who considers himself… a power user…&rdquo;</p>
+<p><img src="ironskycult.png#center" alt="IronSky2" title="IronSky2"></p>
+<p>So, how does a person get to this state of mind? What catalysts encourage a person to join the Cult of Mac?</p>
+<p>There are many things that can influence a potential cult recruit. Some of them are passive, whereas others are active. Passive influencers are typically social or technology observations, and not the direct result of an Apple advertisement, employee, or Cult of Mac member. Following are some example passive influencers that can encourage you to join the cult:</p>
+<ul>
+<li>You buy an Apple product and love using it, because it is simple and easy to use, or does what you expect it to do. Through the love of the product, the Apple brand becomes your second self both socially and psychologically.</li>
+<li>You have a desire to be part of a community, and you’ve seen others gain a sense of community after buying an Apple product. Consequently, you adopt Apple brand loyalty to feel a sense of inclusion.</li>
+<li>You have an intense appreciation for technology that looks good (form over function), and love Apple’s attention to this aspect of their products. You then anthropomorphize Apple as sharing your own personal aesthetic tastes.</li>
+<li>You have observed friends and/or family members using an Apple product, and you develop a desire to use that same product in order to look cool or feel closer to them.</li>
+<li>You have a desire to be part of a trendy subculture (i.e. deep down, you’re a hipster), and buying into the Apple ecosystem fits that mold.</li>
+<li>You lack life balance or emotional stability (i.e. you are battling your own demons), and applying your energy to your love of technology seems like a safe way to vent frustration and gain a sense of control in your own life.</li>
+<li>You have a desire to be successful, and since Apple has become a symbol of success, you feel that by using Apple products, you will become successful too.</li>
+</ul>
+<p>Passive influencers are often where an interest in Apple starts, but it often takes several passive and active influencers to recruit a new cult member. Active influencers are more direct recruiting efforts, and often involve Apple advertisements or interactions with another person. Some examples of active influencers include situations where an Apple advertisement, employee or Cult of Mac member directly tells you that you need to buy Apple stuff:</p>
+<ul>
+<li>In order to look cool.</li>
+<li>In order to be noticed (to be different).</li>
+<li>Because nothing else on the market is as good, easy-to-use, or reliable.</li>
+<li>Because Apple products allow you to be successful.</li>
+<li>Because Apple is able to keep your data secure from hackers.</li>
+<li>Because Apple has your best interests in mind (they care about you, personally).</li>
+<li>Because Apple represents a specific ideal that you care deeply about (e.g. nonconformity, liberty, creativity or simplicity).</li>
+<li>Because everyone else is.</li>
+<li>Because their brand is worth believing in.</li>
+<li>Because they are going to be the future, and you don’t want to miss out on the future!</li>
+<li>In order to get a certain career, as Apple products are the standard in that profession.</li>
+<li>Because Apple will keep the technology industry honest, and it’s up to people like you to encourage that, morally.</li>
+<li>Because your life is incomplete without doing so.</li>
+</ul>
+<h1 id="5-cult-evangelism-keeping-you-in-the-cult">5. Cult evangelism: Keeping you in the cult</h1>
+<p>Once you’ve bonded social and psychologically to the Apple brand – in other words, joined the Cult of Mac – you need to maintain that social and psychological bond. This is a feature of any cult, and is typically called evangelism. While evangelism is primarily designed to pressure existing cult members into staying loyal to the cult, it’s also vital for recruiting new cult members.</p>
+<p>Apple evangelism dates back to the beginning of the company, when Apple first thought that people would pay more for a computer if it were marketed aggressively. To make the price more palatable, Apple included high quality plastic Apple logo decals with new Apple II purchases to convince consumers they were paying for more than just a computer.</p>
+<p>Some people would stick these Apple decals on their cars, computers and carrying cases to advertise the love of their purchase. Others would use them simply because they didn’t want them to go to waste. Few threw them out, because that would be a waste after spending so much money on the product itself. By using these decals, people were helping Apple advertise to others that their user base loved their brand so much that they want to show it off in public. Apple used the decals to build their brand and brand loyalty. It was the beginning of the cult.</p>
+<p>The Apple sticker is essentially your golden ticket into the cult – something that says that you support the Apple brand and everything they stand for. But more importantly, it’s a constant reminder that you always belong in the cult. It encourages you to purchase more Apple products to maintain your loyalty to the sticker. It’s like a tattoo that’s difficult to remove, so you just go along with it. Once you have that Apple sticker on display, you’ve been branded – you belong to Apple now.</p>
+<p>But evangelism within Apple goes far beyond mere stickers – it was an active sales strategy for Apple since the 1980s when they hired Guy Kawasaki as their Chief Evangelist. Kawasaki actually attended Billy Graham’s School of Christian Evangelism to learn techniques that he used to develop a cult mentality within Apple’s customers and sales team. He wrote a book detailing these techniques in 1992 entitled <em><strong>Selling the Dream: How to Promote Your Product, Company or Ideas and Make a Difference Using Everyday Evangelism</strong></em>.</p>
+<p>Apple had many evangelists actively promoting the Cult of Mac back in the 1980s. And this promotion got far more intense in the 1990s when Apple needed to hang onto their shrinking customer base during bad times. They actually told their cult members to educate (e.g. slam, harass, send death threats to) anyone who spoke ill of Apple. And they did this openly at Apple events, as well as through Kawasaki’s <em><strong>EvangeList</strong></em> on the Internet, where 17,000 cult members subscribed to get daily Apple-biased news and messages. On this list, Kawasaki wrote &ldquo;Most journalists are insecure and perceptive: after the 300th flaming message, they’ll get the picture.&rdquo;</p>
+<p>This led to a huge rift between Mac users and Windows users. So much so, that when Steve Jobs thanked Bill Gates at MacWorld 1997 for investing $150 million into Apple at his request to save Apple from bankruptcy, the crowd actively booed him.</p>
+<p>Today, Apple employs far more evangelists than ever before. However, they are called Apple Store employees now. They are well trained in Apple product evangelism, and even go through mock customer rehearsals with other Apple Store staff after hours to learn how to assess different types of customers based on their brand loyalty during initial conversation, and use appropriate tactics to ensure that they buy products and/or leave with more dedication to the Apple brand. Planned scenarios are acted out where senior Apple Store employees demonstrate how to position certain products to different types of customers, build brand trust with them, and turn any of their criticisms into sales points for Apple. They even have a process in place, complete with official lingo, where certain types of customers are passed off to other Apple Store employees at various stages of a conversation to increase the likelihood that they will buy a product or maintain their loyalty to Apple.</p>
+<p>Expensive advertising budgets have also been central to maintaining cult mentality and Apple brand loyalty. Not only do they provide an active influencer for new recruits, they also validate and reaffirm the allegiance of existing cult members, hence discouraging them from leaving the cult.</p>
+<p>Nearly every advertising campaign that Apple has invested in has been wildly successful. Their campaigns are college textbook examples of how marketing can get people to pay more for a product. Many cult members have a framed Apple advertisement in their home or office that serves as a constant reminder of their allegiance to Apple – a visual deterrent to leaving the cult.</p>
+<p>In the 1980s, Apple paid Andy Warhol to do a series of art pieces and commercials to spread the notion that Apple computers represented creativity and freedom of expression. It was wildly successful. Unfortunately, many people today remember Warhol’s Apple pieces over his more important works.
+<img src="thinkdifferent.jpg#right" alt="Think Different" title="Think Different"></p>
+<p>In 1997, Apple launched an aggressive advertising campaign called Think Different that portrayed the subliminal message “If you want to do great things, you have to use an Apple product.” There were a wide variety of different posters that  featured Albert Einstein, Bob Dylan, Martin Luther King, Jr., Richard Branson, John Lennon (with Yoko Ono), Buckminster Fuller, Thomas Edison, Muhammad Ali, Ted Turner, Maria Callas, Mahatma Gandhi, Amelia Earhart, Alfred Hitchcock, Martha Graham, Jim Henson (with Kermit the Frog), Frank Lloyd Wright and Pablo Picasso, as well as a touching commercial that depicted famous historical figures, while appealing to our inner desire for greatness.</p>
+<p>In 2002, Apple released an even more aggressive Switchers ad campaign that portrayed a wide range of everyday people and celebrities (e.g. Tony Hawk, DJ Q-Bert, Yo-Yo Ma, Kelly Slater, Will Ferrell, and De La Soul) telling their stories about why they switched from PCs to Macs. If you saw someone you admired or identified with in one of these ads, then you were more likely to switch from PC to Mac yourself. One of the side effects of this ad campaign was humor that spread on the Internet. For example, one switcher (Ellen Feiss) looked visibly stoned during the commercial and became a viral sensation that was heavily parodied on the Internet.</p>
+<p>Since then, Apple’s advertisements have been less thematic, and more varied, but equally successful at recruiting new members and preserving existing cult member loyalty.</p>
+<p>Of course, this is the best financial interests of Apple. Apple users are regularly known for willingly forking over their money to Apple at every turn. Apple users often pay for software and services that other technology vendors distribute for free, and typically have a much more aggressive upgrade cycle for their hardware. Apple built the cult to feed off of it, and Mac users masochistically oblige.</p>
+<p>In addition to displaying Apple advertisements on their walls, cult members often collect Apple paraphernalia as a reminder to stay committed to the Apple brand. This can vary wildly from cult member to cult member. Some collect vintage Apple computers, whereas others display Apple promotional items in their work area. After Steve Jobs’ death in 2011, some cult members even bought a Steve Jobs figure. The most extreme cult members may even do something more drastic, such as wear Apple logo clothing, or even get an Apple tattoo.</p>
+<p>Evangelism is also evident in the behavior of cult members on social media. Cult members often like, share or comment on posts that promote Apple, ignore or comment negatively on posts that are critical of Apple, as well as repost fake Steve Jobs inspirational quotes without fact-checking them first.</p>
+<h1 id="6-leaving-the-cult-the-why-and-how">6. Leaving the cult: The why and how</h1>
+<p>We&rsquo;ve examined many reasons why the Cult of Mac is bad for you. It causes you to create fake ideals that personify a technology brand, and forces you to spread those ideals to others. And while Apple heavily encourages and profits from this behavior, they do it at your expense.</p>
+<p>That being said, you don’t have to leave the cult. Nobody can force you to leave the cult. After all, you may enjoy it tremendously. Maybe your life goal is to be known as the Cult of Mac person. I’m not judging. After all, if you are a mild cult member, it can be harmless to be part of a nerdy fan club. It’s probably better than comic books or sports. The trick to remaining a cult member without losing your sanity (too much) is to maintain a sense of humor about it, and not take it too seriously. Limit most cult beliefs and behaviors, and realize deep down that Apple is somewhat evil. If you aren’t going broke spending all your money on Apple stuff, then have at ‘er.</p>
+<p>But if the people around you think you’re a jerk because of your cult actions, then maybe you need to seriously think about quitting the cult entirely to salvage your social life. If you have a friend or family member who is acting like a jerk because of the cult, then you need to have an intervention that relays a message similar to “We’re here because your Apple fandom is driving us nuts, and we don’t want to bear it anymore.”</p>
+<p>The difficultly of quitting the cult, depends on your emotional investment in it. Leaving the cult may seem impossible for you to do because the notion itself contradicts your belief system too intensely, resulting in a powerful mental discomfort. Psychologists call this discomfort cognitive dissonance. Consequently, one of the first steps to quitting the cult is to address this emotional investment, and take steps to minimize it. Life goes on without Apple, believe it or not.</p>
+<p>Here are some important actions that you can take to break free from the Cult of Mac, and maintain a healthy view of technology:</p>
+<ul>
+<li>Remove the Apple decals from your car, laptop, etc. Un-brand yourself.</li>
+<li>Cover up the Apple logo on your Apple laptop. You don’t need to advertise for Apple.</li>
+<li>Avoid Apple Stores (a.k.a. cult recruitment centers). I recommend buying Apple products online only, and only after researching them thoroughly. If you want to touch it first, go to a store like Best Buy or Staples, where sales people are not trained in cult evangelism.</li>
+<li>Stop talking about Apple. Really. Don’t talk about it at work, or at home, or anywhere else. You can’t be a cult member if you keep your mouth shut.</li>
+<li>Sell the Apple paraphernalia (posters, figures, trinkets, promotional items, etc.). There are plenty of cult members that will pay you top dollar for them, and you’ll probably make profit in the process. At the very least, sell the most overt ones (e.g. posters), and keep the less overt ones (e.g. a few vintage Mac computers).</li>
+<li>Don’t go to Apple events or watch them live. If you want to see what Apple is trying to sell you, you can catch it within the following day’s online news, nicely summarized and put into perspective.</li>
+<li>Stop hanging out with other cult members. They’re a bad influence, and will try to encourage you to stay in the cult.</li>
+<li>Remind yourself regularly that Apple sells their brand and operates on evangelism. You’re buying a product made by someone in Asia, not a work of art that has Steve Jobs’ heavenly touch.</li>
+<li>Don’t defend Apple in conversation or online, ever. If you like your Apple product, give it a good review and 5 stars. But don’t rave about Apple products in general in any capacity.</li>
+<li>Work with (or evaluate) a wide range of different technologies and operating systems, not just Apple ones. Be educated in the constantly-changing technology landscape. Remind yourself that there’s no such thing as a perfect technology. Develop a healthy view of emerging technologies based on their merits and not their brand.</li>
+<li>Recognize that everyone has different tastes in technology, and that the technologies that you like may not be the same ones that they like. Don’t treat people differently based on the technology that they use. Remember that inclusion is important in any environment.</li>
+<li>Treat all technology companies as companies only. Recognize that technology companies ultimately have only one goal: to make money. People working for these companies may occasionally give you the impression that the company stands for a particular ideal or value (e.g. saving the planet, creativity, freedom), but you are viewing the ideals of the few individuals that created that communication only, and not the company itself. Companies should never be anthropomorphized!</li>
+<li>Recognize cult members and let them know that there’s a way to own an Apple product without becoming a fanboy/fangirl. Let them know they can leave the cult, and become a survivor like you.</li>
+<li>Practice yoga or mindfulness meditation (just kidding).</li>
+</ul>
+<h1 id="7-final-thoughts">7. Final thoughts</h1>
+<p>In his 2011 book, <em><strong>You Are Not a Gadget</strong></em>, Jaron Lanier details how modern technology has become non-humanistic since the turn of the century. He discusses how people view technology products as superior to themselves, and how they value technology culture over individuality.</p>
+<p>These self-destructive trends are even more worrisome today as technology continues to play an ever-increasing role in our lives. It’s more important than ever that we view existing and new technologies responsibly. Like everything in this world, technology can be a good thing, or a bad thing. The Cult of Mac fits into the latter category, as it aims to skew your views of technology in Apple’s favor, and Apple’s moral intentions as a corporation today are questionable at best.</p>
+<p>Brand loyalty really has no place in the future technology world. If you are an Apple consumer, you should have a working knowledge of Apple’s brand evangelism in order to make responsible technology decisions, as well as provide sage technology advice to others.</p>
+<p>That being said, many (I’d like to think, most) people use Macs and Apple products for good reasons – to fit their needs, and not because of Apple’s brand evangelism. These people are not part of the Cult of Mac, and neither am I.</p>
+<p>In my professional opinion, Apple products used to boast better build quality, novel designs, and lifespans compared to the competition, as well as use a better operating system that was more secure. But that was in the 2000s when Windows XP on stock PCs was the standard. Today, Windows and Linux are brilliant alternatives to macOS, and most PC vendors sell hardware that surpasses Apple from a quality-value standpoint, or better fits a specific need. While their move to ARM is a step in the right direction from a computing viewpoint, their prices remain high and choice of native operating systems low (currently it’s just macOS).</p>
+<p>Some technology pundits have recently speculated that the romance between the general public and the Apple brand is starting to end. I doubt it will at least in the short term. Apple’s brand appeal is too strong and aggressively perpetuated. Regardless, I do think that the Cult of Mac will shrink tremendously over the next decade as people pay more attention to technology in the post COVID-19 world. And that’s a good thing. Even for Apple.</p>
+<h1 id="8-additional-reading">8. Additional reading</h1>
+<p>Paul Freiberger &amp; Michael Swaine: <em><strong>Fire In the Valley</strong></em> (1984)</p>
+<p>Andy Hertzfeld: <em><strong>Revolution in the Valley</strong></em> (2004)</p>
+<p>Guy Kawasaki: <em><strong>The Macintosh Way</strong></em> (1990), <em><strong>Selling the Dream</strong></em> (1992)</p>
+<p>Jim Carlton: <em><strong>Apple: The Inside Story of Intrigue, Egomania, and Business Blunders</strong></em> (1997)</p>
+<p>Owen Linzmayer: <em><strong>Apple Confidential 2.0</strong></em> (2004)</p>
+<p>Jeffrey S. Young &amp; William L. Simon: <em><strong>iCon: Steve Jobs, the Greatest Second Act in the History of Business</strong></em> (2005)</p>
+<p>Stephen Levy: <em><strong>Insanely Great</strong></em> (2001), <em><strong>The Perfect Thing</strong></em> (2006)</p>
+<p>Leander Kahney: <em><strong>The Cult of Mac</strong></em> (2004), <em><strong>Inside Steve’s Brain</strong></em> (2008)</p>
+<p>Dylan Jones: <em><strong>iPod, Therefore I Am</strong></em> (2005)</p>
+<p>Steve Wozniak: <em><strong>iWoz</strong></em> (2006)</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/2021-in-review/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="2021 in Review"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

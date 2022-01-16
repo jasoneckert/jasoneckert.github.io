@@ -6,7 +6,16 @@
     <description>Recent content on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding the Cult of Mac</title>
+      <link>https://jasoneckert.github.io/myblog/cult-of-mac/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/cult-of-mac/</guid>
+      <description>Exactly 3 years ago, I wrote a non-fiction work of satire called Escaping the Cult of Mac: A Guide from a Cult Survivor to win a bet with some members of the local tech community in Kitchener-Waterloo. It was incredibly fun, and it got plenty of laughs. A friend recently requested I do up a shorter, safe-for-work version that could easily be shared. And this blog post is essentially that!</description>
+    </item>
+    
     <item>
       <title>2021 in Review</title>
       <link>https://jasoneckert.github.io/myblog/2021-in-review/</link>
