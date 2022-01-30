@@ -201,7 +201,8 @@
 </div>
   <div class="article pb-3 pt-3 border-bottom border-top">
     
-    <p>Back in 2019, I picked up a rare SPARC-based laptop from the 1990s running Solaris UNIX. You can read my blog post on it here: <a href="../../myblog/sparcbook3000st-the-coolest-90s-laptop/" title="SPARCbook 3000ST: The coolest 90s laptop">SPARCbook 3000ST: The coolest 90s laptop</a>. It occasionally shows up on Hacker News, and I get plenty of comments whenever I post it on Reddit.</p>
+    <p><img src="s3000_ad.gif#right" alt="SPARCbook 3000ST ad" title="SPARCbook 3000ST ad"></p>
+<p>Back in 2019, I picked up a rare SPARC-based laptop from the 1990s running Solaris UNIX (marketed as the <em><strong>ultimate UNIX portable</strong></em> on the Tadpole website in 1997). You can read my blog post on it here: <a href="../../myblog/sparcbook3000st-the-coolest-90s-laptop/" title="SPARCbook 3000ST: The coolest 90s laptop">SPARCbook 3000ST: The coolest 90s laptop</a>. It occasionally shows up on Hacker News, and I get plenty of comments whenever I post it on Reddit.</p>
 <p>However, I&rsquo;ve always been curious as to the internals. And while there are a few teardowns of the SPARCbook 3 series, I couldn&rsquo;t find any for the SPARCbook 3000 series at all. So, I decided to do one myself.</p>
 <p>In short, it&rsquo;s a very simple teardown to do. There is no internal frame that holds each component. Instead, all components connect (in some way) to the bottom of the laptop, which is made of rigid magnesium alloy. To open the laptop, you only need to remove 3 screws from the bottom of the laptop (2 under the small plastic lifts on either corner, and one in the middle under a rubber pad). You can then lift the LCD and hinge assembly away from the body (which also allows you to remove the plastic plate covering the rear ports).</p>
 <p>I did this while the laptop was seated on its side so that I could safely examine the connectors inside:</p>
@@ -226,7 +227,7 @@
 <p>With the CPU board removed, you can see the rest of the motherboard. In addition to the Sun-branded ISDN controller shown earlier, there is an IDE controller (6) and another Sun-branded controller that provides Ethernet/SCSI/parallel (7). There&rsquo;s also a round cutout to allow the CPU heatsink to reach the yellow thermal pad affixed directly to the magnesium alloy base of the laptop:</p>
 <p><img src="motherboard_top.jpg#center" alt="Top of motherboard" title="Top of motherboard"></p>
 <p>If you remove one more screw, as well as the 3 riser screws, you can lift the motherboard away from the bottom of the laptop.</p>
-<p>The reverse of the motherboard reveals the Weitek graphics chip (8), as well as the associated palette DAC (9) and video RAM (10). There&rsquo;s also a custom Tadpole controller that handles laptop-specific functionality such as PCMCIA/sleep/battery/brightness (11), another Sun-branded SBus controller (12), and a 16-bit multimedia audio codec (13):</p>
+<p>The reverse of the motherboard reveals the Weitek graphics chip (8), as well as the associated palette DAC (9) and video RAM (10). There&rsquo;s also a custom Tadpole controller that handles laptop-specific functionality such as PCMCIA/sleep/battery/brightness (11), a Sun-branded SBus I/O controller (12) that also interfaces with the settings EPROM chip directly above it, and a 16-bit multimedia audio codec (13):</p>
 <p><img src="motherboard_bottom.jpg#center" alt="Bottom of motherboard" title="Bottom of motherboard"></p>
 <p><a href="originals.zip" title="Teardown pics without red and blue markups">Here&rsquo;s a zip</a> of these pics without the red and blue markups.</p>
 <p>And following is a detailed description of the chips shown in this post (by number):</p>
@@ -240,7 +241,7 @@
 <li>(8) Power Weitek 9100 - video processor</li>
 <li>(9) IBM 26H3660 - video palette DAC</li>
 <li>(10) IBM025170LG5D-60 - video RAM</li>
-<li>(11) Tadpole TS102-A - PCMCIA, power/battery/sleep, LCD brightness, TrackPoint, external keyboard/mouse, and status display controller</li>
+<li>(11) Tadpole TS102-A - PCMCIA controller, as well as power/battery/sleep, LCD brightness, TrackPoint, external keyboard/mouse, and status display functionality via a Hitachi H8/337 microcontroller (located on the reverse of the daughter board holding the LCD status display)</li>
 <li>(12) STP2001QFP - SBus slave I/O controller (keyboard, serial, E-Bus for EPROM)</li>
 <li>(13) CRYSTAL CS4215-KL - 16-bit multimedia audio codec</li>
 </ul>
