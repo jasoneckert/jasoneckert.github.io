@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      SPARCbook teardown
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2022-01-29</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+6 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/sun"
+      title="tags"
+    >SUN</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/retro"
+      title="tags"
+    >retro</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p>Back in 2019, I picked up a rare SPARC-based laptop from the 1990s running Solaris UNIX. You can read my blog post on it here: <a href="../../myblog/sparcbook3000st-the-coolest-90s-laptop/" title="SPARCbook 3000ST: The coolest 90s laptop">SPARCbook 3000ST: The coolest 90s laptop</a>. It occasionally shows up on Hacker News, and I get plenty of comments whenever I post it on Reddit.</p>
+<p>However, I&rsquo;ve always been curious as to the internals. And while there are a few teardowns of the SPARCbook 3 series, I couldn&rsquo;t find any for the SPARCbook 3000 series at all. So, I decided to do one myself.</p>
+<p>In short, it&rsquo;s a very simple teardown to do. There is no internal frame that holds each component. Instead, all components connect (in some way) to the bottom of the laptop, which is made of rigid magnesium alloy. To open the laptop, you only need to remove 3 screws from the bottom of the laptop (2 under the small plastic lifts on either corner, and one in the middle under a rubber pad). You can then lift the LCD and hinge assembly away from the body (which also allows you to remove the plastic plate covering the rear ports).</p>
+<p>I did this while the laptop was seated on its side so that I could safely examine the connectors inside:</p>
+<p><img src="opening_case.jpg#center" alt="Opening the case" title="Opening the case"></p>
+<p>The daughter board holding the LCD status display and red power button switch is what the 3 keyboard ribbon cables connect to. Once those cables are disconnected, you can slide the entire top assembly (including keyboard and hand rest) forward and remove it. The underside of the Thinkpad keyboard indicates that is a Key Tronic UO4056US. Key Tronic bought Lexmark&rsquo;s tooling after they exited the keyboard business in early 1996 and continued making laptop keyboards for IBM&hellip; and Tadpole.</p>
+<p><img src="keyboard_bottom.jpg#center" alt="Underside of top assembly" title="Underside of top assembly"></p>
+<p>This also allowed me to easily clean up the battery leakage shown upper left.</p>
+<p>With the top assembly removed, the internal components are easily accessible:</p>
+<p><img src="keyboard_removed.jpg#center" alt="With the keyboard removed" title="With the keyboard removed"></p>
+<p>The daughter board is connected to the motherboard via 2 white ribbon cables. After disconnecting the cables, you can unsnap the daughter board from its plastic stand and remove it. The small speaker also rests on a small plastic stand - once you unsnap the stand from the motherboard and disconnect the speaker cable from the underlying connector, you can remove it as well. Next, you can remove the 2 pin header connectors for the LCD display panel and set the entire LCD assembly aside.</p>
+<p>There are two main circuit boards in the SPARCbook that are sandwiched together:</p>
+<ul>
+<li>The motherboard, which is affixed to the bottom of the laptop, and</li>
+<li>The CPU board, which plugs into the motherboard via 2 custom SCA-style connectors.</li>
+</ul>
+<p>In the following picture, you can see the cache RAM (1) and bus transceivers (2) on the CPU board, as well as the Sun-branded ISDN controller (3) on the underlying motherboard:</p>
+<p><img src="boards.jpg#center" alt="Circuit boards" title="Circuit boards"></p>
+<p>Removing 3 screws from the CPU board allows you to unplug it from the motherboard. The reverse of the CPU board contains the CPU (4) as well as the two RAM slots (5) that accept 60ns SIMMs (I removed the 2 SIMMs before teardown as they are accessible from the battery compartment):</p>
+<p><img src="cpu_board_bottom.jpg#center" alt="Underside of CPU board" title="Underside of CPU board"></p>
+<p>The 170MHz TurboSPARC CPU has a gold heat spreader with a heatsink firmly glued on. The top of the heatsink has a thermal pad that touches the laptop base for heat dissipation:</p>
+<p><img src="cpu.jpg#center" alt="CPU" title="CPU"></p>
+<p>With the CPU board removed, you can see the rest of the motherboard. In addition to the Sun-branded ISDN controller shown earlier, there is an IDE controller (6) and another Sun-branded controller that provides Ethernet/SCSI/parallel (7). There&rsquo;s also a round cutout to allow the CPU heatsink to reach the yellow thermal pad affixed directly to the magnesium alloy base of the laptop:</p>
+<p><img src="motherboard_top.jpg#center" alt="Top of motherboard" title="Top of motherboard"></p>
+<p>If you remove one more screw, as well as the 3 riser screws, you can lift the motherboard away from the bottom of the laptop.</p>
+<p>The reverse of the motherboard reveals the Weitek graphics chip (8), as well as the associated palette DAC (9) and video RAM (10). There&rsquo;s also a custom Tadpole controller that handles laptop-specific functionality such as PCMCIA/sleep/battery/brightness (11), another Sun-branded SBus controller (12), and a 16-bit multimedia audio codec (13):</p>
+<p><img src="motherboard_bottom.jpg#center" alt="Bottom of motherboard" title="Bottom of motherboard"></p>
+<p><a href="originals.zip" title="Teardown pics without red and blue markups">Here&rsquo;s a zip</a> of these pics without the red and blue markups.</p>
+<p>And following is a detailed description of the chips shown in this post (by number):</p>
+<ul>
+<li>(1) MCM69P536BTQ4.5 - 32k x 36 cache sram (4.5 ns)</li>
+<li>(2) IDT74FCT - bus tranceivers</li>
+<li>(3) STP4000QFP - ISDN controller</li>
+<li>(4) MB86907 - 170MHz TurboSPARC CPU</li>
+<li>(6) CMD PCI0640B - IDE controller</li>
+<li>(7) STP2000QFP - Ethernet, parallel port, SCSI, and SBus DMA in a single controller</li>
+<li>(8) Power Weitek 9100 - video processor</li>
+<li>(9) IBM 26H3660 - video palette DAC</li>
+<li>(10) IBM025170LG5D-60 - video RAM</li>
+<li>(11) Tadpole TS102-A - PCMCIA, power/battery/sleep, LCD brightness, and status display controller</li>
+<li>(12) STP2001QFP - SBus slave I/O controller (keyboard, serial, E-Bus for EPROM)</li>
+<li>(13) CRYSTAL CS4215-KL - 16-bit multimedia audio codec</li>
+</ul>
+<p>Assembling the laptop again is also easy. Only 10 screws and 8 cable connections are removed during the entire teardown, all of which are easy to replace in reverse order. Plus, each component fits snugly back where it should without any issues (likely because of the magnesium alloy construction).</p>
+<p>And for those wondering - yes, it booted and ran perfectly after reassembly. I even played a game of DOOM on it too ;-)</p>
+<h3 id="final-thoughts">Final thoughts:</h3>
+<p>I was most surprised to see Sun-branded chips inside the Tadpole SPARCbook. Aside from the IDE controller and custom Tadpole controller, all of the chips I outlined are also commonly used in Sun SPARCstations. As a result, I think the designers of the SPARCbook thought more along the lines of <em><strong>&ldquo;Let&rsquo;s figure out how to fit a SPARCstation into a laptop chassis&rdquo;</strong></em> instead of <em><strong>&ldquo;Let&rsquo;s figure out how to create a SPARC laptop&rdquo;</strong></em>. This makes sense, since the latter would likely be far more expensive to do (and the SPARCbook is already insanely expensive).</p>
+<p>While the SPARCbook was by far Tadpole&rsquo;s most successful product (Sun systems ruled the 1990s UNIX workstation market), Tadpole also created a DEC Alpha laptop running VMS, an RS/6000 laptop running AIX, and even a Pentium laptop running SUSE Linux. It&rsquo;s probably safe to assume that most of the chips in those systems mirror the same ones in the desktop workstations they were based on.</p>
+<p>From looking online, the chassis design is nearly identical across these models, as well as between the SPARCbook 3000 series and earlier SPARCbook 3 series. I couldn&rsquo;t help but be impressed by this design while I was performing the teardown. It&rsquo;s quite clear that a great deal of thought and development went into this aspect alone. And considering that the SPARCbook is insanely thin for its time, this design focus certainly paid off.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/cult-of-mac/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Understanding the Cult of Mac"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

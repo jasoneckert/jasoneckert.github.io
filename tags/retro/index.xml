@@ -6,7 +6,17 @@
     <description>Recent content in retro on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/retro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/retro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SPARCbook teardown</title>
+      <link>https://jasoneckert.github.io/myblog/sparcbook-teardown/</link>
+      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/sparcbook-teardown/</guid>
+      <description>Back in 2019, I picked up a rare SPARC-based laptop from the 1990s running Solaris UNIX. You can read my blog post on it here: SPARCbook 3000ST: The coolest 90s laptop. It occasionally shows up on Hacker News, and I get plenty of comments whenever I post it on Reddit.
+However, I&amp;rsquo;ve always been curious as to the internals. And while there are a few teardowns of the SPARCbook 3 series, I couldn&amp;rsquo;t find any for the SPARCbook 3000 series at all.</description>
+    </item>
+    
     <item>
       <title>The old Web was fun</title>
       <link>https://jasoneckert.github.io/myblog/the-old-web-was-fun/</link>
