@@ -111,7 +111,7 @@
     class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
     style="position: absolute; top: -19px; font-size: 0.9em;"
   >
-    <time>2022-02-05</time>    
+    <time>2022-02-06</time>    
     <span
       class="more"
       style="font-size: 1.5em;"
@@ -125,7 +125,7 @@
   <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
     <div>
       Reading Time: 
-3 mins
+4 mins
       
     </div>
     <div>
@@ -202,21 +202,23 @@
   <div class="article pb-3 pt-3 border-bottom border-top">
     
     <p><img src="risc-hackers-movie.jpg#center" alt="Hackers Movie Quote" title="Hackers Movie Quote"></p>
-<p>This part of the 1995 <em><strong>Hackers</strong></em> movie illustrates is right on par for the time. After all, by the mid 1990s the <em><strong>Reduced Instruction Set Architecture (RISC)</strong></em> processors were seen as the future of computing by most in the tech industry.</p>
-<p>By using a simplified instruction set, computers with RISC processors could perform tasks in a quarter of the time compared to computers with a traditional <em><strong>Complex Instruction Set Architecture (CISC)</strong></em> processor. RISC processors also required less circuitry, which allowed manufacturers to easily add more functionality, such as crypto accelerators, memory management controllers and specialized floating point arithmetic processing units.</p>
-<p>Most PCs and Macs of the early 1990s used Intel or Motorola CISC processors. And while RISC processors were available at the time, they were only used in very expensive high-end UNIX workstations. Apple used PowerPC RISC processors in their Macs during the late 1990s, but switched to the Intel CISC processors that have always dominated the market by the mid 2000s. In fact, by the late 2000s, most RISC processor platforms had long died off with the exception of the <em><strong>Acorn RISC Machine (ARM)</strong></em> processor that dominated the low-power device and mobile markets since the 1990s. For example, your smartphone, Google Home, and car navigation system all use ARM processors.</p>
-<p>However, there really is no reason why you can&rsquo;t make a higher-power ARM processor for computing. And this is exactly what many different manufacturers started doing in the late 2010s - Amazon&rsquo;s Graviton powerful server processor and Apple&rsquo;s M1 desktop processor are the two most famous examples.</p>
-<p>To illustrate the power of RISC architecture, let&rsquo;s compare two different Mac computers running the same version of macOS. One has an Intel Core i9 CISC processor and 64GB of memory, while the other has the Apple M1 RISC processor and 16GB of memory. Following is output of <code>neofetch</code> for each one (the M1 system uses an <code>oh-my-zsh</code> theme for the command prompt):</p>
+<p>This part of the 1995 <em><strong>Hackers</strong></em> movie shown above is right on par for the time. After all, by the mid 1990s <em><strong>Reduced Instruction Set Computer (RISC)</strong></em> processors were seen as the future of computing by most in the tech industry.</p>
+<p>By using a simplified instruction set, computers with RISC processors at the time could perform tasks in a quarter of the time compared to computers that had a traditional <em><strong>Complex Instruction Set Computer (CISC)</strong></em> processor. RISC processors also required less circuitry, which allowed manufacturers to easily add more functionality, such as crypto accelerators, memory management controllers and specialized floating point arithmetic units.</p>
+<p>Most PCs and Macs of the early 1990s used Intel or Motorola CISC processors. And while RISC processors were available at the time, they were only used in very expensive high-end UNIX workstations. Apple used PowerPC RISC processors in their Macs during the late 1990s, but switched entirely to the Intel CISC processors that dominated the market by the mid 2000s. In fact, by the late 2000s, most RISC processor platforms had died off - the only exception being the <em><strong>Acorn RISC Machine (ARM)</strong></em> used in nearly all low-power device and mobile markets. For example, your smartphone, Google Home, and car navigation system all use ARM processors.</p>
+<p>There was no technical barrier to producing a more powerful ARM processor for high-end computing - it just wasn&rsquo;t done until the late 2010s. Amazon&rsquo;s Graviton server processor and Apple&rsquo;s M1 desktop processor are two examples of doing just that, and both illustrate the power of RISC architecture.</p>
+<p>Let&rsquo;s compare two different Mac computers running the same version of macOS. One has an Intel Core i9 CISC processor and 64GB of memory, while the other has the Apple M1 RISC processor and 16GB of memory. Following is output of <code>neofetch</code> for each one (the M1 system uses an <code>oh-my-zsh</code> theme for the command prompt):</p>
 <p><img src="neofetch-i9.png#center" alt="Core i9 MacBook Pro" title="Core i9 MacBook Pro"></p>
 <p><img src="neofetch-m1.png#center" alt="M1 Mac Mini" title="M1 Mac Mini"></p>
-<p>This HTML website is generated from source files in Markdown format using the <code>hugo</code> compositor. For backup purposes, I sync my Documents folder across all of my computers. This means that I can composite my website on both the Intel Core i9 CISC processor and Apple M1 RISC processor using the same version of macOS and <code>hugo</code>:</p>
+<p>This HTML website is generated from source files in Markdown format using the <code>hugo</code> compositor, and I sync my website files across all of my computers. This means that I can composite my website on both the Intel Core i9 CISC processor and Apple M1 RISC processor using the same version of macOS and <code>hugo</code>:</p>
 <p><img src="hugo-i9.png#center" alt="Hugo Composite i9" title="Hugo Composite i9"></p>
 <p><img src="hugo-m1.png#center" alt="Hugo Composite M1" title="Hugo Composite m1"></p>
-<p>The Intel Core i9 took 6126 milliseconds (6 seconds) to generate all 273 pages of website, while the Apple M1 only took 549 milliseconds (half a second). The Apple M1 was over 11 times faster!</p>
-<p>Perhaps part of the discrepancy was related to the storage speed. Both systems use solid state storage that is soldered to the motherboard, but their speeds could be different. So I ran the <code>time</code> command to measure the time it takes to create a 1073 MB file (called tstfile) using the <code>dd</code> command:</p>
+<p>The Intel Core i9 took 6126 milliseconds (6 seconds) to generate all 273 pages of this website, while the Apple M1 only took 549 milliseconds (half a second). The Apple M1 was over 11 times faster!</p>
+<p>While both systems use solid state storage that is soldered to the motherboard, a difference in the speed of this storage between systems could explain the <code>hugo</code> results. So I ran the <code>time</code> command to measure the time it takes to create a 1073 MB file (called tstfile) using the <code>dd</code> command on each system:</p>
 <p><img src="dd-i9.png#center" alt="Storage Speed on i9" title="Storage Speed on i9"></p>
 <p><img src="dd-m1.png#center" alt="Storage Speed on M1" title="Storage Speed on M1"></p>
-<p>The storage speed of both systems is nearly identical  (0.36 seconds to create the same file), so storage didn&rsquo;t contribute to the results. While the unified memory in the Apple M1 is closer to the processor than the DDR4 memory in the Intel Core i9, the benefits it provides to <code>hugo</code> are probably a lot less dramatic than for complex/graphical applications. Thus, most of the difference in <code>hugo</code> speed between the Intel Core i9 and Apple M1 is likely due to the difference between RISC and CISC architecture.</p>
+<p>As you can see, the results were nearly identical (0.36 seconds to create the same file), so storage speed didn&rsquo;t contribute to the results.</p>
+<p>Another hardware feature that could explain the <code>hugo</code> results is memory speed. The Intel Core i9 uses 64GB of 2666 MHz DDR4 memory soldered to the motherboard near the processor, but the Apple M1 uses 16GB of 4266 MHz low power LP-DDR4X memory soldered directly next to the processor. While LP-DDR4X uses less power, it also has reduced memory bandwidth compared to DDR4. Thus, the higher speed of the 4266 MHz LP-DDR4X in the Apple M1 is likely on par (or a bit faster) than the 2666 MHz DDR4 in the Intel Core i9. Being closer to the processor likely also gives the LP-DDR4X a small performance boost as well.</p>
+<p>All of this aside, differences in memory speed can&rsquo;t fully explain the difference we saw with the <code>hugo</code> results since <code>hugo</code> isn&rsquo;t a complex/graphical app. Instead, <code>hugo</code> primarily relies on processor calculations for generating website content from Markdown files. Thus, most of the difference in <code>hugo</code> speed between the Intel Core i9 and Apple M1 is likely due to the difference between RISC and CISC architecture.</p>
 <p>Looks like Kate and Dade from <em><strong>Hackers</strong></em> were correct. Go figure.</p>
 
   </div>

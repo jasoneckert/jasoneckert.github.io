@@ -6,15 +6,15 @@
     <description>Recent content in blog on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Power of RISC architecture</title>
       <link>https://jasoneckert.github.io/myblog/power-of-risc/</link>
-      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jasoneckert.github.io/myblog/power-of-risc/</guid>
-      <description>This part of the 1995 Hackers movie illustrates is right on par for the time. After all, by the mid 1990s the Reduced Instruction Set Architecture (RISC) processors were seen as the future of computing by most in the tech industry.
-By using a simplified instruction set, computers with RISC processors could perform tasks in a quarter of the time compared to computers with a traditional Complex Instruction Set Architecture (CISC) processor.</description>
+      <description>This part of the 1995 Hackers movie shown above is right on par for the time. After all, by the mid 1990s Reduced Instruction Set Computer (RISC) processors were seen as the future of computing by most in the tech industry.
+By using a simplified instruction set, computers with RISC processors at the time could perform tasks in a quarter of the time compared to computers that had a traditional Complex Instruction Set Computer (CISC) processor.</description>
     </item>
     
     <item>
