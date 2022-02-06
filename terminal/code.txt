@@ -14,14 +14,13 @@ total 16
 -rw-rw-r-- 1 jasoneckert jasoneckert  144 Jan  1  1970 reallylongbiography.txt
 <span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->./socialmedialinks.sh 
 <a href="https://www.linkedin.com/in/jason-w-eckert-b1775510/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-<a href="https://twitter.com/eckmeister" target="_blank" rel="noopener noreferrer">Twitter</a>  
+<a href="https://twitter.com/the_unix_guru" target="_blank" rel="noopener noreferrer">Twitter</a>  
 <a href="https://www.youtube.com/user/jasonec512" target="_blank" rel="noopener noreferrer">YouTube</a>
 <a href="https://github.com/jasoneckert" target="_blank" rel="noopener noreferrer">GitHub</a>
 <span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->cat poem.txt
-Roses are red,
-Violets are blue,
-git reset --hard
-When Ctrl+z won't do
+Jason W. Eckert 
+is a systems engineer
+not a Haiku poet.
 <span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->grep -i email reallylongbiography.txt  
 Feel free to send me an <span id="k">email</span> any time at jason.eckert@trios.com
 
