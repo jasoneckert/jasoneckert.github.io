@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.88.1" />
+  <meta name="generator" content="Jason Eckert Hugo 0.92.1" />
 
   <link
     rel="stylesheet"
@@ -215,7 +215,7 @@
 <li>Nerd Fonts provides a font set that is better suited towards developers compared to the default font set provided by macOS. You can use Nerd Fonts in any app that allows you to customize the font set, as well as within macOS itself. You can install Nerd Fonts using the <code>brew tap homebrew/cask-fonts</code> and <code>brew cask install font-hack-nerd-font</code> commands.</li>
 </ul>
 <h1 id="4-install-an-automatic-tiling-window-manager">4. Install an automatic tiling window manager</h1>
-<p>To avoid the mess that is Aqua, you’ll need a proper window manager. You’ll want to install yabai (<a href="https://github.com/koekeishiya/yabai),">https://github.com/koekeishiya/yabai),</a> which manages the windows that you have on your desktop automatically so that everything is organized perfectly.</p>
+<p>To avoid the mess that is Aqua, you’ll need a proper window manager. You’ll want to install yabai (<a href="https://github.com/koekeishiya/yabai)">https://github.com/koekeishiya/yabai)</a>, which manages the windows that you have on your desktop automatically so that everything is organized perfectly.</p>
 <p>Unfortunately, you have to disable two features of macOS System Integrity Protection (SIP) to allow yabai to work. If you research them, you’ll find that they are quite minor, and you’re only disabling them on your second (development) macOS installation only, so it won’t affect your personal installation of macOS. Once these two features are disabled, you’ll also notice a dramatic speed improvement when using macOS (for this reason alone, many macOS power users choose disable it).</p>
 <p>To disable these two features of SIP, power down your computer and then boot it while holding down the Command (⌘) + R key combination to enter recovery mode. Log into your second installation of macOS when prompted and select Terminal from the Utilities menu. Next, type the following command (ignore any warnings) and reboot normally afterwards:</p>
 <pre><code>csrutil enable --without debug --without fs
