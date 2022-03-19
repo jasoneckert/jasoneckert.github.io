@@ -227,7 +227,7 @@
 <ol>
 <li>Download the free version of UTM from <a href="https://mac.getutm.app">https://mac.getutm.app</a> and copy it to your Applications folder.</li>
 <li>Open UTM and click <code>+</code> to create a new VM and click <code>Virtualize</code>, and <code>Linux</code>.</li>
-<li>On the Linux page, select <code>Use Apple Virtualization</code> to use the native hypervisor framwork in macOS. Click <code>Browse</code>, select the DVD ISO image you downloaded and click <code>Next</code>.</li>
+<li>On the Linux page, deselect <code>Use Apple Virtualization</code> (this ensures you are also using Qemu - not just the native hypervisor framwork in macOS). Click <code>Browse</code>, select the DVD ISO image you downloaded and click <code>Next</code>.</li>
 <li>On the Hardware page, specify the amount of memory you&rsquo;d like to give your VM and click <code>Next</code>. For Linux with a graphical desktop (e.g. Fedora Workstation), specify <code>4096 MB</code> to give your VM 4GB of memory. For a Linux server without a graphical desktop (e.g. Ubuntu Server), specify <code>1024 MB</code> to give your VM 1GB of memory.</li>
 <li>On the Storage page, specify the size of the dynamically-expanding virtual hard disk file that will be created and click <code>Next</code>. The default value is <code>64 GB</code>, but you can increase this value to accomodate the software you plan on installing on your Linux VM.</li>
 <li>On the Shared Directory page, optionally click <code>Browse</code> and select a folder on your system that you&rsquo;d like to be made available to your VM for easy file transfer. Click <code>Next</code> when finished.</li>
