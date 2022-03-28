@@ -14,7 +14,7 @@
       
       <guid>https://jasoneckert.github.io/myblog/configuring-i3/</guid>
       <description>Why use the i3 window manager If you&amp;rsquo;re a Linux user, you&amp;rsquo;re probably using a desktop environment that looks like Windows (e.g. KDE Plasma) or macOS (e.g. GNOME). But these desktop environments use a great deal of resources and are cumbersome when it comes to flexibility and navigation between applications and code. To solve these problems, most software developers and Linux/UNIX administrators install and use a tiling window manager.
-While there are many different tiling window managers available, the most common one is called i3 as it is easy to configure, and has great documentation available at https://i3wm.</description>
+While there are many different tiling window managers available, i3 is the most common one.</description>
     </item>
     
     <item>

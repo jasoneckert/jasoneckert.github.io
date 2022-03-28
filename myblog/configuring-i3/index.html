@@ -209,24 +209,24 @@
     
     <h1 id="why-use-the-i3-window-manager">Why use the i3 window manager</h1>
 <p>If you&rsquo;re a Linux user, you&rsquo;re probably using a desktop environment that looks like Windows (e.g. KDE Plasma) or macOS (e.g. GNOME). But these desktop environments use a great deal of resources and are cumbersome when it comes to flexibility and navigation between applications and code. To solve these problems, most software developers and Linux/UNIX administrators install and use a tiling window manager.</p>
-<p>While there are many different tiling window managers available, the most common one is called i3 as it is easy to configure, and has great documentation available at <a href="https://i3wm.org/docs/userguide.html">https://i3wm.org/docs/userguide.html</a></p>
-<p>I&rsquo;ve recently installed i3 on Asahi Linux (which is based on Arch Linux), and customized it for my developer workflow. In this post, I&rsquo;ll walk through what I did - after installing the software, the configuration steps are identical on any Linux distribution.</p>
+<p>While there are many different tiling window managers available, i3 is the most common one. It is easy to configure, and has great documentation available at <a href="https://i3wm.org/docs/userguide.html">https://i3wm.org/docs/userguide.html</a></p>
+<p>I&rsquo;ve recently installed i3 on Asahi Linux (which is based on Arch Linux), and customized it for my developer workflow. In this post, I&rsquo;ll walk through what I did. Once you install the appropriate packages using your Linux distribution&rsquo;s package manager, the configuration steps are identical on any Linux distribution.</p>
 <h1 id="installing-i3">Installing i3</h1>
 <p>You can install i3 from your Linux distribution&rsquo;s software repository. For Arch Linux, this would be <code>sudo pacman -S i3-wm</code> (you can instead use <code>sudo pacman -S i3-gaps</code> to install an extended version of i3 that has more features).</p>
-<p>Next, you&rsquo;ll be able to choose i3 instead of your KDE or GNOME desktop from the display manager (login screen) menu the next time you log into a graphical desktop. After logging into i3 for the first time, you must press Enter when prompted to generate the i3 configuration file (<code>~/.config/i3/config</code>), and then choose whether the Alt key or the Windows key (=Command key on a Mac) will be used as the <em><strong>mod key</strong></em> for i3. The mod key is the key you press alongside other keys to perform functions in i3.</p>
+<p>Next, you&rsquo;ll be able to choose i3 instead of your KDE or GNOME desktop from the display manager (login screen) menu the next time you log into a graphical desktop. After logging into i3 for the first time, you must press Enter to generate the i3 configuration file (<code>~/.config/i3/config</code>), and then choose whether the Alt key or the Windows key (=Command key on a Mac) will be used as the <em><strong>mod key</strong></em>. The mod key is the key you press alongside other keys to perform functions in i3.</p>
 <h1 id="basic-i3-navigation-and-usage">Basic i3 navigation and usage</h1>
-<p>When you&rsquo;re in i3, you should first experiment with the following key combinations, as well as experiment with how your mouse can be used to change focus between tiles:</p>
+<p>When you&rsquo;re in i3, you should first take some time to experiment with the following key combinations, as well as experiment with how your mouse can be used to change focus between tiles:</p>
 <ul>
 <li><code>mod+Enter</code> opens a Terminal (additional Terminals are split horizontally on the screen)</li>
 <li><code>mod+v</code> ensures that the next Terminal opened (using <code>mod+Enter</code>) will be split vertically on the screen</li>
 <li><code>mod+cursor_keys</code> navigates between open Terminal windows on the screen (you can use <code>j</code>/<code>k</code>/<code>l</code>/<code>;</code> instead of cursor keys)</li>
-<li><code>mod+Shift+q</code> closes current Terminal</li>
+<li><code>mod+Shift+q</code> closes the current Terminal</li>
 <li><code>mod+d</code> opens the dmenu application launcher (where you can type the name of graphical programs to open)</li>
 <li><code>mod+s</code> switches to stacking window mode</li>
 <li><code>mod+e</code> switches to tiling window mode (the default)</li>
 <li><code>mod+r</code> enters resize mode (where you can use the cursor keys to resize the window)</li>
 <li><code>mod+Shift+cursor_keys</code> moves the current window to another area of the screen</li>
-<li><code>mod+Shift+2</code> moves the current window to workspace #2 (workspace 1-10 are available, with 0=10)</li>
+<li><code>mod+Shift+2</code> moves the current window to workspace #2 (workspace 1-10 are available, with 0 on your keyboard representing workspace 10)</li>
 <li><code>mod+2</code> switches to workspace #2</li>
 <li><code>mod+Shift+e</code> logs out of i3</li>
 <li><code>mod+Shift+r</code> restarts i3 (commonly done after changing <code>~/.config/i3/config</code>)</li>
@@ -240,10 +240,9 @@ nautilus
 <p>There are many different basic customizations that you&rsquo;ll probably want to do to i3, including setting a background wallpaper, changing display settings, and configuring a screen lock.</p>
 <p>To set your background wallpaper using the <code>feh</code> command, edit <code>~/.config/i3/config</code> and add this line to the bottom:</p>
 <pre tabindex="0"><code>exec_always feh --bg-scale &#34;/path/to/wallpaper/file&#34;
-</code></pre><p>For multiple displays, or display settings, you run the graphical <code>arandr</code> command.</p>
-<p>To lock your screen, you can use the <code>i3lock</code> command. You can create a mod key combination for it by editing your i3 configuration file. For example, to lock your screen using <code>mod+Shift+x</code> with a wallpaper of your choice, you can add the following line to your <code>~/.config/i3/config</code> file:</p>
+</code></pre><p>To configure display settings (including for multiple displays), you run the graphical <code>arandr</code> command. Alternatively, to lock your screen, you can use the <code>i3lock</code> command. You can create a mod key combination for locking your screen by editing your i3 configuration file. For example, to lock your screen using <code>mod+Shift+x</code> with a wallpaper of your choice, you can add the following line to your <code>~/.config/i3/config</code> file:</p>
 <pre tabindex="0"><code>bindsym $mod+shift+x exec i3lock --image &#34;/path/to/wallpaper/file&#34;
-</code></pre><p>If <code>feh</code>, <code>arandr</code> or <code>i3lock</code> do not work, you&rsquo;ll likely need to install them first from your Linux distribution&rsquo;s software repository (e.g. <code>sudo pacman -S feh arandr i3lock</code> on Arch Linux).</p>
+</code></pre><p>If the <code>feh</code>, <code>arandr</code> or <code>i3lock</code> commands do not work, you&rsquo;ll likely need to install them first from your Linux distribution&rsquo;s software repository (e.g. <code>sudo pacman -S feh arandr i3lock</code> on Arch Linux).</p>
 <h1 id="customizing-your-workspaces">Customizing your workspaces</h1>
 <p>To customize the names of your workspaces, you can modify the following section in your <code>~/.config/i3/config</code> file. My customizations are shown here:</p>
 <pre tabindex="0"><code># We use variables to avoid repeating the names in multiple places.
@@ -257,15 +256,15 @@ set $ws7 &#34;7: Git log&#34;
 set $ws8 &#34;8: Tetris&#34;
 set $ws9 &#34;9: Email&#34;
 set $ws10 &#34;10: Slack&#34;
-</code></pre><p>I prefer to replace the words shown next to each number (e.g. Terminals) with an icon that represents the same thing. If you install Font Awesome, you can paste in icons into the double-quoted <code>set</code> sections above. To do this, go to <a href="https://github.com/FortAwesome/Font-Awesome.git">https://github.com/FortAwesome/Font-Awesome.git</a>, enter the webfonts folder, and download each of the <code>.ttl</code> files within to your <code>~/.fonts</code> directory (you&rsquo;ll likely need to create this directory first). Now that the fonts are installed on your system, log out and into i3 again, go to <a href="https://fontawesome.com/v5/cheatsheet">https://fontawesome.com/v5/cheatsheet</a>, copy the actual icon you want (to the left of the icon name), and then paste it into a double-quoted <code>set</code> section shown earlier. Log out and into i3 again and you&rsquo;ll see the icon.</p>
-<p>To automatically start certain graphical apps on certain workspaces each time you log into i3, you can add commands to the bottom of your <code>~/.config/i3/config</code> file. For example, the following lines would start the appropriate apps on the first 5 workspaces shown earlier:</p>
+</code></pre><p>I prefer to replace the words shown next to each number (e.g. Terminals) with an icon that represents the same thing. If you install <em><strong>Font Awesome</strong></em>, you can paste in icons into the double-quoted <code>set</code> sections above. To do this, go to <a href="https://github.com/FortAwesome/Font-Awesome.git">https://github.com/FortAwesome/Font-Awesome.git</a>, enter the webfonts folder, and download each of the <code>.ttl</code> files within to your <code>~/.fonts</code> directory (you&rsquo;ll likely need to create this directory first). Now that the fonts are installed on your system, log out and into i3 again, go to <a href="https://fontawesome.com/v5/cheatsheet">https://fontawesome.com/v5/cheatsheet</a>, copy the actual icon you want (to the left of the icon name), and then paste it into a double-quoted <code>set</code> section shown earlier. Log out and into i3 again and you&rsquo;ll see the icon.</p>
+<p>To automatically start certain graphical apps on certain workspaces each time you log into i3, you can add commands to the bottom of your <code>~/.config/i3/config</code> file. For example, the following lines would start the relevant apps on the first 5 workspaces shown earlier:</p>
 <pre tabindex="0"><code>exec --no-startup-id i3-msg &#39;workspace $ws1; exec gnome-terminal&#39;
 exec --no-startup-id i3-msg &#39;workspace $ws2; exec firefox&#39;
 exec --no-startup-id i3-msg &#39;workspace $ws3; exec gnome-system-monitor&#39;
 exec --no-startup-id i3-msg &#39;workspace $ws4; exec gnome-weather&#39;
 exec --no-startup-id i3-msg &#39;workspace $ws5; exec nautilus; workspace $ws1&#39;
 </code></pre><h1 id="customizing-window-border-and-title-colors">Customizing window border and title colors</h1>
-<p>You&rsquo;ll likely want to customize the default colors used by the various parts of the i3 desktop, including the bar and window borders. To do this, add the following lines just before the <code>bar</code> section of your <code>~/.config/i3/config</code> file:</p>
+<p>Unless you&rsquo;re a big fan of the defaults (or lazy), you&rsquo;ll want to customize the default colors used by the various parts of the i3 desktop, including the bar and window borders. To do this, add the following lines just before the <code>bar</code> section of your <code>~/.config/i3/config</code> file:</p>
 <pre tabindex="0"><code>###Color variables
 set $bg-color #2f343f
 set $inactive-bg-color #2f343f
@@ -296,24 +295,24 @@ client.urgent  $urgent-bg-color $urgent-bg-color $text-color #ff0000
     }
 }
 </code></pre><h1 id="customizing-the-system-font-and-font-size">Customizing the system font and font size</h1>
-<p>The default font used in i3 is pretty drab. As a result, you&rsquo;ll want to replace it to suit your liking. The San Francisco font is pretty popular. You can download the <code>.zip</code> of it from <a href="https://github.com/supermarin/YosemiteSanFranciscoFont">https://github.com/supermarin/YosemiteSanFranciscoFont</a> and copy the four <code>.ttf</code> files within to your <code>~/.fonts</code> directory. Next, modify the following <code>font pango:</code> line in your <code>~/.config/i3/config</code> file to reflect the name of the new font, as well as specify a size (I prefer font size 16):</p>
+<p>While the default font used in i3 is pretty drab, you can easily replace it with something better, such as San Francisco. You can download the <code>.zip</code> of this font from <a href="https://github.com/supermarin/YosemiteSanFranciscoFont">https://github.com/supermarin/YosemiteSanFranciscoFont</a> and then copy the four <code>.ttf</code> files within to your <code>~/.fonts</code> directory. Next, modify the following <code>font pango:</code> line in your <code>~/.config/i3/config</code> file to reflect the name of the new font, as well as specify a size (I prefer font size 16 on a large monitor):</p>
 <pre tabindex="0"><code>font pango:System San Francisco Display 16
 </code></pre><h1 id="customizing-the-font-window-and-icon-theme-used-by-programs">Customizing the font, window and icon theme used by programs</h1>
-<p>The graphical programs you run are often created using the GIMP Toolkit (GTK). To use the same font earlier with the GTK, edit your <code>~/.gtkrc-2.0</code>, <code>~/.config/gtk-3.0/settings.ini</code> and <code>~/.config/gtk-4.0/settings.ini</code> files, and
-and modify the following line to reflect your new font (it&rsquo;s good to use a slightly smaller font size for this - e.g., 13):</p>
+<p>The graphical programs you run are often created using the <em><strong>GIMP Toolkit (GTK)</strong></em>. To use the same font earlier with the GTK, edit your <code>~/.gtkrc-2.0</code>, <code>~/.config/gtk-3.0/settings.ini</code> and <code>~/.config/gtk-4.0/settings.ini</code> files, and
+and modify the following line to reflect your new font (it&rsquo;s good to use a slightly smaller font size than your system font - e.g., 13):</p>
 <pre tabindex="0"><code>gtk-font-name=&#34;System San Francisco Display 13&#34;
 </code></pre><p>Alternatively, you can run the <code>lxappearance</code> graphical tool to modify your GTK font to San Francisco. You may need to install this tool first from your Linux distribution&rsquo;s software repository (e.g. <code>sudo pacman -S lxappearance</code> on Arch Linux).</p>
-<p>The <code>lxappearance</code> tool can also be used to modify your window and icon themes as well. But you&rsquo;ll need to install those themes first. There are many themes to choose from, and I recommend you install all that are available in your Linux distribution&rsquo;s software repository to see which ones you like best.</p>
+<p>The <code>lxappearance</code> tool can also be used to modify your window and icon themes as well. But you&rsquo;ll need to install those themes first. There are many themes to choose from, and I recommend you install all that are listed in your Linux distribution&rsquo;s software repository to see which ones you like best.</p>
 <p>The Arc Dark GTK theme is quite popular and the one I use. On Arch Linux, you can install this them using the <code>sudo pacman -S arc-gtk-theme</code> command. I also prefer the Faenza icon theme, which can be installed using <code>sudo pacman -S faenza-icon-theme</code> on Arch Linux. Next, you can choose to apply the Arc Dark GTK theme and Faenza icon theme using the <code>lxappearance</code> tool and restart i3 to see your changes.</p>
-<p>Many GTK themes also have an equivalent Firefox theme. Thus, if you use Arc Dark as your GTK theme, be sure to navigate to the themes configuration within Firefox, search for and install Arc Dark to match.</p>
+<p>Many GTK themes also have an equivalent Firefox theme. Thus, if you use Arc Dark as your GTK theme, be sure to navigate to the themes configuration within Firefox, and then search for and install Arc Dark to ensure that Firefox matches the rest of your desktop.</p>
 <h1 id="replacing-the-dmenu-application-launcher-with-rofi">Replacing the Dmenu application launcher with Rofi</h1>
-<p>The default Dmenu application launcher is pretty cumbersome. As a result, most i3 users replace it with Rofi. You must first install Rofi (e.g. <code>sudo pacman -S rofi</code> on Arch Linux), and then edit the line for the <code>mod+d</code> mapping within your <code>~/.config/i3/config</code> file as follows:</p>
+<p>The default Dmenu application launcher is pretty basic. As a result, most i3 users replace it with Rofi. You must first install Rofi (e.g. <code>sudo pacman -S rofi</code> on Arch Linux), and then edit the line for the <code>mod+d</code> mapping within your <code>~/.config/i3/config</code> file as follows:</p>
 <pre tabindex="0"><code>bindsym $mod+d exec &#34;rofi -modi drun,run -show drun&#34;
 </code></pre><p>Now, when you use <code>mod+d</code>, you&rsquo;ll get a much nicer application launcher in the middle of your screen that looks far better.</p>
 <h1 id="configuring-the-elements-on-your-bar">Configuring the elements on your bar</h1>
-<p>The components on the right side of your bar are generated by a command. By default, this command is <code>i3status</code>, but can be changed to <code>i3blocks</code>, which is easy to customize. After installing <code>i3blocks</code> using your Linux distribution&rsquo;s software repository (e.g. <code>sudo pacman -S i3blocks</code> on Arch Linux), you can modify the <code>status_command</code> line under the <code>bar</code> section in your <code>~/.config/i3/config</code> file to read:
-<code>status_command i3blocks</code></p>
-<p>Next, you can copy the default <code>i3blocks</code> configuration to your home directory:</p>
+<p>The components on the right side of your bar are generated by a command. By default, this command is <code>i3status</code> but can be changed to <code>i3blocks</code> for easy customization. After installing <code>i3blocks</code> using your Linux distribution&rsquo;s software repository (e.g. <code>sudo pacman -S i3blocks</code> on Arch Linux), you can modify the <code>status_command</code> line under the <code>bar</code> section in your <code>~/.config/i3/config</code> file to read:</p>
+<pre tabindex="0"><code>status_command i3blocks
+</code></pre><p>Next, you can copy the default <code>i3blocks</code> configuration to your home directory using the following commands:</p>
 <pre tabindex="0"><code>mkdir ~/.config/i3blocks
 cp /etc/i3blocks.conf ~/.config/i3blocks/config
 </code></pre><p>Now, you can edit the easy-to-read paragraphs in the <code>~/.config/i3blocks/config</code> file to choose which sections, text and colors you want. There are many sample paragraphs you can copy into this file from <a href="https://vivien.github.io/i3blocks">https://vivien.github.io/i3blocks</a> (as well as great documentation). You can even paste icons from <a href="https://fontawesome.com/v5/cheatsheet">https://fontawesome.com/v5/cheatsheet</a> into these paragraphs to place icons in your bar that represent functions and status.</p>
