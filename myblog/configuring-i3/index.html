@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.95.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Configuring the i3 Window Manager
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2022-03-27</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+9 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/development"
+      title="tags"
+    >development</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/programming"
+      title="tags"
+    >programming</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <h1 id="why-use-the-i3-window-manager">Why use the i3 window manager</h1>
+<p>If you&rsquo;re a Linux user, you&rsquo;re probably using a desktop environment that looks like Windows (e.g. KDE Plasma) or macOS (e.g. GNOME). But these desktop environments use a great deal of resources and are cumbersome when it comes to flexibility and navigation between applications and code. To solve these problems, most software developers and Linux/UNIX administrators install and use a tiling window manager.</p>
+<p>While there are many different tiling window managers available, the most common one is called i3 as it is easy to configure, and has great documentation available at <a href="https://i3wm.org/docs/userguide.html">https://i3wm.org/docs/userguide.html</a></p>
+<p>I&rsquo;ve recently installed i3 on Asahi Linux (which is based on Arch Linux), and customized it for my developer workflow. In this post, I&rsquo;ll walk through what I did - after installing the software, the configuration steps are identical on any Linux distribution.</p>
+<h1 id="installing-i3">Installing i3</h1>
+<p>You can install i3 from your Linux distribution&rsquo;s software repository. For Arch Linux, this would be <code>sudo pacman -S i3-wm</code> (you can instead use <code>sudo pacman -S i3-gaps</code> to install an extended version of i3 that has more features).</p>
+<p>Next, you&rsquo;ll be able to choose i3 instead of your KDE or GNOME desktop from the display manager (login screen) menu the next time you log into a graphical desktop. After logging into i3 for the first time, you must press Enter when prompted to generate the i3 configuration file (<code>~/.config/i3/config</code>), and then choose whether the Alt key or the Windows key (=Command key on a Mac) will be used as the <em><strong>mod key</strong></em> for i3. The mod key is the key you press alongside other keys to perform functions in i3.</p>
+<h1 id="basic-i3-navigation-and-usage">Basic i3 navigation and usage</h1>
+<p>When you&rsquo;re in i3, you should first experiment with the following key combinations, as well as experiment with how your mouse can be used to change focus between tiles:</p>
+<ul>
+<li><code>mod+Enter</code> opens a Terminal (additional Terminals are split horizontally on the screen)</li>
+<li><code>mod+v</code> ensures that the next Terminal opened (using <code>mod+Enter</code>) will be split vertically on the screen</li>
+<li><code>mod+cursor_keys</code> navigates between open Terminal windows on the screen (you can use <code>j</code>/<code>k</code>/<code>l</code>/<code>;</code> instead of cursor keys)</li>
+<li><code>mod+Shift+q</code> closes current Terminal</li>
+<li><code>mod+d</code> opens the dmenu application launcher (where you can type the name of graphical programs to open)</li>
+<li><code>mod+s</code> switches to stacking window mode</li>
+<li><code>mod+e</code> switches to tiling window mode (the default)</li>
+<li><code>mod+r</code> enters resize mode (where you can use the cursor keys to resize the window)</li>
+<li><code>mod+Shift+cursor_keys</code> moves the current window to another area of the screen</li>
+<li><code>mod+Shift+2</code> moves the current window to workspace #2 (workspace 1-10 are available, with 0=10)</li>
+<li><code>mod+2</code> switches to workspace #2</li>
+<li><code>mod+Shift+e</code> logs out of i3</li>
+<li><code>mod+Shift+r</code> restarts i3 (commonly done after changing <code>~/.config/i3/config</code>)</li>
+</ul>
+<p>Some common graphical programs that I like to start on their own workspace using <code>mod+d</code> include:</p>
+<pre tabindex="0"><code>firefox 
+gnome-system-monitor
+gnome-weather
+nautilus
+</code></pre><h1 id="basic-i3-customization">Basic i3 customization</h1>
+<p>There are many different basic customizations that you&rsquo;ll probably want to do to i3, including setting a background wallpaper, changing display settings, and configuring a screen lock.</p>
+<p>To set your background wallpaper using the <code>feh</code> command, edit <code>~/.config/i3/config</code> and add this line to the bottom:</p>
+<pre tabindex="0"><code>exec_always feh --bg-scale &#34;/path/to/wallpaper/file&#34;
+</code></pre><p>For multiple displays, or display settings, you run the graphical <code>arandr</code> command.</p>
+<p>To lock your screen, you can use the <code>i3lock</code> command. You can create a mod key combination for it by editing your i3 configuration file. For example, to lock your screen using <code>mod+Shift+x</code> with a wallpaper of your choice, you can add the following line to your <code>~/.config/i3/config</code> file:</p>
+<pre tabindex="0"><code>bindsym $mod+shift+x exec i3lock --image &#34;/path/to/wallpaper/file&#34;
+</code></pre><p>If <code>feh</code>, <code>arandr</code> or <code>i3lock</code> do not work, you&rsquo;ll likely need to install them first from your Linux distribution&rsquo;s software repository (e.g. <code>sudo pacman -S feh arandr i3lock</code> on Arch Linux).</p>
+<h1 id="customizing-your-workspaces">Customizing your workspaces</h1>
+<p>To customize the names of your workspaces, you can modify the following section in your <code>~/.config/i3/config</code> file. My customizations are shown here:</p>
+<pre tabindex="0"><code># We use variables to avoid repeating the names in multiple places.
+set $ws1 &#34;1: Terminals&#34;
+set $ws2 &#34;2: Firefox&#34;
+set $ws3 &#34;3: Performance&#34;
+set $ws4 &#34;4: Weather&#34;
+set $ws5 &#34;5: File browser&#34;
+set $ws6 &#34;6: K3S&#34;
+set $ws7 &#34;7: Git log&#34;
+set $ws8 &#34;8: Tetris&#34;
+set $ws9 &#34;9: Email&#34;
+set $ws10 &#34;10: Slack&#34;
+</code></pre><p>I prefer to replace the words shown next to each number (e.g. Terminals) with an icon that represents the same thing. If you install Font Awesome, you can paste in icons into the double-quoted <code>set</code> sections above. To do this, go to <a href="https://github.com/FortAwesome/Font-Awesome.git">https://github.com/FortAwesome/Font-Awesome.git</a>, enter the webfonts folder, and download each of the <code>.ttl</code> files within to your <code>~/.fonts</code> directory (you&rsquo;ll likely need to create this directory first). Now that the fonts are installed on your system, log out and into i3 again, go to <a href="https://fontawesome.com/v5/cheatsheet">https://fontawesome.com/v5/cheatsheet</a>, copy the actual icon you want (to the left of the icon name), and then paste it into a double-quoted <code>set</code> section shown earlier. Log out and into i3 again and you&rsquo;ll see the icon.</p>
+<p>To automatically start certain graphical apps on certain workspaces each time you log into i3, you can add commands to the bottom of your <code>~/.config/i3/config</code> file. For example, the following lines would start the appropriate apps on the first 5 workspaces shown earlier:</p>
+<pre tabindex="0"><code>exec --no-startup-id i3-msg &#39;workspace $ws1; exec gnome-terminal&#39;
+exec --no-startup-id i3-msg &#39;workspace $ws2; exec firefox&#39;
+exec --no-startup-id i3-msg &#39;workspace $ws3; exec gnome-system-monitor&#39;
+exec --no-startup-id i3-msg &#39;workspace $ws4; exec gnome-weather&#39;
+exec --no-startup-id i3-msg &#39;workspace $ws5; exec nautilus; workspace $ws1&#39;
+</code></pre><h1 id="customizing-window-border-and-title-colors">Customizing window border and title colors</h1>
+<p>You&rsquo;ll likely want to customize the default colors used by the various parts of the i3 desktop, including the bar and window borders. To do this, add the following lines just before the <code>bar</code> section of your <code>~/.config/i3/config</code> file:</p>
+<pre tabindex="0"><code>###Color variables
+set $bg-color #2f343f
+set $inactive-bg-color #2f343f
+set $text-color #f3f4f5
+set $inactive-text-color #676E7D
+set $urgent-bg-color #E53935
+
+###Window colors  
+###Fields: identifier border background text indicator
+client.focused  $bg-color $bg-color $text-color #ff0000
+client.unfocused  $inactive-bg-color $inactive-bg-color $inactive-text-color #ff0000
+client.focused_inactive  $inactive-bg-color $inactive-bg-color $inactive-text-color #ff0000
+client.urgent  $urgent-bg-color $urgent-bg-color $text-color #ff0000
+</code></pre><p>You can modify the hexadecimal RGB values to your liking, of course. I used red (#ff0000) for any status indicators (placeholders for new windows) and urgent status indicators (alerts) to match my darkblood Zsh theme, and grey (#2f343f) for backgrounds to match the most common color in my wallpaper.</p>
+<h1 id="customizing-the-bar-colors-and-position">Customizing the bar colors and position</h1>
+<p>If you&rsquo;ve modified your window colors, you&rsquo;ll also want to modify the i3 bar colors to match. Most users (myself included) also prefer to move the bar to the top of the screen. To do all of this, you can modify the following lines within the <code>bar</code> section of your <code>~/.config/i3/config</code> file:</p>
+<pre tabindex="0"><code>bar {
+    status_command i3status
+    position top
+    colors {
+        background $bg-color
+        separator #757575
+    
+        ###Fields: identifier border background text indicator
+        focused_workspace $bg-color $bg-color $text-color
+        inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+        urgent_workspace $urgent-bg-color $urgent-bg-color $text-color
+    }
+}
+</code></pre><h1 id="customizing-the-system-font-and-font-size">Customizing the system font and font size</h1>
+<p>The default font used in i3 is pretty drab. As a result, you&rsquo;ll want to replace it to suit your liking. The San Francisco font is pretty popular. You can download the <code>.zip</code> of it from <a href="https://github.com/supermarin/YosemiteSanFranciscoFont">https://github.com/supermarin/YosemiteSanFranciscoFont</a> and copy the four <code>.ttf</code> files within to your <code>~/.fonts</code> directory. Next, modify the following <code>font pango:</code> line in your <code>~/.config/i3/config</code> file to reflect the name of the new font, as well as specify a size (I prefer font size 16):</p>
+<pre tabindex="0"><code>font pango:System San Francisco Display 16
+</code></pre><h1 id="customizing-the-font-window-and-icon-theme-used-by-programs">Customizing the font, window and icon theme used by programs</h1>
+<p>The graphical programs you run are often created using the GIMP Toolkit (GTK). To use the same font earlier with the GTK, edit your <code>~/.gtkrc-2.0</code>, <code>~/.config/gtk-3.0/settings.ini</code> and <code>~/.config/gtk-4.0/settings.ini</code> files, and
+and modify the following line to reflect your new font (it&rsquo;s good to use a slightly smaller font size for this - e.g., 13):</p>
+<pre tabindex="0"><code>gtk-font-name=&#34;System San Francisco Display 13&#34;
+</code></pre><p>Alternatively, you can run the <code>lxappearance</code> graphical tool to modify your GTK font to San Francisco. You may need to install this tool first from your Linux distribution&rsquo;s software repository (e.g. <code>sudo pacman -S lxappearance</code> on Arch Linux).</p>
+<p>The <code>lxappearance</code> tool can also be used to modify your window and icon themes as well. But you&rsquo;ll need to install those themes first. There are many themes to choose from, and I recommend you install all that are available in your Linux distribution&rsquo;s software repository to see which ones you like best.</p>
+<p>The Arc Dark GTK theme is quite popular and the one I use. On Arch Linux, you can install this them using the <code>sudo pacman -S arc-gtk-theme</code> command. I also prefer the Faenza icon theme, which can be installed using <code>sudo pacman -S faenza-icon-theme</code> on Arch Linux. Next, you can choose to apply the Arc Dark GTK theme and Faenza icon theme using the <code>lxappearance</code> tool and restart i3 to see your changes.</p>
+<p>Many GTK themes also have an equivalent Firefox theme. Thus, if you use Arc Dark as your GTK theme, be sure to navigate to the themes configuration within Firefox, search for and install Arc Dark to match.</p>
+<h1 id="replacing-the-dmenu-application-launcher-with-rofi">Replacing the Dmenu application launcher with Rofi</h1>
+<p>The default Dmenu application launcher is pretty cumbersome. As a result, most i3 users replace it with Rofi. You must first install Rofi (e.g. <code>sudo pacman -S rofi</code> on Arch Linux), and then edit the line for the <code>mod+d</code> mapping within your <code>~/.config/i3/config</code> file as follows:</p>
+<pre tabindex="0"><code>bindsym $mod+d exec &#34;rofi -modi drun,run -show drun&#34;
+</code></pre><p>Now, when you use <code>mod+d</code>, you&rsquo;ll get a much nicer application launcher in the middle of your screen that looks far better.</p>
+<h1 id="configuring-the-elements-on-your-bar">Configuring the elements on your bar</h1>
+<p>The components on the right side of your bar are generated by a command. By default, this command is <code>i3status</code>, but can be changed to <code>i3blocks</code>, which is easy to customize. After installing <code>i3blocks</code> using your Linux distribution&rsquo;s software repository (e.g. <code>sudo pacman -S i3blocks</code> on Arch Linux), you can modify the <code>status_command</code> line under the <code>bar</code> section in your <code>~/.config/i3/config</code> file to read:
+<code>status_command i3blocks</code></p>
+<p>Next, you can copy the default <code>i3blocks</code> configuration to your home directory:</p>
+<pre tabindex="0"><code>mkdir ~/.config/i3blocks
+cp /etc/i3blocks.conf ~/.config/i3blocks/config
+</code></pre><p>Now, you can edit the easy-to-read paragraphs in the <code>~/.config/i3blocks/config</code> file to choose which sections, text and colors you want. There are many sample paragraphs you can copy into this file from <a href="https://vivien.github.io/i3blocks">https://vivien.github.io/i3blocks</a> (as well as great documentation). You can even paste icons from <a href="https://fontawesome.com/v5/cheatsheet">https://fontawesome.com/v5/cheatsheet</a> into these paragraphs to place icons in your bar that represent functions and status.</p>
+<p>If you followed what I did in this blog post, you should have an i3 configuration that is similar to mine. Here are some screenshots of what I have on different workspaces:</p>
+<p><img src="Asahi_i3_w1.png#center" alt="i3 workspace1" title="i3 workspace1"></p>
+<p><img src="Asahi_i3_w2.png#center" alt="i3 workspace2" title="i3 workspace2"></p>
+<p><img src="Asahi_i3_w3.png#center" alt="i3 workspace3" title="i3 workspace3"></p>
+<p><img src="Asahi_i3_w5.png#center" alt="i3 workspace5" title="i3 workspace5"></p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/coffee/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Brewing the Best Coffee"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

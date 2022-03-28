@@ -6,7 +6,17 @@
     <description>Recent content on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuring the i3 Window Manager</title>
+      <link>https://jasoneckert.github.io/myblog/configuring-i3/</link>
+      <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/configuring-i3/</guid>
+      <description>Why use the i3 window manager If you&amp;rsquo;re a Linux user, you&amp;rsquo;re probably using a desktop environment that looks like Windows (e.g. KDE Plasma) or macOS (e.g. GNOME). But these desktop environments use a great deal of resources and are cumbersome when it comes to flexibility and navigation between applications and code. To solve these problems, most software developers and Linux/UNIX administrators install and use a tiling window manager.
+While there are many different tiling window managers available, the most common one is called i3 as it is easy to configure, and has great documentation available at https://i3wm.</description>
+    </item>
+    
     <item>
       <title>Brewing the Best Coffee</title>
       <link>https://jasoneckert.github.io/myblog/coffee/</link>
@@ -823,7 +833,7 @@ In short, he’s the co-founder of Apple, and the engineer who created the Apple
       <guid>https://jasoneckert.github.io/myblog/linux-turns-25/</guid>
       <description>Today marks the 25th anniversary of the Linux operating system!
 More specifically, it marks the day that Linus Torvalds announced his new operating system (that was later called Linux) in a newsgroup post:
-From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI Date: 25 Aug 91 20:57:08 GMT Organization: University of Helsinki. Hello everybody out there using minix- I&#39;m doing a (free) operating system (just a hobby, won&#39;t be big and professional like gnu) for 386(486) AT clones.</description>
+From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI Date: 25 Aug 91 20:57:08 GMT Organization: University of Helsinki. Hello everybody out there using minix- I&amp;#39;m doing a (free) operating system (just a hobby, won&amp;#39;t be big and professional like gnu) for 386(486) AT clones.</description>
     </item>
     
     <item>

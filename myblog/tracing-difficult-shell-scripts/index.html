@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.92.1" />
+  <meta name="generator" content="Jason Eckert Hugo 0.95.0" />
 
   <link
     rel="stylesheet"
@@ -240,44 +240,44 @@ $
 <p>Now, let&rsquo;s examine the contents of the shell script that produced these results:</p>
 <pre tabindex="0"><code>:
 [ $# -eq 0 ] &amp;&amp; {  
-	echo &quot;usage: $0 directory&quot; &gt;&amp;2
+	echo &#34;usage: $0 directory&#34; &gt;&amp;2
 	exit 1
 }
 base=$1
 export base
-echo &quot;$base&quot;
-find $base -print | sed '
-	s:^'$base':|:
+echo &#34;$base&#34;
+find $base -print | sed &#39;
+	s:^&#39;$base&#39;:|:
 	s:/\([^/]*\)$:?? \1:
 	s:/[^ ?/]*:   |:g
 	s:?:_:g
-	'
+	&#39;
 </code></pre><p>Were you able to trace it easily? If not, you&rsquo;re definitely not alone!
 Let&rsquo;s examine some shell script tracing strategies that we can apply to this shell script.</p>
 <h1 id="1-start-with-what-you-know">1. Start with what you know</h1>
 <p>With a basic knowledge of shell scripting from a course or other learning resource, you&rsquo;ve likely learned about standard input/output redirection, positional parameters (shell script command line arguments), as well as <code>if</code> statements their equivalent conditional ANDs and ORs. Thus, you&rsquo;ll probably be able to easily trace the following part of the shell script that tests whether the number of positional parameters (<code>$#</code>) is equal to zero AND (<code>&amp;&amp;</code>) prints a usage line to the screen using standard error (<code>&gt;&amp;2</code>) if this is the case, stopping the shell script with a false exit status (<code>exit 1</code>):</p>
 <pre tabindex="0"><code>[ $# -eq 0 ] &amp;&amp; {  
-	echo &quot;usage: $0 directory&quot; &gt;&amp;2
+	echo &#34;usage: $0 directory&#34; &gt;&amp;2
 	exit 1
 }
 </code></pre><p>You&rsquo;ve also likely learned about variables, so you know that <code>$0</code> stores the shell script name, <code>$1</code> stores the first positional parameter, and that the following code copies the first positional parameter to a new variable called <code>base</code> that is made available to other commands run by the shell (<code>export base</code>) and also printed to the screen via standard output using the <code>echo</code> command (the first line you see when executing the shell script):</p>
 <pre tabindex="0"><code>base=$1
 export base
-echo &quot;$base&quot;
+echo &#34;$base&#34;
 </code></pre><p>So, by focusing on your existing basic shell script knowledge, you can trace the code that produces usage information if you don&rsquo;t supply an argument to the shell script, as well as trace the code that prints the top of the directory listing in the shell script output.</p>
 <h1 id="2-research-specific-command-usage">2. Research specific command usage</h1>
 <p>The next part of the shell is the hardest to trace as it leverages two powerful Linux/UNIX commands: <code>find</code> and <code>sed</code> (the stream editor). The <code>find</code> command is fairly common knowledge for any Linux/UNIX user, so you&rsquo;ll be able to identify that the following line generates a recursive list of files and subdirectories starting from the directory supplied as an argument to the shell script (the <code>$base</code> variable) and sends that recursive list to the <code>sed</code> command for processing via a pipe (<code>|</code>)</p>
-<pre tabindex="0"><code>find $base -print | sed '
+<pre tabindex="0"><code>find $base -print | sed &#39;
 </code></pre><p>Where it likely gets difficult to trace for most people is in the single-quoted, multi-line argument that follows the <code>sed</code> command:</p>
-<pre tabindex="0"><code>find $base -print | sed '
-	s:^'$base':|:
+<pre tabindex="0"><code>find $base -print | sed &#39;
+	s:^&#39;$base&#39;:|:
 	s:/\([^/]*\)$:?? \1:
 	s:/[^ ?/]*:   |:g
 	s:?:_:g
-	'
+	&#39;
 </code></pre><p>This isn&rsquo;t about knowing shell scripting per se, but instead understanding the complex usage of a command that is used within the shell script (there are hundreds of such tools). Of course, you&rsquo;ll need to spend some time looking through manual page (<code>man sed</code>) or some examples online. While it may take you several minutes (maybe even an hour or more) to learn how <code>sed</code> is used here, you&rsquo;ll also be learning a powerful tool that you can use in other shell scripts for processing data using search-and-replace statements. Basically the old Linux/UNIX saying <em><strong>He said. She said. We all said &ldquo;Use sed&rdquo;</strong></em> ;-)</p>
 <p>After researching <code>sed</code> usage, you&rsquo;ll learn that <code>s</code> stands for search, and the first character after <code>s</code> is the delimiter for each statement (<code>:</code> in this case). The first <code>sed</code> command searches for lines that start with <code>$base</code>, and replaces them with a pipe (<code>|</code>) character:</p>
-<pre tabindex="0"><code>	s:^'$base':|:
+<pre tabindex="0"><code>	s:^&#39;$base&#39;:|:
 </code></pre><p>The second <code>sed</code> command matches patterns starting with a <code>/</code>, with anything but a slash (<code>[^/]</code>) in the middle, and ending with End-of-Line character (<code>$</code>) - this represents a filename. Next, it prepends a <code>?? </code> to this filename as a marker for the third <code>sed</code> command:</p>
 <pre tabindex="0"><code>	s:/\([^/]*\)$:?? \1:
 </code></pre><p>The third <code>sed</code> command matches patterns starting with a <code>/</code>, until the next space, <code>?</code> or <code>/</code> character. It then replaces this pattern globally throughout each line (<code>g</code>) with 3 spaces and a pipe, (<code>|</code>). This recursively strips parent directories from each line but their own, replacing them with pipe symbols.</p>

@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.92.1" />
+  <meta name="generator" content="Jason Eckert Hugo 0.95.0" />
 
   <link
     rel="stylesheet"
@@ -257,7 +257,7 @@ gci somefile | gm
 gp somefile
 gp somefile | fl CreationTime
 sp somefile CreationTime &lt;--put in some date when prompted (e.g. 1/1/2016)
-gci C:\Stuff -Recurse | where {$_.LastWriteTime –gt &quot;02/01/2016&quot;}
+gci C:\Stuff -Recurse | where {$_.LastWriteTime –gt &#34;02/01/2016&#34;}
 </code></pre><p>Here is some extra stuff to drill in how object-oriented PowerShell really is:</p>
 <pre tabindex="0"><code>$a = gci somefile
 $a
@@ -269,7 +269,7 @@ $itunes.stop()
 $itunes | gm
 
 $ui = (Get-Host).UI.RawUI
-$ui.WindowTitle = &quot;Extreme PowerShell Window!&quot;
+$ui.WindowTitle = &#34;Extreme PowerShell Window!&#34;
 </code></pre><h1 id="3-useful-cmdlets-for-daily-system-administration">3. Useful Cmdlets for Daily System Administration</h1>
 <p>Although most Windows sysadmins typically RDP into a server to administer it graphically, there are a few tasks that save you time if you do them in PowerShell!  Here are some of my favorites by topic area (try them out for yourself to see how cool they are):</p>
 <h3 id="network-admin-cmdlets">Network Admin cmdlets:</h3>
@@ -359,8 +359,8 @@ c:\myscript.ps1
 del \\server1\archive\acctlog_sorted.txt
 
 #Sorts acclog.txt, removes any duplicate lines, and saves it to acclog_sorted.txt.
-$TextFile = &quot;C:\LogStorage\acctlog.txt&quot;
-$NewTextFile = &quot;C:\LogStorage\acclog_sorted.txt&quot;
+$TextFile = &#34;C:\LogStorage\acctlog.txt&#34;
+$NewTextFile = &#34;C:\LogStorage\acclog_sorted.txt&#34;
 Get-Content $TextFile | Sort-Object | Get-Unique &gt; $NewTextFile
 
 #Copy unique sorted accounting log over to archive
@@ -374,16 +374,16 @@ del c:\LogStorage\acclog.txt
 #$arrayComputer array #variable – if the computer is pingable, it
 #renames the Administrator account to bob.
 
-$arrayComputer = &quot;10.3.101.2&quot;,&quot;10.3.101.3&quot;,&quot;10.3.101.4&quot;
+$arrayComputer = &#34;10.3.101.2&#34;,&#34;10.3.101.3&#34;,&#34;10.3.101.4&#34;
 
 foreach ($strComputer in $arrayComputer) {
  $ping = new-object System.Net.NetworkInformation.Ping
  $Reply = $ping.send($strComputer)
- if($Reply.status -eq &quot;success&quot;)
+ if($Reply.status -eq &#34;success&#34;)
   {
 
-    $admin=[adsi](&quot;WinNT://&quot; + $strComputer + &quot;/administrator, user&quot;)
-    $admin.psbase.rename(&quot;bob&quot;)
+    $admin=[adsi](&#34;WinNT://&#34; + $strComputer + &#34;/administrator, user&#34;)
+    $admin.psbase.rename(&#34;bob&#34;)
 
   }
 }
@@ -392,29 +392,29 @@ foreach ($strComputer in $arrayComputer) {
 #If the computer is pingable, it renames the Administrator account to
 #bob and displays total changes.
 
-write-host &quot;Now Pinging IP's ... please be patient&quot;
+write-host &#34;Now Pinging IP&#39;s ... please be patient&#34;
 $ping = New-Object System.Net.NetworkInformation.Ping
 $i = 0
 
-1..255 | foreach { $ip = &quot;10.3.101.$_&quot; 
+1..255 | foreach { $ip = &#34;10.3.101.$_&#34; 
 $Res = $ping.send($ip)
-if ($Res.Status -eq &quot;Success&quot;) {
-   $admin=[adsi](&quot;WinNT://&quot; + $ip + &quot;/administrator, user&quot;)
-   $admin.psbase.rename(&quot;bob&quot;)  
+if ($Res.Status -eq &#34;Success&#34;) {
+   $admin=[adsi](&#34;WinNT://&#34; + $ip + &#34;/administrator, user&#34;)
+   $admin.psbase.rename(&#34;bob&#34;)  
    $i++
    }
 }
 
-[string]$i + &quot; Hosts have been modified&quot;
+[string]$i + &#34; Hosts have been modified&#34;
 </code></pre><p>Enough reading!  Try the script below out - simply paste it into Notepad, save it as myscript.ps1 and execute it:</p>
-<pre tabindex="0"><code>&quot;&quot;
+<pre tabindex="0"><code>&#34;&#34;
 function WMIDateStringToDate($Bootup) {
   [System.Management.ManagementDateTimeconverter]::ToDateTime($Bootup)
 }
 
 #Set $Computer to multiple IPs/names to analyze multiple computers
 
-$Computer = &quot;.&quot;   #adjust as needed to include multiple computers
+$Computer = &#34;.&#34;   #adjust as needed to include multiple computers
 $computers = Get-WMIObject -class Win32_OperatingSystem –computer $computer
 
 foreach ($system in $computers) {
@@ -426,10 +426,10 @@ foreach ($system in $computers) {
      $h = $Uptime.Hours
      $m = $uptime.Minutes
      $ms= $uptime.Milliseconds
-     &quot;System Up for: {0} days, {1} hours, {2}.{3} minutes&quot; -f $d,$h,$m,$ms 
+     &#34;System Up for: {0} days, {1} hours, {2}.{3} minutes&#34; -f $d,$h,$m,$ms 
 }
 
-&quot;&quot;
+&#34;&#34;
 </code></pre><h1 id="5-getting-comfy-with-powershell">5. Getting Comfy with PowerShell</h1>
 <p>On a final note, there are two things that you’ll want to do to make PowerShell a bit more personal for you.  The first thing is to create a custom PowerShell console file that has the extension .psc1 using the following:</p>
 <p><code>Export-Console lala</code> (creates lala.psc1)</p>
@@ -440,7 +440,7 @@ foreach ($system in $computers) {
 <p>Next, edit your profile:</p>
 <p><code>notepad $profile</code></p>
 <p>And add the following contents (save your changes when finished):</p>
-<pre tabindex="0"><code>Write-host  “Greetings Professor Falken&quot;
+<pre tabindex="0"><code>Write-host  “Greetings Professor Falken&#34;
 Set-alias  c  clear-host
 Function pro {write-host “Editing PS Profile”; start-sleep –s 2;
    notepad $profile}

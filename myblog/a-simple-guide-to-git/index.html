@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="description" content="My personal website and blog" />
   <meta name="author" content="Jason Eckert" />
-  <meta name="generator" content="Jason Eckert Hugo 0.92.1" />
+  <meta name="generator" content="Jason Eckert Hugo 0.95.0" />
 
   <link
     rel="stylesheet"
@@ -206,8 +206,8 @@
 <p>Git was original developed back in 2005 by Linus Torvalds (the creator of Linux) to aid in making changes to the Linux kernel, but has since become the most common open source version control system used today. You can run Git on most platforms, including Windows, Linux and macOS. Although people primarily use it today for version controlling software projects, you can use it to provide version control for any files on your system.  In this blog post, I’ll use it to provide version control and central access for Linux shell scripts (something that is very useful for Linux administrators).</p>
 <h1 id="part-1-using-git-to-provide-local-version-control">PART 1: Using Git to provide local version control</h1>
 <p>Git essentially takes snapshots (called commits) of the files that you have within a particular folder (called a repository, or repo) on your system. Each commit contains the changes you’ve made to the files since the last commit, so that you can easily rollback those changes (much like a Windows System Restore point). Before you use Git to create commits, you must first tell Git about yourself using the git config command, since that information must be added to each commit that you create:</p>
-<pre tabindex="0"><code>[jason.eckert@csc-studev01 myscripts]$ git config --global user.name &quot;Jason Eckert&quot;
-[jason.eckert@csc-studev01 myscripts]$ git config --global user.email &quot;jasonec@trios.com&quot;
+<pre tabindex="0"><code>[jason.eckert@csc-studev01 myscripts]$ git config --global user.name &#34;Jason Eckert&#34;
+[jason.eckert@csc-studev01 myscripts]$ git config --global user.email &#34;jasonec@trios.com&#34;
 </code></pre><p>To turn an existing folder into a Git repo, simply use the git init command.  For example, if you are in the myscripts directory under your home directory on a Linux system, you could run the following commands to turn the myscripts directory into a Git repo (this will also create a hidden .git folder underneath the myscripts directory):</p>
 <pre tabindex="0"><code>[jason.eckert@csc-studev01 ~]$ pwd
 /home/jason.eckert
@@ -224,7 +224,7 @@ On branch master
 Initial commit
 
 Untracked files:
-  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+  (use &#34;git add &lt;file&gt;...&#34; to include in what will be committed)
 
 chownscript.sh
 filemaintain.sh
@@ -232,7 +232,7 @@ newuserscript.sh
 seccheck.sh
 sysusage.sh
 
-nothing added to commit but untracked files present (use &quot;git add&quot; to track)
+nothing added to commit but untracked files present (use &#34;git add&#34; to track)
 [jason.eckert@csc-studev01 myscripts]$ _
 </code></pre><p>Notice that the git status command above listed the files in the myscripts directory, but said that they were untracked - this is normal, because Git doesn’t assume you want everything version controlled. After creating a Git repo, you have to tell Git which files you want to version control by staging them with the git add command. Staging simply adds the files to an index that represents the files that Git can take a snapshot/commit of.</p>
 <p>After the files have been staged, you can take snapshots of them using the git commit command. The following commands stage all the files in the myscripts folder using the * wildcard (because I’m lazy), shows that they are ready for committing, and then creates a new commit with the description “My first commit”:</p>
@@ -243,7 +243,7 @@ On branch master
 Initial commit
 
 Changes to be committed:
-  (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)
+  (use &#34;git rm --cached &lt;file&gt;...&#34; to unstage)
 
 new file:   chownscript.sh
 new file:   filemaintain.sh
@@ -251,7 +251,7 @@ new file:   newuserscript.sh
 new file:   seccheck.sh
 new file:   sysusage.sh
 
-[jason.eckert@csc-studev01 myscripts]$ git commit -m &quot;My first commit&quot;
+[jason.eckert@csc-studev01 myscripts]$ git commit -m &#34;My first commit&#34;
 [master (root-commit) 53f9566] My first commit
 5 files changed, 60 insertions(+)
 create mode 100755 chownscript.sh
@@ -265,14 +265,14 @@ create mode 100644 sysusage.sh
 [jason.eckert@csc-studev01 myscripts]$ git status
 On branch master
 Changes not staged for commit:
-  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
-  (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
+  (use &#34;git add &lt;file&gt;...&#34; to update what will be committed)
+  (use &#34;git checkout -- &lt;file&gt;...&#34; to discard changes in working directory)
 
 modified:   filemaintain.sh
 
-no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
 [jason.eckert@csc-studev01 myscripts]$ git add *
-[jason.eckert@csc-studev01 myscripts]$ git commit -m &quot;Added XFS checking to filemaintain.sh&quot;
+[jason.eckert@csc-studev01 myscripts]$ git commit -m &#34;Added XFS checking to filemaintain.sh&#34;
 [master 08e7f90] Added XFS checking to filemaintain.sh
 1 file changed, 1 insertion(+)
 [jason.eckert@csc-studev01 myscripts]$ _
@@ -322,7 +322,7 @@ Date:   Mon Aug 13 14:53:05 2018 -0400
 <pre tabindex="0"><code>[root@csc-studev01 myscripts]# pwd
 /root
 [root@csc-studev01 ~]# git clone /home/jason.eckert/myscripts/
-Cloning into 'myscripts'...
+Cloning into &#39;myscripts&#39;...
 done.
 [root@csc-studev01 ~]# cd myscripts/
 [root@csc-studev01 myscripts]# pwd
@@ -333,7 +333,7 @@ chownscript.sh  filemaintain.sh  newuserscript.sh  seccheck.sh  sysusage.sh
 </code></pre><p>If you were cloning this from another computer, you’d have to use git clone username@hostname:/path instead.  For example, to clone this repo on triosdevelopers.com to your local computer, you’d have to use the command git clone <a href="mailto:root@triosdevelopers.com">root@triosdevelopers.com</a>:/home/jason.eckert/myscripts/ and supply the root user’s password when prompted.</p>
 <p>Now, let’s make a branch called AddSIEM that we can use to test out adding SIEM functionality to our seccheck.sh script and view our branch when finished:</p>
 <pre tabindex="0"><code>[root@csc-studev01 myscripts]# git checkout -b AddSIEM
-Switched to a new branch 'AddSIEM'
+Switched to a new branch &#39;AddSIEM&#39;
 [root@csc-studev01 myscripts]# git branch
 * AddSIEM
   master
@@ -343,14 +343,14 @@ Switched to a new branch 'AddSIEM'
 [root@csc-studev01 myscripts]# git status
 On branch AddSIEM
 Changes not staged for commit:
-  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
-  (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
+  (use &#34;git add &lt;file&gt;...&#34; to update what will be committed)
+  (use &#34;git checkout -- &lt;file&gt;...&#34; to discard changes in working directory)
 
 modified:   seccheck.sh
 
-no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
 [root@csc-studev01 myscripts]# git add *
-[root@csc-studev01 myscripts]# git commit -m &quot;Added SIEM to seccheck.sh&quot;
+[root@csc-studev01 myscripts]# git commit -m &#34;Added SIEM to seccheck.sh&#34;
 [AddSIEM e94d34e] Added SIEM to seccheck.sh
 1 file changed, 1 insertion(+), 1 deletion(-)
 [root@csc-studev01 myscripts]# _
