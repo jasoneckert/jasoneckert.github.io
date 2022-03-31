@@ -6,7 +6,16 @@
     <description>Recent content on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Asahi Linux as a developer workstation</title>
+      <link>https://jasoneckert.github.io/myblog/asahi-linux/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/asahi-linux/</guid>
+      <description>Exactly 2 weeks ago today, the first (alpha) release of Asahi Linux was made available. I immediately installed it, and I&amp;rsquo;ve been using it as a developer workstation ever since to get real work done&amp;hellip; and it&amp;rsquo;s been awesome. What is Asahi Linux? Asahi is the first Linux distribution that you can install natively on Apple M1-based (arm64) systems. It&amp;rsquo;s based on Arch Linux and is unbelievably fast. And while it&amp;rsquo;s missing a few features that will be added shortly (GPU acceleration, Bluetooth, sound), it&amp;rsquo;s otherwise very polished and 100% production-ready.</description>
+    </item>
+    
     <item>
       <title>Configuring the i3 Window Manager</title>
       <link>https://jasoneckert.github.io/myblog/configuring-i3/</link>
