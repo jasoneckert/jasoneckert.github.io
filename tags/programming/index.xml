@@ -6,7 +6,16 @@
     <description>Recent content in programming on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ontario&#39;s Computer: The Burroughs ICON</title>
+      <link>https://jasoneckert.github.io/myblog/icon-computer/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/icon-computer/</guid>
+      <description>Nicknamed the bionic beaver, the ICON was a Canadian computer funded by the Ontario government and used in schools province wide. It was designed by CEMCorp (Canadian Educational Microprocessor Corporation) and manufactured by Burroughs (later renamed to Unisys). Moreover, it ran the QNX UNIX-like operating system, which was also developed in Canada by two University of Waterloo students. If you took a computer programming course in high school during the 1980s or early 1990s, you likely remember learning C, BASIC or Pascal on the ICON, as well as many useful UNIX commands that would pay off later in college or university.</description>
+    </item>
+    
     <item>
       <title>Using Asahi Linux as a developer workstation</title>
       <link>https://jasoneckert.github.io/myblog/asahi-linux/</link>

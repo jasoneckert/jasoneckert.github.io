@@ -6,7 +6,16 @@
     <description>Recent content in computing on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/computing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ontario&#39;s Computer: The Burroughs ICON</title>
+      <link>https://jasoneckert.github.io/myblog/icon-computer/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/icon-computer/</guid>
+      <description>Nicknamed the bionic beaver, the ICON was a Canadian computer funded by the Ontario government and used in schools province wide. It was designed by CEMCorp (Canadian Educational Microprocessor Corporation) and manufactured by Burroughs (later renamed to Unisys). Moreover, it ran the QNX UNIX-like operating system, which was also developed in Canada by two University of Waterloo students. If you took a computer programming course in high school during the 1980s or early 1990s, you likely remember learning C, BASIC or Pascal on the ICON, as well as many useful UNIX commands that would pay off later in college or university.</description>
+    </item>
+    
     <item>
       <title>Using Asahi Linux as a developer workstation</title>
       <link>https://jasoneckert.github.io/myblog/asahi-linux/</link>
@@ -719,16 +728,6 @@ When I was an undergrad student at the University of Waterloo, we had a few NeXT
       <guid>https://jasoneckert.github.io/myblog/the-famous-pentium-fdiv-bug/</guid>
       <description>One of my favourite CPUs from my CPU collection is the original Pentium 60MHz shown here. The reason that this model (SX835 with Gold top) is one of my favourites in not because it looks good, but rather that it was one of the Pentium models that had the famous FDIV bug.
 The FDIV bug was a problem with the floating point unit in early Pentium CPUs that resulted in reduced precision of division operations (FDIV is the x86 assembly language instruction for floating point division).</description>
-    </item>
-    
-    <item>
-      <title>The Unisys ICON</title>
-      <link>https://jasoneckert.github.io/myblog/the-unisys-icon/</link>
-      <pubDate>Sat, 09 May 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://jasoneckert.github.io/myblog/the-unisys-icon/</guid>
-      <description>Yesterday, someone reminded me of those old Unisys ICON computers (also called the Burroughs ICON) that were used in Ontario schools back in the 1980s and early 1990s. I used them extensively when I attended Galt Collegiate Institute (one of the oldest high schools in Canada).
-To prevent ICONs from being lost in history, I thought I would add a blog entry about them today. The ICON was an overpriced, underpowered custom computer built for the Ontario Ministry of Education for use in their school system (see picture to the left).</description>
     </item>
     
     <item>
