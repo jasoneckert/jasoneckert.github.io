@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Welcome to My Site!</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.95.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Ontario&#39;s Computer Part 2: The LEXICON Server
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2022-04-11</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+8 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/development"
+      title="tags"
+    >development</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/programming"
+      title="tags"
+    >programming</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/retro"
+      title="tags"
+    >retro</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="LEXICON.jpg#right" alt="LEXICON" title="LEXICON"></p>
+<p>As I described in <a href="../../myblog/icon-computer/" title="Ontario's Computer: The Burroughs ICON">my previous blog post</a>, the Burroughs ICON was a very cool UNIX-like computer developed by the Ontario governement for use within schools during the 1980s and early 1990s.</p>
+<p>But because ICON computers were all diskless workstations, they were completely useless without a network and LEXICON file server. After all, the QNX operating system and programs that ran memory-resident on each ICON had to first be downloaded from the LEXICON across an ARCNET network. Moreover, when users logged into QNX on their ICON, they were actually logging in as a user account on the LEXICON and accessing the files within their home directory on the LEXICON&rsquo;s hard drive. When users printed documents, they printed to the shared printer connected to the LEXICON.</p>
+<p>In essence, the LEXICON was the queen bee of the ICON network.</p>
+<p>Of course, the LEXICON was a single point of failure for a classroom of ICONs, but I don&rsquo;t ever remember it going down when I used ICONs in high school. Plus, centralizing all software and files on the LEXICON made for easy management. Rather than installing a new program on 16 ICONs, you only had to install it once on the LEXICON for all ICONs to use it. And all student files were consolidated under the <code>/user</code> directory on the LEXICON&rsquo;s hard drive.</p>
+<p><img src="LEXICON_manual.jpg#right" alt="LEXICON manual" title="LEXICON manual"></p>
+<h1 id="the-hardware">The hardware</h1>
+<p>From a purely aesthetic perspective, the LEXICON is quite boring compared to the ICON. It&rsquo;s just a heavy box that sat on a desk in the corner of the room next to a shared printer.</p>
+<p>The manual that came with the LEXICON contained a nice illustration of the different components on the rear and front of the case. And while the LEXICON itself had Burroughs ICON branding on the front (instead of LEXICON), the ports on the rear of the LEXICON were accurate from the manual, as shown below.</p>
+<p>There’s an additional 115V AC outlet, two coaxial BNC ports for the ARCNET network that connected the ICONs to the LEXICON, a parallel printer port, two RS232 serial ports, as well as a video and keyboard port (with an orange plastic cover). Unfortunately, you couldn&rsquo;t connect a monitor and keyboard to the ICON and use it as a workstation. The video and keyboard ports could optionally be used to view and interact with the LEXICON during the boot process for troubleshooting purposes only. After boot, the video on the LEXICON turns off and you must connect to the LEXICON from an ICON across the network to interact with it.</p>
+<p>According to the LEXICON manual, the first serial port supports serial printers and the second one supports HDLC, SDLC, X.25 or Telidon modems (up to 9600 baud). Since the video and two serial ports were rarely used, they were covered with metal plates that I had to remove before taking the picture below.</p>
+<p><img src="LEXICON_ports.jpg#center" alt="LEXICON ports" title="LEXICON ports"></p>
+<p>After removing 4 screws on each corner of the case, you can remove the top cover of the LEXICON to reveal the 5.25&quot; double-sided double-density Panasonic floppy drive (1), 71 MB Micropolis 1335 hard drive (2), MFM drive controller card (3) and power supply (4). The motherboard (5) is located under the metal chassis and must be accessed from the bottom panel.</p>
+<p><img src="LEXICON_open.jpg#center" alt="LEXICON open" title="LEXICON open"></p>
+<p>The bottom panel is attached to the chassis using a hinge and 5 screws. By turning the LEXICON on its side, you can remove these screws and swing the panel away from the chassis to reveal the speaker and motherboard (to do this you must also detach the ribbon cable that connects to the MFM drive controller card in the upper part of the chassis):</p>
+<p><img src="LEXICON_base.jpg#center" alt="LEXICON base" title="LEXICON base"></p>
+<p>After unplugging all the Molex connectors and ribbon cables, the motherboard is easy to examine. Like the ICON motherboard, it uses the same form factor and layout, contains 512KB of TMS4164 RAM chips (1), two P8255A-5 I/O controllers (2), a 2.5 Mbit/s SMC COM9026 network controller (3), two system ROMs (4), and an Intel R80186 CPU (5). However, there are several differences:</p>
+<ul>
+<li>The speech synthesizer chip is missing from the socket (6).</li>
+<li>The Fairchild F6845AP video controller (7) is much lower grade than the Hitachi one used in the ICON.</li>
+<li>There is an additional 512KB of Fujitsu MB81256 RAM (8) attached to a &ldquo;1 MEG ICON UPGRADE BOARD&rdquo; that also contains the CPU and connects to the underlying motherboard via contacts that surround the original CPU socket. This board has a copyright of 1988, so it was most likely introduced as an upgrade kit (I noticed that QNX alone uses 417KB of RAM on the LEXICON, so this was probably a necessary upgrade).</li>
+<li>There is an additional Intel D8274 serial controller (9) for modem communication.</li>
+<li>The parallel (10), serial (11) and disk controller (12) connectors that were also present on the ICON&rsquo;s motherboard are now connected to ribbon cables and actually used on the LEXICON.</li>
+<li>There is a lithium battery (13) to ensure that the system date and time are maintained when the LEXICON is powered down.</li>
+<li>Most of the chips are socketed to allow for easy replacement should they fail (which is far more common on the LEXICON as it is continually used by all the ICONs on the network).</li>
+</ul>
+<p><img src="LEXICON_motherboard.jpg#center" alt="LEXICON motherboard" title="LEXICON motherboard"></p>
+<h1 id="the-iconet-network">The ICONET network</h1>
+<p>The LEXICON connected to its fleet of ICON diskless workstations using a slow-but-reliable Attached Resource Computer Network (ARCNET) local area network (LAN) running at 2.5 Mbit/s. For reference, most LANs today run at 1 Gbit/s (=1000 Mbit/s) or faster, and my home network runs at 10 Gbit/s (=10000 Mbit/s).</p>
+<p>This ARCNET network was called ICONET and used rugged RG-62/u coaxial cable and steel BNC connectors to connect each machine in a <em><strong>bus network topology</strong></em>. This meant that each computer was daisy chained to one another in a single line. The first and last computer in this line used a <em><strong>terminator</strong></em> device to deliniate the start and end of the bus network.</p>
+<p>Each LEXICON and ICON had two BNC ports. One connected to the previous computer in the ICONET network, and one connected to the next one, as shown in this page from the LEXICON manual:</p>
+<p><img src="ICONET_manual.jpg#center" alt="ICONET network" title="ICONET network"></p>
+<p>The simplest network (which I use) consists of an ICON connected to a single LEXICON. In this case, you connect the LEXICON and ICON via a coaxial cable on one of the BNC ports (1), as well as add a terminator to the other BNC port (2) since both computers are the start and end of the ICONET network:</p>
+<p><img src="ICONET_connections.jpg#center" alt="ICONET connections" title="ICONET connections"></p>
+<p>The ICONET network itself was called a <em><strong>cluster</strong></em> (ARCNET&rsquo;s term for a LAN), and each computer on the network had a unique <em><strong>node</strong></em> number. This node number was configured by Burroughs when you ordered the system and stored in the system EPROM chips on the motherboard. The LEXICON was node 1, while ICONs were nodes 16-31 since you could connect up to 16 ICONs to a single LEXICON using ICONET. If your classroom had a second LEXICON, it would be node 2 and the ICONs that connected to it would be nodes 32-47.</p>
+<p>As you can see here from my login output, I&rsquo;m logged into the LEXICON from an ICON that has node number 18 on the first ICONET network (cluster 1):</p>
+<p><img src="QNX_login.png#center" alt="QNX login" title="QNX login"></p>
+<p>Since all ICON users are using a filesystem on the LEXICON, the node number of the LEXICON is rarely shown or used in commands. However, it is displayed when you run the <code>pwd</code> (print working directory) command. For example, the following output indicates that I&rsquo;m connected to the LEXICON with node number 1 (<code>[1]</code>), using the filesystem on the first disk drive (<code>1:</code>) and currently in the <code>/config/print</code> directory:</p>
+<p><img src="QNX_pwd.png#center" alt="QNX pwd" title="QNX pwd"></p>
+<h1 id="what-can-we-learn-from-all-of-this">What can we learn from all of this?</h1>
+<p>I think the most important takeaway from the ICON project is that client-server architecture worked very well back in 1984. For a decade, ICONs were used in nearly all schools across the province, and they enjoyed a reliable connection to their LEXICON file server across ICONET. All software, files, and printers were accessed across ICONET, and QNX proved to be a fast and stable network operating system.</p>
+<p>Of course, we take this architecture for granted today. Most of our files and software now exist on cloud servers, and everything and everyone are connected to the Internet. When I worked for Sun Microsystems back in the 1990s, the slogan &ldquo;the network is the computer&rdquo; was our modus operandi and widely considered revolutionary at the time. But that was a decade after the ICON project was already putting it to good use in the classroom.</p>
+<p>Another important takeaway from the ICON project is that computing platforms should only be designed by commercial vendors, and not government organizations. While the ICON project had a solid design all around, its non-commercial nature meant that there were few software programs available for it. In fact, nearly all software created for the ICON had to be funded by a government grant. The massive software industry for the commercial Commodore, Apple and IBM PC platforms made the ICON look less practical and more costly. Worse yet, there was no way that the government could afford to keep evolving ICON hardware as fast as commercial hardware vendors at the time. In other words, the commercial PC industry made ICON hardware look obsolete very quickly. Together, these factors led to the ICON project&rsquo;s demise in 1994, and I doubt we&rsquo;ll ever see another government-designed computer as a result.</p>
+<p>Regardless, I think the ICON, LEXICON and ICONET were an amazing technical achievement in 1984 and something that we should look back on fondly. Too bad nearly all of them were destroyed in 1994.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/icon-computer/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Ontario&#39;s Computer: The Burroughs ICON"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
