@@ -125,7 +125,7 @@
   <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
     <div>
       Reading Time: 
-9 mins
+10 mins
       
     </div>
     <div>
@@ -243,25 +243,29 @@
 <li><code>/cmds</code> stored executable binaries and was automatically included in the search path.</li>
 <li><code>/config</code> stored system configuration information.</li>
 <li><code>/sys</code> stored QNX operating system binaries.</li>
+<li><code>/drivers</code> stored hardware drivers (e.g. <code>hd</code> for the hard drive, <code>fd</code> for the floppy)</li>
 <li><code>/util</code> stored additional software packages and was automatically included in the search path.</li>
 </ul>
-<p>User accounts and passwords were stored in plaintext within the <code>/config/pass</code> file. The default users within this file included:</p>
+<p>You could add new user accounts using the <code>new_user</code> command, set user passwords using the <code>new_password</code> command, and remove users using the <code>delete_user</code> command. User accounts and their passwords were stored in plaintext within the <code>/config/pass</code> file. The default users within this file included:</p>
 <ul>
 <li><code>root</code> (password=<code>superuser</code>, home directory=<code>/</code>)</li>
 <li><code>supervisor</code> (password=<code>maintenance</code>, home directory=<code>/util</code>)</li>
 <li><code>teacher</code> (password=<code>control</code>, home directory=<code>/user/teacher</code>)</li>
 <li><code>icon</code> (no password, home directory=<code>/user/icon</code>)</li>
 </ul>
-<p>Most UNIX commands and shell features (e.g. redirection) were the same in QNX, but there were some notable exceptions:</p>
+<p>Just like in modern macOS UNIX, you could use the <code>say</code> command to have the ICON&rsquo;s TMS5220CNL speech synthesizer speak the contents of phrase or text file. Simiarly, most standard UNIX commands and shell features (e.g. redirection) were the same in QNX, but there were some notable exceptions:</p>
 <ul>
 <li>The epoch was January 1st 1980 instead of January 1st 1970.</li>
 <li>The <code>ls</code> (list) command had no long listing option, and directory names were prefixed with a <code>+</code> symbol (e.g. <code>+jason</code> = jason subdirectory).</li>
 <li><code>^</code> was used instead of <code>../</code> when referring to parent directories. For example, if your current directory is <code>/user/jason</code> and you want to change to the <code>/user/jennifer</code> directory, you could run the <code>cd ^jennifer</code> command to change to the jennifer directory under your parent directory.</li>
-<li>The UNIX <code>man</code> (manual page), <code>ps</code> (process), <code>chmod</code> (change mode), and <code>wall</code> (warn all) commands did not exist on QNX. Instead, you had to:
+<li>The default shell (<code>/cmds/sh</code>) used <code>#</code> instead of <code>$</code> to denote variables, positional parameters (<code>#1</code>, <code>#2</code>, etc.), and special variables (e.g. <code>#$</code> returned the process ID of the shell).</li>
+<li>The UNIX <code>man</code> (manual page), <code>ps</code> (process), <code>chmod</code> (change mode), <code>df</code> (disk free space), <code>vi</code> (visual editor), and <code>wall</code> (warn all) commands did not exist on QNX. Instead, you had to:
 <ul>
-<li>Use the <code>?</code> argument to obtain command help (e.g. <code>date ?</code> would display usage and options for the date command).</li>
+<li>Use the <code>help</code> command to view help pages that resembled UNIX manual pages (e.g. <code>help ls</code> would list the help page for the list command). Alternatively, you could use the <code>?</code> argument to obtain simplified command help (e.g. <code>date ?</code> would display usage and options for the date command).</li>
 <li>Use the <code>task</code> command to list processes. Parent processes were labelled &ldquo;father&rdquo;, child processes were labelled &ldquo;son&rdquo;, and child processes started by the same parent were labelled &ldquo;brother&rdquo;.</li>
-<li>Use the <code>chattr</code> (change attribute) command to set any file attributes, including permission attributes.</li>
+<li>Use the <code>chattr</code> (change attribute) command to set any file attributes, including the read, write, append, and execute permission attributes.</li>
+<li>Use the <code>query</code> command to display the free space on a disk device (e.g. <code>query [1]1</code> would display the free space on the hard drive on the LEXICON).</li>
+<li>Use the <code>edit</code> command to modify the contents of text files.</li>
 <li>Use the <code>apb</code> (all points bulletin) command to send text messages to all system users. When executed by an ICON user, it sent a message to all ICON workstations connected to the same LEXICON (endless fun in a classroom that usually landed you in trouble with the teacher).</li>
 </ul>
 </li>
