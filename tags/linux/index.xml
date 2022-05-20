@@ -267,8 +267,9 @@ So where did all this certification stuff start? If you look online, there isnâ€
       <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</guid>
-      <description>As I mentioned in my CompTIA blog post All About Linux and Linux+ ( https://www.comptia.org/blog/all-about-linux-and-linux ), Linux is essentially an open-source UNIX operating system. And since nearly all of the concepts, commands and files are identical between UNIX and Linux, anyone who works with Linux could easily administer a UNIX system.
-Likewise, the macOS operating system that runs on Apple computers is also a flavor of UNIX. Thus, most of the concepts that you use when administering a Linux system are also applicable to macOS.</description>
+      <description>NOTE: This blog was updated in May 2022 for currency.
+As I mentioned in my CompTIA blog post All About Linux and Linux+ ( https://www.comptia.org/blog/all-about-linux-and-linux ), Linux is essentially an open-source UNIX operating system. And since nearly all of the concepts, commands and files are identical between UNIX and Linux, anyone who works with Linux could easily administer a UNIX system.
+The macOS operating system that runs on Apple computers is a flavor of UNIX.</description>
     </item>
     
     <item>
