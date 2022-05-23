@@ -6,7 +6,17 @@
     <description>Recent content on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS for Linux admins (2022 refresh)</title>
+      <link>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</guid>
+      <description>As I mentioned in my CompTIA blog post All About Linux and Linux+ ( https://www.comptia.org/blog/all-about-linux-and-linux ), Linux is essentially an open-source UNIX operating system. And since nearly all of the concepts, commands and files are identical between UNIX and Linux, anyone who works with Linux could easily administer a UNIX system.
+The macOS operating system that runs on Apple computers is a flavor of UNIX. Thus, most of the concepts that you use when administering a Linux system are also applicable to macOS.</description>
+    </item>
+    
     <item>
       <title>Ontario&#39;s Computer Part 2: The LEXICON Server</title>
       <link>https://jasoneckert.github.io/myblog/lexicon-computer/</link>
@@ -719,17 +729,6 @@ But it’s more than just another laptop to me. It’s written over a dozen text
       <guid>https://jasoneckert.github.io/myblog/history-of-it-certification/</guid>
       <description>Nearly everyone working in an Information Technology (IT) field has at least one IT-related certification. This is because IT certification is commonly used as a skills benchmark for hiring and promotion, and it’s been that way for a long, long time.
 So where did all this certification stuff start? If you look online, there isn’t even a Wikipedia page that can give you that answer - like many things in the technology world that predated the Internet, it just wasn’t important enough to keep track of in the Internet Age that started in the 1990s.</description>
-    </item>
-    
-    <item>
-      <title>macOS for Linux admins</title>
-      <link>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</link>
-      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</guid>
-      <description>NOTE: This blog was updated in May 2022 for currency.
-As I mentioned in my CompTIA blog post All About Linux and Linux+ ( https://www.comptia.org/blog/all-about-linux-and-linux ), Linux is essentially an open-source UNIX operating system. And since nearly all of the concepts, commands and files are identical between UNIX and Linux, anyone who works with Linux could easily administer a UNIX system.
-The macOS operating system that runs on Apple computers is a flavor of UNIX.</description>
     </item>
     
     <item>
