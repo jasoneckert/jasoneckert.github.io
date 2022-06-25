@@ -6,7 +6,16 @@
     <description>Recent content in Blog Posts on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Power of Swag in the Tech Industry</title>
+      <link>https://jasoneckert.github.io/myblog/the-power-of-swag/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/the-power-of-swag/</guid>
+      <description>What is swag? Simply put, swag is any branded freebie that you get from a vendor, and it&amp;rsquo;s been used for marketing at tech industry events and showcases since the 1970s. Some common types of swag include stickers, mugs, water bottles, pins, luggage tags, plushies, squishies, t-shirts, socks, hats, tote bags, throw blankets, lanyards, sunglasses, lip balm, custom Lego sets, branded card/board games, journals/notebooks, sticky notes, phone stands, USB power banks, cables/accessories, USB thumb drives, and Bluetooth thingy&amp;rsquo;s.</description>
+    </item>
+    
     <item>
       <title>macOS for Linux admins (2022 refresh)</title>
       <link>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</link>
