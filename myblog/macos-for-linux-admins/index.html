@@ -199,8 +199,8 @@
 <p>The <em><strong>macOS</strong></em> operating system that runs on Apple computers is a flavor of UNIX.  Thus, most of the concepts that you use when administering a Linux system are also applicable to macOS. It’s not uncommon to find Apple laptops running macOS within organizations today, or even Apple desktops within certain departments, such as Marketing, where they are often used for graphics and desktop publishing. Consequently, when applying for IT administration and support jobs that require a macOS skillset, Linux is a big benefit!</p>
 <p>However, before supporting macOS within an organization, it’s important to understand the similarities and differences between Linux and macOS from an IT point-of-view. In this blog post, I’ll give you an overview of what macOS is, as well as the key similarities and differences between Linux and macOS.</p>
 <h1 id="macos-basics">macOS Basics</h1>
-<p>macOS is also 80% open source software. The underlying operating system is an open source operating system called <em><strong>Darwin</strong></em> that is largely maintained by the BSD UNIX community. Apple adds the remaining 20% closed source components that comprise the graphical desktop and frameworks.</p>
-<p>The kernel that macOS uses is called <strong>XNU</strong>* (X is not UNIX). XNU is one-third MACH 3.0 microkernel, one-third BSD UNIX kernel (filesystem &amp; networking), and one-third I/O Kit (an Apple driver framework). The XNU kernel and Darwin system are directly evolved from NeXTSTEP UNIX. When Apple purchased NeXT from Steve Jobs in the late 1990s, they essentially rebranded NeXTSTEP UNIX as Mac OS X (now called macOS). When you develop for macOS/iOS, you still use programming objects that inherit from NSObject (NeXT Software Object).</p>
+<p>macOS is also ~80% open source software. The underlying operating system is an open source operating system called <em><strong>Darwin</strong></em> that is largely maintained by descendents of the BSD UNIX community. Apple adds the remaining ~20% closed source components that comprise the graphical desktop and frameworks.</p>
+<p>The kernel that macOS uses is called <strong>XNU</strong>* (X is not UNIX). XNU is part MACH 3.0 microkernel, part BSD UNIX kernel (filesystem &amp; networking), and part I/O Kit (an Apple driver framework). The XNU kernel and Darwin system are directly evolved from NeXTSTEP UNIX. When Apple purchased NeXT from Steve Jobs in the late 1990s, they essentially rebranded NeXTSTEP UNIX as Mac OS X (now called macOS). When you develop for macOS/iOS, you still use programming objects that inherit from NSObject (NeXT Software Object).</p>
 <p>As of May 2022, macOS Monterey (12.4) is the latest version of macOS. Prior to macOS Sierra (10.12), macOS was called <em><strong>Mac OS X</strong></em> (10.0 - 10.11). Mac OS 9 and earlier (1980s-1990s) were not based on NeXTSTEP UNIX.</p>
 <h1 id="exploring-macos">Exploring macOS</h1>
 <p>As shown below, macOS seems very similar to Linux. However, the app shortcut bar (called the Dock) is at the bottom and visible by default (the GNOME Dock is at the left and you must click Activities to see it).</p>
@@ -237,12 +237,12 @@
 <li><code>caffeinate</code> Prevents a macOS system from entering power save / sleep mode</li>
 <li><code>defaults</code> Sets macOS system preferences</li>
 <li><code>diskutil</code> Creates, formats and checks macOS filesystems</li>
-<li><code>ditto</code> Same as the cp command (also in macOS)</li>
+<li><code>ditto</code> Same as the <code>cp</code> command (also in macOS)</li>
 <li><code>dscl</code> Manages users (and groups) on the system</li>
 <li><code>dseditgroup</code> Manages groups on the system</li>
 <li><code>dsenableroot</code> Enables the root user by setting a password for it</li>
 <li><code>jobs</code> Unlike the same command in Linux, it summons Steve Jobs ;-)</li>
-<li><code>launchctl</code> Starts and stops macOS daemons and system components (equivalent to systemctl on Linux)</li>
+<li><code>launchctl</code> Starts and stops macOS daemons and system components (equivalent to <code>systemctl</code> on Linux)</li>
 <li><code>networksetup</code> Configures network interface settings</li>
 <li><code>newfs_type</code> Creates filesystems (type = exfat, apfs, and so on.)</li>
 <li><code>nvram</code> Modifies Macintosh boot firmware</li>
@@ -258,7 +258,7 @@
 <li><code>sysctl</code> Modifies system settings</li>
 <li><code>system_profiler</code> Displays macOS system hardware and software information</li>
 <li><code>systemsetup</code> Configures macOS system and graphical display information</li>
-<li><code>vm_stat</code> The macOS equivalent of vmstat</li>
+<li><code>vm_stat</code> The macOS equivalent of <code>vmstat</code></li>
 </ul>
 
   </div>
