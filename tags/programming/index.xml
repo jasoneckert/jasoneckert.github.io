@@ -6,7 +6,16 @@
     <description>Recent content in programming on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dual-booting Asahi Linux on your Apple Silicon Mac</title>
+      <link>https://jasoneckert.github.io/myblog/asahi-linux/</link>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/asahi-linux/</guid>
+      <description>What is Asahi Linux? Asahi (https://asahilinux.org/) is a Linux distribution based on Arch Linux ARM that you can install natively on Apple Silicon Macs with an M1- or M2-based CPU. I&amp;rsquo;ve been using it daily as a software development workstation for over 3 months now on an M1 Mac Mini (16GB RAM, 500GB SSD), and it&amp;rsquo;s unbelievably fast. It is 100% funded by Patreon and developed full-time by Hector Marcan with many other contributors.</description>
+    </item>
+    
     <item>
       <title>Ontario&#39;s Computer Part 2: The LEXICON Server</title>
       <link>https://jasoneckert.github.io/myblog/lexicon-computer/</link>
@@ -24,15 +33,6 @@ But because ICON computers were all diskless workstations, they were completely 
       
       <guid>https://jasoneckert.github.io/myblog/icon-computer/</guid>
       <description>Nicknamed the bionic beaver, the ICON was a Canadian computer funded by the Ontario government and used in schools province wide. It was designed by CEMCorp (Canadian Educational Microprocessor Corporation) and manufactured by Burroughs (later renamed to Unisys). Moreover, it ran the QNX UNIX-like operating system, which was also developed in Canada by two University of Waterloo students. If you took a computer programming course in high school during the 1980s or early 1990s, you likely remember learning C, BASIC or Pascal on the ICON, as well as many UNIX commands that would pay off later in college or university.</description>
-    </item>
-    
-    <item>
-      <title>Using Asahi Linux as a developer workstation</title>
-      <link>https://jasoneckert.github.io/myblog/asahi-linux/</link>
-      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jasoneckert.github.io/myblog/asahi-linux/</guid>
-      <description>Exactly 2 weeks ago today, the first (alpha) release of Asahi Linux was made available. I immediately installed it, and I&amp;rsquo;ve been using it as a developer workstation ever since to get real work done&amp;hellip; and it&amp;rsquo;s been awesome. What is Asahi Linux? Asahi is the first Linux distribution that you can install natively on Apple M1-based (arm64) systems. It&amp;rsquo;s based on Arch Linux and is unbelievably fast. And while it&amp;rsquo;s missing a few features that will be added shortly (GPU acceleration, Bluetooth, sound), it&amp;rsquo;s otherwise very polished and 100% production-ready.</description>
     </item>
     
     <item>

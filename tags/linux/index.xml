@@ -6,7 +6,16 @@
     <description>Recent content in Linux on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dual-booting Asahi Linux on your Apple Silicon Mac</title>
+      <link>https://jasoneckert.github.io/myblog/asahi-linux/</link>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/asahi-linux/</guid>
+      <description>What is Asahi Linux? Asahi (https://asahilinux.org/) is a Linux distribution based on Arch Linux ARM that you can install natively on Apple Silicon Macs with an M1- or M2-based CPU. I&amp;rsquo;ve been using it daily as a software development workstation for over 3 months now on an M1 Mac Mini (16GB RAM, 500GB SSD), and it&amp;rsquo;s unbelievably fast. It is 100% funded by Patreon and developed full-time by Hector Marcan with many other contributors.</description>
+    </item>
+    
     <item>
       <title>macOS for Linux admins (2022 refresh)</title>
       <link>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</link>
@@ -15,15 +24,6 @@
       <guid>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</guid>
       <description>As I mentioned in my CompTIA blog post All About Linux and Linux+ ( https://www.comptia.org/blog/all-about-linux-and-linux ), Linux is essentially an open-source UNIX operating system. And since nearly all of the concepts, commands and files are identical between UNIX and Linux, anyone who works with Linux could easily administer a UNIX system.
 The macOS operating system that runs on Apple computers is a flavor of UNIX. Thus, most of the concepts that you use when administering a Linux system are also applicable to macOS.</description>
-    </item>
-    
-    <item>
-      <title>Using Asahi Linux as a developer workstation</title>
-      <link>https://jasoneckert.github.io/myblog/asahi-linux/</link>
-      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jasoneckert.github.io/myblog/asahi-linux/</guid>
-      <description>Exactly 2 weeks ago today, the first (alpha) release of Asahi Linux was made available. I immediately installed it, and I&amp;rsquo;ve been using it as a developer workstation ever since to get real work done&amp;hellip; and it&amp;rsquo;s been awesome. What is Asahi Linux? Asahi is the first Linux distribution that you can install natively on Apple M1-based (arm64) systems. It&amp;rsquo;s based on Arch Linux and is unbelievably fast. And while it&amp;rsquo;s missing a few features that will be added shortly (GPU acceleration, Bluetooth, sound), it&amp;rsquo;s otherwise very polished and 100% production-ready.</description>
     </item>
     
     <item>

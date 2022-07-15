@@ -105,13 +105,13 @@
 <article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
   <div class="header">
     <h1 style="font-size: 2.5em;">
-      Using Asahi Linux as a developer workstation
+      Dual-booting Asahi Linux on your Apple Silicon Mac
     </h1>
     <div
     class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
     style="position: absolute; top: -19px; font-size: 0.9em;"
   >
-    <time>2022-04-01</time>    
+    <time>2022-07-14</time>    
     <span
       class="more"
       style="font-size: 1.5em;"
@@ -125,7 +125,7 @@
   <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
     <div>
       Reading Time: 
-6 mins
+8 mins
       
     </div>
     <div>
@@ -207,77 +207,73 @@
 </div>
   <div class="article pb-3 pt-3 border-bottom border-top">
     
-    <p>Exactly 2 weeks ago today, the first (alpha) release of Asahi Linux was made available. I immediately installed it, and I&rsquo;ve been using it as a developer workstation ever since to get real work done&hellip; and it&rsquo;s been awesome.
-<img src="Asahi_M1.jpeg#right" alt="Asahi M1" title="Asahi M1"></p>
+    <p><img src="Asahi_M1.jpeg#right" alt="Asahi M1" title="Asahi M1"></p>
 <h1 id="what-is-asahi-linux">What is Asahi Linux?</h1>
-<p>Asahi is the first Linux distribution that you can install natively on Apple M1-based (arm64) systems. It&rsquo;s based on Arch Linux and is <em><strong>unbelievably</strong></em> fast. And while it&rsquo;s missing a few features that will be added shortly (GPU acceleration, Bluetooth, sound), it&rsquo;s otherwise very polished and 100% production-ready. Moreover, it runs my software much faster than macOS on the same hardware. In this post, I&rsquo;ll examine my setup, experience, and impressions.</p>
-<h1 id="my-hardware-setup">My hardware setup:</h1>
+<p>Asahi (<a href="https://asahilinux.org/">https://asahilinux.org/</a>) is a Linux distribution based on Arch Linux ARM that you can install natively on Apple Silicon Macs with an M1- or M2-based CPU. I&rsquo;ve been using it daily as a software development workstation for over 3 months now on an M1 Mac Mini (16GB RAM, 500GB SSD), and it&rsquo;s <em><strong>unbelievably</strong></em> fast. It is 100% funded by Patreon and developed full-time by Hector Marcan with many other contributors. You can watch <a href="https://twit.tv/shows/floss-weekly/episodes/680" title="this interview">this interview</a> to learn more about the project, or <a href="https://www.youtube.com/watch?v=igYgGH6PnOw" title="this video">this video</a> to learn how the Apple Silicon platform is reverse-engineered.</p>
+<h1 id="what-doesnt-work-yet">What doesn’t work yet?</h1>
+<p>While all the important hardware drivers necessary to use Asahi as a graphical workstation have been created (NVMe storage, keyboard, trackpad, Wi-Fi, Ethernet, USB, etc.), there are still some hardware components haven&rsquo;t been reverse-engineered yet. Similarly, some software packages have yet to be modified to support Apple Silicon. Following is a list of what does not currently work:</p>
 <ul>
-<li>Mac Mini M1 (16GB RAM, 500GB SSD)</li>
-<li>HDMI output to 34&quot; monitor</li>
-<li>Lenovo ThinkPad II keyboard (2.4GHz connection)</li>
-<li>Glorious PC wired USB gaming mouse</li>
-<li>Wired Ethernet (although Wi-Fi works perfectly in Asahi)</li>
+<li>GPU acceleration. Since the GPU driver is still being developed, all graphics are CPU-generated. This also means you are limited to using the default (optimal) monitor resolution, which isn&rsquo;t a big deal for most people.</li>
+<li>Bluetooth, Thunderbolt, and external HDMI on MacBooks (HDMI works on the Mac Mini and is what I use with my monitor).</li>
+<li>Sound. There is a working sound driver but the Asahi team is waiting for kernel-level volume caps and a declarative PipeWire framework with standard sound profiles so that there is zero chance you could accidentally blow the speakers on your MacBook (laptop speakers are fragile). While the external sound jack works fine on my Mac Mini, I instead listen to my phone playlist using Bose QC45 headphones while working.</li>
+<li>Apps that don’t support the M1’s 16K page size. This list was very small when Asahi was first released and is even smaller now. Chromium was my only desired app that didn&rsquo;t support 16K pages back then (I had to use Firefox), but that was fixed with the Chromium 102 update in May.</li>
 </ul>
-<h1 id="my-software-setup">My software setup:</h1>
-<ul>
-<li>Desktops: GNOME &amp; i3 (I mainly use i3)</li>
-<li>Web browser: Firefox</li>
-<li>Code editor: <code>vim</code> plus the developer extras</li>
-<li>Development: Java, JavaScript, Python, PostgreSQL</li>
-<li>Versioning &amp; devops: Git, Git Cola, Docker, K3s, Ansible</li>
-<li>Collaboration: MS Teams (via Firefox), GitHub, slack-term</li>
-<li>Other: Hugo, LibreOffice, Gimp, Inkscape, Bluefish, Remmina (corporate RDP)</li>
-</ul>
-<h1 id="what-ive-noticed-using-asahi">What I&rsquo;ve noticed using Asahi:</h1>
-<ul>
-<li>While I&rsquo;ve traditionally used mostly Fedora and Ubuntu Linux, I&rsquo;m really enjoying Arch, including their approach and package management. The Arch User Repository (AUR), <code>pacman</code> and <code>yay</code> are excellent, and examining PKGBUILDs/.pacnew/.pacsave is a breeze. Plus, you get to use the phrase:
-<img src="archbtw.png#center" alt="I use Arch BTW" title="I use Arch BTW"></li>
-<li>Even with CPU-generated graphics (because GPU acceleration isn&rsquo;t available yet), desktop environments and apps are lightning fast. I&rsquo;ve never seen KDE, GNOME, LibreOffice, Gimp, Inkscape, and Firefox run so fast before. Even games (e.g. SuperTuxKart) run smoothly, as does high definition video using VLC. Website embedded video (e.g. YouTube) also runs perfectly within Firefox in i3 (it randomly stalls within Firefox in KDE/GNOME due to lack of GPU acceleration).</li>
-<li>Lack of Bluetooth and sound right now doesn&rsquo;t bother me at all. I use a non-Bluetooth keyboard and mouse, and listen to my phone playlist using Bose headphones while I work.</li>
-<li>The only apps that don&rsquo;t run include proprietary apps that don&rsquo;t have an arm64 build (e.g. Slack), as well as Electron- and Chromium-based apps (e.g. VSCode, Chrome, etc.) because of the M1&rsquo;s 16K page size that is apparently going to be fixed shortly with a new Linux kernel. Websites run just as well in Firefox (including Microsoft Teams, Outlook, YouTube, Twitter, etc.), and while I&rsquo;ve been spoiled by VSCode these past few years, returning to <code>vim</code> with the developer extras has shown me that VSCode was really just unnecessary eye candy that didn&rsquo;t actually make me faster. Slack probably won&rsquo;t make a graphical arm64 Linux app anytime soon, but the <code>slack-term</code> terminal version works very well.</li>
-<li>Services and terminal apps also run incredibly fast. Hugo composites this website in half the time it does on macOS on the same machine, and my Docker development containers and K3s setup also run much, much faster on Asahi. This makes sense, because to run containers on macOS, macOS must run them in a Linux virtual machine (while Asahi can run them natively).</li>
-<li>CPU usage rarely rises above 30%, even with a dozen or more graphical apps open and many background services and containers running. With my workload, RAM usage varies between 1GB and 5GB in total, which is also much less than what I had with the same workload on macOS.</li>
-</ul>
-<h1 id="desktop-pics">Desktop pics:</h1>
-<p>KDE Plasma is the desktop environment that is installed by default on Asahi Linux. However, I&rsquo;ve never been a fan of KDE (it resembles Windows too much), so I installed the GNOME desktop environment shown in the following two pics:</p>
+<h1 id="what-software-do-i-run-on-asahi">What software do I run on Asahi?</h1>
+<p>While Asahi ships with the KDE Plasma desktop by default, I primarily use GNOME and i3-gaps (both are shown below). Chromium is my main Web browser and Kate is my primary code editor (similar to Visual Studio Code). I also use many different developer frameworks and tools (Java, JavaScript, Python, PostgreSQL, Git, Docker, K3s, and Ansible), as well as several other miscellaneous apps (Hugo, LibreOffice, Gimp, Inkscape and Remmina).</p>
 <p><img src="Asahi_GNOME1.png#center" alt="Asahi GNOME 1" title="Asahi GNOME 1"></p>
-<p><img src="Asahi_GNOME2.png#center" alt="Asahi GNOME 2" title="Asahi GNOME 2"></p>
-<p>However, as a Linux admin and developer, I&rsquo;ll benefit from a more powerful desktop that I can customize for my exact needs. I prefer the i3 tiling window manager (described in <a href="../../myblog/configuring-i3/" title="my previous blog post">my previous blog post</a>) for this purpose. Following are five pics of my i3 desktop configuration on Asahi Linux:</p>
-<p><img src="Asahi_i3_background.png#center" alt="Asahi i3 background" title="Asahi i3 background"></p>
 <p><img src="Asahi_i3_1.png#center" alt="Asahi i3 1" title="Asahi i3 1"></p>
-<p><img src="Asahi_i3_2.png#center" alt="Asahi i3 2" title="Asahi i3 2"></p>
-<p><img src="Asahi_i3_3.png#center" alt="Asahi i3 3" title="Asahi i3 3"></p>
-<p><img src="Asahi_i3_4.png#center" alt="Asahi i3 4" title="Asahi i3 4"></p>
-<h1 id="what-does-this-mean-for-apple-apple-hardware-and-macos">What does this mean for Apple, Apple hardware and macOS?</h1>
-<p>Back in 2004 when I first dove into the Apple ecosystem, macOS (then called Mac OS X) was an incredible UNIX operating system that was quite open, and very polished compared to Linux at the time. The merits of macOS drove Mac sales at a time when PowerPC-based Macs were more expensive and less powerful than their similarly-priced PC counterparts.</p>
-<p>However, Linux has since evolved far more than macOS, especially during the rise of open source and cloud technologies this past decade. And while Linux doesn&rsquo;t have the same mainstream user adoption on the desktop that Windows and macOS have (Chromebooks excluded), it&rsquo;s far more polished and powerful.</p>
-<p>Today, those who buy a Mac often do so for the hardware. Apple deserves a lot of credit for their new M1 platform (as well as adding ports to their products again). However, after running Linux natively on the M1, it&rsquo;s quite apparent how much macOS has stagnated over the years. macOS is still a decent OS that will be used by a large number of people for decades to come, but where Apple shines today is in their hardware. And while Apple didn&rsquo;t help port Linux to the M1 (Asahi developers had to reverse engineer everything), they designed the M1 to allow for the installation and booting of other operating systems. Linux was just the first. After the exclusivity deal between Qualcomm and Microsoft ends (soon), I anticipate that Microsoft will release arm64 versions of Windows for the M1.</p>
-<p>Prior to the M1, Apple made it easy for Windows to install natively on their Macs using Bootcamp. Linux also ran well on them (but without device driver help from Apple). This led to more people buying Macs, and I think this is the reason why Apple has designed the M1 to allow for the installation of other operating systems.</p>
-<h1 id="the-installation-process">The installation process:</h1>
-<p>While there are several YouTube videos that you can view to see the installation process, I&rsquo;ll nonetheless say a few words about it here.</p>
-<p>In short, it&rsquo;s very easy. You run a script from macOS that shrinks your macOS installation to free up space for Asahi (I freed up 100GB). Once Asahi is installed, it reboots into macOS recovery mode and completes the installation. The whole process takes about 30 minutes and each step is explained thoroughly by the installer.</p>
-<p>The hardware components currently supported by each model of M1-based Mac is well-documented on the Asahi Linux site. If you&rsquo;re installing on a Mac Mini, you&rsquo;ll see that GPU acceleration, sound, DisplayPort and Bluetooth are still in development. Everything else just works fine – USB drives, Wi-Fi, Ethernet, HDMI, and so on.</p>
-<p>After installation, the installer sets Asahi as the default OS to boot from, but you can easily boot to macOS by holding down the power button on system startup and selecting the macOS icon from the startup menu (you can make macOS the default boot target if you hold down the Option/Alt key when choosing macOS on this menu). Asahi runs in permissive security mode on the M1 CPU because it’s a non-Apple OS, but this doesn’t affect macOS whatsoever, which runs with full protection, including all security options and drive encryption (you can verify this after booting macOS by running <code>csrutil status</code> at a Terminal prompt).</p>
-<p>If you ever want to remove Asahi Linux, it&rsquo;s also very easy to do. You can boot into macOS and remove the volumes created by Asahi (they are easy to identify in the Disk Utility), or you can run the uninstall script from the Asahi Linux site.</p>
+<h1 id="how-fast-is-asahi">How fast is Asahi?</h1>
+<p>Even with CPU-generated graphics, desktop environments and apps are lightning fast. I&rsquo;ve never seen KDE, GNOME, LibreOffice, Gimp, Inkscape, Chromium and Firefox run so fast before. Even games such as SuperTuxKart run smoothly, as does high-definition video using VLC. Website embedded video (e.g., YouTube) also runs perfectly.</p>
+<p>For non-graphical tasks, the performance of Asahi on the M1 is even more impressive. Compiling Chromium (build 102) takes just over 1 hour in Fedora Linux on my Core i9 system, but only takes 12 minutes in Asahi. Similarly, Hugo composites this website 2 times faster in Asahi than the same build of Hugo in macOS on the same Mac Mini system. My Docker development containers and K3s Kubernetes cluster also run much, much faster in Asahi compared to macOS on the same system. This makes sense, because to run containers in macOS, macOS must run them in a Linux virtual machine while Asahi can run them natively.</p>
+<p>CPU usage is spread across all 8 CPU cores and rarely rises above 20%, even with a dozen or more graphical apps open as well as many background services and containers running. With my workload, RAM usage is consistently between 2GB and 4GB in total, which is also much less than what I had with the same workload in macOS on the same system.</p>
+<h1 id="can-asahi-run-virtual-machines">Can Asahi run virtual machines?</h1>
+<p>Yes, using QEMU (provided you install the necessary QEMU packages first). Following is an Ubuntu 20.04 (ARM) virtual machine running in QEMU on the GNOME desktop:</p>
+<p><img src="Asahi_GNOME_VM.png#center" alt="Asahi GNOME VM" title="Asahi GNOME VM"></p>
+<h1 id="is-this-legal-and-safe-to-use">Is this legal and safe to use?</h1>
+<p>Yes. Apple formally allows booting third-party operating systems on Apple Silicon Macs. When asked whether the ARM version of Windows 11 would be available to dual-boot on Apple Silicon, Apple&rsquo;s response was that &ldquo;it was up to Microsoft to decide whether to support that.&rdquo; Shortly after the Asahi project started, Apple even added a raw image mode to prevent macOS updates from breaking the boot process for third-party operating systems. This provided no benefit to macOS whatsoever; it merely served to help third-party operating system development.</p>
+<p>Moreover, installing Asahi does not alter the security of macOS. During an Asahi install, Apple’s <em><strong>System Integrity Protection (SIP)</strong></em> is disabled, but only for Asahi as it provides no useful function outside macOS (Linux has its own equivalent security frameworks). SIP remains enabled for macOS, which you can verify if you boot into macOS and run the <code>csrutil status</code> command at a command prompt within the Terminal app.</p>
+<h1 id="how-do-i-install-asahi">How do I install Asahi?</h1>
+<p>Unlike installing Linux on other systems, you don&rsquo;t boot your system from a Linux installation ISO image written to a USB key or DVD. Instead, you run an installation script from macOS that prepares your system for dual-booting with Asahi, downloads the Asahi packages from a Linux repository, and downloads a second copy of the proprietary macOS firmware from Apple (to satisfy Apple&rsquo;s strict boot requirements on Apple Silicon, third-party operating systems must initially pretend to be a particular version of macOS with that macOS’s firmware at boot time).</p>
+<p>To start an Asahi installation, you run the following command (underlined in red) at a command prompt within the macOS Terminal app.</p>
+<p><img src="1.png#center" alt="Asahi Install 1" title="Asahi Install 1"></p>
+<p>This will start the Asahi install script, display the storage used by macOS (in my case 494.38 GB), and allow you to resize it down to a smaller size to make room for Asahi.</p>
+<p><img src="2.png#center" alt="Asahi Install 2" title="Asahi Install 2"></p>
+<p>I chose to resize my macOS installation down to 400 GB, leaving 94.39 GB available for installing Asahi.</p>
+<p><img src="3.png#center" alt="Asahi Install 3" title="Asahi Install 3"></p>
+<p>You can then choose to install the Asahi operating system into that free space, as well as select one of 3 installation options:</p>
+<ul>
+<li>Option 1 (what I chose) installs Asahi Linux and the KDE Plasma Desktop (I also installed GNOME and i3-gaps after installation).</li>
+<li>Option 2 installs a command-line version of Asahi, which requires that you manually install a desktop of your choice after installation.</li>
+<li>Option 3 installs the components needed to boot any ARM-based Linux distribution (e.g., Fedora ARM) with a kernel that includes the drivers made by the Asahi team. This environment includes the m1n1 bootloader/hypervisor component created by the Asahi team, as well as the U-Boot universal ARM bootloader and the EFI System Partition.</li>
+</ul>
+<p><img src="4.png#center" alt="Asahi Install 4" title="Asahi Install 4"></p>
+<p>Next, you select how much of the free space you&rsquo;d like to use to install Asahi (I chose the default, which uses the maximum), as well as the name of your Asahi installation. This name is shown on the Mac startup options screen.</p>
+<p><img src="5.png#center" alt="Asahi Install 5" title="Asahi Install 5"></p>
+<p>Following this, Asahi Linux and the macOS firmware will be downloaded and installed (this took about 30 minutes for me but will vary based on your Internet connection speed).</p>
+<p><img src="6.png#center" alt="Asahi Install 6" title="Asahi Install 6"></p>
+<p>Finally, the installation advises you to shut down your system and start it up while holding the Power button. Holding the Power button on a Mac at boot forces it to enter the Mac startup options screen, where you can choose to boot into Asahi Linux (instead of macOS). The first time you boot into Asahi, you&rsquo;ll complete a short Asahi configuration wizard to complete the installation.</p>
+<p><img src="7.png#center" alt="Asahi Install 7" title="Asahi Install 7"></p>
+<p>After installing Asahi, your system will boot to Asahi by default, but you can hold the Power button at boot to enter the Mac startup options screen and choose the option to boot into macOS. To make the system boot into macOS by default, simply press the Option key (or Alt key if you are using a Windows keyboard) when selecting macOS at the Mac startup options screen.</p>
+<p>To see how Asahi modified your storage following installation, you can boot into macOS at the Mac startup options screen and run the <code>disktuil list</code> command at a command prompt in the Terminal app. Before Asahi was installed on my system, the output of <code>diskutil list</code> showed the following NVMe disk (/dev/disk0) with three partitions.</p>
+<ul>
+<li>Partition 1 contains Apple boot files.</li>
+<li>Partition 2 (underlined in red) spans most of the disk (494.4 GB) and is synthesized into a virtual disk (/dev/disk4) that contains the logical volumes that comprise macOS.</li>
+<li>Partition 3 contains the macOS Recovery files.</li>
+</ul>
+<p><img src="8.png#center" alt="Storage Before Asahi" title="Storage Before Asahi"></p>
+<p>After Asahi installation, partition 3 is renamed to partition 6 and contains the macOS Recovery files. Partition 2 (underlined in red) is now only 400 GB and synthesized to /dev/disk3, while a new partition 3 (underlined in blue) is synthesized to /dev/disk4 and hosts the macOS firmware needed to access partition 4 and 5 (underlined in green). Partition 4 is the Asahi EFI system partition that allows the system to start the Linux kernel and access the Asahi root filesystem on partition 5.</p>
+<p>Together, partitions 3, 4 and 5 comprise the 94.39 GB that I freed up for Asahi Linux during installation. If you remove those three partitions and resize partition 2 back to 494.4 GB, you will restore your system to its original state.</p>
+<p><img src="9.png#center" alt="Storage After Asahi" title="Storage After Asahi"></p>
 
   </div>
   <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
   <div>
     <a
-      href="/myblog/icon-computer/"
+      href="/myblog/the-power-of-swag/"
       data-toggle="tooltip"
       data-placement="top"
-      title="Ontario&#39;s Computer: The Burroughs ICON"
-      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
-    >
-  </div>
-  <div>
-    <a
-      href="/myblog/configuring-i3/"
-      data-toggle="tooltip"
-      data-placement="top"
-      title="Configuring the i3 Window Manager"
+      title="The Power of Swag in the Tech Industry"
       ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
     >
   </div>
