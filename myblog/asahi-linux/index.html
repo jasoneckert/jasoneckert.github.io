@@ -214,7 +214,7 @@
 <p>While all the important hardware drivers necessary to use Asahi as a graphical workstation have been created (NVMe storage, keyboard, trackpad, Wi-Fi, Ethernet, USB, etc.), there are still some hardware components haven&rsquo;t been reverse-engineered yet. Similarly, some software packages have yet to be modified to support Apple Silicon. Following is a list of what does not currently work:</p>
 <ul>
 <li>GPU acceleration. Since the GPU driver is still being developed, all graphics are CPU-generated. This also means you are limited to using the default (optimal) monitor resolution, which isn&rsquo;t a big deal for most people.</li>
-<li>Bluetooth, Thunderbolt, and external HDMI on MacBooks (HDMI works on the Mac Mini and is what I use with my monitor).</li>
+<li>Thunderbolt and external HDMI on MacBooks (HDMI works on the Mac Mini and is what I use with my monitor).</li>
 <li>Sound. There is a working sound driver but the Asahi team is waiting for kernel-level volume caps and a declarative PipeWire framework with standard sound profiles so that there is zero chance you could accidentally blow the speakers on your MacBook (laptop speakers are fragile). While the external sound jack works fine on my Mac Mini, I instead listen to my phone playlist using Bose QC45 headphones while working.</li>
 <li>Apps that don’t support the M1’s 16K page size. This list was very small when Asahi was first released and is even smaller now. Chromium was my only desired app that didn&rsquo;t support 16K pages back then (I had to use Firefox), but that was fixed with the Chromium 102 update in May.</li>
 </ul>
