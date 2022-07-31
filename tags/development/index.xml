@@ -6,7 +6,16 @@
     <description>Recent content in development on Welcome to My Site!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Linux Certification Has Evolved Over The Years</title>
+      <link>https://jasoneckert.github.io/myblog/linux-certification/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/linux-certification/</guid>
+      <description>Because organizations continually adopt new technologies, the need for skilled IT professionals to support those technologies is always increasing. Technology certification has been the most common skills benchmark used for hiring and promotion in the IT industry since the early 1990s, with Linux certification being one of the most sought-after. After all, knowing how to use, configure and administer the Linux operating system is prerequisite for a wide variety of different IT job roles, including server administrators, cloud administrators, devops engineers, site reliability engineers, cybersecurity analysts, penetration testers, and software developers.</description>
+    </item>
+    
     <item>
       <title>Dual-booting Asahi Linux on your Apple Silicon Mac</title>
       <link>https://jasoneckert.github.io/myblog/asahi-linux/</link>
