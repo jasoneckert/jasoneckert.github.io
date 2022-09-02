@@ -63,7 +63,7 @@ In this blog post, I&amp;rsquo;ll discuss 6 tech industry tips that are rarely d
       
       <guid>https://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</guid>
       <description>The command line interface on your system is provided by a shell. And while there are dozens of different shells available to choose from, nearly every UNIX and Linux system over the past two decades has used the feature-rich Bash shell as the default login shell.
-Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions (e.g. Kali) have switched their default shell to the Z shell (zsh), and this trend is likely to continue.</description>
+Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions (e.</description>
     </item>
     
     <item>
@@ -130,7 +130,7 @@ In this blog post, I’ll summarize my SSH Foo talk! Be aware that this is not a
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</guid>
-      <description>Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world. Apache on Linux allowed anyone with a computer and Internet connection to implement a Web server to serve Web pages as part of the World Wide Web of Internet resources.</description>
+      <description>Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world.</description>
     </item>
     
     <item>
@@ -249,8 +249,8 @@ Anyways, we analyzed the frame-by-frame output from the movie and recreated the 
       
       <guid>https://jasoneckert.github.io/myblog/how-to-please-your-it-dept/</guid>
       <description>When you call us to have your computer moved, be sure to leave it buried under half a ton of postcards, baby pictures, stuffed animals, dried flowers, bowling trophies and children’s art. We don’t have a life, and we find it deeply moving to catch a fleeting glimpse of yours.
-  Don’t write anything down. Ever. We can play back the error messages from here.
-  When an IT person says he’s coming right over, go for coffee.</description>
+Don’t write anything down. Ever. We can play back the error messages from here.
+When an IT person says he’s coming right over, go for coffee.</description>
     </item>
     
     <item>
@@ -267,7 +267,7 @@ Kids: Don&amp;rsquo;t try this at ~
 Code poet
 Byte Me
 I see dead pixels
-cd /pub; more beer  No, I will not fix your computer
+cd /pub; more beer No, I will not fix your computer
 There is no place like 127.0.0.1
 There is no place like ::1
 Bow before me for I am root

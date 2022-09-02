@@ -148,7 +148,7 @@ From the beginning, its creators (Mike Judge and Alec Berg) aimed to make the se
       
       <guid>https://jasoneckert.github.io/myblog/why-i-love-teaching-online/</guid>
       <description>When the pandemic hit earlier this year, schools around the globe quickly embraced online teaching to continue their curriculum. While online teaching wasn&amp;rsquo;t entirely new in this space, it certainly wasn&amp;rsquo;t the norm. This meant that many teachers had to adapt quickly, as these 2 funny videos illustrate:
- https://www.youtube.com/watch?v=CCe5PaeAeew https://www.youtube.com/watch?v=Zy_y9yOrgxk  However, I&amp;rsquo;ve loved every part of this transition because I absolutely love teaching tech courses online.
+https://www.youtube.com/watch?v=CCe5PaeAeew https://www.youtube.com/watch?v=Zy_y9yOrgxk However, I&amp;rsquo;ve loved every part of this transition because I absolutely love teaching tech courses online.
 Grant you, I&amp;rsquo;ve had some practice prior to 2020, as well as a general interest in how the Web could be used for education.</description>
     </item>
     
@@ -226,7 +226,7 @@ With last week’s announcement that the MER mission is officially over, it&amp;
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</guid>
-      <description>Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world. Apache on Linux allowed anyone with a computer and Internet connection to implement a Web server to serve Web pages as part of the World Wide Web of Internet resources.</description>
+      <description>Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world.</description>
     </item>
     
     <item>
@@ -305,7 +305,7 @@ Of course, some kids would understand many of these topics in good depth and be 
       
       <guid>https://jasoneckert.github.io/myblog/the-best-keynote-of-all-time/</guid>
       <description>Today I attended the annual DIG conference. DIG stands for Digital, Interactive &amp;amp; Gaming, and is essentially a large conference in London, Ontario that brings together the interactive, game, and digital media companies for both networking and educational/informative sessions.
-Although this year’s DIG conference was a bit smaller than last year, there were more industry professionals present, and far more meaningful conversation! Instead of the regular “hello&amp;hellip;.what do you do&amp;hellip;.let’s exchange business cards” stuff that normally goes on at these conferences, I got plenty of time to actually have in-depth discussions with dozens of different app and game developers on what was working for them, what challenges they’ve had, as well as their views on the industry and the future.</description>
+Although this year’s DIG conference was a bit smaller than last year, there were more industry professionals present, and far more meaningful conversation! Instead of the regular “hello&amp;hellip;.what do you do&amp;hellip;.</description>
     </item>
     
     <item>
@@ -351,7 +351,7 @@ Kids: Don&amp;rsquo;t try this at ~
 Code poet
 Byte Me
 I see dead pixels
-cd /pub; more beer  No, I will not fix your computer
+cd /pub; more beer No, I will not fix your computer
 There is no place like 127.0.0.1
 There is no place like ::1
 Bow before me for I am root

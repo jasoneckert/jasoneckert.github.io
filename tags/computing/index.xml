@@ -213,7 +213,7 @@ From the beginning, its creators (Mike Judge and Alec Berg) aimed to make the se
       
       <guid>https://jasoneckert.github.io/myblog/mastering-the-zen-of-trackpoint/</guid>
       <description>Lenovo (formerly IBM) ThinkPad laptops are widely known for three things:
- An amazing keyboard (often touted as the best for professional work) Rugged build quality (it&amp;rsquo;s hard to kill a Thinkpad: https://youtu.be/OMilj81s9SI) The TrackPoint, which has been standard on ThinkPads since the first model in 1992  What is a TrackPoint? Simply put, it is an alternative to using a mouse or trackpad on laptops. To ensure that your index fingers can easily reach it, it&amp;rsquo;s situated in the middle of the keyboard between the G, H and B keys.</description>
+An amazing keyboard (often touted as the best for professional work) Rugged build quality (it&amp;rsquo;s hard to kill a Thinkpad: https://youtu.be/OMilj81s9SI) The TrackPoint, which has been standard on ThinkPads since the first model in 1992 What is a TrackPoint? Simply put, it is an alternative to using a mouse or trackpad on laptops. To ensure that your index fingers can easily reach it, it&amp;rsquo;s situated in the middle of the keyboard between the G, H and B keys.</description>
     </item>
     
     <item>
@@ -262,7 +262,7 @@ In this blog post, I&amp;rsquo;ll discuss 6 tech industry tips that are rarely d
       
       <guid>https://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</guid>
       <description>The command line interface on your system is provided by a shell. And while there are dozens of different shells available to choose from, nearly every UNIX and Linux system over the past two decades has used the feature-rich Bash shell as the default login shell.
-Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions (e.g. Kali) have switched their default shell to the Z shell (zsh), and this trend is likely to continue.</description>
+Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions (e.</description>
     </item>
     
     <item>
@@ -272,7 +272,7 @@ Although the Bash shell still remains the most common login shell used on UNIX a
       
       <guid>https://jasoneckert.github.io/myblog/why-i-love-teaching-online/</guid>
       <description>When the pandemic hit earlier this year, schools around the globe quickly embraced online teaching to continue their curriculum. While online teaching wasn&amp;rsquo;t entirely new in this space, it certainly wasn&amp;rsquo;t the norm. This meant that many teachers had to adapt quickly, as these 2 funny videos illustrate:
- https://www.youtube.com/watch?v=CCe5PaeAeew https://www.youtube.com/watch?v=Zy_y9yOrgxk  However, I&amp;rsquo;ve loved every part of this transition because I absolutely love teaching tech courses online.
+https://www.youtube.com/watch?v=CCe5PaeAeew https://www.youtube.com/watch?v=Zy_y9yOrgxk However, I&amp;rsquo;ve loved every part of this transition because I absolutely love teaching tech courses online.
 Grant you, I&amp;rsquo;ve had some practice prior to 2020, as well as a general interest in how the Web could be used for education.</description>
     </item>
     
@@ -362,7 +362,7 @@ The machine sitting in my driveway at the top of this post is a workstation from
       
       <guid>https://jasoneckert.github.io/myblog/why-you-should-use-technology-less/</guid>
       <description>Over the past few years, I’ve taken to using technology less and less in my daily life.
- I leave my phone in the car when going to a party or social event. I’ll only fetch it if I want to take a picture, and only after appreciating the moment I’d like to capture to the fullest. When I listen to music on my phone (via headphones) during the long walks I take to get exercise and relax, I don’t check my phone at all.</description>
+I leave my phone in the car when going to a party or social event. I’ll only fetch it if I want to take a picture, and only after appreciating the moment I’d like to capture to the fullest. When I listen to music on my phone (via headphones) during the long walks I take to get exercise and relax, I don’t check my phone at all.</description>
     </item>
     
     <item>
@@ -412,7 +412,7 @@ I had to drive almost three hours to pick it up on the other side of Toronto, bu
       <description>At the end of each year, I take some time to reflect on the previous year - it provides perspective, and is a lot of fun!
 For me, 2018 was the year I spent a lot of time improving myself physically, challenging myself mentally, and most importantly, enjoying life!
 On the personal side, I cut out the bad foods from my diet:
- breads starches alcohol  On top of this, I upped my indoor and outdoor exercise to lose a whopping 85 pounds since mid 2017 - I feel great, have loads of energy, and no longer have any back pain whatsoever!</description>
+breads starches alcohol On top of this, I upped my indoor and outdoor exercise to lose a whopping 85 pounds since mid 2017 - I feel great, have loads of energy, and no longer have any back pain whatsoever!</description>
     </item>
     
     <item>
@@ -441,7 +441,7 @@ In this blog post, I’ll summarize my SSH Foo talk! Be aware that this is not a
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</guid>
-      <description>Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world. Apache on Linux allowed anyone with a computer and Internet connection to implement a Web server to serve Web pages as part of the World Wide Web of Internet resources.</description>
+      <description>Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world.</description>
     </item>
     
     <item>
@@ -591,7 +591,7 @@ In short, he’s the co-founder of Apple, and the engineer who created the Apple
       <guid>https://jasoneckert.github.io/myblog/linux-turns-25/</guid>
       <description>Today marks the 25th anniversary of the Linux operating system!
 More specifically, it marks the day that Linus Torvalds announced his new operating system (that was later called Linux) in a newsgroup post:
-From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI Date: 25 Aug 91 20:57:08 GMT Organization: University of Helsinki. Hello everybody out there using minix- I&amp;#39;m doing a (free) operating system (just a hobby, won&amp;#39;t be big and professional like gnu) for 386(486) AT clones.</description>
+From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI Date: 25 Aug 91 20:57:08 GMT Organization: University of Helsinki.</description>
     </item>
     
     <item>
@@ -638,7 +638,7 @@ Yesterday, I managed to find a very interesting canvas painting in Toronto (the 
       
       <guid>https://jasoneckert.github.io/myblog/2015-in-review/</guid>
       <description>2015 was an interesting year, and one that I really enjoyed!
-I spent a lot of time getting/restoring/playing the last few arcade machines that I’ve wanted in my arcade collection - I just love the retro arcade hobby! As a result, I won’t be getting or restoring any more in 2016 at all (I have a few arcades that I want to work on to upgrade, but that’s about it). I’ll be spending most of my time playing them!</description>
+I spent a lot of time getting/restoring/playing the last few arcade machines that I’ve wanted in my arcade collection - I just love the retro arcade hobby! As a result, I won’t be getting or restoring any more in 2016 at all (I have a few arcades that I want to work on to upgrade, but that’s about it).</description>
     </item>
     
     <item>
@@ -876,7 +876,7 @@ Kids: Don&amp;rsquo;t try this at ~
 Code poet
 Byte Me
 I see dead pixels
-cd /pub; more beer  No, I will not fix your computer
+cd /pub; more beer No, I will not fix your computer
 There is no place like 127.0.0.1
 There is no place like ::1
 Bow before me for I am root

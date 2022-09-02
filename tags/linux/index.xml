@@ -127,7 +127,7 @@ Of course, most people will remember 2020 for the pandemic, and that&amp;rsquo;s
       
       <guid>https://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</guid>
       <description>The command line interface on your system is provided by a shell. And while there are dozens of different shells available to choose from, nearly every UNIX and Linux system over the past two decades has used the feature-rich Bash shell as the default login shell.
-Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions (e.g. Kali) have switched their default shell to the Z shell (zsh), and this trend is likely to continue.</description>
+Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions (e.</description>
     </item>
     
     <item>
@@ -299,7 +299,7 @@ PART 1: OS overview First of all, an operating system (OS) is essentially the co
       <guid>https://jasoneckert.github.io/myblog/linux-turns-25/</guid>
       <description>Today marks the 25th anniversary of the Linux operating system!
 More specifically, it marks the day that Linus Torvalds announced his new operating system (that was later called Linux) in a newsgroup post:
-From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI Date: 25 Aug 91 20:57:08 GMT Organization: University of Helsinki. Hello everybody out there using minix- I&amp;#39;m doing a (free) operating system (just a hobby, won&amp;#39;t be big and professional like gnu) for 386(486) AT clones.</description>
+From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI Date: 25 Aug 91 20:57:08 GMT Organization: University of Helsinki.</description>
     </item>
     
     <item>
@@ -350,7 +350,7 @@ The DEC PDP (Programmed Data Processor) line of minicomputers were so good and i
       
       <guid>https://jasoneckert.github.io/myblog/the-gospel-of-tux/</guid>
       <description>Every generation has a mythology. Every millennium has a doomsday cult. Every legend gets the distortion knob wound up until the speaker melts. Archeologists at the University of Helsinki today uncovered what could be the earliest known writings from the Cult of Tux, a fanatical religious sect that flourished during the early Silicon Age, just before the dawn of the third millennium AD.
-In the beginning Turing created the Machine. And the Machine was crufty and bodacious, existing in theory only.</description>
+In the beginning Turing created the Machine.</description>
     </item>
     
     <item>
@@ -360,7 +360,7 @@ In the beginning Turing created the Machine. And the Machine was crufty and boda
       
       <guid>https://jasoneckert.github.io/myblog/funny-internet-shakespeare-typo/</guid>
       <description>I’m currently finishing the 3rd edition of my Guide To Linux Certification for Cengage. In Chapter 7, I used the following text from Shakespeare in the section on the stream editor (sed):
- Two households, both alike in dignity, In fair Verona, where we lay our scene, From ancient grudge break to new mutiny, Where civil blood makes civil hands unclean. From forth the fatal loins of these two foes A pair of star-cross’d lovers take their life; Whole misadventured piteous overthrows Do with their death bury their parents’ strife.</description>
+Two households, both alike in dignity, In fair Verona, where we lay our scene, From ancient grudge break to new mutiny, Where civil blood makes civil hands unclean. From forth the fatal loins of these two foes A pair of star-cross’d lovers take their life; Whole misadventured piteous overthrows Do with their death bury their parents’ strife.</description>
     </item>
     
     <item>
@@ -430,7 +430,7 @@ However, I kept a book from 1989 called Life with UNIX (Don Libes &amp;amp; Sand
       
       <guid>https://jasoneckert.github.io/myblog/linuxtopia/</guid>
       <description>In the past several months (and year), it seems that Linux is really making its way into the desktop market (up until now, it has ruled the server market). Every time I pick up a magazine at Chapters or read Google news, there is some new Linux device or technology. Here are a few that have caught my eye in the past short while:
- The rapid development of Compiz (formerly Beryl), which puts shame to all other desktop effects and is extremely easy to use and requires very few hardware resources to run.</description>
+The rapid development of Compiz (formerly Beryl), which puts shame to all other desktop effects and is extremely easy to use and requires very few hardware resources to run.</description>
     </item>
     
     <item>
@@ -440,10 +440,11 @@ However, I kept a book from 1989 called Life with UNIX (Don Libes &amp;amp; Sand
       
       <guid>https://jasoneckert.github.io/myblog/the-end-of-2007/</guid>
       <description>It has truly been an exciting year, and I wish to take a few moments to reflect on some of the most important events of 2007 in geekdom:
-  Halo 3 being released (I love that game)
-  Microsoft pissing off millions with Vista
-  The death of SCO (may they rot in hell)
-  Apple releasing the iPhone and iPod touch (the next generation interface for everything)</description>
+Halo 3 being released (I love that game)
+Microsoft pissing off millions with Vista
+The death of SCO (may they rot in hell)
+Apple releasing the iPhone and iPod touch (the next generation interface for everything)
+The introduction of the Nokia N810 Internet Tablet running Linux (drool&amp;hellip;.</description>
     </item>
     
     <item>
@@ -501,7 +502,7 @@ After hearing this, it sparked my curiosity since I typically use Remote Desktop
       
       <guid>https://jasoneckert.github.io/bio/my-published-books/</guid>
       <description>Perhaps one of my more famous achievements is the authoring of several textbooks for Course Technology, Cengage, Nelson, Thompson/Delmar and Wiley. I&amp;rsquo;ve listed their details in chronological order here (oldest to newest) with cover pictures below:
- Linux+ Guide to Linux Certification (ISBN: 0-619-13004-0) Guide to UNIX System Administration (ISBN: 0-619-13041-5) Linux+ In Depth (ISBN: 1-59200-062-2) MCSE Guide to Managing a Microsoft Windows Server 2003 Network (ISBN: 0-619-12029-0) Linux+ Guide to Linux Certification - 2nd Edition (ISBN: 0-619-21621-2) Linux+ 2005 In Depth (ISBN: 1-59200-728-7) Novell&amp;rsquo;s Guide to CompTIA&amp;rsquo;s Linux+ (Course 3060) (ISBN: 1-4188-3730-X) SUSE Linux Enterprise Server Administration (Course 3037) (ISBN: 1-4188-3731-8) Advanced SUSE Linux Enterprise Server Administration (Course 3038) (ISBN: 1-4188-3732-6) Microsoft Windows Vista Guide (ISBN: 1-4188-3757-1) SUSE Linux Enterprise Desktop Administration (ISBN: 1-4283-2227-2) SUSE Linux Enterprise Server Security (ISBN: 1-4283-2223-X) Microsoft Official Academic Course (MOAC): Exchange Server 2007 Exam 70-236 (ISBN: 978-0-470-31227-8) Linux+ Guide to Linux Certification - 3rd Edition (ISBN: 978-1-418-83721-1) SUSE Linux Enterprise Server 11 Administration (ISBN: 978-1-111-54003-6) Linux+ Guide to Linux Certification - International Edition (ISBN: 978-1-111-54153-8) Linux+ Guide to Linux Certification - 4th Edition (ISBN: 978-1-305-10716-8) Linux+ and LPIC-1 Guide to Linux Certification - 5th Edition (ISBN: 978-13375-6979-8) Hands-On Windows Server 2019 - 3rd Edition (ISBN: 978-0-357-43615-8)  Moreover, I&amp;rsquo;ve worked as a technical editor for numerous Linux and software development titles for both Wiley and Pearson, as well as wrote 6 books for Research in Motion (RIM) on BlackBerry Enterprise Server 4.</description>
+Linux+ Guide to Linux Certification (ISBN: 0-619-13004-0) Guide to UNIX System Administration (ISBN: 0-619-13041-5) Linux+ In Depth (ISBN: 1-59200-062-2) MCSE Guide to Managing a Microsoft Windows Server 2003 Network (ISBN: 0-619-12029-0) Linux+ Guide to Linux Certification - 2nd Edition (ISBN: 0-619-21621-2) Linux+ 2005 In Depth (ISBN: 1-59200-728-7) Novell&amp;rsquo;s Guide to CompTIA&amp;rsquo;s Linux+ (Course 3060) (ISBN: 1-4188-3730-X) SUSE Linux Enterprise Server Administration (Course 3037) (ISBN: 1-4188-3731-8) Advanced SUSE Linux Enterprise Server Administration (Course 3038) (ISBN: 1-4188-3732-6) Microsoft Windows Vista Guide (ISBN: 1-4188-3757-1) SUSE Linux Enterprise Desktop Administration (ISBN: 1-4283-2227-2) SUSE Linux Enterprise Server Security (ISBN: 1-4283-2223-X) Microsoft Official Academic Course (MOAC): Exchange Server 2007 Exam 70-236 (ISBN: 978-0-470-31227-8) Linux+ Guide to Linux Certification - 3rd Edition (ISBN: 978-1-418-83721-1) SUSE Linux Enterprise Server 11 Administration (ISBN: 978-1-111-54003-6) Linux+ Guide to Linux Certification - International Edition (ISBN: 978-1-111-54153-8) Linux+ Guide to Linux Certification - 4th Edition (ISBN: 978-1-305-10716-8) Linux+ and LPIC-1 Guide to Linux Certification - 5th Edition (ISBN: 978-13375-6979-8) Hands-On Windows Server 2019 - 3rd Edition (ISBN: 978-0-357-43615-8) Moreover, I&amp;rsquo;ve worked as a technical editor for numerous Linux and software development titles for both Wiley and Pearson, as well as wrote 6 books for Research in Motion (RIM) on BlackBerry Enterprise Server 4.</description>
     </item>
     
   </channel>
