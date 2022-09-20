@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Jason Eckert&#39;s Website and Blog</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.101.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      How modern open source projects work
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2022-09-20</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+7 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/development"
+      title="tags"
+    >development</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/programming"
+      title="tags"
+    >programming</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/open-source"
+      title="tags"
+    >open source</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="source.png#right" alt="May the source be with you" title="May the source be with you"></p>
+<p>By definition, &ldquo;open source&rdquo; has little to do with how software is actually created.</p>
+<p>Instead, open source refers to how the source code for a software development project is distributed and consumed by software developers working on other projects. It is essentially a blanket term that refers to any software that makes its source code available to others. To be open source, the software project must be released under an open source license, of which there are two main categories: Copyleft and Permissive.</p>
+<ul>
+<li>Copyleft licenses such as the GNU GPL place a series of restrictions on how the source code can be used with the aim of ensuring that code changes are always publicly available. These licenses are used by software projects that provide a core feature to the entire community (e.g., the Linux operating system).</li>
+<li>Permissive licenses such as the MIT and BSD licenses place few restrictions on how others can use and redistribute the source code. As a result, these licenses promote adoption in other open source projects. After all, if there are few restrictions to worry about, you&rsquo;re more likely to use the source code.</li>
+</ul>
+<p>Back in the early days of open source (the 1990s), open source developers were seen as hobbyists that were not financially motivated to make software, but instead dedicated to &ldquo;software freedom.&rdquo; However, in today&rsquo;s rapidly evolving digital world, open source is a requirement to keep up with the needs of organizations and technology. If every software developer had to &ldquo;reinvent the wheel&rdquo; by creating all the components of their software from scratch, we&rsquo;d be stuck in a technological purgatory that would make Windows XP seem cutting edge. Plus, the cloud as we know it today simply wouldn&rsquo;t exist.</p>
+<p>And while open source has spread like wildfire in the software industry these past few decades, so have new open source-focused tools, processes, and practices. The open source development tool that created the biggest shift in open source developer culture is GitHub. GitHub is a version control and collaboration platform that supports all of the needs of an open source project and those that participate in it. Plus, by making it easy to find other open source code, it promoted cross-project code adoption and helped popularize permissive licenses.</p>
+<p>Unlike the early open source developer cowboys of the 1990s, modern open source developers place a lot more faith in the open source ecosystem and less on individual ownership. It&rsquo;s assumed that if one developer quits from an open source project, another will take their place. Similarly, developers don&rsquo;t feel as the code is theirs in a possessive sense. When a modern developer says &ldquo;this is my code&rdquo;, it&rsquo;s more like &ldquo;this is my aunt&rdquo; (something they&rsquo;re associated with but don&rsquo;t own) versus &ldquo;this is my laptop&rdquo; (something they own).</p>
+<p>When it comes to money, modern developers are rarely concerned with how it is generated. Since open source software is a critical component of nearly all software projects, it generates revenue somehow. And developers working on open source projects also get paid somehow. The actual specifics of where the money comes from and who is paid varies tremendously, but most open source developers work for some organization. This nonchelance regarding money also means that the modern open source developer doesn&rsquo;t have the same hatred of closed source software companies (e.g., Microsoft) that defined early open source developers of the 1990s. When Microsoft bought GitHub, most open source developers really didn&rsquo;t care. Instead, modern developers are more like YouTube content creators; they care more about having good tools and a platform that promotes their work to others than lofty open source principles and code freedom.</p>
+<h3 id="so-how-does-a-modern-open-source-project-evolve">So how does a modern open source project evolve?</h3>
+<p>There are usually three main phases that any open source project goes through:</p>
+<ol>
+<li>Creation. This is often done by one or a few developers to create a minimum viable product (MVP).</li>
+<li>Evangelism. The original developers that created the software promote the heck out of it by talking at conferences, posting online, and so on. The aim is to get other developers interested in either adopting the software, joining the project team, or both.</li>
+<li>Growth. This is when the the original developers of the project step back and provide less coding as other developers join the project and momentum builds. The original creators usually hand off the project to others at this point, or stay on to do more non-code-related stuff like approving changes and triaging issues that others bring up.</li>
+</ol>
+<h3 id="who-participates-on-a-modern-open-source-project">Who participates on a modern open source project?</h3>
+<p>In general, there are four main roles in any modern open source project:</p>
+<ol>
+<li>
+<p>Author. This is the developer (or developers) that created the original release of the software. In other words, the person who was intrinsically motivated to create something new to solve a project. Most authors hand over the reins to someone else (a maintainer) after their interest wanes. In other words, they hand over the commit bit (permission to make changes) in the software repository (i.e., GitHub repo).</p>
+</li>
+<li>
+<p>Maintainer. This is the current lead developer (or developers) on the project. While there is no standard definition for this role, maintainers are generally focused on things that are in the best interests of the overall project, and often deal with bug reports and test infrastructure. Maintainers can also get a lot of unwanted flack by software users (questions, feature requests, and general time wasters). Consequently, successful open source projects usually have people (or bots) that help curate or ignore these requests appropriately (e.g., moderators that push certain questions onto forums where they can be easily answered by other users). Additionally, maintainers work with the other developers on the project and set the rules for contribution. To ensure that things run smoothly, they often produce and enforce code style guides, linters, as well as templates/checklists for submitting code changes (called a pull request on GitHub). All of this means that as an open source project grows, it&rsquo;s more likely to become modular so that each module can have separate maintainers. Modular projects also reduce technical debt. Technical debt occurs when developers take coding shortcuts to fix critical/security bugs fast; these developers will eventually have to rewrite (or &ldquo;refactor&rdquo;) these coding shortcuts properly at some point in the future (ugh).</p>
+</li>
+<li>
+<p>Contributor. This is any developer who contributes code to an open source project. In most projects today, more than half of all contributors only contribute once and are called casual contributors. Conversely, a small number of developers are typically responsible for most (e.g., 75%+) of all code changes and are called active contributors. Most active contributors have a vested interest in the open source community and maintain a good reputation. And a good reputation usually ensures that code changes are quickly approved by the project maintainer.</p>
+</li>
+<li>
+<p>User. This includes anyone who copies the source code from an open source project. Users that are more involved in the project are called active users because they educate (blogs, videos, live-coding, presentations), support (answer questions online), or submit bug reports. Another interesting aspect of open source is that when a project is used by a moderate or high number of users, it&rsquo;s usually maintained forever. Ever heard of COBOL?</p>
+</li>
+</ol>
+<h3 id="how-do-we-determine-the-success-of-an-open-source-project">How do we determine the success of an open source project?</h3>
+<p>Open source projects vary tremendously in size, importance, and growth. While some projects attract more contributors than others, this isn&rsquo;t a good measurement of success. After all, most successful JavaScript frameworks have a very low number of contributors but a very high number of users.</p>
+<p>In general, the larger the number of users overall, the more important the software is, regardless of contributor or user growth over time. Moreover, if the project is used as an integral part of another project that has a high number of users, then it should also be considered successful.</p>
+<p>Open source projects that never garnished a solid user base, or have fallen out of relevance (e.g., due to better competing projects) are seldom actively maintained. In these projects, there&rsquo;ll likely be little maintainer activity, or a backlog of open issues and code contributions from other developers, all of which can be easily determined by viewing the project&rsquo;s repo on GitHub.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/linux-certification/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="How Linux Certification Has Evolved Over The Years"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -6,7 +6,17 @@
     <description>Recent content in tech on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How modern open source projects work</title>
+      <link>https://jasoneckert.github.io/myblog/modern-open-source/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/modern-open-source/</guid>
+      <description>By definition, &amp;ldquo;open source&amp;rdquo; has little to do with how software is actually created.
+Instead, open source refers to how the source code for a software development project is distributed and consumed by software developers working on other projects. It is essentially a blanket term that refers to any software that makes its source code available to others. To be open source, the software project must be released under an open source license, of which there are two main categories: Copyleft and Permissive.</description>
+    </item>
+    
     <item>
       <title>How Linux Certification Has Evolved Over The Years</title>
       <link>https://jasoneckert.github.io/myblog/linux-certification/</link>
