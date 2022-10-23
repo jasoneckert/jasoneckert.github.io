@@ -6,7 +6,16 @@
     <description>Recent content in tech on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RISCy business: The long and convoluted rise of today&#39;s dominant computing platform</title>
+      <link>https://jasoneckert.github.io/myblog/riscy-business/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/riscy-business/</guid>
+      <description>RISC vs CISC Traditionally, most computing platforms were built with the burden of software in mind. To ensure that a software program could be written easily and with fewer instructions, additional circuitry was added to the central processing unit (CPU) to compensate. This was referred to as complex instruction set computing (CISC). CISC architecture is still common today thanks to the x86 architecture used by Intel and AMD CPUs in most workstations and servers.</description>
+    </item>
+    
     <item>
       <title>How modern open source projects work</title>
       <link>https://jasoneckert.github.io/myblog/modern-open-source/</link>
