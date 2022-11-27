@@ -6,7 +6,17 @@
     <description>Recent content in development on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reboot your mind once a day</title>
+      <link>https://jasoneckert.github.io/myblog/tech-workers-should-meditate/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/tech-workers-should-meditate/</guid>
+      <description>Any IT sysadmin will tell you that if you don&amp;rsquo;t schedule time for computer maintenance, your systems will schedule it for you. The same is true for the human mind. After all, humans are the most powerful computer out there (and the only one that can be mass produced by unskilled labour ;-)
+When starting out in a tech field, we are intrinsically motivated to spend long hours trying to make a name for ourselves - after all, there&amp;rsquo;s no better feeling than mastering a new skill to level up in a knowledge industry.</description>
+    </item>
+    
     <item>
       <title>RISCy business: The long and convoluted rise of today&#39;s dominant computing platform</title>
       <link>https://jasoneckert.github.io/myblog/riscy-business/</link>
