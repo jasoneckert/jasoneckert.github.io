@@ -6,7 +6,17 @@
     <description>Recent content in Linux on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022 in Review</title>
+      <link>https://jasoneckert.github.io/myblog/2022-in-review/</link>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/2022-in-review/</guid>
+      <description>2022 was definitely an interesting year. COVID was given far less attention and we started living with it much like we live with the flu virus. Mask requirements were dropped, and many social events have resumed. Crazy COVID conspiracy theories and uproar are distant memories (at least for me).
+I&amp;rsquo;m still teaching IT classes remotely, which has resulted in better educational outcomes compared to the physical classroom. Working with operating systems and IT software within virtual machines on home PCs promotes tinkering and resourcefulness while allowing students to continue and expand upon class work at any time.</description>
+    </item>
+    
     <item>
       <title>How Linux Certification Has Evolved Over The Years</title>
       <link>https://jasoneckert.github.io/myblog/linux-certification/</link>
