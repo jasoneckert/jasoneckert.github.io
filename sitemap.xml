@@ -3,33 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jasoneckert.github.io/tags/apple/</loc>
-    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/myblog/linux-fun-facts/</loc>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/</loc>
-    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/linux/</loc>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/open-source/</loc>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/unix/</loc>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/web/</loc>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/macos/</loc>
     <lastmod>2023-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/myblog/the-time-i-yoga-balled-an-apple-store-employee/</loc>
-    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/unix/</loc>
     <lastmod>2023-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/video-games/</loc>
@@ -47,13 +59,7 @@
     <loc>https://jasoneckert.github.io/tags/internet/</loc>
     <lastmod>2022-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/linux/</loc>
-    <lastmod>2022-12-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/tags/programming/</loc>
-    <lastmod>2022-12-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/web/</loc>
     <lastmod>2022-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/tech-workers-should-meditate/</loc>
@@ -81,9 +87,6 @@
     <lastmod>2022-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/modern-open-source/</loc>
-    <lastmod>2022-09-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/open-source/</loc>
     <lastmod>2022-09-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/linux-certification/</loc>

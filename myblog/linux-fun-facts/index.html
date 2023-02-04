@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Jason Eckert&#39;s Website and Blog</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.110.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Fun Facts About Linux
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2023-02-04</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+6 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/apple"
+      title="tags"
+    >Apple</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/web"
+      title="tags"
+    >Web</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/open-source"
+      title="tags"
+    >open source</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="linux-banner.png#center" alt="Linux banner" title="Linux banner"></p>
+<p>Below are 26 questions that detail fun and obscure facts about the Linux operating system. Regardless of how much you&rsquo;ve used Linux in the past, there&rsquo;s likely a few or more that you probably didn&rsquo;t know. Try answering each one from memory (or give it a good guess!) and then expand the <em><strong>Show me the answer!</strong></em> section to see if you are correct. PERFECT SCORES WIN A PRIZE!!! If you knew the correct answer to all 26 of these questions off the top of your head, send me an email and I&rsquo;ll send you a link to download a free (yes FREE!) copy of Fedora Linux ;-)</p>
+<h1 id="questions">Questions:</h1>
+<h3 id="1-when-did-linus-torvalds-announce-his-free-operating-system-that-would-later-be-called-linux">1. When did Linus Torvalds announce his free operating system that would later be called Linux?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>The official USENET Linux annoucement took place on 25th August 1991:
+ </p>
+<p><img src="linux-email.png#center" alt="Linux announcement email" title="Linux announcement email"></p>
+
+</details>
+
+ </p>
+<h3 id="2-how-big-was-the-first-linux-kernel">2. How big was the first Linux kernel?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>The first Linux kernel was only 65 KB in size.
+ </p>
+<p><img src="65k.png#center" alt="65k" title="65k"></p>
+
+</details>
+
+ </p>
+<h3 id="3-there-have-been-1000-distributions-of-linux-created-over-the-years-roughly-how-many-actively-maintained-linux-distributions-are-available-at-any-one-time">3. There have been &gt;1000 distributions of Linux created over the years. Roughly how many actively-maintained Linux distributions are available at any one time?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>According to DistroWatch.com, at any one time there are over 250 actively-maintained Linux distributions.
+ </p>
+<p><img src="distrowatch.png#center" alt="distrowatch" title="distrowatch"></p>
+
+</details>
+
+ </p>
+<h3 id="4-what-percentage-of-the-top-500-supercomputers-run-linux">4. What percentage of the top 500 supercomputers run Linux?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>According to the TOP500 index (top500.org), 100% of all top 500 supercomputers run Linux.
+ </p>
+<p><img src="top500.png#center" alt="top500" title="top500"></p>
+
+</details>
+
+ </p>
+<h3 id="5-what-is-the-oldest-linux-distribution">5. What is the oldest Linux distribution?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Slackware (released July 17, 1993) is the oldest distribution of Linux.
+ </p>
+<p><img src="slackware.png#center" alt="slackware" title="slackware"></p>
+
+</details>
+
+ </p>
+<h3 id="6-how-many-lines-of-code-did-the-linux-kernel-have-in-2020">6. How many lines of code did the Linux kernel have in 2020?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>In 2020, the Linux kernel had approximately 27.8 million lines of code. Today it has over 30 million.
+ </p>
+<p><img src="27million.png#center" alt="27million" title="27million"></p>
+
+</details>
+
+ </p>
+<h3 id="7-what-was-the-first-non-x86-port-of-linux">7. What was the first non-x86 port of Linux?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>The first Linux port was to the Digital Equipment Corporation (DEC) Alpha. It was started in 1993 and took approximately one year. It was officially completed in 1995.
+ </p>
+<p><img src="alpha.jpg#center" alt="alpha" title="alpha"></p>
+
+</details>
+
+ </p>
+<h3 id="8-what-was-the-linux-desktop-not-servercloudiotphoneetc-marketshare-at-the-end-of-2021">8. What was the Linux desktop (NOT server/cloud/IoT/phone/etc.) marketshare at the end of 2021?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>According to Gartner, Linux had a desktop marketshare of 2.4% at the 2021. While this may seem small, it&rsquo;s the highest it has ever been for desktops.
+ </p>
+<p><img src="desktop.jpg#center" alt="desktop" title="desktop"></p>
+
+</details>
+
+ </p>
+<h3 id="9-approximately-what-percentage-of-linux-contributions-come-from-developers-paid-by-large-enterprises-such-as-intel-huawei-amd-nvidia-red-hat-google-samsung-suse-meta-and-microsoft">9. Approximately what percentage of Linux contributions come from developers paid by large enterprises such as Intel, Huawei, AMD, NVIDIA, Red Hat, Google, Samsung, SUSE, Meta and Microsoft?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Approximately 80% of all Linux contributions come from developers who are employed or otherwise sponsored by large enterprises that have a vested interest in the development of Linux.
+ </p>
+<p><img src="80.png#center" alt="80" title="80"></p>
+
+</details>
+
+ </p>
+<h3 id="10-what-name-did-linus-torvalds-originally-want-to-use-for-linux">10. What name did Linus Torvalds originally want to use for Linux?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Freax (Free + UNIX) was Linus&rsquo; original recommended name for what later became known as Linux.
+ </p>
+<p><img src="freax.jpg#center" alt="freax" title="freax"></p>
+
+</details>
+
+ </p>
+<h3 id="11-when-was-the-first-red-hat-linux-distribution-released">11. When was the first Red Hat Linux distribution released?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>It&rsquo;s fitting that one of the most iconic Linux distributions (Red Hat) was released on a holiday: Halloween, 1994.
+ </p>
+<p><img src="halloween.png#center" alt="halloween" title="halloween"></p>
+
+</details>
+
+ </p>
+<h3 id="12-what-version-of-the-linux-kernel-started-using-the-gnu-general-public-license-gpl">12. What version of the Linux kernel started using the GNU General Public License (GPL)?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Version 0.99 (1992) used GPLv2. Prior versions just had a generic license forbidding commercial use or redistribution.
+ </p>
+<p><img src="gpl.png#center" alt="gpl" title="gpl"></p>
+
+</details>
+
+ </p>
+<h3 id="13-what-did-steve-ballmer-from-microsoft-accuse-linux-of-being-at-one-point">13. What did Steve Ballmer from Microsoft accuse Linux of being at one point?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Steve Ballmer accused Linux of being &ldquo;a cancer&rdquo; (in all fairness, given its rapid adoption rate he wasn&rsquo;t wrong).
+ </p>
+<p><img src="ballmer.jpg#center" alt="ballmer" title="ballmer"></p>
+
+</details>
+
+ </p>
+<h3 id="14-in-2001-linux-became-the-first-operating-to-support-what">14. In 2001, Linux became the first operating to support what?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>In 2001, Linux was the first operating sytem to support the 64-bit Intel architecture introduced by AMD in 1999 and used by most computers today: AMD64 (also called x86-64).
+ </p>
+<p><img src="amd64.png#center" alt="amd64" title="amd64"></p>
+
+</details>
+
+ </p>
+<h3 id="15-outside-of-linux-what-is-linus-torvalds-most-famous-for">15. Outside of Linux, what is Linus Torvalds most famous for?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Creating Git. It was arguably the biggest thing that happened to open source developers since, well, Linux.
+ </p>
+<p><img src="git.png#center" alt="git" title="git"></p>
+
+</details>
+
+ </p>
+<h3 id="16-versions-of-the-linux-kernel-started-before-long-before-10-when-was-version-10-of-the-linux-kernel-released">16. Versions of the Linux kernel started before long before 1.0. When was version 1.0 of the Linux kernel released?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Version 1.0 of Linux dropped March 14, 1994. Just before the movie <em><strong>Naked Gun 33⅓: The Final Insult</strong></em>.
+ </p>
+<p><img src="1.0.png#center" alt="1.0" title="1.0"></p>
+
+</details>
+
+ </p>
+<h3 id="17-who-offered-linus-torvalds-a-job-in-2000-on-the-condition-that-he-stop-development-on-linux">17. Who offered Linus Torvalds a job in 2000 on the condition that he stop development on Linux?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Steve Jobs. I&rsquo;m sure you can imagine why ;-)
+ </p>
+<p><img src="jobs.jpg#center" alt="jobs" title="jobs"></p>
+
+</details>
+
+ </p>
+<h3 id="18-what-language-is-used-to-write-most-of-the-linux-kernel">18. What language is used to write most of the Linux kernel?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Most of the Linux kernel is written in the C programming language (although Profanity would be equally correct).
+ </p>
+<p><img src="c.png#center" alt="c" title="c"></p>
+
+</details>
+
+ </p>
+<h3 id="19-when-was-the-first-book-about-linux-written">19. When was the first book about Linux written?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>The first Linux book was published in 1993. It was Matt Welsh&rsquo;s <em><strong>Linux Installation and Getting Started</strong></em>.
+ </p>
+<p><img src="book.jpg#center" alt="book" title="book"></p>
+
+</details>
+
+ </p>
+<h3 id="20-when-was-the-first-linux-magazine-linux-journal-published">20. When was the first Linux magazine (Linux Journal) published?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>The first issue of Linux Journal was released in March 1994, and it included an interview with Linus Torvalds.
+ </p>
+<p><img src="journal.png#center" alt="journal" title="journal"></p>
+
+</details>
+
+ </p>
+<h3 id="21-what-was-the-first-hollywood-blockbuster-that-was-developed-entirely-on-linux-using-free-and-open-source-foss-software">21. What was the first Hollywood blockbuster that was developed entirely on Linux using Free and Open Source (FOSS) software?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Titanic (1997) was the first movie developed on Linux (SuSE on DEC Alpha) using customized open source software tools.
+ </p>
+<p><img src="titanic.png#center" alt="titanic" title="titanic"></p>
+
+</details>
+
+ </p>
+<h3 id="22-who-was-tux-the-linux-mascot-named-after-in-1996">22. Who was Tux (the Linux mascot) named after in 1996?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Tux was named after Linus Torvalds (Tux stands for <em><strong>T</strong></em>orvalds <em><strong>U</strong></em>ni<em><strong>X</strong></em>).
+ </p>
+<p><img src="tux.png#center" alt="tux" title="tux"></p>
+
+</details>
+
+ </p>
+<h3 id="23-which-free-and-open-source-foss-software-led-most-linux-adoption-during-the-1990s">23. Which Free and Open Source (FOSS) software led most Linux adoption during the 1990s?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>The Apache web server. The rise of the World Wide Web in the 1990s was made possible by this free web server that could run on a free operating system such as Linux or BSD UNIX. If only commercial web servers and operating systems were available, the cost of hosting a Web server would be too high for most enthusiasts, and the Web would not have had the explosive growth it had in the 1990s.
+ </p>
+<p><img src="apache.gif#center" alt="apache" title="apache"></p>
+
+</details>
+
+ </p>
+<h3 id="24-what-is-linux-a-popular-brand-of-in-switzerland">24. What is Linux a popular brand of in Switzerland?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Laundry detergent:
+ </p>
+<p><img src="linux.png#center" alt="Linux laundry detergent" title="Linux laundry detergent"></p>
+
+</details>
+
+ </p>
+<h3 id="25-which-linux-distribution-does-linus-torvalds-install-on-all-of-his-home-computers">25. Which Linux distribution does Linus Torvalds install on all of his home computers?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>Linus uses Fedora Linux on all the computers in his household. Even after purchasing an Apple M2-based MacBook in 2022 to run Asahi Linux, Linus chose to use the Asahi drivers and boot software to load Fedora for ARM.
+ </p>
+<p><img src="fedora.png#center" alt="Fedora" title="Fedora"></p>
+
+</details>
+
+ </p>
+<h3 id="26-how-much-does-the-linux-foundation-pay-linus-torvalds-each-year-for-his-contributions-to-linux">26. How much does The Linux Foundation pay Linus Torvalds each year for his contributions to Linux?</h3>
+<p><details>
+  <summary>Show me the answer!</summary>
+  <p>$1.5 million dollars USD.
+ </p>
+<p><img src="1.5.jpg#center" alt="1.5 million" title="1.5 million"></p>
+
+</details>
+
+ </p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/the-time-i-yoga-balled-an-apple-store-employee/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="The Time I Yoga-Balled an Apple Store Employee"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
