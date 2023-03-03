@@ -6,7 +6,16 @@
     <description>Recent content in Linux on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Ultimate Linux ARM64 Workstation</title>
+      <link>https://jasoneckert.github.io/myblog/ultimate-linux-arm64-workstation/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/ultimate-linux-arm64-workstation/</guid>
+      <description>It all started this month last year In March 2022, the alpha release for Asahi was made available and I immediately installed it on a Mac Mini with an 8-core Apple Silicon (ARM64) M1 processor. Asahi is a Linux distribution that can run natively on Apple Silicon-based Macs due to some slick reverse engineering provided by members of the open source community. Moreover, running Asahi is perfectly legal because Apple formally allows booting non-macOS operating systems on their Apple Silicon platform.</description>
+    </item>
+    
     <item>
       <title>Fun Facts About Linux</title>
       <link>https://jasoneckert.github.io/myblog/linux-fun-facts/</link>
