@@ -6,7 +6,27 @@
     <description>Recent content in open source on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I&#39;ve now been teaching tech for 25 years!</title>
+      <link>https://jasoneckert.github.io/myblog/25-years-teaching-tech/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/25-years-teaching-tech/</guid>
+      <description>This month marks the 25th anniversary of my teaching Information Technology (IT) courses for triOS College in Ontario, Canada.
+Back in 1998 I was well on my way to becoming an academic bum that kept on taking university courses forever. But I had a wife and child and needed to think more responsibly. So, as my spring university semester was ending, I applied for an instructor job that my grandmother saw in a newspaper ad and thought I&amp;rsquo;d be perfect for.</description>
+    </item>
+    
+    <item>
+      <title>How Linux made Apple Great Again</title>
+      <link>https://jasoneckert.github.io/myblog/how-linux-made-apple-great-again/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/how-linux-made-apple-great-again/</guid>
+      <description>At the Southern California Linux Expo (SCaLE) earlier this month, the closing keynote was given by Ken Thompson (co-creator of the UNIX operating system and the Go programming language). During the Q&amp;amp;A session following that keynote, Ken was asked &amp;ldquo;What&amp;rsquo;s your operating system of choice, today?&amp;rdquo; While you can watch it here, his response was:
+&amp;ldquo;I have for most of my life, because I was sort of born into it, run Apple.</description>
+    </item>
+    
     <item>
       <title>The Ultimate Linux ARM64 Workstation</title>
       <link>https://jasoneckert.github.io/myblog/ultimate-linux-arm64-workstation/</link>
