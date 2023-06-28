@@ -6,7 +6,17 @@
     <description>Recent content in Blog Posts on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So, you’re curious about software development?</title>
+      <link>https://jasoneckert.github.io/myblog/interested-in-software-development/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/interested-in-software-development/</guid>
+      <description>The impact of the digital revolution this past decade has made software development a mainstream news topic. After all, every software app you&amp;rsquo;ve&amp;rsquo; used on your phone, tablet, and computer was made by software developers, as was every website, online service, and Internet-connected gadget.
+Because of my software development experience and role at the college, I get plenty of questions from friends, family, neighbors, strangers, and potential students about it.</description>
+    </item>
+    
     <item>
       <title>My first textbook is now in its sixth edition</title>
       <link>https://jasoneckert.github.io/myblog/linux-sixth-edition/</link>
