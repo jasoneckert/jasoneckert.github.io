@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Jason Eckert&#39;s Website and Blog</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.111.3" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Running a Mainstream Linux Distro Natively on Apple Silicon: Fedora Asahi Remix First Impressions
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2023-08-10</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+9 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/apple"
+      title="tags"
+    >Apple</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/macos"
+      title="tags"
+    >macOS</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/open-source"
+      title="tags"
+    >open source</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p>It&rsquo;s been a year and a half since the <a href="https://asahilinux.org/">Asahi Linux</a> project allowed us to run Arch Linux natively on our Apple Silicon computers. And while my overall experience has been excellent, the Asahi Linux project is switching their flagship Linux distribution (distro) <a href="https://asahilinux.org/2023/08/fedora-asahi-remix/">from Arch to Fedora</a>.</p>
+<p>Why the switch from Arch to Fedora? You could argue that Fedora is a much more popular mainstream distribution compared to Arch, or that Linus Torvalds himself uses Fedora already on his Apple Silicon-based Macbook using the Asahi boot components and drivers. But the main reason is that there have been many <a href="https://social.treehouse.systems/@marcan/109971521711413167">issues</a> surrounding the maintenance of ARM packages for Arch Linux, and that the Fedora team is both capable and willing to provide provide the support needed to provide a truly polished Linux experience on modern Macs (the main goal of the Asahi Linux project). By moving to Fedora, the Asahi team can focus on reverse engineering Apple hardware while the Fedora team can focus on maintaining the distribution itself on the Apple Silicon platform. This combination of Fedora with the Asahi boot components and drivers for Apple Silicon is called <em><strong>Fedora Asahi Remix</strong></em>.</p>
+<p>I&rsquo;ve been running Asahi based on Arch Linux since it was released, and <a href="../ultimate-linux-arm64-workstation/">my experience has been stellar overall</a>. The Asahi project exposed me to Arch Linux for the first time, and it quickly turned into my second favourite Linux distribution of all time. Ironically, my favourite Linux distribution over the past few decades has been Fedora, and I have no problem saying Goodbye to my Arch setup for it as a result.</p>
+<p>In this blog post, I&rsquo;ll discuss how I migrated from the original Asahi based on Arch Linux to Fedora Asahi Remix, as well as my initial impressions. TLDR: It&rsquo;s awesome&hellip; as shown in this screenshot of the sway desktop in Fedora Asahi Remix on my Mac Studio (right-click the image and choose to open it in a new browser tab if you want to zoom in on it easily):</p>
+<p><img src="fedora-asahi-remix-sway-desktop.png#center" alt="Fedora Asahi Remix Sway Desktop" title="Fedora Asahi Remix Sway Desktop"></p>
+<h1 id="part-1-migration">Part 1: Migration</h1>
+<h2 id="backing-up-arch-linux-files-and-configuration">Backing up Arch Linux files and configuration</h2>
+<p>There is no automated way to migrate from one Linux distribution to another. You just have to install the new distribution and migrate your files and configuration over. And while you can copy files across the network to another system, it&rsquo;s generally easier just to copy them to some large capacity external drive, since you&rsquo;ll be copying them back to the same machine shortly thereafter.</p>
+<p>In my case, I have a 2TB SSD in a USB enclosure with a single exFAT partition that I mounted to the /mnt directory using <code>sudo mount /dev/sda1 /mnt</code>. Next, I copied over the dotfiles (hidden configuration files) within my home directory (<code>cp -R ~/.* /mnt</code>), as well as the entire contents of my home directory (<code>cp -R ~/* /mnt</code>). My home directory contains subdirectories with all of my documents, development files, container images, cloud configuration, music, and so on. The only files outside my home directory included those for my QEMU virtual machines and associated installation ISO images, which I easily copied over using <code>cp -R /VMs /ISOs /mnt</code>.</p>
+<h2 id="removing-existing-linux-partitions">Removing existing Linux partitions</h2>
+<p>After backing up my files and configuration, I booted into macOS to remove the existing Linux partitions. You can use <a href="https://github.com/AsahiLinux/docs/wiki/Partitioning-cheatsheet">this cheatsheet</a> to understand how to do this, but I&rsquo;ll outline it briefly here.</p>
+<p>If you open a Terminal app in macOS and run the <code>sudo diskutil list</code> command (as shown below for my system), you&rsquo;ll notice a 2.5 GB partition that contains the Apple-specific stuff needed to boot Asahi Linux. This partition (e.g., disk0s3) is actually an Apple Filesystem (APFS) container that is synthesized into a separate disk (e.g., disk2). You&rsquo;ll also notice an EFI system partition used to boot Linux and the associated Linux filesystem partition (e.g., disk0s4 and disk0s5). Together, these three partitions (outlined in red) comprise Asahi Linux.</p>
+<p><img src="AsahiPartitions.png#center" alt="AsahiPartitions" title="AsahiPartitions"></p>
+<p>The other partitions comprise macOS and include the Apple ISC boot partition (e.g., disk0s1), the Apple recovery partition (e.g., disk0s6), and the APFS container partition that is synthesized to the disk that stores the macOS filesystem (e.g., disk0s2).</p>
+<p>To remove the three Asahi partitions on my system, and resize the APFS container that stores macOS to use the freed space afterwards, I ran the following commands:</p>
+<pre tabindex="0"><code>sudo diskutil erasevolume free free disk0s5
+sudo diskutil erasevolume free free disk0s4
+sudo diskutil apfs deleteContainer disk0s3
+sudo diskutil apfs resizeContainer disk0s2 0
+</code></pre><p>Following this, I ran a <code>sudo diskutil list</code> again to verify they were indeed gone, and that the APFS container that stores the macOS filesystem was assigned the free space:</p>
+<p><img src="AsahiPartitionsRemoved.png#center" alt="AsahiPartitionsRemoved" title="AsahiPartitionsRemoved"></p>
+<h2 id="installing-fedora-asahi-remix">Installing Fedora Asahi Remix</h2>
+<p>The installation process for Fedora Asahi Remix is nearly identical to the original Asahi installation process. Within macOS, you run the installation script from the <a href="https://fedora-asahi-remix.org/">Fedora Asahi Remix website</a> (<code>curl https://fedora-asahi-remix.org/install | sh</code>) within a macOS Terminal app and follow the instructions provided.</p>
+<p>After a brief welcome, you&rsquo;ll be prompted to shrink the APFS container that stores macOS to leave some free space for Asahi:</p>
+<p><img src="i1.png#center" alt="Installation1" title="Installation1"></p>
+<p>Following this, you&rsquo;ll choose to install Fedora into this free space (which will create the same three Asahi-specific partitions noted earlier). There are several builds of Fedora+KDE, Fedora+GNOME, Fedora Server, and Fedora Minimal to choose from as shown in the truncated list below:</p>
+<p><img src="i2.png#center" alt="Installation2" title="Installation2"></p>
+<p>Fedora+KDE is the default for Fedora Asahi Remix because KDE Plasma Workspaces has superb ARM support compared to GNOME (which has traditionally been the default desktop on Fedora).</p>
+<p>Next, you&rsquo;ll choose how much of the free space to use for the three Asahi-specific partitions (there&rsquo;s no reason to choose anything less than &lsquo;max&rsquo; unless you want to install multiple distributions), as well as your <a href="https://xkcd.com/910/">hostname</a>:</p>
+<p><img src="i3.png#center" alt="Installation3" title="Installation3"></p>
+<p>Following this, the installation script will download and extact the necessary files, instruct you to reboot to disable System Integrity Protection (SIP) for Fedora Asahi Remix, and then complete the installation using the Fedora installer (time/zone, networking, user accounts).</p>
+<h2 id="performing-post-installation-tasks">Performing post installation tasks</h2>
+<p>Like the original Asahi, Fedora Asahi Remix with KDE Plasma Workspaces was refreshingly fast and stable. However, before restoring my files, I decided to add some software packages I needed. More specifically, I installed the package groups for development (which includes several important development tools, including Git), the GNOME desktop, and sway window manager:</p>
+<pre tabindex="0"><code>sudo dnf groupinstall &#34;Development Tools&#34;
+sudo dnf groupinstall &#34;GNOME&#34;
+sudo dnf groupinstall &#34;Sway Desktop&#34; 
+</code></pre><p>While the Sway Desktop package group included the waybar and grim packages I use in sway, it didn&rsquo;t include the rofi app launcher, or the fonts and alacritty terminal I use. So, I installed those packages next using <code>sudo dnf install rofi fontawesome-fonts terminus-fonts terminus-fonts-console alacritty</code>.</p>
+<p>Following this, I installed the three apps I regularly use: VLC media player, Chromium, and Visual Studio Code. VLC media player and Chromium could be installed using <code>dnf install vlc chromium</code> (VLC first requires you <a href="https://www.videolan.org/vlc/download-fedora.html">add the rpmfusion repository</a>). However, to obtain Visual Studio Code, I had to download the RPM from Microsoft (<a href="https://update.code.visualstudio.com/1.81.0/linux-rpm-arm64/stable/">https://update.code.visualstudio.com/1.81.0/linux-rpm-arm64/stable/</a>) and install it afterwards using <code>sudo rpm -ivh code*aarch64.rpm</code>.</p>
+<p>At this point, I had the tools, desktops, and apps I needed, but I needed to restore my sway, waybar, and rofi dotfiles from my backup to get back my sway desktop configuration:</p>
+<pre tabindex="0"><code>sudo mount /dev/sda1 /mnt
+cp -R /mnt/.config/sway ~/.config/
+cp -R /mnt/.config/waybar ~/.config/
+cp -R /mnt/.config/rofi ~/.config/
+</code></pre><p>Next, I configured my containers, Kubernetes cluster, and virtual machines. I prefer podman to docker, but still like using docker commands, which are nicely provided by the <code>docker</code> command included within the podman-docker package. So I ran <code>dnf install podman-docker</code> (which also installs podman and QEMU as dependences) and restored my containers from backup (including my Nextcloud instance). Kubernetes (I use K3s) also installed without any issues using the script from <a href="https://k3s.io">k3s.io</a>. My configuration here took longer to restore, but that&rsquo;s only because it&rsquo;s mostly additional Kubernetes containers, extras, and configuration manifests from a private Git repository. Finally, I restored my QEMU virtual machine files and ISO from backup using <code>cp -R /mnt/VMs /mnt/ISOs /</code>.</p>
+<h1 id="part-2-first-impressions">Part 2: First Impressions</h1>
+<p>In the original <a href="https://asahilinux.org/2023/08/fedora-asahi-remix/">Fedora Asahi Remix annoucement</a>, it was noted that there are still some loose ends that needed to be tied up and that Fedora Asahi Remix would be ready by the end of August as a result. At the end of this same announcement, it was noted that <em>Adventurous users can try out the Fedora Asahi Remix today, but please expect rough spots (or even complete breakage)</em> and that they <em>ask that reporters and bloggers wait for the official release before evaluating our work</em>.</p>
+<p>Of course, I&rsquo;m disobeying this last statement, but only because I have zero negative things to say about Fedora Asahi Remix in its current state. Otherwise, I would have gladly waited until the release at the end of this month out of respect for the Asahi and Fedora teams.</p>
+<p>I expected a few hiccups during the migration process, such as apps I needed that weren&rsquo;t supported, odd hardware issues, devices that didn&rsquo;t work, or even general configuration issues.
+There were none of these whatsoever. Instead, I got a polished distribution that was far easier to configure compared to the original based on Arch Linux.</p>
+<p>My entire sway/waybar/rofi configuration migrated perfectly. The only setting I had to change in my sway configuration was the shortcut to open Visual Studio Code (on the original Asahi, I had it installed as a Flatpak package instead of an RPM). I actually don&rsquo;t have any Flatpak packages installed on Fedora Asahi Remix at all because all the software I needed was available in RPM format. There was no searching high and low for QEMU packages missing from the software repository like I had to do on Arch Linux. Instead, everything I needed was already there from when I installed the podman-docker package that included QEMU as a dependency. I just restored my VM files, and the scripts I use to start the VMs worked without any modification. Ditto for my containers and Kubernetes configuration.</p>
+<p>All the hardware works, my peripheral devices work, and the whole migration process was seamless. I&rsquo;m up and running with my system and all of its software in the same state less than 3 hours after installing Fedora Asahi Remix. And it&rsquo;s a better system. Kudos to the Asahi and Fedora teams!</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/leveraging-music-for-tech-productivity/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="How to Leverage Music for Maximum Tech Productivity"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

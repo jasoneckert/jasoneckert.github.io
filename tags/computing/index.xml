@@ -6,7 +6,17 @@
     <description>Recent content in computing on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/computing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running a Mainstream Linux Distro Natively on Apple Silicon: Fedora Asahi Remix First Impressions</title>
+      <link>https://jasoneckert.github.io/myblog/fedora-asahi-remix/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/fedora-asahi-remix/</guid>
+      <description>It&amp;rsquo;s been a year and a half since the Asahi Linux project allowed us to run Arch Linux natively on our Apple Silicon computers. And while my overall experience has been excellent, the Asahi Linux project is switching their flagship Linux distribution (distro) from Arch to Fedora.
+Why the switch from Arch to Fedora? You could argue that Fedora is a much more popular mainstream distribution compared to Arch, or that Linus Torvalds himself uses Fedora already on his Apple Silicon-based Macbook using the Asahi boot components and drivers.</description>
+    </item>
+    
     <item>
       <title>How to Leverage Music for Maximum Tech Productivity</title>
       <link>https://jasoneckert.github.io/myblog/leveraging-music-for-tech-productivity/</link>
