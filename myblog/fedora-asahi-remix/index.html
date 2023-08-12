@@ -227,7 +227,7 @@
 <p>If you open a Terminal app in macOS and run the <code>sudo diskutil list</code> command (as shown below for my system), you&rsquo;ll notice a 2.5 GB partition that contains the Apple-specific stuff needed to boot Asahi Linux. This partition (e.g., disk0s3) is actually an Apple Filesystem (APFS) container that is synthesized into a separate disk (e.g., disk2). You&rsquo;ll also notice an EFI system partition used to boot Linux and the associated Linux filesystem partition (e.g., disk0s4 and disk0s5). Together, these three partitions (outlined in red) comprise Asahi Linux.</p>
 <p><img src="AsahiPartitions.png#center" alt="AsahiPartitions" title="AsahiPartitions"></p>
 <p>The other partitions comprise macOS and include the Apple ISC boot partition (e.g., disk0s1), the Apple recovery partition (e.g., disk0s6), and the APFS container partition that is synthesized to the disk that stores the macOS filesystem (e.g., disk0s2).</p>
-<p>To remove the three Asahi partitions on my system, and resize the APFS container that stores macOS to use the freed space afterwards, I ran the following commands:</p>
+<p>To remove the three Asahi partitions on my system, and resize the APFS container that stores macOS to use the freed space afterwards, I ran the following commands. You can skip the last command if you just want to use the same amount of space for Fedora Asahi Remix, since the beginning of the installation script will allow you to select this free space instead of shrinking the APFS container that stores macOS.</p>
 <pre tabindex="0"><code>sudo diskutil erasevolume free free disk0s5
 sudo diskutil erasevolume free free disk0s4
 sudo diskutil apfs deleteContainer disk0s3
@@ -241,7 +241,7 @@ sudo diskutil apfs resizeContainer disk0s2 0
 <p>Following this, you&rsquo;ll choose to install Fedora into this free space (which will create the same three Asahi-specific partitions noted earlier). There are several builds of Fedora+KDE, Fedora+GNOME, Fedora Server, and Fedora Minimal to choose from as shown in the truncated list below:</p>
 <p><img src="i2.png#center" alt="Installation2" title="Installation2"></p>
 <p>Fedora+KDE is the default for Fedora Asahi Remix because KDE Plasma Workspaces has superb ARM support compared to GNOME (which has traditionally been the default desktop on Fedora).</p>
-<p>Next, you&rsquo;ll choose how much of the free space to use for the three Asahi-specific partitions (there&rsquo;s no reason to choose anything less than &lsquo;max&rsquo; unless you want to install multiple distributions), as well as your <a href="https://xkcd.com/910/">hostname</a>:</p>
+<p>Next, you&rsquo;ll choose how much of the free space to use for the three Asahi-specific partitions (there&rsquo;s no reason to choose anything less than &lsquo;max&rsquo; unless you want to install multiple distributions), as well as the volume name that is displayed on the Mac startup options screen:</p>
 <p><img src="i3.png#center" alt="Installation3" title="Installation3"></p>
 <p>Following this, the installation script will download and extact the necessary files, instruct you to reboot to disable System Integrity Protection (SIP) for Fedora Asahi Remix, and then complete the installation using the Fedora installer (time/zone, networking, user accounts).</p>
 <h2 id="performing-post-installation-tasks">Performing post installation tasks</h2>
