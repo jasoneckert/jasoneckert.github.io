@@ -6,7 +6,17 @@
     <description>Recent content in Blog Posts on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Special Vacation</title>
+      <link>https://jasoneckert.github.io/myblog/special-vacation/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/special-vacation/</guid>
+      <description>While most of my blog posts are technical in nature, I occasionally post a personal one - and this one certainly falls into that category.
+I&amp;rsquo;ve been on vacation these past several weeks to spend some quality time with my daughter, her partner, and my grandson from Australia. It was the first time I&amp;rsquo;ve been able to hug my daughter in four years, and the first time I&amp;rsquo;ve been able to see my grandson and his father outside of Zoom.</description>
+    </item>
+    
     <item>
       <title>Running a Mainstream Linux Distro Natively on Apple Silicon: Fedora Asahi Remix First Impressions</title>
       <link>https://jasoneckert.github.io/myblog/fedora-asahi-remix/</link>
