@@ -6,7 +6,17 @@
     <description>Recent content in development on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bob Gunderson Tribute</title>
+      <link>https://jasoneckert.github.io/myblog/bob-gunderson/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/bob-gunderson/</guid>
+      <description>The top three software developers that ever worked for triOS College are shown here from left to right: Orion, Bob, and me. Unfortunately, this week we lost Bob to a courageous and difficult battle with cancer.
+I&amp;rsquo;ve known and worked with Bob Gunderson since the beginning of triOS College 25 years ago, when it was called triOS Career Academy and triOS College of Information Technology. He was a talented software developer who taught our early web and software development courses before becoming the Faculty Head, and eventually the senior developer of our own internal software system (called XCAS).</description>
+    </item>
+    
     <item>
       <title>How to Leverage Music for Maximum Tech Productivity</title>
       <link>https://jasoneckert.github.io/myblog/leveraging-music-for-tech-productivity/</link>
