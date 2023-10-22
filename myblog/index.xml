@@ -6,7 +6,16 @@
     <description>Recent content in Blog Posts on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Distro Hopping is a Bad Idea</title>
+      <link>https://jasoneckert.github.io/myblog/distro-hopping/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/distro-hopping/</guid>
+      <description>What is distro hopping? In the Linux community, it&amp;rsquo;s not uncommon to install and use several different Linux distributions (or distros) over time - a process called distro hopping. After all, there are hundreds of different distros available - and because each one is often geared to provide the optimal experience for a specific user or use-case (e.g., gaming), it&amp;rsquo;s become commonplace to assume that there must be a specific Linux distro out there that will suit your individual needs.</description>
+    </item>
+    
     <item>
       <title>Bob Gunderson Tribute</title>
       <link>https://jasoneckert.github.io/myblog/bob-gunderson/</link>

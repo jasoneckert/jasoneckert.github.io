@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Jason Eckert&#39;s Website and Blog</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.119.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Linux Distro Hopping is a Bad Idea
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2023-10-21</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+6 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/open-source"
+      title="tags"
+    >open source</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="distros.png#center" alt="Linux distros" title="Linux distros"></p>
+<h2 id="what-is-distro-hopping">What is distro hopping?</h2>
+<p>In the <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> community, it&rsquo;s not uncommon to install and use several different Linux distributions (or distros) over time - a process called <em><strong>distro hopping</strong></em>. After all, there are hundreds of different distros available - and because each one is often geared to provide the optimal experience for a specific user or use-case (e.g., gaming), it&rsquo;s become commonplace to assume that there must be a specific Linux distro out there that will suit your individual needs. Consequently, most Linux users believe that you should choose a Linux distro using the same process as choosing a wardrobe or eyewear frames. And that means trying on many different Linux distros to see how they look ;-)</p>
+<p>Thus, distro hopping is common among many (perhaps most) Linux users. And it&rsquo;s incredibly common for Linux users to debate their choice of Linux distro to other Linux users, or recommend that other users try a particular Linux distro that they&rsquo;ve just installed. But I&rsquo;ve come to learn that this is terrible advice, and that trying many different Linux distros is mostly just a waste of time. However, before I discuss why this is the case, I must first give you some background on my Linux distro hopping journey.</p>
+<h2 id="what-distros-have-i-used-in-the-past">What distros have I used in the past?</h2>
+<p>I&rsquo;ve been using Linux for 27 years, teaching Linux for 23 years, and writing textbooks on Linux for 21 years. The first distro I installed was Red Hat Linux, and it was the only one I used until it split into Red Hat Enterprise Linux (RHEL) and Fedora Linux in the early 2000s. Since RHEL was a paid product with enterprise support and Fedora was free, I naturally moved to Fedora. Fedora was essentially just Red Hat Linux rebranded.</p>
+<p>The first several Linux textbooks I authored for Course Technology (now Cengage) used Red Hat and then moved to Fedora Linux. When the CompTIA Linux+ certification exam that my textbook was geared to started incorporating topics from Debian-based distros such as Ubuntu, later editions (including my <a href="../../bio/my-published-books/979-82140-0080-0_front.jpg">latest 6th edition</a>) leveraged both Fedora and Ubuntu Linux. When Novell approached Cengage to write several textbooks for SUSE Linux, I naturally authored <a href="../../bio/my-published-books/">those books</a> as well.</p>
+<p>Because the Linux administration courses I taught at the college used my textbook, students focused on Fedora and Ubuntu Linux. However, for Cybersecurity courses, I used Kali Linux because it shipped with security-focused tools preinstalled and was the standard distro used within Cybersecurity textbooks.</p>
+<p>For a good part of the mid-to-late 2000s, my hobby was to figure out how to install Linux on vintage UNIX systems from Sun, SGI, HP, DEC, and IBM because I could get them cheaply at the time. And because the only distro that supported all obscure hardware architectures was Gentoo Linux, that&rsquo;s what I installed on those systems. Since my hobby was so common in the UNIX community, Lucy A. Snyder wrote a book entitled <a href="https://www.amazon.ca/Installing-Linux-Dead-Badger-Snyder/dp/1894953479">Installing Linux on a Dead Badger</a> that beautifully summarized how challenging it was.</p>
+<p>When System76 released their Thelio systems, I purchased one that came with Pop!_OS Linux (based on Ubuntu) preinstalled. I used Pop!_OS for a short period of time before replacing it with Fedora. Shortly after Apple released their ARM-based Apple Silicon platform in 2020, some members of the Linux community started the Asahi Linux project to reverse engineer Apple&rsquo;s hardware and create drivers and a boot loader that would allow Arch Linux to run natively on Apple Silicon. To guarantee long-term viability, the Asahi Linux project moved from Arch to Fedora earlier this year. For over a year, Arch on Apple Silicon was my main operating system until I moved to Fedora on Apple Silicon.</p>
+<p>Thus, I&rsquo;ve used 7 different Linux distros:</p>
+<ul>
+<li>Red Hat &ndash;&gt; Fedora (my first Linux distro, and the main one I&rsquo;ve used since 1996)</li>
+<li>Ubuntu (because I had to add it to my textbooks)</li>
+<li>SUSE (because I had to write textbooks on it)</li>
+<li>Kali (because I had to teach Cybersecurity courses)</li>
+<li>Gentoo (because of my hobby during the 2000s installing Linux on dead badgers)</li>
+<li>Pop!_OS (because it came with a computer I bought)</li>
+<li>Arch (because I wanted to use Linux on Apple Silicon before Fedora on Apple Silicon was available)</li>
+</ul>
+<p>I&rsquo;ve mainly stuck with the Fedora (formerly Red Hat) distro for 27 years, and only used other distros when I was forced to. Yes, that&rsquo;s right - I don&rsquo;t distro hop, and never have.</p>
+<h2 id="why-you-should-not-distro-hop">Why you should not distro hop</h2>
+<p>Simply put, distro hopping requires a tremendous amount of time and doesn&rsquo;t provide any worthwhile learning benefit. While I enjoyed learning about the differences between the 7 distros I&rsquo;ve used over the years, the time I spent was mandatory and not a choice. If I didn&rsquo;t have to use anything more than Fedora, I wouldn&rsquo;t have.</p>
+<p>It can be argued that distro hopping is a knowledge pursuit, and it certainly is. For example, while much of the Linux system is identical or nearly identical across distros, there are some stark differences, such as the package management commands used. For example, Fedora uses <code>dnf</code>, Ubuntu and Pop!_OS use <code>apt</code>, Arch uses <code>pacman</code>, SUSE uses <code>zypper</code>, and Gentoo uses <code>emerge</code>. However, if you were to ever support one of these Linux systems for the first time in a work environment, you&rsquo;d master the associated package management commands after a few days of Googling, when necessary.</p>
+<p>While closed source software is often packaged for a small number of Linux distros the vendor chooses, you can install open source software packages on any distro - and there&rsquo;s always an open source alternative to every closed source software today. Moreover, most mainstream Linux distros support most, if not all, of the popular desktop environments that you may prefer (GNOME, KDE Plasma, XFCE, i3/sway, etc.).</p>
+<p>My advice is that you pick a single Linux distro and only use other Linux distros if required by your employer or otherwise. And if you think I&rsquo;m crazy, remember that even Linus Torvalds (the creator of Linux) <a href="https://youtu.be/wuRAov0d0x8?si=Xx4RI5mQ1LaJj2i0&amp;t=89">doesn&rsquo;t distro hop</a>. Oh, and he uses Fedora like I do ;-)</p>
+<h2 id="what-distro-should-you-choose">What distro should you choose?</h2>
+<p>If you&rsquo;re going to stick to a single Linux distro, you should spend some time to make a good choice. I&rsquo;m not going to recommend that you use Fedora like I do, or even attempt to debate the merits of different distros. As Linus pointed out in the link I posted earlier, the distro you choose is irrelevant. It&rsquo;s the apps you use to get your work done that matter and not the distro itself.</p>
+<p>That being said, at minimum I&rsquo;d recommend that you:</p>
+<ul>
+<li>Choose a Linux distro that is going to be around for a long time. A popular distro that has a well-established user base is far more likely to be maintained in 10 years compared to a newly-released distro that everyone is talking about. Start by Googling &ldquo;top Linux distros&rdquo; and go from there.</li>
+<li>Choose a Linux distro that supports any proprietary closed source software that you need to use. For example, Microsoft&rsquo;s Visual Studio Code supports most Linux distros, while Slack only supports Ubuntu and RHEL.</li>
+<li>Choose a Linux distro that provides mainstream support for the graphical desktop environment you wish to use. For example, Fedora provides mainstream support for nearly all desktop environments, but Linux Mint only provides mainstream support for Cinnamon, MATE and Xfce.</li>
+<li>Choose a Linux distro that has a vibrant user community and user documentation. Each distro has a user forum where you can learn the values and focus of the distro, and the type of support that is provided by the community.</li>
+</ul>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/bob-gunderson/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Bob Gunderson Tribute"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
