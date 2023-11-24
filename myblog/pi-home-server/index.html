@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Jason Eckert&#39;s Website and Blog</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.119.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Setting up a Raspberry Pi Home Server
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2023-11-23</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+8 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/open-source"
+      title="tags"
+    >open source</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="pi4.png#right" alt="Raspberry Pi 4" title="Raspberry Pi 4"></p>
+<p>The Raspberry Pi has been the most popular <em><strong>single board computer (SBC)</strong></em> among computer hobbyists for the past decade. It can be used to perform a wide variety of very different tasks, such as running graphical apps, streaming media, performing home automation, and monitoring humidity levels in a greenhouse. This is largely made possible by the Raspberry Pi&rsquo;s many interfaces (including GPIO, USB, HDMI, and wired/wireless Ethernet), as well as its ability to run the highly-customizable Linux operating system.</p>
+<p>Because it comes with a 4-core ARM64 processor and up to 8GB of RAM memory, the <em><strong>Raspberry Pi 4 Model B</strong></em> (shown here) is particularly well-suited to running server services on a home network with the use of a <em><strong>hardware kit</strong></em> that includes one or more add-on boards, a solid-state drive (SSD), and small form factor PC case. While the recently-released Raspberry Pi 5 has a slightly faster processor and RAM, it&rsquo;s more difficult to buy right now, and very few hardware kits currently support it. Thus, it&rsquo;s best to stick with the Raspberry Pi 4 Model B when building a home server today.</p>
+<p>The main reason that you must use a hardware kit alongside the Raspberry Pi 4 Model B is to provide for SSD storage. By default, the Raspberry Pi uses slow <a href="https://simple.wikipedia.org/wiki/MicroSD" title="Micro SD">Micro SD</a> storage. Compared to SSDs, Micro SD cards have much lower available storage capacity, and were never designed to handle the rigorous write operations commonly used by operating systems and server applications. Consequently, the Micro SD in a Raspberry Pi often malfunctions after heavy use - and this has led to some great Internet pics, such as this airport arrivals display that can no longer boot from the Micro SD card:</p>
+<p><img src="airport.jpg#center" alt="Raspberry Pi Airport" title="Raspberry Pi Airport"></p>
+<h1 id="nbsp"> </h1>
+<h1 id="to-set-up-a-raspberry-pi-home-server">To set up a Raspberry Pi home server:</h1>
+<h2 id="step-1-pick-a-pi-model">Step 1: Pick a Pi model</h2>
+<p>While the processor and interfaces are the same on each Raspberry Pi 4 Mobel B, you can buy variants with different amounts of RAM (2GB, 4GB, and 8GB). The 8GB model is obviously the best, but if you can&rsquo;t get one of those due to supply issues, the 4GB is adequate for a home server, and what I use. While my home server rarely uses more than 2GB of RAM, I&rsquo;d avoid the 2GB model to ensure that everything performs well under load.</p>
+<h2 id="step-2-choose-and-install-a-hardware-kit-and-ssd">Step 2: Choose and install a hardware kit and SSD</h2>
+<p><img src="deskpipro.jpg#right" alt="Desk Pi Pro" title="Desk Pi Pro"></p>
+<p>While there are many hardware kits available on the market for the Raspberry Pi 4 Model B, the <a href="https://deskpi.com/products/deskpi-pro-for-raspberry-pi-4" title="Desk Pi Pro">Desk Pi Pro</a> often gets the best reviews.</p>
+<p>It comes with a beautiful aluminum case that looks great on a desk without taking up too much space, and is very well designed and easy to assemble. To keep temperatures low, an ultra-thin copper heat sink and cooler unit is also included and vented through the top of the case.</p>
+<p>The add-on boards inside make it easy to add either an NVMe or SATA SSD. However, there is no difference in speed between the two since both will be faster than the USB bus used to access them. Thus, I&rsquo;d recommend a SATA SSD as you&rsquo;ll be able to get more capacity for the same price. I chose a 1TB Western Digital SA510 SATA SSD as that suited my storage needs, but you may want 2TB if you plan on storing a lot of pictures, movies, or backups.</p>
+<h2 id="step-3-install-a-mainstream-linux-distribution-to-the-ssd">Step 3: Install a mainstream Linux distribution to the SSD</h2>
+<p>While Raspberry Pi has their own Linux distribution called Raspberry Pi OS, I would instead recommend using a mainstream Linux distribution for a home server as they support the largest number of open source software packages, including server apps. The mainstream Linux distribution I usually choose is Fedora, but it&rsquo;s not supported by the <a href="https://github.com/DeskPi-Team/deskpi">scripts</a> that provide full functionality for the Desk Pi Pro add-on boards, so I chose Debian instead.</p>
+<p>The process used to install Linux to the SSD in the hardware kit is often a 2-step process.</p>
+<ol>
+<li>Image a Micro SD card with your Linux distribution of choice and boot the Raspberry Pi using it.</li>
+<li>Execute a script (provided by the hardware kit vendor) that copies the distribution from the Micro SD card to the SSD and configures the Raspberry Pi to boot from it. After this step, you can remove the Micro SD card entirely.</li>
+</ol>
+<h2 id="step-4-configure-the-linux-distribution-for-remote-access">Step 4: Configure the Linux distribution for remote access</h2>
+<p>When you install a Linux distribution, you&rsquo;re prompted to create a regular user account for yourself that has root (administrative) access via the <code>sudo</code> command. You should use this account to log into the desktop after installation and set a static IP address for the system on either the wired or wireless Ethernet network. Since Debian installs GNOME by default, I used GNOME Settings to configure a static IP address on my wired Ethernet network interface of 192.168.1.111. To access GNOME settings, click the System status area (red arrow shown below) and then click the cog wheel icon.</p>
+<p><img src="GNOME.png#center" alt="GNOME Desktop" title="GNOME Desktop"></p>
+<p>Next, you should open the Terminal app (type &ldquo;terminal&rdquo; at any time to search for the app) and run the <code>sudo systemctl start ssh</code> command at the shell prompt to ensure that SSH remote access is started, as well as the <code>sudo systemctl enable ssh</code> command to ensure that it&rsquo;s also started at boot time.</p>
+<p>Once SSH remote access is configured, you don&rsquo;t need a monitor, keyboard or mouse connected to the home server. You can unplug the HDMI and USB connections for these devices entirely and position the home server where you&rsquo;d like it on your desk. The only cables that should remain are power and wired Ethernet (if you use wired Ethernet instead of wireless).</p>
+<h2 id="step-5-access-and-configure-the-home-server-remotely-from-your-pc">Step 5: Access and configure the home server remotely from your PC</h2>
+<p>To connect from a macOS or Linux workstation to your home server and obtain a shell prompt, you can use the <code>ssh username@IPaddress</code> command (e.g., <code>ssh jason@192.168.1.111</code>) within a Terminal app and specify the appropriate password when prompted. If you use a Windows workstation, you can download the <a href="https://www.putty.org/">Putty</a> app and use it to connect to the IP address of the server, supplying the appropriate username and password when prompted.</p>
+<p>Once you have a shell prompt on your home server, you can install and configure services that you wish to use on your home network. I recommend that you first install the <a href="https://cockpit-project.org/">Cockpit</a> remote web administration tool using the <code>sudo apt install cockpit</code> command (on Debian). Following this, you can run <code>sudo systemctl start cockpit</code> to start Cockpit and <code>sudo systemctl enable cockpit.socket</code> to ensure that it starts at boot time. You can then access Cockpit by navigating to <code>https://IPaddress:9090</code> from a web browser on your workstation (e.g., <code>https://192.168.1.111:9090</code>) and log in with your username and password. Cockpit allows you to easily configure and manage all aspects of your Linux server, as well as access a shell prompt if you don&rsquo;t wish to use SSH:
+<img src="cockpit.png#center" alt="Cockpit" title="Cockpit">
+<img src="cockpitterminal.png#center" alt="Cockpit Terminal" title="Cockpit Terminal">
+Another service that I recommend installing on your home server is <a href="https://nextcloud.com/">Nextcloud</a>. Nextcloud provides a central platform you can access via a web browser to store and manage pictures and other files much like how Dropbox, OneDrive, or Google Drive does, as well as record notes, perform email and calendaring, and even create and edit documents using LibreOffice (the open source version of Microsoft Office):
+<img src="nextcloud.png#center" alt="Nextcloud" title="Nextcloud">
+Like many services, Nextcloud is available as a container image that you can download and install on your home server. To run containers, you must first install the Docker container runtime using <code>sudo apt install docker.io</code> (on Debian). Following this, you can run the <code>sudo docker pull nextcloud</code> command to download the Nextcloud container image and <code>sudo docker run -d -p 8080:80 nextcloud</code> to start the Nextcloud container. Next, you can navigate to <code>https://IPaddress:8080</code> from a web browser on your workstation (e.g., <code>https://192.168.1.111:8080</code>), complete the setup wizard, and start using Nextcloud.</p>
+<p>If you just need to store files (e.g., backups) across the network, then Nextcloud may be overkill. In this case, you could instead install the <a href="https://security.appspot.com/vsftpd.html">Very Secure FTP</a> server using <code>sudo apt install vsftpd</code> (on Debian). Following this, you can edit its configuration to allow for file uploading by running the <code>sudo nano /etc/vsftpd.conf</code> command, locate the line <code>#write_enable=YES</code>, remove the <code>#</code> to uncomment the line, and save your changes. After this, you must restart the Very Secure FTP server using the <code>sudo systemctl restart vsftpd</code> command for the changes to take effect. Then, on your Windows, macOS, or Linux workstation, you could download the free <a href="https://filezilla-project.org/">Filezilla</a> app and use it to connect to <code>sftp://IPaddress</code> (e.g., <code>sftp://192.168.1.111</code>) using your username and password to transfer files back and forth using encrypted FTP:
+<img src="filezilla.png#center" alt="Filezilla" title="Filezilla">
+Other services you require will depend on what your needs are from a home server. You may wish to install a streaming media server (e.g., PLEX, Kodi, Subsonic), a service that blocks ads on the systems on your network (e.g., Pi-hole), or even a Minecraft server. Regardless of which services you choose, there are always easy-to-follow websites and YouTube videos that will guide you through the configuration on the Linux distribution you chose.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/shortcuts/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Essential keyboard shortcuts (Windows/macOS/Linux/UNIX)"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.9em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY 
+    </p>
+  </div>
+  <div class="mt-0 mb-0" style="font-size: 1.0em;">
+    <p class="text-center">
+      (Tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
