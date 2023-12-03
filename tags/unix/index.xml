@@ -6,7 +6,17 @@
     <description>Recent content in UNIX on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023 in Review</title>
+      <link>https://jasoneckert.github.io/myblog/2023-in-review/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/2023-in-review/</guid>
+      <description>For me, 2023 turned out to be a year of learning, growth, adventure, and gratitude. And since there&amp;rsquo;s plenty for me to talk about, I&amp;rsquo;ve divided my review into two sections: one that summarizes my professional pursuits, and one that summarizes everything else.
+The professional stuff: On the college front, the new technology programs I&amp;rsquo;ve been pushing since 2020 finally got to market! My favourite one is Mobile Web Developer, as it&amp;rsquo;s a radical departure from what we did previously.</description>
+    </item>
+    
     <item>
       <title>Essential keyboard shortcuts (Windows/macOS/Linux/UNIX)</title>
       <link>https://jasoneckert.github.io/myblog/shortcuts/</link>
