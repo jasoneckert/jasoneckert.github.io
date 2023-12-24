@@ -91,5 +91,14 @@ If I was Voldemort I would have hidden a horcrux in HP&amp;rsquo;s documentation
 NFTs make excellent gifts. After all, they&amp;rsquo;re GIF certificates.</description>
     </item>
     
+    <item>
+      <title>7. The RISCy Hipster</title>
+      <link>https://jasoneckert.github.io/info/theriscyhipster/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/info/theriscyhipster/</guid>
+      <description>RISC (reduced instruction set computer) is a computer processor design that performs fewer instructions at higher speeds compared to CISC (complex instruction set computer). In the early days of computing, CISC allowed developers to write software with fewer instructions that would consume less disk space. However, by the late 1980s, many argued that advances in software development tools and technology made these benefits irrelevant, and that RISC designs would be necessary to advance computer performance in the future.</description>
+    </item>
+    
   </channel>
 </rss>
