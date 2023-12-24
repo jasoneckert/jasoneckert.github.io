@@ -13,7 +13,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
       <guid>https://jasoneckert.github.io/info/theriscyhipster/</guid>
-      <description>RISC (reduced instruction set computer) is a computer processor design that performs fewer instructions at higher speeds compared to CISC (complex instruction set computer). In the early days of computing, CISC allowed developers to write software with fewer instructions that would consume less disk space. However, by the late 1980s, many argued that advances in software development tools and technology made these benefits irrelevant, and that RISC designs would be necessary to advance computer performance in the future.</description>
+      <description>RISC (reduced instruction set computer) is a computer processor design that performs fewer instructions at higher speeds compared to CISC (complex instruction set computer). In the early days of computing, CISC allowed developers to rapidly create software with fewer instructions that would additionally consume less disk space. However, by the late 1980s, many argued that advances in software development tools and technology made these benefits irrelevant, and that RISC designs would be necessary to advance computer performance in the future.</description>
     </item>
     
   </channel>
