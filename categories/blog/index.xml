@@ -6,7 +6,16 @@
     <description>Recent content in blog on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extending the life of an Intel-based Mac using Windows 11</title>
+      <link>https://jasoneckert.github.io/myblog/intel-mac-win11/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/intel-mac-win11/</guid>
+      <description>Back in 2020, Apple introduced the first Macs that used Apple Silicon processors instead of Intel ones, and this transition from Intel to Apple Silicon was completed earlier this year across Apple&amp;rsquo;s entire product line. While Apple promised they&amp;rsquo;d continue supporting macOS on Intel-based Macs for the near future, those of us who remember Apple&amp;rsquo;s previous transitions from M68k-to-PowerPC and PowerPC-to-Intel know full well that this support is going to end sooner than later.</description>
+    </item>
+    
     <item>
       <title>2023 in Review</title>
       <link>https://jasoneckert.github.io/myblog/2023-in-review/</link>
