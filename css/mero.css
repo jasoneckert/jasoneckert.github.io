@@ -25,7 +25,7 @@ a:hover {
   text-decoration: none;
 }
 * {
-  font-family: "Overlock", cursive;
+  font-family: "Overlock", regular;
 }
 .bg-dark,
 .btn-dark {
