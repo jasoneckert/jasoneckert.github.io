@@ -6,7 +6,18 @@
     <description>Recent content in tech on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>40 years of Macintosh</title>
+      <link>https://jasoneckert.github.io/myblog/40-years-of-mac/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/40-years-of-mac/</guid>
+      <description>The first Apple Macintosh computer was released 40 years ago (January 24, 1984) following an epic 1984 Super Bowl commercial two days earlier.
+As the first mass-market all-in-one computer with a graphical desktop and mouse navigation, the Macintosh (and the Macintosh brand in general) was positioned to be the computer for everyone.
+40 years later, the &amp;ldquo;Mac&amp;rdquo; is a household name and Apple is the world&amp;rsquo;s richest company by market cap.</description>
+    </item>
+    
     <item>
       <title>Extending the life of an Intel-based Mac using Windows 11</title>
       <link>https://jasoneckert.github.io/myblog/intel-mac-win11/</link>
@@ -1154,6 +1165,15 @@ It must be user error</description>
       <description>I feel someone needs to start a house-call backup business where someone could pull up to your home (or business) in a car that has a big NAS box in the back, and then perform off-site backups across Ethernet for a fee. They could call it NASCAR.
 If I was Voldemort I would have hidden a horcrux in HP&amp;rsquo;s documentation.
 NFTs make excellent gifts. After all, they&amp;rsquo;re GIF certificates.</description>
+    </item>
+    
+    <item>
+      <title>7. The RISCy Hipster</title>
+      <link>https://jasoneckert.github.io/info/theriscyhipster/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/info/theriscyhipster/</guid>
+      <description>RISC (reduced instruction set computer) is a computer processor design that performs fewer instructions at higher speeds compared to CISC (complex instruction set computer). In the early days of computing, CISC allowed developers to rapidly create software with fewer instructions that would additionally consume less disk space. However, by the late 1980s, many argued that advances in software development tools and technology made these benefits irrelevant, and that RISC designs would be necessary to advance computer performance in the future.</description>
     </item>
     
   </channel>
