@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Jason Eckert&#39;s Website and Blog</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.119.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      The Rise of RISC-V and Open Hardware
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2024-04-09</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+5 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="risc-v.png#center" alt="RISC-V banner" title="RISC-V banner"></p>
+<p>During the rise of the Internet in the late 1990s and early 2000s, the software world underwent a paradigm shift towards &ldquo;open source&rdquo; software development. Open source software is any software that is released under a license that gives other software developers access to read and modify the original source code that was used to create the software. In other words, if you publish software under an open source license, you are offering the source code you created to others who can modify it to fix bugs and security loopholes, as well as make feature improvements. Thus, compared to closed source software, open source software evolves much quicker and is more stable and secure.</p>
+<p>The open source Apache web server that powered much of the original World Wide Web (WWW) alongside the open source Linux operating system it ran on made the explosion of the Internet possible, and pundits praised open source as the future of all software development. After reading about open source development in Eric S. Raymond&rsquo;s book <a href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">The Cathedral and the Bazaar</a>, executives at Netscape decided to open source their web browser (now called Firefox) &ndash; a move considered revolutionary at the time. Thousands of companies have since followed in Netscape&rsquo;s footprints.
+<img src="cloud.jpg#right" alt="Linux in the Cloud" title="Linux in the Cloud"></p>
+<p>By 2012, all web development frameworks, the vast majority of cloud software, and even the underlying components of Android, iOS, macOS, and Windows incorporated open source software of some kind. Today, open source software development is considered a necessary component of any good software or cloud platform. And since the modern cloud evolved from the open source software movement, it should be no surprise that it&rsquo;s almost entirely comprised of Linux servers.</p>
+<p>Today, we&rsquo;re starting to see another open source-like paradigm shift happen &ndash; but this time it&rsquo;s all about hardware. More specifically, RISC hardware using a new open source hardware platform called RISC-V.</p>
+<p> </p>
+<h1 id="what-is-risc">What is RISC?</h1>
+<p><em>RISC (reduced instruction set computer)</em> is a computer processor design that performs fewer instructions at higher speeds compared to CISC (complex instruction set computer). In the early days of computing, CISC allowed developers to rapidly create software with fewer instructions that would additionally consume less disk space. However, by the late 1980s, many argued that advances in software development tools and technology made these benefits irrelevant, and that RISC designs would be necessary to advance computer performance in the future.</p>
+<p>While CISC Intel/AMD x86 processors have remained incredibly popular over the past four decades, RISC systems started appearing en mass during the 1990s. From 1994-2006, Apple computers used a RISC PowerPC processor. High-end UNIX workstation systems of the 1990s and 2000s also relied on RISC designs, including the Sun Microsystems SPARC, SGI MIPS, HP PA-RISC, DEC Alpha, and Acorn RISC Machine (ARM). ARM subsequently became the standard processor used in mobile smartphones, tablets, and Internet-connected devices, as well as in newer Apple Silicon-based Mac computers. In cloud server environments, powerful Ampere and Graviton ARM processors currently provide the best price/performance ratio.</p>
+<p>As prophesized by Angelina Jolie in the 1995 movie <a href="https://www.youtube.com/watch?v=yVo9_h3-zwQ">Hackers</a>, RISC is the future. Because I entered tech in the 1990s when powerful RISC platforms running UNIX were all the rage, I&rsquo;ve always been drawn to powerful RISC platforms. I used Sun Microsystems SPARC systems heavily for work during the 1990s, and had many SGI MIPS and DEC Alpha workstations over the years. I used both PowerPC-based Apple computers and UltraSPARC-based Sun Microsystems computers as my main workstations during the 2000s, and today use an Apple Silicon-based <a href="../../myblog/fedora-asahi-remix/">Mac Studio running Fedora Asahi Linux</a>.</p>
+<h1 id="what-is-risc-v">What is RISC-V?</h1>
+<p><a href="https://en.wikipedia.org/wiki/RISC-V">RISC-V</a> entered the scene in 2014 as a fully open RISC design that was free of any licensing fees. It&rsquo;s essentially the hardware equivalent of open source software, and doesn&rsquo;t require that hardware manufacturers pay royalty fees for any RISC-V processors they create (unlike Intel/AMD and ARM).</p>
+<p>This has piqued the interest of many different hardware manufacturers in recent years, including Google and Qualcomm who have each announced that they are going to use RISC-V for future wearables. But most RISC-V development in the last few years has come from China. By advancing and producing RISC-V chips, China won&rsquo;t have to worry about chip sanctions in the ongoing China-US technology trade tensions. And there are some major players in China putting their weight behind RISC-V, including Alibaba.</p>
+<p>Right now, you can buy complete RISC-V systems running Linux. For example, <a href="https://sipeed.com/licheepi4a">SiPEED</a> sells low power RISC-V laptops, tablets, gaming consoles, and compute clusters running Linux. You can even buy a full-fledged RISC-V PC from milkV running Fedora Linux with 64 cores, 128GB RAM, a 1TB SSD, and an AMD video card called the <a href="https://milkv.io/pioneer">milkV Pioneer</a>.</p>
+<p><img src="milkvpioneer.jpg#center" alt="milkV Pioneer" title="milkV Pioneer"></p>
+<p>Being an open source operating system, Linux has excellent support for RISC-V. And because both ARM and RISC-V are RISC platforms, it&rsquo;s easy to port ARM software to RISC-V. Consequently, most software that runs on Linux is already available for RISC-V.</p>
+<p>The only thing holding RISC-V back right now is the processor chip development itself. Current RISC-V processors (including the 64-core processor in the milkV Pioneer) aren&rsquo;t nearly as fast as higher-end Intel/AMD or ARM chips. But with corporate development effort, this could change very quickly.</p>
+<p>I witnessed the rapid rise of open source software starting in the late 1990s and was always shocked at how fast things progressed. And open source software had far more challenges to overcome compared to RISC-V because it was a new software development paradigm in a world that vehemently embraced closed source software at every level. RISC-V is just an open hardware design that any manufacturer can choose to evolve and implement themselves, or collaborate with others to do the same.</p>
+<p>It only took just over a decade before open source software crushed closed source barriers and became ubiquitous. For RISC-V, it could only take a few years of effort by some large hardware manufacturers to rival Intel/AMD and ARM in every market, from embedded and mobile devices to server systems in the cloud. And with more and more companies backing RISC-V each month, it&rsquo;s just a matter of &ldquo;when&rdquo; and not &ldquo;if&rdquo; RISC-V is going to disrupt the hardware industry.</p>
+<p>I&rsquo;m looking forward to watching it each step of the way.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/growth-mindset/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Tips for Maintaining a Growth Mindset"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.7em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY (tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
