@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Meetingz (Windows Phone 7)</title>
+    <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz.html</link>
+    <description>This app has common bullshit phrases used in meetings - each time you hear one, press the corresponding button (it will glow as you hold it).  Hold the button longer if the bullshit phrase is used with more intensity!  When you exit, the overall bullshit rating for the meeting will be shown, and a graph will display bullshit ratings for past meetings by date.</description>
+    <item>
+      <title>Meetingz1</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz.html#0</link>
+      <guid isPermaLink="false">561398b7-ba30-49cd-9d92-2de9e7ee2158</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/meetingz1/meetingz1.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/meetingz1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/meetingz1/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/meetingz1/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_32&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;Meetingz1&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <title>Meetingz2</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz.html#1</link>
+      <guid isPermaLink="false">be390045-d3c4-46fe-9784-e867aefb8596</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/Meetingz2/Meetingz2.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/Meetingz2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/Meetingz2/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/Meetingz2/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_32&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;Meetingz2&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <title>Meetingz3</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz.html#2</link>
+      <guid isPermaLink="false">c53dab4f-aeb4-497e-b110-8650c8e9855d</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/meetingz3/meetingz3.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/meetingz3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/meetingz3/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Meetingz_files/Media/meetingz3/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_32&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;Meetingz3&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+  </channel>
+</rss>

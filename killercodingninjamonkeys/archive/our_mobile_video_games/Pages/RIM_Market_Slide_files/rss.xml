@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>RIM Market Slide (BlackBerry PlayBook)</title>
+    <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide.html</link>
+    <description>The red ball is riding the stock market value of Research In Motion (RIM) as it plummets further and further.  Touch the screen to have the ball jump and catch various actions to increase or decrease the market value.  If the value gets too low, RIM is bought by a *random* company and the game ends.</description>
+    <item>
+      <title>RIMslide1</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide.html#0</link>
+      <guid isPermaLink="false">775679c8-ad0d-454b-85e6-eac6d3b7abf7</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide1/RIMslide1.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide1/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide1/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_32&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;RIMslide1&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <title>RIMslide2</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide.html#1</link>
+      <guid isPermaLink="false">38cc719d-8220-412a-87df-7a86e73eadf9</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide2/RIMslide2.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide2/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide2/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_32&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;RIMslide2&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <title>RIMslide3</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide.html#2</link>
+      <guid isPermaLink="false">981a47fb-ab91-457d-abbd-beb890566c1f</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide3/RIMslide3.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide3/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/RIM_Market_Slide_files/Media/RIMslide3/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_32&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;RIMslide3&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+  </channel>
+</rss>

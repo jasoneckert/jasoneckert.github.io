@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Where in the School is Bob Gunderson? (BlackBerry PlayBook)</title>
+    <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29.html</link>
+    <description>This is a simple game where the player navigates different rooms in the school to find where Bob Gunderson is hiding.  Different objects within each room will give the player clues about where Bob may be - his location changes based on the clues the player accesses and the rooms that they enter.</description>
+    <item>
+      <title>Bob1</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29.html#0</link>
+      <guid isPermaLink="false">3ba4e224-fcab-48d9-bf80-596b4ca425ee</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob1/Bob1.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob1/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob1/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_16&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;Bob1&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <title>Bob2</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29.html#1</link>
+      <guid isPermaLink="false">2105a438-2a80-46a8-a93d-0932a4f2306c</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob2/Bob2.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob2/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob2/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_16&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;Bob2&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <title>Bob3</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29.html#2</link>
+      <guid isPermaLink="false">b897b626-45a4-4e93-8021-52abb0fdebf1</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob3/Bob3.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob3/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Where_in_the_School_is_Bob_Gunderson_%28BlackBerry_PlayBook%29_files/Media/Bob3/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_16&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;Bob3&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+  </channel>
+</rss>

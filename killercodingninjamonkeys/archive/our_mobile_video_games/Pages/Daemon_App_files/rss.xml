@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Daemon App (Windows Phone 7)</title>
+    <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App.html</link>
+    <description>This app connects to an SSH service (port 22) and allows you to type BASH shell commands, as well as view key logs and system statistics.  It is the most boring and most useful app I have created.</description>
+    <item>
+      <title>DaemonApp1</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App.html#0</link>
+      <guid isPermaLink="false">4f7309c1-3499-46d6-9a63-c467d9862b18</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp1/DaemonApp1.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp1/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp1/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_32&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;DaemonApp1&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <title>DaemonApp2</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App.html#1</link>
+      <guid isPermaLink="false">c8275730-97c3-49c8-89f7-966df2ce0310</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp2/DaemonApp2.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp2/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp2/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_32&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;DaemonApp2&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <title>DaemonApp3</title>
+      <link>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App.html#2</link>
+      <guid isPermaLink="false">420fa1d7-e6b3-4d83-baf7-90600154976e</guid>
+      <enclosure url="http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp3/DaemonApp3.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp3/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://www.jasoneckert.net/Site_2/our_mobile_video_games/Pages/Daemon_App_files/Media/DaemonApp3/mip.jpg</iweb:mip-thumbnail>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_166_32&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-bottom: 0pt; padding-top: 0pt; &quot; class=&quot;paragraph_style_1&quot;&gt;DaemonApp3&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+  </channel>
+</rss>
