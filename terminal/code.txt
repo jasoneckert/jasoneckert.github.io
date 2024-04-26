@@ -1,0 +1,28 @@
+<span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->whoami 
+jasoneckert
+<span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->finger jasoneckert 
+Login: jasoneckert <span class="tab"></span> <span class="tab"></span> <span class="stab"></span> Name: Jason Eckert
+Directory: /home/jasoneckert <span class="tab"></span> Shell: /bin/bash
+On since Thu Jan 1 00:01 (EST) on ttyS0 (9600 baud)
+No mail.
+Plan:
+Aside from being 98% chimp, I do stuff @ triOS College in Canada, write textbooks for various publishers, contribute to cool dev projects, build private clouds (and keep them running), collect vintage computers, and restore classic arcade machines.<br/>
+<span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->ls -l <!-- kjsdfhkjdhsfkjdshfkj -->
+total 16
+-rwxrwxr-x 1 jasoneckert jasoneckert  743 Jan  1  1970 socialmedialinks.sh
+-rw-rw-r-- 1 jasoneckert jasoneckert  279 Jan  1  1970 poem.txt
+-rw-rw-r-- 1 jasoneckert jasoneckert  144 Jan  1  1970 reallylongbiography.txt
+<span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->./socialmedialinks.sh 
+<a href="https://www.linkedin.com/in/jason-w-eckert-b1775510/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a href="https://twitter.com/the_unix_guru" target="_blank" rel="noopener noreferrer">Twitter</a>  
+<a href="https://www.youtube.com/user/jasonec512" target="_blank" rel="noopener noreferrer">YouTube</a>
+<a href="https://github.com/jasoneckert" target="_blank" rel="noopener noreferrer">GitHub</a>
+<span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->cat poem.txt
+Roses are red,
+Violets are blue,
+git reset --hard
+When Ctrl+z won't do
+<span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span> <!-- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->grep -i email reallylongbiography.txt  
+Feel free to send me an <span id="k">email</span> any time at jason.eckert@trios.com
+
+<span id="a">jasoneckert@github.io</span>:<span id="b">~</span><span id="c">$</span>
