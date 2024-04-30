@@ -6,7 +6,16 @@
     <description>Recent content in IT on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Keep my Linux Textbook Updated for New Versions</title>
+      <link>https://jasoneckert.github.io/myblog/keeping-linux-books-updated/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/keeping-linux-books-updated/</guid>
+      <description>Back when I wrote the first edition of my Linux textbook in 2002, I spent a massive amount of time planning every detail to ensure it had a strong prerequisite concept flow for those new to Linux usage and administration. I added more content on network services and security in the second edition, and dramatically more in the third edition. The fourth edition introduced Systemd, ZFS, and additional security technologies.</description>
+    </item>
+    
     <item>
       <title>The Rise of RISC-V and Open Hardware</title>
       <link>https://jasoneckert.github.io/myblog/risc-v/</link>

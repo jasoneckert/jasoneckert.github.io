@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Jason Eckert&#39;s Website and Blog</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.119.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      How I Keep my Linux Textbook Updated for New Versions
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2024-05-01</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+7 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/unix"
+      title="tags"
+    >UNIX</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="banner.jpg#center" alt="Automation banner" title="Automation banner"></p>
+<p>Back when I wrote the <a href="../../bio/my-published-books/0-619-13004-0_front.jpg">first edition</a> of my Linux textbook in 2002, I spent a massive amount of time planning every detail to ensure it had a strong prerequisite concept flow for those new to Linux usage and administration. I added more content on network services and security in the second edition, and dramatically more in the third edition. The fourth edition introduced Systemd, ZFS, and additional security technologies. The fifth edition added many new server, storage, container, and cloud topics, as well as Git and an appendix that allowed readers to apply their Linux skills to macOS. The sixth edition that was published last year expanded these same topics, as well as added the Z shell, Kubernetes, and another appendix that allowed readers to apply their Linux skills to FreeBSD UNIX. Content-wise, the <a href="../../bio/my-published-books/979-82140-0080-0_front.jpg">sixth edition</a> is arguably the most comprehensive Linux textbook on the market.</p>
+<p>However, to be an effective resource in a college or university class, a Linux textbook must have more than just content. It must have practical step-by-step exercises, as well as optional challenge exercises for those who want to explore topics at a deeper level. In my books, these are called <em><strong>Hands-on Projects</strong></em> and <em><strong>Discovery Exercises</strong></em>, respectively. Additionally, these Hands-on Projects and Discovery Exercises should be able to be performed from either a classroom or home computer to fit modern educational needs, and should work with the latest Linux distributions, of which my textbook uses two:</p>
+<ul>
+<li>Fedora Workstation, and</li>
+<li>Ubuntu Server.</li>
+</ul>
+<p>Since the fourth edition, these distributions must be installed within virtual machines on either a classroom or home computer. With the recent adoption of Bring Your Own Device (BYOD) in most educational institutions since the pandemic, it was important that the sixth edition allow students to install virtual machines using any type of virtualization software on their Windows PC with an Intel/AMD or ARM processor, or their macOS PC with an Apple Silicon (ARM) processor. So I wrote the Hands-on Project steps to accommodate this throughout, ensuring that readers obtained the correct installation ISO image for their processor architecture (Intel/AMD or ARM).</p>
+<p>The biggest challenge was figuring out a way to ensure that Hands-on Projects and Discovery Exercises could work with the latest Linux distributions. After all, new versions of each distribution are released twice per year.</p>
+<p>For previous editions, I required readers install a specific version of Fedora Workstation and Ubuntu Server. And when the online software repositories for these distributions retired packages built for them, I ended up authoring a new edition of the book. But starting with the sixth edition I directed readers to download and install the latest version of Fedora Workstation and Ubuntu Server for their processor architecture, and check for any small modifications to Hands-on Projects and Discovery Exercises on an <a href="https://github.com/jasoneckert/CengageLinux">errata page on GitHub</a>.</p>
+<p>Does that mean that I would have to test each Hands-on Project and Discovery Exercise in the book twice a year for both Linux distributions and update the errata page? To quote Hamlet, Act 3, Scene 3, Line 87: &ldquo;No.&rdquo;</p>
+<p>Since I anticipated that the number of steps requiring changes to be very low each time a new version of each distribution was released, I planned on automating the testing process in a way that would only show me the few areas that needed attention and modification. And to do this, I had to keep some features and constraints in mind:</p>
+<ul>
+<li>Authoring is done using a Microsoft Word template that uses black text throughout. Commands and command output are formatted in a monospace font style to differentiate them from other text. However, to differentiate commands from command output, commands are bolded. So, it&rsquo;d be easy to extract commands from a chapter after it was written by searching for this bold monospace font.</li>
+<li>Only commands within Hands-on Projects and Discovery Exercises need to be tested. If a command doesn&rsquo;t work in one of these, I would know to add an errata note for the associated section in the chapter body as well.</li>
+<li>There are also some commands and file paths in the chapter body that are not tested in the Hands-on Projects and Discovery Exercises (e.g., side notes used to illustrate concepts that don&rsquo;t translate to a practical exercise). For these, I would need to find a way to tag these for extraction.</li>
+<li>Graphical steps performed within a desktop environment, web browser, or during the installation process itself would be difficult to automate.</li>
+<li>Screenshots are difficult to update, but the few that I have illustrate a general or timeless concept, such as the layout of the GNOME and KDE Plasma desktops, or the Cockpit and CUPS Web Administration tools.</li>
+</ul>
+<p>So I devised a plan that could work. After I wrote each chapter, I would take two additional copies of the Word document.</p>
+<ul>
+<li>In the first copy, I would format any commands and file paths in the chapter body that were not tested as part of a Hands-on Project or Discovery Exercise using a red font colour. I would then do a wildcard search for black text and replace it with nothing, leaving only the red text. Word graciously placed each instance on a new line. Next, I would review and copy those results into a raw text document. For Chapter 1, this would be called <code>Ch1_body.txt</code>.</li>
+<li>In the second copy, I would remove the body entirely, leaving only the Hands-on Projects and Discovery Exercises. I would then do a wildcard search for text that was not bold monospace and replace it with nothing, leaving only the commands one per line. Next, I would review and copy those results into separate raw text documents for each Hands-on Project and Discovery Exercise. For example, the first Hands-on Project in Chapter 1 would be <code>Ch1_HOP1.txt</code> and the first Discovery Exercise in Chapter 1 would be <code>Ch1_DE1.txt</code>.</li>
+<li>I would also note anything that I would need to manually test myself in a personal notes file called <code>Manual_testing_tasks.txt</code>.</li>
+</ul>
+<p>This extra work proved to be trivial time-wise. After authoring a chapter, everything was fresh on my mind and it only took me a few minutes on average to tag what I needed, and about 10 minutes to prepare the correct text files. Only a few chapters had some interactive commands that took me a bit longer to modify for automated testing.</p>
+<p>Next came the fun part: automation. Spinning up a virtual machine with my filesystem layout was easy using anaconda (Fedora) and cloud-init (Ubuntu) configuration files. Of course, this meant I wouldn&rsquo;t catch any small word or process changes during the installer, but I manually did a second installation later to catch those and update my errata.</p>
+<p>Once the virtual machines were spun up, it was easy to run the remaining tests. As an Ansible junkie, I originally wanted to use it to do my testing, but realized that a simple shell script with a looping function to execute each line of the text files I created across an SSH session was best. This function required sleep commands to prevent timing issues, but recorded and stopped processing commands that returned a false exit status, emailing me the results to investigate. Once I located the issue, I would update my errata to describe the remedy in a concise way, update the associated text file appropriately, and continue testing. The remaining lines in this shell script merely ran this function for each Hands-on Project and Discovery Exercise file as the appropriate user account on the target system.</p>
+<p>And to tie everything together, I created a workflow in my orchestration software to spin up the virtual machines, run my testing shell scripts, and remind me of any manual testing steps I needed to perform using a checklist.</p>
+<p>The 6th edition of my Linux book was published in 2023 and was originally written for Fedora Workstation 36 and Ubuntu Server 20.04. I&rsquo;ve now run this automated testing workflow four times since then, including last week when Fedora Workstation 40 and Ubuntu Server 24.04 were released. It ran beautifully each time, catching a small number of issues that took less than an hour of my time to address during an afternoon while I was working on other curriculum development.</p>
+<p>It&rsquo;s a good approach to keeping content current, and something I encourage other authors to adopt as a result.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/risc-v/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="The Rise of RISC-V and Open Hardware"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.7em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY (tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
