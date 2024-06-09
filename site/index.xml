@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Policy on AI on Jason Eckert&#39;s Website and Blog</title>
+    <link>https://jasoneckert.github.io/site/</link>
+    <description>Recent content in My Policy on AI on Jason Eckert&#39;s Website and Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This website contains zero AI-generated text</title>
+      <link>https://jasoneckert.github.io/site/about-this-site/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/site/about-this-site/</guid>
+      <description>Yup, that’s right &amp;ndash; every single word, phrase, and typo (purposeful or not) has been carefully crafted by yours truly and reflects decades of continuous improvement in both English and thought expression.
+Each blog post started with a real-life event or thought that sparked a passion to create something I wanted to share with others, and in a way that allowed me to better understand and appreciate it as well.</description>
+    </item>
+    
+  </channel>
+</rss>
