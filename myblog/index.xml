@@ -6,7 +6,17 @@
     <description>Recent content in Blog Posts on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demystifying Artificial Intelligence (AI)</title>
+      <link>https://jasoneckert.github.io/myblog/demystifying-ai/</link>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/demystifying-ai/</guid>
+      <description>If you&amp;rsquo;re tired of all of the Artificial Intelligence (AI) buzz recently, you&amp;rsquo;re not alone. Most of us in the tech industry are as well. In this post, I&amp;rsquo;ll outline what AI is and how it works, why you&amp;rsquo;re hearing so much AI hype nowadays, and how AI functionality will eventually be built into the software products we use.
+So, what is AI? Firstly, AI is nothing new. The term itself was coined in 1955 by John McCarthy as a way to discuss how computers could make decisions based on inputs and logic provided.</description>
+    </item>
+    
     <item>
       <title>How I Keep my Linux Textbook Updated for New Versions</title>
       <link>https://jasoneckert.github.io/myblog/keeping-linux-books-updated/</link>
