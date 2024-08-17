@@ -6,7 +6,16 @@
     <description>Recent content on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuring GitHub Discussions to provide Blog Comments</title>
+      <link>https://jasoneckert.github.io/myblog/github-discussions-blog/</link>
+      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/github-discussions-blog/</guid>
+      <description>There are a few reasons why I&amp;rsquo;ve avoided adding a comment section to my blog these past two decades. Firstly, it can promote inappropriate and low effort responses&amp;hellip; especially if comments can be made anonymously. As a result, my home page encourages readers to email me directly. I&amp;rsquo;ve received well over a thousand emails from readers over the years, and I&amp;rsquo;ve enjoyed replying to each one. Secondly, introducing a comment section requires the execution of dynamic content that usually stores comments within a database.</description>
+    </item>
+    
     <item>
       <title>7 Tips for a Healthy Digital Lifestyle</title>
       <link>https://jasoneckert.github.io/myblog/digital-lifestyle/</link>

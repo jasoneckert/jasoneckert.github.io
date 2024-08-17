@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Jason Eckert&#39;s Website and Blog</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.119.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/site/">My Policy on AI</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Configuring GitHub Discussions to provide Blog Comments
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2024-08-16</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+5 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/development"
+      title="tags"
+    >development</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/programming"
+      title="tags"
+    >programming</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/internet"
+      title="tags"
+    >Internet</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/web"
+      title="tags"
+    >Web</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/open-source"
+      title="tags"
+    >open source</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="comments.png#center" alt="Comments button" title="Comments button"></p>
+<p>There are a few reasons why I&rsquo;ve avoided adding a comment section to my blog these past two decades. Firstly, it can promote inappropriate and low effort responses&hellip; especially if comments can be made anonymously. As a result, my home page encourages readers to email me directly. I&rsquo;ve received well over a thousand emails from readers over the years, and I&rsquo;ve enjoyed replying to each one. Secondly, introducing a comment section requires the execution of dynamic content that usually stores comments within a database. I instead prefer to use a simple, static website for my personal blog that can be easily hosted anywhere I choose. This also means I don&rsquo;t have to configure and maintain databases.</p>
+<p>Recently, however, I&rsquo;ve been getting more and more emails from readers requesting I add a comment section to my blog. And when one of my blog posts goes viral on <a href="https://news.ycombinator.com/">Hacker News</a> I often get several dozen of these emails within a few days. So, I&rsquo;ve decided it&rsquo;s time to add that section, but in a way that requires users prove their identity to discourage inappropriate or irrelevant (e.g., spam) comments that I&rsquo;d need to remove.</p>
+<p>This website is entirely written in Markdown text format and composited to webpages using the <a href="https://gohugo.io/">Hugo</a> static website generator. Moreover, it is hosted in two separate locations: in my GitHub account at <a href="https://jasoneckert.github.io">jasoneckert.github.io</a> using the GitHub Pages feature, and on the <a href="https://triosdevelopers.com/~jason.eckert/">triosdevelopers.com</a> web server for fault tolerance. Each time I modify my web content, it pushes the new content to both locations.</p>
+<p>Unlike systems like WordPress that provide dynamic content stored in a database out of the box, Hugo requires that I add those things manually. The easiest way to add comments to a Hugo-generated website is to leverage the Disqus third-party service. But I&rsquo;m not keen on the idea of comments being stored on servers owned by some other entity that can do anything with that data. Another option is to leverage my Mastodon account for comments. But this requires I manually share each blog I post on Mastodon and then re-edit that same blog to include the Mastodon toot (post) ID number so that the comments made on Mastodon are displayed at the bottom.</p>
+<p>So I decided to leverage the <a href="https://giscus.app/">giscus</a> app in GitHub to provide comments for my blog. Since giscus leverages the GitHub Discussions feature to store comments, a separate database is not required. It&rsquo;s also well documented and relatively easy to set up if you have web development knowledge. Because readers must have a GitHub account to post comments, anonymous posts are not allowed.</p>
+<p>It just makes sense to have the main copy of my website and associated comments stored in the same repository on GitHub. Moreover, this repository can also be used to store comments for the copy of my website on triosdevelopers.com. And because it is open source, should giscus no longer be actively maintained in the future, I can always maintain the code myself and self-host the giscus app in GitHub (but I doubt that&rsquo;ll happen).</p>
+<h1 id="configuring-giscus">Configuring giscus</h1>
+<p>To configure giscus to add a comment section to your GitHub Pages website composited with Hugo, you can follow these steps:</p>
+<ol>
+<li>
+<p>In the repository for your website on GitHub, enable the GitHub Discussions feature by navigating to Settings and selecting Discussions under the Features section.</p>
+</li>
+<li>
+<p>Install the giscuss app in your GitHub account by navigating to <a href="https://github.com/apps/giscus">https://github.com/apps/giscus</a> (allow access to the repository for your website).</p>
+</li>
+<li>
+<p>Go to <a href="https://giscus.app/">https://giscus.app/</a> and supply the following giscus configuration information:</p>
+</li>
+</ol>
+<ul>
+<li>The location of your repository on GitHub (e.g., <code>jasoneckert/jasoneckert.github.io</code>)</li>
+<li>The method used to identify comment threads in Discussions (I chose <code>Discussion title contains page pathname</code> to ensure that I see the website path for each blog post in GitHub Discussions)</li>
+<li>The GitHub Discussions category (I chose <code>Announcements</code> to ensure that only giscus and I can create new discussions)</li>
+<li>Any giscus features you wish to use (I de-selected the default <code>Enable reactions for the main post</code> feature so that readers must type a reply instead of simply adding an emoji reaction, because that doesn&rsquo;t really say anything)</li>
+<li>The theme for the comment section (there are many to choose from)</li>
+</ul>
+<ol start="4">
+<li>Copy the <code>&lt;script&gt;</code> block that is generated by the website after you finish entering your giscus configuration information. For my choices, this block will resemble the following:</li>
+</ol>
+<pre tabindex="0"><code>       &lt;script src=&#34;https://giscus.app/client.js&#34;
+          data-repo=&#34;jasoneckert/jasoneckert.github.io&#34;
+          data-repo-id=&#34;yourIDhere&#34;
+          data-category=&#34;Announcements&#34;
+          data-category-id=&#34;yourCategoryIDhere&#34;
+          data-mapping=&#34;pathname&#34;
+          data-strict=&#34;0&#34;
+          data-reactions-enabled=&#34;0&#34;
+          data-emit-metadata=&#34;0&#34;
+          data-input-position=&#34;bottom&#34;
+          data-theme=&#34;noborder_gray&#34;
+          data-lang=&#34;en&#34;
+          crossorigin=&#34;anonymous&#34;
+          async&gt;
+       &lt;/script&gt;   
+</code></pre><ol start="5">
+<li>Create a <code>layouts/partials/giscus.html</code> file in your Hugo directory with the following contents that include your <code>&lt;script&gt;</code> block:</li>
+</ol>
+<pre tabindex="0"><code>     {{- if (eq (.Site.Params.disableComments | default false) false) -}}
+      {{- if (eq (.Params.disableComments | default false) false) -}}
+       &lt;script src=&#34;https://giscus.app/client.js&#34;
+          data-repo=&#34;jasoneckert/jasoneckert.github.io&#34;
+          data-repo-id=&#34;yourIDhere&#34;
+          data-category=&#34;Announcements&#34;
+          data-category-id=&#34;yourCategoryIDhere&#34;
+          data-mapping=&#34;pathname&#34;
+          data-strict=&#34;0&#34;
+          data-reactions-enabled=&#34;0&#34;
+          data-emit-metadata=&#34;0&#34;
+          data-input-position=&#34;bottom&#34;
+          data-theme=&#34;noborder_gray&#34;
+          data-lang=&#34;en&#34;
+          crossorigin=&#34;anonymous&#34;
+          async&gt;
+        &lt;/script&gt;   
+       {{- end -}}
+      {{- end -}}
+</code></pre><ol start="5">
+<li>Override the appropriate HTML component of your Hugo template to incorporate <code>giscus.html</code>. This will depend on your actual Hugo template. In my template, I have a <code>themes/theme/layouts/partials/prevNext.html</code> that draws the previous and next navigation buttons at the bottom of each blog post, and since I wanted the comment section to be listed below those navigation buttons, I copied this file to <code>layouts/partials/prevNext.html</code> (to override the original) and added the following line to the bottom:</li>
+</ol>
+<pre tabindex="0"><code>      {{ partial &#34;giscus&#34; . }}
+</code></pre><ol start="6">
+<li>Finally, modify the <code>config.toml</code> file in the root of your Hugo directory to include the same parameters from the <code>&lt;script&gt;</code> block for posterity:</li>
+</ol>
+<pre tabindex="0"><code>      [params.giscus]
+        repo = &#34;jasoneckert/jasoneckert.github.io&#34;
+        repoId = &#34;yourIDhere&#34;
+        category = &#34;Announcements&#34;
+        categoryID = &#34;yourCategoryIDhere&#34;
+        mapping = &#34;pathname&#34;
+        reactions = false
+        inputPosition = &#34;bottom&#34;
+        theme = &#34;noborder_gray&#34;
+</code></pre><p>That&rsquo;s it! You can now composite your website again with Hugo and push it to GitHub Pages to add comments sections to each blog post.</p>
+<p>If you host your website elsewhere, you can still create and use the GitHub Discussions feature to store comments via giscus as long as you create a repository for it. In my case, the copy of my GitHub Pages website hosted on triosdevelopers.com also stores comments in the discussions section of my GitHub Pages repository (jasoneckert/jasoneckert.github.io).</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/digital-lifestyle/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="7 Tips for a Healthy Digital Lifestyle"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+<script src="https://giscus.app/client.js"
+          data-repo="jasoneckert/jasoneckert.github.io"
+          data-repo-id="MDEwOlJlcG9zaXRvcnkyMzUyMTE1MTk="
+          data-category="Announcements"
+          data-category-id="DIC_kwDODgUK_84ChWDV"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="0"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="noborder_gray"
+          data-lang="en"
+          crossorigin="anonymous"
+          async>
+       </script>
+
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.7em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY (tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
