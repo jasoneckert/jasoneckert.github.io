@@ -213,8 +213,8 @@
 <p>Recently, however, I&rsquo;ve been getting more and more emails from readers requesting I add a comment section to my blog. And when one of my blog posts goes viral on <a href="https://news.ycombinator.com/">Hacker News</a> I often get several dozen of these emails within a few days. So, I&rsquo;ve decided it&rsquo;s time to add that section, but in a way that requires users prove their identity to discourage inappropriate or irrelevant (e.g., spam) comments that I&rsquo;d need to remove.</p>
 <p>This website is entirely written in Markdown text format and composited to webpages using the <a href="https://gohugo.io/">Hugo</a> static website generator. Moreover, it is hosted in two separate locations: in my GitHub account at <a href="https://jasoneckert.github.io">jasoneckert.github.io</a> using the GitHub Pages feature, and on the <a href="https://triosdevelopers.com/~jason.eckert/">triosdevelopers.com</a> web server for fault tolerance. Each time I modify my web content, it pushes the new content to both locations.</p>
 <p>Unlike systems like WordPress that provide dynamic content stored in a database out of the box, Hugo requires that I add those things manually. The easiest way to add comments to a Hugo-generated website is to leverage the Disqus third-party service. But I&rsquo;m not keen on the idea of comments being stored on servers owned by some other entity that can do anything with that data. Another option is to leverage my Mastodon account for comments. But this requires I manually share each blog I post on Mastodon and then re-edit that same blog to include the Mastodon toot (post) ID number so that the comments made on Mastodon are displayed at the bottom.</p>
-<p>So I decided to leverage the <a href="https://giscus.app/">giscus</a> app in GitHub to provide comments for my blog. Since giscus leverages the GitHub Discussions feature to store comments, a separate database is not required. It&rsquo;s also well documented and relatively easy to set up if you have web development knowledge. Because readers must have a GitHub account to post comments, anonymous posts are not allowed.</p>
-<p>It just makes sense to have the main copy of my website and associated comments stored in the same repository on GitHub. Moreover, this repository can also be used to store comments for the copy of my website on triosdevelopers.com. And because it is open source, should giscus no longer be actively maintained in the future, I can always maintain the code myself and self-host the giscus app in GitHub (but I doubt that&rsquo;ll happen).</p>
+<p>So I decided to leverage the <a href="https://giscus.app/">giscus</a> app in GitHub to provide comments for my blog. Since giscus uses the GitHub Discussions feature to store comments, a separate database is not required. It&rsquo;s also well documented and relatively easy to set up if you have web development knowledge. Because readers must have a GitHub account to post comments, anonymous posts are not allowed.</p>
+<p>It also makes sense to store the main copy of my website and associated comments in the same repository on GitHub. Moreover, this repository can also be used to store comments for the copy of my website on triosdevelopers.com. And because it is open source, should giscus no longer be actively maintained in the future, I can always maintain the code myself and self-host the giscus app in GitHub (but I doubt that&rsquo;ll happen).</p>
 <h1 id="configuring-giscus">Configuring giscus</h1>
 <p>To configure giscus to add a comment section to your GitHub Pages website composited with Hugo, you can follow these steps:</p>
 <ol>
@@ -225,18 +225,18 @@
 <p>Install the giscuss app in your GitHub account by navigating to <a href="https://github.com/apps/giscus">https://github.com/apps/giscus</a> (allow access to the repository for your website).</p>
 </li>
 <li>
-<p>Go to <a href="https://giscus.app/">https://giscus.app/</a> and supply the following giscus configuration information:</p>
+<p>Go to <a href="https://giscus.app/">https://giscus.app/</a> and supply the following giscus configuration information to generate a <code>&lt;script&gt;</code> block that can be used in Hugo:</p>
 </li>
 </ol>
 <ul>
 <li>The location of your repository on GitHub (e.g., <code>jasoneckert/jasoneckert.github.io</code>)</li>
 <li>The method used to identify comment threads in Discussions (I chose <code>Discussion title contains page pathname</code> to ensure that I see the website path for each blog post in GitHub Discussions)</li>
 <li>The GitHub Discussions category (I chose <code>Announcements</code> to ensure that only giscus and I can create new discussions)</li>
-<li>Any giscus features you wish to use (I de-selected the default <code>Enable reactions for the main post</code> feature so that readers must type a reply instead of simply adding an emoji reaction, because that doesn&rsquo;t really say anything)</li>
+<li>Any giscus features you wish to use (I de-selected the default <code>Enable reactions for the main post</code> feature so that readers must type a reply instead of simply adding an emoji reaction, because that encourages thumbs down emojis without explanation)</li>
 <li>The theme for the comment section (there are many to choose from)</li>
 </ul>
 <ol start="4">
-<li>Copy the <code>&lt;script&gt;</code> block that is generated by the website after you finish entering your giscus configuration information. For my choices, this block will resemble the following:</li>
+<li>Copy the <code>&lt;script&gt;</code> block generated in the previous step. For my choices, this block resembles the following:</li>
 </ol>
 <pre tabindex="0"><code>       &lt;script src=&#34;https://giscus.app/client.js&#34;
           data-repo=&#34;jasoneckert/jasoneckert.github.io&#34;
@@ -254,7 +254,7 @@
           async&gt;
        &lt;/script&gt;   
 </code></pre><ol start="5">
-<li>Create a <code>layouts/partials/giscus.html</code> file in your Hugo directory with the following contents that include your <code>&lt;script&gt;</code> block:</li>
+<li>Create a <code>layouts/partials/giscus.html</code> file in your Hugo directory and paste in your <code>&lt;script&gt;</code> block (I added the <code>if</code> enclosure to ensure I can globally disable commenting later, if necessary):</li>
 </ol>
 <pre tabindex="0"><code>     {{- if (eq (.Site.Params.disableComments | default false) false) -}}
       {{- if (eq (.Params.disableComments | default false) false) -}}
@@ -276,11 +276,11 @@
        {{- end -}}
       {{- end -}}
 </code></pre><ol start="5">
-<li>Override the appropriate HTML component of your Hugo template to incorporate <code>giscus.html</code>. This will depend on your actual Hugo template. In my template, I have a <code>themes/theme/layouts/partials/prevNext.html</code> that draws the previous and next navigation buttons at the bottom of each blog post, and since I wanted the comment section to be listed below those navigation buttons, I copied this file to <code>layouts/partials/prevNext.html</code> (to override the original) and added the following line to the bottom:</li>
+<li>Override the appropriate HTML component of your Hugo template to refer to <code>giscus.html</code>. This will vary based on your actual Hugo template. In my template, I have a <code>themes/theme/layouts/partials/prevNext.html</code> that draws the previous and next navigation buttons at the bottom of each blog post. And since I wanted the comment section to be shown directly below those navigation buttons, I copied that file to <code>layouts/partials/prevNext.html</code> (to override the original copy) and added the following line to the bottom:</li>
 </ol>
 <pre tabindex="0"><code>      {{ partial &#34;giscus&#34; . }}
 </code></pre><ol start="6">
-<li>Finally, modify the <code>config.toml</code> file in the root of your Hugo directory to include the same parameters from the <code>&lt;script&gt;</code> block for posterity:</li>
+<li>Optionally modify the <code>config.toml</code> file in the root of your Hugo directory to include the same parameters from the <code>&lt;script&gt;</code> block for posterity (I like to see my website configuration in one place):</li>
 </ol>
 <pre tabindex="0"><code>      [params.giscus]
         repo = &#34;jasoneckert/jasoneckert.github.io&#34;
@@ -291,8 +291,8 @@
         reactions = false
         inputPosition = &#34;bottom&#34;
         theme = &#34;noborder_gray&#34;
-</code></pre><p>That&rsquo;s it! You can now composite your website again with Hugo and push it to GitHub Pages to add comments sections to each blog post.</p>
-<p>If you host your website elsewhere, you can still create and use the GitHub Discussions feature to store comments via giscus as long as you create a repository for it. In my case, the copy of my GitHub Pages website hosted on triosdevelopers.com also stores comments in the discussions section of my GitHub Pages repository (jasoneckert/jasoneckert.github.io).</p>
+</code></pre><p>That&rsquo;s it! You can now composite your website again with Hugo and push it to GitHub Pages to add a comment section to each blog post.</p>
+<p>If you host your website elsewhere, you can still create and use the GitHub Discussions feature to store comments via giscus as long as you create a repository for it. In my case, the copy of my GitHub Pages website hosted on triosdevelopers.com also stores comments in the discussions section of my GitHub Pages repository (jasoneckert/jasoneckert.github.io). Plus, you can choose to add a comment section to other pages of your website if you modify the appropriate HTML component to include <code>giscus.html</code> as described in step 5.</p>
 
   </div>
   <div class="mt-4 d-flex flex-row justify-content-around">
