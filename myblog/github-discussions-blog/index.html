@@ -275,11 +275,11 @@
         &lt;/script&gt;   
        {{- end -}}
       {{- end -}}
-</code></pre><ol start="5">
+</code></pre><ol start="6">
 <li>Override the appropriate HTML component of your Hugo template to refer to <code>giscus.html</code>. This will vary based on your actual Hugo template. In my template, I have a <code>themes/theme/layouts/partials/prevNext.html</code> that draws the previous and next navigation buttons at the bottom of each blog post. And since I wanted the comment section to be shown directly below those navigation buttons, I copied that file to <code>layouts/partials/prevNext.html</code> (to override the original copy) and added the following line to the bottom:</li>
 </ol>
 <pre tabindex="0"><code>      {{ partial &#34;giscus&#34; . }}
-</code></pre><ol start="6">
+</code></pre><ol start="7">
 <li>Optionally modify the <code>config.toml</code> file in the root of your Hugo directory to include the same parameters from the <code>&lt;script&gt;</code> block for posterity (I like to see my website configuration in one place):</li>
 </ol>
 <pre tabindex="0"><code>      [params.giscus]
@@ -292,7 +292,7 @@
         inputPosition = &#34;bottom&#34;
         theme = &#34;noborder_gray&#34;
 </code></pre><p>That&rsquo;s it! You can now composite your website again with Hugo and push it to GitHub Pages to add a comment section to each blog post.</p>
-<p>If you host your website elsewhere, you can still create and use the GitHub Discussions feature to store comments via giscus as long as you create a repository for it. In my case, the copy of my GitHub Pages website hosted on triosdevelopers.com also stores comments in the discussions section of my GitHub Pages repository (jasoneckert/jasoneckert.github.io). Plus, you can choose to add a comment section to other pages of your website if you modify the appropriate HTML component to include <code>giscus.html</code> as described in step 5.</p>
+<p>If you host your website elsewhere, you can still create and use the GitHub Discussions feature to store comments via giscus as long as you create a repository for it. In my case, the copy of my GitHub Pages website hosted on triosdevelopers.com also stores comments in the discussions section of my GitHub Pages repository (jasoneckert/jasoneckert.github.io). Plus, you can choose to add a comment section to other pages of your website if you modify the appropriate HTML component to include <code>giscus.html</code> as described in step 6.</p>
 
   </div>
   <div class="mt-4 d-flex flex-row justify-content-around">
