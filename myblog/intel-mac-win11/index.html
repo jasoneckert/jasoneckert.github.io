@@ -256,10 +256,10 @@ After you have Windows 10 installed on your Intel-based Mac, you can now use it 
 <li>At the Windows setup screen with the error message, press the back button in the upper left and then click Next to continue installation normally.</li>
 </ul>
 <p><img src="error.png#center" alt="Windows 11 install error" title="Windows 11 install error"></p>
-<h1 id="step-5-install-bootcamp-drivers">Step 5: Install Bootcamp drivers</h1>
+<h1 id="step-6-install-bootcamp-drivers">Step 6: Install Bootcamp drivers</h1>
 <p>After Windows has installed, follow the prompts to create a user account and system options (location services, etc.). Once you get to the Windows desktop, open File Explorer and navigate to your USB flash drive (e.g., <code>D:\</code>), open the <code>Windows Support\BootCamp</code> folder and run <code>Setup.exe</code> to install the Apple device drivers. Reboot when finished. After you reboot, you should no longer need the USB keyboard and mouse.</p>
 <p>Next, right-click Start and choose Device Manager. If you see unknown devices listed, right click each one in turn, click &ldquo;Update driver&rdquo;, select &ldquo;Browse my computer for drivers&rdquo; and navigate to the <code>Windows Support\BootCamp</code> folder on your USB flash drive to locate the correct driver. I had to do this for four devices on my system.</p>
-<h1 id="step-6-perform-post-installation-configuration">Step 6: Perform post-installation configuration</h1>
+<h1 id="step-7-perform-post-installation-configuration">Step 7: Perform post-installation configuration</h1>
 <p>Next, you&rsquo;ll want to perform some key Windows 11 post-installation configuration tasks, including:</p>
 <ul>
 <li>Connect to the Internet if you use Wi-Fi. You can either select the network icon in the notification area, or right-click Start, select System, and click &ldquo;Network &amp; internet&rdquo;. If you have a wired Ethernet connection, you should be able to see your existing network configuration here.</li>
@@ -271,7 +271,7 @@ After you have Windows 10 installed on your Intel-based Mac, you can now use it 
 <li>Verify security settings. Click the Windows Security icon in the notification area. In the &ldquo;Device security&rdquo; section, note that secure boot is enabled, but there is a warning next to &ldquo;Security processor&rdquo; indicating that a TPM is not available. Click Dismiss to remove that warning.</li>
 </ul>
 <p><img src="windows_device_security.png#center" alt="Windows Device Security Settings" title="Windows Device Security Settings"></p>
-<h1 id="step-7-install-and-configure-additional-sofware">Step 7: Install and configure additional sofware</h1>
+<h1 id="step-8-install-and-configure-additional-sofware">Step 8: Install and configure additional sofware</h1>
 <p>Finally, you&rsquo;ll want to configure your system with the usual software you use. Most likely this will include Microsoft Office 365, Teams, and Steam. However, if you run virtual machines, you&rsquo;ll want to install the Hyper-V feature, which requires you chose the Windows 11 Pro, Enterprise, or Educational edition during installation. If you develop web apps or manage Linux systems, you&rsquo;ll likely want to install the Windows Subsystem for Linux (WSL) feature and a Linux distribution. For example, to install Ubuntu Linux, you could run the <code>wsl --install --distribution ubuntu</code> command within a PowerShell window with Administrator rights.</p>
 <p>The Windows 11 Enterprise N edition is a European version of Enterprise edition that omits the Windows Media Player and Media Feature Pack. If you chose this distribution during installation, you will get warnings from games and the Radeon control software about missing DLLs (e.g., MFReadWrite.dll and MFPlat.dll). In this case, you can install the Windows Media Player and Media Feature Pack manually afterwards. To do this, open a PowerShell window with Administrator rights and execute the <code>Get-WindowsCapability -online | Where-Object -Property name -like &quot;*media*&quot; | Add-WindowsCapability -Online</code> command.</p>
 <p>That&rsquo;s it - you now have the latest version of Windows running on your Intel Mac!</p>
