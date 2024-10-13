@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jasoneckert.github.io/tags/bio/</loc>
+    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/</loc>
+    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/myblog/hiking/</loc>
+    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/nature/</loc>
+    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/outdoors/</loc>
+    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/science/</loc>
+    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/computing/</loc>
     <lastmod>2024-09-13T00:00:00+00:00</lastmod>
@@ -15,9 +33,6 @@
     <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/</loc>
     <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/cybersafety/</loc>
@@ -70,9 +85,6 @@
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/risc-v/</loc>
     <lastmod>2024-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/bio/</loc>
-    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/sysadmin/</loc>
     <lastmod>2024-03-16T00:00:00+00:00</lastmod>
@@ -482,9 +494,6 @@
     <loc>https://jasoneckert.github.io/myblog/gmos-explained/</loc>
     <lastmod>2014-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/science/</loc>
-    <lastmod>2014-11-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/myblog/the-fastest-computer-i-have-ever-owned/</loc>
     <lastmod>2014-10-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -791,13 +800,7 @@
     <loc>https://jasoneckert.github.io/site/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/nature/</loc>
-    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/reads/non-fiction/</loc>
-    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/outdoors/</loc>
     <lastmod>1970-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/categories/recommended-reads/</loc>
