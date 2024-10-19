@@ -6,14 +6,14 @@
     <description>Recent content in Windows on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Copilot&#43; PC Review: Windows on ARM is finally here</title>
       <link>https://jasoneckert.github.io/myblog/windows-on-arm/</link>
-      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://jasoneckert.github.io/myblog/windows-on-arm/</guid>
-      <description>Back in 2017, I wrote a blog post predicting intense competition between Intel- and ARM-based PCs. And finally, after many years of lukewarm development efforts on the part of Microsoft and Qualcomm, that competition is here with Windows 11 Copilot+ PCs running powerful ARM-based Qualcomm Snapdragon X Elite CPUs with built in graphics and AI acceleration.
+      <description>Back in 2017, I wrote a blog post predicting intense competition between Intel x86-based and ARM-based PCs. And finally, after many years of lukewarm development efforts on the part of Microsoft and Qualcomm, that competition is here with Windows 11 Copilot+ PCs running powerful ARM-based Qualcomm Snapdragon X Elite CPUs with built in graphics and AI acceleration.
 As shown in the desktop screenshot at the top of this post I&amp;rsquo;ve been using a Copilot+ PC as a productivity and development workstation this month, and I must say that I&amp;rsquo;m thoroughly impressed overall.</description>
     </item>
     
