@@ -119,7 +119,7 @@
 <article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
   <div class="header">
     <h1 style="font-size: 2.5em;">
-      Installing Fedora Workstation ARM using a Raw Image
+      Installing a Fedora Linux ARM VM from a Raw Image
     </h1>
     <div
     class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
@@ -227,16 +227,16 @@
 </div>
   <div class="article pb-3 pt-3 border-bottom border-top">
     
-    <p>Many of us who work in Information Technology (IT) or software development use an ARM-based PC, such as an Apple Silicon-based Mac, Snapdragon-based Windows Copilot+ PC, or an ARM-based Linux workstation such as the System76 Thelio Astra. Similarly, there are many students learning IT or software development at institutions around the world that may also be using an ARM-based PC. And anyone working in any tech-related field likely has the need to run one or more Linux virtual machines (VMs) using hypervisor software to test cloud apps, run server software, or even cybersecurity tools.</p>
+    <p>Many professionals who work in Information Technology (IT) or software development use an ARM-based PC, such as an Apple Silicon Mac, Snapdragon Elite X Windows Copilot+ PC, or an ARM Linux workstation such as the System76 Thelio Astra. Similarly, many students learning IT or software development may also use an ARM-based PC. For all of these people, it&rsquo;s commonplace to deploy Linux virtual machines (VMs) on a PC using hypervisor software to test cloud apps, host server software, or run specialized tools.</p>
 <p>Since nearly all Linux distributions are available for the ARM architecture, you can download a DVD ISO image of the installation media for some Linux distribution, attach it to the virtual DVD drive in your hypervisor software, boot the system, and complete the installation. Installing Linux in a VM on an ARM-based PC is essentially the same process as on an Intel- or AMD-based PC.</p>
-<p>Unfortunately, some Linux distributions are no longer providing ARM installation media in ISO format anymore, including the Fedora Workstation distribution I primarily use myself, and in the textbooks I write. When you navigate to the Fedora Workstation download page, you&rsquo;re now presented with a raw.xz file only:</p>
+<p>Unfortunately, some Linux distributions are no longer providing ARM installation media in ISO format anymore, including the Fedora Workstation distribution I primarily use for productivity and development, as well as in the textbooks I write. When you navigate to the Fedora Workstation download page, you&rsquo;re now presented with a raw.xz file only:</p>
 <p><img src="rawxz.png#center" alt="Raw.xz file" title="Raw.xz file"></p>
-<p>So why did Fedora stop making installation ISO images available for the ARM platform? It&rsquo;s likely to support a wider range of systems, including smaller/embedded devices like the Raspberry Pi. Because these devices often have limited ports, you often need to write a raw image file that contains a preinstalled Linux distribution to a microSD card that can be physically inserted into the device itself.</p>
-<p>Of course, installing an ARM-based Linux VM from a raw image file is possible, but you must use a different process in your hypervisor software. In this blog post, I&rsquo;ll outline that process for running a Fedora Workstation ARM VM using:</p>
+<p>So why did Fedora stop making installation ISO images available for the ARM platform? It&rsquo;s likely to support a wider range of systems, including smaller or embedded devices like the Raspberry Pi. Because these devices have limited ports, you typically write a raw image file that contains a preinstalled Linux distribution to a microSD card that can be physically inserted into the device itself.</p>
+<p>Of course, installing an ARM-based Linux VM from a raw image file is possible&hellip; but you must use a different process in your hypervisor software. In this blog post, I&rsquo;ll outline that process for running a Fedora Workstation ARM VM using:</p>
 <ul>
-<li>UTM on an Apple Silicon-based Mac,</li>
-<li>Hyper-V on a Snapdragon-based Windows PC, and</li>
-<li>KVM/Qemu on an ARM-based Linux PC.</li>
+<li>UTM on an Apple Silicon Mac,</li>
+<li>Hyper-V on a Snapdragon Elite X Windows Copilot+ PC, and</li>
+<li>KVM/Qemu on an ARM Linux workstation.</li>
 </ul>
 <h1 id="installing-fedora-on-an-apple-silicon-mac-using-utm">Installing Fedora on an Apple Silicon Mac using UTM</h1>
 <p>On your Apple Silicon-based Mac, first download the UTM hypervisor from <a href="https://mac.getutm.app">mac.getutm.app</a>. Double-click UTM.dmg in your Downloads folder to mount it on your Desktop, and then double-click the UTM desktop icon. Drag the UTM app to your Applications folder. Finally, drag the UTM desktop icon to your Trash and delete UTM.dmg from your Downloads folder.</p>
@@ -244,20 +244,20 @@
 <p>Now, open UTM, click <em><strong>+ (Create a New Virtual Machine)</strong></em>, and then click <em><strong>Virtualize</strong></em>.</p>
 <ul>
 <li>At the Operating System screen, click <em><strong>Linux</strong></em>.</li>
-<li>At the Linux screen, select <em><strong>Use Apple Virtualization</strong></em> and then click <em><strong>Browse</strong></em> under the Boot ISO Image section. Navigate to the dummy.iso image you downloaded earlier in Step 3 and click <em><strong>Open</strong></em>. Click <em><strong>Continue</strong></em> when finished.</li>
+<li>At the Linux screen, select <em><strong>Use Apple Virtualization</strong></em> and then click <em><strong>Browse</strong></em> under the Boot ISO Image section. Navigate to the <code>dummy.iso</code> image you downloaded earlier in Step 3 and click <em><strong>Open</strong></em>. Click <em><strong>Continue</strong></em> when finished.</li>
 <li>At the Hardware screen, enter the amount in the Memory dialog box (e.g., 8192 for 8 GB) and click <em><strong>Continue</strong></em>.</li>
 <li>At the Storage screen, enter the amount of storage you&rsquo;d like to use for files in the Size dialog box (e.g., 32 GB) and click <em><strong>Continue</strong></em>.</li>
 <li>At the Shared Directory screen, optionally specify a directory on your system for sharing files and click <em><strong>Continue</strong></em>.</li>
 <li>At the Summary screen, supply a name (e.g., Fedora Workstation), select <em><strong>Open VM Settings</strong></em>, and click <em><strong>Save</strong></em>.</li>
 </ul>
-<p>In the Fedora Workstation settings window that opens, note the two drives under the Drives section. One is the dummy.iso image (237 KB), and the other is the one you created earlier (e.g., 32 GB).</p>
+<p>In the Fedora Workstation settings window that opens, note the two drives under the Drives section. One is for the <code>dummy.iso</code> image (237 KB), and the other is the one you created earlier (e.g., 32 GB).</p>
 <ul>
 <li>Highlight the 237 KB drive image, click <em><strong>Delete</strong></em> and <em><strong>Delete</strong></em> again to remove it.</li>
 <li>Click the <em><strong>New</strong></em> button underneath the other drive image to create a new storage device. Click <em><strong>Import</strong></em>, navigate to your <code>Fedora-Workstation-version.aarch64.raw</code> file, and click <em><strong>Open</strong></em>. Note that you now have a new drive (approx. 15 GB in size).</li>
 <li>Click and drag your new 15 GB drive image such that it is displayed above the existing drive image and click <em><strong>Save</strong></em> when finished. Your finished result should resemble the following:</li>
 </ul>
 <p><img src="drives.png#center" alt="Drives in UTM" title="Drives in UTM"></p>
-<p>Now, you can highlight your Fedora Workstation VM in the UTM window and then click the Play icon to start it. Once Fedora Workstation has booted, you can complete the brief Setup wizard to create a user account and start using the system. If you open a shell and run the <code>df -hT | grep vda</code> command, you&rsquo;ll notice a 15 GB disk (<code>/dev/vda</code>) that has the following system partitions:</p>
+<p>Now, you can highlight your Fedora Workstation VM in the UTM window and then click the Play icon to start it. Once Fedora Workstation has booted, you complete the brief Setup wizard to create a user account before you&rsquo;re able to start using the system. If you open a shell and run the <code>df -hT | grep vda</code> command, you&rsquo;ll notice a 15 GB disk (<code>/dev/vda</code>) that has the following system partitions:</p>
 <ul>
 <li><code>/dev/vda1</code> EFI system partition mounted to <code>/boot/efi</code> (~600MB, vfat filesystem)</li>
 <li><code>/dev/vda2</code> mounted to <code>/boot</code> (~1GB, ext4 filesystem)</li>
@@ -265,7 +265,7 @@
 </ul>
 <p>Since Fedora Workstation uses btrfs for the <code>/</code> filesystem, you can easily extend the space to include the available space on the second unused disk, available as <code>/dev/vdb</code>. To do this, run the <code>fdisk /dev/vdb</code> command and create a single partition that spans the whole disk (<code>/dev/vdb1</code>). Next, you can run <code>btrfs device add /dev/vdb1 /</code> to ensure the <code>/</code> filesystem spans the new partition you created. When you run the the <code>df -hT | grep vda</code> command again, you&rsquo;ll see that the <code>/</code> filesystem size is the sum total of <code>/dev/vda3</code> and <code>/dev/vdb1</code>.</p>
 <h1 id="installing-fedora-on-a-windows-copilot-pc-using-hyper-v">Installing Fedora on a Windows Copilot+ PC using Hyper-V</h1>
-<p>If you are using a Snapdragon-based Copilot+ PC, you&rsquo;ll need to run ARM-based virtual machines using the Hyper-V hypervisor. If Hyper-V isn&rsquo;t already installed, open PowerShell as Administrator and run the <code>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All</code> command.</p>
+<p>If you are using a Snapdragon Elite X Windows Copilot+ PC, you&rsquo;ll need to run ARM-based virtual machines using the Hyper-V hypervisor. If Hyper-V isn&rsquo;t already installed, open PowerShell as Administrator and run the <code>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All</code> command.</p>
 <p>Since Hyper-V does not support raw disk images, you&rsquo;ll need to first convert the raw disk image to vhdx format. First <a href="https://fedoraproject.org/workstation/download">download</a> the latest Fedora raw.xz image for ARM (aarch64) and then use a program such as WinZip to extract the <code>Fedora-Workstation-version.aarch64.raw</code> file within. Next, <a href="https://qemu.weilnetz.de/w64/">download</a> and install the <code>qemu-img</code> program for Windows and run <code>qemu-img convert -f raw -O vhdx -o subformat=dynamic Fedora-Workstation-version.aarch64.raw Fedora-Workstation-version.aarch64.vhdx</code> to convert the raw image to vhdx format.</p>
 <p>Following this, you can open Hyper-V Manager, and click <em><strong>New, Virtual Machine</strong></em> from the Action pane.</p>
 <ul>
@@ -274,7 +274,7 @@
 <li>Select <em><strong>Generation 2</strong></em> on the Specify Generation page and click <em><strong>Next</strong></em>.</li>
 <li>Specify the startup memory (e.g., 8192 for 8 GB) on the Assign Memory page, de-select the Dynamic Memory option and click <em><strong>Next</strong></em>.</li>
 <li>Select your Default or External Virtual Switch on the Configure Networking page and click <em><strong>Next</strong></em>.</li>
-<li>Select <em><strong>Use and existing virtual hard disk</strong></em> on the Connect Virtual Hard Disk page and click <em><strong>Browse</strong></em>. Navigate to your <code>Fedora-Workstation-version.aarch64.vhdx</code> and click <em><strong>Open</strong></em>. Click <em><strong>Next</strong></em> when finished.</li>
+<li>Select <em><strong>Use an existing virtual hard disk</strong></em> on the Connect Virtual Hard Disk page and click <em><strong>Browse</strong></em>. Navigate to your <code>Fedora-Workstation-version.aarch64.vhdx</code> and click <em><strong>Open</strong></em>. Click <em><strong>Next</strong></em> when finished.</li>
 <li>Select <em><strong>Install an operating system later</strong></em> on the Installation Options page and click <em><strong>Finish</strong></em>.</li>
 </ul>
 <p>Next, right-click your VM in Hyper-V Manager and click <em><strong>Settings</strong></em>. De-select the Secure Boot option under the Security section, reduce the number of virtual processors to 1 under the Processor section, and click <em><strong>OK</strong></em>. Finally, you can double-click your VM in Hyper-V Manager and click <em><strong>Start</strong></em>. Once Fedora Workstation has booted, complete the brief Setup wizard to create a user account and start using the system.</p>
@@ -285,8 +285,8 @@
 <li><code>/dev/sda3</code> mounted to <code>/</code></li>
 </ul>
 <p>As with UTM, you can extend your <code>/</code> filesystem by adding a second storage device to your VM in Hyper-V. Click <em><strong>File, Settings</strong></em> in your VM window, and create a second vhdx file on your storage controller with a size of your choice (this will <code>/dev/sdb</code> in Fedora Workstation). Next, run <code>fdisk /dev/sdb</code> and create a single partition that spans the whole disk (<code>/dev/sdb1</code>). Finally, you can run <code>btrfs device add /dev/sdb1 /</code> to add the new partition to the <code>/</code> filesystem.</p>
-<h1 id="installing-fedora-on-an-arm-linux-pc-using-kvmqemu">Installing Fedora on an ARM Linux PC using KVM/Qemu</h1>
-<p>If you already have Linux installed on an ARM-based PC, you still may wish to run ARM-based Linux VMs. In this case, you&rsquo;ll need to have the correct Qemu packages installed for your distribution (refer to your distribution&rsquo;s documentation here, as Qemu package names vary between distributions). Next, you&rsquo;ll need to obtain an EFI BIOS image for QEMU. This can be downloaded from the Internet, but is likely already installed somewhere on your distribution as part of another Qemu package.</p>
+<h1 id="installing-fedora-on-an-arm-linux-workstation-using-kvmqemu">Installing Fedora on an ARM Linux Workstation using KVM/Qemu</h1>
+<p>If you already have Linux installed on an ARM-based PC, you still may have the need to run separate ARM-based Linux VMs. In this case, you&rsquo;ll need to have the correct Qemu packages installed for your distribution (refer to your distribution&rsquo;s documentation here, as Qemu package names vary between distributions). Next, you&rsquo;ll need to obtain an EFI BIOS image for QEMU. This can be downloaded from the Internet, but is likely already installed somewhere on your distribution as part of another Qemu package.</p>
 <p>Next, <a href="https://fedoraproject.org/workstation/download">download</a> the latest Fedora raw.xz image for ARM (aarch64) and run the <code>unxz Fedora-Workstation-version.aarch64.raw.xz</code> command to extract the <code>Fedora-Workstation-version.aarch64.raw</code> file within.</p>
 <p>Finally, you can run a <code>qemu-system-aarch64</code> command to start your virtual machine (or put this command in a shell script that you can easily execute or edit later on). For example, the following will start a native Fedora VM using 8 GB of RAM from the <code>Fedora-Workstation-version.aarch64.raw</code> image (the <code>\</code> characters protect the return character to allow each option to be on its own line):</p>
 <pre tabindex="0"><code>qemu-system-aarch64 \

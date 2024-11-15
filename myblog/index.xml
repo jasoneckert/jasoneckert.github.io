@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Installing Fedora Workstation ARM using a Raw Image</title>
+      <title>Installing a Fedora Linux ARM VM from a Raw Image</title>
       <link>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</guid>
-      <description>Many of us who work in Information Technology (IT) or software development use an ARM-based PC, such as an Apple Silicon-based Mac, Snapdragon-based Windows Copilot+ PC, or an ARM-based Linux workstation such as the System76 Thelio Astra. Similarly, there are many students learning IT or software development at institutions around the world that may also be using an ARM-based PC. And anyone working in any tech-related field likely has the need to run one or more Linux virtual machines (VMs) using hypervisor software to test cloud apps, run server software, or even cybersecurity tools.</description>
+      <description>Many professionals who work in Information Technology (IT) or software development use an ARM-based PC, such as an Apple Silicon Mac, Snapdragon Elite X Windows Copilot+ PC, or an ARM Linux workstation such as the System76 Thelio Astra. Similarly, many students learning IT or software development may also use an ARM-based PC. For all of these people, it&amp;rsquo;s commonplace to deploy Linux virtual machines (VMs) on a PC using hypervisor software to test cloud apps, host server software, or run specialized tools.</description>
     </item>
     
     <item>
