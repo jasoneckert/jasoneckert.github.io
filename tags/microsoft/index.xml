@@ -6,7 +6,16 @@
     <description>Recent content in Microsoft on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Fedora Workstation ARM using a Raw Image</title>
+      <link>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</guid>
+      <description>Many of us who work in Information Technology (IT) or software development use an ARM-based PC, such as an Apple Silicon-based Mac, Snapdragon-based Windows Copilot+ PC, or an ARM-based Linux workstation such as the System76 Thelio Astra. Similarly, there are many students learning IT or software development at institutions around the world that may also be using an ARM-based PC. And anyone working in any tech-related field likely has the need to run one or more Linux virtual machines (VMs) using hypervisor software to test cloud apps, run server software, or even cybersecurity tools.</description>
+    </item>
+    
     <item>
       <title>Copilot&#43; PC Review: Windows on ARM is finally here</title>
       <link>https://jasoneckert.github.io/myblog/windows-on-arm/</link>
