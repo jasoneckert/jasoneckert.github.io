@@ -6,7 +6,17 @@
     <description>Recent content in macOS on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running an LLM locally using Ollama</title>
+      <link>https://jasoneckert.github.io/myblog/llms-using-ollama/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/llms-using-ollama/</guid>
+      <description>If you are developing or integrating software with a Large Language Model (LLM) to add chatbot or other AI functionality, then you may have the need to host and run an LLM on your local workstation for development or testing. There are several open source LLMs available that you can freely run on your system provided that you have enough resources to do so.
+LLMs are just inert objects that require special software to allow people and other software to interact with it (called running the model).</description>
+    </item>
+    
     <item>
       <title>Installing a Fedora Linux ARM VM from a Raw Image</title>
       <link>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</link>
