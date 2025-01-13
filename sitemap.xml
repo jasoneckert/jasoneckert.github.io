@@ -2,28 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jasoneckert.github.io/categories/blog/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/myblog/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/computing/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/development/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/it/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/programming/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/myblog/ai-in-tech/</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jasoneckert.github.io/myblog/2024-in-review/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/tags/books/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/development/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/linux/</loc>
@@ -33,12 +42,6 @@
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/nature/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/programming/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/tech/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/windows/</loc>
