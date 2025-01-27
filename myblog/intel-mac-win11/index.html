@@ -244,7 +244,9 @@ After you have Windows 10 installed on your Intel-based Mac, you can now use it 
 <p>Of course, if you use a Mac that already uses a USB keyboard and mouse, then you&rsquo;re all set.</p>
 <h1 id="step-5-install-windows-11-bypassing-tpm-requirement">Step 5: Install Windows 11 (bypassing TPM requirement)</h1>
 <p>Ensure that your USB keyboard, mouse, and flash drive are inserted in your Mac and then press and hold the Option key (or Alt key if you use a Windows keyboard) while powering on the system. At the boot selection screen, choose to boot from your USB flash drive to start the Windows 11 installation process. Note that you&rsquo;ll need to use the USB keyboard and mouse during the installation process.</p>
-<p>When you get the “This PC can’t run Windows 11” error message shown below (because your Mac lacks a TPM), you can easily bypass it using the following steps:</p>
+<p>If you proceed normally through the installation, you&rsquo;ll get the “This PC can’t run Windows 11” error message shown below (because your Mac lacks a TPM).</p>
+<p><img src="error.png#center" alt="Windows 11 install error" title="Windows 11 install error"></p>
+<p>To avoid this, at the beginning of the Windows 11 installation process:</p>
 <ul>
 <li>Press Shift+F10 to open a command prompt and run <code>regedit.exe</code> to launch the Registry Editor.</li>
 <li>Navigate to <code>HKEY_LOCAL_MACHINE\SYSTEM\Setup</code></li>
@@ -252,10 +254,8 @@ After you have Windows 10 installed on your Intel-based Mac, you can now use it 
 <li>Right-click the LabConfig key in the left pane and choose New -&gt; DWORD (32-bit) Value. Call this value <code>BypassTPMCheck</code>.</li>
 <li>Right-click the LabConfig key in the left pane and choose New -&gt; DWORD (32-bit) Value. Call this value <code>BypassSecureBootCheck</code>.</li>
 <li>Double-click both the BypassTPMCheck and BypassSecureBootCheck values and change the Value data from <code>0</code> to <code>1</code>.</li>
-<li>Close the Registry Editor and command prompt windows.</li>
-<li>At the Windows setup screen with the error message, press the back button in the upper left and then click Next to continue installation normally.</li>
+<li>Close the Registry Editor and command prompt windows. You can now proceed through the installation normally.</li>
 </ul>
-<p><img src="error.png#center" alt="Windows 11 install error" title="Windows 11 install error"></p>
 <h1 id="step-6-install-bootcamp-drivers">Step 6: Install Bootcamp drivers</h1>
 <p>After Windows has installed, follow the prompts to create a user account and system options (location services, etc.). Once you get to the Windows desktop, open File Explorer and navigate to your USB flash drive (e.g., <code>D:\</code>), open the <code>Windows Support\BootCamp</code> folder and run <code>Setup.exe</code> to install the Apple device drivers. Reboot when finished. After you reboot, you should no longer need the USB keyboard and mouse.</p>
 <p>Next, right-click Start and choose Device Manager. If you see unknown devices listed, right click each one in turn, click &ldquo;Update driver&rdquo;, select &ldquo;Browse my computer for drivers&rdquo; and navigate to the <code>Windows Support\BootCamp</code> folder on your USB flash drive to locate the correct driver. I had to do this for four devices on my system.</p>
