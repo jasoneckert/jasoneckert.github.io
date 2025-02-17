@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title>Jason Eckert&#39;s Website and Blog</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.119.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/site/">My Policy on AI</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/trails/">Recommended Trails</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="https://jasoneckert.github.io/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Leveraging WSL2 for Systems &amp; Cloud Administration, Cybersecurity, and Software Development
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2025-02-16</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+9 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/development"
+      title="tags"
+    >development</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/programming"
+      title="tags"
+    >programming</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/windows"
+      title="tags"
+    >Windows</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/microsoft"
+      title="tags"
+    >Microsoft</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/web"
+      title="tags"
+    >Web</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/sysadmin"
+      title="tags"
+    >sysadmin</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/open-source"
+      title="tags"
+    >open source</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="desktop.png#center" alt="Win11 Desktop running 3 WSL2 instances" title="Win11 Desktop running 3 WSL2 instances"></p>
+<p>There&rsquo;s quite a bit going on in the Windows 11 desktop pic shown at the top of this post. To see the details, you can pinch zoom the pic if you are on a phone or touchscreen device, or right-click the pic and choose to open it in a new browser tab if you are on a desktop computer.</p>
+<ul>
+<li>In the upper left, I&rsquo;m running a Linux container with a sample Python web app in Podman Desktop that listens to port 3333 and outputs &ldquo;Hello World!&rdquo; when accessed in Microsoft Edge.</li>
+<li>In the lower left, I&rsquo;m running an Ubuntu 24.04 Linux system. The Ubuntu terminal displays the output of <code>neofetch</code> and has also executed the graphical <code>xbill</code> game on the Windows desktop. XBill is a Linux-only game from the 1990s where you had to smack Bill Gates before he replaced the operating system on computers with Windows. While not shown, this Ubuntu system is also used to centrally control my on-premises and cloud servers using dozens of Ansible playbooks and roles that I have created on it.</li>
+<li>In the upper right, I&rsquo;m running OWASP ZAP and Metasploit in a graphical Kali Linux desktop that has hundreds of other cybersecurity tools installed.</li>
+<li>In the lower right PowerShell window, the output of <code>wsl --list</code> indicates that these three Linux systems are not standalone operating systems. Instead, they are tightly integrated into the Windows operating system using the Windows Subsystem for Linux.</li>
+<li>And in the lower middle, you&rsquo;ll see from Windows Task Manager that all of this uses less than half my memory (only 14.5GB of the 32GB available).</li>
+</ul>
+<h1 id="understanding-windows-subsystem-for-linux-wsl">Understanding Windows Subsystem for Linux (WSL)</h1>
+<p>Windows Subsystem for Linux, version 2 (WSL2) is what makes it possible to run the three Linux systems shown earlier alongside Windows 11 in under 15GB of memory. But it wasn&rsquo;t the first version of WSL. Microsoft released the first version of WSL (WSL1) for Windows 10 in 2016, and it functioned by translating Linux programs to run on the Windows kernel. It originally supported basic shell commands only, but Microsoft later provided the ability for graphical Linux programs to be translated to the Windows desktop. While it was perfectly functional (as described in my earlier <a href="../using-the-windows-subsystem-for-linux/">blog post</a>), the performance was dismal (notably disk I/O) and not every Linux program could be translated effectively to run on Windows.</p>
+<p>WSL1 was simply not useful from a professional standpoint. Thus, most IT administrators who used a Windows workstation in the late 2010s to manage servers (including the plethora of Linux servers that comprise 95% of the cloud) ran a full virtual machine (VM) of Linux on their Windows system so that they could run the Linux software they needed (e.g., Ansible). Cybersecurity workers did the same, since nearly all cybersecurity tools run exclusively on Linux. Kali is a popular cybersecurity-focused Linux distribution for this purpose. Because nearly all web and cloud apps are designed to run on Linux servers, software developers also needed to run a Linux VM that integrated with their developer tools so that they could test their apps before deployment. Luckily, Windows 10 Professional and Enterprise editions contain a component for running virtual machines next to Windows called Hyper-V.</p>
+<p>Unfortunately, VMs operate as a full operating system running alongside Windows on Hyper-V as shown below. Say that the Ubuntu and Podman VMs are configured with 4GB of memory each, and the Kali VM is configured with 8GB. When all three VMs are running, 16GB of memory is being used on top of what Windows needs (approx. 10GB today). Thus, you&rsquo;d expect to see 26GB of memory used on the system. Moreover, you need to manually start, stop, and manage each VM, as well as use a program that can interact with them using a network protocol, such as SSH, VNC, or RDP.</p>
+<p><img src="vms.png#center" alt="Win11 running 3 Hyper-V VMs" title="Win11 running 3 Hyper-V VMs"></p>
+<p>So, Microsoft decided to work on their problems with WSL1 to provide a better solution for running Linux on Windows. They released WSL2 in 2019 and later added seamless Windows integration for Linux graphics (including X.org and Wayland based graphical apps) in 2021. Instead of translating Linux commands and programs to run on the Windows kernel, WSL2 leverages a subset of Hyper-V (called the Virtual Machine Platform) to run a custom Linux distribution (including a Linux kernel) that seamlessly integrates with Windows as shown below. Better yet, the Virtual Machine Platform and WSL2 are available on Home edition of Windows 10 and 11, so you don&rsquo;t need to upgrade to the Professional or Enterprise editions.</p>
+<p><img src="wsls.png#center" alt="Win11 running 3 WSL VMs" title="Win11 running 3 WSL VMs"></p>
+<p>On a technical level, WSL2 Linux distributions function much like virtual machines &ndash; they run a real Linux kernel on the Virtual Machine Platform, which means they can execute any Linux program with near native performance. But WSL2 integrates all input, graphics, and network access directly into Windows, and allows Linux and Windows filesystems to directly access each other. For example, from Windows, you can navigate to the Linux icon in the navigation pane of File Explorer to see a folder that represents the <code>/</code> (root) filesystem of each distribution:</p>
+<p><img src="fileexplorer1.png#center" alt="Win11 File Explorer Linux distributions" title="Win11 File Explorer Linux distributions"></p>
+<p>Entering the kali-linux folder will give you access to the root filesystem of the Kali distribution:</p>
+<p><img src="fileexplorer2.png#center" alt="Win11 File Explorer Kali Root Filesystem" title="Win11 File Explorer Kali Root Filesystem"></p>
+<p>Alternatively, you can access the files in Windows within any WSL Linux distribution by navigating to <code>/mnt/driveletter</code> (e.g., <code>/mnt/c</code> for C:\ and <code>/mnt/d</code> for D:\). For example, to list the contents of C:\ from Ubuntu, you could run the following command:</p>
+<p><img src="mnt-c.png#center" alt="Accessing /mnt/c from Ubuntu" title="Accessing /mnt/c from Ubuntu"></p>
+<h1 id="installing-a-wsl2-linux-distribution">Installing a WSL2 Linux distribution</h1>
+<p>To install a WSL2 Linux distribution, open the Terminal app to get a PowerShell prompt. Next, run the <code>wsl --list --online</code> command to display the available distributions from the Microsoft repository, noting the short name of each. This is the name you can use alongside the <code>--distribution</code> option to the <code>wsl</code> command to install it. For example, to install Ubuntu 24.04, you can run <code>wsl --install --distribution Ubuntu-24.04</code> and to install the latest Kali Linux, you can run <code>wsl --install --distribution kali-linux</code>. The first time you install a distribution, the <code>wsl</code> command will also install the WSL2 and Virtual Machine Platform components of Windows, which will require that you reboot afterwards.</p>
+<p>After the <code>wsl --install --distribution</code> command downloads the distribution of your choice, it will run it within the Terminal app and ask you to choose a name and password for a regular user account. This regular user account is what the distribution automatically logs you in as each time you run it in the future. I like to choose a name of <em><strong>woot</strong></em> since this regular user is given the ability to run administrative commands as the root user via the <code>sudo</code> command (so, it&rsquo;s <em><strong>almost</strong></em> root).</p>
+<p>Following this, I run the <code>sudo passwd root</code> command to set the root user password. Next, I run the <code>su -</code> command to switch entirely to the root user so that I can run many administrative commands without having to prefix each one with <code>sudo</code>.</p>
+<p>Since both Kali and Ubuntu are Debian-based distributions, you can use the <code>apt</code> command to install and update software within them. The first command I always run is <code>apt update &amp;&amp; apt upgrade -y</code>. This refreshes the list of online software repositories and uses that list to upgrade all packages to the latest versions. Next, I install the software I need on each system.</p>
+<ul>
+<li>
+<p>For Ubuntu, I run the <code>apt install net-tools btop neofetch ansible</code> command to install the legacy network commands (including <code>ifconfig</code>), the <code>btop</code> command (for monitoring performance), <code>neofetch</code> (for system information), and Ansible (which includes the <code>ansible</code> and <code>ansible-playbook</code> commands for managing my fleet of servers). If you choose to install graphical programs (e.g., <code>xbill</code> as shown earlier, or <code>firefox</code>), make sure you append <code>&amp;</code> when running them at a shell prompt (e.g., <code>xbill &amp;</code>). This ensures that you obtain another shell prompt right away without having to wait for the graphical program to exit.</p>
+</li>
+<li>
+<p>For Kali, I run the <code>apt install kali-win-kex kali-linux-large</code> command to install the Kali desktop and hacking tools. After this, you can run <code>kex --esm --ip -s</code> to get a full Kali desktop, as shown in the pic at the top of this post. You can instead run <code>kex --sl -s</code> to run Kali graphical apps in seamless mode &ndash; in this case, you execute the hacking tools from a Kali shell prompt (e.g., <code>zaproxy</code> for OWASP ZAP) and they run directly on the Windows desktop, much like <code>xbill</code>.</p>
+</li>
+</ul>
+<p>When you close your Linux shell in the Terminal app, the associated WSL2 Linux distribution is stopped and no longer uses system resources. However, you can easily return to it at any time by choosing the distribution icon from the Start menu (e.g., Ubuntu), or open a Terminal app and choose your distribution from the drop-down menu, as shown here:</p>
+<p><img src="menu.png#center" alt="Terminal menu" title="Terminal menu"></p>
+<p>You&rsquo;ll notice that the podman-machine-default distribution shown on the menu isn&rsquo;t something that shows up in the output of <code>wsl --list --online</code>. This is because that distribution was installed automatically by the Podman Desktop developer software. Most developer software that can run Linux containers or Kubernetes clusters for testing web and cloud apps perform the installation, management, updating, starting, and stopping of WSL2 Linux distributions automatically in the software itself. When you open Podman Desktop, it starts the podman-machine-default distribution, and when you close Podman Desktop, it stops the podman-machine-default distribution.</p>
+<h1 id="other-wsl2-information">Other WSL2 Information</h1>
+<p>From a PowerShell prompt within the Terminal app, you can run the <code>wsl --list</code> command to see the WSL2 Linux distributions you have installed, the <code>wsl --list --running</code> command to see the distributions you currently have running, the <code>wsl --shutdown</code> command to stop all running distributions, and the <code>wsl --unregister distributionname</code> command to uninstall a specific distribution (by short name).</p>
+<p>The <code>/</code> (root) filesystem for each distribution is formatted using ext4 and stored in a dynamically-expanding virtual hard disk file called <code>ext4.vhdx</code> with a maximum size of 1TB in the <code>C:\Users\username\AppData\Local\Packages\distributionname\LocalState\</code> folder. Each virtual hard disk shows up as a different SAS disk within the Linux distribution itself, and WSL2 creates a 4GB disk that is used for shared virtual memory (swap) between all distributions. For example, if you run the <code>lsblk</code> command within a WSL2 Linux distribution, you may find that <code>sda</code> (SAS disk A) is Ubuntu&rsquo;s <code>/</code> filesystem, <code>sdb</code> (SAS disk B) is shared swap, <code>sdc</code> (SAS disk C) is Kali&rsquo;s <code>/</code> filesystem, and <code>sdd</code> (SAS disk D) is the <code>/</code> filesystem for the Podman distribution.</p>
+<p>All WSL2 Linux distributions are given a private IPv4 address on the 172.x.x.x network behind a virtual NAT router on Windows that bonds to the active Internet connection. You can also use a UNC path of <code>\\wsl$\</code> in any command or program to access the folders that represent the <code>/</code> filesystems of each distribution (equivalent to the Linux icon in File Explorer shown earlier).</p>
+<p>When running commands like <code>neofetch</code> and <code>btop</code> within a WSL2 Linux distribution, you&rsquo;ll notice that while WSL2 allows each distribution to use all CPU cores, only half the memory is displayed. For example, on a Windows system with 32GB of memory, WSL2 Linux distributions will only see 16GB. While this is often more than adequate, if you&rsquo;d like your distributions to see all 32GB of memory, you can create a <code>C:\Users\username\.wslconfig</code> file in Windows with the following contents and reboot your system:</p>
+<pre tabindex="0"><code>[wsl2]
+memory=32GB
+</code></pre>
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/ai-in-tech/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Tips to Evolve Your Tech Career in the Age of AI"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+<script src="https://giscus.app/client.js"
+          data-repo="jasoneckert/jasoneckert.github.io"
+          data-repo-id="MDEwOlJlcG9zaXRvcnkyMzUyMTE1MTk="
+          data-category="Announcements"
+          data-category-id="DIC_kwDODgUK_84ChWDV"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="0"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="noborder_gray"
+          data-lang="en"
+          crossorigin="anonymous"
+          async>
+       </script>
+
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.7em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY (tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

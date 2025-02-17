@@ -6,7 +6,17 @@
     <description>Recent content in Microsoft on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leveraging WSL2 for Systems &amp; Cloud Administration, Cybersecurity, and Software Development</title>
+      <link>https://jasoneckert.github.io/myblog/wsl2/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/wsl2/</guid>
+      <description>There&amp;rsquo;s quite a bit going on in the Windows 11 desktop pic shown at the top of this post. To see the details, you can pinch zoom the pic if you are on a phone or touchscreen device, or right-click the pic and choose to open it in a new browser tab if you are on a desktop computer.
+In the upper left, I&amp;rsquo;m running a Linux container with a sample Python web app in Podman Desktop that listens to port 3333 and outputs &amp;ldquo;Hello World!</description>
+    </item>
+    
     <item>
       <title>2024 in Review</title>
       <link>https://jasoneckert.github.io/myblog/2024-in-review/</link>

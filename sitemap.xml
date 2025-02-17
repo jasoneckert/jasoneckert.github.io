@@ -3,28 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/development/</loc>
-    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/</loc>
-    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/myblog/wsl2/</loc>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/linux/</loc>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/microsoft/</loc>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/open-source/</loc>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/programming/</loc>
-    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/sysadmin/</loc>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/web/</loc>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/windows/</loc>
+    <lastmod>2025-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/ai-in-tech/</loc>
     <lastmod>2025-01-12T00:00:00+00:00</lastmod>
@@ -35,16 +56,7 @@
     <loc>https://jasoneckert.github.io/tags/books/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/linux/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/microsoft/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/tags/nature/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/windows/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/apple/</loc>
@@ -80,13 +92,7 @@
     <loc>https://jasoneckert.github.io/myblog/cybersafety/</loc>
     <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/web/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/myblog/github-discussions-blog/</loc>
-    <lastmod>2024-08-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/open-source/</loc>
     <lastmod>2024-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/digital-lifestyle/</loc>
@@ -109,9 +115,6 @@
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/risc-v/</loc>
     <lastmod>2024-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/sysadmin/</loc>
-    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/growth-mindset/</loc>
     <lastmod>2024-03-16T00:00:00+00:00</lastmod>
