@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Jason Eckert Profile</title>
+    <link>https://jasoneckert.github.io/sampleuser/tags/</link>
+    <description>Recent content in Tags on Jason Eckert Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2024 23:29:21 +0530</lastBuildDate>
+    <atom:link href="https://jasoneckert.github.io/sampleuser/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example</title>
+      <link>https://jasoneckert.github.io/sampleuser/tags/example/</link>
+      <pubDate>Fri, 26 Apr 2024 23:29:21 +0530</pubDate>
+      <guid>https://jasoneckert.github.io/sampleuser/tags/example/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://jasoneckert.github.io/sampleuser/tags/markdown-syntax/</link>
+      <pubDate>Fri, 26 Apr 2024 23:29:21 +0530</pubDate>
+      <guid>https://jasoneckert.github.io/sampleuser/tags/markdown-syntax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample</title>
+      <link>https://jasoneckert.github.io/sampleuser/tags/sample/</link>
+      <pubDate>Fri, 26 Apr 2024 23:29:21 +0530</pubDate>
+      <guid>https://jasoneckert.github.io/sampleuser/tags/sample/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathjax</title>
+      <link>https://jasoneckert.github.io/sampleuser/tags/mathjax/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>https://jasoneckert.github.io/sampleuser/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>https://jasoneckert.github.io/sampleuser/tags/emoji-support/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>https://jasoneckert.github.io/sampleuser/tags/emoji-support/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://jasoneckert.github.io/sampleuser/tags/placeholder-text/</link>
+      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+      <guid>https://jasoneckert.github.io/sampleuser/tags/placeholder-text/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rich Content</title>
+      <link>https://jasoneckert.github.io/sampleuser/tags/rich-content/</link>
+      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+      <guid>https://jasoneckert.github.io/sampleuser/tags/rich-content/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

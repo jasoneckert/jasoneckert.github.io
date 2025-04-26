@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathjax on Jason Eckert Profile</title>
+    <link>https://jasoneckert.github.io/sampleuser/tags/mathjax/</link>
+    <description>Recent content in Mathjax on Jason Eckert Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <atom:link href="https://jasoneckert.github.io/sampleuser/tags/mathjax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Render Math With Mathjax</title>
+      <link>https://jasoneckert.github.io/sampleuser/blogs/math/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>https://jasoneckert.github.io/sampleuser/blogs/math/</guid>
+      <description>&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;/h2&gt;&#xA;&lt;p&gt;Math equations can be rendered using &lt;a href=&#34;https://www.mathjax.org&#34;&gt;Mathjax&lt;/a&gt; syntax with AMS symbol support.&lt;/p&gt;&#xA;&lt;p&gt;Optionally enable this on a per-page basis by adding &lt;code&gt;mathjax: true&lt;/code&gt; to your frontmatter.&lt;/p&gt;&#xA;&lt;p&gt;Then, use &lt;code&gt;$$ ... $$&lt;/code&gt; on a line by itself to render a block equation:&lt;/p&gt;&#xA;&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;&#xA;&lt;p&gt;The raw version is:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Write in-line equations with &lt;code&gt;\\( ... \\)&lt;/code&gt; , like \( x^n / y \) . It&amp;rsquo;s easy!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
