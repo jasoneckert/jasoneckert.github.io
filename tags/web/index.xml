@@ -6,7 +6,17 @@
     <description>Recent content in Web on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It’s Still Your Call: Ethics in the Age of AI</title>
+      <link>https://jasoneckert.github.io/myblog/ethics-in-the-age-of-ai/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/ethics-in-the-age-of-ai/</guid>
+      <description>AI is rapidly transforming how we work, learn, and communicate. But as it evolves, we face new questions: What decisions should we let AI make? Who is responsible when it gets things wrong? And how do we ensure that the technology reflects – not replaces – our values and ideas?
+In this post, we’ll explore the ethical dimensions of artificial intelligence (AI) – and ideally, leave with more questions than answers.</description>
+    </item>
+    
     <item>
       <title>The Story Behind the Mac vs PC Rivalry — And Where Linux Quietly Took Over</title>
       <link>https://jasoneckert.github.io/myblog/mac-vs-pc/</link>
