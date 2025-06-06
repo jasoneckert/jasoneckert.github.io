@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jasoneckert.github.io/tags/apple/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/development/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+    <loc>https://jasoneckert.github.io/myblog/powerbook-summer-vacation/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/internet/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/retro/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/web/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/development/</loc>
     <lastmod>2025-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/it/</loc>
@@ -23,20 +41,8 @@
     <loc>https://jasoneckert.github.io/myblog/ethics-in-the-age-of-ai/</loc>
     <lastmod>2025-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/tags/programming/</loc>
     <lastmod>2025-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/web/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/apple/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/ibm/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
@@ -196,9 +202,6 @@
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/tech-workers-should-meditate/</loc>
     <lastmod>2022-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/retro/</loc>
-    <lastmod>2022-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/riscy-business/</loc>
     <lastmod>2022-10-23T00:00:00+00:00</lastmod>
