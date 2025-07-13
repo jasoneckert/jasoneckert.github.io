@@ -6,7 +6,17 @@
     <description>Recent content on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Janet Jackson&#39;s Denial of Service (DoS) Attack</title>
+      <link>https://jasoneckert.github.io/myblog/janet-jackson-dos/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasoneckert.github.io/myblog/janet-jackson-dos/</guid>
+      <description>Janet Jackson might not be the first person who comes to mind when you think of a hacker. But she inadvertently created a malicious payload that performed a Denial of Service (DoS) attack on many different hard drive models manufactured in 2005 and later that rotated at a speed of 5400 rpm (rotations per minute).
+How did it work? If your computer had a 5400 rpm hard drive, all you had to do was play Janet Jackson&amp;rsquo;s Rhythm Nation music video and it would unleash an acoustic resonance attack that damaged the hard drive.</description>
+    </item>
+    
     <item>
       <title>Happy Canada Day!</title>
       <link>https://jasoneckert.github.io/myblog/canada-day/</link>
