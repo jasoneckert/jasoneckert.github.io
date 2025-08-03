@@ -4,101 +4,58 @@
     <title>Tech Stuff on Jason Eckert&#39;s Website and Blog</title>
     <link>https://jasoneckert.github.io/info/</link>
     <description>Recent content in Tech Stuff on Jason Eckert&#39;s Website and Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jasoneckert.github.io/info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Operating Systems</title>
       <link>https://jasoneckert.github.io/info/operatingsystems/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/operatingsystems/</guid>
-      <description>UNIX UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX.</description>
+      <description>&lt;h1 id=&#34;unix&#34;&gt;UNIX&lt;/h1&gt;&#xA;&lt;p&gt;UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX. Your Internet Service Provider (ISP) likely runs BSD UNIX networking equipment and servers, and you’ll even find QNX UNIX in most cars today as well as running the streetlights in your city.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2. Retro Computers</title>
       <link>https://jasoneckert.github.io/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/retrocomputers/</guid>
-      <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
+      <description>&lt;h1 id=&#34;apple&#34;&gt;Apple&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;appleiic.jpg#right&#34; alt=&#34;Apple IIc&#34; title=&#34;Apple IIc&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions). The Apple II was very well built and had tons of expansion ports. It inspired thousands of people to enter the computer world. Thousands of programs were made for it, and it made its way into nearly every industry in a short period of time. The famous spreadsheet, Visicalc, made the Apple II a great business tool, its ease of use made it extremely popular in the school system (every school I went to had them, even in the 1990s), and its BASIC interpreter and easy expandability made it famous with hackers, engineers and scientists (the first demonstration of public key cryptography was hacked together by a few mathematicians on an Apple II).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>3. Arcade Games</title>
       <link>https://jasoneckert.github.io/info/arcadegames/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/arcadegames/</guid>
-      <description>Growing up in the 80s was awesome! One of the best things about growing up in the 80s for me was that I developed a love of video games. I loved spending time at the arcade playing the classics like Tempest, Missile Command and Galaga. At home, we had an Atari 2600 and later a Nintendo NES. I loved it all.
-In recent years, I purchased my absolute favourite arcade games of all time&amp;hellip;.</description>
+      <description>&lt;p&gt;Growing up in the 80s was awesome!  One of the best things about growing up in the 80s for me was that I developed a love of video games.  I loved spending time at the arcade playing the classics like Tempest, Missile Command and Galaga.  At home, we had an Atari 2600 and later a Nintendo NES.  I loved it all.&lt;/p&gt;&#xA;&lt;p&gt;In recent years, I purchased my absolute favourite arcade games of all time&amp;hellip;..mainly because I’d rather play those games than most of the newer AAA titles that require a larger amount of available time.  Since I have limited space, I had to make sure they were games I’d play a LOT of, and I’ve definitely kept true to that!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>4. Tech Flicks</title>
       <link>https://jasoneckert.github.io/info/techflicks/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/techflicks/</guid>
-      <description>100 Yen: The Japanese Arcade Experience (2012)
-2001: Space Odyssey (1968)
-8 Bit Generation: The Commodore Wars (2016)
-Antitrust (2001)
-Blade Runner (1982)
-Bright (2017)
-Chasing Ghosts: Beyond the Arcade (2007)
-Cloak and Dagger (1984)
-Contact (1997)
-Die Hard 4: Live Free or Die Hard (2007)
-Every Star Wars and Star Trek movie (from the 1970s+)
-Fanboys (2008)
-Freedom Downtime (2001)
-Funspot: A Small Documentary on the World&amp;rsquo;s Largest Video Game Arcade (2016)</description>
+      <description>&lt;p&gt;&lt;img src=&#34;tron.jpg&#34; alt=&#34;Tron Legacy banner&#34; title=&#34;Tron Legacy banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;100 Yen: The Japanese Arcade Experience (2012)&lt;/p&gt;&#xA;&lt;p&gt;2001: Space Odyssey (1968)&lt;/p&gt;&#xA;&lt;p&gt;8 Bit Generation: The Commodore Wars (2016)&lt;/p&gt;&#xA;&lt;p&gt;Antitrust (2001)&lt;/p&gt;&#xA;&lt;p&gt;Blade Runner (1982)&lt;/p&gt;&#xA;&lt;p&gt;Bright (2017)&lt;/p&gt;&#xA;&lt;p&gt;Chasing Ghosts: Beyond the Arcade (2007)&lt;/p&gt;&#xA;&lt;p&gt;Cloak and Dagger (1984)&lt;/p&gt;&#xA;&lt;p&gt;Contact (1997)&lt;/p&gt;&#xA;&lt;p&gt;Die Hard 4: Live Free or Die Hard (2007)&lt;/p&gt;&#xA;&lt;p&gt;Every Star Wars and Star Trek movie (from the 1970s+)&lt;/p&gt;&#xA;&lt;p&gt;Fanboys (2008)&lt;/p&gt;&#xA;&lt;p&gt;Freedom Downtime (2001)&lt;/p&gt;&#xA;&lt;p&gt;Funspot: A Small Documentary on the World&amp;rsquo;s Largest Video Game Arcade (2016)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>5. Tech T-Shirt Slogans</title>
       <link>https://jasoneckert.github.io/info/techshirts/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/techshirts/</guid>
-      <description>Don&amp;rsquo;t Anthropomorphize computers. They hate that.
-The proper way to declare war in software development is var war;
-I void warranties
-I read your email
-Linux isn&amp;rsquo;t magic. It&amp;rsquo;s sudo-science.
-Kids: Don&amp;rsquo;t try this at ~
-Code poet
-Byte Me
-I see dead pixels
-cd /pub; more beer
-No, I will not fix your computer
-There is no place like 127.0.0.1
-There is no place like ::1
-Bow before me for I am root</description>
+      <description>&lt;p&gt;&lt;img src=&#34;shirt2.png&#34; alt=&#34;shirt pic&#34; title=&#34;shirt pic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t Anthropomorphize computers. They hate that.&lt;/p&gt;&#xA;&lt;p&gt;The proper way to declare war in software development is &lt;code&gt;var war;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;I void warranties&lt;/p&gt;&#xA;&lt;p&gt;I read your email&lt;/p&gt;&#xA;&lt;p&gt;Linux isn&amp;rsquo;t magic. It&amp;rsquo;s sudo-science.&lt;/p&gt;&#xA;&lt;p&gt;Kids: Don&amp;rsquo;t try this at ~&lt;/p&gt;&#xA;&lt;p&gt;Code poet&lt;/p&gt;&#xA;&lt;p&gt;Byte Me&lt;/p&gt;&#xA;&lt;p&gt;I see dead pixels&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;cd /pub; more beer&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;No, I will not fix your computer&lt;/p&gt;&#xA;&lt;p&gt;There is no place like 127.0.0.1&lt;/p&gt;&#xA;&lt;p&gt;There is no place like ::1&lt;/p&gt;&#xA;&lt;p&gt;Bow before me for I am root&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>6. Tech Humour and Puns</title>
       <link>https://jasoneckert.github.io/info/techhumour/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/techhumour/</guid>
-      <description>I feel someone needs to start a house-call backup business where someone could pull up to your home (or business) in a car that has a big NAS box in the back, and then perform off-site backups across Ethernet for a fee. They could call it NASCAR.
-If I was Voldemort I would have hidden a horcrux in HP&amp;rsquo;s documentation.
-NFTs make excellent gifts. After all, they&amp;rsquo;re GIF certificates.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;shaqbill.jpg#center&#34; alt=&#34;joke&#34; title=&#34;joke&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I feel someone needs to start a house-call backup business where someone could pull up to your home (or business) in a car that has a big NAS box in the back, and then perform off-site backups across Ethernet for a fee. They could call it NASCAR.&lt;/p&gt;&#xA;&lt;p&gt;If I was Voldemort I would have hidden a horcrux in HP&amp;rsquo;s documentation.&lt;/p&gt;&#xA;&lt;p&gt;NFTs make excellent gifts. After all, they&amp;rsquo;re GIF certificates.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>7. Three Unconventional Tips for Career Success</title>
       <link>https://jasoneckert.github.io/info/gradspeech/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/gradspeech/</guid>
-      <description>1. Don&amp;rsquo;t turn down an opportunity because it isn&amp;rsquo;t the job you want Career progression is never a straight line, and good opportunities don&amp;rsquo;t actually have the words good opportunity written in bold letters on them &amp;ndash; you never know where they will lead you.
-For example, back around the year 2000 I was asked to teach a corporate Linux course on the weekends. I didn&amp;rsquo;t want to give up my weekends for a month, and quite frankly I thought it would be a boring waste of my abilities and time.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;success.png#center&#34; alt=&#34;career success&#34; title=&#34;career success&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-dont-turn-down-an-opportunity-because-it-isnt-the-job-you-want&#34;&gt;1. Don&amp;rsquo;t turn down an opportunity because it isn&amp;rsquo;t the job you want&lt;/h1&gt;&#xA;&lt;p&gt;Career progression is never a straight line, and good opportunities don&amp;rsquo;t actually have the words &lt;em&gt;&lt;strong&gt;good opportunity&lt;/strong&gt;&lt;/em&gt; written in bold letters on them &amp;ndash; you never know where they will lead you.&lt;/p&gt;&#xA;&lt;p&gt;For example, back around the year 2000 I was asked to teach a corporate Linux course on the weekends. I didn&amp;rsquo;t want to give up my weekends for a month, and quite frankly I thought it would be a boring waste of my abilities and time. But I did it anyways, and one of the amazing students in my class worked for Compaq and introduced me to SHARCnet.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

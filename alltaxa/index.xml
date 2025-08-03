@@ -4,7 +4,8 @@
     <title>Search on Jason Eckert&#39;s Website and Blog</title>
     <link>https://jasoneckert.github.io/alltaxa/</link>
     <description>Recent content in Search on Jason Eckert&#39;s Website and Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jasoneckert.github.io/alltaxa/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://jasoneckert.github.io/alltaxa/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,415 +1,292 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bio on Jason Eckert&#39;s Website and Blog</title>
+    <title>Bio on Jason Eckert&#39;s Website and Blog</title>
     <link>https://jasoneckert.github.io/tags/bio/</link>
-    <description>Recent content in bio on Jason Eckert&#39;s Website and Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Bio on Jason Eckert&#39;s Website and Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/bio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jasoneckert.github.io/tags/bio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Janet Jackson&#39;s Denial of Service (DoS) Attack</title>
       <link>https://jasoneckert.github.io/myblog/janet-jackson-dos/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/janet-jackson-dos/</guid>
-      <description>Janet Jackson might not be the first person who comes to mind when you think of a hacker. But she inadvertently created a malicious payload that performed a Denial of Service (DoS) attack on many different hard drive models manufactured in 2005 and later that rotated at a speed of 5400 rpm (rotations per minute).
-How did it work? If your computer had a 5400 rpm hard drive, all you had to do was play Janet Jackson&amp;rsquo;s Rhythm Nation music video and it would unleash an acoustic resonance attack that damaged the hard drive.</description>
+      <description>&lt;p&gt;Janet Jackson might not be the first person who comes to mind when you think of a hacker. But she inadvertently created a malicious payload that performed a &lt;em&gt;&lt;strong&gt;Denial of Service (DoS)&lt;/strong&gt;&lt;/em&gt; attack on many different hard drive models manufactured in 2005 and later that rotated at a speed of 5400 rpm (rotations per minute).&lt;/p&gt;&#xA;&lt;h1 id=&#34;how-did-it-work&#34;&gt;How did it work?&lt;/h1&gt;&#xA;&lt;p&gt;If your computer had a 5400 rpm hard drive, all you had to do was play Janet Jackson&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=OAwaNWGLM0c&#34;&gt;Rhythm Nation music video&lt;/a&gt; and it would unleash an acoustic resonance attack that damaged the hard drive.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Happy Canada Day!</title>
       <link>https://jasoneckert.github.io/myblog/canada-day/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/canada-day/</guid>
-      <description>Over 27 years of teaching, I’ve learned just as much from my students as they have from me, especially about what it means to be Canadian. One message consistently shines through their reflections: being Canadian means striving to do the right thing in the world.
-We don&amp;rsquo;t put ourselves first. We put humanity first. And that’s something to be proud of. It’s also something the world admires about us. We&amp;rsquo;re kind, inclusive, and diverse&amp;hellip; not because we have to be, but because we choose to be.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;canadaday.png#center&#34; alt=&#34;Canada Day Parade&#34; title=&#34;Canada Day Parade&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Over 27 years of teaching, I’ve learned just as much from my students as they have from me, especially about what it means to be Canadian. One message consistently shines through their reflections: being Canadian means striving to do the right thing in the world.&lt;/p&gt;&#xA;&lt;p&gt;We don&amp;rsquo;t put ourselves first. We put humanity first. And that’s something to be proud of. It’s also something the world admires about us. We&amp;rsquo;re kind, inclusive, and diverse&amp;hellip; not because we have to be, but because we choose to be.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Maximizing Your Hiking Experience</title>
       <link>https://jasoneckert.github.io/myblog/hiking/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/hiking/</guid>
-      <description>I&amp;rsquo;ve always loved exploring nature on a good hike, whether it be with other people, my dog, or solo. Hiking builds both physique and mental clarity, and the &amp;ldquo;hiker&amp;rsquo;s high&amp;rdquo; is pure bliss.
-There are many things I&amp;rsquo;ve learned over the years that have helped me maximize my own hiking experience. Some I learned from trial-and-error, while others I learned from fellow hikers, my own physician, or from online hiking forums.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;summit.jpg#right&#34; alt=&#34;Summit&#34; title=&#34;Summit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve always loved exploring nature on a good hike, whether it be with other people, my dog, or solo. Hiking builds both physique and mental clarity, and the &amp;ldquo;hiker&amp;rsquo;s high&amp;rdquo; is pure bliss.&lt;/p&gt;&#xA;&lt;p&gt;There are many things I&amp;rsquo;ve learned over the years that have helped me maximize my own hiking experience. Some I learned from trial-and-error, while others I learned from fellow hikers, my own physician, or from online hiking forums. This post summarizes all of them using six tips. You can also find a list of my recommended trails &lt;a href=&#34;../../trails&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tips for Maintaining a Growth Mindset</title>
       <link>https://jasoneckert.github.io/myblog/growth-mindset/</link>
       <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/growth-mindset/</guid>
-      <description>Back in 2020, I wrote a blog post detailing 6 tips for working in the tech industry. And while these tips are sage for any tech worker, there is a 7th tip that applies to life in general: Adopt a growth mindset.
-What is a growth mindset? A growth mindset is a way of viewing challenges and setbacks. People who adopt a growth mindset believe that challenges can always be overcome with time and effort, and that setbacks and failures are valuable learning opportunities that lead to self-improvement and future success.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;growth-mindset.png#right&#34; alt=&#34;Growth mindset&#34; title=&#34;Growth mindset&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in 2020, I wrote a &lt;a href=&#34;../seldom-discussed-tech-industry-tips/&#34;&gt;blog post&lt;/a&gt; detailing 6 tips for working in the tech industry. And while these tips are sage for any tech worker, there is a 7th tip that applies to life in general: Adopt a &lt;em&gt;&lt;strong&gt;growth mindset&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-growth-mindset&#34;&gt;What is a growth mindset?&lt;/h2&gt;&#xA;&lt;p&gt;A growth mindset is a way of viewing challenges and setbacks. People who adopt a growth mindset believe that challenges can always be overcome with time and effort, and that setbacks and failures are valuable learning opportunities that lead to self-improvement and future success. In other words, a growth mindset is a positive, open, and healthy outlook on both learning and life.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Remembering Pepper</title>
       <link>https://jasoneckert.github.io/myblog/remembering-pepper/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/remembering-pepper/</guid>
-      <description>On Monday I had to say Goodbye to an old friend. She was an amazing dog that will live in my heart forever. This post is a tribute to her and the memories. When my daughter was growing up, she wanted to pet every dog we came across. She regularly asked if we could get a dog.
-Being a single parent, I wasn&amp;rsquo;t too keen on getting a pet because of the added work and responsibility I knew all too well growing up with cats and dogs, but I made a promise to her that when she was old enough to take care of a pet, she could get a dog.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;20180902.jpg#center&#34; alt=&#34;Pepper&#34; title=&#34;Pepper&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;On Monday I had to say Goodbye to an old friend. She was an amazing dog that will live in my heart forever. This post is a tribute to her and the memories.&#xA;&lt;img src=&#34;2010.jpg#right&#34; alt=&#34;Pepper in 2010&#34; title=&#34;Pepper in 2010&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When my daughter was growing up, she wanted to pet every dog we came across. She regularly asked if we could get a dog.&lt;/p&gt;&#xA;&lt;p&gt;Being a single parent, I wasn&amp;rsquo;t too keen on getting a pet because of the added work and responsibility I knew all too well growing up with cats and dogs, but I made a promise to her that when she was old enough to take care of a pet, she could get a dog.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>An Extra Special Family Vacation</title>
       <link>https://jasoneckert.github.io/myblog/special-vacation/</link>
       <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/special-vacation/</guid>
-      <description>While most of my blog posts are technical in nature, I occasionally post a personal one - and this one certainly falls into that category.
-I&amp;rsquo;ve been on vacation these past several weeks to spend some quality time with my daughter, her partner, and my grandson from Australia. It was the first time I&amp;rsquo;ve been able to hug my daughter in four years, and the first time I&amp;rsquo;ve been able to see my grandson and his father outside of Zoom.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;family.jpg#center&#34; alt=&#34;Family&#34; title=&#34;Family&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While most of my blog posts are technical in nature, I occasionally post a personal one - and this one certainly falls into that category.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been on vacation these past several weeks to spend some quality time with my daughter, her partner, and my grandson from Australia. It was the first time I&amp;rsquo;ve been able to hug my daughter in four years, and the first time I&amp;rsquo;ve been able to see my grandson and his father outside of Zoom.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Brewing the Best Coffee</title>
       <link>https://jasoneckert.github.io/myblog/coffee/</link>
       <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/coffee/</guid>
-      <description>It&amp;rsquo;s no secret that coffee is one of the most important factors in the development of any technology, including software. In this post, I&amp;rsquo;ll outline how you can create the perfect cup of coffee to enhance your love of the bean as well as boost software development productivity.
-Over the years, I&amp;rsquo;ve needlessly spent thousands of dollars on expensive coffee-making equipment, including fancy coffee grinders and expresso machines.
-But I no longer use any of it, because I can make a better cup of coffee cheaper and faster with just these four items:</description>
+      <description>&lt;p&gt;&lt;img src=&#34;coffee_code_magic.jpg#right&#34; alt=&#34;Coffee and software&#34; title=&#34;Coffee and software&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s no secret that coffee is one of the most important factors in the development of any technology, including software. In this post, I&amp;rsquo;ll outline how you can create the perfect cup of coffee to enhance your love of the bean as well as boost software development productivity.&lt;/p&gt;&#xA;&lt;p&gt;Over the years, I&amp;rsquo;ve needlessly spent thousands of dollars on expensive coffee-making equipment, including fancy coffee grinders and expresso machines.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2020 in review</title>
       <link>https://jasoneckert.github.io/myblog/2020-in-review/</link>
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/2020-in-review/</guid>
-      <description>I know what you&amp;rsquo;re thinking - 2020 sucked! Worst year ever! The COVID-19 pandemic, no social gatherings, no dine-in restaurants, no gyms, the US Trumpster fire, and most importantly to those of us in the tech world: Red Hat terminating CentOS development.
-Of course, most people will remember 2020 for the pandemic, and that&amp;rsquo;s completely understandable. None of us have experienced a pandemic in our lifetime, and both our society and economy were not prepared to deal with it gracefully.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;techworkers.jpg#right&#34; alt=&#34;Tech workers&#34; title=&#34;Tech workers&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I know what you&amp;rsquo;re thinking - 2020 sucked! Worst year ever! The COVID-19 pandemic, no social gatherings, no dine-in restaurants, no gyms, the US Trumpster fire, and most importantly to those of us in the tech world: Red Hat terminating CentOS development.&lt;/p&gt;&#xA;&lt;p&gt;Of course, most people will remember 2020 for the pandemic, and that&amp;rsquo;s completely understandable. None of us have experienced a pandemic in our lifetime, and both our society and economy were not prepared to deal with it gracefully. Many businesses folded or downsized, and the lack of social contact caused mental health issues for many people of all ages.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Why I love teaching online</title>
       <link>https://jasoneckert.github.io/myblog/why-i-love-teaching-online/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/why-i-love-teaching-online/</guid>
-      <description>When the pandemic hit earlier this year, schools around the globe quickly embraced online teaching to continue their curriculum. While online teaching wasn&amp;rsquo;t entirely new in this space, it certainly wasn&amp;rsquo;t the norm. This meant that many teachers had to adapt quickly, as these 2 funny videos illustrate:
-https://www.youtube.com/watch?v=CCe5PaeAeew https://www.youtube.com/watch?v=Zy_y9yOrgxk However, I&amp;rsquo;ve loved every part of this transition because I absolutely love teaching tech courses online.
-Grant you, I&amp;rsquo;ve had some practice prior to 2020, as well as a general interest in how the Web could be used for education.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;onlineteaching.jpg#center&#34; alt=&#34;OnlineTeaching&#34; title=&#34;OnlineTeaching&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When the pandemic hit earlier this year, schools around the globe quickly embraced online teaching to continue their curriculum. While online teaching wasn&amp;rsquo;t entirely new in this space, it certainly wasn&amp;rsquo;t the norm. This meant that many teachers had to adapt quickly, as these 2 funny videos illustrate:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CCe5PaeAeew&#34;&gt;https://www.youtube.com/watch?v=CCe5PaeAeew&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Zy_y9yOrgxk&#34;&gt;https://www.youtube.com/watch?v=Zy_y9yOrgxk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;However, I&amp;rsquo;ve loved every part of this transition because I absolutely love teaching tech courses online.&lt;/p&gt;&#xA;&lt;p&gt;Grant you, I&amp;rsquo;ve had some practice prior to 2020, as well as a general interest in how the Web could be used for education. Back in the early 2000s, I designed and wrote all of the online Linux curriculum for Caldera (including the HTML and Perl scripts that hosted it). It was an early stab at online education that had as many faults as it did benefits, but I learned a great deal during the process. Years later, I got to refine what I learned during my online computer science courses at Nova Southeastern, as well as the Train-the-Trainer courses I taught for CompTIA. By this time, technology had caught up to the needs of education, and online education was quite mature with a set of common best practices and technologies that everyone implemented.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2019 in review</title>
       <link>https://jasoneckert.github.io/myblog/2019-in-review/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/2019-in-review/</guid>
-      <description>This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!
-On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA) Instructor Network.
-This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;macandme.png#center&#34; alt=&#34;Mac and me&#34; title=&#34;Mac and me&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;award.jpg#left&#34; alt=&#34;CompTIA award&#34; title=&#34;CompTIA award&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!&lt;/p&gt;&#xA;&lt;p&gt;On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA)  Instructor Network.&lt;/p&gt;&#xA;&lt;p&gt;This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>What it&#39;s like a year after quitting Facebook</title>
       <link>https://jasoneckert.github.io/myblog/what-its-like-a-year-after-quitting-facebook/</link>
       <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/what-its-like-a-year-after-quitting-facebook/</guid>
-      <description>Just under a year ago, I quit Facebook. Yup. After a decade of using it frequently, with over 10,000 posts and 7,000 pictures.
-It was the best decision I made.
-The original premise of Facebook has always appealed to me: connect with others you know in real life, but online, in order to share pictures and information to keep current. But it also has a lot of negatives:
-It often becomes your main method of communication to others.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;quitfacebook.png#center&#34; alt=&#34;Quit Facebook&#34; title=&#34;Quit Facebook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Just under a year ago, I quit Facebook. Yup. After a decade of using it frequently, with over 10,000 posts and 7,000 pictures.&lt;/p&gt;&#xA;&lt;p&gt;It was the best decision I made.&lt;/p&gt;&#xA;&lt;p&gt;The original premise of Facebook has always appealed to me: connect with others you know in real life, but online, in order to share pictures and information to keep current. But it also has a lot of negatives:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2018 in review</title>
       <link>https://jasoneckert.github.io/myblog/2018-in-review/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/2018-in-review/</guid>
-      <description>At the end of each year, I take some time to reflect on the previous year - it provides perspective, and is a lot of fun!
-For me, 2018 was the year I spent a lot of time improving myself physically, challenging myself mentally, and most importantly, enjoying life!
-On the personal side, I cut out the bad foods from my diet:
-breads starches alcohol On top of this, I upped my indoor and outdoor exercise to lose a whopping 85 pounds since mid 2017 - I feel great, have loads of energy, and no longer have any back pain whatsoever!</description>
+      <description>&lt;p&gt;&lt;img src=&#34;petboard.jpg#center&#34; alt=&#34;PET board&#34; title=&#34;PET board&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;pic1.jpg#right&#34; alt=&#34;me&#34; title=&#34;me&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the end of each year, I take some time to reflect on the previous year - it provides perspective, and is a lot of fun!&lt;/p&gt;&#xA;&lt;p&gt;For me, 2018 was the year I spent a lot of time improving myself physically, challenging myself mentally, and most importantly, enjoying life!&lt;/p&gt;&#xA;&lt;p&gt;On the personal side, I cut out the bad foods from my diet:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;breads&lt;/li&gt;&#xA;&lt;li&gt;starches&lt;/li&gt;&#xA;&lt;li&gt;alcohol&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;On top of this, I upped my indoor and outdoor exercise to lose a whopping 85 pounds since mid 2017 - I feel great, have loads of energy, and no longer have any back pain whatsoever!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Lessons I&#39;ve learned from teaching 20 years of IT</title>
       <link>https://jasoneckert.github.io/myblog/20-years-of-teaching-lessons-learned/</link>
       <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/20-years-of-teaching-lessons-learned/</guid>
-      <description>I actually started teaching on April 13th 1998 (20 years ago today).
-It was my final year as a student at the University of Waterloo, and as I was finishing up writing my final exams I realized that I needed to actually go out and get a real job to support my family (I was married with a daughter at the time).
-Prior to that, I had worked on some very cool technology projects for various companies (including some big names like Microsoft, DEC and SUN), as well as worked for the University as a Web developer and sysadmin.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;20years.png#center&#34; alt=&#34;classroom&#34; title=&#34;classroom&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I actually started teaching on April 13th 1998 (20 years ago today).&lt;/p&gt;&#xA;&lt;p&gt;It was my final year as a student at the University of Waterloo, and as I was finishing up writing my final exams I realized that I needed to actually go out and get a real job to support my family (I was married with a daughter at the time).&lt;/p&gt;&#xA;&lt;p&gt;Prior to that, I had worked on some very cool technology projects for various companies (including some big names like Microsoft, DEC and SUN), as well as worked for the University as a Web developer and sysadmin. I also worked for many years as a teaching assistant and courseware editor for Peter Chieh&amp;rsquo;s nuclear chemistry course&amp;hellip;.after all, most of my academic background was in science, which is where most of the computer science talent was back in the 1990s!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2017 in review</title>
       <link>https://jasoneckert.github.io/myblog/2017-in-review/</link>
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/2017-in-review/</guid>
-      <description>So what happened in 2017?
-Last year I thought I completed my basement arcade by getting Donkey Kong (see my blog post entitled &amp;ldquo;2016 in review&amp;rdquo;), but I was wrong! I actually got two new arcade games this year. The first one was an arcade machine I never thought I’d find in good working condition. It’s also the absolute coolest arcade game of the 1980s with its amazing vector graphics (as well as my all-time favourite arcade game)&amp;hellip;&amp;hellip;.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;2017a.png#center&#34; alt=&#34;2017a&#34; title=&#34;2017a&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So what happened in 2017?&lt;/p&gt;&#xA;&lt;p&gt;Last year I thought I completed my basement arcade by getting Donkey Kong (see my blog post entitled &amp;ldquo;2016 in review&amp;rdquo;), but I was wrong!  I actually got two new arcade games this year. The first one was an arcade machine I never thought I’d find in good working condition. It’s also the absolute coolest arcade game of the 1980s with its amazing vector graphics (as well as my all-time favourite arcade game)&amp;hellip;&amp;hellip;.Atari’s Tempest!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Finding Idylwild Park</title>
       <link>https://jasoneckert.github.io/myblog/finding-idylwild-park/</link>
       <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/finding-idylwild-park/</guid>
-      <description>I grew up (and currently live) in the city of Cambridge in Ontario, Canada. The city was formed when 3 smaller towns (Hespeler, Preston and Galt) amalgamated in 1973, but the towns have a rich history as some of the key centers for industry in Upper Canada during the 1800s and early 1900s.
-When I was Googling something related to the new light rail transit system currently being installed in the region, I came across a Wikipedia page where I learned that there was an electric passenger railway between Hespeler, Preston and Galt from the late 1800s until 1955 called the Galt, Preston &amp;amp; Hespeler (GP&amp;amp;H) Street Railway.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;idylwild1.png#center&#34; alt=&#34;Idylwild1&#34; title=&#34;Idylwild1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I grew up (and currently live) in the city of Cambridge in Ontario, Canada.  The city was formed when 3 smaller towns (Hespeler, Preston and Galt) amalgamated in 1973, but the towns have a rich history as some of the key centers for industry in Upper Canada during the 1800s and early 1900s.&lt;/p&gt;&#xA;&lt;p&gt;When I was Googling something related to the new light rail transit system currently being installed in the region, I came across a Wikipedia page where I learned that there was an electric passenger railway between Hespeler, Preston and Galt from the late 1800s until 1955 called the Galt, Preston &amp;amp; Hespeler (GP&amp;amp;H) Street Railway. To encourage people to use the train on the weekends, the company that owned the railway opened a recreational park between Hespeler and Preston called Idylwild Park.  The entrance to the park is shown in the picture at the top of this blog post, and the postcard below shows that the entrance was right next to the railway tracks (with a short bypass section):&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Futuretech &#39;92</title>
       <link>https://jasoneckert.github.io/myblog/futuretech-92/</link>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/futuretech-92/</guid>
-      <description>This year marks Canada’s 150th anniversary (1867-2017), and while there are some cool events happening this year (e.g. National Parks have free admission), there really isn’t a lot of hoopla surrounding it.
-However, I have very fond memories of Canada’s 125th anniversary in 1992, because that’s when I got to go to Alberta as part of a student enrichment event.
-In the summer of 1992, the Canadian government hosted an event called Futuretech ’92, where 125 of the top students from Eastern Canada were flown to Calgary for a week of educational motivation, and 125 of the top students from Western Canada were flown to Montreal for the same.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;ft92a.png#center&#34; alt=&#34;FT92a&#34; title=&#34;FT92a&#34;&gt;&#xA;&lt;img src=&#34;ft92b.png#left&#34; alt=&#34;FT92b&#34; title=&#34;FT92b&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This year marks Canada’s 150th anniversary (1867-2017), and while there are some cool events happening this year (e.g. National Parks have free admission), there really isn’t a lot of hoopla surrounding it.&lt;/p&gt;&#xA;&lt;p&gt;However, I have very fond memories of Canada’s 125th anniversary in 1992, because that’s when I got to go to Alberta as part of a student enrichment event.&lt;/p&gt;&#xA;&lt;p&gt;In the summer of 1992, the Canadian government hosted an event called Futuretech ’92,   where 125 of the top students from Eastern Canada were flown to Calgary for a week of educational motivation, and 125 of the top students from Western Canada were flown to Montreal for the same.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2016 in review</title>
       <link>https://jasoneckert.github.io/myblog/2016-in-review/</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/2016-in-review/</guid>
-      <description>For the past years, I’ve done a “year in review” blog post, and of course this one is for 2016! It’s a great way to reflect on the events that have happened during the year, and to honest, is actually a lot of fun!
-Just a quick disclaimer: I have no intention of talking about the shallow-but-popular celebrity death fixation that has taken over the Internet (must be a millennial thing).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;2016a.png#center&#34; alt=&#34;2016a&#34; title=&#34;2016a&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;For the past years, I’ve done a “year in review” blog post, and of course this one is for 2016! It’s a great way to reflect on the events that have happened during the year, and to honest, is actually a lot of fun!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2016b.jpg#right&#34; alt=&#34;2016b&#34; title=&#34;2016b&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Just a quick disclaimer: I have no intention of talking about the shallow-but-popular celebrity death fixation that has taken over the Internet (must be a millennial thing).  That being said, when I heard that Prince died, it led me to watch Purple Rain again (great movie), so there’s a plus.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>10 years of Facebook humour</title>
       <link>https://jasoneckert.github.io/myblog/10-years-of-facebook-humour/</link>
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/10-years-of-facebook-humour/</guid>
-      <description>While most of my posts are pictures (funny pictures, persona pictures, memes, etc.), I’ve also got lots of funny text posts. I got a chuckle out of reading them again, so I thought I’d share them here for others to enjoy!
-Here they are, sorted from newest to oldest:
-If you want to rapidly get through a crowded area, just carry a clipboard and try to make eye contact with people.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;facebook.png#right&#34; alt=&#34;Facebook&#34; title=&#34;Facebook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While most of my posts are pictures (funny pictures, persona pictures, memes, etc.), I’ve also got lots of funny text posts.  I got a chuckle out of reading them again, so I thought I’d share them here for others to enjoy!&lt;/p&gt;&#xA;&lt;p&gt;Here they are, sorted from newest to oldest:&lt;/p&gt;&#xA;&lt;p&gt;If you want to rapidly get through a crowded area, just carry a clipboard and try to make eye contact with people. People will give you space&amp;hellip;.fast ;-)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Video Game Reflections</title>
       <link>https://jasoneckert.github.io/myblog/video-game-reflections/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/video-game-reflections/</guid>
-      <description>The Atari days When it came to video games growing up, my parents were fairly progressive – although they had no desire to play them, they didn’t see them as anything but fun and somewhat educational. And in the early 80s, when home game consoles were all the rage, my parents bought us an Atari 2600 (the all-black “Darth Vader” model shown to the right) and some games.
-We lived in a big old house, and there was a very large, unused room upstairs (we affectionately called “the back room”) that was used as the toy/Atari room.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;v1.jpg#right&#34; alt=&#34;v1&#34; title=&#34;v1&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-atari-days&#34;&gt;The Atari days&lt;/h1&gt;&#xA;&lt;p&gt;When it came to video games growing up, my parents were fairly progressive – although they had no desire to play them, they didn’t see them as anything but fun and somewhat educational.  And in the early 80s, when home game consoles were all the rage, my parents bought us an Atari 2600 (the all-black “Darth Vader” model shown to the right) and some games.&lt;/p&gt;&#xA;&lt;p&gt;We lived in a big old house, and there was a very large, unused room upstairs (we affectionately called “the back room”) that was used as the toy/Atari room. My sister was a few years younger than I was, and didn’t have much interest in the Atari, so I was the one that played it the most.  I remember playing Berzerk on the Atari 2600 until I couldn’t keep my eyes open anymore.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2015 in review</title>
       <link>https://jasoneckert.github.io/myblog/2015-in-review/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/2015-in-review/</guid>
-      <description>2015 was an interesting year, and one that I really enjoyed!
-I spent a lot of time getting/restoring/playing the last few arcade machines that I’ve wanted in my arcade collection - I just love the retro arcade hobby! As a result, I won’t be getting or restoring any more in 2016 at all (I have a few arcades that I want to work on to upgrade, but that’s about it).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;2015a.png#center&#34; alt=&#34;2015a&#34; title=&#34;2015a&#34;&gt;&#xA;&lt;img src=&#34;2015b.jpg#right&#34; alt=&#34;2015b&#34; title=&#34;2015b&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2015 was an interesting year, and one that I really enjoyed!&lt;/p&gt;&#xA;&lt;p&gt;I spent a lot of time getting/restoring/playing the last few arcade machines that I’ve wanted in my arcade collection - I just love the retro arcade hobby!  As a result, I won’t be getting or restoring any more in 2016 at all (I have a few arcades that I want to work on to upgrade, but that’s about it).  I’ll be spending most of my time playing them!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Breathe new life into an old PowerBook G4 using Linux</title>
       <link>https://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
-      <description>So what do you do when you have an old PowerBook that still works but can’t run the latest operating system (OS) and software? Well, you could sell it - but it won&amp;rsquo;t fetch much at all (less than $50 in most cases).
-A better option is to install a currently-supported OS that runs really well on limited hardware&amp;hellip;&amp;hellip;.in other words, install Linux on it!
-I recently installed the latest version of Debian Linux on my PowerBook G4 to make it useful again.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;powerbookg4.png#center&#34; alt=&#34;PowerBook G4&#34; title=&#34;PowerBook G4&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So what do you do when you have an old PowerBook that still works but can’t run the latest operating system (OS) and software? Well, you could sell it - but it won&amp;rsquo;t fetch much at all (less than $50 in most cases).&lt;/p&gt;&#xA;&lt;p&gt;A better option is to install a currently-supported OS that runs really well on limited hardware&amp;hellip;&amp;hellip;.in other words, install Linux on it!&lt;/p&gt;&#xA;&lt;p&gt;I recently installed the latest version of Debian Linux on my PowerBook G4 to make it useful again.  With only 1.25 GB of RAM and a 1.5 GHz PowerPC CPU, it could only run Mac OS 10.5 (very old), and nearly all Mac software programs, including Web browsers, have discontinued support for PowerPC-based Macs.  In other words, you won’t get new versions of software if you have an old PowerPC-based Mac running Mac OS 10.5&amp;hellip;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2014 in review</title>
       <link>https://jasoneckert.github.io/myblog/2014-in-review/</link>
       <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/2014-in-review/</guid>
-      <description>I think it’s always a good idea each year to reflect on the events that happened during the year - it’s a great way to remember some of the great things that have happened, as well as put some of the not-so-great things that have happened in perspective. If you regularly post to social media (e.g. Facebook or Twitter), looking back on your posts are a great way to revisit the major events that took place during the year.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;pepper.jpg#right&#34; alt=&#34;Pepper&#34; title=&#34;Pepper&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I think it’s always a good idea each year to reflect on the events that happened during the year - it’s a great way to remember some of the great things that have happened, as well as put some of the not-so-great things that have happened in perspective. If you regularly post to social media (e.g. Facebook or Twitter), looking back on your posts are a great way to revisit the major events that took place during the year. Better yet, by summarizing them in a blog post (as I’m doing here), you’ll preserve those events for posterity and make it easy to revisit them in distant years too!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>GMOs explained</title>
       <link>https://jasoneckert.github.io/myblog/gmos-explained/</link>
       <pubDate>Fri, 14 Nov 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/gmos-explained/</guid>
-      <description>Like many other people who hold a degree in science, I look at people who are currently upset about GMO products with pity and disdain. They don’t know what it is, but they’re willing to call it evil for whatever reason.
-GMO stands for genetically modified organism, which is essentially any organism (plant, animal, amoeba, etc.) that has had its DNA modified in some way. DNA are the blueprints of a living cell that in turn produce the RNA that produces the proteins that make up the useful bits of the cell itself.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;bullshit.png#right&#34; alt=&#34;Bullshit&#34; title=&#34;Bullshit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Like many other people who hold a degree in science, I look at people who are currently upset about GMO products with pity and disdain.  They don’t know what it is, but they’re willing to call it evil for whatever reason.&lt;/p&gt;&#xA;&lt;p&gt;GMO stands for genetically modified organism, which is essentially any organism (plant, animal, amoeba, etc.) that has had its DNA modified in some way.  DNA are the blueprints of a living cell that in turn produce the RNA that produces the proteins that make up the useful bits of the cell itself.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>100 silly facts about ME</title>
       <link>https://jasoneckert.github.io/myblog/100-facts-about-me/</link>
       <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/100-facts-about-me/</guid>
-      <description>Although I don’t watch television, I’ve been watching the episodes of The Goldbergs online because it’s absolutely hilarious and I relate to a lot of the stuff in it from my own childhood experiences. The final episode of season 1 was this week, and it starts off by talking about how the father never bragged about past events (no matter how cool), and would occasionally say something that totally made you think you knew nothing about him ;-)</description>
+      <description>&lt;p&gt;&lt;img src=&#34;office.jpg#center&#34; alt=&#34;Office&#34; title=&#34;Office&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Although I don’t watch television, I’ve been watching the episodes of The Goldbergs online because it’s absolutely hilarious and I relate to a lot of the stuff in it from my own childhood experiences.  The final episode of season 1 was this week, and it starts off by talking about how the father never bragged about past events (no matter how cool), and would occasionally say something that totally made you think you knew nothing about him ;-)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>George H. Jenner</title>
       <link>https://jasoneckert.github.io/myblog/george-h-jenner/</link>
       <pubDate>Thu, 24 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/george-h-jenner/</guid>
-      <description>The picture above is the only mall in the Hespeler area of Cambridge (where I grew up). If you look carefully, you’ll see that it’s currently being demolished (at the time of this post, it is almost entirely demolished). I moved back to Hespeler after school to raise my daughter because it was a place I knew well, and I have many fond memories of this mall because I used to work there teaching piano for George H.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;george1.png#center&#34; alt=&#34;George1&#34; title=&#34;George1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The picture above is the only mall in the Hespeler area of Cambridge (where I grew up).  If you look carefully, you’ll see that it’s currently being demolished (at the time of this post, it is almost entirely demolished).  I moved back to Hespeler after school to raise my daughter because it was a place I knew well, and I have many fond memories of this mall because I used to work there teaching piano for George H. Jenner.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>GAME ON 2.0 and triOS College</title>
       <link>https://jasoneckert.github.io/myblog/game-on-and-trios-college/</link>
       <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/game-on-and-trios-college/</guid>
-      <description>The best technologies are those that spark our imagination. They create a sense of optimism about what “can” be accomplished in the future.
-Atari’s Pong was one of the first technologies to do this because it allowed us to interact with our televisions, instead of just watching them. And we started thinking about the types of wonderful interactions that the future would bring to our televisions, video displays, and Holodecks (for the trekkies out there).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;go1.png#center&#34; alt=&#34;GAMEON1&#34; title=&#34;GAMEON1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The best technologies are those that spark our imagination.  They create a sense of optimism about what “can” be accomplished in the future.&lt;/p&gt;&#xA;&lt;p&gt;Atari’s Pong was one of the first technologies to do this because it allowed us to interact with our televisions, instead of just watching them.  And we started thinking about the types of wonderful interactions that the future would bring to our televisions, video displays, and Holodecks (for the trekkies out there).  We defended the earth against Space Invaders, and we lived in the virtual world of Tron.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Driving educational change</title>
       <link>https://jasoneckert.github.io/myblog/driving-educational-change/</link>
       <pubDate>Sun, 02 Dec 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/driving-educational-change/</guid>
-      <description>In the past, education was assessment based - you sat a class, wrote down notes, memorized those notes, and wrote a test based on those notes. The focus was on following this generic structure, and not necessarily on understanding the material or building knowledge in additional areas.
-Of course, some kids would understand many of these topics in good depth and be able to relate them to other topics easily - they were labelled the “smart” kids by their peers.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;chalkboard.png#right&#34; alt=&#34;chalkboard&#34; title=&#34;chalkboard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the past, education was assessment based - you sat a class, wrote down notes, memorized those notes, and wrote a test based on those notes.  The focus was on following this generic structure, and not necessarily on understanding the material or building knowledge in additional areas.&lt;/p&gt;&#xA;&lt;p&gt;Of course, some kids would understand many of these topics in good depth and be able to relate them to other topics easily - they were labelled the “smart” kids by their peers.  I was labelled as one of the “smart” kids back when I was in school, but I also did a great deal of extra research and exploration on topics I wanted to learn more about.  The rest of my class just followed the structure as best they could, which was perfectly acceptable by school standards at the time.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2011 in review</title>
       <link>https://jasoneckert.github.io/myblog/2011-in-review/</link>
       <pubDate>Fri, 30 Dec 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/2011-in-review/</guid>
-      <description>Personal/Work-Related Events: I started my new job of Dean of Technology in January. Basically twice the work but the same money. Most of the time it’s a thankless job (because you have to deal with complaints and bitching from everyone), but there is the odd job perk such as flex time and attending social events and conferences. I think the best part is that my official job description has a section that requires that I possess Strong communications skills (fluent in English &amp;amp; Klingon), as well as excellent interpersonal, analytical, strategic, conflict resolution, management, and organizational skills (this is what happens when non-geek HR people ask you for feedback in creating your job description).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;2011.png#right&#34; alt=&#34;2011&#34; title=&#34;2011&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;personalwork-related-events&#34;&gt;Personal/Work-Related Events:&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I started my new job of Dean of Technology in January.  Basically twice the work but the same money.  Most of the time it’s a thankless job (because you have to deal with complaints and bitching from everyone), but there is the odd job perk such as flex time and attending social events and conferences.  I think the best part is that my official job description has a section that requires that I possess Strong communications skills (fluent in English &amp;amp; Klingon), as well as excellent interpersonal, analytical, strategic, conflict resolution, management, and organizational skills (this is what happens when non-geek HR people ask you for feedback in creating your job description).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to do an out-of-office auto reply</title>
       <link>https://jasoneckert.github.io/myblog/how-to-do-an-out-of-office-autoreply/</link>
       <pubDate>Sat, 12 Jul 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/how-to-do-an-out-of-office-autoreply/</guid>
-      <description>I haven’t posted for a while simply because I just got back from vacation today rejuvenated. In IT, you either take vacation or spend tons of $$ on therapy and alcohol. I prefer the vacation :-)
-People still email me during my vacation, but I have an Outlook autoreply email configured to let them know that I won’t be replying anytime soon (it’s your basic “leave me alone because I am on vacation” email).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;algonquin.png#right&#34; alt=&#34;Algonquin&#34; title=&#34;Algonquin&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I haven’t posted for a while simply because I just got back from vacation today rejuvenated.   In IT, you either take vacation or spend tons of $$ on therapy and alcohol.  I prefer the vacation :-)&lt;/p&gt;&#xA;&lt;p&gt;People still email me during my vacation, but I have an Outlook autoreply email configured to let them know that I won’t be replying anytime soon (it’s your basic “leave me alone because I am on vacation” email).  Here is my Outlook autoreply email from this year:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The end of 2007</title>
       <link>https://jasoneckert.github.io/myblog/the-end-of-2007/</link>
       <pubDate>Mon, 31 Dec 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-end-of-2007/</guid>
-      <description>It has truly been an exciting year, and I wish to take a few moments to reflect on some of the most important events of 2007 in geekdom:
-Halo 3 being released (I love that game)
-Microsoft pissing off millions with Vista
-The death of SCO (may they rot in hell)
-Apple releasing the iPhone and iPod touch (the next generation interface for everything)
-The introduction of the Nokia N810 Internet Tablet running Linux (drool&amp;hellip;.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;woot.png#right&#34; alt=&#34;woot&#34; title=&#34;woot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It has truly been an exciting year, and I wish to take a few moments to reflect on some of the most important events of 2007 in geekdom:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Halo 3 being released (I love that game)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Microsoft pissing off millions with Vista&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The death of SCO (may they rot in hell)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Apple releasing the iPhone and iPod touch (the next generation interface for everything)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The introduction of the Nokia N810 Internet Tablet running Linux (drool&amp;hellip;.)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Big fish</title>
       <link>https://jasoneckert.github.io/myblog/big-fish/</link>
       <pubDate>Mon, 09 Apr 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/big-fish/</guid>
-      <description>Today is a monumental day! Last month I mounted a 7 &amp;amp; 1/2 foot Pacific Sailfish caught in Puerto Vallarta Mexico in my rec room, but I needed to touch up the dorsal fin (the only part of the fish that is made of wood because it can’t be preserved). Well, I finally got around to putting the finishing touches on it tonight (the black dots)&amp;hellip;&amp;hellip;..hooray! I think it looks great!</description>
+      <description>&lt;p&gt;&lt;img src=&#34;sailfish.png#center&#34; alt=&#34;Pacific Sailfish&#34; title=&#34;Pacific Sailfish&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today is a monumental day!  Last month I mounted a 7 &amp;amp; 1/2 foot Pacific Sailfish caught in Puerto Vallarta Mexico in my rec room, but I needed to touch up the dorsal fin (the only part of the fish that is made of wood because it can’t be preserved).  Well, I finally got around to putting the finishing touches on it tonight (the black dots)&amp;hellip;&amp;hellip;..hooray!  I think it looks great!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Summer is here. Finally.</title>
       <link>https://jasoneckert.github.io/myblog/summer-is-here/</link>
       <pubDate>Sun, 09 Jul 2006 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/summer-is-here/</guid>
-      <description>We just got back from vacation this week! No computers, no telephones, no IM, no text messages, no stress (just the occasional deer, moose or bear). Several years ago, I didn’t take any vacation at all during the year and promptly vowed never to do that again. In just one week of vacation, you can reduce all of the stress that you worked so hard to build up all year long.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;macdeer.png#center&#34; alt=&#34;vacation&#34; title=&#34;vacation&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;We just got back from vacation this week!  No computers, no telephones, no IM, no text messages, no stress (just the occasional deer, moose or bear). Several years ago, I didn’t take any vacation at all during the year and promptly vowed never to do that again.  In just one week of vacation, you can reduce all of the stress that you worked so hard to build up all year long. Remember that Canadian companies are famous worldwide for overworking their employees and not giving vacation time.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>1. What do I do?</title>
       <link>https://jasoneckert.github.io/bio/what-do-i-do/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/bio/what-do-i-do/</guid>
-      <description>Besides drinking vast quantities of caffeine and spending most of my free time enjoying the outdoors, I have taught, developed, and managed various technology courses at triOS College in Ontario (Canada) since 1998 in both our college and corporate training divisions.
-Back in 2011, I took on a different title of Dean of Technology to salvage our video game programs, and it turned into a more strategic role where I was able to help shape the development of our Information Technology (IT), developer, and video game programs.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;headshot.jpg#right&#34; alt=&#34;summit&#34; title=&#34;summit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Besides drinking vast quantities of caffeine and spending most of my free time enjoying the outdoors, I have taught, developed, and managed various technology courses at triOS College in Ontario (Canada) since 1998 in both our college and corporate training divisions.&lt;/p&gt;&#xA;&lt;p&gt;Back in 2011, I took on a different title of Dean of Technology to salvage our video game programs, and it turned into a more strategic role where I was able to help shape the development of our Information Technology (IT), developer, and video game programs. It also allowed me to build some exciting opportunities for our students, run over a dozen sponsored game jams and hackathons, communicate program information to others in the college, as well as meet with vendors, employers, internship hosts, and other colleges. My goal was to &amp;ldquo;walk the talk&amp;rdquo; in every facet of technology education, and I definitely achieved that early on.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>3. Personal Interests</title>
       <link>https://jasoneckert.github.io/bio/personal/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/bio/personal/</guid>
-      <description>Parenting I am a happily divorced proud father of one. I’ve pretty much raised my daughter since she was 5 years old on my own, and yes, I’ve made school lunches, threw kids parties, went to great places (Ontario Science Centre, ROM, SportsWorld, Storybook Gardens, Disney World and more!), spent vacations camping/cottaging, and watched far too many Land Before Time movies. The picture on the left is my daughter while we were vacationing at Disney World in Florida over a decade ago.</description>
+      <description>&lt;h1 id=&#34;parenting&#34;&gt;Parenting&lt;/h1&gt;&#xA;&lt;p&gt;I am a happily divorced proud father of one. I’ve pretty much raised my daughter since she was 5 years old on my own, and yes, I’ve made school lunches, threw kids parties, went to great places (Ontario Science Centre, ROM, SportsWorld, Storybook Gardens, Disney World and more!), spent vacations camping/cottaging, and watched far too many Land Before Time movies. The picture on the left is my daughter while we were vacationing at Disney World in Florida over a decade ago. Now that my daughter is grown up, I miss those years. But she recently became a parent herself, so in a few years I&amp;rsquo;ll likely be doing some of those things as a grandparent. After my daughter moved out of the house, my adorable dog Pepper and I went on many more amazing adventures until she &lt;a href=&#34;../../myblog/remembering-pepper/&#34;&gt;passed away at the age of 13&lt;/a&gt;. I am incredibly grateful to have been a dad to both my daughter and Pepper.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>7. Three Unconventional Tips for Career Success</title>
       <link>https://jasoneckert.github.io/info/gradspeech/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/gradspeech/</guid>
-      <description>1. Don&amp;rsquo;t turn down an opportunity because it isn&amp;rsquo;t the job you want Career progression is never a straight line, and good opportunities don&amp;rsquo;t actually have the words good opportunity written in bold letters on them &amp;ndash; you never know where they will lead you.
-For example, back around the year 2000 I was asked to teach a corporate Linux course on the weekends. I didn&amp;rsquo;t want to give up my weekends for a month, and quite frankly I thought it would be a boring waste of my abilities and time.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;success.png#center&#34; alt=&#34;career success&#34; title=&#34;career success&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-dont-turn-down-an-opportunity-because-it-isnt-the-job-you-want&#34;&gt;1. Don&amp;rsquo;t turn down an opportunity because it isn&amp;rsquo;t the job you want&lt;/h1&gt;&#xA;&lt;p&gt;Career progression is never a straight line, and good opportunities don&amp;rsquo;t actually have the words &lt;em&gt;&lt;strong&gt;good opportunity&lt;/strong&gt;&lt;/em&gt; written in bold letters on them &amp;ndash; you never know where they will lead you.&lt;/p&gt;&#xA;&lt;p&gt;For example, back around the year 2000 I was asked to teach a corporate Linux course on the weekends. I didn&amp;rsquo;t want to give up my weekends for a month, and quite frankly I thought it would be a boring waste of my abilities and time. But I did it anyways, and one of the amazing students in my class worked for Compaq and introduced me to SHARCnet.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>City Trails</title>
       <link>https://jasoneckert.github.io/trails/city/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/trails/city/</guid>
-      <description>rare Charitable Research Reserve (Cambridge) The rare Charitable Research Reserve is a community-based urban land trust. They maintain a series of amazing trails within the Blair/Galt area of Cambridge along the south side of the Grand River. The trails along the river are part of a gorgeous escarpment that contains exposed rock and fossils from the Silurian period. There are also trails across alvars and open fields with two Osprey towers.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;millrun.jpg&#34; alt=&#34;Hydro falls along Mill Run trail&#34; title=&#34;Hydro falls along Mill Run trail&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;rare-charitable-research-reserve-cambridge&#34;&gt;rare Charitable Research Reserve (Cambridge)&lt;/h1&gt;&#xA;&lt;p&gt;The rare Charitable Research Reserve is a community-based urban land trust. They maintain a series of amazing trails within the Blair/Galt area of Cambridge along the south side of the Grand River. The trails along the river are part of a gorgeous escarpment that contains exposed rock and fossils from the Silurian period. There are also trails across alvars and open fields with two Osprey towers. Further south, you&amp;rsquo;ll find the beautiful Maple Lane and Grand Allee Trails that contain massive hardwoods and plenty of deer. They comprised the first planned road in the region and the surrounding forest was home to the first settler (Dan Dodge).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Destination Trails</title>
       <link>https://jasoneckert.github.io/trails/destination/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/trails/destination/</guid>
-      <description>Rockwood Conservation Area Rockwood has breathtaking scenery - pine and cedar forests surrounding rock cliffs and islands along the Eramosa River. And the trails allow you to see it all. The Cedar Ridge Outlook allows you to see all of Rockwood below. The plateau at the top of the caves is actually owned by the University of Waterloo, but you can hike up there and along the numerous trails to see the remnants of an old house and quarry.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;kelso.jpg&#34; alt=&#34;Top of Niagara Escarpment at Kelso&#34; title=&#34;Top of Niagara Escarpment at Kelso&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;rockwood-conservation-area&#34;&gt;Rockwood Conservation Area&lt;/h1&gt;&#xA;&lt;p&gt;Rockwood has breathtaking scenery - pine and cedar forests surrounding rock cliffs and islands along the Eramosa River. And the trails allow you to see it all. The Cedar Ridge Outlook allows you to see all of Rockwood below. The plateau at the top of the caves is actually owned by the University of Waterloo, but you can hike up there and along the numerous trails to see the remnants of an old house and quarry.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Non-Fiction &amp; Biographies</title>
       <link>https://jasoneckert.github.io/reads/non-fiction/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/reads/non-fiction/</guid>
-      <description>Clifford Stoll: The Cuckoo’s Egg (1989) Don’t let the year of this book fool you - it’s probably the best book on computing security. The epilogue is both timeless, and an amazing reflection on the purpose of computer security. Moreover, this book is a very enjoyable read. Cliff, like most of us computer/scientist types, writes with a quirky sense of humour, and isn’t afraid to relay his personal views within the book.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;rms.jpg&#34; alt=&#34;rms&#34; title=&#34;rms&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;clifford-stoll-the-cuckoos-egg-1989&#34;&gt;Clifford Stoll: The Cuckoo’s Egg (1989)&lt;/h1&gt;&#xA;&lt;p&gt;Don’t let the year of this book fool you - it’s probably the best book on computing security. The epilogue is both timeless, and an amazing reflection on the purpose of computer security. Moreover, this book is a very enjoyable read. Cliff, like most of us computer/scientist types, writes with a quirky sense of humour, and isn’t afraid to relay his personal views within the book. For example, the quote below describes Cliff’s colleague Dave when he notices that the hacker used the –f option to the ps command on a Berkeley UNIX system (Berkeley UNIX doesn’t use the –f option, only AT&amp;amp;T UNIX does): &lt;em&gt;&amp;ldquo;We’re watching someone who’s never used Berkeley Unix.” He sucked in his breath and whispered, “A heathen.”&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>This website contains zero AI-generated text</title>
       <link>https://jasoneckert.github.io/site/about-this-site/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/site/about-this-site/</guid>
-      <description>Yup, that’s right &amp;ndash; every single word, phrase, and typo (purposeful or not) has been carefully crafted by yours truly and reflects decades of continuous improvement in both English and thought expression.
-Each blog post started with a real-life event or thought that sparked a passion to create something I wanted to share with others, and in a way that allowed me to better understand and appreciate it as well.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;noai.png#right&#34; alt=&#34;no AI&#34; title=&#34;no AI&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yup, that’s right &amp;ndash; every single word, phrase, and typo (purposeful or not) has been carefully crafted by yours truly and reflects decades of continuous improvement in both English and thought expression.&lt;/p&gt;&#xA;&lt;p&gt;Each blog post started with a real-life event or thought that sparked a passion to create something I wanted to share with others, and in a way that allowed me to better understand and appreciate it as well.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Trails in Algonquin Provincial Park</title>
       <link>https://jasoneckert.github.io/trails/algonquin/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/trails/algonquin/</guid>
-      <description>Mizzy Lake Trail This is the trail where you can see the most wildlife in Algonquin park. You&amp;rsquo;ll wind through 11km of lakes, marshes and forests. My daughter and I saw massive turtles, were followed by otters who mocked us, and even stood 2 feet away from a moose who crossed our path when she realized her foal was on the other side. The pic at the top of this page is of my daughter resting shortly after we found the remains of a grey jay (now officially called a Canada jay) that was likely eaten by a pine marten.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;algonquin.jpg&#34; alt=&#34;Mac on Mizzy Lake Trail&#34; title=&#34;Mac on Mizzy Lake Trail&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;mizzy-lake-trail&#34;&gt;Mizzy Lake Trail&lt;/h1&gt;&#xA;&lt;p&gt;This is the trail where you can see the most wildlife in Algonquin park. You&amp;rsquo;ll wind through 11km of lakes, marshes and forests. My daughter and I saw massive turtles, were followed by otters who mocked us, and even stood 2 feet away from a moose who crossed our path when she realized her foal was on the other side. The pic at the top of this page is of my daughter resting shortly after we found the remains of a grey jay (now officially called a Canada jay) that was likely eaten by a pine marten.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

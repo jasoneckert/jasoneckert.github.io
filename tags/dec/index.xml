@@ -4,48 +4,37 @@
     <title>DEC on Jason Eckert&#39;s Website and Blog</title>
     <link>https://jasoneckert.github.io/tags/dec/</link>
     <description>Recent content in DEC on Jason Eckert&#39;s Website and Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Aug 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/dec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jasoneckert.github.io/tags/dec/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The dawn of personal computing</title>
       <link>https://jasoneckert.github.io/myblog/dawn-of-personal-computing/</link>
       <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/dawn-of-personal-computing/</guid>
-      <description>If you know me, or have read various sections of my website, you’ll know that I am a die hard member of the computing industry that also likes to collect vintage computers (this is actually quite common - you’d be surprised how many of my colleagues do the same).
-Yesterday, I managed to find a very interesting canvas painting in Toronto (the picture at the top of this post), and just HAD to have it.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;art1.png#center&#34; alt=&#34;Art1&#34; title=&#34;Art1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you know me, or have read various sections of my website, you’ll know that I am a die hard member of the computing industry that also likes to collect vintage computers (this is actually quite common - you’d be surprised how many of my colleagues do the same).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;art2.jpg#right&#34; alt=&#34;Art2&#34; title=&#34;Art2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yesterday, I managed to find a very interesting canvas painting in Toronto (the picture at the top of this post), and just HAD to have it.  From the signature, it was painted in 1983 by what looks like T., N., or M. McLaughlin:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The rise and fall of DEC</title>
       <link>https://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</link>
       <pubDate>Wed, 26 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</guid>
-      <description>Firstly, the information that I’m presenting here is taken from various sources, including people I knew who worked for DEC, my own experiences, and the book DEC Is Dead, Long Live DEC by Edgar H. Schein.
-Quick background info: DEC was the first knowledge-based company - a company who valued the knowledge of its employees over anything else, and used it to drive change and sell products.
-The founder and father icon of DEC, Ken Olsen, spent time working at IBM.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;dec.gif#center&#34; alt=&#34;DEC article&#34; title=&#34;DEC article&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Firstly, the information that I’m presenting here is taken from various sources, including people I knew who worked for DEC, my own experiences, and the book &lt;em&gt;&lt;strong&gt;DEC Is Dead, Long Live DEC&lt;/strong&gt;&lt;/em&gt; by Edgar H. Schein.&lt;/p&gt;&#xA;&lt;h1 id=&#34;quick-background-info&#34;&gt;Quick background info:&lt;/h1&gt;&#xA;&lt;p&gt;DEC was the first knowledge-based company - a company who valued the knowledge of its employees over anything else, and used it to drive change and sell products.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>All about DEC</title>
       <link>https://jasoneckert.github.io/myblog/all-about-dec/</link>
       <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/all-about-dec/</guid>
-      <description>Digital Equipment Corporation (DEC) was born in the late 1950s when it was lucrative to make computers that cost a ton of money. And DEC was good - they would make computers that would perform much better and cost significantly less than the IBM equivalent (IBM mainframes back then were expensive behemoths).
-The DEC PDP (Programmed Data Processor) line of minicomputers were so good and inexpensive, you’d be hard pressed to NOT find one in your local university.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;dec1.png&#34; alt=&#34;DEC 1&#34; title=&#34;DEC 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;dec2.jpg#right&#34; alt=&#34;DEC 2&#34; title=&#34;DEC 2&#34;&gt;&#xA;Digital Equipment Corporation (DEC) was born in the late 1950s when it was lucrative to make computers that cost a ton of money.  And DEC was good - they would make computers that would perform much better and cost significantly less than the IBM equivalent (IBM mainframes back then were expensive behemoths).&lt;/p&gt;&#xA;&lt;p&gt;The DEC PDP (Programmed Data Processor) line of minicomputers were so good and inexpensive, you’d be hard pressed to NOT find one in your local university. The PDP-7 was the first computer to run the infamous UNIX operating system. The PDP-10 was the first computer to introduce time sharing and TCP/IP implementation for the Internet (there were plenty of PDP-10 nodes on the early Internet, or ARPANET). The PDP-11 was the most influential and mass-produced minicomputer of its time that led to the creation of the C programming language as well as the designs of CP/M, DOS, and the Motorola 68000 architecture.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2. Retro Computers</title>
       <link>https://jasoneckert.github.io/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/retrocomputers/</guid>
-      <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
+      <description>&lt;h1 id=&#34;apple&#34;&gt;Apple&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;appleiic.jpg#right&#34; alt=&#34;Apple IIc&#34; title=&#34;Apple IIc&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions). The Apple II was very well built and had tons of expansion ports. It inspired thousands of people to enter the computer world. Thousands of programs were made for it, and it made its way into nearly every industry in a short period of time. The famous spreadsheet, Visicalc, made the Apple II a great business tool, its ease of use made it extremely popular in the school system (every school I went to had them, even in the 1990s), and its BASIC interpreter and easy expandability made it famous with hackers, engineers and scientists (the first demonstration of public key cryptography was hacked together by a few mathematicians on an Apple II).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

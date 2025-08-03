@@ -4,105 +4,79 @@
     <title>IBM on Jason Eckert&#39;s Website and Blog</title>
     <link>https://jasoneckert.github.io/tags/ibm/</link>
     <description>Recent content in IBM on Jason Eckert&#39;s Website and Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/ibm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jasoneckert.github.io/tags/ibm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Story Behind the Mac vs PC Rivalry — And Where Linux Quietly Took Over</title>
       <link>https://jasoneckert.github.io/myblog/mac-vs-pc/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/mac-vs-pc/</guid>
-      <description>When it comes to computers, most people today use either a Mac or a PC. In this post, I’ll explore how this digital rivalry began, how it shaped modern computing — and how Linux quietly carved out a space of its own.
-The Early Days: Roots of the Rivalry In the 1980s, personal computers (PCs) began appearing in homes, schools, and businesses across the world. A wide range of companies entered the market, including Apple, IBM, Tandy, Commodore, Atari, Texas Instruments, and Sinclair.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;mac-vs-pc.jpg#center&#34; alt=&#34;Mac vs PC&#34; title=&#34;Mac vs PC&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to computers, most people today use either a Mac or a PC. In this post, I’ll explore how this digital rivalry began, how it shaped modern computing — and how Linux quietly carved out a space of its own.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-early-days-roots-of-the-rivalry&#34;&gt;The Early Days: Roots of the Rivalry&lt;/h1&gt;&#xA;&lt;p&gt;In the 1980s, personal computers (PCs) began appearing in homes, schools, and businesses across the world. A wide range of companies entered the market, including Apple, IBM, Tandy, Commodore, Atari, Texas Instruments, and Sinclair. Most of these early machines featured basic text-based interfaces — often just a simple version of the BASIC programming language. But a few notable outliers, like the Apple Macintosh and the IBM PC, ran more sophisticated operating systems that hinted at what modern computing would eventually become.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RISCy business: The long and convoluted rise of today&#39;s dominant computing platform</title>
       <link>https://jasoneckert.github.io/myblog/riscy-business/</link>
       <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/riscy-business/</guid>
-      <description>RISC vs CISC Traditionally, most computing platforms were built with the burden of software in mind. To ensure that a software program could be written easily and with fewer instructions, additional circuitry was added to the central processing unit (CPU) to compensate. This was referred to as complex instruction set computing (CISC). CISC architecture is still common today thanks to the x86 architecture used by Intel and AMD CPUs in most workstations and servers.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;RISC.png#center&#34; alt=&#34;RISC timeline&#34; title=&#34;RISC timeline&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;risc-vs-cisc&#34;&gt;RISC vs CISC&lt;/h1&gt;&#xA;&lt;p&gt;Traditionally, most computing platforms were built with the burden of software in mind. To ensure that a software program could be written easily and with fewer instructions, additional circuitry was added to the central processing unit (CPU) to compensate. This was referred to as complex instruction set computing (CISC). CISC architecture is still common today thanks to the x86 architecture used by Intel and AMD CPUs in most workstations and servers. Unfortunately, the added circuitry within CISC CPUs equated to added cost and complexity - both of which made it more expensive to evolve.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The future looks a lot like mainframe computing</title>
       <link>https://jasoneckert.github.io/myblog/mainframe-computing-is-the-future/</link>
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/mainframe-computing-is-the-future/</guid>
-      <description>Mainframe computers, like the IBM one shown above, were the first digital computers that started appearing in big companies during the 1950s. They were room-sized behemoths of circuitry and steel primarily used to generate balance sheets and income statements. And while IBM still sells a small number of mainframe computers today, they only enjoyed mainstream popularity until the late 1980s.
-While early mainframes were only accessed by the people who managed it, most mainframes of the 1970s and 1980s ran programs that were accessed by remote users via a dumb terminal.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;ibm.jpeg#center&#34; alt=&#34;IBM mainframe&#34; title=&#34;IBM mainframe&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mainframe computers, like the IBM one shown above, were the first digital computers that started appearing in big companies during the 1950s. They were room-sized behemoths of circuitry and steel primarily used to generate balance sheets and income statements. And while IBM still sells a small number of mainframe computers today, they only enjoyed mainstream popularity until the late 1980s.&lt;/p&gt;&#xA;&lt;p&gt;While early mainframes were only accessed by the people who managed it, most mainframes of the 1970s and 1980s ran programs that were accessed by remote users via a dumb terminal. Dumb terminals were not standalone computers; they had a display and keyboard, but merely allowed you to interact with a central mainframe computer across a network connection.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mastering the Zen of TrackPoint</title>
       <link>https://jasoneckert.github.io/myblog/mastering-the-zen-of-trackpoint/</link>
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/mastering-the-zen-of-trackpoint/</guid>
-      <description>Lenovo (formerly IBM) ThinkPad laptops are widely known for three things:
-An amazing keyboard (often touted as the best for professional work) Rugged build quality (it&amp;rsquo;s hard to kill a Thinkpad: https://youtu.be/OMilj81s9SI) The TrackPoint, which has been standard on ThinkPads since the first model in 1992 What is a TrackPoint? Simply put, it is an alternative to using a mouse or trackpad on laptops. To ensure that your index fingers can easily reach it, it&amp;rsquo;s situated in the middle of the keyboard between the G, H and B keys.</description>
+      <description>&lt;p&gt;Lenovo (formerly IBM) ThinkPad laptops are widely known for three things:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;An amazing keyboard (often touted as the best for professional work)&lt;/li&gt;&#xA;&lt;li&gt;Rugged build quality (it&amp;rsquo;s hard to kill a Thinkpad: &lt;a href=&#34;https://youtu.be/OMilj81s9SI&#34;&gt;https://youtu.be/OMilj81s9SI&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The TrackPoint, which has been standard on ThinkPads since the first model in 1992&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;trackpoint.png#right&#34; alt=&#34;TrackPoint&#34; title=&#34;TrackPoint&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-a-trackpoint&#34;&gt;What is a TrackPoint?&lt;/h1&gt;&#xA;&lt;p&gt;Simply put, it is an alternative to using a mouse or trackpad on laptops. To ensure that your index fingers can easily reach it, it&amp;rsquo;s situated in the middle of the keyboard between the G, H and B keys.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Halt and Catch Fire</title>
       <link>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</guid>
-      <description>Halt and Catch Fire is an AMC television series that ran for four seasons from 2014-2017, and covers the culture and pivotal aspects of the computing industry from 1983 (just after the release of the IBM PC) to 1994 (when the Internet and World Wide Web exploded).
-You can binge watch it on Netflix if you like today, and trust me - you won’t be disappointed! Halt and Catch Fire is the best drama I’ve ever seen - an emotional rollercoaster like no other.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;haltandcatchfire.png#center&#34; alt=&#34;Halt and Catch Fire&#34; title=&#34;Halt and Catch Fire&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Halt and Catch Fire is an AMC television series that ran for four seasons from 2014-2017, and covers the culture and pivotal aspects of the computing industry from 1983 (just after the release of the IBM PC) to 1994 (when the Internet and World Wide Web exploded).&lt;/p&gt;&#xA;&lt;p&gt;You can binge watch it on Netflix if you like today, and trust me - you won’t be disappointed!  Halt and Catch Fire is the best drama I’ve ever seen - an emotional rollercoaster like no other.  The characters are unforgettable, the acting is nothing short of phenomenal, and the entire series has an incredible message about technology and human progress that you only get once you see the final episode!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The dawn of personal computing</title>
       <link>https://jasoneckert.github.io/myblog/dawn-of-personal-computing/</link>
       <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/dawn-of-personal-computing/</guid>
-      <description>If you know me, or have read various sections of my website, you’ll know that I am a die hard member of the computing industry that also likes to collect vintage computers (this is actually quite common - you’d be surprised how many of my colleagues do the same).
-Yesterday, I managed to find a very interesting canvas painting in Toronto (the picture at the top of this post), and just HAD to have it.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;art1.png#center&#34; alt=&#34;Art1&#34; title=&#34;Art1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you know me, or have read various sections of my website, you’ll know that I am a die hard member of the computing industry that also likes to collect vintage computers (this is actually quite common - you’d be surprised how many of my colleagues do the same).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;art2.jpg#right&#34; alt=&#34;Art2&#34; title=&#34;Art2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yesterday, I managed to find a very interesting canvas painting in Toronto (the picture at the top of this post), and just HAD to have it.  From the signature, it was painted in 1983 by what looks like T., N., or M. McLaughlin:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Anatomy of an AS/400</title>
       <link>https://jasoneckert.github.io/myblog/anatomy-of-an-as400/</link>
       <pubDate>Tue, 14 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/anatomy-of-an-as400/</guid>
-      <description>During my spring cleaning, I ended up getting rid of my AS/400 model 9404-D10 from 1991.
-Since the power supply is dead in it, I decided to disassemble and photograph the inside of this amazing machine. AS/400s are well known for their legendary uptimes, and were the “jewel” of IBM in the late 1980s to 1990s. In 1993, when IBM was close to splitting up their divisions into smaller companies, Bill Gates said that “the only part of IBM that Microsoft would be interested in was the AS/400 division.</description>
+      <description>&lt;p&gt;During my spring cleaning, I ended up getting rid of my AS/400 model 9404-D10 from 1991.&lt;/p&gt;&#xA;&lt;p&gt;Since the power supply is dead in it, I decided to disassemble and photograph the inside of this amazing machine.  AS/400s are well known for their legendary uptimes, and were the “jewel” of IBM in the late 1980s to 1990s.  In 1993, when IBM was close to splitting up their divisions into smaller companies, Bill Gates said that “the only part of IBM that Microsoft would be interested in was the AS/400 division.”  At the time, many of Microsoft&amp;rsquo;s internal systems ran on the AS/400 platform.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>IBM hard drive from 1981</title>
       <link>https://jasoneckert.github.io/myblog/ibm-hard-drive-1981/</link>
       <pubDate>Tue, 27 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/ibm-hard-drive-1981/</guid>
-      <description>This picture is of an IBM Model 3380 Hard Drive from 1981. Because it looks like a nuclear device or jet engine, I was able to convince my neighbour that I was generating my own nuclear power from now on, as well as the people at the Chrysler convention that it was an electric engine for a transport truck (I was passing them when going to a high school tech presentation at Bingemans where I used this as a fun prop).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;3380a.png#right&#34; alt=&#34;3380a&#34; title=&#34;3380a&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This picture is of an IBM Model 3380 Hard Drive from 1981. Because it looks like a nuclear device or jet engine, I was able to convince my neighbour that I was generating my own nuclear power from now on, as well as the people at the Chrysler convention that it was an electric engine for a transport truck (I was passing them when going to a high school tech presentation at Bingemans where I used this as a fun prop). My pranks know no bounds!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Are you a Mac or a PC?</title>
       <link>https://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</link>
       <pubDate>Thu, 13 Mar 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</guid>
-      <description>If you are ultra-Mac, you prefer to use an aesthetic computer that “just works” - as a result, you are usually sexy, artistic and cool.
-If you are ultra-PC, you prefer to use a clunky un-aesthetic computer that is difficult to use, crashes often, is a virus hell, yet is guaranteed to work with any piece of hardware with a software driver written by a 10-year-old boy in a barn in China - as a result, you are nerdy, cheap and non-cool.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;jot.jpg#right&#34; alt=&#34;JoT&#34; title=&#34;JoT&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you are ultra-Mac, you prefer to use an aesthetic computer that “just works” - as a result, you are usually sexy, artistic and cool.&lt;/p&gt;&#xA;&lt;p&gt;If you are ultra-PC, you prefer to use a clunky un-aesthetic computer that is difficult to use, crashes often, is a virus hell, yet is guaranteed to work with any piece of hardware with a software driver written by a 10-year-old boy in a barn in China - as a result, you are nerdy, cheap and non-cool.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2. Retro Computers</title>
       <link>https://jasoneckert.github.io/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/retrocomputers/</guid>
-      <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
+      <description>&lt;h1 id=&#34;apple&#34;&gt;Apple&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;appleiic.jpg#right&#34; alt=&#34;Apple IIc&#34; title=&#34;Apple IIc&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions). The Apple II was very well built and had tons of expansion ports. It inspired thousands of people to enter the computer world. Thousands of programs were made for it, and it made its way into nearly every industry in a short period of time. The famous spreadsheet, Visicalc, made the Apple II a great business tool, its ease of use made it extremely popular in the school system (every school I went to had them, even in the 1990s), and its BASIC interpreter and easy expandability made it famous with hackers, engineers and scientists (the first demonstration of public key cryptography was hacked together by a few mathematicians on an Apple II).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

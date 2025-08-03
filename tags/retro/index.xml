@@ -1,332 +1,243 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>retro on Jason Eckert&#39;s Website and Blog</title>
+    <title>Retro on Jason Eckert&#39;s Website and Blog</title>
     <link>https://jasoneckert.github.io/tags/retro/</link>
-    <description>Recent content in retro on Jason Eckert&#39;s Website and Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Retro on Jason Eckert&#39;s Website and Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/retro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jasoneckert.github.io/tags/retro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How an Ancient PowerBook Captured a Summer Vacation</title>
       <link>https://jasoneckert.github.io/myblog/powerbook-summer-vacation/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/powerbook-summer-vacation/</guid>
-      <description>While cleaning out a corner of my basement today, I stumbled upon a relic from the early days of portable computing: a 1992 Apple PowerBook 145 laptop. Just like that, I was back in 2006, reliving a summer vacation with my daughter.
-It’s strange how a piece of outdated hardware can tie itself to a moment in time. Here&amp;rsquo;s the story behind it. Every year, I’d rent a cottage at Glen Manor Cottages in Muskoka, nestled along the gorgeous sandy shores of Dwight Bay.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;powerbook145.jpg#center&#34; alt=&#34;Apple PowerBook 145&#34; title=&#34;Apple PowerBook 145&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While cleaning out a corner of my basement today, I stumbled upon a relic from the early days of portable computing: a 1992 Apple PowerBook 145 laptop. Just like that, I was back in 2006, reliving a summer vacation with my daughter.&lt;/p&gt;&#xA;&lt;p&gt;It’s strange how a piece of outdated hardware can tie itself to a moment in time. Here&amp;rsquo;s the story behind it.&#xA;&lt;img src=&#34;dwight-bay.jpg#right&#34; alt=&#34;Dwight Bay&#34; title=&#34;Dwight Bay&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RISCy business: The long and convoluted rise of today&#39;s dominant computing platform</title>
       <link>https://jasoneckert.github.io/myblog/riscy-business/</link>
       <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/riscy-business/</guid>
-      <description>RISC vs CISC Traditionally, most computing platforms were built with the burden of software in mind. To ensure that a software program could be written easily and with fewer instructions, additional circuitry was added to the central processing unit (CPU) to compensate. This was referred to as complex instruction set computing (CISC). CISC architecture is still common today thanks to the x86 architecture used by Intel and AMD CPUs in most workstations and servers.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;RISC.png#center&#34; alt=&#34;RISC timeline&#34; title=&#34;RISC timeline&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;risc-vs-cisc&#34;&gt;RISC vs CISC&lt;/h1&gt;&#xA;&lt;p&gt;Traditionally, most computing platforms were built with the burden of software in mind. To ensure that a software program could be written easily and with fewer instructions, additional circuitry was added to the central processing unit (CPU) to compensate. This was referred to as complex instruction set computing (CISC). CISC architecture is still common today thanks to the x86 architecture used by Intel and AMD CPUs in most workstations and servers. Unfortunately, the added circuitry within CISC CPUs equated to added cost and complexity - both of which made it more expensive to evolve.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ontario&#39;s Computer Part 2: The LEXICON Server</title>
       <link>https://jasoneckert.github.io/myblog/lexicon-computer/</link>
       <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/lexicon-computer/</guid>
-      <description>As I described in my previous blog post, the Burroughs ICON was a very cool UNIX-like computer developed by the Ontario governement for use within schools during the 1980s and early 1990s.
-But because ICON computers were all diskless workstations, they were completely useless without a network and LEXICON file server. After all, the QNX operating system and programs that ran memory-resident on each ICON had to first be downloaded from the LEXICON across an ARCNET network.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;LEXICON.jpg#right&#34; alt=&#34;LEXICON&#34; title=&#34;LEXICON&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As I described in &lt;a href=&#34;../../myblog/icon-computer/&#34; title=&#34;Ontario&#39;s Computer: The Burroughs ICON&#34;&gt;my previous blog post&lt;/a&gt;, the Burroughs ICON was a very cool UNIX-like computer developed by the Ontario governement for use within schools during the 1980s and early 1990s.&lt;/p&gt;&#xA;&lt;p&gt;But because ICON computers were all diskless workstations, they were completely useless without a network and LEXICON file server. After all, the QNX operating system and programs that ran memory-resident on each ICON had to first be downloaded from the LEXICON across an ARCNET network. Moreover, when users logged into QNX on their ICON, they were actually logging in as a user account on the LEXICON and accessing the files within their home directory on the LEXICON&amp;rsquo;s hard drive. When users printed documents, they printed to the shared printer connected to the LEXICON.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ontario&#39;s Computer: The Burroughs ICON</title>
       <link>https://jasoneckert.github.io/myblog/icon-computer/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/icon-computer/</guid>
-      <description>Nicknamed the bionic beaver, the ICON was a Canadian computer funded by the Ontario government and used in schools province wide. It was designed by CEMCorp (Canadian Educational Microprocessor Corporation) and manufactured by Burroughs (later renamed to Unisys). Moreover, it ran the QNX UNIX-like operating system, which was also developed in Canada by two University of Waterloo students. If you took a computer programming course in high school during the 1980s or early 1990s, you likely remember learning C, BASIC or Pascal on the ICON, as well as many UNIX commands that would pay off later in college or university.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;ICON_logos.jpg#center&#34; alt=&#34;ICON logo&#34; title=&#34;ICON logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nicknamed the &lt;em&gt;&lt;strong&gt;bionic beaver&lt;/strong&gt;&lt;/em&gt;, the ICON was a Canadian computer funded by the Ontario government and used in schools province wide. It was designed by CEMCorp (Canadian Educational Microprocessor Corporation) and manufactured by Burroughs (later renamed to Unisys). Moreover, it ran the QNX UNIX-like operating system, which was also developed in Canada by two University of Waterloo students.&#xA;&lt;img src=&#34;ICON.jpg#right&#34; alt=&#34;ICON&#34; title=&#34;ICON&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you took a computer programming course in high school during the 1980s or early 1990s, you likely remember learning C, BASIC or Pascal on the ICON, as well as many UNIX commands that would pay off later in college or university. If you didn&amp;rsquo;t, you probably remember the ICON as a cool looking steel monstrosity that had an indestructible keyboard and trackball (that everyone tried to spin as fast as they could).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SPARCbook teardown</title>
       <link>https://jasoneckert.github.io/myblog/sparcbook-teardown/</link>
       <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/sparcbook-teardown/</guid>
-      <description>Back in 2019, I picked up a rare SPARC-based laptop from the 1990s running Solaris UNIX (marketed as the ultimate UNIX portable on the Tadpole website in 1997). You can read my blog post on it here: SPARCbook 3000ST: The coolest 90s laptop. It occasionally shows up on Hacker News, and I get plenty of comments whenever I post it on Reddit.
-However, I&amp;rsquo;ve always been curious as to the internals.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;s3000_ad.gif#right&#34; alt=&#34;SPARCbook 3000ST ad&#34; title=&#34;SPARCbook 3000ST ad&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in 2019, I picked up a rare SPARC-based laptop from the 1990s running Solaris UNIX (marketed as the &lt;em&gt;&lt;strong&gt;ultimate UNIX portable&lt;/strong&gt;&lt;/em&gt; on the Tadpole website in 1997). You can read my blog post on it here: &lt;a href=&#34;../../myblog/sparcbook3000st-the-coolest-90s-laptop/&#34; title=&#34;SPARCbook 3000ST: The coolest 90s laptop&#34;&gt;SPARCbook 3000ST: The coolest 90s laptop&lt;/a&gt;. It occasionally shows up on Hacker News, and I get plenty of comments whenever I post it on Reddit.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The old Web was fun</title>
       <link>https://jasoneckert.github.io/myblog/the-old-web-was-fun/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-old-web-was-fun/</guid>
-      <description>I was around during the birth of the web in the early 1990s and have enjoyed every twist and turn since then. Even before creating my own personal website and blog (this site) in 1998, I maintained the Department of Science website at UW (originally http://sciborg.uwaterloo.ca).
-And while I’ve enjoyed watching the evolution of the web, I still think the old web was more fun. In this blog post, I’ll tell you why.</description>
+      <description>&lt;p&gt;I was around during the birth of the web in the early 1990s and have enjoyed every twist and turn since then. Even before creating my own personal website and blog (this site) in 1998, I maintained the Department of Science website at UW (originally &lt;a href=&#34;http://sciborg.uwaterloo.ca&#34;&gt;http://sciborg.uwaterloo.ca&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;And while I’ve enjoyed watching the evolution of the web, I still think the old web was more fun. In this blog post, I’ll tell you why. But first, let’s cover some background info!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2019 in review</title>
       <link>https://jasoneckert.github.io/myblog/2019-in-review/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/2019-in-review/</guid>
-      <description>This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!
-On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA) Instructor Network.
-This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;macandme.png#center&#34; alt=&#34;Mac and me&#34; title=&#34;Mac and me&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;award.jpg#left&#34; alt=&#34;CompTIA award&#34; title=&#34;CompTIA award&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!&lt;/p&gt;&#xA;&lt;p&gt;On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA)  Instructor Network.&lt;/p&gt;&#xA;&lt;p&gt;This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Reviving an ancient BSD UNIX workstation</title>
       <link>https://jasoneckert.github.io/myblog/reviving-an-ancient-bsd-workstation/</link>
       <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/reviving-an-ancient-bsd-workstation/</guid>
-      <description>Most people will look at this 3-foot-long behemoth of ancient electronics and wonder why it wasn’t scrapped decades ago. But for many of us in the tech industry, these ancient machines are a way to peer into the early days of an industry that has twisted and evolved in leaps and bounds, leaving nearly every player that shaped its landscape forgotten in time.
-The machine sitting in my driveway at the top of this post is a workstation from the early 1980s with a NS32016 CPU (the first 32-bit general purpose microprocessor) and a whopping 1MB of RAM.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;genixworkstation.png#center&#34; alt=&#34;GENIX workstation&#34; title=&#34;GENIX workstation&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Most people will look at this 3-foot-long behemoth of ancient electronics and wonder why it wasn’t scrapped decades ago. But for many of us in the tech industry, these ancient machines are a way to peer into the early days of an industry that has twisted and evolved in leaps and bounds, leaving nearly every player that shaped its landscape forgotten in time.&lt;/p&gt;&#xA;&lt;p&gt;The machine sitting in my driveway at the top of this post is a workstation from the early 1980s with a NS32016 CPU (the first 32-bit general purpose microprocessor) and a whopping 1MB of RAM. It&amp;rsquo;s running Genix (BSD UNIX for the NS32016) and performs at a speed of 2.5 MIPS. For comparison, a modern AMD Ryzen 7 system performs at over 300,000 MIPS.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SPARCbook 3000ST: The coolest 90s laptop</title>
       <link>https://jasoneckert.github.io/myblog/sparcbook3000st-the-coolest-90s-laptop/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/sparcbook3000st-the-coolest-90s-laptop/</guid>
-      <description>A few weeks back I managed to pick up an incredibly rare laptop in immaculate condition for $50 on Kijiji: a Tadpole Technologies SPARCbook 3000ST from 1997 (it also came with two other working Pentium laptops from the 1990s).
-I had to drive almost three hours to pick it up on the other side of Toronto, but for a SPARCbook it was definitely worth it seeing as I&amp;rsquo;m more likely to find the lost city of Atlantis than another one of these again.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;sparcbook1.png#center&#34; alt=&#34;SPARCbook1&#34; title=&#34;SPARCbook1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;sparcbook2.jpg#right&#34; alt=&#34;SPARCbook2&#34; title=&#34;SPARCbook2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A few weeks back I managed to pick up an incredibly rare laptop in immaculate condition for $50 on Kijiji: a Tadpole Technologies SPARCbook 3000ST from 1997 (it also came with two other working Pentium laptops from the 1990s).&lt;/p&gt;&#xA;&lt;p&gt;I had to drive almost three hours to pick it up on the other side of Toronto, but for a SPARCbook it was definitely worth it seeing as I&amp;rsquo;m more likely to find the lost city of Atlantis than another one of these again.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Halt and Catch Fire</title>
       <link>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</guid>
-      <description>Halt and Catch Fire is an AMC television series that ran for four seasons from 2014-2017, and covers the culture and pivotal aspects of the computing industry from 1983 (just after the release of the IBM PC) to 1994 (when the Internet and World Wide Web exploded).
-You can binge watch it on Netflix if you like today, and trust me - you won’t be disappointed! Halt and Catch Fire is the best drama I’ve ever seen - an emotional rollercoaster like no other.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;haltandcatchfire.png#center&#34; alt=&#34;Halt and Catch Fire&#34; title=&#34;Halt and Catch Fire&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Halt and Catch Fire is an AMC television series that ran for four seasons from 2014-2017, and covers the culture and pivotal aspects of the computing industry from 1983 (just after the release of the IBM PC) to 1994 (when the Internet and World Wide Web exploded).&lt;/p&gt;&#xA;&lt;p&gt;You can binge watch it on Netflix if you like today, and trust me - you won’t be disappointed!  Halt and Catch Fire is the best drama I’ve ever seen - an emotional rollercoaster like no other.  The characters are unforgettable, the acting is nothing short of phenomenal, and the entire series has an incredible message about technology and human progress that you only get once you see the final episode!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2016 in review</title>
       <link>https://jasoneckert.github.io/myblog/2016-in-review/</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/2016-in-review/</guid>
-      <description>For the past years, I’ve done a “year in review” blog post, and of course this one is for 2016! It’s a great way to reflect on the events that have happened during the year, and to honest, is actually a lot of fun!
-Just a quick disclaimer: I have no intention of talking about the shallow-but-popular celebrity death fixation that has taken over the Internet (must be a millennial thing).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;2016a.png#center&#34; alt=&#34;2016a&#34; title=&#34;2016a&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;For the past years, I’ve done a “year in review” blog post, and of course this one is for 2016! It’s a great way to reflect on the events that have happened during the year, and to honest, is actually a lot of fun!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2016b.jpg#right&#34; alt=&#34;2016b&#34; title=&#34;2016b&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Just a quick disclaimer: I have no intention of talking about the shallow-but-popular celebrity death fixation that has taken over the Internet (must be a millennial thing).  That being said, when I heard that Prince died, it led me to watch Purple Rain again (great movie), so there’s a plus.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>An evening with The Woz</title>
       <link>https://jasoneckert.github.io/myblog/an-evening-with-the-woz/</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/an-evening-with-the-woz/</guid>
-      <description>I specifically attended yesterday’s Fuzenation Technology &amp;amp; Music Summit in Kitchener, Ontario to hear Steve Wozniak (a.k.a. The Woz) speak.
-In short, he’s the co-founder of Apple, and the engineer who created the Apple I and Apple II computers. The Apple II was the first successful, mass-produced personal computer, and as the Woz points out, the “first one that could play arcade games in full colour” (I still have an Apple II that I use to play arcade games like Donkey Kong).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;woz.png#center&#34; alt=&#34;Steve Wozniak&#34; title=&#34;Steve Wozniak&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I specifically attended yesterday’s Fuzenation Technology &amp;amp; Music Summit in Kitchener, Ontario to hear Steve Wozniak (a.k.a. The Woz) speak.&lt;/p&gt;&#xA;&lt;p&gt;In short, he’s the co-founder of Apple, and the engineer who created the Apple I and Apple II computers.  The Apple II was the first successful, mass-produced personal computer, and as the Woz points out, the “first one that could play arcade games in full colour” (I still have an Apple II that I use to play arcade games like Donkey Kong).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The World Wide Web turns 25 years old today</title>
       <link>https://jasoneckert.github.io/myblog/www-turns-25/</link>
       <pubDate>Tue, 23 Aug 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/www-turns-25/</guid>
-      <description>On August 6, 1991, Tim Berners-Lee created a post detailing his World Wide Web project on a newsgroup called alt.hypertext in order to entice others to collaborate with him and create and host Web pages for the World Wide Web. However, it wasn’t until August 23, 1991 that it was made publicly accessible for the world to see. You could argue that August 6 is the real birth of the World Wide Web, but most websites and news aggregators acknowledge August 23 as the true birth of the World Wide Web, including Facebook, which included it as a news item today for everyone!</description>
+      <description>&lt;p&gt;&lt;img src=&#34;www1.png#center&#34; alt=&#34;WWW1&#34; title=&#34;WWW1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;On August 6, 1991, Tim Berners-Lee created a post detailing his World Wide Web project on a newsgroup called alt.hypertext in order to entice others to collaborate with him and create and host Web pages for the World Wide Web.  However, it wasn’t until August 23, 1991 that it was made publicly accessible for the world to see.  You could argue that August 6 is the real birth of the World Wide Web, but most websites and news aggregators acknowledge August 23 as the true birth of the World Wide Web, including Facebook, which included it as a news item today for everyone!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The dawn of personal computing</title>
       <link>https://jasoneckert.github.io/myblog/dawn-of-personal-computing/</link>
       <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/dawn-of-personal-computing/</guid>
-      <description>If you know me, or have read various sections of my website, you’ll know that I am a die hard member of the computing industry that also likes to collect vintage computers (this is actually quite common - you’d be surprised how many of my colleagues do the same).
-Yesterday, I managed to find a very interesting canvas painting in Toronto (the picture at the top of this post), and just HAD to have it.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;art1.png#center&#34; alt=&#34;Art1&#34; title=&#34;Art1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you know me, or have read various sections of my website, you’ll know that I am a die hard member of the computing industry that also likes to collect vintage computers (this is actually quite common - you’d be surprised how many of my colleagues do the same).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;art2.jpg#right&#34; alt=&#34;Art2&#34; title=&#34;Art2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yesterday, I managed to find a very interesting canvas painting in Toronto (the picture at the top of this post), and just HAD to have it.  From the signature, it was painted in 1983 by what looks like T., N., or M. McLaughlin:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Some NeXT level stuff</title>
       <link>https://jasoneckert.github.io/myblog/some-next-level-stuff/</link>
       <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/some-next-level-stuff/</guid>
-      <description>1. What is NeXT? (pun intended) NeXT was the computer company that Steve Jobs (co-founder of Apple) created after he got kicked out of Apple in the 1980s. They made high-end UNIX workstations that were intended to rival Apple computers, and primarily targeted for the higher education and science/engineering markets. However, they were not as successful as their competitors in this market and when Steve Jobs returned to Apple in 1997, he ensured that Apple purchased NeXT.</description>
+      <description>&lt;h1 id=&#34;1-what-is-next-pun-intended&#34;&gt;1. What is NeXT? (pun intended)&lt;/h1&gt;&#xA;&lt;p&gt;NeXT was the computer company that Steve Jobs (co-founder of Apple) created after he got kicked out of Apple in the 1980s.  They made high-end UNIX workstations that were intended to rival Apple computers, and primarily targeted for the higher education and science/engineering markets.  However, they were not as successful as their competitors in this market and when Steve Jobs returned to Apple in 1997, he ensured that Apple purchased NeXT.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>World of Commodore conference</title>
       <link>https://jasoneckert.github.io/myblog/world-of-commodore-conference/</link>
       <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/world-of-commodore-conference/</guid>
-      <description>This is the first year that I’ve been to the World of Commodore event in Mississauga, Ontario. It&amp;rsquo;s a yearly gathering of Commodorks who create new software and hardware for vintage Commodore computers. I had no idea that it even existed until someone I knew told me about it. Since it’s relatively close to me, I just had to go. Plus, I have many Commodore computers in my vintage computer collection.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;woc1.png#center&#34; alt=&#34;WOC1&#34; title=&#34;WOC1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is the first year that I’ve been to the World of Commodore event in Mississauga, Ontario. It&amp;rsquo;s a yearly gathering of Commodorks who create new software and hardware for vintage Commodore computers. I had no idea that it even existed until someone I knew told me about it. Since it’s relatively close to me, I just had to go. Plus, I have many Commodore computers in my vintage computer collection.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The transputer</title>
       <link>https://jasoneckert.github.io/myblog/the-transputer/</link>
       <pubDate>Thu, 17 Feb 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-transputer/</guid>
-      <description>So what the heck is a transputer? Well, it is a RISC CPU design from a company in England called INMOS that was designed so that it could interface with other CPUs of the same type in a massively parallel fashion (like a mini supercomputer).
-The reason it was made was because CISC CPU designs of the 1980s were getting too bulky and people thought that it would be hard to advance them (of course they were wrong - never doubt engineers!</description>
+      <description>&lt;p&gt;&lt;img src=&#34;transputer1.png#center&#34; alt=&#34;Transputer board&#34; title=&#34;Transputer board&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So what the heck is a transputer?  Well, it is a RISC CPU design from a company in England called INMOS that was designed so that it could interface with other CPUs of the same type in a massively parallel fashion (like a mini supercomputer).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;transputer2.jpg#left&#34; alt=&#34;Transputer CPU&#34; title=&#34;Transputer CPU&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The reason it was made was because CISC CPU designs of the 1980s were getting too bulky and people thought that it would be hard to advance them (of course they were wrong - never doubt engineers!).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The rise and fall of DEC</title>
       <link>https://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</link>
       <pubDate>Wed, 26 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</guid>
-      <description>Firstly, the information that I’m presenting here is taken from various sources, including people I knew who worked for DEC, my own experiences, and the book DEC Is Dead, Long Live DEC by Edgar H. Schein.
-Quick background info: DEC was the first knowledge-based company - a company who valued the knowledge of its employees over anything else, and used it to drive change and sell products.
-The founder and father icon of DEC, Ken Olsen, spent time working at IBM.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;dec.gif#center&#34; alt=&#34;DEC article&#34; title=&#34;DEC article&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Firstly, the information that I’m presenting here is taken from various sources, including people I knew who worked for DEC, my own experiences, and the book &lt;em&gt;&lt;strong&gt;DEC Is Dead, Long Live DEC&lt;/strong&gt;&lt;/em&gt; by Edgar H. Schein.&lt;/p&gt;&#xA;&lt;h1 id=&#34;quick-background-info&#34;&gt;Quick background info:&lt;/h1&gt;&#xA;&lt;p&gt;DEC was the first knowledge-based company - a company who valued the knowledge of its employees over anything else, and used it to drive change and sell products.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>All about DEC</title>
       <link>https://jasoneckert.github.io/myblog/all-about-dec/</link>
       <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/all-about-dec/</guid>
-      <description>Digital Equipment Corporation (DEC) was born in the late 1950s when it was lucrative to make computers that cost a ton of money. And DEC was good - they would make computers that would perform much better and cost significantly less than the IBM equivalent (IBM mainframes back then were expensive behemoths).
-The DEC PDP (Programmed Data Processor) line of minicomputers were so good and inexpensive, you’d be hard pressed to NOT find one in your local university.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;dec1.png&#34; alt=&#34;DEC 1&#34; title=&#34;DEC 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;dec2.jpg#right&#34; alt=&#34;DEC 2&#34; title=&#34;DEC 2&#34;&gt;&#xA;Digital Equipment Corporation (DEC) was born in the late 1950s when it was lucrative to make computers that cost a ton of money.  And DEC was good - they would make computers that would perform much better and cost significantly less than the IBM equivalent (IBM mainframes back then were expensive behemoths).&lt;/p&gt;&#xA;&lt;p&gt;The DEC PDP (Programmed Data Processor) line of minicomputers were so good and inexpensive, you’d be hard pressed to NOT find one in your local university. The PDP-7 was the first computer to run the infamous UNIX operating system. The PDP-10 was the first computer to introduce time sharing and TCP/IP implementation for the Internet (there were plenty of PDP-10 nodes on the early Internet, or ARPANET). The PDP-11 was the most influential and mass-produced minicomputer of its time that led to the creation of the C programming language as well as the designs of CP/M, DOS, and the Motorola 68000 architecture.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Atari 2600 deep dive</title>
       <link>https://jasoneckert.github.io/myblog/atari-2600-deep-dive/</link>
       <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/atari-2600-deep-dive/</guid>
-      <description>One thing that many people don’t realize is that the foundation of the video game industry, including terminology and techniques were solidified in the 1970s and early 1980s during the home video game movement! And the home gaming console that led to the most development in this area was the least technologically advanced one for its time: The 1977 Atari Video Computer System (VCS), later known as the Atari 2600.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;2600a.jpg#center&#34; alt=&#34;Atari 2600&#34; title=&#34;Atari 2600&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;One thing that many people don’t realize is that the foundation of the video game industry, including terminology and techniques were solidified in the 1970s and early 1980s during the home video game movement!  And the home gaming console that led to the most development in this area was the least technologically advanced one for its time:  The 1977 Atari Video Computer System (VCS), later known as the Atari 2600.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Gospel of Tux v1.0</title>
       <link>https://jasoneckert.github.io/myblog/the-gospel-of-tux/</link>
       <pubDate>Tue, 28 Dec 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-gospel-of-tux/</guid>
-      <description>Every generation has a mythology. Every millennium has a doomsday cult. Every legend gets the distortion knob wound up until the speaker melts. Archeologists at the University of Helsinki today uncovered what could be the earliest known writings from the Cult of Tux, a fanatical religious sect that flourished during the early Silicon Age, just before the dawn of the third millennium AD.
-In the beginning Turing created the Machine.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;tux.png#right&#34; alt=&#34;Tux&#34; title=&#34;Tux&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Every generation has a mythology. Every millennium has a doomsday cult. Every legend gets the distortion knob wound up until the speaker melts. Archeologists at the University of Helsinki today uncovered what could be the earliest known writings from the Cult of Tux, a fanatical religious sect that flourished during the early Silicon Age, just before the dawn of the third millennium AD.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the beginning Turing created the Machine. And the Machine was crufty and bodacious, existing in theory only. And von Neumann looked upon the Machine, and saw that it was crufty. He divided the Machine into two Abstractions, the Data and the Code, and yet the two were one Architecture. This is a great Mystery, and the beginning of wisdom. And von Neumann spoke unto the Architecture, and blessed it, saying, &amp;ldquo;Go forth and replicate, freely exchanging data and code, and bring forth all manner of devices unto the earth.&amp;rdquo; And it was so, and it was cool. The Architecture prospered and was implemented in hardware and software. And it brought forth many Systems unto the earth.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>NeXTSTEP is cool</title>
       <link>https://jasoneckert.github.io/myblog/nextstep-is-cool/</link>
       <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/nextstep-is-cool/</guid>
-      <description>When Steve Jobs left Apple in the 1980s, he started a new venture that produced NeXT UNIX computers that ran a custom UNIX system called NeXTSTEP on Motorola 68000-series computers. The first Web browser was made my Tim Berners-Lee on one of these NeXT computers!
-When I was an undergrad student at the University of Waterloo, we had a few NeXT computers (literally two of them I believe) and a bunch of HP PA-RISC 712s running NeXTSTEP for object-oriented software development (it was more common to see Sun or SGI UNIX systems at the university back them).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;nextstep.jpg#center&#34; alt=&#34;NeXTSTEP&#34; title=&#34;NeXTSTEP&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When Steve Jobs left Apple in the 1980s, he started a new venture that produced NeXT UNIX computers that ran a custom UNIX system called NeXTSTEP on Motorola 68000-series computers. The first Web browser was made my Tim Berners-Lee on one of these NeXT computers!&lt;/p&gt;&#xA;&lt;p&gt;When I was an undergrad student at the University of Waterloo, we had a few NeXT computers (literally two of them I believe) and a bunch of HP PA-RISC 712s running NeXTSTEP for object-oriented software development (it was more common to see Sun or SGI UNIX systems at the university back them).They were cool - and I remember using the HP PA-RISC 712s to do development in university thinking something along the lines of “this is nice, but not as nice as SGI IRIX (Silicon Graphics UNIX).”&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The famous Pentium FDIV bug</title>
       <link>https://jasoneckert.github.io/myblog/the-famous-pentium-fdiv-bug/</link>
       <pubDate>Mon, 08 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-famous-pentium-fdiv-bug/</guid>
-      <description>One of my favourite CPUs from my CPU collection is the original Pentium 60MHz shown here. The reason that this model (SX835 with Gold top) is one of my favourites in not because it looks good, but rather that it was one of the Pentium models that had the famous FDIV bug.
-The FDIV bug was a problem with the floating point unit in early Pentium CPUs that resulted in reduced precision of division operations (FDIV is the x86 assembly language instruction for floating point division).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;pentium.png#right&#34; alt=&#34;Pentium CPU&#34; title=&#34;Pentium CPU&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;One of my favourite CPUs from my CPU collection is the original Pentium 60MHz shown here.  The reason that this model (SX835 with Gold top) is one of my favourites in not because it looks good, but rather that it was one of the Pentium models that had the famous FDIV bug.&lt;/p&gt;&#xA;&lt;p&gt;The FDIV bug was a problem with the floating point unit in early Pentium CPUs that resulted in reduced precision of division operations (FDIV is the x86 assembly language instruction for floating point  division).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Anatomy of an AS/400</title>
       <link>https://jasoneckert.github.io/myblog/anatomy-of-an-as400/</link>
       <pubDate>Tue, 14 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/anatomy-of-an-as400/</guid>
-      <description>During my spring cleaning, I ended up getting rid of my AS/400 model 9404-D10 from 1991.
-Since the power supply is dead in it, I decided to disassemble and photograph the inside of this amazing machine. AS/400s are well known for their legendary uptimes, and were the “jewel” of IBM in the late 1980s to 1990s. In 1993, when IBM was close to splitting up their divisions into smaller companies, Bill Gates said that “the only part of IBM that Microsoft would be interested in was the AS/400 division.</description>
+      <description>&lt;p&gt;During my spring cleaning, I ended up getting rid of my AS/400 model 9404-D10 from 1991.&lt;/p&gt;&#xA;&lt;p&gt;Since the power supply is dead in it, I decided to disassemble and photograph the inside of this amazing machine.  AS/400s are well known for their legendary uptimes, and were the “jewel” of IBM in the late 1980s to 1990s.  In 1993, when IBM was close to splitting up their divisions into smaller companies, Bill Gates said that “the only part of IBM that Microsoft would be interested in was the AS/400 division.”  At the time, many of Microsoft&amp;rsquo;s internal systems ran on the AS/400 platform.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>IBM hard drive from 1981</title>
       <link>https://jasoneckert.github.io/myblog/ibm-hard-drive-1981/</link>
       <pubDate>Tue, 27 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/ibm-hard-drive-1981/</guid>
-      <description>This picture is of an IBM Model 3380 Hard Drive from 1981. Because it looks like a nuclear device or jet engine, I was able to convince my neighbour that I was generating my own nuclear power from now on, as well as the people at the Chrysler convention that it was an electric engine for a transport truck (I was passing them when going to a high school tech presentation at Bingemans where I used this as a fun prop).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;3380a.png#right&#34; alt=&#34;3380a&#34; title=&#34;3380a&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This picture is of an IBM Model 3380 Hard Drive from 1981. Because it looks like a nuclear device or jet engine, I was able to convince my neighbour that I was generating my own nuclear power from now on, as well as the people at the Chrysler convention that it was an electric engine for a transport truck (I was passing them when going to a high school tech presentation at Bingemans where I used this as a fun prop). My pranks know no bounds!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Nostradamus of UNIX</title>
       <link>https://jasoneckert.github.io/myblog/the-nostradamus-of-unix/</link>
       <pubDate>Thu, 22 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-nostradamus-of-unix/</guid>
-      <description>Every so often I re-read a book that I read years ago to remember what it is about. Mostly, I re-read sci-fi or notable works such as Neuromancer (William Gibson) or The Hitchhiker’s Guide to the Galaxy (Douglas Adams) since those are the types of books that I kept over the years.
-However, I kept a book from 1989 called Life with UNIX (Don Libes &amp;amp; Sandy Ressler) that I remember using as a good UNIX reference a long time ago.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;lifewithunix.png#right&#34; alt=&#34;Life with UNIX&#34; title=&#34;Life with UNIX&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Every so often I re-read a book that I read years ago to remember what it is about.  Mostly, I re-read sci-fi or notable works such as &lt;em&gt;&lt;strong&gt;Neuromancer&lt;/strong&gt;&lt;/em&gt; (William Gibson) or &lt;em&gt;&lt;strong&gt;The Hitchhiker’s Guide to the Galaxy&lt;/strong&gt;&lt;/em&gt; (Douglas Adams) since those are the types of books that I kept over the years.&lt;/p&gt;&#xA;&lt;p&gt;However, I kept a book from 1989 called &lt;em&gt;&lt;strong&gt;Life with UNIX&lt;/strong&gt;&lt;/em&gt; (Don Libes &amp;amp; Sandy Ressler) that I remember using as a good UNIX reference a long time ago.  While browsing the Net, I happened across a recent review of it that said it was “a timeless book on everything UNIX – 90% of it still applies today.”&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>History of game consoles</title>
       <link>https://jasoneckert.github.io/myblog/history-of-game-consoles/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/history-of-game-consoles/</guid>
-      <description>It is now more than 30 years since the first real game console (the Atari 2600) was released in Canada. Below is a timeline of each major console, the CPU/GPU they used and any other neat stuff. Basically, you will notice two important trends:
-The console manufacturers love to copy each other - up to the mid-1980s, they mostly had MOS 6502-based CPUs - in the late 1980s and early 1990s, they had Motorola 68000-based CPUs - in the mid-1990s to early 2000s they mostly had MIPS-based RISC CPUs - and today they all have PowerPC-based RISC CPUs and complex GPUs.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;temps.png#right&#34; alt=&#34;temps&#34; title=&#34;temps&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is now more than 30 years since the first real game console (the Atari 2600) was released in Canada. Below is a timeline of each major console, the CPU/GPU they used and any other neat stuff.  Basically, you will notice two important trends:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The console manufacturers love to copy each other - up to the mid-1980s, they mostly had MOS 6502-based CPUs - in the late 1980s and early 1990s, they had Motorola 68000-based CPUs - in the mid-1990s to early 2000s they mostly had MIPS-based RISC CPUs - and today they all have PowerPC-based RISC CPUs and complex GPUs.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Roughing it on vacation</title>
       <link>https://jasoneckert.github.io/myblog/roughing-it-on-vacation/</link>
       <pubDate>Sat, 07 Jul 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/roughing-it-on-vacation/</guid>
-      <description>Yup - it’s vacation time again! And this next week I plan to do nothing but relax, get a tan, drink “Muskoka Dry Pale Ginger Ale” and read a few books that I haven’t had the time to open yet. And yes, my daughter is going to swim all week long - that is her in the water with the kids from the cottage next door.
-Now you are probably wondering why I am blogging on my vacation&amp;hellip;&amp;hellip;shouldn’t a vacation be devoid of TV/phones/Internet/computers?</description>
+      <description>&lt;p&gt;&lt;img src=&#34;dwight.png#center&#34; alt=&#34;Dwight&#34; title=&#34;Dwight&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yup - it’s vacation time again!  And this next week I plan to do nothing but relax, get a tan, drink “Muskoka Dry Pale Ginger Ale” and read a few books that I haven’t had the time to open yet.  And yes, my daughter is going to swim all week long - that is her in the water with the kids from the cottage next door.&lt;/p&gt;&#xA;&lt;p&gt;Now you are probably wondering why I am blogging on my vacation&amp;hellip;&amp;hellip;shouldn’t a vacation be devoid of TV/phones/Internet/computers?  Well, in a way, I am abandoning technology for the whole week - I am writing this blog on a greyscale PowerBook 140 (1992), saving my work in ClarisWorks to a floppy, and transporting it to my current Macintosh when I return via an external USB floppy drive.  How RETRO!  Now that is what I call “roughing it”.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Linux thin clients</title>
       <link>https://jasoneckert.github.io/myblog/linux-thin-clients/</link>
       <pubDate>Sat, 05 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/linux-thin-clients/</guid>
-      <description>Jon “maddog” Hall gave a talk about using Linux thin clients (e.g. the Linux Terminal Server Project) to provide Internet and application access to schools, third-world countries and organizations in general. He specifically noted that thin clients (like the HP Compaq t5125 which only uses 10 Watts of power compared to the 550 Watts used by most computers) could easily provide low-power, high-performance computing on a large scale.
-After hearing this, it sparked my curiosity since I typically use Remote Desktop as part of my job to connect to Windows Terminal Servers at our college head office.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;o2linux.jpg#center&#34; alt=&#34;SGI O2 running Linux&#34; title=&#34;SGI O2 running Linux&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jon “maddog” Hall gave a talk about using Linux thin clients (e.g. the Linux Terminal Server Project) to provide Internet and application access to schools, third-world countries and organizations in general.  He specifically noted that thin clients (like the  HP Compaq t5125 which only uses 10 Watts of power compared to the 550 Watts used by most computers) could easily provide low-power, high-performance computing on a large scale.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Computer evolution</title>
       <link>https://jasoneckert.github.io/myblog/computer-evolution/</link>
       <pubDate>Fri, 27 Jan 2006 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/computer-evolution/</guid>
-      <description>OK - so Apple released the new Intel Macs this month and shocked everyone with their amazing speed improvements. But what I noticed is that Apple didn’t create a whole new look for them - essentially, the new line is in the same beautiful package as the iMac G5 and PowerBook. These designs must be very good if Apple is going to stick with them, and as a result, are key turning points in Mac evolution.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;evolution.png#center&#34; alt=&#34;evolution&#34; title=&#34;evolution&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;OK - so Apple released the new Intel Macs this month and shocked everyone with their amazing speed improvements.  But what I noticed is that Apple didn’t create a whole new look for them - essentially, the new line is in the same beautiful package as the iMac G5 and PowerBook.  These designs must be very good if Apple is going to stick with them, and as a result, are key turning points in Mac evolution.   Does evolutionary theory apply to computers.  I think so.  As I am sure the famous Richard Dawkins would point out, there must be some point where we could trace the current models of computers back to common motherboard architecture&amp;hellip;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Old Macs never die</title>
       <link>https://jasoneckert.github.io/myblog/old-macs-never-die/</link>
       <pubDate>Wed, 18 Aug 2004 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/old-macs-never-die/</guid>
-      <description>We just came back from the Ontario Science Centre today. While my daughter checked out the educational exhibits (obviously learning important information), I was more impressed by the fact that some exhibits that haven&amp;rsquo;t changed for several years are still powered by Mac Classics! And to boot, the exhibits were still pretty damn good with those old computers.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;osc.png#center&#34; alt=&#34;Ontario Science Centre&#34; title=&#34;Ontario Science Centre&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;We just came back from the Ontario Science Centre today. While my daughter checked out the educational exhibits (obviously learning important information), I was more impressed by the fact that some exhibits that haven&amp;rsquo;t changed for several years are still powered by Mac Classics! And to boot, the exhibits were still pretty damn good with those old computers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2. Retro Computers</title>
       <link>https://jasoneckert.github.io/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/info/retrocomputers/</guid>
-      <description>Apple Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions).</description>
+      <description>&lt;h1 id=&#34;apple&#34;&gt;Apple&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;appleiic.jpg#right&#34; alt=&#34;Apple IIc&#34; title=&#34;Apple IIc&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions). The Apple II was very well built and had tons of expansion ports. It inspired thousands of people to enter the computer world. Thousands of programs were made for it, and it made its way into nearly every industry in a short period of time. The famous spreadsheet, Visicalc, made the Apple II a great business tool, its ease of use made it extremely popular in the school system (every school I went to had them, even in the 1990s), and its BASIC interpreter and easy expandability made it famous with hackers, engineers and scientists (the first demonstration of public key cryptography was hacked together by a few mathematicians on an Apple II).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>3. Personal Interests</title>
       <link>https://jasoneckert.github.io/bio/personal/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/bio/personal/</guid>
-      <description>Parenting I am a happily divorced proud father of one. I’ve pretty much raised my daughter since she was 5 years old on my own, and yes, I’ve made school lunches, threw kids parties, went to great places (Ontario Science Centre, ROM, SportsWorld, Storybook Gardens, Disney World and more!), spent vacations camping/cottaging, and watched far too many Land Before Time movies. The picture on the left is my daughter while we were vacationing at Disney World in Florida over a decade ago.</description>
+      <description>&lt;h1 id=&#34;parenting&#34;&gt;Parenting&lt;/h1&gt;&#xA;&lt;p&gt;I am a happily divorced proud father of one. I’ve pretty much raised my daughter since she was 5 years old on my own, and yes, I’ve made school lunches, threw kids parties, went to great places (Ontario Science Centre, ROM, SportsWorld, Storybook Gardens, Disney World and more!), spent vacations camping/cottaging, and watched far too many Land Before Time movies. The picture on the left is my daughter while we were vacationing at Disney World in Florida over a decade ago. Now that my daughter is grown up, I miss those years. But she recently became a parent herself, so in a few years I&amp;rsquo;ll likely be doing some of those things as a grandparent. After my daughter moved out of the house, my adorable dog Pepper and I went on many more amazing adventures until she &lt;a href=&#34;../../myblog/remembering-pepper/&#34;&gt;passed away at the age of 13&lt;/a&gt;. I am incredibly grateful to have been a dad to both my daughter and Pepper.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

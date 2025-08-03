@@ -1,282 +1,208 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>open source on Jason Eckert&#39;s Website and Blog</title>
+    <title>Open Source on Jason Eckert&#39;s Website and Blog</title>
     <link>https://jasoneckert.github.io/tags/open-source/</link>
-    <description>Recent content in open source on Jason Eckert&#39;s Website and Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Open Source on Jason Eckert&#39;s Website and Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jasoneckert.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Story Behind the Mac vs PC Rivalry — And Where Linux Quietly Took Over</title>
       <link>https://jasoneckert.github.io/myblog/mac-vs-pc/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/mac-vs-pc/</guid>
-      <description>When it comes to computers, most people today use either a Mac or a PC. In this post, I’ll explore how this digital rivalry began, how it shaped modern computing — and how Linux quietly carved out a space of its own.
-The Early Days: Roots of the Rivalry In the 1980s, personal computers (PCs) began appearing in homes, schools, and businesses across the world. A wide range of companies entered the market, including Apple, IBM, Tandy, Commodore, Atari, Texas Instruments, and Sinclair.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;mac-vs-pc.jpg#center&#34; alt=&#34;Mac vs PC&#34; title=&#34;Mac vs PC&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to computers, most people today use either a Mac or a PC. In this post, I’ll explore how this digital rivalry began, how it shaped modern computing — and how Linux quietly carved out a space of its own.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-early-days-roots-of-the-rivalry&#34;&gt;The Early Days: Roots of the Rivalry&lt;/h1&gt;&#xA;&lt;p&gt;In the 1980s, personal computers (PCs) began appearing in homes, schools, and businesses across the world. A wide range of companies entered the market, including Apple, IBM, Tandy, Commodore, Atari, Texas Instruments, and Sinclair. Most of these early machines featured basic text-based interfaces — often just a simple version of the BASIC programming language. But a few notable outliers, like the Apple Macintosh and the IBM PC, ran more sophisticated operating systems that hinted at what modern computing would eventually become.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Leveraging WSL2 for Systems &amp; Cloud Administration, Cybersecurity, and Software Development</title>
       <link>https://jasoneckert.github.io/myblog/wsl2/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/wsl2/</guid>
-      <description>There&amp;rsquo;s quite a bit going on in the Windows 11 desktop pic shown at the top of this post. To see the details, you can pinch zoom the pic if you are on a phone or touchscreen device, or right-click the pic and choose to open it in a new browser tab if you are on a desktop computer.
-In the upper left, I&amp;rsquo;m running a Linux container with a sample Python web app in Podman Desktop that listens to port 3333 and outputs &amp;ldquo;Hello World!</description>
+      <description>&lt;p&gt;&lt;img src=&#34;desktop.png#center&#34; alt=&#34;Win11 Desktop running 3 WSL2 instances&#34; title=&#34;Win11 Desktop running 3 WSL2 instances&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s quite a bit going on in the Windows 11 desktop pic shown at the top of this post. To see the details, you can pinch zoom the pic if you are on a phone or touchscreen device, or right-click the pic and choose to open it in a new browser tab if you are on a desktop computer.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Configuring GitHub Discussions to provide Blog Comments</title>
       <link>https://jasoneckert.github.io/myblog/github-discussions-blog/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/github-discussions-blog/</guid>
-      <description>There are a few reasons why I&amp;rsquo;ve avoided adding a comment section to my blog these past two decades. Firstly, it can promote inappropriate and low effort responses&amp;hellip; especially if comments can be made anonymously. As a result, my home page encourages readers to email me directly. I&amp;rsquo;ve received well over a thousand emails from readers over the years, and I&amp;rsquo;ve enjoyed replying to each one. Secondly, introducing a comment section requires the execution of dynamic content that usually stores comments within a database.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;comments.png#center&#34; alt=&#34;Comments button&#34; title=&#34;Comments button&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There are a few reasons why I&amp;rsquo;ve avoided adding a comment section to my blog these past two decades. Firstly, it can promote inappropriate and low effort responses&amp;hellip; especially if comments can be made anonymously. As a result, my home page encourages readers to email me directly. I&amp;rsquo;ve received well over a thousand emails from readers over the years, and I&amp;rsquo;ve enjoyed replying to each one. Secondly, introducing a comment section requires the execution of dynamic content that usually stores comments within a database. I instead prefer to use a simple, static website for my personal blog that can be easily hosted anywhere I choose. This also means I don&amp;rsquo;t have to configure and maintain databases.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Setting up a Raspberry Pi Home Server</title>
       <link>https://jasoneckert.github.io/myblog/pi-home-server/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/pi-home-server/</guid>
-      <description>The Raspberry Pi has been the most popular single board computer (SBC) among computer hobbyists for the past decade. It can be used to perform a wide variety of very different tasks, such as running graphical apps, streaming media, performing home automation, and monitoring humidity levels in a greenhouse. This is largely made possible by the Raspberry Pi&amp;rsquo;s many interfaces (including GPIO, USB, HDMI, and wired/wireless Ethernet), as well as its ability to run the highly-customizable Linux operating system.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;pi4.png#right&#34; alt=&#34;Raspberry Pi 4&#34; title=&#34;Raspberry Pi 4&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Raspberry Pi has been the most popular &lt;em&gt;&lt;strong&gt;single board computer (SBC)&lt;/strong&gt;&lt;/em&gt; among computer hobbyists for the past decade. It can be used to perform a wide variety of very different tasks, such as running graphical apps, streaming media, performing home automation, and monitoring humidity levels in a greenhouse. This is largely made possible by the Raspberry Pi&amp;rsquo;s many interfaces (including GPIO, USB, HDMI, and wired/wireless Ethernet), as well as its ability to run the highly-customizable Linux operating system.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Linux Distro Hopping is a Bad Idea</title>
       <link>https://jasoneckert.github.io/myblog/distro-hopping/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/distro-hopping/</guid>
-      <description>What is distro hopping? In the Linux community, it&amp;rsquo;s not uncommon to install and use several different Linux distributions (or distros) over time - a process called distro hopping. After all, there are hundreds of different distros available - and because each one is often geared to provide the optimal experience for a specific user or use-case (e.g., gaming), it&amp;rsquo;s become commonplace to assume that there must be a specific Linux distro out there that will suit your individual needs.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;distros.png#center&#34; alt=&#34;Linux distros&#34; title=&#34;Linux distros&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-distro-hopping&#34;&gt;What is distro hopping?&lt;/h2&gt;&#xA;&lt;p&gt;In the &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux&#34;&gt;Linux&lt;/a&gt; community, it&amp;rsquo;s not uncommon to install and use several different Linux distributions (or distros) over time - a process called &lt;em&gt;&lt;strong&gt;distro hopping&lt;/strong&gt;&lt;/em&gt;. After all, there are hundreds of different distros available - and because each one is often geared to provide the optimal experience for a specific user or use-case (e.g., gaming), it&amp;rsquo;s become commonplace to assume that there must be a specific Linux distro out there that will suit your individual needs. Consequently, most Linux users believe that you should choose a Linux distro using the same process as choosing a wardrobe or eyewear frames. And that means trying on many different Linux distros to see how they look ;-)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Running a Mainstream Linux Distro Natively on Apple Silicon: Fedora Asahi Remix First Impressions</title>
       <link>https://jasoneckert.github.io/myblog/fedora-asahi-remix/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/fedora-asahi-remix/</guid>
-      <description>It&amp;rsquo;s been a year and a half since the Asahi Linux project allowed us to run Arch Linux natively on our Apple Silicon computers. And while my overall experience has been excellent, the Asahi Linux project is switching their flagship Linux distribution (distro) from Arch to Fedora.
-Why the switch from Arch to Fedora? You could argue that Fedora is a much more popular mainstream distribution compared to Arch, or that Linus Torvalds himself uses Fedora already on his Apple Silicon-based Macbook using the Asahi boot components and drivers.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a year and a half since the &lt;a href=&#34;https://asahilinux.org/&#34;&gt;Asahi Linux&lt;/a&gt; project allowed us to run Arch Linux natively on our Apple Silicon computers. And while my overall experience has been excellent, the Asahi Linux project is switching their flagship Linux distribution (distro) &lt;a href=&#34;https://asahilinux.org/2023/08/fedora-asahi-remix/&#34;&gt;from Arch to Fedora&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Why the switch from Arch to Fedora? You could argue that Fedora is a much more popular mainstream distribution compared to Arch, or that Linus Torvalds himself uses Fedora already on his Apple Silicon-based Macbook using the Asahi boot components and drivers. But the main reason is that there have been many &lt;a href=&#34;https://social.treehouse.systems/@marcan/109971521711413167&#34;&gt;issues&lt;/a&gt; surrounding the maintenance of ARM packages for Arch Linux, and that the Fedora team is both capable and willing to provide provide the support needed to provide a truly polished Linux experience on modern Macs (the main goal of the Asahi Linux project). By moving to Fedora, the Asahi team can focus on reverse engineering Apple hardware while the Fedora team can focus on maintaining the distribution itself on the Apple Silicon platform. This combination of Fedora with the Asahi boot components and drivers for Apple Silicon is called &lt;em&gt;&lt;strong&gt;Fedora Asahi Remix&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My first textbook is now in its sixth edition</title>
       <link>https://jasoneckert.github.io/myblog/linux-sixth-edition/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/linux-sixth-edition/</guid>
-      <description>While I&amp;rsquo;ve written many textbooks on different topics over the past two decades, my favourite subject area by far is Linux. After all, Linux has evolved to be one of the most foundational topics in tech education. Information Technology (IT) fields such as server/network administration, cloud administration, cybersecurity, and software development now require a solid grasp of the Linux operating system. The first textbook I wrote (Linux+ Guide to Linux Certification) was in 2001 for Course Technology (now Cengage).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;first-and-sixth.png#center&#34; alt=&#34;First and sixth edition of my Linux textbook&#34; title=&#34;First and sixth edition of my Linux textbook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While I&amp;rsquo;ve written &lt;a href=&#34;../../bio/my-published-books/&#34;&gt;many textbooks&lt;/a&gt; on different topics over the past two decades, my favourite subject area by far is Linux. After all, Linux has evolved to be one of the most foundational topics in tech education. Information Technology (IT) fields such as server/network administration, cloud administration, cybersecurity, and software development now require a solid grasp of the Linux operating system.&#xA;&lt;img src=&#34;sixthedition.jpg#right&#34; alt=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34; title=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>I&#39;ve now been teaching tech for 25 years!</title>
       <link>https://jasoneckert.github.io/myblog/25-years-teaching-tech/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/25-years-teaching-tech/</guid>
-      <description>This month marks the 25th anniversary of my teaching Information Technology (IT) courses for triOS College in Ontario, Canada.
-Back in 1998 I was well on my way to becoming an academic bum that kept on taking university courses forever. But I had a wife and child and needed to think more responsibly. So, as my spring university semester was ending, I applied for an instructor job that my grandmother saw in a newspaper ad and thought I&amp;rsquo;d be perfect for.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;bookshelf.jpg#right&#34; alt=&#34;Bookshelf&#34; title=&#34;Bookshelf&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This month marks the 25th anniversary of my teaching Information Technology (IT) courses for &lt;a href=&#34;https://trios.com&#34; title=&#34;triOS College&#34;&gt;triOS College&lt;/a&gt; in Ontario, Canada.&lt;/p&gt;&#xA;&lt;p&gt;Back in 1998 I was well on my way to becoming an academic bum that kept on taking university courses forever. But I had a wife and child and needed to think more responsibly. So, as my spring university semester was ending, I applied for an instructor job that my grandmother saw in a newspaper ad and thought I&amp;rsquo;d be perfect for. After an interview and demo teach, I got the job and started the following Monday&amp;hellip; April 20, 1998.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Linux is making Apple Great Again</title>
       <link>https://jasoneckert.github.io/myblog/linux-is-making-apple-great-again/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/linux-is-making-apple-great-again/</guid>
-      <description>MAGA pun aside, Linux is doing more for Apple hardware than macOS right now&amp;hellip; at least in the eyes of some old UNIX nerds like me.
-At the Southern California Linux Expo (SCaLE) earlier this month, the closing keynote was given by Ken Thompson (co-creator of the UNIX operating system and the Go programming language). During the Q&amp;amp;A session following that keynote, Ken was asked &amp;ldquo;What&amp;rsquo;s your operating system of choice, today?</description>
+      <description>&lt;p&gt;&lt;img src=&#34;maga.png#right&#34; alt=&#34;Make Apple Great Again hat&#34; title=&#34;Make Apple Great Again hat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;MAGA pun aside, Linux is doing more for Apple hardware than macOS right now&amp;hellip; at least in the eyes of some old UNIX nerds like me.&lt;/p&gt;&#xA;&lt;p&gt;At the Southern California Linux Expo (SCaLE) earlier this month, the closing keynote was given by &lt;a href=&#34;https://www.facesofopensource.com/ken-thompson/&#34; title=&#34;Ken Thompson&#34;&gt;Ken Thompson&lt;/a&gt; (co-creator of the UNIX operating system and the Go programming language). During the Q&amp;amp;A session following that keynote, Ken was asked &amp;ldquo;&lt;em&gt;&lt;strong&gt;What&amp;rsquo;s your operating system of choice, today?&lt;/strong&gt;&lt;/em&gt;&amp;rdquo; While you can watch it &lt;a href=&#34;https://www.youtube.com/live/kaandEt_pKw?feature=share&amp;amp;t=3470&#34; title=&#34;here&#34;&gt;here&lt;/a&gt;, his response was:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Ultimate Linux ARM64 Workstation</title>
       <link>https://jasoneckert.github.io/myblog/ultimate-linux-arm64-workstation/</link>
       <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/ultimate-linux-arm64-workstation/</guid>
-      <description>It all started this month last year In March 2022, the alpha release for Asahi was made available and I immediately installed it on a Mac Mini with an 8-core Apple Silicon (ARM64) M1 processor. Asahi is a Linux distribution that can run natively on Apple Silicon-based Macs due to some slick reverse engineering provided by members of the open source community. Moreover, running Asahi is perfectly legal because Apple formally allows booting non-macOS operating systems on their Apple Silicon platform.</description>
+      <description>&lt;h2 id=&#34;it-all-started-this-month-last-year&#34;&gt;It all started this month last year&lt;/h2&gt;&#xA;&lt;p&gt;In March 2022, the alpha release for Asahi was made available and I immediately installed it on a Mac Mini with an 8-core Apple Silicon (ARM64) M1 processor. Asahi is a Linux distribution that can run natively on Apple Silicon-based Macs due to some slick reverse engineering provided by members of the open source community. Moreover, running Asahi is perfectly legal because Apple formally allows booting non-macOS operating systems on their Apple Silicon platform.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Fun Facts About Linux</title>
       <link>https://jasoneckert.github.io/myblog/linux-fun-facts/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/linux-fun-facts/</guid>
-      <description>Below are 26 questions that detail fun and obscure facts about the Linux operating system. Regardless of how much you&amp;rsquo;ve used Linux in the past, there&amp;rsquo;s likely a few or more that you probably didn&amp;rsquo;t know. Try answering each one from memory (or give it a good guess!) and then expand the Show me the answer! section to see if you are correct. PERFECT SCORES WIN A PRIZE!!! If you knew the correct answer to all 26 of these questions off the top of your head, send me an email and I&amp;rsquo;ll send you a link to download a free (yes FREE!</description>
+      <description>&lt;p&gt;&lt;img src=&#34;linux-banner.png#center&#34; alt=&#34;Linux banner&#34; title=&#34;Linux banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Below are 26 questions that detail fun and obscure facts about the Linux operating system. Regardless of how much you&amp;rsquo;ve used Linux in the past, there&amp;rsquo;s likely a few or more that you probably didn&amp;rsquo;t know. Try answering each one from memory (or give it a good guess!) and then expand the &lt;em&gt;&lt;strong&gt;Show me the answer!&lt;/strong&gt;&lt;/em&gt; section to see if you are correct. PERFECT SCORES WIN A PRIZE!!! If you knew the correct answer to all 26 of these questions off the top of your head, send me an email and I&amp;rsquo;ll send you a link to download a free (yes FREE!) copy of Fedora Linux ;-)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How modern open source projects work</title>
       <link>https://jasoneckert.github.io/myblog/modern-open-source/</link>
       <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/modern-open-source/</guid>
-      <description>By definition, &amp;ldquo;open source&amp;rdquo; has little to do with how software is actually created.
-Instead, open source refers to how the source code for a software development project is distributed and consumed by software developers working on other projects. It is essentially a blanket term that refers to any software that makes its source code available to others. To be open source, the software project must be released under an open source license, of which there are two main categories: Copyleft and Permissive.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;source.png#right&#34; alt=&#34;May the source be with you&#34; title=&#34;May the source be with you&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;By definition, &amp;ldquo;open source&amp;rdquo; has little to do with how software is actually created.&lt;/p&gt;&#xA;&lt;p&gt;Instead, open source refers to how the source code for a software development project is distributed and consumed by software developers working on other projects. It is essentially a blanket term that refers to any software that makes its source code available to others. To be open source, the software project must be released under an open source license, of which there are two main categories: Copyleft and Permissive.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How Linux Certification Has Evolved Over The Years</title>
       <link>https://jasoneckert.github.io/myblog/linux-certification/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/linux-certification/</guid>
-      <description>Because organizations continually adopt new technologies, the need for skilled IT professionals to support those technologies is always increasing. Technology certification has been the most common skills benchmark used for hiring and promotion in the IT industry since the early 1990s, with Linux certification being one of the most sought-after. After all, knowing how to use, configure and administer the Linux operating system is prerequisite for a wide variety of different IT job roles, including server administrators, cloud administrators, devops engineers, site reliability engineers, cybersecurity analysts, penetration testers, and software developers.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;LinuxDesk.png#center&#34; alt=&#34;Banner&#34; title=&#34;Banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Because organizations continually adopt new technologies, the need for skilled IT professionals to support those technologies is always increasing. Technology certification has been the most common skills benchmark used for hiring and promotion in the IT industry since the early 1990s, with Linux certification being one of the most sought-after. After all, knowing how to use, configure and administer the Linux operating system is prerequisite for a wide variety of different IT job roles, including server administrators, cloud administrators, devops engineers, site reliability engineers, cybersecurity analysts, penetration testers, and software developers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>An overview of cloud buzz words</title>
       <link>https://jasoneckert.github.io/myblog/cloud-buzz-words/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/cloud-buzz-words/</guid>
-      <description>As this Dilbert comic eloquently illustrates, there&amp;rsquo;s no shortage of cloud buzz words thrown around today. But as strange and complex as they may sound (even to seasoned developers and system administrators), they are not difficult to understand. In this blog post, I&amp;rsquo;ll walk through the different components and features of the cloud, explaining the associated buzz words along the way.
-What is the cloud? Back in the early 1990s, when the US government sold off parts of their ARPAnet and NSFnet to private companies (later called Internet Service Providers, or ISPs) to create the public Internet, there wasn&amp;rsquo;t anything exciting about the Internet at all.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;dilbert.jpg#center&#34; alt=&#34;Dilbert comic&#34; title=&#34;Dilbert comic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As this Dilbert comic eloquently illustrates, there&amp;rsquo;s no shortage of cloud buzz words thrown around today. But as strange and complex as they may sound (even to seasoned developers and system administrators), they are not difficult to understand. In this blog post, I&amp;rsquo;ll walk through the different components and features of the cloud, explaining the associated buzz words along the way.&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-the-cloud&#34;&gt;What is the cloud?&lt;/h1&gt;&#xA;&lt;p&gt;Back in the early 1990s, when the US government sold off parts of their ARPAnet and NSFnet to private companies (later called Internet Service Providers, or ISPs) to create the public Internet, there wasn&amp;rsquo;t anything exciting about the Internet at all. After all, the Internet was just a physical computer network that allowed your computer to talk to other computers, usually through a telephone network via a modem.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Copyleft is dying</title>
       <link>https://jasoneckert.github.io/myblog/copyleft-is-dying/</link>
       <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/copyleft-is-dying/</guid>
-      <description>Software licensing is the catalyst that drives the modern tech industry. This is because reusable software code released under an open source license (permitting its reuse) is the norm for nearly all software development today. After all, if we couldn&amp;rsquo;t reuse existing code in new software projects, it would take far longer to bring technologies to market, and the overall software industry wouldn&amp;rsquo;t be able to evolve as quickly. Moreover, there are two major types of open source licenses.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;copyleft.jpg#right&#34; alt=&#34;Copyleft&#34; title=&#34;Copyleft&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Software licensing is the catalyst that drives the modern tech industry. This is because reusable software code released under an &lt;em&gt;&lt;strong&gt;open source&lt;/strong&gt;&lt;/em&gt; license (permitting its reuse) is the norm for nearly all software development today. After all, if we couldn&amp;rsquo;t reuse existing code in new software projects, it would take far longer to bring technologies to market, and the overall software industry wouldn&amp;rsquo;t be able to evolve as quickly. Moreover, there are two major types of open source licenses.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>UNIX/Linux is now a core skill for anyone working in tech</title>
       <link>https://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</guid>
-      <description>If you had asked me in the 1990s whether most people in the tech world would be using a UNIX or Linux shell to manage their servers, I would have chuckled and said &amp;ldquo;No.&amp;rdquo; But two decades later we find ourselves in a world where 96% of the cloud is comprised of Linux servers running Web apps made with open source frameworks, and the majority of software development is done on UNIX (macOS) or Linux workstations.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;techworker.png#center&#34; alt=&#34;Tech Worker&#34; title=&#34;Tech Worker&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you had asked me in the 1990s whether most people in the tech world would be using a UNIX or Linux shell to manage their servers, I would have chuckled and said &amp;ldquo;No.&amp;rdquo; But two decades later we find ourselves in a world where 96% of the cloud is comprised of Linux servers running Web apps made with open source frameworks, and the majority of software development is done on UNIX (macOS) or Linux workstations. Nearly all network hardware, security appliances, smart appliances, cars, wearables and IoT devices also run UNIX or Linux, as do our smartphones and tablets. Want to secure your systems or network, or test your security using ethical hacking? You&amp;rsquo;ll need UNIX or Linux to do that as well.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A brief history of technology</title>
       <link>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</guid>
-      <description>Technology is a crazy ride, and like that lyric in the Talking Heads song Once in a Lifetime, &amp;ldquo;&amp;hellip;you may ask yourself, well, how did I get here?&amp;rdquo;
-If that&amp;rsquo;s the case, you&amp;rsquo;re in luck, because this post is a no-nonsense, give-me-the-big-picture timeline of what the heck happened in the technology landscape these past 50 years. Of course, not every little detail is in there. Just those that are actually important (in my expert opinion, of course ;-) Enjoy!</description>
+      <description>&lt;p&gt;Technology is a crazy ride, and like that lyric in the Talking Heads song &lt;em&gt;&lt;strong&gt;Once in a Lifetime&lt;/strong&gt;&lt;/em&gt;, &amp;ldquo;&amp;hellip;you may ask yourself, well, how did I get here?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;If that&amp;rsquo;s the case, you&amp;rsquo;re in luck, because this post is a no-nonsense, give-me-the-big-picture timeline of what the heck happened in the technology landscape these past 50 years. Of course, not every little detail is in there. Just those that are actually important (in my expert opinion, of course ;-) Enjoy!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Most people don&#39;t want a computer</title>
       <link>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</guid>
-      <description>In the past few decades, people of all ages across North America have become technology-literate in some way or another. Many of them weren&amp;rsquo;t introduced to technology via desktop or laptop computers, but instead through a smartphone or tablet. Similarly, many desktop and laptop users have switched to using their smartphone or tablet over the past decade to interact with the online world.
-After all, smartphones and tablets are incredibly easy to use.</description>
+      <description>&lt;p&gt;In the past few decades, people of all ages across North America have become technology-literate in some way or another. Many of them weren&amp;rsquo;t introduced to technology via desktop or laptop computers, but instead through a smartphone or tablet. Similarly, many desktop and laptop users have switched to using their smartphone or tablet over the past decade to interact with the online world.&lt;/p&gt;&#xA;&lt;p&gt;After all, smartphones and tablets are incredibly easy to use. You open an app to do what you want (social media, shopping, taking pics of food, etc.), and the rest can be done in a Web browser. It doesn&amp;rsquo;t matter where your files are stored locally because they&amp;rsquo;re easily searchable, and they&amp;rsquo;re automatically synced to the cloud so that you don&amp;rsquo;t lose them.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Open does not always mean Open Source</title>
       <link>https://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</guid>
-      <description>In the technology world today, the term Open is most commonly associated with Open Source.
-Open Source refers to software released under a license that gives other software developers access to modify the original Source code that was used to create the software. This, in turn allows other software developers worldwide to quickly identify and fix bugs and security loopholes, as well as make feature improvements to the software. Consequently, Open Source software evolves more rapidly than other (Closed Source) software, and is considered the gold standard for software today.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;open.jpg#right&#34; alt=&#34;Open Source vs Open standards&#34; title=&#34;Open Source vs Open standards&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the technology world today, the term &lt;em&gt;&lt;strong&gt;Open&lt;/strong&gt;&lt;/em&gt; is most commonly associated with &lt;em&gt;&lt;strong&gt;Open Source&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Open Source refers to software released under a license that gives other software developers access to modify the original Source code that was used to create the software. This, in turn allows other software developers worldwide to quickly identify and fix bugs and security loopholes, as well as make feature improvements to the software. Consequently, Open Source software evolves more rapidly than other (&lt;em&gt;&lt;strong&gt;Closed Source&lt;/strong&gt;&lt;/em&gt;) software, and is considered the gold standard for software today.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The different faces of open source software</title>
       <link>https://jasoneckert.github.io/myblog/the-different-faces-of-open-source-software/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-different-faces-of-open-source-software/</guid>
-      <description>The term open source has become a household term in software circles. Most people who work with technology in some capacity know that the Linux operating system is open source, as is the Firefox Web browser and much of the software that runs on their Android phone.
-However, when it comes to defining open source, most people I’ve talked to aren’t that clear on what it is and how it works, but can often list these three aspects:</description>
+      <description>&lt;p&gt;&lt;img src=&#34;oss.png#center&#34; alt=&#34;Open Source Software&#34; title=&#34;Open Source Software&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The term &lt;em&gt;&lt;strong&gt;open source&lt;/strong&gt;&lt;/em&gt; has become a household term in software circles.  Most people who work with technology in some capacity know that the Linux operating system is open source, as is the Firefox Web browser and much of the software that runs on their Android phone.&lt;/p&gt;&#xA;&lt;p&gt;However, when it comes to defining open source, most people I’ve talked to aren’t that clear on what it is and how it works, but can often list these three aspects:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Dark Side of GNU</title>
       <link>https://jasoneckert.github.io/myblog/the-dark-side-of-gnu/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-dark-side-of-gnu/</guid>
-      <description>In computing, GNU (which stands for “GNU’s Not UNIX”) started as a project led by Richard Stallman aimed to replace all of the components of the UNIX operating system with freely-developed versions.
-It also led to the creation of the GNU Public License (GPL) that protected freely-developed software from being exploited by others. Software released under the GPL is commonly called open source software today, and there are dozens of open source licenses available in addition to the GPL.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;gnubad.png#right&#34; alt=&#34;GAHNOO&#34; title=&#34;GAHNOO&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In computing, GNU (which stands for “GNU’s Not UNIX”) started as a project led by Richard Stallman aimed to replace all of the components of the UNIX operating system with freely-developed versions.&lt;/p&gt;&#xA;&lt;p&gt;It also led to the creation of the GNU Public License (GPL) that protected freely-developed software from being exploited by others. Software released under the GPL is commonly called open source software today, and there are dozens of open source licenses available in addition to the GPL.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Power of Open Source Software</title>
       <link>https://jasoneckert.github.io/myblog/the-power-of-open-source-software/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-power-of-open-source-software/</guid>
-      <description>Two decades ago, a piece of open source software I wrote for a Canadian HPC project caught the attention of someone working for NASA JPL, and after a few emails and a call regarding our experience applying it, a modified version of it was used in a small way to help the Mars Exploration Rover (MER) mission involving the rovers Spirit and Opportunity.
-With last week’s announcement that the MER mission is officially over, it&amp;rsquo;s nice to know that a piece of software I wrote helped, even if it was in a small way - it made me smile over coffee that morning, and it’s made me smile several times since then!</description>
+      <description>&lt;p&gt;&lt;img src=&#34;rover.png#center&#34; alt=&#34;MARS Rover&#34; title=&#34;MARS Rover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Two decades ago, a piece of open source software I wrote for a Canadian HPC project caught the attention of someone working for NASA JPL, and after a few emails and a call regarding our experience applying it, a modified version of it was used in a small way to help the Mars Exploration Rover (MER) mission involving the rovers Spirit and Opportunity.&lt;/p&gt;&#xA;&lt;p&gt;With last week’s announcement that the MER mission is officially over, it&amp;rsquo;s nice to know that a piece of software I wrote helped, even if it was in a small way - it made me smile over coffee that morning, and it’s made me smile several times since then!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The future of smartphones</title>
       <link>https://jasoneckert.github.io/myblog/the-future-of-smartphones/</link>
       <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-future-of-smartphones/</guid>
-      <description>As you can see from the picture at the top of this post, last week BlackBerry’s smartphone market share fell to 0% in the global marketplace. In all fairness, this number reflects the number of devices running BlackBerry OS (not the number of BlackBerry-branded Android devices, which together with all other Android devices, comprise 82% of the market).
-If you think back to 2007, BlackBerry pretty much owned the smartphone world that they created - they were too big to fail, and too proud to accept that Apple and Google could eat their cake.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;sp1.png#center&#34; alt=&#34;SP1&#34; title=&#34;SP1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As you can see from the picture at the top of this post, last week BlackBerry’s smartphone market share fell to 0% in the global marketplace. In all fairness, this number reflects the number of devices running BlackBerry OS (not the number of BlackBerry-branded Android devices, which together with all other Android devices, comprise 82% of the market).&lt;/p&gt;&#xA;&lt;p&gt;If you think back to 2007, BlackBerry pretty much owned the smartphone world that they created - they were too big to fail, and too proud to accept that Apple and Google could eat their cake.  But 10 years later, they’re a niche company trying to peddle their security and smartphone management software to any Fortune 500 company that still has fond memories of their brand.  It’s a stark reminder of how quickly the tech industry can change, and how unforgiving it can be to those left behind.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Linux operating system turns 25 years old today</title>
       <link>https://jasoneckert.github.io/myblog/linux-turns-25/</link>
       <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/linux-turns-25/</guid>
-      <description>Today marks the 25th anniversary of the Linux operating system!
-More specifically, it marks the day that Linus Torvalds announced his new operating system (that was later called Linux) in a newsgroup post:
-From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds) Newsgroup: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI Date: 25 Aug 91 20:57:08 GMT Organization: University of Helsinki.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;lnx1.png#center&#34; alt=&#34;LNX1&#34; title=&#34;LNX1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today marks the 25th anniversary of the Linux operating system!&lt;/p&gt;&#xA;&lt;p&gt;More specifically, it marks the day that Linus Torvalds announced his new operating system (that was later called Linux) in a newsgroup post:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;From:torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds)&#xA;Newsgroup: comp.os.minix&#xA;Subject: What would you like to see most in minix?&#xA;Summary: small poll for my new operating system&#xA;Message-ID: 1991Aug25, 20578.9541@klaava.Helsinki.FI&#xA;Date: 25 Aug 91 20:57:08 GMT&#xA;Organization: University of Helsinki.&#xA;&#xA;Hello everybody out there using minix-&#xA;&#xA;I&amp;#39;m doing a (free) operating system (just a hobby, won&amp;#39;t be big&#xA;and professional like gnu) for 386(486) AT clones. This has&#xA;been brewing since april, and is starting to get ready. I&amp;#39;d like&#xA;any feedback on things people like/dislike in minix; as my OS&#xA;resembles it somewhat (same physical layout of the file-system&#xA;due to practical reasons)among other things.&#xA;&#xA;I&amp;#39;ve currently ported bash (1.08) an gcc (1.40), and things seem to work.&#xA;This implies that i&amp;#39;ll get something practical within a few months, and I&amp;#39;d&#xA;like to know what features most people want. Any suggestions are welcome,&#xA;but I won&amp;#39;t promise I&amp;#39;ll implement them :-)&#xA;&#xA;Linus Torvalds torvalds@kruuna.helsinki.fi&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;so-what-is-linux&#34;&gt;So what is Linux?&lt;/h1&gt;&#xA;&lt;p&gt;Linux is a free and open source operating system that runs on millions of computers and devices today. But in order to understand what that means, let’s start by looking at how Linux came to be&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ontario Linux Fest</title>
       <link>https://jasoneckert.github.io/myblog/ontario-linux-fest/</link>
       <pubDate>Sun, 14 Oct 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/ontario-linux-fest/</guid>
-      <description>Yesterday, I teamed up with and old friend of mine (Scott Elliott) and went to the Ontario Linux Fest at the Toronto Congress Centre. For those who do not know Scott, he is a VMWare guru (you can join his Southwestern Ontario VMWare user’s group @ www.vmware.com), as well as a master in the 8th layer of the OSI Model (the political layer). Although he won’t admit it, he knows UNIX very well and is an advocate of the Open Source movement even though he works mainly with Windows.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;linuxfest1.png#center&#34; alt=&#34;Linux Fest&#34; title=&#34;Linux Fest&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yesterday, I teamed up with and old friend of mine (Scott Elliott) and went to the Ontario Linux Fest at the Toronto Congress Centre.  For those who do not know Scott, he is a VMWare guru (you can join his Southwestern Ontario VMWare user’s group @ &lt;a href=&#34;https://www.vmware.com&#34;&gt;www.vmware.com&lt;/a&gt;), as well as a master in the 8th layer of the OSI Model (the political layer).  Although he won’t admit it, he knows UNIX very well and is an advocate of the Open Source movement even though he works mainly with Windows.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>More about Open Source Software and Linux</title>
       <link>https://jasoneckert.github.io/myblog/more-about-open-source-software-and-linux/</link>
       <pubDate>Sat, 06 Oct 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/more-about-open-source-software-and-linux/</guid>
-      <description>In light of the upcoming Ontario Linux Fest, I decided to use this blog entry to reflect on Open Source Software and Linux.
-Free Software and the Free Software Foundation (FSF) were pioneered by the famous Richard Stallman. Free Software does not mean “at no monetary cost”&amp;hellip;&amp;hellip;..it means that the source code is free to anyone who wants to use it (source code freedom). In the words of Stallman, think “free” as in “freedom”, not “free” as in “free beer”.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;dilbert.png#center&#34; alt=&#34;Dilbert cartoon&#34; title=&#34;Dilbert cartoon&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In light of the upcoming Ontario Linux Fest, I decided to use this blog entry to reflect on Open Source Software and Linux.&lt;/p&gt;&#xA;&lt;p&gt;Free Software and the Free Software Foundation (FSF) were pioneered by the famous Richard Stallman.  Free Software does not mean “at no monetary cost”&amp;hellip;&amp;hellip;..it means that the source code is free to anyone who wants to use it (source code freedom).  In the words of Stallman, think “free” as in “freedom”, not “free” as in “free beer”.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The wicked witch is dead</title>
       <link>https://jasoneckert.github.io/myblog/the-wicked-witch-is-dead/</link>
       <pubDate>Sun, 12 Aug 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/the-wicked-witch-is-dead/</guid>
-      <description>I consider myself to be a very patient person (all things considered) - but one thing that causes me to lose my patience is when I hear of proprietary computer companies that spread FUD (Fear, Uncertainty and Doubt) in order to keep their customers from considering other (and usually much better) technologies.
-While Microsoft has been the main purveyor of FUD since the early 1990s, SCO used FUD in an attempt to downplay the Linux operating system.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;scologo.jpg#right&#34; alt=&#34;SCO logo&#34; title=&#34;SCO logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I consider myself to be a very patient person (all things considered) - but one thing that causes me to lose my patience is when I hear of proprietary computer companies that spread FUD (Fear, Uncertainty and Doubt) in order to keep their customers from considering other (and usually much better) technologies.&lt;/p&gt;&#xA;&lt;p&gt;While Microsoft has been the main purveyor of FUD since the early 1990s, SCO used FUD in an attempt to downplay the Linux operating system.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Richard Stallman talk at UW</title>
       <link>https://jasoneckert.github.io/myblog/richard-stallman-talk-at-uw/</link>
       <pubDate>Sun, 29 Jul 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/myblog/richard-stallman-talk-at-uw/</guid>
-      <description>On July 6th, Richard Stallman gave a talk at the University of Waterloo regarding copyright and its evils. Although slow at the beginning (perhaps because Richard was still finishing his Pepsi and introducing the features of copyright), it turned out to be a powerful and enlightening educational experience.
-I decided not to write a blog about it until I was able to view it again on video after my vacation and make specific notes.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;rmstalk.png#center&#34; alt=&#34;Richard Stallman talk&#34; title=&#34;Richard Stallman talk&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;On July 6th, Richard Stallman gave a talk at the University of Waterloo regarding copyright and its evils.  Although slow at the beginning (perhaps because Richard was still finishing his Pepsi and introducing the features of copyright), it turned out to be a powerful and enlightening educational experience.&lt;/p&gt;&#xA;&lt;p&gt;I decided not to write a blog about it until I was able to view it again on video after my vacation and make specific notes.  You can download the whole presentation from the University of Waterloo Computer Science Club @ &lt;a href=&#34;http://csclub.uwaterloo.ca&#34;&gt;http://csclub.uwaterloo.ca&lt;/a&gt; in OGG format.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,18 +4,16 @@
     <title>My Policy on AI on Jason Eckert&#39;s Website and Blog</title>
     <link>https://jasoneckert.github.io/site/</link>
     <description>Recent content in My Policy on AI on Jason Eckert&#39;s Website and Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate><atom:link href="https://jasoneckert.github.io/site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jasoneckert.github.io/site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This website contains zero AI-generated text</title>
       <link>https://jasoneckert.github.io/site/about-this-site/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      
       <guid>https://jasoneckert.github.io/site/about-this-site/</guid>
-      <description>Yup, that’s right &amp;ndash; every single word, phrase, and typo (purposeful or not) has been carefully crafted by yours truly and reflects decades of continuous improvement in both English and thought expression.
-Each blog post started with a real-life event or thought that sparked a passion to create something I wanted to share with others, and in a way that allowed me to better understand and appreciate it as well.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;noai.png#right&#34; alt=&#34;no AI&#34; title=&#34;no AI&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yup, that’s right &amp;ndash; every single word, phrase, and typo (purposeful or not) has been carefully crafted by yours truly and reflects decades of continuous improvement in both English and thought expression.&lt;/p&gt;&#xA;&lt;p&gt;Each blog post started with a real-life event or thought that sparked a passion to create something I wanted to share with others, and in a way that allowed me to better understand and appreciate it as well.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

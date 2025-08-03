@@ -4,7 +4,8 @@
     <title>Blog Archive on Jason Eckert&#39;s Website and Blog</title>
     <link>https://jasoneckert.github.io/archive/</link>
     <description>Recent content in Blog Archive on Jason Eckert&#39;s Website and Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jasoneckert.github.io/archive/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://jasoneckert.github.io/archive/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
