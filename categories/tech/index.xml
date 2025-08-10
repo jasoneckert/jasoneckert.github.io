@@ -6,8 +6,15 @@
     <description>Recent content in Tech on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jasoneckert.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pushing the Limits of ARM CI with Actuated and Apple Silicon</title>
+      <link>https://jasoneckert.github.io/myblog/arm-ci/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/arm-ci/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;actuated.png#center&#34; alt=&#34;Actuated spin up&#34; title=&#34;Actuated spin up&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As you may have read in my previous blog posts, my main developer workstation is an Apple Mac Studio with an Apple Silicon M1 Max CPU. But instead of running macOS on it, I run Linux – specifically Fedora Asahi Remix, which is Fedora Linux for ARM + the native Apple hardware support provided by the Asahi Linux project.&lt;/p&gt;&#xA;&lt;p&gt;While I prefer Linux to other operating systems, the main reason I do this is for speed – running Linux natively on my Mac Studio is at least twice as fast for every task compared to running macOS natively on it. Linux is simply faster and more optimized, and it can fully harness the power of the M1 Max.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Janet Jackson&#39;s Denial of Service (DoS) Attack</title>
       <link>https://jasoneckert.github.io/myblog/janet-jackson-dos/</link>

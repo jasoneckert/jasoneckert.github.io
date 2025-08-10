@@ -119,13 +119,13 @@
 <article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
   <div class="header">
     <h1 style="font-size: 2.5em;">
-      Janet Jackson&#39;s Denial of Service (DoS) Attack
+      Pushing the Limits of ARM CI with Actuated and Apple Silicon
     </h1>
     <div
     class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
     style="position: absolute; top: -19px; font-size: 0.9em;"
   >
-    <time>2025-07-13</time>    
+    <time>2025-08-09</time>    
     <span
       class="more"
       style="font-size: 1.5em;"
@@ -215,47 +215,63 @@
 </div>
   <div class="article pb-3 pt-3 border-bottom border-top">
     
-    <p>Janet Jackson might not be the first person who comes to mind when you think of a hacker. But she inadvertently created a malicious payload that performed a <em><strong>Denial of Service (DoS)</strong></em> attack on many different hard drive models manufactured in 2005 and later that rotated at a speed of 5400 rpm (rotations per minute).</p>
-<h1 id="how-did-it-work">How did it work?</h1>
-<p>If your computer had a 5400 rpm hard drive, all you had to do was play Janet Jackson&rsquo;s <a href="https://www.youtube.com/watch?v=OAwaNWGLM0c">Rhythm Nation music video</a> and it would unleash an acoustic resonance attack that damaged the hard drive.</p>
-<p><img src="rhythmnation.png#center" alt="Rhythm Nation music video" title="Rhythm Nation music video"></p>
-<p>This is because the song contains a frequency that matched the natural resonant frequency of the drive. When the sound waves from the song hit this specific frequency, it caused the rotating platters inside the hard drive to vibrate excessively, damaging both the read/write heads and the areas of the platters that came in contact with them.</p>
-<p>It&rsquo;s the same principle that allows an opera singer to shatter glass by singing a particular note &ndash; that note would match the glass&rsquo;s resonant frequency.</p>
-<h1 id="is-this-known-by-the-cybersecurity-community">Is this known by the Cybersecurity community?</h1>
-<p>Yes it is, and each known vulnerability that allows for an attack is formally recognized by the cybersecurity community with a <em><strong>Common Vulnerabilities and Exposures (CVE)</strong></em> entry &ndash; in this case, <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-38392">CVE-2022-38392</a>. The CVE number indicates that it was officially cataloged in 2022. If you click the CVE link and read the description, you&rsquo;ll note a recent Seagate hard drive model listed that is still affected by this vulnerability and likely used to discover the vulnerability by security researchers.</p>
-<h1 id="why-is-this-attack-important">Why is this attack important?</h1>
-<p>While this attack is not the result of a typical software vulnerability, it is treated with legitimate interest in cybersecurity circles for a few reasons.</p>
-<p>Firstly, it&rsquo;s a superb example of an <em><strong>side-channel DoS attack</strong></em>, where physical properties can be exploited to cause real-world hardware failures &ndash; something that is becoming increasingly common and is of key interest to security researchers. The same acoustic side-channel DoS attack described by CVE-2022-38392 is also used today to disrupt Micro Electronic Mechanical Systems (MEMS) sensors in drones and smartphones. And similar <em><strong>rowhammer</strong></em> side-channel DoS attacks are used today to exploit electrical interference between memory cells within your computer, tablet, smartphone, embedded, or Internet of Things (IoT) devices.</p>
-<p>Secondly, it&rsquo;s an important reminder that:</p>
-<ol>
-<li>Not all attacks are digital. Nearly any type of device can be compromised or crashed by real-world interactions.</li>
-<li>It sometimes takes decades to detect an attack. Just think of how many people experienced a failed hard drive since 2005 and didn&rsquo;t realize it was because they played the Rhythm Nation song by Janet Jackson!</li>
-</ol>
-<p><img src="toshibahdd.jpg#right" alt="Toshiba HDD" title="Toshiba HDD"></p>
-<h1 id="did-this-attack-happen-to-me">Did this attack happen to me?</h1>
-<p>Now that I look back on things, yes, I&rsquo;m 95% certain it did, twice.</p>
-<p>In 2005, I bought a 12&quot; Apple PowerBook G4 that I used to write several textbooks for Cengage (then Course Technology). I found that I worked better in a public setting than at home, so I wrote the majority of my books at the Starbucks in the Kitchener Chapters location at the time. And yes, I plugged headphones into my PowerBook to listen to music while I wrote, and Rhythm Nation was definitely part of my iTunes playlist (it&rsquo;s a great song).</p>
-<p>While I don&rsquo;t remember exactly what I was listening to when the 60 GB, 5400 rpm Toshiba hard drive shown right failed, I do remember that I was having weird system issues and Word crashes during the whole afternoon. As a result, I was more aggressive at backing up my work &ndash; this was long before we had GitHub, so I just emailed new versions of my Word documents periodically to my online email account.</p>
-<p>When the macOS operating system eventually froze and the system wouldn&rsquo;t reboot successfully, I had lost only two paragraphs of Chapter 5 since my last backup. Reinstalling macOS on the drive wouldn&rsquo;t complete due to the same hard drive crashes, so I replaced the hard drive myself with a 120 GB, 5400 rpm Fujitsu one that I got on sale.</p>
-<p>A few years later, that Fujitsu drive also died. Damn you, Rhythm Nation.</p>
+    <p><img src="actuated.png#center" alt="Actuated spin up" title="Actuated spin up"></p>
+<p>As you may have read in my previous blog posts, my main developer workstation is an Apple Mac Studio with an Apple Silicon M1 Max CPU. But instead of running macOS on it, I run Linux – specifically Fedora Asahi Remix, which is Fedora Linux for ARM + the native Apple hardware support provided by the Asahi Linux project.</p>
+<p>While I prefer Linux to other operating systems, the main reason I do this is for speed – running Linux natively on my Mac Studio is at least twice as fast for every task compared to running macOS natively on it. Linux is simply faster and more optimized, and it can fully harness the power of the M1 Max.</p>
+<p>A short while back, Alex Ellis, the founder of <a href="https://actuated.com/">Actuated</a>, reached out to me because he read my blog on Fedora Asahi Remix and knew I had a Mac Studio with an M1 Max running it. He was particularly interested in seeing the performance of running Actuated for ARM on it compared to his other ARM-based Linux systems. In the cloud and developer communities, it’s common courtesy to support each other with these kinds of requests, so I gladly agreed.</p>
+<p> </p>
+<h1 id="background-information">Background information:</h1>
+<ul>
+<li>
+<h3 id="what-is-continuous-integration-ci">What is Continuous Integration (CI)?</h3>
+<ul>
+<li>CI focuses on automatically integrating code changes into a shared code repository and validating those changes through automated builds and tests. The tasks performed by CI are called runners if you use the GitLab code repository, or actions if you use the GitHub code repository. CI shouldn’t be confused with Continuous Delivery/Deployment (CD), which builds upon CI by automating the release process, either delivering code to a staging environment for testing or to a production server.</li>
+</ul>
+<p> </p>
+</li>
+<li>
+<h3 id="what-are-firecracker-microvms">What are Firecracker microVMs?</h3>
+<ul>
+<li>Firecracker microVMs are fast-booting, small virtual machines (VMs) that provide the lightweight benefits of a container, but with full isolation (including security) from the system running it. While originally designed by AWS to provide serverless functionality, they can be used for any purpose, including providing CI functionality.</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<ul>
+<li>
+<h3 id="what-is-actuated">What is Actuated?</h3>
+<ul>
+<li>Actuated is a platform that offers secure and fast CI for GitHub and GitLab using fast Firecracker microVMs on your own infrastructure, with support for the ARM platform that is fast becoming ubiquitous for developer workstations and servers. With Actuated, each microVM is created just in time to perform a CI task, and is removed immediately after.</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h1 id="so-how-did-we-do-this">So, how did we do this?</h1>
+<p>Well, firstly, Alex needed to be able to perform the same benchmark – in this case, the time to compile a kernel (a CPU-intensive task) – that he performed on his other ARM-based Linux systems: a Mac Mini M1 and Ampere Altra Q80. That meant that he had to connect remotely to the Actuated agent running on my system, and my system was behind a home NAT router.</p>
+<p>Here’s what was involved on my end:</p>
+<ul>
+<li>Installing the <a href="https://docs.actuated.com/install-agent/#install-the-actuated-agent">Actuated agent</a> using an Enterprise license</li>
+<li>Using <code>inlets-pro</code> to create an outbound-initiated tunnel from behind my home NAT router to a cloud server that Alex could use to access my local Actuated agent service. <a href="https://docs.inlets.dev/">Inlets</a> is another project of Alex’s.</li>
+<li>Troubleshooting issues (this is Linux after all!). A few initial issues caused the Actuated agent to crash, but after collaborating with Alex and examining the system, I was able to figure out how to solve them. I had to add some SELinux exceptions, declare an empty variable in <code>/etc/default/actuated</code> to prevent LetsEncrypt warnings, and define a <code>WorkingDirectory</code> directive in the Actuated Systemd unit file to ensure PAM could run tasks as the root user.</li>
+</ul>
+<p>Alex then connected remotely to perform his benchmarking. In the end, the results were:</p>
+<ul>
+<li>Mac Studio M1 Max (20 cores allocated) = 121.4 seconds</li>
+<li>Mac Mini M1 (8 cores allocated) = 301.9 seconds</li>
+<li>Ampere Altra Q80 (32 cores allocated) = from 158.1 to 231.2 seconds</li>
+</ul>
+<p>Impressively, the M1 Max outperforms the Ampere Altra, even with a dozen fewer cores allocated. And Alex is thinking of getting a Mac Studio M2 Max (with 24 cores) to get even better results, since Asahi Linux supports that model as well.</p>
+<p>In a world where developer time is precious and CI performance can quickly become a bottleneck, fast ARM hardware like the M1 Max makes a compelling case for running Actuated on personal infrastructure. Whether you’re building in the cloud or locally, shaving minutes off your pipelines adds up. And perhaps most importantly: by helping each other test, benchmark, and push the boundaries of what’s possible, we all move forward, together.</p>
 
   </div>
   <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
   <div>
     <a
-      href="/myblog/arm-ci/"
+      href="/myblog/janet-jackson-dos/"
       data-toggle="tooltip"
       data-placement="top"
-      title="Pushing the Limits of ARM CI with Actuated and Apple Silicon"
-      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
-    >
-  </div>
-  <div>
-    <a
-      href="/myblog/canada-day/"
-      data-toggle="tooltip"
-      data-placement="top"
-      title="Happy Canada Day!"
+      title="Janet Jackson&#39;s Denial of Service (DoS) Attack"
       ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
     >
   </div>
