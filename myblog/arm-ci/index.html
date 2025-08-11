@@ -215,7 +215,7 @@
 </div>
   <div class="article pb-3 pt-3 border-bottom border-top">
     
-    <p><img src="actuated.png#center" alt="Actuated spin up" title="Actuated spin up"></p>
+    <p><img src="mac_studio.jpg#center" alt="Mac Studio" title="Mac Studio"></p>
 <p>As you may have read in my previous blog posts, my main developer workstation is an Apple Mac Studio with an Apple Silicon M1 Max CPU. But instead of running macOS on it, I run Linux – specifically Fedora Asahi Remix, which is Fedora Linux for ARM + the native Apple hardware support provided by the Asahi Linux project.</p>
 <p>While I prefer Linux to other operating systems, the main reason I do this is for speed – running Linux natively on my Mac Studio is at least twice as fast for every task compared to running macOS natively on it. Linux is simply faster and more optimized, and it can fully harness the power of the M1 Max.</p>
 <p>A short while back, Alex Ellis, the founder of <a href="https://actuated.com/">Actuated</a>, reached out to me because he read my blog on Fedora Asahi Remix and knew I had a Mac Studio with an M1 Max running it. He was particularly interested in seeing the performance of running Actuated for ARM on it compared to his other ARM-based Linux systems. In the cloud and developer communities, it’s common courtesy to support each other with these kinds of requests, so I gladly agreed.</p>
@@ -252,8 +252,9 @@
 <ul>
 <li>Installing the <a href="https://docs.actuated.com/install-agent/#install-the-actuated-agent">Actuated agent</a> using an Enterprise license</li>
 <li>Using <code>inlets-pro</code> to create an outbound-initiated tunnel from behind my home NAT router to a cloud server that Alex could use to access my local Actuated agent service. <a href="https://docs.inlets.dev/">Inlets</a> is another project of Alex’s.</li>
-<li>Troubleshooting issues (this is Linux after all!). A few initial issues caused the Actuated agent to crash, but after collaborating with Alex and examining the system, I was able to figure out how to solve them. I had to add some SELinux exceptions, declare an empty variable in <code>/etc/default/actuated</code> to prevent LetsEncrypt warnings, and define a <code>WorkingDirectory</code> directive in the Actuated Systemd unit file to ensure PAM could run tasks as the root user.</li>
+<li>Troubleshooting issues (this is Linux after all!). A few initial issues caused the Actuated agent to crash, but after collaborating with Alex and examining the system, I was able to figure out how to solve them. I had to add some SELinux exceptions, declare an empty variable in <code>/etc/default/actuated</code> to prevent LetsEncrypt warnings, and define a <code>WorkingDirectory</code> directive in the Actuated Systemd unit file to ensure PAM could run tasks as the root user. After that, the agent started perfectly:</li>
 </ul>
+<p><img src="actuated.png#center" alt="Actuated spin up" title="Actuated spin up"></p>
 <p>Alex then connected remotely to perform his benchmarking. In the end, the results were:</p>
 <ul>
 <li>Mac Studio M1 Max (20 cores allocated) = 121.4 seconds</li>
