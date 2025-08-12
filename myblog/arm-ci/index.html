@@ -139,7 +139,7 @@
   <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
     <div>
       Reading Time: 
-4 mins
+5 mins
       
     </div>
     <div>
@@ -218,14 +218,15 @@
     <p><img src="mac_studio.jpg#center" alt="Mac Studio" title="Mac Studio"></p>
 <p>As you may have read in my previous blog posts, my main developer workstation is an Apple Mac Studio with an Apple Silicon M1 Max CPU. But instead of running macOS on it, I run Linux – specifically Fedora Asahi Remix, which is Fedora Linux for ARM + the native Apple hardware support provided by the Asahi Linux project.</p>
 <p>While I prefer Linux to other operating systems, the main reason I do this is for speed – running Linux natively on my Mac Studio is at least twice as fast for every task compared to running macOS natively on it. Linux is simply faster and more optimized, and it can fully harness the power of the M1 Max.</p>
-<p>A short while back, Alex Ellis, the founder of <a href="https://actuated.com/">Actuated</a>, reached out to me because he read my blog on Fedora Asahi Remix and knew I had a Mac Studio with an M1 Max running it. He was particularly interested in seeing the performance of running Actuated for ARM on it compared to his other ARM-based Linux systems. In the cloud and developer communities, it’s common courtesy to support each other with these kinds of requests, so I gladly agreed.</p>
+<p>A short while back, <a href="https://github.com/alexellis">Alex Ellis</a>, the founder of <a href="https://actuated.com/">Actuated</a>, reached out to me because he read my blog on Fedora Asahi Remix and knew I had a Mac Studio with an M1 Max running it. He was particularly interested in seeing the performance of running Actuated for ARM on it compared to his other ARM-based Linux systems. In the cloud and developer communities, it’s common courtesy to support each other with these kinds of requests, so I gladly agreed.</p>
 <p> </p>
 <h1 id="background-information">Background information:</h1>
 <ul>
 <li>
 <h3 id="what-is-continuous-integration-ci">What is Continuous Integration (CI)?</h3>
 <ul>
-<li>CI focuses on automatically integrating code changes into a shared code repository and validating those changes through automated builds and tests. The tasks performed by CI are called runners if you use the GitLab code repository, or actions if you use the GitHub code repository. CI shouldn’t be confused with Continuous Delivery/Deployment (CD), which builds upon CI by automating the release process, either delivering code to a staging environment for testing or to a production server.</li>
+<li>CI focuses on automatically integrating code changes into a shared code repository and validating those changes through automated builds and tests. The tasks performed by CI are called runners if you use the GitLab code repository, or actions if you use the GitHub code repository.</li>
+<li>CI is sometimes confused with Continuous Delivery/Deployment (CD), which builds upon CI by automating the release process, either delivering code to a staging environment for testing or to a production server.</li>
 </ul>
 <p> </p>
 </li>
@@ -233,6 +234,7 @@
 <h3 id="what-are-firecracker-microvms">What are Firecracker microVMs?</h3>
 <ul>
 <li>Firecracker microVMs are fast-booting, small virtual machines (VMs) that provide the lightweight benefits of a container, but with full isolation (including security) from the system running it. While originally designed by AWS to provide serverless functionality, they can be used for any purpose, including providing CI functionality.</li>
+<li>If you&rsquo;re interested in learning more about the difference between Firecracker microVMs and containers, you can watch <a href="https://www.youtube.com/watch?v=pTQ_jVYhAoc">Alex&rsquo;s video on this topic</a>. To try out Firecracker on your own machine, you can <a href="https://actuated.com/blog/firecracker-container-lab">follow these steps</a>.</li>
 </ul>
 </li>
 </ul>
@@ -247,22 +249,28 @@
 </ul>
 <p> </p>
 <h1 id="so-how-did-we-do-this">So, how did we do this?</h1>
-<p>Well, firstly, Alex needed to be able to perform the same benchmark – in this case, the time to compile a kernel (a CPU-intensive task) – that he performed on his other ARM-based Linux systems: a Mac Mini M1 and Ampere Altra Q80. That meant that he had to connect remotely to the Actuated agent running on my system, and my system was behind a home NAT router.</p>
+<p>Well, firstly, Alex needed to be able to perform the same benchmark – in this case, the time to compile a large kernel with container and eBPF capabilities (a CPU-intensive task) – that he performed on his other ARM-based Linux systems. Alex was using a Mac Mini M1 (running Asahi Linux) and Ampere Altra Q80 (using credits from Equinix Metal prior to their acquisition). To peform the benchmark, Alex provided instructions to deploy the Actuated agent on my system, in a way that he could connect to it behind my home NAT router.</p>
 <p>Here’s what was involved on my end:</p>
 <ul>
-<li>Installing the <a href="https://docs.actuated.com/install-agent/#install-the-actuated-agent">Actuated agent</a> using an Enterprise license</li>
-<li>Using <code>inlets-pro</code> to create an outbound-initiated tunnel from behind my home NAT router to a cloud server that Alex could use to access my local Actuated agent service. <a href="https://docs.inlets.dev/">Inlets</a> is another project of Alex’s.</li>
-<li>Troubleshooting issues (this is Linux after all!). A few initial issues caused the Actuated agent to crash, but after collaborating with Alex and examining the system, I was able to figure out how to solve them. I had to add some SELinux exceptions, declare an empty variable in <code>/etc/default/actuated</code> to prevent LetsEncrypt warnings, and define a <code>WorkingDirectory</code> directive in the Actuated Systemd unit file to ensure PAM could run tasks as the root user. After that, the agent started perfectly:</li>
+<li>Installing the <a href="https://docs.actuated.com/install-agent/#install-the-actuated-agent">Actuated agent</a></li>
+<li>Using <code>inlets-pro</code> to create an outbound-initiated tunnel from behind my home NAT router to a cloud server that Alex could use to access my local Actuated agent service. <a href="https://docs.inlets.dev/">Inlets</a>, another project developed by Alex, provides options for both self-hosted and managed tunnel servers.</li>
+<li>Troubleshooting issues (this is Linux after all!). A few initial issues caused the Actuated agent to crash, but after collaborating with Alex via LinkedIn chat and examining the system, I was able to figure out how to solve them. I had to add some SELinux exceptions and define a <code>WorkingDirectory</code> directive in the Actuated Systemd unit file to ensure PAM could run tasks as the root user. After that, the agent started perfectly:</li>
 </ul>
 <p><img src="actuated.png#center" alt="Actuated spin up" title="Actuated spin up"></p>
-<p>Alex then connected remotely to perform his benchmarking. In the end, the results were:</p>
+<p>Alex then connected remotely to perform his benchmarking. In the end, the results of the large kernel build for <code>make Image</code> (the equivalent of <code>make vmlinux</code>) were:</p>
 <ul>
 <li>Mac Studio M1 Max (20 cores allocated) = 121.4 seconds</li>
 <li>Mac Mini M1 (8 cores allocated) = 301.9 seconds</li>
 <li>Ampere Altra Q80 (32 cores allocated) = from 158.1 to 231.2 seconds</li>
 </ul>
-<p>Impressively, the M1 Max outperforms the Ampere Altra, even with a dozen fewer cores allocated. And Alex is thinking of getting a Mac Studio M2 Max (with 24 cores) to get even better results, since Asahi Linux supports that model as well.</p>
-<p>In a world where developer time is precious and CI performance can quickly become a bottleneck, fast ARM hardware like the M1 Max makes a compelling case for running Actuated on personal infrastructure. Whether you’re building in the cloud or locally, shaving minutes off your pipelines adds up. And perhaps most importantly: working with others to validate and optimize setups benefits everyone trying to build faster and more efficiently.</p>
+<p>Impressively, the M1 Max outperforms the Ampere Altra, even with a dozen fewer cores allocated. And Alex is thinking of getting a Mac Studio M2 Ultra (with 24 cores) to get even better results, since Asahi Linux supports that model as well (support for the M3 and M4 is still in progress, as the Asahi team remains focused on refining compatibility with the M1 and M2 chips).</p>
+<p>Alex also noted that the Ampere Altra might have performed better if all 80 cores had been allocated. However, Firecracker imposes a hard limit of 32 cores per VM.</p>
+<p>In a world where developer time is precious and CI performance can quickly become a bottleneck, fast ARM hardware like Apple Silicon makes a compelling case for running Actuated on personal infrastructure. The performance gains mainly come from higher CPU clock speeds and reduced storage and memory latency &ndash; thanks in large part to the unified memory architecture. Whether you&rsquo;re building in the cloud or locally, cutting even a few minutes from your pipelines can add up quickly. Perhaps most importantly, collaborating with others to validate and fine-tune these setups benefits everyone working toward faster, more efficient builds.</p>
+<p>Here are two additional links worth exploring:</p>
+<ul>
+<li><a href="https://amperecomputing.com/blogs/ampere-computing-and-cncf-supporting-arm-native-ci-for-ncf-projects">Ampere Computing and CNCF Supporting Arm Native CI for CNCF Projects</a></li>
+<li><a href="https://actuated.com/blog/millions-of-cncf-minutes">On Running Millions of Arm CI Minutes for the CNCF</a></li>
+</ul>
 
   </div>
   <div class="mt-4 d-flex flex-row justify-content-around">
