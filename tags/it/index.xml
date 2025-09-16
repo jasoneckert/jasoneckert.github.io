@@ -6,8 +6,29 @@
     <description>Recent content in IT on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jasoneckert.github.io/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Win10 Is Nearing End-of-Life: What Should You Do Next?</title>
+      <link>https://jasoneckert.github.io/myblog/win10eol/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/win10eol/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;win10eol.png#center&#34; alt=&#34;Win10 EOL&#34; title=&#34;Win10 EOL&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Microsoft has officially set the end-of-life (EOL) date for the Windows 10 (Win10) OS to October 14, 2025. This means that as of that date, there will be no more security updates, bug fixes, or official support for most users. While that date may seem far off (I rarely plan what I’m doing this weekend), it’s wise to start planning now, especially if you’re running Win10 on older hardware or aren’t ready (or able) to jump to Windows 11 (Win11).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demonstrating the Power of Apple Silicon using Actuated CI</title>
+      <link>https://jasoneckert.github.io/myblog/arm-ci/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/arm-ci/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;mac_studio.jpg#center&#34; alt=&#34;Mac Studio&#34; title=&#34;Mac Studio&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As you may have read in my previous blog posts, my main developer workstation is an Apple Mac Studio with an Apple Silicon M1 Max CPU. But instead of running macOS on it, I run Linux – specifically Fedora Asahi Remix, which is Fedora Linux for ARM + the native Apple hardware support provided by the Asahi Linux project.&lt;/p&gt;&#xA;&lt;p&gt;While I prefer Linux to other operating systems, the main reason I do this is for speed – running Linux natively on my Mac Studio is at least twice as fast for every task compared to running macOS natively on it. Linux is simply faster and more optimized, and it can fully harness the power of the M1 Max.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Janet Jackson&#39;s Denial of Service (DoS) Attack</title>
+      <link>https://jasoneckert.github.io/myblog/janet-jackson-dos/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/janet-jackson-dos/</guid>
+      <description>&lt;p&gt;Janet Jackson might not be the first person who comes to mind when you think of a hacker. But she inadvertently created a malicious payload that performed a &lt;em&gt;&lt;strong&gt;Denial of Service (DoS)&lt;/strong&gt;&lt;/em&gt; attack on many different hard drive models manufactured in 2005 and later that rotated at a speed of 5400 rpm (rotations per minute).&lt;/p&gt;&#xA;&lt;h1 id=&#34;how-did-it-work&#34;&gt;How did it work?&lt;/h1&gt;&#xA;&lt;p&gt;If your computer had a 5400 rpm hard drive, all you had to do was play Janet Jackson&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=OAwaNWGLM0c&#34;&gt;Rhythm Nation music video&lt;/a&gt; and it would unleash an acoustic resonance attack that damaged the hard drive.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>It’s Still Your Call: Ethics in the Age of AI</title>
       <link>https://jasoneckert.github.io/myblog/ethics-in-the-age-of-ai/</link>

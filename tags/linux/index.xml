@@ -6,8 +6,15 @@
     <description>Recent content in Linux on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jasoneckert.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Win10 Is Nearing End-of-Life: What Should You Do Next?</title>
+      <link>https://jasoneckert.github.io/myblog/win10eol/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/win10eol/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;win10eol.png#center&#34; alt=&#34;Win10 EOL&#34; title=&#34;Win10 EOL&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Microsoft has officially set the end-of-life (EOL) date for the Windows 10 (Win10) OS to October 14, 2025. This means that as of that date, there will be no more security updates, bug fixes, or official support for most users. While that date may seem far off (I rarely plan what I’m doing this weekend), it’s wise to start planning now, especially if you’re running Win10 on older hardware or aren’t ready (or able) to jump to Windows 11 (Win11).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Story Behind the Mac vs PC Rivalry — And Where Linux Quietly Took Over</title>
       <link>https://jasoneckert.github.io/myblog/mac-vs-pc/</link>
