@@ -229,7 +229,8 @@
     
     <p><img src="hugo.png#center" alt="Hugo title" title="Hugo title"></p>
 <h1 id="what-is-hugo">What is Hugo?</h1>
-<p>Simply put, Hugo generates websites. More specifically, it generates static HTML, CSS, and JavaScript files from your content and themes. Your content is specified in Markdown and YAML/TOML text format and there are hundreds of design themes available at <a href="https://themes.gohugo.io">themes.gohugo.io</a>, most of which are freely available under the MIT License.</p>
+<p>Simply put, Hugo generates websites. More specifically, it creates static HTML, CSS, and JavaScript files from your content and a chosen theme. Your content is written in Markdown, with additional configuration in YAML or TOML. There are hundreds of themes available at <a href="https://themes.gohugo.io">themes.gohugo.io</a>, most of them freely available under the MIT License.</p>
+<p>Think of Hugo as a house builder. The theme you choose acts as a blueprint &ndash; defining layout, size, and structure &ndash; while your content fills in the details: wall colors, trim, and furnishings. Once everything’s in place, the <code>hugo</code> command builds your site, just like a contractor constructing your house. If you know some HTML, CSS, or JavaScript, you can even modify the blueprints yourself (I did exactly that to add a comment section to my own site, which I describe at the end of this post).</p>
 <h1 id="installing-hugo">Installing Hugo</h1>
 <p>You can install Hugo very easily via a terminal command on your operating system:</p>
 <ul>
@@ -245,7 +246,7 @@
 <li><code>hugo new site mysite --format=&quot;yaml&quot;</code> (YAML is a cleaner text configuration format than the default of TOML)</li>
 <li><code>cd mysite</code></li>
 </ul>
-<h3 id="2-download-a-hugo-theme-to-the-mysitethemes-subfolder-well-use-the-hugo-profile-theme">2. Download a Hugo theme to the mysite/themes subfolder (we&rsquo;ll use the Hugo-Profile theme):</h3>
+<h3 id="2-download-a-hugo-theme-to-the-mysitethemes-subdirectory-well-use-the-hugo-profile-theme">2. Download a Hugo theme to the mysite/themes subdirectory (we&rsquo;ll use the Hugo-Profile theme):</h3>
 <ul>
 <li><code>cd themes</code></li>
 <li><code>git clone https://github.com/gurusabarish/hugo-profile</code></li>
@@ -254,7 +255,7 @@
 <li>content &ndash; stores website content (e.g., blogs) in Markdown and is empty by default</li>
 <li>static &ndash; contains files that will be added to the website when it is generated)</li>
 <li>public &ndash; contains the generated website, including all HTML, CSS, and JavaScript files (not shown until you generate your website)</li>
-<li>Other folders are listed in <a href="https://gohugo.io/getting-started/directory-structure/">Hugo’s documentation</a></li>
+<li>Other directories are listed in <a href="https://gohugo.io/getting-started/directory-structure/">Hugo’s documentation</a></li>
 </ul>
 </li>
 </ul>
@@ -282,26 +283,26 @@
 <li>Under <code>footer:</code> note that the 3 most recent blog posts are shown from the blogs section (later), and then update your social media links to the actual profile URLs for each social media website, commenting any you don’t use</li>
 </ul>
 <h3 id="5-modify-graphics-and-style">5. Modify graphics and style:</h3>
-<p>Go to mysite/static and note the fav.png file and contents of the images subfolder:</p>
+<p>Go to mysite/static and note the fav.png file and contents of the images subdirectory:</p>
 <ul>
 <li>Fav.png is a <em><strong>Favicon</strong></em> (icon displayed next to your site name and in the browser tab)
 <ul>
 <li>Download another one from the Internet to replace it (or create your own up to 32x32 pixels) -– you can download Favicons from <a href="https://icons8.com">icons8.com</a> (choose favicon as the download format)</li>
-<li>Remove (or rename) fav.png, add your new fav.png file to the folder</li>
+<li>Remove (or rename) fav.png, add your new fav.png file to the directory</li>
 <li>This fav.png file is referenced under the <code>params:</code> section of your hugo.yaml (look for the line!)</li>
 </ul>
 </li>
 <li>The main person picture on the site is mysite/static/images/hero.svg
 <ul>
 <li>SVG graphic files are common on websites, but you can choose any other format (e.g., jpg, png)</li>
-<li>Generate a profile pic for yourself (e.g., using AI) or use a real picture that is cropped square and add the file to the images folder</li>
+<li>Generate a profile pic for yourself (e.g., using AI) or use a real picture that is cropped square and add the file to the images directory</li>
 <li>Next, in the <code>hero:</code> section of hugo.yaml, update the line <code>image: /images/hero.svg</code> to instead point to your new filename (e.g., <code>image: /images/jason.jpg</code>)</li>
 </ul>
 </li>
 <li>Repeat this same process to replace the image in your About Me section
 <ul>
 <li>The default image is mysite/static/images/me.png &ndash; replace it with a different image or fun graphic from the web (or use a real pic here and a different image or fun graphic to replace hero.svg)</li>
-<li>Note the other pics here: mathjax.png, post.jpg, and achievement.jpg are used for the default blog posts, and the pics for each project are in the projects subfolder &ndash; if you wish to change these, ensure you also update the filename that references them in hugo.yaml or the associated blog post (discussed later)</li>
+<li>Note the other pics here: mathjax.png, post.jpg, and achievement.jpg are used for the default blog posts, and the pics for each project are in the projects subdirectory &ndash; if you wish to change these, ensure you also update the filename that references them in hugo.yaml or the associated blog post (discussed later)</li>
 </ul>
 </li>
 </ul>
@@ -325,16 +326,16 @@
 </ul>
 <p><img src="picasso.jpg#center" alt="Picasso Quote" title="Picasso Quote"></p>
 <h1 id="hosting-your-website">Hosting your Website</h1>
-<p>Once you have a fully-functional portfolio website hosted locally with the built-in Hugo web server, we can copy it to a public web server. You could purchase a domain name and hosting from a hosting provider and upload the contents of the public folder to that provider, or use the free web hosting provided by GitHub (called <em><strong>GitHub Pages</strong></em>) like I do for my site and which I&rsquo;ll discuss here.</p>
+<p>Once you have a fully-functional portfolio website hosted locally with the built-in Hugo web server, we can copy it to a public web server. You could purchase a domain name and hosting from a hosting provider and upload the contents of the public directory to that provider, or use the free web hosting provided by GitHub (called <em><strong>GitHub Pages</strong></em>) like I do for my site and which I&rsquo;ll discuss here.</p>
 <p>First, create a free account on <a href="https://github.com">GitHub.com</a>. This will require a valid email account, as well as the setup of 2FA (use the Microsoft Authenticator app). You will also need to choose a GitHub username –- this username will be used for your personal website (githubusername.github.io)</p>
-<p>Next, update the <code>baseURL</code> on the first line of mysite/hugo.yaml to reflect the hosting location: <code>baseURL:&quot;https://githubusername.github.io/&quot;</code> (supply your GitHub username). Following this, you&rsquo;ll need to recomposite your website to the public folder with the new baseURL:</p>
+<p>Next, update the <code>baseURL</code> on the first line of mysite/hugo.yaml to reflect the hosting location: <code>baseURL:&quot;https://githubusername.github.io/&quot;</code> (supply your GitHub username). Following this, you&rsquo;ll need to recomposite your website to the public directory with the new baseURL:</p>
 <ul>
 <li><code>cd mysite</code></li>
 <li><code>hugo</code> (or <code>hugo -F</code> if you have blog posts with a future date on them)</li>
 </ul>
 <p>Return to GitHub.com, create a new repository (<code>+</code> symbol), call it <code>githubusername.github.io</code>, choosing Public visibility and the option to initialize the repository with a README. In your repository, choose <em><strong>Settings</strong></em>, then select <em><strong>Pages</strong></em> from the left pane. Under Source, choose <em><strong>Deploy from a branch</strong></em> and ensure that the main branch is shown for the root (/).</p>
-<p>Now, click your repository name in the upper left to return to your repository and click <em><strong>Add file</strong></em> &gt; <em><strong>Upload files</strong></em>. Select all files in your mysite/public folder, drag them to the window, and click <em><strong>Commit changes</strong></em>. After a few moments, visit <code>https://githubusername.github.io</code> in your web browser to see your hosted site!</p>
-<p>Each time you publish a new blog post or make changes, you can repeat this process, or leverage a GitHub syncing app like GitHub Desktop to do the same. If you want to add a comments section to your blog using the built-in GitHub Discussions feature, read my <a href="../github-discussions-blog">earlier blog post</a>.</p>
+<p>Now, click your repository name in the upper left to return to your repository and click <em><strong>Add file</strong></em> &gt; <em><strong>Upload files</strong></em>. Select all files in your public directory, drag them to the window, and click <em><strong>Commit changes</strong></em>. After a few moments, visit <code>https://githubusername.github.io</code> in your web browser to see your hosted site!</p>
+<p>Each time you create a new blog post or make changes your site content, you can run <code>hugo</code> (or <code>hugo -F</code>) again, and then upload the files in the public directory again to your repository (or leverage a GitHub syncing app like GitHub Desktop to do that part automatically). If you want to add a comments section to your blog using the built-in GitHub Discussions feature, read my <a href="../github-discussions-blog">earlier blog post</a>.</p>
 
   </div>
   <div class="mt-4 d-flex flex-row justify-content-around">
