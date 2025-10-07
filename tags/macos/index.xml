@@ -2,304 +2,304 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MacOS on Jason Eckert&#39;s Website and Blog</title>
-    <link>http://localhost:1313/tags/macos/</link>
+    <link>https://jasoneckert.github.io/tags/macos/</link>
     <description>Recent content in MacOS on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jasoneckert.github.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Hugo</title>
-      <link>http://localhost:1313/myblog/hugo/</link>
+      <link>https://jasoneckert.github.io/myblog/hugo/</link>
       <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/hugo/</guid>
+      <guid>https://jasoneckert.github.io/myblog/hugo/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;hugo.png#center&#34; alt=&#34;Hugo title&#34; title=&#34;Hugo title&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-hugo&#34;&gt;What is Hugo?&lt;/h1&gt;&#xA;&lt;p&gt;Simply put, Hugo generates websites. More specifically, it generates static HTML, CSS, and JavaScript files from your content and themes. Your content is specified in Markdown and YAML/TOML text format and there are hundreds of design themes available at &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;themes.gohugo.io&lt;/a&gt;, most of which are freely available under the MIT License.&lt;/p&gt;&#xA;&lt;h1 id=&#34;installing-hugo&#34;&gt;Installing Hugo&lt;/h1&gt;&#xA;&lt;p&gt;You can install Hugo very easily via a terminal command on your operating system:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Story Behind the Mac vs PC Rivalry — And Where Linux Quietly Took Over</title>
-      <link>http://localhost:1313/myblog/mac-vs-pc/</link>
+      <link>https://jasoneckert.github.io/myblog/mac-vs-pc/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/mac-vs-pc/</guid>
+      <guid>https://jasoneckert.github.io/myblog/mac-vs-pc/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;mac-vs-pc.jpg#center&#34; alt=&#34;Mac vs PC&#34; title=&#34;Mac vs PC&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to computers, most people today use either a Mac or a PC. In this post, I’ll explore how this digital rivalry began, how it shaped modern computing — and how Linux quietly carved out a space of its own.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-early-days-roots-of-the-rivalry&#34;&gt;The Early Days: Roots of the Rivalry&lt;/h1&gt;&#xA;&lt;p&gt;In the 1980s, personal computers (PCs) began appearing in homes, schools, and businesses across the world. A wide range of companies entered the market, including Apple, IBM, Tandy, Commodore, Atari, Texas Instruments, and Sinclair. Most of these early machines featured basic text-based interfaces — often just a simple version of the BASIC programming language. But a few notable outliers, like the Apple Macintosh and the IBM PC, ran more sophisticated operating systems that hinted at what modern computing would eventually become.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Running an LLM locally using Ollama</title>
-      <link>http://localhost:1313/myblog/llms-using-ollama/</link>
+      <link>https://jasoneckert.github.io/myblog/llms-using-ollama/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/llms-using-ollama/</guid>
+      <guid>https://jasoneckert.github.io/myblog/llms-using-ollama/</guid>
       <description>&lt;p&gt;If you are developing or integrating software with a Large Language Model (LLM) to add chatbot or other AI functionality, then you may have the need to host and run an LLM on your local workstation for development or testing. There are several open source LLMs available that you can freely run on your system provided that you have enough resources to do so.&lt;/p&gt;&#xA;&lt;p&gt;LLMs are just inert objects that require special software to allow people and other software to interact with it (called &lt;em&gt;&lt;strong&gt;running the model&lt;/strong&gt;&lt;/em&gt;). Unfortunately, setting up the software components to run a model is akin to nailing Jello to a tree.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installing a Fedora Linux ARM VM from a Raw Image</title>
-      <link>http://localhost:1313/myblog/linux-arm-raw-image/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-arm-raw-image/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</guid>
       <description>&lt;p&gt;Many professionals who work in Information Technology (IT) or software development use an ARM-based PC, such as an Apple Silicon Mac, Snapdragon Elite X Windows Copilot+ PC, or an ARM Linux workstation such as the System76 Thelio Astra. Similarly, many students learning IT or software development may also use an ARM-based PC. For all of these people, it&amp;rsquo;s commonplace to deploy Linux virtual machines (VMs) on a PC using hypervisor software to test cloud apps, host server software, or run specialized tools.&lt;/p&gt;</description>
     </item>
     <item>
       <title>40 years of Macintosh</title>
-      <link>http://localhost:1313/myblog/40-years-of-mac/</link>
+      <link>https://jasoneckert.github.io/myblog/40-years-of-mac/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/40-years-of-mac/</guid>
+      <guid>https://jasoneckert.github.io/myblog/40-years-of-mac/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;apple40.png#right&#34; alt=&#34;Apple 40 years logo&#34; title=&#34;Apple 40 years logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The first Apple Macintosh computer was released 40 years ago (January 24, 1984) following an &lt;a href=&#34;https://www.youtube.com/watch?v=VtvjbmoDx-I&#34;&gt;epic 1984 Super Bowl commercial&lt;/a&gt; two days earlier.&lt;/p&gt;&#xA;&lt;p&gt;As the first mass-market all-in-one computer with a graphical desktop and mouse navigation, the Macintosh (and the Macintosh brand in general) was positioned to be &lt;em&gt;&lt;strong&gt;the computer for everyone&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;40 years later, the &amp;ldquo;Mac&amp;rdquo; is a household name and Apple is the world&amp;rsquo;s richest company by market cap. But the Mac isn&amp;rsquo;t just a computer, it&amp;rsquo;s essentially Apple&amp;rsquo;s whole line of business. iPhones and iPads run a version of the same macOS UNIX operating system you&amp;rsquo;ll find on your MacBook, iMac, Mac Mini, Mac Studio, or Mac Pro. Ditto for the Apple Watch and Visio Pro, and likely every future product that Apple releases.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Extending the life of an Intel-based Mac using Windows 11</title>
-      <link>http://localhost:1313/myblog/intel-mac-win11/</link>
+      <link>https://jasoneckert.github.io/myblog/intel-mac-win11/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/intel-mac-win11/</guid>
+      <guid>https://jasoneckert.github.io/myblog/intel-mac-win11/</guid>
       <description>&lt;p&gt;Back in 2020, Apple introduced the first Macs that used Apple Silicon processors instead of Intel ones, and this transition from Intel to Apple Silicon was completed earlier this year across Apple&amp;rsquo;s entire product line. While Apple promised they&amp;rsquo;d continue supporting macOS on Intel-based Macs for the near future, those of us who remember Apple&amp;rsquo;s previous transitions from M68k-to-PowerPC and PowerPC-to-Intel know full well that this support is going to end sooner than later. Even the last two versions of macOS have far fewer features when run on Intel Macs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Essential keyboard shortcuts (Windows/macOS/Linux/UNIX)</title>
-      <link>http://localhost:1313/myblog/shortcuts/</link>
+      <link>https://jasoneckert.github.io/myblog/shortcuts/</link>
       <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/shortcuts/</guid>
+      <guid>https://jasoneckert.github.io/myblog/shortcuts/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;hands.jpg#center&#34; alt=&#34;Hands on keyboard&#34; title=&#34;Hands on keyboard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Following are some shortcuts that I believe all desktop users should be familiar with. It is not a complete list by any means, and does not include virtual desktop or app pinning shortcuts as I felt those were beyond the scope of common desktop shortcuts. If you feel I omitted a common shortcut, email me (&lt;a href=&#34;mailto:jason.eckert@trios.com&#34;&gt;jason.eckert@trios.com&lt;/a&gt;) and I&amp;rsquo;ll add it to the list!&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-windows-shortcuts&#34;&gt;1. Windows shortcuts&lt;/h1&gt;&#xA;&lt;p&gt;The Windows (⊞) key on your keyboard has the Windows logo printed on it. Modern keyboards use the newer Windows logo with four equally-sized squares, while older keyboards use a Windows logo with four slanted or curved squares.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Running a Mainstream Linux Distro Natively on Apple Silicon: Fedora Asahi Remix First Impressions</title>
-      <link>http://localhost:1313/myblog/fedora-asahi-remix/</link>
+      <link>https://jasoneckert.github.io/myblog/fedora-asahi-remix/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/fedora-asahi-remix/</guid>
+      <guid>https://jasoneckert.github.io/myblog/fedora-asahi-remix/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s been a year and a half since the &lt;a href=&#34;https://asahilinux.org/&#34;&gt;Asahi Linux&lt;/a&gt; project allowed us to run Arch Linux natively on our Apple Silicon computers. And while my overall experience has been excellent, the Asahi Linux project is switching their flagship Linux distribution (distro) &lt;a href=&#34;https://asahilinux.org/2023/08/fedora-asahi-remix/&#34;&gt;from Arch to Fedora&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Why the switch from Arch to Fedora? You could argue that Fedora is a much more popular mainstream distribution compared to Arch, or that Linus Torvalds himself uses Fedora already on his Apple Silicon-based Macbook using the Asahi boot components and drivers. But the main reason is that there have been many &lt;a href=&#34;https://social.treehouse.systems/@marcan/109971521711413167&#34;&gt;issues&lt;/a&gt; surrounding the maintenance of ARM packages for Arch Linux, and that the Fedora team is both capable and willing to provide provide the support needed to provide a truly polished Linux experience on modern Macs (the main goal of the Asahi Linux project). By moving to Fedora, the Asahi team can focus on reverse engineering Apple hardware while the Fedora team can focus on maintaining the distribution itself on the Apple Silicon platform. This combination of Fedora with the Asahi boot components and drivers for Apple Silicon is called &lt;em&gt;&lt;strong&gt;Fedora Asahi Remix&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My first textbook is now in its sixth edition</title>
-      <link>http://localhost:1313/myblog/linux-sixth-edition/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-sixth-edition/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-sixth-edition/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-sixth-edition/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;first-and-sixth.png#center&#34; alt=&#34;First and sixth edition of my Linux textbook&#34; title=&#34;First and sixth edition of my Linux textbook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While I&amp;rsquo;ve written &lt;a href=&#34;../../bio/my-published-books/&#34;&gt;many textbooks&lt;/a&gt; on different topics over the past two decades, my favourite subject area by far is Linux. After all, Linux has evolved to be one of the most foundational topics in tech education. Information Technology (IT) fields such as server/network administration, cloud administration, cybersecurity, and software development now require a solid grasp of the Linux operating system.&#xA;&lt;img src=&#34;sixthedition.jpg#right&#34; alt=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34; title=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux is making Apple Great Again</title>
-      <link>http://localhost:1313/myblog/linux-is-making-apple-great-again/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-is-making-apple-great-again/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-is-making-apple-great-again/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-is-making-apple-great-again/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;maga.png#right&#34; alt=&#34;Make Apple Great Again hat&#34; title=&#34;Make Apple Great Again hat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;MAGA pun aside, Linux is doing more for Apple hardware than macOS right now&amp;hellip; at least in the eyes of some old UNIX nerds like me.&lt;/p&gt;&#xA;&lt;p&gt;At the Southern California Linux Expo (SCaLE) earlier this month, the closing keynote was given by &lt;a href=&#34;https://www.facesofopensource.com/ken-thompson/&#34; title=&#34;Ken Thompson&#34;&gt;Ken Thompson&lt;/a&gt; (co-creator of the UNIX operating system and the Go programming language). During the Q&amp;amp;A session following that keynote, Ken was asked &amp;ldquo;&lt;em&gt;&lt;strong&gt;What&amp;rsquo;s your operating system of choice, today?&lt;/strong&gt;&lt;/em&gt;&amp;rdquo; While you can watch it &lt;a href=&#34;https://www.youtube.com/live/kaandEt_pKw?feature=share&amp;amp;t=3470&#34; title=&#34;here&#34;&gt;here&lt;/a&gt;, his response was:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Time I Yoga-Balled an Apple Store Employee</title>
-      <link>http://localhost:1313/myblog/the-time-i-yoga-balled-an-apple-store-employee/</link>
+      <link>https://jasoneckert.github.io/myblog/the-time-i-yoga-balled-an-apple-store-employee/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-time-i-yoga-balled-an-apple-store-employee/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-time-i-yoga-balled-an-apple-store-employee/</guid>
       <description>&lt;p&gt;Back in the late 2000s, my teenage daughter and I went to a local mall one weekend to do some shopping. As usual, I insisted we drop into the Apple store before leaving.&lt;/p&gt;&#xA;&lt;p&gt;The store itself was quite busy. There were people playing with nearly every item on display at the tables near the front of the store, and even more people hovering around those people to catch a glimpse of what they were doing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How Linux Certification Has Evolved Over The Years</title>
-      <link>http://localhost:1313/myblog/linux-certification/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-certification/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-certification/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-certification/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;LinuxDesk.png#center&#34; alt=&#34;Banner&#34; title=&#34;Banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Because organizations continually adopt new technologies, the need for skilled IT professionals to support those technologies is always increasing. Technology certification has been the most common skills benchmark used for hiring and promotion in the IT industry since the early 1990s, with Linux certification being one of the most sought-after. After all, knowing how to use, configure and administer the Linux operating system is prerequisite for a wide variety of different IT job roles, including server administrators, cloud administrators, devops engineers, site reliability engineers, cybersecurity analysts, penetration testers, and software developers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>macOS for Linux admins (2022 refresh)</title>
-      <link>http://localhost:1313/myblog/macos-for-linux-admins/</link>
+      <link>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</link>
       <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/macos-for-linux-admins/</guid>
+      <guid>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</guid>
       <description>&lt;p&gt;As I mentioned in my CompTIA blog post All About Linux and Linux+ ( &lt;a href=&#34;https://www.comptia.org/blog/all-about-linux-and-linux&#34;&gt;https://www.comptia.org/blog/all-about-linux-and-linux&lt;/a&gt; ), Linux is essentially an open-source UNIX operating system. And since nearly all of the concepts, commands and files are identical between UNIX and Linux, anyone who works with Linux could easily administer a UNIX system.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;em&gt;&lt;strong&gt;macOS&lt;/strong&gt;&lt;/em&gt; operating system that runs on Apple computers is a flavor of UNIX.  Thus, most of the concepts that you use when administering a Linux system are also applicable to macOS. It’s not uncommon to find Apple laptops running macOS within organizations today, or even Apple desktops within certain departments, such as Marketing, where they are often used for graphics and desktop publishing. Consequently, when applying for IT administration and support jobs that require a macOS skillset, Linux is a big benefit!&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Power of RISC architecture</title>
-      <link>http://localhost:1313/myblog/power-of-risc/</link>
+      <link>https://jasoneckert.github.io/myblog/power-of-risc/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/power-of-risc/</guid>
+      <guid>https://jasoneckert.github.io/myblog/power-of-risc/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;risc-hackers-movie.jpg#center&#34; alt=&#34;Hackers Movie Quote&#34; title=&#34;Hackers Movie Quote&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This part of the 1995 &lt;em&gt;&lt;strong&gt;Hackers&lt;/strong&gt;&lt;/em&gt; movie shown above is right on par for the time. After all, by the mid 1990s &lt;em&gt;&lt;strong&gt;Reduced Instruction Set Computer (RISC)&lt;/strong&gt;&lt;/em&gt; processors were seen as the future of computing by most in the tech industry.&lt;/p&gt;&#xA;&lt;p&gt;By using a simplified instruction set, computers with RISC processors at the time could perform tasks in a quarter of the time compared to computers that had a traditional &lt;em&gt;&lt;strong&gt;Complex Instruction Set Computer (CISC)&lt;/strong&gt;&lt;/em&gt; processor. RISC processors also required less circuitry, which allowed manufacturers to easily add more functionality, such as crypto accelerators, memory management controllers and specialized floating point arithmetic units.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding the Cult of Mac</title>
-      <link>http://localhost:1313/myblog/cult-of-mac/</link>
+      <link>https://jasoneckert.github.io/myblog/cult-of-mac/</link>
       <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/cult-of-mac/</guid>
+      <guid>https://jasoneckert.github.io/myblog/cult-of-mac/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cultofmac.jpg#right&#34; alt=&#34;Cult of Mac&#34; title=&#34;Cult of Mac&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Exactly 3 years ago, I wrote a non-fiction work of satire called &lt;em&gt;&lt;strong&gt;Escaping the Cult of Mac: A Guide from a Cult Survivor&lt;/strong&gt;&lt;/em&gt; to win a bet with some members of the local tech community in Kitchener-Waterloo. It was incredibly fun, and it got plenty of laughs. A friend recently requested I do up a shorter, safe-for-work version that could easily be shared. And this blog post is essentially that!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Quickstart</title>
-      <link>http://localhost:1313/myblog/kubernetes-quickstart/</link>
+      <link>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/kubernetes-quickstart/</guid>
+      <guid>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</guid>
       <description>&lt;p&gt;Over the past two decades, we&amp;rsquo;ve shifted from running servers bare metal to running them almost exclusively within virtual machines (VMs). More recently we&amp;rsquo;ve seen another shift to running servers within containers. Like VMs, containers are servers that contain a unique filesystem, IP stack and software. But unlike VMs, containers do not contain a full operating system or operating system kernel. Instead they rely on an underlying operating system that runs the container using a &lt;em&gt;&lt;strong&gt;container runtime&lt;/strong&gt;&lt;/em&gt;, such as Docker. Consequently, containers are much smaller than VMs and ideal for running software within cloud environments where resource utilization must be kept to a minimum to control costs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installing a fast Linux server on an M1-based Mac</title>
-      <link>http://localhost:1313/myblog/installing-linux-server-on-mac-m1/</link>
+      <link>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/installing-linux-server-on-mac-m1/</guid>
+      <guid>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</guid>
       <description>&lt;p&gt;One of the biggest worries that IT users have regarding Apple&amp;rsquo;s new ARM-based M1 platform is the ability to run &lt;em&gt;&lt;strong&gt;virtual machines (VMs)&lt;/strong&gt;&lt;/em&gt; of other operating systems using hypervisor software. And while it&amp;rsquo;s possible to run virtual machines of both Windows and Linux operating systems made for the Intel platform on the M1, the performance cost of translating Intel instructions to ARM is high (even with the optimizations Apple has within their M1 CPU). Luckily, the most common VM that an IT systems administrator or developer will install is Linux, and ARM versions of Linux have been mainstream for well over a decade now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ARM on the desktop is here to stay</title>
-      <link>http://localhost:1313/myblog/arm-on-the-desktop/</link>
+      <link>https://jasoneckert.github.io/myblog/arm-on-the-desktop/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/arm-on-the-desktop/</guid>
+      <guid>https://jasoneckert.github.io/myblog/arm-on-the-desktop/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;arm.png#right&#34; alt=&#34;ARM Powered logo&#34; title=&#34;ARM Powered logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in the 1990s, &lt;em&gt;&lt;strong&gt;Reduced Instruction Set Computing (RISC)&lt;/strong&gt;&lt;/em&gt; architecture was widely seen as the future. UNIX workstations from Silicon Graphics and Sun Microsystems boasted powerful RISC CPUs at the time, but were prohibitively expensive and died out in the early 2000s as a result. Only the &lt;em&gt;&lt;strong&gt;Acorn RISC Machine (ARM)&lt;/strong&gt;&lt;/em&gt; architecture used in low-power devices (e.g. PDAs) survived past the early 2000s, and only because of the rise of mobile devices that relied on battery power.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The computer that saved Apple</title>
-      <link>http://localhost:1313/myblog/the-computer-that-saved-apple/</link>
+      <link>https://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-computer-that-saved-apple/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;imacbb.jpg#center&#34; alt=&#34;iMac Bondi Blue&#34; title=&#34;iMac Bondi Blue&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The very first iMac model (shown above) was released in 1998, came in one colour called Bondi Blue, and had a semi-translucent case that allowed you to see the components inside. It had a 233MHz PowerPC G3 CPU, 32MB of RAM, CD-ROM drive, and shipped with MacOS 8.1 (soon upgraded to MacOS 9 - the last version before Apple moved to Mac OS X).&lt;/p&gt;&#xA;&lt;p&gt;While passing by a convenience store in my home town of Hespeler, I muttered in distaste when I noticed that someone had dumped a lot of furniture and various other household items next to the already-full dumpster at the back. But just as I was about to look away, I noticed something familiar. Peeking out of the top of a Rubbermaid tub was what looked like the rear of an old iMac. When I walked over to it, I noticed that it was a Bondi Blue iMac in mint condition, with the original keyboard and mouse. So I took it home, turned it on, and it booted to life.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An introduction to WireGuard VPN</title>
-      <link>http://localhost:1313/myblog/an-introduction-to-wireguard-vpn/</link>
+      <link>https://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/an-introduction-to-wireguard-vpn/</guid>
+      <guid>https://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</guid>
       <description>&lt;h1 id=&#34;1-why-wireguard&#34;&gt;1. Why WireGuard?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;wireguard.png#right&#34; alt=&#34;WireGuard logo&#34; title=&#34;WireGuard logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to encrypting traffic between systems, there are a wide variety of different &lt;em&gt;&lt;strong&gt;Virtual Private Network (VPN)&lt;/strong&gt;&lt;/em&gt; software available, some of which have been used since the 1990s. Each of them focus on different encryption algorithms and flow control strategies, alongside mechanisms for providing for secure authentication and negotiating encryption keys. Unfortunately, this complexity often translates to more problems, slower traffic, as well fewer use cases and supported operating systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A brief history of technology</title>
-      <link>http://localhost:1313/myblog/a-brief-history-of-technology/</link>
+      <link>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/a-brief-history-of-technology/</guid>
+      <guid>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</guid>
       <description>&lt;p&gt;Technology is a crazy ride, and like that lyric in the Talking Heads song &lt;em&gt;&lt;strong&gt;Once in a Lifetime&lt;/strong&gt;&lt;/em&gt;, &amp;ldquo;&amp;hellip;you may ask yourself, well, how did I get here?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;If that&amp;rsquo;s the case, you&amp;rsquo;re in luck, because this post is a no-nonsense, give-me-the-big-picture timeline of what the heck happened in the technology landscape these past 50 years. Of course, not every little detail is in there. Just those that are actually important (in my expert opinion, of course ;-) Enjoy!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Most people don&#39;t want a computer</title>
-      <link>http://localhost:1313/myblog/most-people-dont-want-a-computer/</link>
+      <link>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/most-people-dont-want-a-computer/</guid>
+      <guid>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</guid>
       <description>&lt;p&gt;In the past few decades, people of all ages across North America have become technology-literate in some way or another. Many of them weren&amp;rsquo;t introduced to technology via desktop or laptop computers, but instead through a smartphone or tablet. Similarly, many desktop and laptop users have switched to using their smartphone or tablet over the past decade to interact with the online world.&lt;/p&gt;&#xA;&lt;p&gt;After all, smartphones and tablets are incredibly easy to use. You open an app to do what you want (social media, shopping, taking pics of food, etc.), and the rest can be done in a Web browser. It doesn&amp;rsquo;t matter where your files are stored locally because they&amp;rsquo;re easily searchable, and they&amp;rsquo;re automatically synced to the cloud so that you don&amp;rsquo;t lose them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Customizing macOS for development</title>
-      <link>http://localhost:1313/myblog/customizing-macos-for-development/</link>
+      <link>https://jasoneckert.github.io/myblog/customizing-macos-for-development/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/customizing-macos-for-development/</guid>
+      <guid>https://jasoneckert.github.io/myblog/customizing-macos-for-development/</guid>
       <description>&lt;p&gt;So your boss gave you a Mac for development. Or maybe you bought a Mac to develop iOS apps. Or maybe you bought a MacBook because you need to develop software as well as look good at Starbucks (after the pandemic is over, of course).&lt;/p&gt;&#xA;&lt;p&gt;Unfortunately doing serious development using macOS is cumbersome at best. The Aqua desktop in macOS has few features or components geared towards developers. If you look over the shoulder of most Mac users, you’ll notice that their desktop looks like a very messy desk. The more you use macOS, the more you realize this messy desktop practice is caused by the design of Aqua and not the user. After all, Apple designed every aspect of Aqua to fit the needs of the most novice users, and not power users such as developers. Luckily, there are several things you can do to tweak your Mac into a fast developer workstation that boasts an interface with the productivity features you’re used to on Windows 10 and Linux desktops. In this blog post, I’ll share my general recommendations for turning macOS into a developer workstation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2019 in review</title>
-      <link>http://localhost:1313/myblog/2019-in-review/</link>
+      <link>https://jasoneckert.github.io/myblog/2019-in-review/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/2019-in-review/</guid>
+      <guid>https://jasoneckert.github.io/myblog/2019-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;macandme.png#center&#34; alt=&#34;Mac and me&#34; title=&#34;Mac and me&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;award.jpg#left&#34; alt=&#34;CompTIA award&#34; title=&#34;CompTIA award&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!&lt;/p&gt;&#xA;&lt;p&gt;On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA)  Instructor Network.&lt;/p&gt;&#xA;&lt;p&gt;This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apple is regressing to their 1990s disposition</title>
-      <link>http://localhost:1313/myblog/apple-is-regressing-to-their-1990s-disposition/</link>
+      <link>https://jasoneckert.github.io/myblog/apple-is-regressing-to-their-1990s-disposition/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/apple-is-regressing-to-their-1990s-disposition/</guid>
+      <guid>https://jasoneckert.github.io/myblog/apple-is-regressing-to-their-1990s-disposition/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;macoffice.png#center&#34; alt=&#34;Mac in office&#34; title=&#34;Mac in office&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A friend of mine found himself working for a school in the mid 1990s, deploying a new lab of Apple Mac computers designed to teach graphic design. Before the deployment, he went to the technology decision-makers and told them that they could build a much faster lab for half the cost, since their Adobe software can also run on PC. He also noted that Macs play well with other proprietary Apple stuff, whereas PCs played well with most technologies and had a much longer useful lifetime due to upgradability. It was where the industry was moving, and it made logical sense to move in that direction.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cult of Mac Book</title>
-      <link>http://localhost:1313/myblog/cult-of-mac-book/</link>
+      <link>https://jasoneckert.github.io/myblog/cult-of-mac-book/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/cult-of-mac-book/</guid>
+      <guid>https://jasoneckert.github.io/myblog/cult-of-mac-book/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cult.jpg#right&#34; alt=&#34;Cult of Mac book cover&#34; title=&#34;Cult of Mac book cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A few weeks ago, I was out at a social event with a bunch of guys and gals from the local Linux/UNIX/developer/IT community (contrary to popular opinion, Linux/UNIX people know how to party hard).&lt;/p&gt;&#xA;&lt;p&gt;At one point during the night, we were sitting at a round booth and poking fun at a total Apple fanboy in our group. Someone called him a “Cult of Mac member” and he replied, “And proud to be one - I could write the book on the cult!” to which I replied, “Firstly, you&amp;rsquo;re not an accomplished author. Secondly, as a cult survivor, I&amp;rsquo;m the one who should be writing the book.”&lt;/p&gt;</description>
     </item>
     <item>
       <title>35th Anniversary of the Macintosh Computer</title>
-      <link>http://localhost:1313/myblog/35-anniversary-of-macintosh/</link>
+      <link>https://jasoneckert.github.io/myblog/35-anniversary-of-macintosh/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/35-anniversary-of-macintosh/</guid>
+      <guid>https://jasoneckert.github.io/myblog/35-anniversary-of-macintosh/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;macmac.png#right&#34; alt=&#34;Mac128K&#34; title=&#34;Mac128K&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;35 years ago today, Apple announced their Macintosh computer. What made the Macintosh radically different at the time was its graphical user interface (GUI) that was navigated using a mouse (mice were very uncommon in 1984!).&lt;/p&gt;&#xA;&lt;p&gt;The first Macintosh only had 128K of RAM and a Motorola 68000 CPU, but it was pretty snappy for the time. The picture at the top of this post is of my daughter next to an original Macintosh 128K (and yes, it still works).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ultimate UNIX timeline</title>
-      <link>http://localhost:1313/myblog/ultimate-unix-timeline/</link>
+      <link>https://jasoneckert.github.io/myblog/ultimate-unix-timeline/</link>
       <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/ultimate-unix-timeline/</guid>
+      <guid>https://jasoneckert.github.io/myblog/ultimate-unix-timeline/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;unix.png#center&#34; alt=&#34;UNIX&#34; title=&#34;UNIX&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;One thing that has always annoyed me about the Internet surrounds the history and evolution of UNIX-based operating systems.  If you Google “UNIX timeline”, you’ll get a bunch of different results that are either incomplete, incorrect, complicated to the point where it’s unreadable, or a combination of all of these things.&lt;/p&gt;&#xA;&lt;p&gt;So this blog post aims to rectify this!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;ultimateunixtimeline.bmp#center&#34; alt=&#34;UNIX timeline&#34; title=&#34;UNIX timeline&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here are some important things to note about UNIX in general and each of the UNIX flavours depicted on this timeline:&lt;/p&gt;</description>
     </item>
     <item>
       <title>RIP PowerBook</title>
-      <link>http://localhost:1313/myblog/rip-powerbook/</link>
+      <link>https://jasoneckert.github.io/myblog/rip-powerbook/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/rip-powerbook/</guid>
+      <guid>https://jasoneckert.github.io/myblog/rip-powerbook/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;powerbook.png#center&#34; alt=&#34;PowerBook&#34; title=&#34;PowerBook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I took the picture at the top of this post sitting in Starbucks recently with my trusty, 12-year-old PowerBook G4 laptop from Apple.  Those sitting around me have no idea how ancient my laptop is - they probably see the glow from the Apple logo on the back and realize that it’s just another Apple laptop.&lt;/p&gt;&#xA;&lt;p&gt;But it’s more than just another laptop to me.  It’s written over a dozen textbooks for various publishers, created countless curriculum documents for my college, and given well over a hundred presentations.  It’s done the work of 20 laptops.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The history of IT certification</title>
-      <link>http://localhost:1313/myblog/history-of-it-certification/</link>
+      <link>https://jasoneckert.github.io/myblog/history-of-it-certification/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/history-of-it-certification/</guid>
+      <guid>https://jasoneckert.github.io/myblog/history-of-it-certification/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cert1.png#center&#34; alt=&#34;cert1&#34; title=&#34;cert1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nearly everyone working in an Information Technology (IT) field has at least one IT-related certification. This is because IT certification is commonly used as a skills benchmark for hiring and promotion, and it’s been that way for a long, long time.&lt;/p&gt;&#xA;&lt;p&gt;So where did all this certification stuff start?  If you look online, there isn’t even a Wikipedia page that can give you that answer - like many things in the technology world that predated the Internet, it just wasn’t important enough to keep track of in the Internet Age that started in the 1990s.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows and macOS could move to Linux</title>
-      <link>http://localhost:1313/myblog/windows-and-macos-could-move-to-linux/</link>
+      <link>https://jasoneckert.github.io/myblog/windows-and-macos-could-move-to-linux/</link>
       <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/windows-and-macos-could-move-to-linux/</guid>
+      <guid>https://jasoneckert.github.io/myblog/windows-and-macos-could-move-to-linux/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;linuxy.png#center&#34; alt=&#34;move to Linux&#34; title=&#34;move to Linux&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;For those in the tech world, the title of this post may seem both radical and pretentious.&lt;/p&gt;&#xA;&lt;p&gt;However, in the following four parts of this blog post, I hope to shed light on why this is a real possibility in the not-so-distant future and why.&lt;/p&gt;&#xA;&lt;h1 id=&#34;part-1-os-overview&#34;&gt;PART 1: OS overview&lt;/h1&gt;&#xA;&lt;p&gt;First of all, an operating system (OS) is essentially the core software that allows your computer to run - it provides a core component (called a kernel) that understands how to use the hardware in your computer, a user interface (e.g. your Desktop), as well as a rich set of software libraries and frameworks that allow apps to run.  These software libraries and frameworks are specific to your OS and are often called a platform.  For example, you can develop an app for the Windows platform, or you can develop and app for the macOS or Linux platforms.  When it comes to mobile devices, iOS is just a mobile version of macOS, and Android is just Linux with an Android framework on top - as a result, we can really say that the three main OS platforms available today are Windows, macOS and Linux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Some NeXT level stuff</title>
-      <link>http://localhost:1313/myblog/some-next-level-stuff/</link>
+      <link>https://jasoneckert.github.io/myblog/some-next-level-stuff/</link>
       <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/some-next-level-stuff/</guid>
+      <guid>https://jasoneckert.github.io/myblog/some-next-level-stuff/</guid>
       <description>&lt;h1 id=&#34;1-what-is-next-pun-intended&#34;&gt;1. What is NeXT? (pun intended)&lt;/h1&gt;&#xA;&lt;p&gt;NeXT was the computer company that Steve Jobs (co-founder of Apple) created after he got kicked out of Apple in the 1980s.  They made high-end UNIX workstations that were intended to rival Apple computers, and primarily targeted for the higher education and science/engineering markets.  However, they were not as successful as their competitors in this market and when Steve Jobs returned to Apple in 1997, he ensured that Apple purchased NeXT.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Breathe new life into an old PowerBook G4 using Linux</title>
-      <link>http://localhost:1313/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
+      <link>https://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
+      <guid>https://jasoneckert.github.io/myblog/breathe-new-life-into-an-old-powerbook-g4-with-linux/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;powerbookg4.png#center&#34; alt=&#34;PowerBook G4&#34; title=&#34;PowerBook G4&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So what do you do when you have an old PowerBook that still works but can’t run the latest operating system (OS) and software? Well, you could sell it - but it won&amp;rsquo;t fetch much at all (less than $50 in most cases).&lt;/p&gt;&#xA;&lt;p&gt;A better option is to install a currently-supported OS that runs really well on limited hardware&amp;hellip;&amp;hellip;.in other words, install Linux on it!&lt;/p&gt;&#xA;&lt;p&gt;I recently installed the latest version of Debian Linux on my PowerBook G4 to make it useful again.  With only 1.25 GB of RAM and a 1.5 GHz PowerPC CPU, it could only run Mac OS 10.5 (very old), and nearly all Mac software programs, including Web browsers, have discontinued support for PowerPC-based Macs.  In other words, you won’t get new versions of software if you have an old PowerPC-based Mac running Mac OS 10.5&amp;hellip;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The fastest computer I have ever owned!</title>
-      <link>http://localhost:1313/myblog/the-fastest-computer-i-have-ever-owned/</link>
+      <link>https://jasoneckert.github.io/myblog/the-fastest-computer-i-have-ever-owned/</link>
       <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-fastest-computer-i-have-ever-owned/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-fastest-computer-i-have-ever-owned/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;macpro.png#center&#34; alt=&#34;Mac Pro&#34; title=&#34;Mac Pro&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I know it’s been a while since I’ve blogged last&amp;hellip;.I’ve just been incredibly busy. This past month, I’ve been teaching a video game class at the college, writing the 4th edition of my Linux+ book for Cengage on an accelerated schedule, and managing four technology faculties&amp;hellip;&amp;hellip;all at the same time!&lt;/p&gt;&#xA;&lt;p&gt;But today, I got a new computer: A Mac Pro (the higher end 6-core Xeon model with dual AMD FirePro D500s).  I simply connect it via HDMI to my Alienware laptop and use the Fn+F8 key combination to switch between the Windows Desktop on my Alienware, and the Mac OS Desktop on my Mac Pro. Lots of power on a small amount of desk space!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Happy Epoch Day!</title>
-      <link>http://localhost:1313/myblog/happy-epoch-day/</link>
+      <link>https://jasoneckert.github.io/myblog/happy-epoch-day/</link>
       <pubDate>Fri, 13 Feb 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/happy-epoch-day/</guid>
+      <guid>https://jasoneckert.github.io/myblog/happy-epoch-day/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;epoch1.png#right&#34; alt=&#34;Epoch1&#34; title=&#34;Epoch1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today is a special day in the I-don’t-have-a-life-and-can-prove-it-mathematically geek world&amp;hellip;..for today, the epoch will be 1234567890 at precisely 6:31pm (and 30 seconds) Eastern time.&lt;/p&gt;&#xA;&lt;p&gt;UNIX (including Mac OS X) and Linux systems use an internal time called the epoch - it is the number of seconds since January 1st, 1970 (the “birth” of UNIX).  This is also why UNIX and Linux geeks weren’t too concerned that their OS was going to blow up at Y2K, since the time would simply be 946684800.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Nostradamus of UNIX</title>
-      <link>http://localhost:1313/myblog/the-nostradamus-of-unix/</link>
+      <link>https://jasoneckert.github.io/myblog/the-nostradamus-of-unix/</link>
       <pubDate>Thu, 22 May 2008 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-nostradamus-of-unix/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-nostradamus-of-unix/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;lifewithunix.png#right&#34; alt=&#34;Life with UNIX&#34; title=&#34;Life with UNIX&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Every so often I re-read a book that I read years ago to remember what it is about.  Mostly, I re-read sci-fi or notable works such as &lt;em&gt;&lt;strong&gt;Neuromancer&lt;/strong&gt;&lt;/em&gt; (William Gibson) or &lt;em&gt;&lt;strong&gt;The Hitchhiker’s Guide to the Galaxy&lt;/strong&gt;&lt;/em&gt; (Douglas Adams) since those are the types of books that I kept over the years.&lt;/p&gt;&#xA;&lt;p&gt;However, I kept a book from 1989 called &lt;em&gt;&lt;strong&gt;Life with UNIX&lt;/strong&gt;&lt;/em&gt; (Don Libes &amp;amp; Sandy Ressler) that I remember using as a good UNIX reference a long time ago.  While browsing the Net, I happened across a recent review of it that said it was “a timeless book on everything UNIX – 90% of it still applies today.”&lt;/p&gt;</description>
     </item>
     <item>
       <title>The UNIX way</title>
-      <link>http://localhost:1313/myblog/the-unix-way/</link>
+      <link>https://jasoneckert.github.io/myblog/the-unix-way/</link>
       <pubDate>Tue, 29 Apr 2008 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-unix-way/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-unix-way/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;unixway.png#right&#34; alt=&#34;The UNIX way&#34; title=&#34;The UNIX way&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in the 1980s, someone started the UNIX-HATERS mailing list as a means of venting UNIX-related frustrations.  In 1994, Simson Garfinkel, Daniel Weise, and Steven Strassmann collected these frustrations and published them in a book called “The UNIX-HATERS Handbook” with extra commentary aimed to portray one view: UNIX sucks. The book itself contains plenty of great information about different technologies such as shell scripting, UNIX commands, email and file systems – it’s too bad that they cast everything in a very negative light.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Are you a Mac or a PC?</title>
-      <link>http://localhost:1313/myblog/are-you-a-mac-or-pc/</link>
+      <link>https://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</link>
       <pubDate>Thu, 13 Mar 2008 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/are-you-a-mac-or-pc/</guid>
+      <guid>https://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;jot.jpg#right&#34; alt=&#34;JoT&#34; title=&#34;JoT&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you are ultra-Mac, you prefer to use an aesthetic computer that “just works” - as a result, you are usually sexy, artistic and cool.&lt;/p&gt;&#xA;&lt;p&gt;If you are ultra-PC, you prefer to use a clunky un-aesthetic computer that is difficult to use, crashes often, is a virus hell, yet is guaranteed to work with any piece of hardware with a software driver written by a 10-year-old boy in a barn in China - as a result, you are nerdy, cheap and non-cool.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thank you, Apple</title>
-      <link>http://localhost:1313/myblog/thankyou-apple/</link>
+      <link>https://jasoneckert.github.io/myblog/thankyou-apple/</link>
       <pubDate>Sat, 27 Oct 2007 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/thankyou-apple/</guid>
+      <guid>https://jasoneckert.github.io/myblog/thankyou-apple/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;powerbook.png#right&#34; alt=&#34;PowerBookG4&#34; title=&#34;PowerBookG4&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I installed Macintosh OS X 10.5 Leopard on all my Macs today.  When you upgrade an OS, you always expect to lose some system settings and have some applications that don’t like the new OS.  As a result, I chose to install Leopard on my PowerBook G4 first.  It has tons of software and I customized it to the max, so I naturally expected to spend a while tweaking it after the upgrade to get an idea of what I can expect when I upgrade my other computers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>iPhone first impressions</title>
-      <link>http://localhost:1313/myblog/iphone-first-impressions/</link>
+      <link>https://jasoneckert.github.io/myblog/iphone-first-impressions/</link>
       <pubDate>Sat, 30 Jun 2007 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/iphone-first-impressions/</guid>
+      <guid>https://jasoneckert.github.io/myblog/iphone-first-impressions/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;iphone.png#center&#34; alt=&#34;iPhone&#34; title=&#34;iPhone&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The iPhone went on sale in the US yesterday.  And yes, for the past several months since its introduction, I wanted one badly&amp;hellip;..but after hearing from those who have one, I am not so upset now that the iPhone is not available in Canada until later this year.&lt;/p&gt;&#xA;&lt;p&gt;Basically, those who have one say that it “feels like a 1.0 device”, which it is.   It uses the old EDGE service rather than new and fast 3G Mobile service in order to save battery power (Apple rationalizes that most will use the iPhone’s WiFi to browse the Internet instead).  Plus, Flash and Java are not supported on the iPhone (too much processing/bandwidth?). And my biggest problem with the iPhone is that it only has 4 or 8 GB of storage (bad).&lt;/p&gt;</description>
     </item>
     <item>
       <title>iThink therefore iMac</title>
-      <link>http://localhost:1313/myblog/ithink-therefore-imac/</link>
+      <link>https://jasoneckert.github.io/myblog/ithink-therefore-imac/</link>
       <pubDate>Wed, 22 Nov 2006 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/ithink-therefore-imac/</guid>
+      <guid>https://jasoneckert.github.io/myblog/ithink-therefore-imac/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;imac.jpg#center&#34; alt=&#34;iMac&#34; title=&#34;iMac&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The old expression “Mac users usually swear by their computers&amp;hellip;..Windows users typically swear at their computers” got to me last week when my instructor computer’s Windows desktop and applications froze 3 times at the beginning of class.  As a result, my Terminal Services connection (that I use to record daily quiz marks) was destroyed each time.  So I brought an old iMac G3 with OS X Tiger into my classroom this week and put it on a switch box so that I can use it to record marks across Terminal Services (OS X doesn’t crash) while keeping my instructor computer free for classroom use.   On the plus side, it also allows me to demonstrate the portability of the commands that I am teaching in my Linux Administration class next week and it looks good at the front of the room - I was never a big fan of the G3 iMacs when they first came out because they ran OS 9, but I must admit that they are sleek looking computers :)&lt;/p&gt;</description>
     </item>
     <item>
       <title>1. Operating Systems</title>
-      <link>http://localhost:1313/info/operatingsystems/</link>
+      <link>https://jasoneckert.github.io/info/operatingsystems/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/info/operatingsystems/</guid>
+      <guid>https://jasoneckert.github.io/info/operatingsystems/</guid>
       <description>&lt;h1 id=&#34;unix&#34;&gt;UNIX&lt;/h1&gt;&#xA;&lt;p&gt;UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX. Your Internet Service Provider (ISP) likely runs BSD UNIX networking equipment and servers, and you’ll even find QNX UNIX in most cars today as well as running the streetlights in your city.&lt;/p&gt;</description>
     </item>
   </channel>

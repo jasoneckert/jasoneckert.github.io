@@ -2,451 +2,451 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UNIX on Jason Eckert&#39;s Website and Blog</title>
-    <link>http://localhost:1313/tags/unix/</link>
+    <link>https://jasoneckert.github.io/tags/unix/</link>
     <description>Recent content in UNIX on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jasoneckert.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Story Behind the Mac vs PC Rivalry — And Where Linux Quietly Took Over</title>
-      <link>http://localhost:1313/myblog/mac-vs-pc/</link>
+      <link>https://jasoneckert.github.io/myblog/mac-vs-pc/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/mac-vs-pc/</guid>
+      <guid>https://jasoneckert.github.io/myblog/mac-vs-pc/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;mac-vs-pc.jpg#center&#34; alt=&#34;Mac vs PC&#34; title=&#34;Mac vs PC&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to computers, most people today use either a Mac or a PC. In this post, I’ll explore how this digital rivalry began, how it shaped modern computing — and how Linux quietly carved out a space of its own.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-early-days-roots-of-the-rivalry&#34;&gt;The Early Days: Roots of the Rivalry&lt;/h1&gt;&#xA;&lt;p&gt;In the 1980s, personal computers (PCs) began appearing in homes, schools, and businesses across the world. A wide range of companies entered the market, including Apple, IBM, Tandy, Commodore, Atari, Texas Instruments, and Sinclair. Most of these early machines featured basic text-based interfaces — often just a simple version of the BASIC programming language. But a few notable outliers, like the Apple Macintosh and the IBM PC, ran more sophisticated operating systems that hinted at what modern computing would eventually become.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I Keep my Linux Textbook Updated for New Versions</title>
-      <link>http://localhost:1313/myblog/keeping-linux-books-updated/</link>
+      <link>https://jasoneckert.github.io/myblog/keeping-linux-books-updated/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/keeping-linux-books-updated/</guid>
+      <guid>https://jasoneckert.github.io/myblog/keeping-linux-books-updated/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;banner.jpg#center&#34; alt=&#34;Automation banner&#34; title=&#34;Automation banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back when I wrote the &lt;a href=&#34;../../bio/my-published-books/0-619-13004-0_front.jpg&#34;&gt;first edition&lt;/a&gt; of my Linux textbook in 2002, I spent a massive amount of time planning every detail to ensure it had a strong prerequisite concept flow for those new to Linux usage and administration. I added more content on network services and security in the second edition, and dramatically more in the third edition. The fourth edition introduced Systemd, ZFS, and additional security technologies. The fifth edition added many new server, storage, container, and cloud topics, as well as Git and an appendix that allowed readers to apply their Linux skills to macOS. The sixth edition that was published last year expanded these same topics, as well as added the Z shell, Kubernetes, and another appendix that allowed readers to apply their Linux skills to FreeBSD UNIX. Content-wise, the &lt;a href=&#34;../../bio/my-published-books/979-82140-0080-0_front.jpg&#34;&gt;sixth edition&lt;/a&gt; is arguably the most comprehensive Linux textbook on the market.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Rise of RISC-V and Open Hardware</title>
-      <link>http://localhost:1313/myblog/risc-v/</link>
+      <link>https://jasoneckert.github.io/myblog/risc-v/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/risc-v/</guid>
+      <guid>https://jasoneckert.github.io/myblog/risc-v/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;risc-v.png#center&#34; alt=&#34;RISC-V banner&#34; title=&#34;RISC-V banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;During the rise of the Internet in the late 1990s and early 2000s, the software world underwent a paradigm shift towards &amp;ldquo;open source&amp;rdquo; software development. Open source software is any software that is released under a license that gives other software developers access to read and modify the original source code that was used to create the software. In other words, if you publish software under an open source license, you are offering the source code you created to others who can modify it to fix bugs and security loopholes, as well as make feature improvements. Thus, compared to closed source software, open source software evolves much quicker and is more stable and secure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>40 years of Macintosh</title>
-      <link>http://localhost:1313/myblog/40-years-of-mac/</link>
+      <link>https://jasoneckert.github.io/myblog/40-years-of-mac/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/40-years-of-mac/</guid>
+      <guid>https://jasoneckert.github.io/myblog/40-years-of-mac/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;apple40.png#right&#34; alt=&#34;Apple 40 years logo&#34; title=&#34;Apple 40 years logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The first Apple Macintosh computer was released 40 years ago (January 24, 1984) following an &lt;a href=&#34;https://www.youtube.com/watch?v=VtvjbmoDx-I&#34;&gt;epic 1984 Super Bowl commercial&lt;/a&gt; two days earlier.&lt;/p&gt;&#xA;&lt;p&gt;As the first mass-market all-in-one computer with a graphical desktop and mouse navigation, the Macintosh (and the Macintosh brand in general) was positioned to be &lt;em&gt;&lt;strong&gt;the computer for everyone&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;40 years later, the &amp;ldquo;Mac&amp;rdquo; is a household name and Apple is the world&amp;rsquo;s richest company by market cap. But the Mac isn&amp;rsquo;t just a computer, it&amp;rsquo;s essentially Apple&amp;rsquo;s whole line of business. iPhones and iPads run a version of the same macOS UNIX operating system you&amp;rsquo;ll find on your MacBook, iMac, Mac Mini, Mac Studio, or Mac Pro. Ditto for the Apple Watch and Visio Pro, and likely every future product that Apple releases.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2023 in Review</title>
-      <link>http://localhost:1313/myblog/2023-in-review/</link>
+      <link>https://jasoneckert.github.io/myblog/2023-in-review/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/2023-in-review/</guid>
+      <guid>https://jasoneckert.github.io/myblog/2023-in-review/</guid>
       <description>&lt;p&gt;For me, 2023 turned out to be a year of learning, growth, adventure, and gratitude. And since there&amp;rsquo;s plenty for me to talk about, I&amp;rsquo;ve divided my review into two sections: one that summarizes my professional pursuits, and one that summarizes everything else.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-professional-stuff&#34;&gt;The professional stuff:&lt;/h1&gt;&#xA;&lt;p&gt;On the college front, the new &lt;a href=&#34;https://www.trios.com/programs-courses/technology/&#34;&gt;technology programs&lt;/a&gt; I&amp;rsquo;ve been pushing since 2020 finally got to market! My favourite one is &lt;em&gt;&lt;strong&gt;Mobile Web Developer&lt;/strong&gt;&lt;/em&gt;, as it&amp;rsquo;s a radical departure from what we did previously. The whole program is taught exclusively on macOS, has two interlaced capstones, and is carefully crafted to allow students to build solid developer skills using modern industry tooling and processes with zero tests/quizzes (students instead perform weekly assignments). These weekly assignments allow instructors to assess and guide skills development for individual students throughout each course, as well as echo the sprint cadence used within industry that students must become accustomed to. We also have a new &lt;em&gt;&lt;strong&gt;IT Professional (Infrastructure, Cloud &amp;amp; Cybersecurity)&lt;/strong&gt;&lt;/em&gt; program that restructures and augments many of the topics in our previous IT Professional program to allow for expansion into the areas of cloud and cybersecurity (both of which are key industry focal points today).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Essential keyboard shortcuts (Windows/macOS/Linux/UNIX)</title>
-      <link>http://localhost:1313/myblog/shortcuts/</link>
+      <link>https://jasoneckert.github.io/myblog/shortcuts/</link>
       <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/shortcuts/</guid>
+      <guid>https://jasoneckert.github.io/myblog/shortcuts/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;hands.jpg#center&#34; alt=&#34;Hands on keyboard&#34; title=&#34;Hands on keyboard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Following are some shortcuts that I believe all desktop users should be familiar with. It is not a complete list by any means, and does not include virtual desktop or app pinning shortcuts as I felt those were beyond the scope of common desktop shortcuts. If you feel I omitted a common shortcut, email me (&lt;a href=&#34;mailto:jason.eckert@trios.com&#34;&gt;jason.eckert@trios.com&lt;/a&gt;) and I&amp;rsquo;ll add it to the list!&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-windows-shortcuts&#34;&gt;1. Windows shortcuts&lt;/h1&gt;&#xA;&lt;p&gt;The Windows (⊞) key on your keyboard has the Windows logo printed on it. Modern keyboards use the newer Windows logo with four equally-sized squares, while older keyboards use a Windows logo with four slanted or curved squares.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux Distro Hopping is a Bad Idea</title>
-      <link>http://localhost:1313/myblog/distro-hopping/</link>
+      <link>https://jasoneckert.github.io/myblog/distro-hopping/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/distro-hopping/</guid>
+      <guid>https://jasoneckert.github.io/myblog/distro-hopping/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;distros.png#center&#34; alt=&#34;Linux distros&#34; title=&#34;Linux distros&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-distro-hopping&#34;&gt;What is distro hopping?&lt;/h2&gt;&#xA;&lt;p&gt;In the &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux&#34;&gt;Linux&lt;/a&gt; community, it&amp;rsquo;s not uncommon to install and use several different Linux distributions (or distros) over time - a process called &lt;em&gt;&lt;strong&gt;distro hopping&lt;/strong&gt;&lt;/em&gt;. After all, there are hundreds of different distros available - and because each one is often geared to provide the optimal experience for a specific user or use-case (e.g., gaming), it&amp;rsquo;s become commonplace to assume that there must be a specific Linux distro out there that will suit your individual needs. Consequently, most Linux users believe that you should choose a Linux distro using the same process as choosing a wardrobe or eyewear frames. And that means trying on many different Linux distros to see how they look ;-)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Running a Mainstream Linux Distro Natively on Apple Silicon: Fedora Asahi Remix First Impressions</title>
-      <link>http://localhost:1313/myblog/fedora-asahi-remix/</link>
+      <link>https://jasoneckert.github.io/myblog/fedora-asahi-remix/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/fedora-asahi-remix/</guid>
+      <guid>https://jasoneckert.github.io/myblog/fedora-asahi-remix/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s been a year and a half since the &lt;a href=&#34;https://asahilinux.org/&#34;&gt;Asahi Linux&lt;/a&gt; project allowed us to run Arch Linux natively on our Apple Silicon computers. And while my overall experience has been excellent, the Asahi Linux project is switching their flagship Linux distribution (distro) &lt;a href=&#34;https://asahilinux.org/2023/08/fedora-asahi-remix/&#34;&gt;from Arch to Fedora&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Why the switch from Arch to Fedora? You could argue that Fedora is a much more popular mainstream distribution compared to Arch, or that Linus Torvalds himself uses Fedora already on his Apple Silicon-based Macbook using the Asahi boot components and drivers. But the main reason is that there have been many &lt;a href=&#34;https://social.treehouse.systems/@marcan/109971521711413167&#34;&gt;issues&lt;/a&gt; surrounding the maintenance of ARM packages for Arch Linux, and that the Fedora team is both capable and willing to provide provide the support needed to provide a truly polished Linux experience on modern Macs (the main goal of the Asahi Linux project). By moving to Fedora, the Asahi team can focus on reverse engineering Apple hardware while the Fedora team can focus on maintaining the distribution itself on the Apple Silicon platform. This combination of Fedora with the Asahi boot components and drivers for Apple Silicon is called &lt;em&gt;&lt;strong&gt;Fedora Asahi Remix&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My first textbook is now in its sixth edition</title>
-      <link>http://localhost:1313/myblog/linux-sixth-edition/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-sixth-edition/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-sixth-edition/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-sixth-edition/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;first-and-sixth.png#center&#34; alt=&#34;First and sixth edition of my Linux textbook&#34; title=&#34;First and sixth edition of my Linux textbook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While I&amp;rsquo;ve written &lt;a href=&#34;../../bio/my-published-books/&#34;&gt;many textbooks&lt;/a&gt; on different topics over the past two decades, my favourite subject area by far is Linux. After all, Linux has evolved to be one of the most foundational topics in tech education. Information Technology (IT) fields such as server/network administration, cloud administration, cybersecurity, and software development now require a solid grasp of the Linux operating system.&#xA;&lt;img src=&#34;sixthedition.jpg#right&#34; alt=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34; title=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I&#39;ve now been teaching tech for 25 years!</title>
-      <link>http://localhost:1313/myblog/25-years-teaching-tech/</link>
+      <link>https://jasoneckert.github.io/myblog/25-years-teaching-tech/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/25-years-teaching-tech/</guid>
+      <guid>https://jasoneckert.github.io/myblog/25-years-teaching-tech/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;bookshelf.jpg#right&#34; alt=&#34;Bookshelf&#34; title=&#34;Bookshelf&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This month marks the 25th anniversary of my teaching Information Technology (IT) courses for &lt;a href=&#34;https://trios.com&#34; title=&#34;triOS College&#34;&gt;triOS College&lt;/a&gt; in Ontario, Canada.&lt;/p&gt;&#xA;&lt;p&gt;Back in 1998 I was well on my way to becoming an academic bum that kept on taking university courses forever. But I had a wife and child and needed to think more responsibly. So, as my spring university semester was ending, I applied for an instructor job that my grandmother saw in a newspaper ad and thought I&amp;rsquo;d be perfect for. After an interview and demo teach, I got the job and started the following Monday&amp;hellip; April 20, 1998.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux is making Apple Great Again</title>
-      <link>http://localhost:1313/myblog/linux-is-making-apple-great-again/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-is-making-apple-great-again/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-is-making-apple-great-again/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-is-making-apple-great-again/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;maga.png#right&#34; alt=&#34;Make Apple Great Again hat&#34; title=&#34;Make Apple Great Again hat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;MAGA pun aside, Linux is doing more for Apple hardware than macOS right now&amp;hellip; at least in the eyes of some old UNIX nerds like me.&lt;/p&gt;&#xA;&lt;p&gt;At the Southern California Linux Expo (SCaLE) earlier this month, the closing keynote was given by &lt;a href=&#34;https://www.facesofopensource.com/ken-thompson/&#34; title=&#34;Ken Thompson&#34;&gt;Ken Thompson&lt;/a&gt; (co-creator of the UNIX operating system and the Go programming language). During the Q&amp;amp;A session following that keynote, Ken was asked &amp;ldquo;&lt;em&gt;&lt;strong&gt;What&amp;rsquo;s your operating system of choice, today?&lt;/strong&gt;&lt;/em&gt;&amp;rdquo; While you can watch it &lt;a href=&#34;https://www.youtube.com/live/kaandEt_pKw?feature=share&amp;amp;t=3470&#34; title=&#34;here&#34;&gt;here&lt;/a&gt;, his response was:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Ultimate Linux ARM64 Workstation</title>
-      <link>http://localhost:1313/myblog/ultimate-linux-arm64-workstation/</link>
+      <link>https://jasoneckert.github.io/myblog/ultimate-linux-arm64-workstation/</link>
       <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/ultimate-linux-arm64-workstation/</guid>
+      <guid>https://jasoneckert.github.io/myblog/ultimate-linux-arm64-workstation/</guid>
       <description>&lt;h2 id=&#34;it-all-started-this-month-last-year&#34;&gt;It all started this month last year&lt;/h2&gt;&#xA;&lt;p&gt;In March 2022, the alpha release for Asahi was made available and I immediately installed it on a Mac Mini with an 8-core Apple Silicon (ARM64) M1 processor. Asahi is a Linux distribution that can run natively on Apple Silicon-based Macs due to some slick reverse engineering provided by members of the open source community. Moreover, running Asahi is perfectly legal because Apple formally allows booting non-macOS operating systems on their Apple Silicon platform.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fun Facts About Linux</title>
-      <link>http://localhost:1313/myblog/linux-fun-facts/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-fun-facts/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-fun-facts/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-fun-facts/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;linux-banner.png#center&#34; alt=&#34;Linux banner&#34; title=&#34;Linux banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Below are 26 questions that detail fun and obscure facts about the Linux operating system. Regardless of how much you&amp;rsquo;ve used Linux in the past, there&amp;rsquo;s likely a few or more that you probably didn&amp;rsquo;t know. Try answering each one from memory (or give it a good guess!) and then expand the &lt;em&gt;&lt;strong&gt;Show me the answer!&lt;/strong&gt;&lt;/em&gt; section to see if you are correct. PERFECT SCORES WIN A PRIZE!!! If you knew the correct answer to all 26 of these questions off the top of your head, send me an email and I&amp;rsquo;ll send you a link to download a free (yes FREE!) copy of Fedora Linux ;-)&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Time I Yoga-Balled an Apple Store Employee</title>
-      <link>http://localhost:1313/myblog/the-time-i-yoga-balled-an-apple-store-employee/</link>
+      <link>https://jasoneckert.github.io/myblog/the-time-i-yoga-balled-an-apple-store-employee/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-time-i-yoga-balled-an-apple-store-employee/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-time-i-yoga-balled-an-apple-store-employee/</guid>
       <description>&lt;p&gt;Back in the late 2000s, my teenage daughter and I went to a local mall one weekend to do some shopping. As usual, I insisted we drop into the Apple store before leaving.&lt;/p&gt;&#xA;&lt;p&gt;The store itself was quite busy. There were people playing with nearly every item on display at the tables near the front of the store, and even more people hovering around those people to catch a glimpse of what they were doing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2022 in Review</title>
-      <link>http://localhost:1313/myblog/2022-in-review/</link>
+      <link>https://jasoneckert.github.io/myblog/2022-in-review/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/2022-in-review/</guid>
+      <guid>https://jasoneckert.github.io/myblog/2022-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;raybans.jpg#right&#34; alt=&#34;Ray Bans&#34; title=&#34;Ray Bans&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2022 was definitely an interesting year. COVID was given far less attention and we started living with it much like we live with the flu virus. Mask requirements were dropped, and many social events have resumed. Crazy COVID conspiracy theories and uproar are distant memories (at least for me).&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m still teaching IT classes remotely, which has resulted in better educational outcomes compared to the physical classroom. Working with operating systems and IT software within virtual machines on home PCs promotes tinkering and resourcefulness while allowing students to continue and expand upon class work at any time. Being able to revisit class videos afterwards is a huge bonus that everyone enjoys, as is the lack of commute-related stress. Since our IT programs include several CompTIA certifications, I decided to write a bunch of them this year, including the biggest one: CompTIA Advanced Security Practitioner (CASP+). I&amp;rsquo;m also planning on writing 5 more of them in the first half of 2023 because I have the exam vouchers from the CompTIA Instructor Network program.&lt;/p&gt;</description>
     </item>
     <item>
       <title>RISCy business: The long and convoluted rise of today&#39;s dominant computing platform</title>
-      <link>http://localhost:1313/myblog/riscy-business/</link>
+      <link>https://jasoneckert.github.io/myblog/riscy-business/</link>
       <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/riscy-business/</guid>
+      <guid>https://jasoneckert.github.io/myblog/riscy-business/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;RISC.png#center&#34; alt=&#34;RISC timeline&#34; title=&#34;RISC timeline&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;risc-vs-cisc&#34;&gt;RISC vs CISC&lt;/h1&gt;&#xA;&lt;p&gt;Traditionally, most computing platforms were built with the burden of software in mind. To ensure that a software program could be written easily and with fewer instructions, additional circuitry was added to the central processing unit (CPU) to compensate. This was referred to as complex instruction set computing (CISC). CISC architecture is still common today thanks to the x86 architecture used by Intel and AMD CPUs in most workstations and servers. Unfortunately, the added circuitry within CISC CPUs equated to added cost and complexity - both of which made it more expensive to evolve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How Linux Certification Has Evolved Over The Years</title>
-      <link>http://localhost:1313/myblog/linux-certification/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-certification/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-certification/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-certification/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;LinuxDesk.png#center&#34; alt=&#34;Banner&#34; title=&#34;Banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Because organizations continually adopt new technologies, the need for skilled IT professionals to support those technologies is always increasing. Technology certification has been the most common skills benchmark used for hiring and promotion in the IT industry since the early 1990s, with Linux certification being one of the most sought-after. After all, knowing how to use, configure and administer the Linux operating system is prerequisite for a wide variety of different IT job roles, including server administrators, cloud administrators, devops engineers, site reliability engineers, cybersecurity analysts, penetration testers, and software developers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dual-booting Asahi Linux on your Apple Silicon Mac</title>
-      <link>http://localhost:1313/myblog/asahi-linux/</link>
+      <link>https://jasoneckert.github.io/myblog/asahi-linux/</link>
       <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/asahi-linux/</guid>
+      <guid>https://jasoneckert.github.io/myblog/asahi-linux/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;Asahi_M1.jpeg#right&#34; alt=&#34;Asahi M1&#34; title=&#34;Asahi M1&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-asahi-linux&#34;&gt;What is Asahi Linux?&lt;/h1&gt;&#xA;&lt;p&gt;Asahi (&lt;a href=&#34;https://asahilinux.org/&#34;&gt;https://asahilinux.org/&lt;/a&gt;) is a Linux distribution based on Arch Linux ARM that you can install natively on Apple Silicon Macs with an M1- or M2-based CPU. I&amp;rsquo;ve been using it daily as a software development workstation for over 3 months now on an M1 Mac Mini (16GB RAM, 500GB SSD), and it&amp;rsquo;s &lt;em&gt;&lt;strong&gt;unbelievably&lt;/strong&gt;&lt;/em&gt; fast. It is 100% funded by Patreon and developed full-time by Hector Martin with many other contributors. You can watch &lt;a href=&#34;https://twit.tv/shows/floss-weekly/episodes/680&#34; title=&#34;this interview&#34;&gt;this interview&lt;/a&gt; to learn more about the project, or &lt;a href=&#34;https://www.youtube.com/watch?v=igYgGH6PnOw&#34; title=&#34;this video&#34;&gt;this video&lt;/a&gt; to learn how the Apple Silicon platform is reverse-engineered.&lt;/p&gt;</description>
     </item>
     <item>
       <title>macOS for Linux admins (2022 refresh)</title>
-      <link>http://localhost:1313/myblog/macos-for-linux-admins/</link>
+      <link>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</link>
       <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/macos-for-linux-admins/</guid>
+      <guid>https://jasoneckert.github.io/myblog/macos-for-linux-admins/</guid>
       <description>&lt;p&gt;As I mentioned in my CompTIA blog post All About Linux and Linux+ ( &lt;a href=&#34;https://www.comptia.org/blog/all-about-linux-and-linux&#34;&gt;https://www.comptia.org/blog/all-about-linux-and-linux&lt;/a&gt; ), Linux is essentially an open-source UNIX operating system. And since nearly all of the concepts, commands and files are identical between UNIX and Linux, anyone who works with Linux could easily administer a UNIX system.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;em&gt;&lt;strong&gt;macOS&lt;/strong&gt;&lt;/em&gt; operating system that runs on Apple computers is a flavor of UNIX.  Thus, most of the concepts that you use when administering a Linux system are also applicable to macOS. It’s not uncommon to find Apple laptops running macOS within organizations today, or even Apple desktops within certain departments, such as Marketing, where they are often used for graphics and desktop publishing. Consequently, when applying for IT administration and support jobs that require a macOS skillset, Linux is a big benefit!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ontario&#39;s Computer Part 2: The LEXICON Server</title>
-      <link>http://localhost:1313/myblog/lexicon-computer/</link>
+      <link>https://jasoneckert.github.io/myblog/lexicon-computer/</link>
       <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/lexicon-computer/</guid>
+      <guid>https://jasoneckert.github.io/myblog/lexicon-computer/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;LEXICON.jpg#right&#34; alt=&#34;LEXICON&#34; title=&#34;LEXICON&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As I described in &lt;a href=&#34;../../myblog/icon-computer/&#34; title=&#34;Ontario&#39;s Computer: The Burroughs ICON&#34;&gt;my previous blog post&lt;/a&gt;, the Burroughs ICON was a very cool UNIX-like computer developed by the Ontario governement for use within schools during the 1980s and early 1990s.&lt;/p&gt;&#xA;&lt;p&gt;But because ICON computers were all diskless workstations, they were completely useless without a network and LEXICON file server. After all, the QNX operating system and programs that ran memory-resident on each ICON had to first be downloaded from the LEXICON across an ARCNET network. Moreover, when users logged into QNX on their ICON, they were actually logging in as a user account on the LEXICON and accessing the files within their home directory on the LEXICON&amp;rsquo;s hard drive. When users printed documents, they printed to the shared printer connected to the LEXICON.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ontario&#39;s Computer: The Burroughs ICON</title>
-      <link>http://localhost:1313/myblog/icon-computer/</link>
+      <link>https://jasoneckert.github.io/myblog/icon-computer/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/icon-computer/</guid>
+      <guid>https://jasoneckert.github.io/myblog/icon-computer/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ICON_logos.jpg#center&#34; alt=&#34;ICON logo&#34; title=&#34;ICON logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nicknamed the &lt;em&gt;&lt;strong&gt;bionic beaver&lt;/strong&gt;&lt;/em&gt;, the ICON was a Canadian computer funded by the Ontario government and used in schools province wide. It was designed by CEMCorp (Canadian Educational Microprocessor Corporation) and manufactured by Burroughs (later renamed to Unisys). Moreover, it ran the QNX UNIX-like operating system, which was also developed in Canada by two University of Waterloo students.&#xA;&lt;img src=&#34;ICON.jpg#right&#34; alt=&#34;ICON&#34; title=&#34;ICON&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you took a computer programming course in high school during the 1980s or early 1990s, you likely remember learning C, BASIC or Pascal on the ICON, as well as many UNIX commands that would pay off later in college or university. If you didn&amp;rsquo;t, you probably remember the ICON as a cool looking steel monstrosity that had an indestructible keyboard and trackball (that everyone tried to spin as fast as they could).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuring the i3 Window Manager</title>
-      <link>http://localhost:1313/myblog/configuring-i3/</link>
+      <link>https://jasoneckert.github.io/myblog/configuring-i3/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/configuring-i3/</guid>
+      <guid>https://jasoneckert.github.io/myblog/configuring-i3/</guid>
       <description>&lt;h1 id=&#34;why-use-the-i3-window-manager&#34;&gt;Why use the i3 window manager&lt;/h1&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re a Linux user, you&amp;rsquo;re probably using a desktop environment that looks like Windows (e.g. KDE Plasma) or macOS (e.g. GNOME). But these desktop environments use a great deal of resources and are cumbersome when it comes to flexibility and navigation between applications and code. To solve these problems, most software developers and Linux/UNIX administrators install and use a tiling window manager.&lt;/p&gt;&#xA;&lt;p&gt;While there are many different tiling window managers available, i3 is the most common one. It is easy to configure, and has great documentation available at &lt;a href=&#34;https://i3wm.org/docs/userguide.html&#34;&gt;https://i3wm.org/docs/userguide.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Power of RISC architecture</title>
-      <link>http://localhost:1313/myblog/power-of-risc/</link>
+      <link>https://jasoneckert.github.io/myblog/power-of-risc/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/power-of-risc/</guid>
+      <guid>https://jasoneckert.github.io/myblog/power-of-risc/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;risc-hackers-movie.jpg#center&#34; alt=&#34;Hackers Movie Quote&#34; title=&#34;Hackers Movie Quote&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This part of the 1995 &lt;em&gt;&lt;strong&gt;Hackers&lt;/strong&gt;&lt;/em&gt; movie shown above is right on par for the time. After all, by the mid 1990s &lt;em&gt;&lt;strong&gt;Reduced Instruction Set Computer (RISC)&lt;/strong&gt;&lt;/em&gt; processors were seen as the future of computing by most in the tech industry.&lt;/p&gt;&#xA;&lt;p&gt;By using a simplified instruction set, computers with RISC processors at the time could perform tasks in a quarter of the time compared to computers that had a traditional &lt;em&gt;&lt;strong&gt;Complex Instruction Set Computer (CISC)&lt;/strong&gt;&lt;/em&gt; processor. RISC processors also required less circuitry, which allowed manufacturers to easily add more functionality, such as crypto accelerators, memory management controllers and specialized floating point arithmetic units.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SPARCbook teardown</title>
-      <link>http://localhost:1313/myblog/sparcbook-teardown/</link>
+      <link>https://jasoneckert.github.io/myblog/sparcbook-teardown/</link>
       <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/sparcbook-teardown/</guid>
+      <guid>https://jasoneckert.github.io/myblog/sparcbook-teardown/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;s3000_ad.gif#right&#34; alt=&#34;SPARCbook 3000ST ad&#34; title=&#34;SPARCbook 3000ST ad&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in 2019, I picked up a rare SPARC-based laptop from the 1990s running Solaris UNIX (marketed as the &lt;em&gt;&lt;strong&gt;ultimate UNIX portable&lt;/strong&gt;&lt;/em&gt; on the Tadpole website in 1997). You can read my blog post on it here: &lt;a href=&#34;../../myblog/sparcbook3000st-the-coolest-90s-laptop/&#34; title=&#34;SPARCbook 3000ST: The coolest 90s laptop&#34;&gt;SPARCbook 3000ST: The coolest 90s laptop&lt;/a&gt;. It occasionally shows up on Hacker News, and I get plenty of comments whenever I post it on Reddit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Quickstart</title>
-      <link>http://localhost:1313/myblog/kubernetes-quickstart/</link>
+      <link>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/kubernetes-quickstart/</guid>
+      <guid>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</guid>
       <description>&lt;p&gt;Over the past two decades, we&amp;rsquo;ve shifted from running servers bare metal to running them almost exclusively within virtual machines (VMs). More recently we&amp;rsquo;ve seen another shift to running servers within containers. Like VMs, containers are servers that contain a unique filesystem, IP stack and software. But unlike VMs, containers do not contain a full operating system or operating system kernel. Instead they rely on an underlying operating system that runs the container using a &lt;em&gt;&lt;strong&gt;container runtime&lt;/strong&gt;&lt;/em&gt;, such as Docker. Consequently, containers are much smaller than VMs and ideal for running software within cloud environments where resource utilization must be kept to a minimum to control costs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installing a fast Linux server on an M1-based Mac</title>
-      <link>http://localhost:1313/myblog/installing-linux-server-on-mac-m1/</link>
+      <link>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/installing-linux-server-on-mac-m1/</guid>
+      <guid>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</guid>
       <description>&lt;p&gt;One of the biggest worries that IT users have regarding Apple&amp;rsquo;s new ARM-based M1 platform is the ability to run &lt;em&gt;&lt;strong&gt;virtual machines (VMs)&lt;/strong&gt;&lt;/em&gt; of other operating systems using hypervisor software. And while it&amp;rsquo;s possible to run virtual machines of both Windows and Linux operating systems made for the Intel platform on the M1, the performance cost of translating Intel instructions to ARM is high (even with the optimizations Apple has within their M1 CPU). Luckily, the most common VM that an IT systems administrator or developer will install is Linux, and ARM versions of Linux have been mainstream for well over a decade now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ARM on the desktop is here to stay</title>
-      <link>http://localhost:1313/myblog/arm-on-the-desktop/</link>
+      <link>https://jasoneckert.github.io/myblog/arm-on-the-desktop/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/arm-on-the-desktop/</guid>
+      <guid>https://jasoneckert.github.io/myblog/arm-on-the-desktop/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;arm.png#right&#34; alt=&#34;ARM Powered logo&#34; title=&#34;ARM Powered logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in the 1990s, &lt;em&gt;&lt;strong&gt;Reduced Instruction Set Computing (RISC)&lt;/strong&gt;&lt;/em&gt; architecture was widely seen as the future. UNIX workstations from Silicon Graphics and Sun Microsystems boasted powerful RISC CPUs at the time, but were prohibitively expensive and died out in the early 2000s as a result. Only the &lt;em&gt;&lt;strong&gt;Acorn RISC Machine (ARM)&lt;/strong&gt;&lt;/em&gt; architecture used in low-power devices (e.g. PDAs) survived past the early 2000s, and only because of the rise of mobile devices that relied on battery power.&lt;/p&gt;</description>
     </item>
     <item>
       <title>UNIX/Linux is now a core skill for anyone working in tech</title>
-      <link>http://localhost:1313/myblog/linux-is-now-a-core-skill/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-is-now-a-core-skill/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;techworker.png#center&#34; alt=&#34;Tech Worker&#34; title=&#34;Tech Worker&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you had asked me in the 1990s whether most people in the tech world would be using a UNIX or Linux shell to manage their servers, I would have chuckled and said &amp;ldquo;No.&amp;rdquo; But two decades later we find ourselves in a world where 96% of the cloud is comprised of Linux servers running Web apps made with open source frameworks, and the majority of software development is done on UNIX (macOS) or Linux workstations. Nearly all network hardware, security appliances, smart appliances, cars, wearables and IoT devices also run UNIX or Linux, as do our smartphones and tablets. Want to secure your systems or network, or test your security using ethical hacking? You&amp;rsquo;ll need UNIX or Linux to do that as well.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An introduction to WireGuard VPN</title>
-      <link>http://localhost:1313/myblog/an-introduction-to-wireguard-vpn/</link>
+      <link>https://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/an-introduction-to-wireguard-vpn/</guid>
+      <guid>https://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</guid>
       <description>&lt;h1 id=&#34;1-why-wireguard&#34;&gt;1. Why WireGuard?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;wireguard.png#right&#34; alt=&#34;WireGuard logo&#34; title=&#34;WireGuard logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to encrypting traffic between systems, there are a wide variety of different &lt;em&gt;&lt;strong&gt;Virtual Private Network (VPN)&lt;/strong&gt;&lt;/em&gt; software available, some of which have been used since the 1990s. Each of them focus on different encryption algorithms and flow control strategies, alongside mechanisms for providing for secure authentication and negotiating encryption keys. Unfortunately, this complexity often translates to more problems, slower traffic, as well fewer use cases and supported operating systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2020 in review</title>
-      <link>http://localhost:1313/myblog/2020-in-review/</link>
+      <link>https://jasoneckert.github.io/myblog/2020-in-review/</link>
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/2020-in-review/</guid>
+      <guid>https://jasoneckert.github.io/myblog/2020-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;techworkers.jpg#right&#34; alt=&#34;Tech workers&#34; title=&#34;Tech workers&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I know what you&amp;rsquo;re thinking - 2020 sucked! Worst year ever! The COVID-19 pandemic, no social gatherings, no dine-in restaurants, no gyms, the US Trumpster fire, and most importantly to those of us in the tech world: Red Hat terminating CentOS development.&lt;/p&gt;&#xA;&lt;p&gt;Of course, most people will remember 2020 for the pandemic, and that&amp;rsquo;s completely understandable. None of us have experienced a pandemic in our lifetime, and both our society and economy were not prepared to deal with it gracefully. Many businesses folded or downsized, and the lack of social contact caused mental health issues for many people of all ages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>5 Z shell features that will encourage you to switch from Bash</title>
-      <link>http://localhost:1313/myblog/moving-from-bash-to-zsh/</link>
+      <link>https://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/moving-from-bash-to-zsh/</guid>
+      <guid>https://jasoneckert.github.io/myblog/moving-from-bash-to-zsh/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;tuxzsh.jpg#right&#34; alt=&#34;tux zsh shell&#34; title=&#34;tux zsh shell&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The command line interface on your system is provided by a shell. And while there are dozens of different shells available to choose from, nearly every UNIX and Linux system over the past two decades has used the feature-rich Bash shell as the default login shell.&lt;/p&gt;&#xA;&lt;p&gt;Although the Bash shell still remains the most common login shell used on UNIX and Linux systems, macOS and a few Linux distributions (e.g. Kali) have switched their default shell to the Z shell (&lt;code&gt;zsh&lt;/code&gt;), and this trend is likely to continue. The Z shell has been around for three decades, and is the second most popular shell next to Bash.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A brief history of technology</title>
-      <link>http://localhost:1313/myblog/a-brief-history-of-technology/</link>
+      <link>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/a-brief-history-of-technology/</guid>
+      <guid>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</guid>
       <description>&lt;p&gt;Technology is a crazy ride, and like that lyric in the Talking Heads song &lt;em&gt;&lt;strong&gt;Once in a Lifetime&lt;/strong&gt;&lt;/em&gt;, &amp;ldquo;&amp;hellip;you may ask yourself, well, how did I get here?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;If that&amp;rsquo;s the case, you&amp;rsquo;re in luck, because this post is a no-nonsense, give-me-the-big-picture timeline of what the heck happened in the technology landscape these past 50 years. Of course, not every little detail is in there. Just those that are actually important (in my expert opinion, of course ;-) Enjoy!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Most people don&#39;t want a computer</title>
-      <link>http://localhost:1313/myblog/most-people-dont-want-a-computer/</link>
+      <link>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/most-people-dont-want-a-computer/</guid>
+      <guid>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</guid>
       <description>&lt;p&gt;In the past few decades, people of all ages across North America have become technology-literate in some way or another. Many of them weren&amp;rsquo;t introduced to technology via desktop or laptop computers, but instead through a smartphone or tablet. Similarly, many desktop and laptop users have switched to using their smartphone or tablet over the past decade to interact with the online world.&lt;/p&gt;&#xA;&lt;p&gt;After all, smartphones and tablets are incredibly easy to use. You open an app to do what you want (social media, shopping, taking pics of food, etc.), and the rest can be done in a Web browser. It doesn&amp;rsquo;t matter where your files are stored locally because they&amp;rsquo;re easily searchable, and they&amp;rsquo;re automatically synced to the cloud so that you don&amp;rsquo;t lose them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open does not always mean Open Source</title>
-      <link>http://localhost:1313/myblog/open-does-not-always-mean-open-source/</link>
+      <link>https://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/open-does-not-always-mean-open-source/</guid>
+      <guid>https://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;open.jpg#right&#34; alt=&#34;Open Source vs Open standards&#34; title=&#34;Open Source vs Open standards&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the technology world today, the term &lt;em&gt;&lt;strong&gt;Open&lt;/strong&gt;&lt;/em&gt; is most commonly associated with &lt;em&gt;&lt;strong&gt;Open Source&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Open Source refers to software released under a license that gives other software developers access to modify the original Source code that was used to create the software. This, in turn allows other software developers worldwide to quickly identify and fix bugs and security loopholes, as well as make feature improvements to the software. Consequently, Open Source software evolves more rapidly than other (&lt;em&gt;&lt;strong&gt;Closed Source&lt;/strong&gt;&lt;/em&gt;) software, and is considered the gold standard for software today.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tracing difficult shell scripts</title>
-      <link>http://localhost:1313/myblog/tracing-difficult-shell-scripts/</link>
+      <link>https://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/tracing-difficult-shell-scripts/</guid>
+      <guid>https://jasoneckert.github.io/myblog/tracing-difficult-shell-scripts/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;comic.png#right&#34; alt=&#34;UNIX/Linux comic&#34; title=&#34;UNIX/Linux comic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Whether you&amp;rsquo;re an IT systems administrator, developer or devop working with Linux/UNIX shell scripts, you&amp;rsquo;re likely going to come across some that are not well documented and difficult to trace (read and understand) as a result.&lt;/p&gt;&#xA;&lt;p&gt;While these scripts discourage others from tracing them, you can easily trace even the most difficult shell scripts if you follow good tracing procedures. Moreover, by tracing a difficult shell script, you build your knowledge of specific Linux/UNIX components, as well as scripting in general.&lt;/p&gt;</description>
     </item>
     <item>
       <title>FreeBSD UNIX for Linux sysadmins</title>
-      <link>http://localhost:1313/myblog/freebsd-unix-for-linux-sysadmins/</link>
+      <link>https://jasoneckert.github.io/myblog/freebsd-unix-for-linux-sysadmins/</link>
       <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/freebsd-unix-for-linux-sysadmins/</guid>
+      <guid>https://jasoneckert.github.io/myblog/freebsd-unix-for-linux-sysadmins/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;runbsd.png#left&#34; alt=&#34;Run BSD&#34; title=&#34;Run BSD&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you’ve ever installed and explored another Linux distro (what Linux sysadmin hasn’t?!?), then exploring FreeBSD is going be somewhat similar with a few key differences. While there is no graphical installation, the installation process is straightforward and similar to installing a server-based Linux distro. Just make sure you choose the local_unbound package when prompted if you want to cache DNS lookups locally, as FreeBSD doesn’t have a built-in local DNS resolver that does this.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2019 in review</title>
-      <link>http://localhost:1313/myblog/2019-in-review/</link>
+      <link>https://jasoneckert.github.io/myblog/2019-in-review/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/2019-in-review/</guid>
+      <guid>https://jasoneckert.github.io/myblog/2019-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;macandme.png#center&#34; alt=&#34;Mac and me&#34; title=&#34;Mac and me&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;award.jpg#left&#34; alt=&#34;CompTIA award&#34; title=&#34;CompTIA award&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!&lt;/p&gt;&#xA;&lt;p&gt;On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA)  Instructor Network.&lt;/p&gt;&#xA;&lt;p&gt;This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reviving an ancient BSD UNIX workstation</title>
-      <link>http://localhost:1313/myblog/reviving-an-ancient-bsd-workstation/</link>
+      <link>https://jasoneckert.github.io/myblog/reviving-an-ancient-bsd-workstation/</link>
       <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/reviving-an-ancient-bsd-workstation/</guid>
+      <guid>https://jasoneckert.github.io/myblog/reviving-an-ancient-bsd-workstation/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;genixworkstation.png#center&#34; alt=&#34;GENIX workstation&#34; title=&#34;GENIX workstation&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Most people will look at this 3-foot-long behemoth of ancient electronics and wonder why it wasn’t scrapped decades ago. But for many of us in the tech industry, these ancient machines are a way to peer into the early days of an industry that has twisted and evolved in leaps and bounds, leaving nearly every player that shaped its landscape forgotten in time.&lt;/p&gt;&#xA;&lt;p&gt;The machine sitting in my driveway at the top of this post is a workstation from the early 1980s with a NS32016 CPU (the first 32-bit general purpose microprocessor) and a whopping 1MB of RAM. It&amp;rsquo;s running Genix (BSD UNIX for the NS32016) and performs at a speed of 2.5 MIPS. For comparison, a modern AMD Ryzen 7 system performs at over 300,000 MIPS.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to learn vi (vim)</title>
-      <link>http://localhost:1313/myblog/how-to-learn-vi-vim/</link>
+      <link>https://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/how-to-learn-vi-vim/</guid>
+      <guid>https://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;vim.png#center&#34; alt=&#34;vim&#34; title=&#34;vim&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-so-what-is-vi-and-vim&#34;&gt;1. So, what is vi (and vim)?&lt;/h1&gt;&#xA;&lt;p&gt;One of the most important tools for any developer or sysadmin on UNIX and Linux systems is a text editor. Mastering a text editor allows you to quickly create and edit the source code for programs, scripts and configuration files (nearly all configuration on a UNIX/Linux system is stored as text).&lt;/p&gt;&#xA;&lt;p&gt;The vi editor has been one of the most common (if not THE most common) text editor on these systems since it was created in 1969 by Bill Joy. It was a visual extension to the 1969 ex line-based text editor used back when UNIX terminals looked like a printer with a keyboard, and you had to edit an existing text file using obscure commands (without seeing the actual file on your screen):&lt;/p&gt;</description>
     </item>
     <item>
       <title>The UNIX Philosophy in 2019</title>
-      <link>http://localhost:1313/myblog/the-unix-philosophy-in-2019/</link>
+      <link>https://jasoneckert.github.io/myblog/the-unix-philosophy-in-2019/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-unix-philosophy-in-2019/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-unix-philosophy-in-2019/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;unixpres.png#center&#34; alt=&#34;UNIX Presentation&#34; title=&#34;UNIX Presentation&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Earlier this week, I did a presentation for WWITPRO that detailed the UNIX philosophy and its relevance today. Given the subject matter, I decided to do the presentation in PostScript on my SPARCbook running Sun Solaris 2.5.1. This blog post details the content of the presentation for posterity!&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-unix&#34;&gt;What is UNIX?&lt;/h1&gt;&#xA;&lt;p&gt;Simply put, UNIX is an operating system that was created by Ken Thompson in 1969 that was rewritten shortly thereafter in Dennis Ritchie’s C programming language.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How ricing shifted from cars to computers</title>
-      <link>http://localhost:1313/myblog/how-ricing-shifted-from-cars-to-computers/</link>
+      <link>https://jasoneckert.github.io/myblog/how-ricing-shifted-from-cars-to-computers/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/how-ricing-shifted-from-cars-to-computers/</guid>
+      <guid>https://jasoneckert.github.io/myblog/how-ricing-shifted-from-cars-to-computers/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;desktop.png#center&#34; alt=&#34;riced desktop&#34; title=&#34;riced desktop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in the early 1990s, teenagers with a drivers license made a hobby of tweaking out their cars - adding custom grills, spoilers, paint jobs, and so on.  The more crazy, the better.  And since the most common car to perform these modifications on were older Honda Civics, which you could get fairly cheap at the time, especially if they were more than 5 years old and needed a bit of work.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SPARCbook 3000ST: The coolest 90s laptop</title>
-      <link>http://localhost:1313/myblog/sparcbook3000st-the-coolest-90s-laptop/</link>
+      <link>https://jasoneckert.github.io/myblog/sparcbook3000st-the-coolest-90s-laptop/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/sparcbook3000st-the-coolest-90s-laptop/</guid>
+      <guid>https://jasoneckert.github.io/myblog/sparcbook3000st-the-coolest-90s-laptop/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;sparcbook1.png#center&#34; alt=&#34;SPARCbook1&#34; title=&#34;SPARCbook1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;sparcbook2.jpg#right&#34; alt=&#34;SPARCbook2&#34; title=&#34;SPARCbook2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A few weeks back I managed to pick up an incredibly rare laptop in immaculate condition for $50 on Kijiji: a Tadpole Technologies SPARCbook 3000ST from 1997 (it also came with two other working Pentium laptops from the 1990s).&lt;/p&gt;&#xA;&lt;p&gt;I had to drive almost three hours to pick it up on the other side of Toronto, but for a SPARCbook it was definitely worth it seeing as I&amp;rsquo;m more likely to find the lost city of Atlantis than another one of these again.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SSH Foo</title>
-      <link>http://localhost:1313/myblog/ssh-foo/</link>
+      <link>https://jasoneckert.github.io/myblog/ssh-foo/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/ssh-foo/</guid>
+      <guid>https://jasoneckert.github.io/myblog/ssh-foo/</guid>
       <description>&lt;p&gt;Last week, I gave a presentation at a local LUG (which is a Linux User’s Group, for anyone who hasn’t heard of those before) on the subject of SSH Foo.&lt;/p&gt;&#xA;&lt;p&gt;In UNIX circles, we refer to tricks of the trade as “Kung Fu” or just “Fu” (which sounds rude), so it is spelled “Foo” ;-)&lt;/p&gt;&#xA;&lt;p&gt;In this blog post, I’ll summarize my SSH Foo talk! Be aware that this is not an introduction  to SSH, but a more advanced look at some interesting SSH features for those who are already comfortable with it. As such, I&amp;rsquo;ve kept to point form here to allow you to  skim to the parts you are most interested in!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Halt and Catch Fire</title>
-      <link>http://localhost:1313/myblog/halt-and-catch-fire/</link>
+      <link>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/halt-and-catch-fire/</guid>
+      <guid>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;haltandcatchfire.png#center&#34; alt=&#34;Halt and Catch Fire&#34; title=&#34;Halt and Catch Fire&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Halt and Catch Fire is an AMC television series that ran for four seasons from 2014-2017, and covers the culture and pivotal aspects of the computing industry from 1983 (just after the release of the IBM PC) to 1994 (when the Internet and World Wide Web exploded).&lt;/p&gt;&#xA;&lt;p&gt;You can binge watch it on Netflix if you like today, and trust me - you won’t be disappointed!  Halt and Catch Fire is the best drama I’ve ever seen - an emotional rollercoaster like no other.  The characters are unforgettable, the acting is nothing short of phenomenal, and the entire series has an incredible message about technology and human progress that you only get once you see the final episode!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ultimate UNIX timeline</title>
-      <link>http://localhost:1313/myblog/ultimate-unix-timeline/</link>
+      <link>https://jasoneckert.github.io/myblog/ultimate-unix-timeline/</link>
       <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/ultimate-unix-timeline/</guid>
+      <guid>https://jasoneckert.github.io/myblog/ultimate-unix-timeline/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;unix.png#center&#34; alt=&#34;UNIX&#34; title=&#34;UNIX&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;One thing that has always annoyed me about the Internet surrounds the history and evolution of UNIX-based operating systems.  If you Google “UNIX timeline”, you’ll get a bunch of different results that are either incomplete, incorrect, complicated to the point where it’s unreadable, or a combination of all of these things.&lt;/p&gt;&#xA;&lt;p&gt;So this blog post aims to rectify this!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;ultimateunixtimeline.bmp#center&#34; alt=&#34;UNIX timeline&#34; title=&#34;UNIX timeline&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here are some important things to note about UNIX in general and each of the UNIX flavours depicted on this timeline:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The history of IT certification</title>
-      <link>http://localhost:1313/myblog/history-of-it-certification/</link>
+      <link>https://jasoneckert.github.io/myblog/history-of-it-certification/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/history-of-it-certification/</guid>
+      <guid>https://jasoneckert.github.io/myblog/history-of-it-certification/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cert1.png#center&#34; alt=&#34;cert1&#34; title=&#34;cert1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nearly everyone working in an Information Technology (IT) field has at least one IT-related certification. This is because IT certification is commonly used as a skills benchmark for hiring and promotion, and it’s been that way for a long, long time.&lt;/p&gt;&#xA;&lt;p&gt;So where did all this certification stuff start?  If you look online, there isn’t even a Wikipedia page that can give you that answer - like many things in the technology world that predated the Internet, it just wasn’t important enough to keep track of in the Internet Age that started in the 1990s.&lt;/p&gt;</description>
     </item>
     <item>
       <title>RIP Solaris</title>
-      <link>http://localhost:1313/myblog/rip-solaris/</link>
+      <link>https://jasoneckert.github.io/myblog/rip-solaris/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/rip-solaris/</guid>
+      <guid>https://jasoneckert.github.io/myblog/rip-solaris/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;solaris.png#center&#34; alt=&#34;Solaris&#34; title=&#34;Solaris&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The 80s and 90s was a period of intense development in the computer hardware and software worlds.  On the hardware side, processors started to become much more powerful, and the word on the streets was that RISC (Reduced Instruction Set Computing) was going to be the way of the future.  Powerful RISC platforms emerged during this time, including Sun Microsystems SPARC, HP PA-RISC, SGI MIPS, IBM PowerPC, and the DEC Alpha - these platforms were very powerful, and ushered in 64-bit computing over a decade before it became common in home computers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>50 shades of Cray</title>
-      <link>http://localhost:1313/myblog/50-shades-of-cray/</link>
+      <link>https://jasoneckert.github.io/myblog/50-shades-of-cray/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/50-shades-of-cray/</guid>
+      <guid>https://jasoneckert.github.io/myblog/50-shades-of-cray/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cray.png#center&#34; alt=&#34;CRAY&#34; title=&#34;CRAY&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you wanted a fast computer back in 1976, you bought the 5.5 ton, $9 million Cray-1 made by Cray Research.  The Cray-1 was dubbed the first supercomputer as it was designed to be much faster than other (more massive) computers of the time.&lt;/p&gt;&#xA;&lt;p&gt;It was incredibly successful in the large computing space and Cray subsequently released a much faster model called the Cray X-MP in 1983 (shown in the picture at the top of this post).  By today’s standards, the Cray X-MP was nothing special (it was only half as powerful as an original Xbox from 2001). but for the 1980s, it was incredibly powerful!  The graphics in the movie “The Last Starfighter” were created on a Cray X-MP.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microsoft ReFS vs Oracle ZFS - FIGHT!</title>
-      <link>http://localhost:1313/myblog/refs-vs-zfs-fight/</link>
+      <link>https://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</link>
       <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/refs-vs-zfs-fight/</guid>
+      <guid>https://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;refszfs1.png#center&#34; alt=&#34;Fight&#34; title=&#34;Fight&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the past, most IT admins have put their faith in systems and SANs (Storage Area Networks) that use RAID (Redundant Array of Inexpensive Disks) technology.  RAID can be used to combine hard disks together into simple volumes (called RAID-0, or JBOD) that aren’t fault tolerant, but can also be used to create mirrored volumes where both drives are identical in case one fails (called RAID-1), or striped volumes with parity where data is written across several disks with parity information that can be used to calculate the missing data if a drive fails (called RAID-5).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Impressed by a 10 year old desktop computer</title>
-      <link>http://localhost:1313/myblog/impressed-by-a-10-year-old-desktop/</link>
+      <link>https://jasoneckert.github.io/myblog/impressed-by-a-10-year-old-desktop/</link>
       <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/impressed-by-a-10-year-old-desktop/</guid>
+      <guid>https://jasoneckert.github.io/myblog/impressed-by-a-10-year-old-desktop/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;fuel1.png#center&#34; alt=&#34;SGI Fuel 1&#34; title=&#34;SGI Fuel 1&#34;&gt;&#xA;&lt;img src=&#34;fuel2.jpg#right&#34; alt=&#34;SGI Fuel 2&#34; title=&#34;SGI Fuel 2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Long story short, I scored a free SGI Fuel computer along with the SGI Origin 300 computer I described two posts ago.&lt;/p&gt;&#xA;&lt;p&gt;But the SGI Fuel is a much more “usable” computer because it is a powerful single-processor graphical desktop computer (what Silicon Graphics was best known for).&lt;/p&gt;&#xA;&lt;p&gt;Here is what it comes with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;4GB RAM&lt;/li&gt;&#xA;&lt;li&gt;600MHz R14000A MIPS CPU (64-bit)&lt;/li&gt;&#xA;&lt;li&gt;Two SCSI hard disks&lt;/li&gt;&#xA;&lt;li&gt;DVD writer&lt;/li&gt;&#xA;&lt;li&gt;Odyssey video card (DVI) that takes up the entire bottom of the cabinet&lt;/li&gt;&#xA;&lt;li&gt;IRIX 6.5 UNIX&lt;/li&gt;&#xA;&lt;li&gt;Street cred among UNIX nerds&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To the right is a picture of the case.It’s far larger and heavier than a standard desktop PC case. And no, it’s not pink&amp;hellip;&amp;hellip;it’s fuchsia ;-)&lt;/p&gt;</description>
     </item>
     <item>
       <title>QNX on a moon rover</title>
-      <link>http://localhost:1313/myblog/qnx-on-a-moon-rover/</link>
+      <link>https://jasoneckert.github.io/myblog/qnx-on-a-moon-rover/</link>
       <pubDate>Mon, 02 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/qnx-on-a-moon-rover/</guid>
+      <guid>https://jasoneckert.github.io/myblog/qnx-on-a-moon-rover/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;moon.png#center&#34; alt=&#34;moon&#34; title=&#34;moon&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in September 2011, a group of McMaster business and engineering students started a project aimed to build a moon rover that would be run by the QNX operating system on a BlackBerry PlayBook - a Canadian initiative with Canadian technologies (QNX is 100% Canadian). Here is a link to the original article on CrackBerry.com from the beginning of the project: &lt;a href=&#34;https://crackberry.com/forums-new-group-aims-put-blackberry-playbook-powered-rover-moon&#34;&gt;https://crackberry.com/forums-new-group-aims-put-blackberry-playbook-powered-rover-moon&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I reached out to them because of that article since I’ve had experience with QNX and PlayBook development.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The rise and fall of DEC</title>
-      <link>http://localhost:1313/myblog/the-rise-and-fall-of-dec/</link>
+      <link>https://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</link>
       <pubDate>Wed, 26 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-rise-and-fall-of-dec/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;dec.gif#center&#34; alt=&#34;DEC article&#34; title=&#34;DEC article&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Firstly, the information that I’m presenting here is taken from various sources, including people I knew who worked for DEC, my own experiences, and the book &lt;em&gt;&lt;strong&gt;DEC Is Dead, Long Live DEC&lt;/strong&gt;&lt;/em&gt; by Edgar H. Schein.&lt;/p&gt;&#xA;&lt;h1 id=&#34;quick-background-info&#34;&gt;Quick background info:&lt;/h1&gt;&#xA;&lt;p&gt;DEC was the first knowledge-based company - a company who valued the knowledge of its employees over anything else, and used it to drive change and sell products.&lt;/p&gt;</description>
     </item>
     <item>
       <title>All about DEC</title>
-      <link>http://localhost:1313/myblog/all-about-dec/</link>
+      <link>https://jasoneckert.github.io/myblog/all-about-dec/</link>
       <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/all-about-dec/</guid>
+      <guid>https://jasoneckert.github.io/myblog/all-about-dec/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;dec1.png&#34; alt=&#34;DEC 1&#34; title=&#34;DEC 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;dec2.jpg#right&#34; alt=&#34;DEC 2&#34; title=&#34;DEC 2&#34;&gt;&#xA;Digital Equipment Corporation (DEC) was born in the late 1950s when it was lucrative to make computers that cost a ton of money.  And DEC was good - they would make computers that would perform much better and cost significantly less than the IBM equivalent (IBM mainframes back then were expensive behemoths).&lt;/p&gt;&#xA;&lt;p&gt;The DEC PDP (Programmed Data Processor) line of minicomputers were so good and inexpensive, you’d be hard pressed to NOT find one in your local university. The PDP-7 was the first computer to run the infamous UNIX operating system. The PDP-10 was the first computer to introduce time sharing and TCP/IP implementation for the Internet (there were plenty of PDP-10 nodes on the early Internet, or ARPANET). The PDP-11 was the most influential and mass-produced minicomputer of its time that led to the creation of the C programming language as well as the designs of CP/M, DOS, and the Motorola 68000 architecture.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NeXTSTEP is cool</title>
-      <link>http://localhost:1313/myblog/nextstep-is-cool/</link>
+      <link>https://jasoneckert.github.io/myblog/nextstep-is-cool/</link>
       <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/nextstep-is-cool/</guid>
+      <guid>https://jasoneckert.github.io/myblog/nextstep-is-cool/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;nextstep.jpg#center&#34; alt=&#34;NeXTSTEP&#34; title=&#34;NeXTSTEP&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When Steve Jobs left Apple in the 1980s, he started a new venture that produced NeXT UNIX computers that ran a custom UNIX system called NeXTSTEP on Motorola 68000-series computers. The first Web browser was made my Tim Berners-Lee on one of these NeXT computers!&lt;/p&gt;&#xA;&lt;p&gt;When I was an undergrad student at the University of Waterloo, we had a few NeXT computers (literally two of them I believe) and a bunch of HP PA-RISC 712s running NeXTSTEP for object-oriented software development (it was more common to see Sun or SGI UNIX systems at the university back them).They were cool - and I remember using the HP PA-RISC 712s to do development in university thinking something along the lines of “this is nice, but not as nice as SGI IRIX (Silicon Graphics UNIX).”&lt;/p&gt;</description>
     </item>
     <item>
       <title>The death of SGI</title>
-      <link>http://localhost:1313/myblog/the-death-of-sgi/</link>
+      <link>https://jasoneckert.github.io/myblog/the-death-of-sgi/</link>
       <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-death-of-sgi/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-death-of-sgi/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;sgicomic.jpg#right&#34; alt=&#34;SGI comic&#34; title=&#34;SGI comic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today is definitely a sad day - SGI announced their bankruptcy.&lt;/p&gt;&#xA;&lt;p&gt;SGI was once a great company - in the 1990s, they made the best computers ever, such as the Indigo2, O2, and Octane. The cases and designs looked awesome, and they had amazingly fast 64-bit MIPS RISC CPUs and stellar video cards! Plus, they made an excellent graphical UNIX operating system: IRIX.&lt;/p&gt;&#xA;&lt;p&gt;Although I am a Mac OS X UNIX user now, IRIX will always be my favourite UNIX. The comic shown here from UserFriendly.org captures it perfectly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>10 years of UserFriendly.org</title>
-      <link>http://localhost:1313/myblog/10-years-of-userfriendly/</link>
+      <link>https://jasoneckert.github.io/myblog/10-years-of-userfriendly/</link>
       <pubDate>Sun, 08 Mar 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/10-years-of-userfriendly/</guid>
+      <guid>https://jasoneckert.github.io/myblog/10-years-of-userfriendly/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;userfriendly.jpg#right&#34; alt=&#34;UserFriendly book&#34; title=&#34;UserFriendly book&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I haven’t blogged for a while.&lt;/p&gt;&#xA;&lt;p&gt;This is partly because my daughter and I have been enjoying some major events in Toronto (Ontario Science Centre, ROM, shopping, more shopping, etc.), and not much has happened in the Geek world aside from the new Apple hardware updates and Firefox achieving 100% market share in Antarctica.&lt;/p&gt;&#xA;&lt;p&gt;However, the main reason I haven’t blogged is that I have been engrossed with reading the 10th Anniversary book from UserFriendly.org (over 1000 pages).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Happy Epoch Day!</title>
-      <link>http://localhost:1313/myblog/happy-epoch-day/</link>
+      <link>https://jasoneckert.github.io/myblog/happy-epoch-day/</link>
       <pubDate>Fri, 13 Feb 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/happy-epoch-day/</guid>
+      <guid>https://jasoneckert.github.io/myblog/happy-epoch-day/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;epoch1.png#right&#34; alt=&#34;Epoch1&#34; title=&#34;Epoch1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today is a special day in the I-don’t-have-a-life-and-can-prove-it-mathematically geek world&amp;hellip;..for today, the epoch will be 1234567890 at precisely 6:31pm (and 30 seconds) Eastern time.&lt;/p&gt;&#xA;&lt;p&gt;UNIX (including Mac OS X) and Linux systems use an internal time called the epoch - it is the number of seconds since January 1st, 1970 (the “birth” of UNIX).  This is also why UNIX and Linux geeks weren’t too concerned that their OS was going to blow up at Y2K, since the time would simply be 946684800.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Nostradamus of UNIX</title>
-      <link>http://localhost:1313/myblog/the-nostradamus-of-unix/</link>
+      <link>https://jasoneckert.github.io/myblog/the-nostradamus-of-unix/</link>
       <pubDate>Thu, 22 May 2008 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-nostradamus-of-unix/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-nostradamus-of-unix/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;lifewithunix.png#right&#34; alt=&#34;Life with UNIX&#34; title=&#34;Life with UNIX&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Every so often I re-read a book that I read years ago to remember what it is about.  Mostly, I re-read sci-fi or notable works such as &lt;em&gt;&lt;strong&gt;Neuromancer&lt;/strong&gt;&lt;/em&gt; (William Gibson) or &lt;em&gt;&lt;strong&gt;The Hitchhiker’s Guide to the Galaxy&lt;/strong&gt;&lt;/em&gt; (Douglas Adams) since those are the types of books that I kept over the years.&lt;/p&gt;&#xA;&lt;p&gt;However, I kept a book from 1989 called &lt;em&gt;&lt;strong&gt;Life with UNIX&lt;/strong&gt;&lt;/em&gt; (Don Libes &amp;amp; Sandy Ressler) that I remember using as a good UNIX reference a long time ago.  While browsing the Net, I happened across a recent review of it that said it was “a timeless book on everything UNIX – 90% of it still applies today.”&lt;/p&gt;</description>
     </item>
     <item>
       <title>The UNIX way</title>
-      <link>http://localhost:1313/myblog/the-unix-way/</link>
+      <link>https://jasoneckert.github.io/myblog/the-unix-way/</link>
       <pubDate>Tue, 29 Apr 2008 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-unix-way/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-unix-way/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;unixway.png#right&#34; alt=&#34;The UNIX way&#34; title=&#34;The UNIX way&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in the 1980s, someone started the UNIX-HATERS mailing list as a means of venting UNIX-related frustrations.  In 1994, Simson Garfinkel, Daniel Weise, and Steven Strassmann collected these frustrations and published them in a book called “The UNIX-HATERS Handbook” with extra commentary aimed to portray one view: UNIX sucks. The book itself contains plenty of great information about different technologies such as shell scripting, UNIX commands, email and file systems – it’s too bad that they cast everything in a very negative light.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The wicked witch is dead</title>
-      <link>http://localhost:1313/myblog/the-wicked-witch-is-dead/</link>
+      <link>https://jasoneckert.github.io/myblog/the-wicked-witch-is-dead/</link>
       <pubDate>Sun, 12 Aug 2007 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-wicked-witch-is-dead/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-wicked-witch-is-dead/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;scologo.jpg#right&#34; alt=&#34;SCO logo&#34; title=&#34;SCO logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I consider myself to be a very patient person (all things considered) - but one thing that causes me to lose my patience is when I hear of proprietary computer companies that spread FUD (Fear, Uncertainty and Doubt) in order to keep their customers from considering other (and usually much better) technologies.&lt;/p&gt;&#xA;&lt;p&gt;While Microsoft has been the main purveyor of FUD since the early 1990s, SCO used FUD in an attempt to downplay the Linux operating system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>1. Operating Systems</title>
-      <link>http://localhost:1313/info/operatingsystems/</link>
+      <link>https://jasoneckert.github.io/info/operatingsystems/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/info/operatingsystems/</guid>
+      <guid>https://jasoneckert.github.io/info/operatingsystems/</guid>
       <description>&lt;h1 id=&#34;unix&#34;&gt;UNIX&lt;/h1&gt;&#xA;&lt;p&gt;UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX. Your Internet Service Provider (ISP) likely runs BSD UNIX networking equipment and servers, and you’ll even find QNX UNIX in most cars today as well as running the streetlights in your city.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2. My published books</title>
-      <link>http://localhost:1313/bio/my-published-books/</link>
+      <link>https://jasoneckert.github.io/bio/my-published-books/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bio/my-published-books/</guid>
+      <guid>https://jasoneckert.github.io/bio/my-published-books/</guid>
       <description>&lt;p&gt;Perhaps one of my more famous achievements is the authoring of several textbooks for Course Technology, Cengage, Nelson, Thompson/Delmar and Wiley. I&amp;rsquo;ve listed their details in chronological order here (oldest to newest) with cover pictures below:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification (ISBN: 0-619-13004-0) &lt;a href=&#34;0-619-13004-0_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-13004-0_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Guide to UNIX System Administration (ISBN: 0-619-13041-5) &lt;a href=&#34;0-619-13041-5_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-13041-5_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ In Depth (ISBN: 1-59200-062-2) &lt;a href=&#34;1-59200-062-2_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-59200-062-2_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;MCSE Guide to Managing a Microsoft Windows Server 2003 Network (ISBN: 0-619-12029-0) &lt;a href=&#34;0-619-12029-0_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-12029-0_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt; &lt;a href=&#34;0-619-12029-0_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - 2nd Edition (ISBN: 0-619-21621-2) &lt;a href=&#34;0-619-21621-2_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-21621-2_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ 2005 In Depth (ISBN: 1-59200-728-7) &lt;a href=&#34;1-59200-728-7_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-59200-728-7_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Novell&amp;rsquo;s Guide to CompTIA&amp;rsquo;s Linux+ (Course 3060) (ISBN: 1-4188-3730-X) &lt;a href=&#34;1-4188-3730-X_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3730-X_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Server Administration (Course 3037) (ISBN: 1-4188-3731-8) &lt;a href=&#34;1-4188-3731-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3731-8_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Advanced SUSE Linux Enterprise Server Administration (Course 3038) (ISBN: 1-4188-3732-6) &lt;a href=&#34;1-4188-3732-6_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3732-6_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Microsoft Windows Vista Guide (ISBN: 1-4188-3757-1) &lt;a href=&#34;1-4188-3757-1_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3757-1_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt; &lt;a href=&#34;1-4188-3757-1_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Desktop Administration (Course 3086) (ISBN: 1-4283-2227-2) &lt;a href=&#34;1-4283-2227-2_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4283-2227-2_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Server Security (Course 3075) (ISBN: 1-4283-2223-X) &lt;a href=&#34;1-4283-2223-X_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4283-2223-X_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Microsoft Official Academic Course (MOAC): Exchange Server 2007 Exam 70-236 (ISBN: 978-0-470-38029-1) &lt;a href=&#34;978-0-470-38029-1_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-0-470-38029-1_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - 3rd Edition (ISBN: 978-1-418-83721-1) &lt;a href=&#34;978-1-418-83721-1_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-1-418-83721-1_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Server 11 Administration (ISBN: 978-1-111-54003-6) &lt;a href=&#34;978-1-111-54003-6_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-1-111-54003-6_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - International Edition (ISBN: 978-1-111-54153-8)&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - 4th Edition (ISBN: 978-1-305-10716-8) &lt;a href=&#34;978-1-305-10716-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ and LPIC-1 Guide to Linux Certification - 5th Edition (ISBN: 978-1-337-56979-8) &lt;a href=&#34;978-1-337-56979-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Hands-On Windows Server 2019 - 3rd Edition (ISBN: 978-0-357-43615-8) &lt;a href=&#34;978-0-357-43615-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-0-357-43615-8_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ and LPIC-1 Guide to Linux Certification - 6th Edition (ISBN: 979-8-214-00080-0) &lt;a href=&#34;979-8-214-00080-0_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;979-8-214-00080-0_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Hands-On Windows Server 2022 - 4th Edition (ISBN: 979-8-214-01160-8) &lt;a href=&#34;979-8-214-01160-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;979-8-214-01160-8_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ and LPIC-1 Guide to Linux Certification - 7th Edition (ISBN: 979-8-214-40996-2) Available late 2025 or early 2026!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Moreover, I&amp;rsquo;ve worked as a technical editor for numerous Linux and software development titles for both Wiley and Pearson, as well as wrote 6 books for Research in Motion (RIM) on BlackBerry Enterprise Server 4.1 &amp;amp; 5 (uncredited and consequently not listed here).&lt;/p&gt;</description>
     </item>
     <item>
       <title>2. Retro Computers</title>
-      <link>http://localhost:1313/info/retrocomputers/</link>
+      <link>https://jasoneckert.github.io/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/info/retrocomputers/</guid>
+      <guid>https://jasoneckert.github.io/info/retrocomputers/</guid>
       <description>&lt;h1 id=&#34;apple&#34;&gt;Apple&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;appleiic.jpg#right&#34; alt=&#34;Apple IIc&#34; title=&#34;Apple IIc&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions). The Apple II was very well built and had tons of expansion ports. It inspired thousands of people to enter the computer world. Thousands of programs were made for it, and it made its way into nearly every industry in a short period of time. The famous spreadsheet, Visicalc, made the Apple II a great business tool, its ease of use made it extremely popular in the school system (every school I went to had them, even in the 1990s), and its BASIC interpreter and easy expandability made it famous with hackers, engineers and scientists (the first demonstration of public key cryptography was hacked together by a few mathematicians on an Apple II).&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog Archive on Jason Eckert&#39;s Website and Blog</title>
-    <link>http://localhost:1313/archive/</link>
+    <link>https://jasoneckert.github.io/archive/</link>
     <description>Recent content in Blog Archive on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/archive/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jasoneckert.github.io/archive/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

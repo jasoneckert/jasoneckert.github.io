@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cyberpunk on Jason Eckert&#39;s Website and Blog</title>
-    <link>http://localhost:1313/tags/cyberpunk/</link>
+    <link>https://jasoneckert.github.io/tags/cyberpunk/</link>
     <description>Recent content in Cyberpunk on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cyberpunk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jasoneckert.github.io/tags/cyberpunk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cyberpunk, Sci-Fi &amp; General Fiction</title>
-      <link>http://localhost:1313/reads/fiction/</link>
+      <link>https://jasoneckert.github.io/reads/fiction/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/reads/fiction/</guid>
+      <guid>https://jasoneckert.github.io/reads/fiction/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cyberpunk.jpg&#34; alt=&#34;cyberpunk header&#34; title=&#34;cyberpunk header&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;thomas-j-ryan-the-adolescence-of-p-1-1977&#34;&gt;Thomas J. Ryan: The Adolescence of P-1 (1977)&lt;/h1&gt;&#xA;&lt;p&gt;This is probably the best book I have ever read regarding our human desire for artificial intelligence (AI). It’s about a University of Waterloo student who creates an AI on IBM mainframes. Don’t let that bore you though - it’s a captivating read and has a great ending. I wouldn’t be surprised if this book influenced later movies such as &lt;em&gt;&lt;strong&gt;War Games&lt;/strong&gt;&lt;/em&gt; (1983), and books such as &lt;em&gt;&lt;strong&gt;Neuromancer&lt;/strong&gt;&lt;/em&gt; (1984). I especially liked how much of it took place at the University of Waterloo (my undergrad university and home for many years) including the infamous IBM 360/75 in the “red room” within the Math &amp;amp; Computer building (the largest computer in Canada at the time). I remember the red room well before they decommissioned it in 1999.&lt;/p&gt;</description>
     </item>
   </channel>

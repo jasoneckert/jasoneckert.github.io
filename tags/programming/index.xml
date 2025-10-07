@@ -2,416 +2,416 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Jason Eckert&#39;s Website and Blog</title>
-    <link>http://localhost:1313/tags/programming/</link>
+    <link>https://jasoneckert.github.io/tags/programming/</link>
     <description>Recent content in Programming on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jasoneckert.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>It’s Still Your Call: Ethics in the Age of AI</title>
-      <link>http://localhost:1313/myblog/ethics-in-the-age-of-ai/</link>
+      <link>https://jasoneckert.github.io/myblog/ethics-in-the-age-of-ai/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/ethics-in-the-age-of-ai/</guid>
+      <guid>https://jasoneckert.github.io/myblog/ethics-in-the-age-of-ai/</guid>
       <description>&lt;p&gt;AI is rapidly transforming how we work, learn, and communicate. But as it evolves, we face new questions: What decisions should we let AI make? Who is responsible when it gets things wrong? And how do we ensure that the technology reflects – not replaces – our values and ideas?&lt;/p&gt;&#xA;&lt;p&gt;In this post, we’ll explore the ethical dimensions of artificial intelligence (AI) – and ideally, leave with more questions than answers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Canada: The Unsung Hero of AI Innovation</title>
-      <link>http://localhost:1313/myblog/canadian-ai/</link>
+      <link>https://jasoneckert.github.io/myblog/canadian-ai/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/canadian-ai/</guid>
+      <guid>https://jasoneckert.github.io/myblog/canadian-ai/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;canada-ai-banner.png#center&#34; alt=&#34;Canadian AI Banner&#34; title=&#34;Canadian AI Banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Canada may not be the first country that comes to mind when you think of &lt;a href=&#34;../demystifying-ai/&#34;&gt;artificial intelligence (AI)&lt;/a&gt; and its underlying machine learning (ML) technology. However, Canadians have played &amp;ndash; and continue to play &amp;ndash; a pivotal role in pioneering and advancing the field.&lt;/p&gt;&#xA;&lt;p&gt;So, who exactly helped shape the future of AI? Well, there’s one big name that stands out: &lt;a href=&#34;https://en.wikipedia.org/wiki/Geoffrey_Hinton&#34;&gt;Geoffrey Hinton&lt;/a&gt;, a British-Canadian computer scientist.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Leveraging WSL2 for Systems &amp; Cloud Administration, Cybersecurity, and Software Development</title>
-      <link>http://localhost:1313/myblog/wsl2/</link>
+      <link>https://jasoneckert.github.io/myblog/wsl2/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/wsl2/</guid>
+      <guid>https://jasoneckert.github.io/myblog/wsl2/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;desktop.png#center&#34; alt=&#34;Win11 Desktop running 3 WSL2 instances&#34; title=&#34;Win11 Desktop running 3 WSL2 instances&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s quite a bit going on in the Windows 11 desktop pic shown at the top of this post. To see the details, you can pinch zoom the pic if you are on a phone or touchscreen device, or right-click the pic and choose to open it in a new browser tab if you are on a desktop computer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tips to Evolve Your Tech Career in the Age of AI</title>
-      <link>http://localhost:1313/myblog/ai-in-tech/</link>
+      <link>https://jasoneckert.github.io/myblog/ai-in-tech/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/ai-in-tech/</guid>
+      <guid>https://jasoneckert.github.io/myblog/ai-in-tech/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;AI_banner.jpeg#center&#34; alt=&#34;AI banner&#34; title=&#34;AI banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As I mentioned in my &lt;a href=&#34;../demystifying-ai/&#34;&gt;June blog post&lt;/a&gt;, AI is here to stay. It will be something we take for granted in several years as the tools we use evolve to seamlessly accommodate it. Until then, we should still avoid getting caught up in current AI hype, and no &amp;ndash; there won&amp;rsquo;t be future job titles of &lt;em&gt;&lt;strong&gt;AI prompt engineer&lt;/strong&gt;&lt;/em&gt; once it becomes as ubiquitous as Googling.&lt;/p&gt;&#xA;&lt;p&gt;Since AI will overhaul tech-related industries long before others, it&amp;rsquo;s important that tech professionals leverage it as much as possible over the next few years to remain competitive. In other words, AI will not replace humans, but humans who leverage AI will definitely replace those who don&amp;rsquo;t, especially in tech-related industries. Luckily, most tech professionals are well versed in adapting to change and often embrace a &lt;a href=&#34;../growth-mindset/&#34;&gt;growth mindset&lt;/a&gt; that allows them to do so easily. In this blog post, I&amp;rsquo;ll outline six tips on how to embrace and leverage AI today in your tech job.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 in Review</title>
-      <link>http://localhost:1313/myblog/2024-in-review/</link>
+      <link>https://jasoneckert.github.io/myblog/2024-in-review/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/2024-in-review/</guid>
+      <guid>https://jasoneckert.github.io/myblog/2024-in-review/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s important to pause and reflect every so often to stay grounded and focused. So, each December I look back on the year&amp;rsquo;s events and summarize them in a blog post. And after doing this again this year, I realize that 2024 was one of reflection, gratitude, and exploration.&lt;/p&gt;&#xA;&lt;p&gt;I was fortunate enough to go on some epic winter hiking adventures with my dog Pepper in January before she &lt;a href=&#34;../remembering-pepper/&#34;&gt;passed away in February&lt;/a&gt; at the age of 13. Losing a dog is the hardest thing because we form such strong bonds, but she was an amazing dog that had an awesome life and I&amp;rsquo;m grateful for all of it. I&amp;rsquo;m reminded of a pet memorial plaque I saw many years ago that said &amp;ldquo;&lt;em&gt;&lt;strong&gt;Don&amp;rsquo;t cry because it&amp;rsquo;s over. Smile because it happened.&lt;/strong&gt;&lt;/em&gt;&amp;rdquo; I spread her ashes in the areas she loved most: my back yard, the sports park behind my house, the public park at the end of my street, and in the stream under the bridge my daughter and I often took her to on the Mill Run trail.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Running an LLM locally using Ollama</title>
-      <link>http://localhost:1313/myblog/llms-using-ollama/</link>
+      <link>https://jasoneckert.github.io/myblog/llms-using-ollama/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/llms-using-ollama/</guid>
+      <guid>https://jasoneckert.github.io/myblog/llms-using-ollama/</guid>
       <description>&lt;p&gt;If you are developing or integrating software with a Large Language Model (LLM) to add chatbot or other AI functionality, then you may have the need to host and run an LLM on your local workstation for development or testing. There are several open source LLMs available that you can freely run on your system provided that you have enough resources to do so.&lt;/p&gt;&#xA;&lt;p&gt;LLMs are just inert objects that require special software to allow people and other software to interact with it (called &lt;em&gt;&lt;strong&gt;running the model&lt;/strong&gt;&lt;/em&gt;). Unfortunately, setting up the software components to run a model is akin to nailing Jello to a tree.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Copilot&#43; PC Review: Windows on ARM is finally here</title>
-      <link>http://localhost:1313/myblog/windows-on-arm/</link>
+      <link>https://jasoneckert.github.io/myblog/windows-on-arm/</link>
       <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/windows-on-arm/</guid>
+      <guid>https://jasoneckert.github.io/myblog/windows-on-arm/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;desktop.png#center&#34; alt=&#34;Copilot+ PC Desktop&#34; title=&#34;Copilot+ PC Desktop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in 2017, I wrote a &lt;a href=&#34;../get-ready-for-the-chip-wars/&#34;&gt;blog post&lt;/a&gt; predicting intense competition between Intel x86-based and ARM-based PCs. And finally, after many years of lukewarm development efforts on the part of Microsoft and Qualcomm, that competition is here with Windows 11 Copilot+ PCs running powerful ARM-based Qualcomm Snapdragon X Elite CPUs with built in graphics and AI acceleration.&lt;/p&gt;&#xA;&lt;p&gt;As shown in the desktop screenshot at the top of this post I&amp;rsquo;ve been using a Copilot+ PC as a productivity and development workstation this month, and I must say that I&amp;rsquo;m thoroughly impressed overall. In this blog post, I&amp;rsquo;ll outline why.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuring GitHub Discussions to provide Blog Comments</title>
-      <link>http://localhost:1313/myblog/github-discussions-blog/</link>
+      <link>https://jasoneckert.github.io/myblog/github-discussions-blog/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/github-discussions-blog/</guid>
+      <guid>https://jasoneckert.github.io/myblog/github-discussions-blog/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;comments.png#center&#34; alt=&#34;Comments button&#34; title=&#34;Comments button&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There are a few reasons why I&amp;rsquo;ve avoided adding a comment section to my blog these past two decades. Firstly, it can promote inappropriate and low effort responses&amp;hellip; especially if comments can be made anonymously. As a result, my home page encourages readers to email me directly. I&amp;rsquo;ve received well over a thousand emails from readers over the years, and I&amp;rsquo;ve enjoyed replying to each one. Secondly, introducing a comment section requires the execution of dynamic content that usually stores comments within a database. I instead prefer to use a simple, static website for my personal blog that can be easily hosted anywhere I choose. This also means I don&amp;rsquo;t have to configure and maintain databases.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Demystifying Artificial Intelligence (AI)</title>
-      <link>http://localhost:1313/myblog/demystifying-ai/</link>
+      <link>https://jasoneckert.github.io/myblog/demystifying-ai/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/demystifying-ai/</guid>
+      <guid>https://jasoneckert.github.io/myblog/demystifying-ai/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;unwantedAI.jpg#right&#34; alt=&#34;Unwanted AI buzz&#34; title=&#34;Unwanted AI buzz&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re tired of all of the &lt;em&gt;&lt;strong&gt;Artificial Intelligence (AI)&lt;/strong&gt;&lt;/em&gt; buzz recently, you&amp;rsquo;re not alone. Most of us in the tech industry are as well. In this post, I&amp;rsquo;ll outline what AI is and how it works, why you&amp;rsquo;re hearing so much AI hype nowadays, and how AI functionality will eventually be built into the software products we use.&lt;/p&gt;&#xA;&lt;h1 id=&#34;so-what-is-ai&#34;&gt;So, what is AI?&lt;/h1&gt;&#xA;&lt;p&gt;Firstly, AI is nothing new. The term itself was coined in 1955 by John McCarthy as a way to discuss how computers could make decisions based on inputs and logic provided. However, the idea of intelligent machines (or robots) has been popular in sci-fi writing for the past century, and can be found as far back as Samuel Butler&amp;rsquo;s 1863 article &lt;em&gt;&lt;strong&gt;Darwin among the Machines&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2023 in Review</title>
-      <link>http://localhost:1313/myblog/2023-in-review/</link>
+      <link>https://jasoneckert.github.io/myblog/2023-in-review/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/2023-in-review/</guid>
+      <guid>https://jasoneckert.github.io/myblog/2023-in-review/</guid>
       <description>&lt;p&gt;For me, 2023 turned out to be a year of learning, growth, adventure, and gratitude. And since there&amp;rsquo;s plenty for me to talk about, I&amp;rsquo;ve divided my review into two sections: one that summarizes my professional pursuits, and one that summarizes everything else.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-professional-stuff&#34;&gt;The professional stuff:&lt;/h1&gt;&#xA;&lt;p&gt;On the college front, the new &lt;a href=&#34;https://www.trios.com/programs-courses/technology/&#34;&gt;technology programs&lt;/a&gt; I&amp;rsquo;ve been pushing since 2020 finally got to market! My favourite one is &lt;em&gt;&lt;strong&gt;Mobile Web Developer&lt;/strong&gt;&lt;/em&gt;, as it&amp;rsquo;s a radical departure from what we did previously. The whole program is taught exclusively on macOS, has two interlaced capstones, and is carefully crafted to allow students to build solid developer skills using modern industry tooling and processes with zero tests/quizzes (students instead perform weekly assignments). These weekly assignments allow instructors to assess and guide skills development for individual students throughout each course, as well as echo the sprint cadence used within industry that students must become accustomed to. We also have a new &lt;em&gt;&lt;strong&gt;IT Professional (Infrastructure, Cloud &amp;amp; Cybersecurity)&lt;/strong&gt;&lt;/em&gt; program that restructures and augments many of the topics in our previous IT Professional program to allow for expansion into the areas of cloud and cybersecurity (both of which are key industry focal points today).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Essential keyboard shortcuts (Windows/macOS/Linux/UNIX)</title>
-      <link>http://localhost:1313/myblog/shortcuts/</link>
+      <link>https://jasoneckert.github.io/myblog/shortcuts/</link>
       <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/shortcuts/</guid>
+      <guid>https://jasoneckert.github.io/myblog/shortcuts/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;hands.jpg#center&#34; alt=&#34;Hands on keyboard&#34; title=&#34;Hands on keyboard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Following are some shortcuts that I believe all desktop users should be familiar with. It is not a complete list by any means, and does not include virtual desktop or app pinning shortcuts as I felt those were beyond the scope of common desktop shortcuts. If you feel I omitted a common shortcut, email me (&lt;a href=&#34;mailto:jason.eckert@trios.com&#34;&gt;jason.eckert@trios.com&lt;/a&gt;) and I&amp;rsquo;ll add it to the list!&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-windows-shortcuts&#34;&gt;1. Windows shortcuts&lt;/h1&gt;&#xA;&lt;p&gt;The Windows (⊞) key on your keyboard has the Windows logo printed on it. Modern keyboards use the newer Windows logo with four equally-sized squares, while older keyboards use a Windows logo with four slanted or curved squares.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bob Gunderson Tribute</title>
-      <link>http://localhost:1313/myblog/bob-gunderson/</link>
+      <link>https://jasoneckert.github.io/myblog/bob-gunderson/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/bob-gunderson/</guid>
+      <guid>https://jasoneckert.github.io/myblog/bob-gunderson/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;bob.jpg#right&#34; alt=&#34;Orion, Bob, and I&#34; title=&#34;Orion, Bob, and I&#34;&gt;&#xA;The top three software developers that ever worked for triOS College are shown here from left to right: Orion, Bob, and me. Unfortunately, this week we lost Bob to a courageous and difficult battle with cancer.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve known and worked with Bob Gunderson since the beginning of triOS College 25 years ago, when it was called triOS Career Academy and triOS College of Information Technology. He was a talented software developer who taught our early web and software development courses before becoming the Faculty Head, and eventually the senior developer of our own internal software system (called XCAS).&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Leverage Music for Maximum Tech Productivity</title>
-      <link>http://localhost:1313/myblog/leveraging-music-for-tech-productivity/</link>
+      <link>https://jasoneckert.github.io/myblog/leveraging-music-for-tech-productivity/</link>
       <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/leveraging-music-for-tech-productivity/</guid>
+      <guid>https://jasoneckert.github.io/myblog/leveraging-music-for-tech-productivity/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;music-work.jpg#center&#34; alt=&#34;Dude somewhat working&#34; title=&#34;Dude somewhat working&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Most of us who work in technology fields such as software development, systems administration, and cybersecurity often &lt;a href=&#34;https://maximumble.thebookofbiff.com/comic/1249-headphones/&#34;&gt;listen to music while we work&lt;/a&gt; at our computer. After all, music stimulates many parts of our brains, including the limbic system responsible for alertness, emotion, and memory. Psychologists have also shown that music also reduces anxiety and blood pressure, as well as improves mood.&lt;/p&gt;&#xA;&lt;p&gt;However, to make the most out of it, you must carefully plan your music strategy. Unfortunately, all of the blogs and YouTube videos I&amp;rsquo;ve seen that cover this process are terrible - they usually focus on music theory concepts the average person will not know or care about, and offer little practical advice. So, in this post I&amp;rsquo;ll get straight to the point about how you can get the most out of your music as a tech professional.&lt;/p&gt;</description>
     </item>
     <item>
       <title>So, you’re curious about software development?</title>
-      <link>http://localhost:1313/myblog/interested-in-software-development/</link>
+      <link>https://jasoneckert.github.io/myblog/interested-in-software-development/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/interested-in-software-development/</guid>
+      <guid>https://jasoneckert.github.io/myblog/interested-in-software-development/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;laptop.png#right&#34; alt=&#34;Software developer using laptop&#34; title=&#34;Software developer using laptop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The impact of the digital revolution this past decade has made software development a mainstream news topic. After all, every software app you&amp;rsquo;ve used on your phone, tablet, and computer was made by software developers, as was every website, online service, and Internet-connected gadget.&lt;/p&gt;&#xA;&lt;p&gt;Because of my software development experience and role at the college, I get plenty of questions from friends, family, neighbors, strangers, and potential students about it. Most want to know what it’s like to work as a software developer, or what it takes to become a software developer today. If you’ve also had these questions, then this post is for you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My first textbook is now in its sixth edition</title>
-      <link>http://localhost:1313/myblog/linux-sixth-edition/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-sixth-edition/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-sixth-edition/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-sixth-edition/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;first-and-sixth.png#center&#34; alt=&#34;First and sixth edition of my Linux textbook&#34; title=&#34;First and sixth edition of my Linux textbook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While I&amp;rsquo;ve written &lt;a href=&#34;../../bio/my-published-books/&#34;&gt;many textbooks&lt;/a&gt; on different topics over the past two decades, my favourite subject area by far is Linux. After all, Linux has evolved to be one of the most foundational topics in tech education. Information Technology (IT) fields such as server/network administration, cloud administration, cybersecurity, and software development now require a solid grasp of the Linux operating system.&#xA;&lt;img src=&#34;sixthedition.jpg#right&#34; alt=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34; title=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I&#39;ve now been teaching tech for 25 years!</title>
-      <link>http://localhost:1313/myblog/25-years-teaching-tech/</link>
+      <link>https://jasoneckert.github.io/myblog/25-years-teaching-tech/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/25-years-teaching-tech/</guid>
+      <guid>https://jasoneckert.github.io/myblog/25-years-teaching-tech/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;bookshelf.jpg#right&#34; alt=&#34;Bookshelf&#34; title=&#34;Bookshelf&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This month marks the 25th anniversary of my teaching Information Technology (IT) courses for &lt;a href=&#34;https://trios.com&#34; title=&#34;triOS College&#34;&gt;triOS College&lt;/a&gt; in Ontario, Canada.&lt;/p&gt;&#xA;&lt;p&gt;Back in 1998 I was well on my way to becoming an academic bum that kept on taking university courses forever. But I had a wife and child and needed to think more responsibly. So, as my spring university semester was ending, I applied for an instructor job that my grandmother saw in a newspaper ad and thought I&amp;rsquo;d be perfect for. After an interview and demo teach, I got the job and started the following Monday&amp;hellip; April 20, 1998.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux is making Apple Great Again</title>
-      <link>http://localhost:1313/myblog/linux-is-making-apple-great-again/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-is-making-apple-great-again/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-is-making-apple-great-again/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-is-making-apple-great-again/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;maga.png#right&#34; alt=&#34;Make Apple Great Again hat&#34; title=&#34;Make Apple Great Again hat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;MAGA pun aside, Linux is doing more for Apple hardware than macOS right now&amp;hellip; at least in the eyes of some old UNIX nerds like me.&lt;/p&gt;&#xA;&lt;p&gt;At the Southern California Linux Expo (SCaLE) earlier this month, the closing keynote was given by &lt;a href=&#34;https://www.facesofopensource.com/ken-thompson/&#34; title=&#34;Ken Thompson&#34;&gt;Ken Thompson&lt;/a&gt; (co-creator of the UNIX operating system and the Go programming language). During the Q&amp;amp;A session following that keynote, Ken was asked &amp;ldquo;&lt;em&gt;&lt;strong&gt;What&amp;rsquo;s your operating system of choice, today?&lt;/strong&gt;&lt;/em&gt;&amp;rdquo; While you can watch it &lt;a href=&#34;https://www.youtube.com/live/kaandEt_pKw?feature=share&amp;amp;t=3470&#34; title=&#34;here&#34;&gt;here&lt;/a&gt;, his response was:&lt;/p&gt;</description>
     </item>
     <item>
       <title>2022 in Review</title>
-      <link>http://localhost:1313/myblog/2022-in-review/</link>
+      <link>https://jasoneckert.github.io/myblog/2022-in-review/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/2022-in-review/</guid>
+      <guid>https://jasoneckert.github.io/myblog/2022-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;raybans.jpg#right&#34; alt=&#34;Ray Bans&#34; title=&#34;Ray Bans&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2022 was definitely an interesting year. COVID was given far less attention and we started living with it much like we live with the flu virus. Mask requirements were dropped, and many social events have resumed. Crazy COVID conspiracy theories and uproar are distant memories (at least for me).&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m still teaching IT classes remotely, which has resulted in better educational outcomes compared to the physical classroom. Working with operating systems and IT software within virtual machines on home PCs promotes tinkering and resourcefulness while allowing students to continue and expand upon class work at any time. Being able to revisit class videos afterwards is a huge bonus that everyone enjoys, as is the lack of commute-related stress. Since our IT programs include several CompTIA certifications, I decided to write a bunch of them this year, including the biggest one: CompTIA Advanced Security Practitioner (CASP+). I&amp;rsquo;m also planning on writing 5 more of them in the first half of 2023 because I have the exam vouchers from the CompTIA Instructor Network program.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reboot your mind once a day</title>
-      <link>http://localhost:1313/myblog/tech-workers-should-meditate/</link>
+      <link>https://jasoneckert.github.io/myblog/tech-workers-should-meditate/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/tech-workers-should-meditate/</guid>
+      <guid>https://jasoneckert.github.io/myblog/tech-workers-should-meditate/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;meditation.jpg#right&#34; alt=&#34;Meditation&#34; title=&#34;Meditation&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Any IT sysadmin will tell you that if you don&amp;rsquo;t schedule time for computer maintenance, your systems will schedule it for you. The same is true for the human mind. After all, humans are the most powerful computer out there (and the only one that can be mass produced by unskilled labour ;-)&lt;/p&gt;&#xA;&lt;p&gt;When starting out in a tech field, we are intrinsically motivated to spend long hours trying to make a name for ourselves - after all, there&amp;rsquo;s no better feeling than mastering a new skill to level up in a knowledge industry. I remember this &amp;ldquo;sleep is for the weak&amp;rdquo; mindset fondly, but we do a lot of damage to our bodies during this period of our lives and the stress eventually catches up. Luckily, there is an easy solution. And no, it&amp;rsquo;s not drugs. It&amp;rsquo;s 20 minutes of mindfulness meditation every morning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>RISCy business: The long and convoluted rise of today&#39;s dominant computing platform</title>
-      <link>http://localhost:1313/myblog/riscy-business/</link>
+      <link>https://jasoneckert.github.io/myblog/riscy-business/</link>
       <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/riscy-business/</guid>
+      <guid>https://jasoneckert.github.io/myblog/riscy-business/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;RISC.png#center&#34; alt=&#34;RISC timeline&#34; title=&#34;RISC timeline&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;risc-vs-cisc&#34;&gt;RISC vs CISC&lt;/h1&gt;&#xA;&lt;p&gt;Traditionally, most computing platforms were built with the burden of software in mind. To ensure that a software program could be written easily and with fewer instructions, additional circuitry was added to the central processing unit (CPU) to compensate. This was referred to as complex instruction set computing (CISC). CISC architecture is still common today thanks to the x86 architecture used by Intel and AMD CPUs in most workstations and servers. Unfortunately, the added circuitry within CISC CPUs equated to added cost and complexity - both of which made it more expensive to evolve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How modern open source projects work</title>
-      <link>http://localhost:1313/myblog/modern-open-source/</link>
+      <link>https://jasoneckert.github.io/myblog/modern-open-source/</link>
       <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/modern-open-source/</guid>
+      <guid>https://jasoneckert.github.io/myblog/modern-open-source/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;source.png#right&#34; alt=&#34;May the source be with you&#34; title=&#34;May the source be with you&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;By definition, &amp;ldquo;open source&amp;rdquo; has little to do with how software is actually created.&lt;/p&gt;&#xA;&lt;p&gt;Instead, open source refers to how the source code for a software development project is distributed and consumed by software developers working on other projects. It is essentially a blanket term that refers to any software that makes its source code available to others. To be open source, the software project must be released under an open source license, of which there are two main categories: Copyleft and Permissive.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How Linux Certification Has Evolved Over The Years</title>
-      <link>http://localhost:1313/myblog/linux-certification/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-certification/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-certification/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-certification/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;LinuxDesk.png#center&#34; alt=&#34;Banner&#34; title=&#34;Banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Because organizations continually adopt new technologies, the need for skilled IT professionals to support those technologies is always increasing. Technology certification has been the most common skills benchmark used for hiring and promotion in the IT industry since the early 1990s, with Linux certification being one of the most sought-after. After all, knowing how to use, configure and administer the Linux operating system is prerequisite for a wide variety of different IT job roles, including server administrators, cloud administrators, devops engineers, site reliability engineers, cybersecurity analysts, penetration testers, and software developers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dual-booting Asahi Linux on your Apple Silicon Mac</title>
-      <link>http://localhost:1313/myblog/asahi-linux/</link>
+      <link>https://jasoneckert.github.io/myblog/asahi-linux/</link>
       <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/asahi-linux/</guid>
+      <guid>https://jasoneckert.github.io/myblog/asahi-linux/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;Asahi_M1.jpeg#right&#34; alt=&#34;Asahi M1&#34; title=&#34;Asahi M1&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-asahi-linux&#34;&gt;What is Asahi Linux?&lt;/h1&gt;&#xA;&lt;p&gt;Asahi (&lt;a href=&#34;https://asahilinux.org/&#34;&gt;https://asahilinux.org/&lt;/a&gt;) is a Linux distribution based on Arch Linux ARM that you can install natively on Apple Silicon Macs with an M1- or M2-based CPU. I&amp;rsquo;ve been using it daily as a software development workstation for over 3 months now on an M1 Mac Mini (16GB RAM, 500GB SSD), and it&amp;rsquo;s &lt;em&gt;&lt;strong&gt;unbelievably&lt;/strong&gt;&lt;/em&gt; fast. It is 100% funded by Patreon and developed full-time by Hector Martin with many other contributors. You can watch &lt;a href=&#34;https://twit.tv/shows/floss-weekly/episodes/680&#34; title=&#34;this interview&#34;&gt;this interview&lt;/a&gt; to learn more about the project, or &lt;a href=&#34;https://www.youtube.com/watch?v=igYgGH6PnOw&#34; title=&#34;this video&#34;&gt;this video&lt;/a&gt; to learn how the Apple Silicon platform is reverse-engineered.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ontario&#39;s Computer Part 2: The LEXICON Server</title>
-      <link>http://localhost:1313/myblog/lexicon-computer/</link>
+      <link>https://jasoneckert.github.io/myblog/lexicon-computer/</link>
       <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/lexicon-computer/</guid>
+      <guid>https://jasoneckert.github.io/myblog/lexicon-computer/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;LEXICON.jpg#right&#34; alt=&#34;LEXICON&#34; title=&#34;LEXICON&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As I described in &lt;a href=&#34;../../myblog/icon-computer/&#34; title=&#34;Ontario&#39;s Computer: The Burroughs ICON&#34;&gt;my previous blog post&lt;/a&gt;, the Burroughs ICON was a very cool UNIX-like computer developed by the Ontario governement for use within schools during the 1980s and early 1990s.&lt;/p&gt;&#xA;&lt;p&gt;But because ICON computers were all diskless workstations, they were completely useless without a network and LEXICON file server. After all, the QNX operating system and programs that ran memory-resident on each ICON had to first be downloaded from the LEXICON across an ARCNET network. Moreover, when users logged into QNX on their ICON, they were actually logging in as a user account on the LEXICON and accessing the files within their home directory on the LEXICON&amp;rsquo;s hard drive. When users printed documents, they printed to the shared printer connected to the LEXICON.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ontario&#39;s Computer: The Burroughs ICON</title>
-      <link>http://localhost:1313/myblog/icon-computer/</link>
+      <link>https://jasoneckert.github.io/myblog/icon-computer/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/icon-computer/</guid>
+      <guid>https://jasoneckert.github.io/myblog/icon-computer/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ICON_logos.jpg#center&#34; alt=&#34;ICON logo&#34; title=&#34;ICON logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nicknamed the &lt;em&gt;&lt;strong&gt;bionic beaver&lt;/strong&gt;&lt;/em&gt;, the ICON was a Canadian computer funded by the Ontario government and used in schools province wide. It was designed by CEMCorp (Canadian Educational Microprocessor Corporation) and manufactured by Burroughs (later renamed to Unisys). Moreover, it ran the QNX UNIX-like operating system, which was also developed in Canada by two University of Waterloo students.&#xA;&lt;img src=&#34;ICON.jpg#right&#34; alt=&#34;ICON&#34; title=&#34;ICON&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you took a computer programming course in high school during the 1980s or early 1990s, you likely remember learning C, BASIC or Pascal on the ICON, as well as many UNIX commands that would pay off later in college or university. If you didn&amp;rsquo;t, you probably remember the ICON as a cool looking steel monstrosity that had an indestructible keyboard and trackball (that everyone tried to spin as fast as they could).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuring the i3 Window Manager</title>
-      <link>http://localhost:1313/myblog/configuring-i3/</link>
+      <link>https://jasoneckert.github.io/myblog/configuring-i3/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/configuring-i3/</guid>
+      <guid>https://jasoneckert.github.io/myblog/configuring-i3/</guid>
       <description>&lt;h1 id=&#34;why-use-the-i3-window-manager&#34;&gt;Why use the i3 window manager&lt;/h1&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re a Linux user, you&amp;rsquo;re probably using a desktop environment that looks like Windows (e.g. KDE Plasma) or macOS (e.g. GNOME). But these desktop environments use a great deal of resources and are cumbersome when it comes to flexibility and navigation between applications and code. To solve these problems, most software developers and Linux/UNIX administrators install and use a tiling window manager.&lt;/p&gt;&#xA;&lt;p&gt;While there are many different tiling window managers available, i3 is the most common one. It is easy to configure, and has great documentation available at &lt;a href=&#34;https://i3wm.org/docs/userguide.html&#34;&gt;https://i3wm.org/docs/userguide.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Brewing the Best Coffee</title>
-      <link>http://localhost:1313/myblog/coffee/</link>
+      <link>https://jasoneckert.github.io/myblog/coffee/</link>
       <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/coffee/</guid>
+      <guid>https://jasoneckert.github.io/myblog/coffee/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;coffee_code_magic.jpg#right&#34; alt=&#34;Coffee and software&#34; title=&#34;Coffee and software&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s no secret that coffee is one of the most important factors in the development of any technology, including software. In this post, I&amp;rsquo;ll outline how you can create the perfect cup of coffee to enhance your love of the bean as well as boost software development productivity.&lt;/p&gt;&#xA;&lt;p&gt;Over the years, I&amp;rsquo;ve needlessly spent thousands of dollars on expensive coffee-making equipment, including fancy coffee grinders and expresso machines.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2021 in Review</title>
-      <link>http://localhost:1313/myblog/2021-in-review/</link>
+      <link>https://jasoneckert.github.io/myblog/2021-in-review/</link>
       <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/2021-in-review/</guid>
+      <guid>https://jasoneckert.github.io/myblog/2021-in-review/</guid>
       <description>&lt;p&gt;While 2020 introduced a slew of changes to everyone&amp;rsquo;s personal and professional lives, these changes were considerably less pronounced for those of us working in tech fields. After all, most software engineering and server/cloud configuration was already performed remotely before the pandemic using long-standing processes/tools. Adapting to online tech teaching in the college was a welcome challenge, and also more relevant for the industry.&lt;/p&gt;&#xA;&lt;p&gt;As 2020 was ending, we all knew that 2021 would bring vaccine rollouts but not a complete return to normalcy. I was very interested to see how the pandemic shakeup would transform the workplace and our use of technology in 2021, but also knew that 2021 would be more like season 2 of 2020. Consequently, I decided to make the most out of the more delightful aspects of 2020, including work-from-home, online tech conferences, and local outdoor activities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Quickstart</title>
-      <link>http://localhost:1313/myblog/kubernetes-quickstart/</link>
+      <link>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/kubernetes-quickstart/</guid>
+      <guid>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</guid>
       <description>&lt;p&gt;Over the past two decades, we&amp;rsquo;ve shifted from running servers bare metal to running them almost exclusively within virtual machines (VMs). More recently we&amp;rsquo;ve seen another shift to running servers within containers. Like VMs, containers are servers that contain a unique filesystem, IP stack and software. But unlike VMs, containers do not contain a full operating system or operating system kernel. Instead they rely on an underlying operating system that runs the container using a &lt;em&gt;&lt;strong&gt;container runtime&lt;/strong&gt;&lt;/em&gt;, such as Docker. Consequently, containers are much smaller than VMs and ideal for running software within cloud environments where resource utilization must be kept to a minimum to control costs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installing a fast Linux server on an M1-based Mac</title>
-      <link>http://localhost:1313/myblog/installing-linux-server-on-mac-m1/</link>
+      <link>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/installing-linux-server-on-mac-m1/</guid>
+      <guid>https://jasoneckert.github.io/myblog/installing-linux-server-on-mac-m1/</guid>
       <description>&lt;p&gt;One of the biggest worries that IT users have regarding Apple&amp;rsquo;s new ARM-based M1 platform is the ability to run &lt;em&gt;&lt;strong&gt;virtual machines (VMs)&lt;/strong&gt;&lt;/em&gt; of other operating systems using hypervisor software. And while it&amp;rsquo;s possible to run virtual machines of both Windows and Linux operating systems made for the Intel platform on the M1, the performance cost of translating Intel instructions to ARM is high (even with the optimizations Apple has within their M1 CPU). Luckily, the most common VM that an IT systems administrator or developer will install is Linux, and ARM versions of Linux have been mainstream for well over a decade now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An overview of cloud buzz words</title>
-      <link>http://localhost:1313/myblog/cloud-buzz-words/</link>
+      <link>https://jasoneckert.github.io/myblog/cloud-buzz-words/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/cloud-buzz-words/</guid>
+      <guid>https://jasoneckert.github.io/myblog/cloud-buzz-words/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;dilbert.jpg#center&#34; alt=&#34;Dilbert comic&#34; title=&#34;Dilbert comic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As this Dilbert comic eloquently illustrates, there&amp;rsquo;s no shortage of cloud buzz words thrown around today. But as strange and complex as they may sound (even to seasoned developers and system administrators), they are not difficult to understand. In this blog post, I&amp;rsquo;ll walk through the different components and features of the cloud, explaining the associated buzz words along the way.&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-the-cloud&#34;&gt;What is the cloud?&lt;/h1&gt;&#xA;&lt;p&gt;Back in the early 1990s, when the US government sold off parts of their ARPAnet and NSFnet to private companies (later called Internet Service Providers, or ISPs) to create the public Internet, there wasn&amp;rsquo;t anything exciting about the Internet at all. After all, the Internet was just a physical computer network that allowed your computer to talk to other computers, usually through a telephone network via a modem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Copyleft is dying</title>
-      <link>http://localhost:1313/myblog/copyleft-is-dying/</link>
+      <link>https://jasoneckert.github.io/myblog/copyleft-is-dying/</link>
       <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/copyleft-is-dying/</guid>
+      <guid>https://jasoneckert.github.io/myblog/copyleft-is-dying/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;copyleft.jpg#right&#34; alt=&#34;Copyleft&#34; title=&#34;Copyleft&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Software licensing is the catalyst that drives the modern tech industry. This is because reusable software code released under an &lt;em&gt;&lt;strong&gt;open source&lt;/strong&gt;&lt;/em&gt; license (permitting its reuse) is the norm for nearly all software development today. After all, if we couldn&amp;rsquo;t reuse existing code in new software projects, it would take far longer to bring technologies to market, and the overall software industry wouldn&amp;rsquo;t be able to evolve as quickly. Moreover, there are two major types of open source licenses.&lt;/p&gt;</description>
     </item>
     <item>
       <title>It&#39;s a great time to be a developer</title>
-      <link>http://localhost:1313/myblog/it-is-a-great-time-to-be-a-developer/</link>
+      <link>https://jasoneckert.github.io/myblog/it-is-a-great-time-to-be-a-developer/</link>
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/it-is-a-great-time-to-be-a-developer/</guid>
+      <guid>https://jasoneckert.github.io/myblog/it-is-a-great-time-to-be-a-developer/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;developer.jpg#right&#34; alt=&#34;Developer&#34; title=&#34;Developer&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been a developer for over 3 decades. I remember &lt;code&gt;prompt&lt;/code&gt; statements in dBASE III, M68k Assembly and those awful Borland tools. Documentation was provided in large printed binders and often left a lot to the imagination.&lt;/p&gt;&#xA;&lt;p&gt;Things got better in the late 1990s and early 2000s, but it wasn&amp;rsquo;t until the late 2000s when things really started to heat up. Sun Microsystem&amp;rsquo;s early 1990s slogan &amp;ldquo;The network is the computer&amp;rdquo; became a reality with the rise of cloud computing, object storage and slick frontend/backend stacks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>UNIX/Linux is now a core skill for anyone working in tech</title>
-      <link>http://localhost:1313/myblog/linux-is-now-a-core-skill/</link>
+      <link>https://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/linux-is-now-a-core-skill/</guid>
+      <guid>https://jasoneckert.github.io/myblog/linux-is-now-a-core-skill/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;techworker.png#center&#34; alt=&#34;Tech Worker&#34; title=&#34;Tech Worker&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you had asked me in the 1990s whether most people in the tech world would be using a UNIX or Linux shell to manage their servers, I would have chuckled and said &amp;ldquo;No.&amp;rdquo; But two decades later we find ourselves in a world where 96% of the cloud is comprised of Linux servers running Web apps made with open source frameworks, and the majority of software development is done on UNIX (macOS) or Linux workstations. Nearly all network hardware, security appliances, smart appliances, cars, wearables and IoT devices also run UNIX or Linux, as do our smartphones and tablets. Want to secure your systems or network, or test your security using ethical hacking? You&amp;rsquo;ll need UNIX or Linux to do that as well.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Relating Silicon Valley to the Toronto-Waterloo Corridor</title>
-      <link>http://localhost:1313/myblog/silicon-valley-toronto-waterloo/</link>
+      <link>https://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</link>
       <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/silicon-valley-toronto-waterloo/</guid>
+      <guid>https://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;sv.jpeg#right&#34; alt=&#34;HBO&amp;rsquo;s Silicon Valley&#34; title=&#34;HBO&#39;s Silicon Valley&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Silicon Valley is an HBO comedy series that aired from 2014-2019. It follows a group of software engineers as they journey from creating their own apps in a home-based tech incubator in California&amp;rsquo;s Silicon Valley to creating a new decentralized Internet in their own venture capital-funded tech company.&lt;/p&gt;&#xA;&lt;p&gt;From the beginning, its creators (Mike Judge and Alec Berg) aimed to make the series an entertaining and accurate depiction of Silicon Valley tech culture, icons and events. And according to those with an intimate knowledge of Silicon Valley, they succeeded tremendously:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I love teaching online</title>
-      <link>http://localhost:1313/myblog/why-i-love-teaching-online/</link>
+      <link>https://jasoneckert.github.io/myblog/why-i-love-teaching-online/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/why-i-love-teaching-online/</guid>
+      <guid>https://jasoneckert.github.io/myblog/why-i-love-teaching-online/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;onlineteaching.jpg#center&#34; alt=&#34;OnlineTeaching&#34; title=&#34;OnlineTeaching&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When the pandemic hit earlier this year, schools around the globe quickly embraced online teaching to continue their curriculum. While online teaching wasn&amp;rsquo;t entirely new in this space, it certainly wasn&amp;rsquo;t the norm. This meant that many teachers had to adapt quickly, as these 2 funny videos illustrate:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CCe5PaeAeew&#34;&gt;https://www.youtube.com/watch?v=CCe5PaeAeew&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Zy_y9yOrgxk&#34;&gt;https://www.youtube.com/watch?v=Zy_y9yOrgxk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;However, I&amp;rsquo;ve loved every part of this transition because I absolutely love teaching tech courses online.&lt;/p&gt;&#xA;&lt;p&gt;Grant you, I&amp;rsquo;ve had some practice prior to 2020, as well as a general interest in how the Web could be used for education. Back in the early 2000s, I designed and wrote all of the online Linux curriculum for Caldera (including the HTML and Perl scripts that hosted it). It was an early stab at online education that had as many faults as it did benefits, but I learned a great deal during the process. Years later, I got to refine what I learned during my online computer science courses at Nova Southeastern, as well as the Train-the-Trainer courses I taught for CompTIA. By this time, technology had caught up to the needs of education, and online education was quite mature with a set of common best practices and technologies that everyone implemented.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open does not always mean Open Source</title>
-      <link>http://localhost:1313/myblog/open-does-not-always-mean-open-source/</link>
+      <link>https://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/open-does-not-always-mean-open-source/</guid>
+      <guid>https://jasoneckert.github.io/myblog/open-does-not-always-mean-open-source/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;open.jpg#right&#34; alt=&#34;Open Source vs Open standards&#34; title=&#34;Open Source vs Open standards&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the technology world today, the term &lt;em&gt;&lt;strong&gt;Open&lt;/strong&gt;&lt;/em&gt; is most commonly associated with &lt;em&gt;&lt;strong&gt;Open Source&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Open Source refers to software released under a license that gives other software developers access to modify the original Source code that was used to create the software. This, in turn allows other software developers worldwide to quickly identify and fix bugs and security loopholes, as well as make feature improvements to the software. Consequently, Open Source software evolves more rapidly than other (&lt;em&gt;&lt;strong&gt;Closed Source&lt;/strong&gt;&lt;/em&gt;) software, and is considered the gold standard for software today.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fundamental computer science concepts every software developer should know</title>
-      <link>http://localhost:1313/myblog/fundamental-comp-sci/</link>
+      <link>https://jasoneckert.github.io/myblog/fundamental-comp-sci/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/fundamental-comp-sci/</guid>
+      <guid>https://jasoneckert.github.io/myblog/fundamental-comp-sci/</guid>
       <description>&lt;p&gt;To be a software developer (a.k.a. programmer or software engineer) today, you don&amp;rsquo;t need a degree in computer science. In fact, computer science really isn&amp;rsquo;t about &amp;ldquo;how&amp;rdquo; you develop software today at all. It&amp;rsquo;s about how we approach software problems theoretically. And to be frank, you don&amp;rsquo;t need to worry about computer science theory to be a good software developer today. You just need to know how to solve problems using code, be good at using existing software frameworks, as well as know how to Google stuff and read programming language documentation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Customizing macOS for development</title>
-      <link>http://localhost:1313/myblog/customizing-macos-for-development/</link>
+      <link>https://jasoneckert.github.io/myblog/customizing-macos-for-development/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/customizing-macos-for-development/</guid>
+      <guid>https://jasoneckert.github.io/myblog/customizing-macos-for-development/</guid>
       <description>&lt;p&gt;So your boss gave you a Mac for development. Or maybe you bought a Mac to develop iOS apps. Or maybe you bought a MacBook because you need to develop software as well as look good at Starbucks (after the pandemic is over, of course).&lt;/p&gt;&#xA;&lt;p&gt;Unfortunately doing serious development using macOS is cumbersome at best. The Aqua desktop in macOS has few features or components geared towards developers. If you look over the shoulder of most Mac users, you’ll notice that their desktop looks like a very messy desk. The more you use macOS, the more you realize this messy desktop practice is caused by the design of Aqua and not the user. After all, Apple designed every aspect of Aqua to fit the needs of the most novice users, and not power users such as developers. Luckily, there are several things you can do to tweak your Mac into a fast developer workstation that boasts an interface with the productivity features you’re used to on Windows 10 and Linux desktops. In this blog post, I’ll share my general recommendations for turning macOS into a developer workstation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to learn vi (vim)</title>
-      <link>http://localhost:1313/myblog/how-to-learn-vi-vim/</link>
+      <link>https://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/how-to-learn-vi-vim/</guid>
+      <guid>https://jasoneckert.github.io/myblog/how-to-learn-vi-vim/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;vim.png#center&#34; alt=&#34;vim&#34; title=&#34;vim&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-so-what-is-vi-and-vim&#34;&gt;1. So, what is vi (and vim)?&lt;/h1&gt;&#xA;&lt;p&gt;One of the most important tools for any developer or sysadmin on UNIX and Linux systems is a text editor. Mastering a text editor allows you to quickly create and edit the source code for programs, scripts and configuration files (nearly all configuration on a UNIX/Linux system is stored as text).&lt;/p&gt;&#xA;&lt;p&gt;The vi editor has been one of the most common (if not THE most common) text editor on these systems since it was created in 1969 by Bill Joy. It was a visual extension to the 1969 ex line-based text editor used back when UNIX terminals looked like a printer with a keyboard, and you had to edit an existing text file using obscure commands (without seeing the actual file on your screen):&lt;/p&gt;</description>
     </item>
     <item>
       <title>The UNIX Philosophy in 2019</title>
-      <link>http://localhost:1313/myblog/the-unix-philosophy-in-2019/</link>
+      <link>https://jasoneckert.github.io/myblog/the-unix-philosophy-in-2019/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-unix-philosophy-in-2019/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-unix-philosophy-in-2019/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;unixpres.png#center&#34; alt=&#34;UNIX Presentation&#34; title=&#34;UNIX Presentation&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Earlier this week, I did a presentation for WWITPRO that detailed the UNIX philosophy and its relevance today. Given the subject matter, I decided to do the presentation in PostScript on my SPARCbook running Sun Solaris 2.5.1. This blog post details the content of the presentation for posterity!&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-unix&#34;&gt;What is UNIX?&lt;/h1&gt;&#xA;&lt;p&gt;Simply put, UNIX is an operating system that was created by Ken Thompson in 1969 that was rewritten shortly thereafter in Dennis Ritchie’s C programming language.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Power of Open Source Software</title>
-      <link>http://localhost:1313/myblog/the-power-of-open-source-software/</link>
+      <link>https://jasoneckert.github.io/myblog/the-power-of-open-source-software/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-power-of-open-source-software/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-power-of-open-source-software/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;rover.png#center&#34; alt=&#34;MARS Rover&#34; title=&#34;MARS Rover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Two decades ago, a piece of open source software I wrote for a Canadian HPC project caught the attention of someone working for NASA JPL, and after a few emails and a call regarding our experience applying it, a modified version of it was used in a small way to help the Mars Exploration Rover (MER) mission involving the rovers Spirit and Opportunity.&lt;/p&gt;&#xA;&lt;p&gt;With last week’s announcement that the MER mission is officially over, it&amp;rsquo;s nice to know that a piece of software I wrote helped, even if it was in a small way - it made me smile over coffee that morning, and it’s made me smile several times since then!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Three reasons why incubators breed failure</title>
-      <link>http://localhost:1313/myblog/three-reasons-why-incubators-breed-failure/</link>
+      <link>https://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/three-reasons-why-incubators-breed-failure/</guid>
+      <guid>https://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;incubator1.png#center&#34; alt=&#34;incubator1&#34; title=&#34;incubator1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;These past few years, I’ve provided various types of support for some tech incubators in the Kitchener-Waterloo region where I live (it’s a complex arrangement that I won’t go into within this post, but mostly involves helping people with technology implementation issues related to software).  It’s not hard to find tech incubators nowadays - they’ve become quite popular this past decade, and larger cities often have several incubators of various sizes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How the cloud grew up around Linux</title>
-      <link>http://localhost:1313/myblog/how-the-cloud-grew-up-around-linux/</link>
+      <link>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/how-the-cloud-grew-up-around-linux/</guid>
+      <guid>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cloudy.png#center&#34; alt=&#34;cloudy&#34; title=&#34;cloudy&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world.  Apache on Linux allowed anyone with a computer and Internet connection to implement a Web server to serve Web pages as part of the World Wide Web of Internet resources. In short, if there was no open source Web server or operating system freely available in the 1990s, the rise of the Internet would have been dramatically slower or even non-existent until the 2000s. The Internet and the World Wide Web grew up around open source and Linux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A simple guide to git</title>
-      <link>http://localhost:1313/myblog/a-simple-guide-to-git/</link>
+      <link>https://jasoneckert.github.io/myblog/a-simple-guide-to-git/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/a-simple-guide-to-git/</guid>
+      <guid>https://jasoneckert.github.io/myblog/a-simple-guide-to-git/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;git1.png#center&#34; alt=&#34;git1&#34; title=&#34;git1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Simply put, Git is a version control system that can be used to keep track of the changes that you make to files over time - it allows you to revert files to a previous state, or see who made changes to a file at different times if several people are working the those files collaboratively.&lt;/p&gt;&#xA;&lt;p&gt;Git was original developed back in 2005 by Linus Torvalds (the creator of Linux) to aid in making changes to the Linux kernel, but has since become the most common open source version control system used today. You can run Git on most platforms, including Windows, Linux and macOS. Although people primarily use it today for version controlling software projects, you can use it to provide version control for any files on your system.  In this blog post, I’ll use it to provide version control and central access for Linux shell scripts (something that is very useful for Linux administrators).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Devops Demystified</title>
-      <link>http://localhost:1313/myblog/devops-demystified/</link>
+      <link>https://jasoneckert.github.io/myblog/devops-demystified/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/devops-demystified/</guid>
+      <guid>https://jasoneckert.github.io/myblog/devops-demystified/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;devops1.png#center&#34; alt=&#34;Devops1&#34; title=&#34;Devops1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Last week, my friend Scott Elliott did a great guest presentation at the college where he talked about, amongst other things, devops. Moreover, I’ve been involved myself in the setup and configuration of two software development workflows (which technically makes me a devop); one was in 2017 for a tech startup in Kitchener, and the other one was earlier this year for a much larger project at the University of Waterloo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Great Canadian Appathon 4</title>
-      <link>http://localhost:1313/myblog/great-canadian-appathon-4/</link>
+      <link>https://jasoneckert.github.io/myblog/great-canadian-appathon-4/</link>
       <pubDate>Sun, 19 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/great-canadian-appathon-4/</guid>
+      <guid>https://jasoneckert.github.io/myblog/great-canadian-appathon-4/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;gca1.png#center&#34; alt=&#34;GCA1&#34; title=&#34;GCA1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today, we finished the fourth Great Canadian Appathon - a Canada-wide competition where students from 18 colleges and universities coast to coast compete to create a mobile video game in 48 hours for a chance to win over $35,000!  And we hosted a hub at our Kitchener campus again for the whole weekend.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;gca2.jpg#center&#34; alt=&#34;GCA2&#34; title=&#34;GCA2&#34;&gt;&#xA;&lt;img src=&#34;gca3.jpg#right&#34; alt=&#34;GCA3&#34; title=&#34;GCA3&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In short, this year&amp;rsquo;s GCA went incredibly well – everyone was pumped and loved the experience!  We had students from three different campuses attend the event (Kitchener, Hamilton and London), and all teams managed to complete some amazing games and submit them before the deadline.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GAME ON 2.0 wraps up!</title>
-      <link>http://localhost:1313/myblog/game-on-wraps-up/</link>
+      <link>https://jasoneckert.github.io/myblog/game-on-wraps-up/</link>
       <pubDate>Fri, 30 Aug 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/game-on-wraps-up/</guid>
+      <guid>https://jasoneckert.github.io/myblog/game-on-wraps-up/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;end0.png#center&#34; alt=&#34;theend0&#34; title=&#34;theend0&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;All good things must come to an end&amp;hellip;..and unfortunately this also applies to the Game On 2.0 exhibition at the Ontario Science Centre, which ran for the past 6 months (starting March 9th).  This Labour Day weekend is the final time that you can check it out as it closes Sept 2nd.&lt;/p&gt;&#xA;&lt;p&gt;Our college (triOS College) was the presenting sponsor for the exhibition, which, for me was incredible - not only because I run our video game program, created the information for our game development booth, gave numerous Ontario Science Centre talks on gaming topics, and helped organize various game-themed events - but because I’m an avid retro gamer who has many of the same arcade machines and vintage consoles showcased in Game On 2.0 in my own home!  For me, it was like merging my home and work lives. I could actually bring my personal passion and knowledge of retro gaming into my day job!  Not many people can say that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The evolution of Information Technology</title>
-      <link>http://localhost:1313/myblog/evolution-of-info-tech/</link>
+      <link>https://jasoneckert.github.io/myblog/evolution-of-info-tech/</link>
       <pubDate>Wed, 07 Aug 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/evolution-of-info-tech/</guid>
+      <guid>https://jasoneckert.github.io/myblog/evolution-of-info-tech/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;people.png#center&#34; alt=&#34;people&#34; title=&#34;people&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As a Dean for the technology faculties of a private college in Canada, I’m always looking to make our programs more aligned to the industry - my motto is: always look forward and never look back!&lt;/p&gt;&#xA;&lt;p&gt;However, when it comes to Information Technology (IT), I regularly find that the general perception of IT jobs is stuck in the past by at least a decade.  I can’t tell you how many times I’ve met people who think that IT guys are stuck in the back closet of some company doing some menial job, such as re-soldering chips on a computer motherboard much like working on the engine of an old car.  &lt;em&gt;{shiver}&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>GAME ON 2.0 and triOS College</title>
-      <link>http://localhost:1313/myblog/game-on-and-trios-college/</link>
+      <link>https://jasoneckert.github.io/myblog/game-on-and-trios-college/</link>
       <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/game-on-and-trios-college/</guid>
+      <guid>https://jasoneckert.github.io/myblog/game-on-and-trios-college/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;go1.png#center&#34; alt=&#34;GAMEON1&#34; title=&#34;GAMEON1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The best technologies are those that spark our imagination.  They create a sense of optimism about what “can” be accomplished in the future.&lt;/p&gt;&#xA;&lt;p&gt;Atari’s Pong was one of the first technologies to do this because it allowed us to interact with our televisions, instead of just watching them.  And we started thinking about the types of wonderful interactions that the future would bring to our televisions, video displays, and Holodecks (for the trekkies out there).  We defended the earth against Space Invaders, and we lived in the virtual world of Tron.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Driving educational change</title>
-      <link>http://localhost:1313/myblog/driving-educational-change/</link>
+      <link>https://jasoneckert.github.io/myblog/driving-educational-change/</link>
       <pubDate>Sun, 02 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/driving-educational-change/</guid>
+      <guid>https://jasoneckert.github.io/myblog/driving-educational-change/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;chalkboard.png#right&#34; alt=&#34;chalkboard&#34; title=&#34;chalkboard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the past, education was assessment based - you sat a class, wrote down notes, memorized those notes, and wrote a test based on those notes.  The focus was on following this generic structure, and not necessarily on understanding the material or building knowledge in additional areas.&lt;/p&gt;&#xA;&lt;p&gt;Of course, some kids would understand many of these topics in good depth and be able to relate them to other topics easily - they were labelled the “smart” kids by their peers.  I was labelled as one of the “smart” kids back when I was in school, but I also did a great deal of extra research and exploration on topics I wanted to learn more about.  The rest of my class just followed the structure as best they could, which was perfectly acceptable by school standards at the time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The best keynote presentation of all time!</title>
-      <link>http://localhost:1313/myblog/the-best-keynote-of-all-time/</link>
+      <link>https://jasoneckert.github.io/myblog/the-best-keynote-of-all-time/</link>
       <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-best-keynote-of-all-time/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-best-keynote-of-all-time/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;dig.png#center&#34; alt=&#34;DIG&#34; title=&#34;DIG&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today I attended the annual DIG conference.  DIG stands for Digital, Interactive &amp;amp; Gaming, and is essentially a large conference in London, Ontario that brings together the interactive, game, and digital media companies for both networking and educational/informative sessions.&lt;/p&gt;&#xA;&lt;p&gt;Although this year’s DIG conference was a bit smaller than last year, there were more industry professionals present, and far more meaningful conversation! Instead of the regular “hello&amp;hellip;.what do you do&amp;hellip;.let’s exchange business cards” stuff that normally goes on at these conferences, I got plenty of time to actually have in-depth discussions with dozens of different app and game developers on what was working for them, what challenges they’ve had, as well as their views on the industry and the future. I’ve never enjoyed a conference more.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mocap in action</title>
-      <link>http://localhost:1313/myblog/mocap-in-action/</link>
+      <link>https://jasoneckert.github.io/myblog/mocap-in-action/</link>
       <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/mocap-in-action/</guid>
+      <guid>https://jasoneckert.github.io/myblog/mocap-in-action/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;mocap1.png#center&#34; alt=&#34;mocap1&#34; title=&#34;mocap1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ve always been a big fan of Ubisoft games - I remember when Splinter Cell was released for the Xbox - I spent every waking minute of my spare time playing it.  I loved the graphics, shading, storyline, stealth gameplay (quite frustrating at times) - everything.   In fact, I love the whole Splinter Cell series.  Best yet, this series is developed almost entirely at the Ubisoft Toronto studio right now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A successful hackathon at our Kitchener campus!</title>
-      <link>http://localhost:1313/myblog/a-successful-hackathon-at-our-kitchener-campus/</link>
+      <link>https://jasoneckert.github.io/myblog/a-successful-hackathon-at-our-kitchener-campus/</link>
       <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/a-successful-hackathon-at-our-kitchener-campus/</guid>
+      <guid>https://jasoneckert.github.io/myblog/a-successful-hackathon-at-our-kitchener-campus/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;hack1.png#center&#34; alt=&#34;Hackathon1&#34; title=&#34;Hackathon1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In August, I worked with our Microsoft Student Partner (MSP) at the Kitchener campus (Mickey) to organize a 3-day Hackathon for creating Windows 8 Metro apps and games using HTML5/Javascript (technically it’s not called Metro anymore). It just took place this past weekend (Sept 7th - 9th), and was a huge undertaking for Mickey and I, but in the end it turned out amazingly well!&lt;/p&gt;&#xA;&lt;p&gt;The college was very good at coordinating the event (somewhat last minute because of a staff change), and Microsoft was incredibly generous - they provided a ton of food (Tim Hortons breakfast each day, and a big lunch each day), t-shirts, giveaways, prizes (Microsoft ArcTouch mice for the winners, and a Windows Phone for the GoDevMental draw).&lt;/p&gt;</description>
     </item>
     <item>
       <title>1. What do I do?</title>
-      <link>http://localhost:1313/bio/what-do-i-do/</link>
+      <link>https://jasoneckert.github.io/bio/what-do-i-do/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bio/what-do-i-do/</guid>
+      <guid>https://jasoneckert.github.io/bio/what-do-i-do/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;headshot.jpg#right&#34; alt=&#34;summit&#34; title=&#34;summit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Besides drinking vast quantities of caffeine and spending most of my free time enjoying the outdoors, I have taught, developed, and managed various technology courses at triOS College in Ontario (Canada) since 1998 in both our college and corporate training divisions.&lt;/p&gt;&#xA;&lt;p&gt;Back in 2011, I took on a different title of Dean of Technology to salvage our video game programs, and it turned into a more strategic role where I was able to help shape the development of our Information Technology (IT), developer, and video game programs. It also allowed me to build some exciting opportunities for our students, run over a dozen sponsored game jams and hackathons, communicate program information to others in the college, as well as meet with vendors, employers, internship hosts, and other colleges. My goal was to &amp;ldquo;walk the talk&amp;rdquo; in every facet of technology education, and I definitely achieved that early on.&lt;/p&gt;</description>
     </item>
     <item>
       <title>5. Tech T-Shirt Slogans</title>
-      <link>http://localhost:1313/info/techshirts/</link>
+      <link>https://jasoneckert.github.io/info/techshirts/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/info/techshirts/</guid>
+      <guid>https://jasoneckert.github.io/info/techshirts/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;shirt2.png&#34; alt=&#34;shirt pic&#34; title=&#34;shirt pic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t Anthropomorphize computers. They hate that.&lt;/p&gt;&#xA;&lt;p&gt;The proper way to declare war in software development is &lt;code&gt;var war;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;I void warranties&lt;/p&gt;&#xA;&lt;p&gt;I read your email&lt;/p&gt;&#xA;&lt;p&gt;Linux isn&amp;rsquo;t magic. It&amp;rsquo;s sudo-science.&lt;/p&gt;&#xA;&lt;p&gt;Kids: Don&amp;rsquo;t try this at ~&lt;/p&gt;&#xA;&lt;p&gt;Code poet&lt;/p&gt;&#xA;&lt;p&gt;Byte Me&lt;/p&gt;&#xA;&lt;p&gt;I see dead pixels&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;cd /pub; more beer&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;No, I will not fix your computer&lt;/p&gt;&#xA;&lt;p&gt;There is no place like 127.0.0.1&lt;/p&gt;&#xA;&lt;p&gt;There is no place like ::1&lt;/p&gt;&#xA;&lt;p&gt;Bow before me for I am root&lt;/p&gt;</description>
     </item>
     <item>
       <title>6. Tech Humour and Puns</title>
-      <link>http://localhost:1313/info/techhumour/</link>
+      <link>https://jasoneckert.github.io/info/techhumour/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/info/techhumour/</guid>
+      <guid>https://jasoneckert.github.io/info/techhumour/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;shaqbill.jpg#center&#34; alt=&#34;joke&#34; title=&#34;joke&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I feel someone needs to start a house-call backup business where someone could pull up to your home (or business) in a car that has a big NAS box in the back, and then perform off-site backups across Ethernet for a fee. They could call it NASCAR.&lt;/p&gt;&#xA;&lt;p&gt;If I was Voldemort I would have hidden a horcrux in HP&amp;rsquo;s documentation.&lt;/p&gt;&#xA;&lt;p&gt;NFTs make excellent gifts. After all, they&amp;rsquo;re GIF certificates.&lt;/p&gt;</description>
     </item>
     <item>
       <title>7. Three Unconventional Tips for Career Success</title>
-      <link>http://localhost:1313/info/gradspeech/</link>
+      <link>https://jasoneckert.github.io/info/gradspeech/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/info/gradspeech/</guid>
+      <guid>https://jasoneckert.github.io/info/gradspeech/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;success.png#center&#34; alt=&#34;career success&#34; title=&#34;career success&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-dont-turn-down-an-opportunity-because-it-isnt-the-job-you-want&#34;&gt;1. Don&amp;rsquo;t turn down an opportunity because it isn&amp;rsquo;t the job you want&lt;/h1&gt;&#xA;&lt;p&gt;Career progression is never a straight line, and good opportunities don&amp;rsquo;t actually have the words &lt;em&gt;&lt;strong&gt;good opportunity&lt;/strong&gt;&lt;/em&gt; written in bold letters on them &amp;ndash; you never know where they will lead you.&lt;/p&gt;&#xA;&lt;p&gt;For example, back around the year 2000 I was asked to teach a corporate Linux course on the weekends. I didn&amp;rsquo;t want to give up my weekends for a month, and quite frankly I thought it would be a boring waste of my abilities and time. But I did it anyways, and one of the amazing students in my class worked for Compaq and introduced me to SHARCnet.&lt;/p&gt;</description>
     </item>
   </channel>

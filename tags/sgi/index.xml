@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SGI on Jason Eckert&#39;s Website and Blog</title>
-    <link>http://localhost:1313/tags/sgi/</link>
+    <link>https://jasoneckert.github.io/tags/sgi/</link>
     <description>Recent content in SGI on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sgi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jasoneckert.github.io/tags/sgi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RISCy business: The long and convoluted rise of today&#39;s dominant computing platform</title>
-      <link>http://localhost:1313/myblog/riscy-business/</link>
+      <link>https://jasoneckert.github.io/myblog/riscy-business/</link>
       <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/riscy-business/</guid>
+      <guid>https://jasoneckert.github.io/myblog/riscy-business/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;RISC.png#center&#34; alt=&#34;RISC timeline&#34; title=&#34;RISC timeline&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;risc-vs-cisc&#34;&gt;RISC vs CISC&lt;/h1&gt;&#xA;&lt;p&gt;Traditionally, most computing platforms were built with the burden of software in mind. To ensure that a software program could be written easily and with fewer instructions, additional circuitry was added to the central processing unit (CPU) to compensate. This was referred to as complex instruction set computing (CISC). CISC architecture is still common today thanks to the x86 architecture used by Intel and AMD CPUs in most workstations and servers. Unfortunately, the added circuitry within CISC CPUs equated to added cost and complexity - both of which made it more expensive to evolve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Impressed by a 10 year old desktop computer</title>
-      <link>http://localhost:1313/myblog/impressed-by-a-10-year-old-desktop/</link>
+      <link>https://jasoneckert.github.io/myblog/impressed-by-a-10-year-old-desktop/</link>
       <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/impressed-by-a-10-year-old-desktop/</guid>
+      <guid>https://jasoneckert.github.io/myblog/impressed-by-a-10-year-old-desktop/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;fuel1.png#center&#34; alt=&#34;SGI Fuel 1&#34; title=&#34;SGI Fuel 1&#34;&gt;&#xA;&lt;img src=&#34;fuel2.jpg#right&#34; alt=&#34;SGI Fuel 2&#34; title=&#34;SGI Fuel 2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Long story short, I scored a free SGI Fuel computer along with the SGI Origin 300 computer I described two posts ago.&lt;/p&gt;&#xA;&lt;p&gt;But the SGI Fuel is a much more “usable” computer because it is a powerful single-processor graphical desktop computer (what Silicon Graphics was best known for).&lt;/p&gt;&#xA;&lt;p&gt;Here is what it comes with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;4GB RAM&lt;/li&gt;&#xA;&lt;li&gt;600MHz R14000A MIPS CPU (64-bit)&lt;/li&gt;&#xA;&lt;li&gt;Two SCSI hard disks&lt;/li&gt;&#xA;&lt;li&gt;DVD writer&lt;/li&gt;&#xA;&lt;li&gt;Odyssey video card (DVI) that takes up the entire bottom of the cabinet&lt;/li&gt;&#xA;&lt;li&gt;IRIX 6.5 UNIX&lt;/li&gt;&#xA;&lt;li&gt;Street cred among UNIX nerds&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To the right is a picture of the case.It’s far larger and heavier than a standard desktop PC case. And no, it’s not pink&amp;hellip;&amp;hellip;it’s fuchsia ;-)&lt;/p&gt;</description>
     </item>
     <item>
       <title>The death of SGI</title>
-      <link>http://localhost:1313/myblog/the-death-of-sgi/</link>
+      <link>https://jasoneckert.github.io/myblog/the-death-of-sgi/</link>
       <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/the-death-of-sgi/</guid>
+      <guid>https://jasoneckert.github.io/myblog/the-death-of-sgi/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;sgicomic.jpg#right&#34; alt=&#34;SGI comic&#34; title=&#34;SGI comic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today is definitely a sad day - SGI announced their bankruptcy.&lt;/p&gt;&#xA;&lt;p&gt;SGI was once a great company - in the 1990s, they made the best computers ever, such as the Indigo2, O2, and Octane. The cases and designs looked awesome, and they had amazingly fast 64-bit MIPS RISC CPUs and stellar video cards! Plus, they made an excellent graphical UNIX operating system: IRIX.&lt;/p&gt;&#xA;&lt;p&gt;Although I am a Mac OS X UNIX user now, IRIX will always be my favourite UNIX. The comic shown here from UserFriendly.org captures it perfectly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2. Retro Computers</title>
-      <link>http://localhost:1313/info/retrocomputers/</link>
+      <link>https://jasoneckert.github.io/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/info/retrocomputers/</guid>
+      <guid>https://jasoneckert.github.io/info/retrocomputers/</guid>
       <description>&lt;h1 id=&#34;apple&#34;&gt;Apple&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;appleiic.jpg#right&#34; alt=&#34;Apple IIc&#34; title=&#34;Apple IIc&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions). The Apple II was very well built and had tons of expansion ports. It inspired thousands of people to enter the computer world. Thousands of programs were made for it, and it made its way into nearly every industry in a short period of time. The famous spreadsheet, Visicalc, made the Apple II a great business tool, its ease of use made it extremely popular in the school system (every school I went to had them, even in the 1990s), and its BASIC interpreter and easy expandability made it famous with hackers, engineers and scientists (the first demonstration of public key cryptography was hacked together by a few mathematicians on an Apple II).&lt;/p&gt;</description>
     </item>
   </channel>
