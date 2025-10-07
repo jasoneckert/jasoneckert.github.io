@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>Jason Eckert&#39;s Website and Blog</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="My personal website and blog" />
+  <meta name="author" content="Jason Eckert" />
+  <meta name="generator" content="Jason Eckert Hugo 0.148.1" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overlock|Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/mero.css" />
+
+  <script src="/js/mero.js"></script>
+</head>
+
+  <body class="bg-dark text-white m-auto" style="width:95%; max-width: 1024px;">
+    <div class="wrapper">
+      <nav class="mb-3 mt-3 ml-1">
+  <div class="d-flex flex-row">
+    <div
+      class="menu-item border border-warning bg-dark p-2"
+      style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;"
+    >
+      <a href="/"><span>Home</span> </a>
+    </div>
+    <div class="menu-item dropdown border border-warning bg-dark p-2">
+      <span class="dropbtn text-warning" onclick="toggleMenu(this)"
+        >Sections <i class="fas fa-angle-down"></i
+      ></span>
+      <div
+        class="dropdown-content p-2 bg-dark2 mt-2 rounded w-auto mt-1 d-none"
+        style="min-width: 200px;"
+      >
+        <ul class="list-unstyled">
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://localhost:1313/myblog/">Blog Posts</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://localhost:1313/bio/">About Me</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://localhost:1313/site/">My Policy on AI</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://localhost:1313/reads/">Recommended Reads</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://localhost:1313/trails/">Recommended Trails</a>
+          </li>
+          
+          
+          
+          
+          <li class="pt-2">
+            <a href="http://localhost:1313/info/">Tech Stuff</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2">
+      <a
+        href="/alltaxa/"
+        ><span>Search</span>
+      </a>
+    </div>
+    <div class="menu-item border border-warning bg-dark p-2"
+    style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+      <a
+        href="/archive/"
+        ><span>Archive</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <main>
+        
+<article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
+  <div class="header">
+    <h1 style="font-size: 2.5em;">
+      Introduction to Hugo
+    </h1>
+    <div
+    class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
+    style="position: absolute; top: -19px; font-size: 0.9em;"
+  >
+    <time>2025-10-06</time>    
+    <span
+      class="more"
+      style="font-size: 1.5em;"
+      title="Show Metadata"
+      onclick="showMetadata(this)"
+    >
+      &#43;
+    </span>
+  </div><div class="m-2 metadata overflow-hidden" style="max-height: 0px;">
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
+    <div>
+      Reading Time: 
+9 mins
+      
+    </div>
+    <div>
+      Section:
+      <a
+        class="pl-1 pr-1 rounded border border-secondary"
+        href="/myblog"
+        title="Section"
+      >Blog Posts</a>
+    </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-categories">
+    Categories:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/categories/blog"
+      title="categories"
+    >blog</a>
+    
+  </div>
+  
+  
+  
+  <div class="metadata-value mb-1 taxa taxa-container-div list-tags">
+    Tags:
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/tech"
+      title="tags"
+    >tech</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/computing"
+      title="tags"
+    >computing</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/it"
+      title="tags"
+    >IT</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/linux"
+      title="tags"
+    >Linux</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/windows"
+      title="tags"
+    >Windows</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/macos"
+      title="tags"
+    >macOS</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/internet"
+      title="tags"
+    >Internet</a>
+    
+    <a
+      class="pl-1 pr-1 rounded border border-secondary"
+      href="/tags/web"
+      title="tags"
+    >Web</a>
+    
+  </div>
+  
+  
+</div>
+</div>
+  <div class="article pb-3 pt-3 border-bottom border-top">
+    
+    <p><img src="hugo.png#center" alt="Hugo title" title="Hugo title"></p>
+<h1 id="what-is-hugo">What is Hugo?</h1>
+<p>Simply put, Hugo generates websites. More specifically, it generates static HTML, CSS, and JavaScript files from your content and themes. Your content is specified in Markdown and YAML/TOML text format and there are hundreds of design themes available at <a href="https://themes.gohugo.io">themes.gohugo.io</a>, most of which are freely available under the MIT License.</p>
+<h1 id="installing-hugo">Installing Hugo</h1>
+<p>You can install Hugo very easily via a terminal command on your operating system:</p>
+<ul>
+<li>Windows Terminal (Admin): <code>winget install Hugo.Hugo.Extended</code></li>
+<li>macOS Terminal: <code>brew install hugo</code></li>
+<li>Linux Terminal: <code>apt install hugo</code> (Debian-based), or <code>dnf install hugo</code> (Red Hat-based)</li>
+</ul>
+<h1 id="creating-a-personal-portfolio-site-using-hugo">Creating a Personal Portfolio Site Using Hugo</h1>
+<p>Working with Hugo is relatively easy using commands and a text editor &ndash; while the commands I use throughout this post are for Linux/macOS and the <code>vi</code> text editor, you can easily modify them for Windows (<code>dir</code> instead of <code>ls</code>) and any other text editor of your choice (e.g., <code>code</code> instead of <code>vi</code> for Visual Studio Code).</p>
+<h3 id="1-set-up-a-new-hugo-site">1. Set up a new Hugo site:</h3>
+<ul>
+<li><code>mkdir Hugo &amp;&amp; cd Hugo</code></li>
+<li><code>hugo new site mysite --format=&quot;yaml&quot;</code> (YAML is a cleaner text configuration format than the default of TOML)</li>
+<li><code>cd mysite</code></li>
+</ul>
+<h3 id="2-download-a-hugo-theme-to-the-mysitethemes-subfolder-well-use-the-hugo-profile-theme">2. Download a Hugo theme to the mysite/themes subfolder (we&rsquo;ll use the Hugo-Profile theme):</h3>
+<ul>
+<li><code>cd themes</code></li>
+<li><code>git clone https://github.com/gurusabarish/hugo-profile</code></li>
+<li><code>cd .. &amp;&amp; ls</code> and note the mysite directory structure
+<ul>
+<li>content &ndash; stores website content (e.g., blogs) in Markdown and is empty by default</li>
+<li>static &ndash; contains files that will be added to the website when it is generated)</li>
+<li>public &ndash; contains the generated website, including all HTML, CSS, and JavaScript files (not shown until you generate your website)</li>
+<li>Other folders are listed in <a href="https://gohugo.io/getting-started/directory-structure/">Hugo’s documentation</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="3-copy-the-example-site-content-from-the-theme-compile-the-website-and-run-it-in-a-local-hugo-web-server-that-listens-on-port-1313">3. Copy the example site content from the theme, compile the website and run it in a local Hugo web server that listens on port 1313:</h3>
+<ul>
+<li><code>cp -R themes/hugo-profile/exampleSite/content/* content</code></li>
+<li><code>cp -R themes/hugo-profile/exampleSite/static/* static</code></li>
+<li><code>cp themes/hugo-profile/exampleSite/hugo.yaml .</code></li>
+<li><code>hugo server –D</code>  (keep Terminal open)</li>
+</ul>
+<p>Now, open a web browser and navigate to <code>localhost:1313</code> to see your site (you can click the moon icon to switch to dark mode):</p>
+<p><img src="site.png#center" alt="Sample Hugo Site" title="Sample Hugo Site"></p>
+<p>Note that this is a very complex example &ndash; we would normally reduce features to create a portfolio site that suits our needs. If you drag your window size larger and smaller you&rsquo;ll see how the website changes – this is called <em><strong>responsive web design</strong></em> and is largely performed by CSS.</p>
+<p>To stop running the website, you can return to the shell running <code>hugo server –D</code> and press Ctrl+C, but it&rsquo;s better to keep it open while editing it –- when you change the content (Markdown, YAML/TOML), Hugo recompiles it and updates the web server so you can see your changes immediately.</p>
+<h3 id="4-modify-core-site-content">4. Modify core site content:</h3>
+<p>In a new shell, run <code>vi hugo.yaml</code> and peruse the content. Following are some changes you can start with as you&rsquo;re getting used to this Hugo template (make sure you view the results in your web browser after each edit):</p>
+<ul>
+<li>Change <code>title: &quot;Yourname Profile&quot;</code> (the title shown in the web browser tab)</li>
+<li>Comment out the entire <code>–identifier: gallery</code> paragraph (including its indented tags)</li>
+<li>Under <code>params:</code> change the <code>title</code> and <code>description</code></li>
+<li>Under <code>navbar:</code> change the <code>brandName</code> and disable the Experience, Education, and Achievements sections (change <code>false</code> to <code>true</code>) since these would instead be listed on your LinkedIn</li>
+<li>Under <code>hero:</code> and <code>about:</code>, change the text values to suit your needs (we’ll replace the images/icons later)</li>
+<li>The <code>experience:</code>, <code>education:</code>, and <code>achievements:</code> sections can be disabled (change <code>enable:true</code> to <code>enable:false</code>) if you disabled in the top menu earlier</li>
+<li>Under <code>contact:</code> update the text values to your contact information and message</li>
+<li>Under <code>footer:</code> note that the 3 most recent blog posts are shown from the blogs section (later), and then update your social media links to the actual profile URLs for each social media website, commenting any you don’t use</li>
+</ul>
+<h3 id="5-modify-graphics-and-style">5. Modify graphics and style:</h3>
+<p>Go to mysite/static and note the fav.png file and contents of the images subfolder:</p>
+<ul>
+<li>Fav.png is a <em><strong>Favicon</strong></em> (icon displayed next to your site name and in the browser tab)
+<ul>
+<li>Download another one from the Internet to replace it (or create your own up to 32x32 pixels) -– you can download Favicons from <a href="https://icons8.com">icons8.com</a> (choose favicon as the download format)</li>
+<li>Remove (or rename) fav.png, add your new fav.png file to the folder</li>
+<li>This fav.png file is referenced under the <code>params:</code> section of your hugo.yaml (look for the line!)</li>
+</ul>
+</li>
+<li>The main person picture on the site is mysite/static/images/hero.svg
+<ul>
+<li>SVG graphic files are common on websites, but you can choose any other format (e.g., jpg, png)</li>
+<li>Generate a profile pic for yourself (e.g., using AI) or use a real picture that is cropped square and add the file to the images folder</li>
+<li>Next, in the <code>hero:</code> section of hugo.yaml, update the line <code>image: /images/hero.svg</code> to instead point to your new filename (e.g., <code>image: /images/jason.jpg</code>)</li>
+</ul>
+</li>
+<li>Repeat this same process to replace the image in your About Me section
+<ul>
+<li>The default image is mysite/static/images/me.png &ndash; replace it with a different image or fun graphic from the web (or use a real pic here and a different image or fun graphic to replace hero.svg)</li>
+<li>Note the other pics here: mathjax.png, post.jpg, and achievement.jpg are used for the default blog posts, and the pics for each project are in the projects subfolder &ndash; if you wish to change these, ensure you also update the filename that references them in hugo.yaml or the associated blog post (discussed later)</li>
+</ul>
+</li>
+</ul>
+<p>This brings us to the importance of colour design. In general, start with key images that you like and work your portfolio around those colours (e.g., the colours on this site are taken from my main profile art). Check to make sure any graphics look good in light and dark mode (changing them if necessary) as well as choose clean fonts – the default ones in the Hugo-Profile theme are very common as they are clean and readable, but you can change their size and weight easily. Most visual design is under the <code>params:</code> section in hugo.yaml:</p>
+<p><img src="params.png#center" alt="Hugo visual parameters" title="Hugo visual parameters"></p>
+<p>You can disable animations or force a specific theme (light/dark), as well as adjust font size/weight/alignment, or override the default colours for the light and dark themes. Font sizes are in relative units of measurement (relative to the root font on the webpage) –- most browsers set the root font size to 16 pixels, so 1rem = 16 pixels. Colours are shown in hexadecimal (e.g., #343a40 is grey) &ndash; you can choose other colours visually and obtain their hexadecimal codes from <a href="https://htmlcolorcodes.com">htmlcolorcodes.com</a> or <a href="https://www.color-hex.com">www.color-hex.com</a>.</p>
+<p>While we updated the social media links at the bottom of the webpage earlier, we didn’t update the Resume and key social media links you&rsquo;ll want every viewer to see who visits your website. These links are near the top and called <em><strong>Call-to-Action (CTA)</strong></em> links because they stand out and encourage viewers to click on them. The CTA buttons are under the <code>hero:</code> section in hugo.yaml:</p>
+<p><img src="ctas.png#center" alt="Call-to-Action links" title="Call-to-Action links"></p>
+<p>If you add a resume.pdf file to mysite/static you can modify the <code>url: &quot;#&quot;</code> line to <code>url: &quot;/resume.pdf&quot;</code> to refer to it. Similarly, you can modify the icons from <a href="https://fontawesome.com">fontawesome.com</a> and add the associated links. But you don&rsquo;t need to read through that site &ndash; if you Google “fontawesome LinkedIn”, you&rsquo;ll quickly get the name of the LinkedIn fontawesome icon. In general, your resume, GitHub, and LinkedIn are the most important CTAs (fewer CTAs are better).</p>
+<h3 id="6-create-blog-posts">6. Create blog posts</h3>
+<p>Blog posts are written in Markdown and stored in .md files in the mysite/content/blogs directory. You can remove .md files to remove blog posts, or add new ones (e.g., by copying and editing an existing one and updating the title/date). The 5 sample blog posts tell you how to use different Hugo and Markdown features. If you&rsquo;re new to Markdown format, explore the blog post called markdown-syntax.md (comparing the contents to the actual composited blog post on your Hugo web server).</p>
+<p>I recommend copying the markdown-syntax.md file and renaming it to create new blog posts, deleting any elements within that you don&rsquo;t need. Here are some key tips:</p>
+<ul>
+<li>Blog posts can be short or long depending on purpose</li>
+<li>Longer blogs should have titles and subtitles with a larger font (e.g., <code>H1</code>/<code>#</code> is larger than <code>H2</code>/<code>##</code>)</li>
+<li>Include at least 1 pic (the <code>image:</code> at the top, which is stored in mysite/static/images)</li>
+<li>Hyperlinks use the syntax <code>[name](URL)</code> and URL can be local too (e.g., <code>[Resume](/resume.pdf)</code>)</li>
+<li>Use bullets for lists of key points or items</li>
+<li>If the date on your blog post is in the future, make sure you use <code>hugo server -DF</code> instead of <code>hugo server -D</code></li>
+<li>Always remember Picasso&rsquo;s advice:</li>
+</ul>
+<p><img src="picasso.jpg#center" alt="Picasso Quote" title="Picasso Quote"></p>
+<h1 id="hosting-your-website">Hosting your Website</h1>
+<p>Once you have a fully-functional portfolio website hosted locally with the built-in Hugo web server, we can copy it to a public web server. You could purchase a domain name and hosting from a hosting provider and upload the contents of the public folder to that provider, or use the free web hosting provided by GitHub (called <em><strong>GitHub Pages</strong></em>) like I do for my site and which I&rsquo;ll discuss here.</p>
+<p>First, create a free account on <a href="https://github.com">GitHub.com</a>. This will require a valid email account, as well as the setup of 2FA (use the Microsoft Authenticator app). You will also need to choose a GitHub username –- this username will be used for your personal website (githubusername.github.io)</p>
+<p>Next, update the <code>baseURL</code> on the first line of mysite/hugo.yaml to reflect the hosting location: <code>baseURL:&quot;https://githubusername.github.io/&quot;</code> (supply your GitHub username). Following this, you&rsquo;ll need to recomposite your website to the public folder with the new baseURL:</p>
+<ul>
+<li><code>cd mysite</code></li>
+<li><code>hugo</code> (or <code>hugo -F</code> if you have blog posts with a future date on them)</li>
+</ul>
+<p>Return to GitHub.com, create a new repository (<code>+</code> symbol), call it <code>githubusername.github.io</code>, choosing Public visibility and the option to initialize the repository with a README. In your repository, choose <em><strong>Settings</strong></em>, then select <em><strong>Pages</strong></em> from the left pane. Under Source, choose <em><strong>Deploy from a branch</strong></em> and ensure that the main branch is shown for the root (/).</p>
+<p>Now, click your repository name in the upper left to return to your repository and click <em><strong>Add file</strong></em> &gt; <em><strong>Upload files</strong></em>. Select all files in your mysite/public folder, drag them to the window, and click <em><strong>Commit changes</strong></em>. After a few moments, visit <code>https://githubusername.github.io</code> in your web browser to see your hosted site!</p>
+<p>Each time you publish a new blog post or make changes, you can repeat this process, or leverage a GitHub syncing app like GitHub Desktop to do the same. If you want to add a comments section to your blog using the built-in GitHub Discussions feature, read my <a href="../github-discussions-blog">earlier blog post</a>.</p>
+
+  </div>
+  <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
+  <div>
+    <a
+      href="/myblog/win10eol/"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Win10 Is Nearing End-of-Life: What Should You Do Next?"
+      ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
+    >
+  </div>
+</div>
+<script src="https://giscus.app/client.js"
+          data-repo="jasoneckert/jasoneckert.github.io"
+          data-repo-id="MDEwOlJlcG9zaXRvcnkyMzUyMTE1MTk="
+          data-category="Announcements"
+          data-category-id="DIC_kwDODgUK_84ChWDV"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="0"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="noborder_gray"
+          data-lang="en"
+          crossorigin="anonymous"
+          async>
+       </script>
+
+
+</article>
+<script>
+  let showMetadata = function(x) {
+    let elem = x.parentNode.nextElementSibling;
+    if (window.getComputedStyle(elem)["height"] === "0px") {
+      elem.style.maxHeight = elem.scrollHeight + "px";
+      x.innerHTML = "&times;";
+      x.title = "Hide Metadata";
+    } else {
+      elem.style.maxHeight = "0px";
+      x.innerHTML = "&#43;";
+      x.title = "Show Metadata";
+    }
+  };
+</script>
+
+
+      </main>
+    </div>
+    <footer>
+  <div class="w-60 bg-danger ml-auto mr-auto mt-4" style="height: 4px;"></div>
+  <div class="mt-0 mb-0" style="font-size: 1.7em;">
+    <p class="text-center">
+      WARNING: FULL FRONTAL NERDITY (tech-challenged persons strongly cautioned) 
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

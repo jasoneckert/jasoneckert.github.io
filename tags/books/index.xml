@@ -2,150 +2,150 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on Jason Eckert&#39;s Website and Blog</title>
-    <link>https://jasoneckert.github.io/tags/books/</link>
+    <link>http://localhost:1313/tags/books/</link>
     <description>Recent content in Books on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jasoneckert.github.io/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024 in Review</title>
-      <link>https://jasoneckert.github.io/myblog/2024-in-review/</link>
+      <link>http://localhost:1313/myblog/2024-in-review/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2024-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2024-in-review/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s important to pause and reflect every so often to stay grounded and focused. So, each December I look back on the year&amp;rsquo;s events and summarize them in a blog post. And after doing this again this year, I realize that 2024 was one of reflection, gratitude, and exploration.&lt;/p&gt;&#xA;&lt;p&gt;I was fortunate enough to go on some epic winter hiking adventures with my dog Pepper in January before she &lt;a href=&#34;../remembering-pepper/&#34;&gt;passed away in February&lt;/a&gt; at the age of 13. Losing a dog is the hardest thing because we form such strong bonds, but she was an amazing dog that had an awesome life and I&amp;rsquo;m grateful for all of it. I&amp;rsquo;m reminded of a pet memorial plaque I saw many years ago that said &amp;ldquo;&lt;em&gt;&lt;strong&gt;Don&amp;rsquo;t cry because it&amp;rsquo;s over. Smile because it happened.&lt;/strong&gt;&lt;/em&gt;&amp;rdquo; I spread her ashes in the areas she loved most: my back yard, the sports park behind my house, the public park at the end of my street, and in the stream under the bridge my daughter and I often took her to on the Mill Run trail.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2023 in Review</title>
-      <link>https://jasoneckert.github.io/myblog/2023-in-review/</link>
+      <link>http://localhost:1313/myblog/2023-in-review/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2023-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2023-in-review/</guid>
       <description>&lt;p&gt;For me, 2023 turned out to be a year of learning, growth, adventure, and gratitude. And since there&amp;rsquo;s plenty for me to talk about, I&amp;rsquo;ve divided my review into two sections: one that summarizes my professional pursuits, and one that summarizes everything else.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-professional-stuff&#34;&gt;The professional stuff:&lt;/h1&gt;&#xA;&lt;p&gt;On the college front, the new &lt;a href=&#34;https://www.trios.com/programs-courses/technology/&#34;&gt;technology programs&lt;/a&gt; I&amp;rsquo;ve been pushing since 2020 finally got to market! My favourite one is &lt;em&gt;&lt;strong&gt;Mobile Web Developer&lt;/strong&gt;&lt;/em&gt;, as it&amp;rsquo;s a radical departure from what we did previously. The whole program is taught exclusively on macOS, has two interlaced capstones, and is carefully crafted to allow students to build solid developer skills using modern industry tooling and processes with zero tests/quizzes (students instead perform weekly assignments). These weekly assignments allow instructors to assess and guide skills development for individual students throughout each course, as well as echo the sprint cadence used within industry that students must become accustomed to. We also have a new &lt;em&gt;&lt;strong&gt;IT Professional (Infrastructure, Cloud &amp;amp; Cybersecurity)&lt;/strong&gt;&lt;/em&gt; program that restructures and augments many of the topics in our previous IT Professional program to allow for expansion into the areas of cloud and cybersecurity (both of which are key industry focal points today).&lt;/p&gt;</description>
     </item>
     <item>
       <title>My first textbook is now in its sixth edition</title>
-      <link>https://jasoneckert.github.io/myblog/linux-sixth-edition/</link>
+      <link>http://localhost:1313/myblog/linux-sixth-edition/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/linux-sixth-edition/</guid>
+      <guid>http://localhost:1313/myblog/linux-sixth-edition/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;first-and-sixth.png#center&#34; alt=&#34;First and sixth edition of my Linux textbook&#34; title=&#34;First and sixth edition of my Linux textbook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While I&amp;rsquo;ve written &lt;a href=&#34;../../bio/my-published-books/&#34;&gt;many textbooks&lt;/a&gt; on different topics over the past two decades, my favourite subject area by far is Linux. After all, Linux has evolved to be one of the most foundational topics in tech education. Information Technology (IT) fields such as server/network administration, cloud administration, cybersecurity, and software development now require a solid grasp of the Linux operating system.&#xA;&lt;img src=&#34;sixthedition.jpg#right&#34; alt=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34; title=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I&#39;ve now been teaching tech for 25 years!</title>
-      <link>https://jasoneckert.github.io/myblog/25-years-teaching-tech/</link>
+      <link>http://localhost:1313/myblog/25-years-teaching-tech/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/25-years-teaching-tech/</guid>
+      <guid>http://localhost:1313/myblog/25-years-teaching-tech/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;bookshelf.jpg#right&#34; alt=&#34;Bookshelf&#34; title=&#34;Bookshelf&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This month marks the 25th anniversary of my teaching Information Technology (IT) courses for &lt;a href=&#34;https://trios.com&#34; title=&#34;triOS College&#34;&gt;triOS College&lt;/a&gt; in Ontario, Canada.&lt;/p&gt;&#xA;&lt;p&gt;Back in 1998 I was well on my way to becoming an academic bum that kept on taking university courses forever. But I had a wife and child and needed to think more responsibly. So, as my spring university semester was ending, I applied for an instructor job that my grandmother saw in a newspaper ad and thought I&amp;rsquo;d be perfect for. After an interview and demo teach, I got the job and started the following Monday&amp;hellip; April 20, 1998.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2022 in Review</title>
-      <link>https://jasoneckert.github.io/myblog/2022-in-review/</link>
+      <link>http://localhost:1313/myblog/2022-in-review/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2022-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2022-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;raybans.jpg#right&#34; alt=&#34;Ray Bans&#34; title=&#34;Ray Bans&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2022 was definitely an interesting year. COVID was given far less attention and we started living with it much like we live with the flu virus. Mask requirements were dropped, and many social events have resumed. Crazy COVID conspiracy theories and uproar are distant memories (at least for me).&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m still teaching IT classes remotely, which has resulted in better educational outcomes compared to the physical classroom. Working with operating systems and IT software within virtual machines on home PCs promotes tinkering and resourcefulness while allowing students to continue and expand upon class work at any time. Being able to revisit class videos afterwards is a huge bonus that everyone enjoys, as is the lack of commute-related stress. Since our IT programs include several CompTIA certifications, I decided to write a bunch of them this year, including the biggest one: CompTIA Advanced Security Practitioner (CASP+). I&amp;rsquo;m also planning on writing 5 more of them in the first half of 2023 because I have the exam vouchers from the CompTIA Instructor Network program.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2020 in review</title>
-      <link>https://jasoneckert.github.io/myblog/2020-in-review/</link>
+      <link>http://localhost:1313/myblog/2020-in-review/</link>
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2020-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2020-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;techworkers.jpg#right&#34; alt=&#34;Tech workers&#34; title=&#34;Tech workers&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I know what you&amp;rsquo;re thinking - 2020 sucked! Worst year ever! The COVID-19 pandemic, no social gatherings, no dine-in restaurants, no gyms, the US Trumpster fire, and most importantly to those of us in the tech world: Red Hat terminating CentOS development.&lt;/p&gt;&#xA;&lt;p&gt;Of course, most people will remember 2020 for the pandemic, and that&amp;rsquo;s completely understandable. None of us have experienced a pandemic in our lifetime, and both our society and economy were not prepared to deal with it gracefully. Many businesses folded or downsized, and the lack of social contact caused mental health issues for many people of all ages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to write an academic technical textbook</title>
-      <link>https://jasoneckert.github.io/myblog/how-to-write-an-academic-technical-textbook/</link>
+      <link>http://localhost:1313/myblog/how-to-write-an-academic-technical-textbook/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/how-to-write-an-academic-technical-textbook/</guid>
+      <guid>http://localhost:1313/myblog/how-to-write-an-academic-technical-textbook/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cover.jpg#right&#34; alt=&#34;Cengage cover&#34; title=&#34;Cengage cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you head over to &lt;a href=&#34;../../bio/my-published-books/&#34; title=&#34;My published books&#34;&gt;My published books&lt;/a&gt; page, you’ll see that I’ve written a large number of textbooks over the years for different publishers, as well as worked as a technical editor for many other titles.&lt;/p&gt;&#xA;&lt;p&gt;Just this past week, I mentioned to a coworker that I’ve finished submitting the AU1 of the final chapter for my latest textbook Hands-On Windows Server 2019, ISBN: 978-0-357-43615-8 (I&amp;rsquo;ve revised this blog post in June to include a pic of my first printed copy).&lt;/p&gt;</description>
     </item>
     <item>
       <title>2019 in review</title>
-      <link>https://jasoneckert.github.io/myblog/2019-in-review/</link>
+      <link>http://localhost:1313/myblog/2019-in-review/</link>
       <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2019-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2019-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;macandme.png#center&#34; alt=&#34;Mac and me&#34; title=&#34;Mac and me&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;award.jpg#left&#34; alt=&#34;CompTIA award&#34; title=&#34;CompTIA award&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This year was flat-out awesome! I can’t think of many years in the past decade that had the same amount of academic, physical, and personal fulfillment all in one year!&lt;/p&gt;&#xA;&lt;p&gt;On the academic side, I presented a 12-week Linux+ webinar series at night to IT instructors worldwide for the Computing Technology Industry Association (CompTIA)  Instructor Network.&lt;/p&gt;&#xA;&lt;p&gt;This, of course, fit well since I just finished writing the 5th edition of my Linux textbook for Cengage (Linux+ &amp;amp; LPIC Guide to Linux Certification).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rest in Peace, MAD Magazine</title>
-      <link>https://jasoneckert.github.io/myblog/rest-in-peace-mad-magazine/</link>
+      <link>http://localhost:1313/myblog/rest-in-peace-mad-magazine/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/rest-in-peace-mad-magazine/</guid>
+      <guid>http://localhost:1313/myblog/rest-in-peace-mad-magazine/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;mad1.png#center&#34; alt=&#34;MAD&#34; title=&#34;MAD&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This past week, MAD Magazine announced that, after 67 years, it would cease publication by the end of the year. Maybe it shouldn’t be surprising - print magazines have been going extinct for almost two decades already.  I honestly can’t remember the last time I bought a magazine of any kind.&lt;/p&gt;&#xA;&lt;p&gt;The Internet has killed print publication just like video killed the radio star.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;mad2.jpg#right&#34; alt=&#34;MAD&#34; title=&#34;MAD&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;But I’m sad for MAD. I have many fond memories of it growing up in the 1980s. Each summer growing up, my grandparents would take my sister and I up to a cottage in Dwight (which has the most amazing beach in Muskoka). And the first stop when we got there was the small mom and pop general store, so that we could pick up groceries and reading material to keep up occupied when we weren’t at the beach.  I always chose MAD Magazine (all of the different issues they had at the time).&lt;/p&gt;</description>
     </item>
     <item>
       <title>2018 in review</title>
-      <link>https://jasoneckert.github.io/myblog/2018-in-review/</link>
+      <link>http://localhost:1313/myblog/2018-in-review/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2018-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2018-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;petboard.jpg#center&#34; alt=&#34;PET board&#34; title=&#34;PET board&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;pic1.jpg#right&#34; alt=&#34;me&#34; title=&#34;me&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the end of each year, I take some time to reflect on the previous year - it provides perspective, and is a lot of fun!&lt;/p&gt;&#xA;&lt;p&gt;For me, 2018 was the year I spent a lot of time improving myself physically, challenging myself mentally, and most importantly, enjoying life!&lt;/p&gt;&#xA;&lt;p&gt;On the personal side, I cut out the bad foods from my diet:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;breads&lt;/li&gt;&#xA;&lt;li&gt;starches&lt;/li&gt;&#xA;&lt;li&gt;alcohol&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;On top of this, I upped my indoor and outdoor exercise to lose a whopping 85 pounds since mid 2017 - I feel great, have loads of energy, and no longer have any back pain whatsoever!&lt;/p&gt;</description>
     </item>
     <item>
       <title>2015 in review</title>
-      <link>https://jasoneckert.github.io/myblog/2015-in-review/</link>
+      <link>http://localhost:1313/myblog/2015-in-review/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2015-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2015-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;2015a.png#center&#34; alt=&#34;2015a&#34; title=&#34;2015a&#34;&gt;&#xA;&lt;img src=&#34;2015b.jpg#right&#34; alt=&#34;2015b&#34; title=&#34;2015b&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2015 was an interesting year, and one that I really enjoyed!&lt;/p&gt;&#xA;&lt;p&gt;I spent a lot of time getting/restoring/playing the last few arcade machines that I’ve wanted in my arcade collection - I just love the retro arcade hobby!  As a result, I won’t be getting or restoring any more in 2016 at all (I have a few arcades that I want to work on to upgrade, but that’s about it).  I’ll be spending most of my time playing them!&lt;/p&gt;</description>
     </item>
     <item>
       <title>2014 in review</title>
-      <link>https://jasoneckert.github.io/myblog/2014-in-review/</link>
+      <link>http://localhost:1313/myblog/2014-in-review/</link>
       <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2014-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2014-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;pepper.jpg#right&#34; alt=&#34;Pepper&#34; title=&#34;Pepper&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I think it’s always a good idea each year to reflect on the events that happened during the year - it’s a great way to remember some of the great things that have happened, as well as put some of the not-so-great things that have happened in perspective. If you regularly post to social media (e.g. Facebook or Twitter), looking back on your posts are a great way to revisit the major events that took place during the year. Better yet, by summarizing them in a blog post (as I’m doing here), you’ll preserve those events for posterity and make it easy to revisit them in distant years too!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Funny Internet Shakespeare typo</title>
-      <link>https://jasoneckert.github.io/myblog/funny-internet-shakespeare-typo/</link>
+      <link>http://localhost:1313/myblog/funny-internet-shakespeare-typo/</link>
       <pubDate>Wed, 17 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/funny-internet-shakespeare-typo/</guid>
+      <guid>http://localhost:1313/myblog/funny-internet-shakespeare-typo/</guid>
       <description>&lt;p&gt;I’m currently finishing the 3rd edition of my Guide To Linux Certification for Cengage.  In Chapter 7, I used the following text from Shakespeare in the section on the stream editor (sed):&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;    Two households, both alike in dignity,&#xA;    In fair Verona, where we lay our scene,&#xA;    From ancient grudge break to new mutiny,&#xA;    Where civil blood makes civil hands unclean.&#xA;    From forth the fatal loins of these two foes&#xA;    A pair of star-cross’d lovers take their life;&#xA;    Whole misadventured piteous overthrows&#xA;    Do with their death bury their parents’ strife.&#xA;    The fearful passage of their death-mark’d love,&#xA;    And the continuance of their parents’ rage,&#xA;    Which, but their children’s end, nought could remove,&#xA;    Is now the two hours’ traffic of our stage;&#xA;    The which if you with patient ears attend,&#xA;    What here shall miss, our toil shall strive to mend.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I originally grabbed that passage from the Internet (copy-and-paste is easier than typing), but the technical editor caught a typo (Whole misadventured piteous overthrows should be Whose misadventured piteous overthrows). I verified it on the Internet and just thought it was one of those weird Olde English things, but the copyeditor verified it as a typo (she has an English degree) and also found out that it was a simple transcription typo (Whose &amp;ndash;&amp;gt; Whole) that managed to spread quickly across the Internet because most people prefer to copy-and-paste Shakespeare rather than type it out manually!  Hilarious.&lt;/p&gt;</description>
     </item>
     <item>
       <title>eBook pilot</title>
-      <link>https://jasoneckert.github.io/myblog/ebook-pilot/</link>
+      <link>http://localhost:1313/myblog/ebook-pilot/</link>
       <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/ebook-pilot/</guid>
+      <guid>http://localhost:1313/myblog/ebook-pilot/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ebookpilot.jpg#center&#34; alt=&#34;class&#34; title=&#34;class&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here is my class with their new Kindle DXs. Notice the absence of heavy textbooks on the desks!&lt;/p&gt;&#xA;&lt;h3 id=&#34;update&#34;&gt;UPDATE:&lt;/h3&gt;&#xA;&lt;p&gt;Unfortunately, while it was cool to carry around all of our textbooks in PDF format on our Kindle DXs, the pilot ultimately led to us not adopting eBooks exclusively. Simply put, many of our students just preferred the ease of printed books. eBooks may become the norm in the future, but probably only when everyone carries a laptop with them, and can access a second monitor for it in the classroom.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Amazon Kindle ROCKS!</title>
-      <link>https://jasoneckert.github.io/myblog/the-amazon-kindle-rocks/</link>
+      <link>http://localhost:1313/myblog/the-amazon-kindle-rocks/</link>
       <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/the-amazon-kindle-rocks/</guid>
+      <guid>http://localhost:1313/myblog/the-amazon-kindle-rocks/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;kindle1.png#right&#34; alt=&#34;Kindle1&#34; title=&#34;Kindle1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recently, the Amazon Kindle 2 (International Edition) arrived in Canada (the last country to get it :-), and I recently picked one up.   Since its original introduction in November 2007, I have watched reviews of it fly around the Internet and on blogs such as GeekBrief.tv.&lt;/p&gt;&#xA;&lt;p&gt;Although the reviews were generally positive, I really couldn’t visualize myself replacing my book collection with a Kindle for the simple reason that books have their own distinctive “experience” (and smell :-).&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Amazon Kindle: Friend or foe?</title>
-      <link>https://jasoneckert.github.io/myblog/amazon-kindle-friend-or-foe/</link>
+      <link>http://localhost:1313/myblog/amazon-kindle-friend-or-foe/</link>
       <pubDate>Thu, 22 Nov 2007 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/amazon-kindle-friend-or-foe/</guid>
+      <guid>http://localhost:1313/myblog/amazon-kindle-friend-or-foe/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;kindle.png#right&#34; alt=&#34;Amazon Kindle&#34; title=&#34;Amazon Kindle&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There has been a lot of hype this week about Kindle - Amazon’s eBook reader.&lt;/p&gt;&#xA;&lt;p&gt;I have always regarded eBooks (also referred to as Digital Ink) as evil.  They are almost always DRM (Digital Rights Management) protected so that you can’t share information with others and typically require an expensive eBook reader.&lt;/p&gt;&#xA;&lt;p&gt;On the other side, the idea of storing my book collection on a nice small aesthetic digital device seems attractive to me as a technophile.  However, the device would need to be as natural to use as a book and would need to allow non-DRM content as well.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2. My published books</title>
-      <link>https://jasoneckert.github.io/bio/my-published-books/</link>
+      <link>http://localhost:1313/bio/my-published-books/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/bio/my-published-books/</guid>
+      <guid>http://localhost:1313/bio/my-published-books/</guid>
       <description>&lt;p&gt;Perhaps one of my more famous achievements is the authoring of several textbooks for Course Technology, Cengage, Nelson, Thompson/Delmar and Wiley. I&amp;rsquo;ve listed their details in chronological order here (oldest to newest) with cover pictures below:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification (ISBN: 0-619-13004-0) &lt;a href=&#34;0-619-13004-0_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-13004-0_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Guide to UNIX System Administration (ISBN: 0-619-13041-5) &lt;a href=&#34;0-619-13041-5_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-13041-5_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ In Depth (ISBN: 1-59200-062-2) &lt;a href=&#34;1-59200-062-2_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-59200-062-2_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;MCSE Guide to Managing a Microsoft Windows Server 2003 Network (ISBN: 0-619-12029-0) &lt;a href=&#34;0-619-12029-0_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-12029-0_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt; &lt;a href=&#34;0-619-12029-0_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - 2nd Edition (ISBN: 0-619-21621-2) &lt;a href=&#34;0-619-21621-2_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-21621-2_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ 2005 In Depth (ISBN: 1-59200-728-7) &lt;a href=&#34;1-59200-728-7_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-59200-728-7_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Novell&amp;rsquo;s Guide to CompTIA&amp;rsquo;s Linux+ (Course 3060) (ISBN: 1-4188-3730-X) &lt;a href=&#34;1-4188-3730-X_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3730-X_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Server Administration (Course 3037) (ISBN: 1-4188-3731-8) &lt;a href=&#34;1-4188-3731-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3731-8_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Advanced SUSE Linux Enterprise Server Administration (Course 3038) (ISBN: 1-4188-3732-6) &lt;a href=&#34;1-4188-3732-6_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3732-6_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Microsoft Windows Vista Guide (ISBN: 1-4188-3757-1) &lt;a href=&#34;1-4188-3757-1_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3757-1_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt; &lt;a href=&#34;1-4188-3757-1_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Desktop Administration (Course 3086) (ISBN: 1-4283-2227-2) &lt;a href=&#34;1-4283-2227-2_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4283-2227-2_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Server Security (Course 3075) (ISBN: 1-4283-2223-X) &lt;a href=&#34;1-4283-2223-X_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4283-2223-X_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Microsoft Official Academic Course (MOAC): Exchange Server 2007 Exam 70-236 (ISBN: 978-0-470-38029-1) &lt;a href=&#34;978-0-470-38029-1_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-0-470-38029-1_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - 3rd Edition (ISBN: 978-1-418-83721-1) &lt;a href=&#34;978-1-418-83721-1_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-1-418-83721-1_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Server 11 Administration (ISBN: 978-1-111-54003-6) &lt;a href=&#34;978-1-111-54003-6_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-1-111-54003-6_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - International Edition (ISBN: 978-1-111-54153-8)&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - 4th Edition (ISBN: 978-1-305-10716-8) &lt;a href=&#34;978-1-305-10716-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ and LPIC-1 Guide to Linux Certification - 5th Edition (ISBN: 978-1-337-56979-8) &lt;a href=&#34;978-1-337-56979-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Hands-On Windows Server 2019 - 3rd Edition (ISBN: 978-0-357-43615-8) &lt;a href=&#34;978-0-357-43615-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-0-357-43615-8_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ and LPIC-1 Guide to Linux Certification - 6th Edition (ISBN: 979-8-214-00080-0) &lt;a href=&#34;979-8-214-00080-0_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;979-8-214-00080-0_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Hands-On Windows Server 2022 - 4th Edition (ISBN: 979-8-214-01160-8) &lt;a href=&#34;979-8-214-01160-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;979-8-214-01160-8_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ and LPIC-1 Guide to Linux Certification - 7th Edition (ISBN: 979-8-214-40996-2) Available late 2025 or early 2026!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Moreover, I&amp;rsquo;ve worked as a technical editor for numerous Linux and software development titles for both Wiley and Pearson, as well as wrote 6 books for Research in Motion (RIM) on BlackBerry Enterprise Server 4.1 &amp;amp; 5 (uncredited and consequently not listed here).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cyberpunk, Sci-Fi &amp; General Fiction</title>
-      <link>https://jasoneckert.github.io/reads/fiction/</link>
+      <link>http://localhost:1313/reads/fiction/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/reads/fiction/</guid>
+      <guid>http://localhost:1313/reads/fiction/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cyberpunk.jpg&#34; alt=&#34;cyberpunk header&#34; title=&#34;cyberpunk header&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;thomas-j-ryan-the-adolescence-of-p-1-1977&#34;&gt;Thomas J. Ryan: The Adolescence of P-1 (1977)&lt;/h1&gt;&#xA;&lt;p&gt;This is probably the best book I have ever read regarding our human desire for artificial intelligence (AI). It’s about a University of Waterloo student who creates an AI on IBM mainframes. Don’t let that bore you though - it’s a captivating read and has a great ending. I wouldn’t be surprised if this book influenced later movies such as &lt;em&gt;&lt;strong&gt;War Games&lt;/strong&gt;&lt;/em&gt; (1983), and books such as &lt;em&gt;&lt;strong&gt;Neuromancer&lt;/strong&gt;&lt;/em&gt; (1984). I especially liked how much of it took place at the University of Waterloo (my undergrad university and home for many years) including the infamous IBM 360/75 in the “red room” within the Math &amp;amp; Computer building (the largest computer in Canada at the time). I remember the red room well before they decommissioned it in 1999.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Non-Fiction &amp; Biographies</title>
-      <link>https://jasoneckert.github.io/reads/non-fiction/</link>
+      <link>http://localhost:1313/reads/non-fiction/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/reads/non-fiction/</guid>
+      <guid>http://localhost:1313/reads/non-fiction/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;rms.jpg&#34; alt=&#34;rms&#34; title=&#34;rms&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;clifford-stoll-the-cuckoos-egg-1989&#34;&gt;Clifford Stoll: The Cuckoo’s Egg (1989)&lt;/h1&gt;&#xA;&lt;p&gt;Don’t let the year of this book fool you - it’s probably the best book on computing security. The epilogue is both timeless, and an amazing reflection on the purpose of computer security. Moreover, this book is a very enjoyable read. Cliff, like most of us computer/scientist types, writes with a quirky sense of humour, and isn’t afraid to relay his personal views within the book. For example, the quote below describes Cliff’s colleague Dave when he notices that the hacker used the –f option to the ps command on a Berkeley UNIX system (Berkeley UNIX doesn’t use the –f option, only AT&amp;amp;T UNIX does): &lt;em&gt;&amp;ldquo;We’re watching someone who’s never used Berkeley Unix.” He sucked in his breath and whispered, “A heathen.”&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Video Game Books</title>
-      <link>https://jasoneckert.github.io/reads/gaming/</link>
+      <link>http://localhost:1313/reads/gaming/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/reads/gaming/</guid>
+      <guid>http://localhost:1313/reads/gaming/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;martinamis.png&#34; alt=&#34;pic from Invasion of the Space Invaders&#34; title=&#34;pic from Invasion of the Space Invaders&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;martin-amis-invasion-of-the-space-invaders-1982&#34;&gt;Martin Amis: Invasion of the Space Invaders (1982)&lt;/h1&gt;&#xA;&lt;p&gt;This is probably the most sought-after video game book of the 1980s by the uber-famous, world-renowned author Martin Amis (most copies sell for over $200 today). Martin Amis has a unique way of bringing you back to the video game world of 1978-1982 using verbal imagery and humour - after all, he was a video game addict at the time! Some of the high-resolution colour photos in the book (including the one above) say more than words ever could. The last half of the book is an in-depth look at some of the most common video games alongside Martin’s favourite game strategies that will land you a high score.  And to top it all off, it has a wicked introduction by Steven Spielberg.&lt;/p&gt;</description>
     </item>
   </channel>

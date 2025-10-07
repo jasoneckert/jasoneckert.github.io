@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recommended Reads on Jason Eckert&#39;s Website and Blog</title>
-    <link>https://jasoneckert.github.io/categories/recommended-reads/</link>
+    <link>http://localhost:1313/categories/recommended-reads/</link>
     <description>Recent content in Recommended Reads on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jasoneckert.github.io/categories/recommended-reads/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/recommended-reads/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cyberpunk, Sci-Fi &amp; General Fiction</title>
-      <link>https://jasoneckert.github.io/reads/fiction/</link>
+      <link>http://localhost:1313/reads/fiction/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/reads/fiction/</guid>
+      <guid>http://localhost:1313/reads/fiction/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cyberpunk.jpg&#34; alt=&#34;cyberpunk header&#34; title=&#34;cyberpunk header&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;thomas-j-ryan-the-adolescence-of-p-1-1977&#34;&gt;Thomas J. Ryan: The Adolescence of P-1 (1977)&lt;/h1&gt;&#xA;&lt;p&gt;This is probably the best book I have ever read regarding our human desire for artificial intelligence (AI). It’s about a University of Waterloo student who creates an AI on IBM mainframes. Don’t let that bore you though - it’s a captivating read and has a great ending. I wouldn’t be surprised if this book influenced later movies such as &lt;em&gt;&lt;strong&gt;War Games&lt;/strong&gt;&lt;/em&gt; (1983), and books such as &lt;em&gt;&lt;strong&gt;Neuromancer&lt;/strong&gt;&lt;/em&gt; (1984). I especially liked how much of it took place at the University of Waterloo (my undergrad university and home for many years) including the infamous IBM 360/75 in the “red room” within the Math &amp;amp; Computer building (the largest computer in Canada at the time). I remember the red room well before they decommissioned it in 1999.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Non-Fiction &amp; Biographies</title>
-      <link>https://jasoneckert.github.io/reads/non-fiction/</link>
+      <link>http://localhost:1313/reads/non-fiction/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/reads/non-fiction/</guid>
+      <guid>http://localhost:1313/reads/non-fiction/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;rms.jpg&#34; alt=&#34;rms&#34; title=&#34;rms&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;clifford-stoll-the-cuckoos-egg-1989&#34;&gt;Clifford Stoll: The Cuckoo’s Egg (1989)&lt;/h1&gt;&#xA;&lt;p&gt;Don’t let the year of this book fool you - it’s probably the best book on computing security. The epilogue is both timeless, and an amazing reflection on the purpose of computer security. Moreover, this book is a very enjoyable read. Cliff, like most of us computer/scientist types, writes with a quirky sense of humour, and isn’t afraid to relay his personal views within the book. For example, the quote below describes Cliff’s colleague Dave when he notices that the hacker used the –f option to the ps command on a Berkeley UNIX system (Berkeley UNIX doesn’t use the –f option, only AT&amp;amp;T UNIX does): &lt;em&gt;&amp;ldquo;We’re watching someone who’s never used Berkeley Unix.” He sucked in his breath and whispered, “A heathen.”&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Video Game Books</title>
-      <link>https://jasoneckert.github.io/reads/gaming/</link>
+      <link>http://localhost:1313/reads/gaming/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/reads/gaming/</guid>
+      <guid>http://localhost:1313/reads/gaming/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;martinamis.png&#34; alt=&#34;pic from Invasion of the Space Invaders&#34; title=&#34;pic from Invasion of the Space Invaders&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;martin-amis-invasion-of-the-space-invaders-1982&#34;&gt;Martin Amis: Invasion of the Space Invaders (1982)&lt;/h1&gt;&#xA;&lt;p&gt;This is probably the most sought-after video game book of the 1980s by the uber-famous, world-renowned author Martin Amis (most copies sell for over $200 today). Martin Amis has a unique way of bringing you back to the video game world of 1978-1982 using verbal imagery and humour - after all, he was a video game addict at the time! Some of the high-resolution colour photos in the book (including the one above) say more than words ever could. The last half of the book is an in-depth look at some of the most common video games alongside Martin’s favourite game strategies that will land you a high score.  And to top it all off, it has a wicked introduction by Steven Spielberg.&lt;/p&gt;</description>
     </item>
   </channel>

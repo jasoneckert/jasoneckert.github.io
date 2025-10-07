@@ -2,192 +2,199 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Jason Eckert&#39;s Website and Blog</title>
-    <link>https://jasoneckert.github.io/tags/windows/</link>
+    <link>http://localhost:1313/tags/windows/</link>
     <description>Recent content in Windows on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jasoneckert.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Hugo</title>
+      <link>http://localhost:1313/myblog/hugo/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/myblog/hugo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;hugo.png#center&#34; alt=&#34;Hugo title&#34; title=&#34;Hugo title&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-hugo&#34;&gt;What is Hugo?&lt;/h1&gt;&#xA;&lt;p&gt;Simply put, Hugo generates websites. More specifically, it generates static HTML, CSS, and JavaScript files from your content and themes. Your content is specified in Markdown and YAML/TOML text format and there are hundreds of design themes available at &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;themes.gohugo.io&lt;/a&gt;, most of which are freely available under the MIT License.&lt;/p&gt;&#xA;&lt;h1 id=&#34;installing-hugo&#34;&gt;Installing Hugo&lt;/h1&gt;&#xA;&lt;p&gt;You can install Hugo very easily via a terminal command on your operating system:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Win10 Is Nearing End-of-Life: What Should You Do Next?</title>
-      <link>https://jasoneckert.github.io/myblog/win10eol/</link>
+      <link>http://localhost:1313/myblog/win10eol/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/win10eol/</guid>
+      <guid>http://localhost:1313/myblog/win10eol/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;win10eol.png#center&#34; alt=&#34;Win10 EOL&#34; title=&#34;Win10 EOL&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Microsoft has officially set the end-of-life (EOL) date for the Windows 10 (Win10) OS to October 14, 2025. This means that as of that date, there will be no more security updates, bug fixes, or official support for most users. While that date may seem far off (I rarely plan what I’m doing this weekend), it’s wise to start planning now, especially if you’re running Win10 on older hardware or aren’t ready (or able) to jump to Windows 11 (Win11).&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Story Behind the Mac vs PC Rivalry — And Where Linux Quietly Took Over</title>
-      <link>https://jasoneckert.github.io/myblog/mac-vs-pc/</link>
+      <link>http://localhost:1313/myblog/mac-vs-pc/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/mac-vs-pc/</guid>
+      <guid>http://localhost:1313/myblog/mac-vs-pc/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;mac-vs-pc.jpg#center&#34; alt=&#34;Mac vs PC&#34; title=&#34;Mac vs PC&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to computers, most people today use either a Mac or a PC. In this post, I’ll explore how this digital rivalry began, how it shaped modern computing — and how Linux quietly carved out a space of its own.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-early-days-roots-of-the-rivalry&#34;&gt;The Early Days: Roots of the Rivalry&lt;/h1&gt;&#xA;&lt;p&gt;In the 1980s, personal computers (PCs) began appearing in homes, schools, and businesses across the world. A wide range of companies entered the market, including Apple, IBM, Tandy, Commodore, Atari, Texas Instruments, and Sinclair. Most of these early machines featured basic text-based interfaces — often just a simple version of the BASIC programming language. But a few notable outliers, like the Apple Macintosh and the IBM PC, ran more sophisticated operating systems that hinted at what modern computing would eventually become.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Leveraging WSL2 for Systems &amp; Cloud Administration, Cybersecurity, and Software Development</title>
-      <link>https://jasoneckert.github.io/myblog/wsl2/</link>
+      <link>http://localhost:1313/myblog/wsl2/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/wsl2/</guid>
+      <guid>http://localhost:1313/myblog/wsl2/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;desktop.png#center&#34; alt=&#34;Win11 Desktop running 3 WSL2 instances&#34; title=&#34;Win11 Desktop running 3 WSL2 instances&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s quite a bit going on in the Windows 11 desktop pic shown at the top of this post. To see the details, you can pinch zoom the pic if you are on a phone or touchscreen device, or right-click the pic and choose to open it in a new browser tab if you are on a desktop computer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 in Review</title>
-      <link>https://jasoneckert.github.io/myblog/2024-in-review/</link>
+      <link>http://localhost:1313/myblog/2024-in-review/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2024-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2024-in-review/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s important to pause and reflect every so often to stay grounded and focused. So, each December I look back on the year&amp;rsquo;s events and summarize them in a blog post. And after doing this again this year, I realize that 2024 was one of reflection, gratitude, and exploration.&lt;/p&gt;&#xA;&lt;p&gt;I was fortunate enough to go on some epic winter hiking adventures with my dog Pepper in January before she &lt;a href=&#34;../remembering-pepper/&#34;&gt;passed away in February&lt;/a&gt; at the age of 13. Losing a dog is the hardest thing because we form such strong bonds, but she was an amazing dog that had an awesome life and I&amp;rsquo;m grateful for all of it. I&amp;rsquo;m reminded of a pet memorial plaque I saw many years ago that said &amp;ldquo;&lt;em&gt;&lt;strong&gt;Don&amp;rsquo;t cry because it&amp;rsquo;s over. Smile because it happened.&lt;/strong&gt;&lt;/em&gt;&amp;rdquo; I spread her ashes in the areas she loved most: my back yard, the sports park behind my house, the public park at the end of my street, and in the stream under the bridge my daughter and I often took her to on the Mill Run trail.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Running an LLM locally using Ollama</title>
-      <link>https://jasoneckert.github.io/myblog/llms-using-ollama/</link>
+      <link>http://localhost:1313/myblog/llms-using-ollama/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/llms-using-ollama/</guid>
+      <guid>http://localhost:1313/myblog/llms-using-ollama/</guid>
       <description>&lt;p&gt;If you are developing or integrating software with a Large Language Model (LLM) to add chatbot or other AI functionality, then you may have the need to host and run an LLM on your local workstation for development or testing. There are several open source LLMs available that you can freely run on your system provided that you have enough resources to do so.&lt;/p&gt;&#xA;&lt;p&gt;LLMs are just inert objects that require special software to allow people and other software to interact with it (called &lt;em&gt;&lt;strong&gt;running the model&lt;/strong&gt;&lt;/em&gt;). Unfortunately, setting up the software components to run a model is akin to nailing Jello to a tree.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installing a Fedora Linux ARM VM from a Raw Image</title>
-      <link>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</link>
+      <link>http://localhost:1313/myblog/linux-arm-raw-image/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</guid>
+      <guid>http://localhost:1313/myblog/linux-arm-raw-image/</guid>
       <description>&lt;p&gt;Many professionals who work in Information Technology (IT) or software development use an ARM-based PC, such as an Apple Silicon Mac, Snapdragon Elite X Windows Copilot+ PC, or an ARM Linux workstation such as the System76 Thelio Astra. Similarly, many students learning IT or software development may also use an ARM-based PC. For all of these people, it&amp;rsquo;s commonplace to deploy Linux virtual machines (VMs) on a PC using hypervisor software to test cloud apps, host server software, or run specialized tools.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Copilot&#43; PC Review: Windows on ARM is finally here</title>
-      <link>https://jasoneckert.github.io/myblog/windows-on-arm/</link>
+      <link>http://localhost:1313/myblog/windows-on-arm/</link>
       <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/windows-on-arm/</guid>
+      <guid>http://localhost:1313/myblog/windows-on-arm/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;desktop.png#center&#34; alt=&#34;Copilot+ PC Desktop&#34; title=&#34;Copilot+ PC Desktop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in 2017, I wrote a &lt;a href=&#34;../get-ready-for-the-chip-wars/&#34;&gt;blog post&lt;/a&gt; predicting intense competition between Intel x86-based and ARM-based PCs. And finally, after many years of lukewarm development efforts on the part of Microsoft and Qualcomm, that competition is here with Windows 11 Copilot+ PCs running powerful ARM-based Qualcomm Snapdragon X Elite CPUs with built in graphics and AI acceleration.&lt;/p&gt;&#xA;&lt;p&gt;As shown in the desktop screenshot at the top of this post I&amp;rsquo;ve been using a Copilot+ PC as a productivity and development workstation this month, and I must say that I&amp;rsquo;m thoroughly impressed overall. In this blog post, I&amp;rsquo;ll outline why.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Extending the life of an Intel-based Mac using Windows 11</title>
-      <link>https://jasoneckert.github.io/myblog/intel-mac-win11/</link>
+      <link>http://localhost:1313/myblog/intel-mac-win11/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/intel-mac-win11/</guid>
+      <guid>http://localhost:1313/myblog/intel-mac-win11/</guid>
       <description>&lt;p&gt;Back in 2020, Apple introduced the first Macs that used Apple Silicon processors instead of Intel ones, and this transition from Intel to Apple Silicon was completed earlier this year across Apple&amp;rsquo;s entire product line. While Apple promised they&amp;rsquo;d continue supporting macOS on Intel-based Macs for the near future, those of us who remember Apple&amp;rsquo;s previous transitions from M68k-to-PowerPC and PowerPC-to-Intel know full well that this support is going to end sooner than later. Even the last two versions of macOS have far fewer features when run on Intel Macs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Essential keyboard shortcuts (Windows/macOS/Linux/UNIX)</title>
-      <link>https://jasoneckert.github.io/myblog/shortcuts/</link>
+      <link>http://localhost:1313/myblog/shortcuts/</link>
       <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/shortcuts/</guid>
+      <guid>http://localhost:1313/myblog/shortcuts/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;hands.jpg#center&#34; alt=&#34;Hands on keyboard&#34; title=&#34;Hands on keyboard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Following are some shortcuts that I believe all desktop users should be familiar with. It is not a complete list by any means, and does not include virtual desktop or app pinning shortcuts as I felt those were beyond the scope of common desktop shortcuts. If you feel I omitted a common shortcut, email me (&lt;a href=&#34;mailto:jason.eckert@trios.com&#34;&gt;jason.eckert@trios.com&lt;/a&gt;) and I&amp;rsquo;ll add it to the list!&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-windows-shortcuts&#34;&gt;1. Windows shortcuts&lt;/h1&gt;&#xA;&lt;p&gt;The Windows (⊞) key on your keyboard has the Windows logo printed on it. Modern keyboards use the newer Windows logo with four equally-sized squares, while older keyboards use a Windows logo with four slanted or curved squares.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My first textbook is now in its sixth edition</title>
-      <link>https://jasoneckert.github.io/myblog/linux-sixth-edition/</link>
+      <link>http://localhost:1313/myblog/linux-sixth-edition/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/linux-sixth-edition/</guid>
+      <guid>http://localhost:1313/myblog/linux-sixth-edition/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;first-and-sixth.png#center&#34; alt=&#34;First and sixth edition of my Linux textbook&#34; title=&#34;First and sixth edition of my Linux textbook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While I&amp;rsquo;ve written &lt;a href=&#34;../../bio/my-published-books/&#34;&gt;many textbooks&lt;/a&gt; on different topics over the past two decades, my favourite subject area by far is Linux. After all, Linux has evolved to be one of the most foundational topics in tech education. Information Technology (IT) fields such as server/network administration, cloud administration, cybersecurity, and software development now require a solid grasp of the Linux operating system.&#xA;&lt;img src=&#34;sixthedition.jpg#right&#34; alt=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34; title=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Power of RISC architecture</title>
-      <link>https://jasoneckert.github.io/myblog/power-of-risc/</link>
+      <link>http://localhost:1313/myblog/power-of-risc/</link>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/power-of-risc/</guid>
+      <guid>http://localhost:1313/myblog/power-of-risc/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;risc-hackers-movie.jpg#center&#34; alt=&#34;Hackers Movie Quote&#34; title=&#34;Hackers Movie Quote&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This part of the 1995 &lt;em&gt;&lt;strong&gt;Hackers&lt;/strong&gt;&lt;/em&gt; movie shown above is right on par for the time. After all, by the mid 1990s &lt;em&gt;&lt;strong&gt;Reduced Instruction Set Computer (RISC)&lt;/strong&gt;&lt;/em&gt; processors were seen as the future of computing by most in the tech industry.&lt;/p&gt;&#xA;&lt;p&gt;By using a simplified instruction set, computers with RISC processors at the time could perform tasks in a quarter of the time compared to computers that had a traditional &lt;em&gt;&lt;strong&gt;Complex Instruction Set Computer (CISC)&lt;/strong&gt;&lt;/em&gt; processor. RISC processors also required less circuitry, which allowed manufacturers to easily add more functionality, such as crypto accelerators, memory management controllers and specialized floating point arithmetic units.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An introduction to WireGuard VPN</title>
-      <link>https://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</link>
+      <link>http://localhost:1313/myblog/an-introduction-to-wireguard-vpn/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</guid>
+      <guid>http://localhost:1313/myblog/an-introduction-to-wireguard-vpn/</guid>
       <description>&lt;h1 id=&#34;1-why-wireguard&#34;&gt;1. Why WireGuard?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;wireguard.png#right&#34; alt=&#34;WireGuard logo&#34; title=&#34;WireGuard logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to encrypting traffic between systems, there are a wide variety of different &lt;em&gt;&lt;strong&gt;Virtual Private Network (VPN)&lt;/strong&gt;&lt;/em&gt; software available, some of which have been used since the 1990s. Each of them focus on different encryption algorithms and flow control strategies, alongside mechanisms for providing for secure authentication and negotiating encryption keys. Unfortunately, this complexity often translates to more problems, slower traffic, as well fewer use cases and supported operating systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2020 in review</title>
-      <link>https://jasoneckert.github.io/myblog/2020-in-review/</link>
+      <link>http://localhost:1313/myblog/2020-in-review/</link>
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2020-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2020-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;techworkers.jpg#right&#34; alt=&#34;Tech workers&#34; title=&#34;Tech workers&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I know what you&amp;rsquo;re thinking - 2020 sucked! Worst year ever! The COVID-19 pandemic, no social gatherings, no dine-in restaurants, no gyms, the US Trumpster fire, and most importantly to those of us in the tech world: Red Hat terminating CentOS development.&lt;/p&gt;&#xA;&lt;p&gt;Of course, most people will remember 2020 for the pandemic, and that&amp;rsquo;s completely understandable. None of us have experienced a pandemic in our lifetime, and both our society and economy were not prepared to deal with it gracefully. Many businesses folded or downsized, and the lack of social contact caused mental health issues for many people of all ages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A brief history of technology</title>
-      <link>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</link>
+      <link>http://localhost:1313/myblog/a-brief-history-of-technology/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</guid>
+      <guid>http://localhost:1313/myblog/a-brief-history-of-technology/</guid>
       <description>&lt;p&gt;Technology is a crazy ride, and like that lyric in the Talking Heads song &lt;em&gt;&lt;strong&gt;Once in a Lifetime&lt;/strong&gt;&lt;/em&gt;, &amp;ldquo;&amp;hellip;you may ask yourself, well, how did I get here?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;If that&amp;rsquo;s the case, you&amp;rsquo;re in luck, because this post is a no-nonsense, give-me-the-big-picture timeline of what the heck happened in the technology landscape these past 50 years. Of course, not every little detail is in there. Just those that are actually important (in my expert opinion, of course ;-) Enjoy!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Most people don&#39;t want a computer</title>
-      <link>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</link>
+      <link>http://localhost:1313/myblog/most-people-dont-want-a-computer/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</guid>
+      <guid>http://localhost:1313/myblog/most-people-dont-want-a-computer/</guid>
       <description>&lt;p&gt;In the past few decades, people of all ages across North America have become technology-literate in some way or another. Many of them weren&amp;rsquo;t introduced to technology via desktop or laptop computers, but instead through a smartphone or tablet. Similarly, many desktop and laptop users have switched to using their smartphone or tablet over the past decade to interact with the online world.&lt;/p&gt;&#xA;&lt;p&gt;After all, smartphones and tablets are incredibly easy to use. You open an app to do what you want (social media, shopping, taking pics of food, etc.), and the rest can be done in a Web browser. It doesn&amp;rsquo;t matter where your files are stored locally because they&amp;rsquo;re easily searchable, and they&amp;rsquo;re automatically synced to the cloud so that you don&amp;rsquo;t lose them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microsoft turns 45</title>
-      <link>https://jasoneckert.github.io/myblog/microsoft-turns-45/</link>
+      <link>http://localhost:1313/myblog/microsoft-turns-45/</link>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/microsoft-turns-45/</guid>
+      <guid>http://localhost:1313/myblog/microsoft-turns-45/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ms45.png#center&#34; alt=&#34;Microsoft cake&#34; title=&#34;Microsoft cake&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;On April 4th 1975, a small company called Microsoft was founded in Albuquerque, New Mexico. They would later become the most pivotal company in the technology world, and their co-founder Bill Gates would become the world’s most prolific philanthropist.&lt;/p&gt;&#xA;&lt;p&gt;Like many tech companies, Microsoft has had a colourful past. Started by two whiz kids (Paul Allen and Bill Gates), they started by selling operating system and supporting software.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using the Windows Subsystem for Linux</title>
-      <link>https://jasoneckert.github.io/myblog/using-the-windows-subsystem-for-linux/</link>
+      <link>http://localhost:1313/myblog/using-the-windows-subsystem-for-linux/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/using-the-windows-subsystem-for-linux/</guid>
+      <guid>http://localhost:1313/myblog/using-the-windows-subsystem-for-linux/</guid>
       <description>&lt;h1 id=&#34;1-so-what-is-wsl&#34;&gt;1. So what is WSL?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;wsl1.jpg#right&#34; alt=&#34;WSL1&#34; title=&#34;WSL1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Simply put, it’s a kernel interface (lxcore &amp;amp; lxss) that allows 64-bit Linux binaries to run on a Window 10 or Windows Server 2019 kernel.&lt;/p&gt;&#xA;&lt;p&gt;All you need to do is add the userland (file system structure and programs) from an existing Linux distribution, such as Ubuntu, Kali, Debian or SUSE, and that Linux distribution will run natively on the Windows kernel!&lt;/p&gt;&#xA;&lt;p&gt;You must access the Linux distribution via a Windows program that associates the userland of the Linux distribution to the WSL (e.g. for Kali Linux, this would be kali.exe), and you can install and use multiple Linux distribution userlands simultaneously with the WSL.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The history of IT certification</title>
-      <link>https://jasoneckert.github.io/myblog/history-of-it-certification/</link>
+      <link>http://localhost:1313/myblog/history-of-it-certification/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/history-of-it-certification/</guid>
+      <guid>http://localhost:1313/myblog/history-of-it-certification/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cert1.png#center&#34; alt=&#34;cert1&#34; title=&#34;cert1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nearly everyone working in an Information Technology (IT) field has at least one IT-related certification. This is because IT certification is commonly used as a skills benchmark for hiring and promotion, and it’s been that way for a long, long time.&lt;/p&gt;&#xA;&lt;p&gt;So where did all this certification stuff start?  If you look online, there isn’t even a Wikipedia page that can give you that answer - like many things in the technology world that predated the Internet, it just wasn’t important enough to keep track of in the Internet Age that started in the 1990s.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Windows and macOS could move to Linux</title>
-      <link>https://jasoneckert.github.io/myblog/windows-and-macos-could-move-to-linux/</link>
+      <link>http://localhost:1313/myblog/windows-and-macos-could-move-to-linux/</link>
       <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/windows-and-macos-could-move-to-linux/</guid>
+      <guid>http://localhost:1313/myblog/windows-and-macos-could-move-to-linux/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;linuxy.png#center&#34; alt=&#34;move to Linux&#34; title=&#34;move to Linux&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;For those in the tech world, the title of this post may seem both radical and pretentious.&lt;/p&gt;&#xA;&lt;p&gt;However, in the following four parts of this blog post, I hope to shed light on why this is a real possibility in the not-so-distant future and why.&lt;/p&gt;&#xA;&lt;h1 id=&#34;part-1-os-overview&#34;&gt;PART 1: OS overview&lt;/h1&gt;&#xA;&lt;p&gt;First of all, an operating system (OS) is essentially the core software that allows your computer to run - it provides a core component (called a kernel) that understands how to use the hardware in your computer, a user interface (e.g. your Desktop), as well as a rich set of software libraries and frameworks that allow apps to run.  These software libraries and frameworks are specific to your OS and are often called a platform.  For example, you can develop an app for the Windows platform, or you can develop and app for the macOS or Linux platforms.  When it comes to mobile devices, iOS is just a mobile version of macOS, and Android is just Linux with an Android framework on top - as a result, we can really say that the three main OS platforms available today are Windows, macOS and Linux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerShell Essentials for SysAdmins</title>
-      <link>https://jasoneckert.github.io/myblog/powershell-essentials-for-sysadmins/</link>
+      <link>http://localhost:1313/myblog/powershell-essentials-for-sysadmins/</link>
       <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/powershell-essentials-for-sysadmins/</guid>
+      <guid>http://localhost:1313/myblog/powershell-essentials-for-sysadmins/</guid>
       <description>&lt;p&gt;PowerShell is essentially a scripting language and shell (command prompt) that you can use on Windows systems.  It’s basically Microsoft’s way of getting a powerful UNIX/Linux/Mac-like shell on the Windows platform (long overdue!).  The first versions of PowerShell were pretty horrific, but it’s come a long way since then.  PowerShell v4 and later is pretty decent (Win10 comes with PowerShell v5).  Luckily, PowerShell v4 comes with Windows Server 2012, and since this post is geared towards sysadmins, I’ll focus everything on Windows Server 2012.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microsoft ReFS vs Oracle ZFS - FIGHT!</title>
-      <link>https://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</link>
+      <link>http://localhost:1313/myblog/refs-vs-zfs-fight/</link>
       <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/refs-vs-zfs-fight/</guid>
+      <guid>http://localhost:1313/myblog/refs-vs-zfs-fight/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;refszfs1.png#center&#34; alt=&#34;Fight&#34; title=&#34;Fight&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the past, most IT admins have put their faith in systems and SANs (Storage Area Networks) that use RAID (Redundant Array of Inexpensive Disks) technology.  RAID can be used to combine hard disks together into simple volumes (called RAID-0, or JBOD) that aren’t fault tolerant, but can also be used to create mirrored volumes where both drives are identical in case one fails (called RAID-1), or striped volumes with parity where data is written across several disks with parity information that can be used to calculate the missing data if a drive fails (called RAID-5).&lt;/p&gt;</description>
     </item>
     <item>
       <title>The rise and fall of DEC</title>
-      <link>https://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</link>
+      <link>http://localhost:1313/myblog/the-rise-and-fall-of-dec/</link>
       <pubDate>Wed, 26 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/the-rise-and-fall-of-dec/</guid>
+      <guid>http://localhost:1313/myblog/the-rise-and-fall-of-dec/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;dec.gif#center&#34; alt=&#34;DEC article&#34; title=&#34;DEC article&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Firstly, the information that I’m presenting here is taken from various sources, including people I knew who worked for DEC, my own experiences, and the book &lt;em&gt;&lt;strong&gt;DEC Is Dead, Long Live DEC&lt;/strong&gt;&lt;/em&gt; by Edgar H. Schein.&lt;/p&gt;&#xA;&lt;h1 id=&#34;quick-background-info&#34;&gt;Quick background info:&lt;/h1&gt;&#xA;&lt;p&gt;DEC was the first knowledge-based company - a company who valued the knowledge of its employees over anything else, and used it to drive change and sell products.&lt;/p&gt;</description>
     </item>
     <item>
       <title>All about DEC</title>
-      <link>https://jasoneckert.github.io/myblog/all-about-dec/</link>
+      <link>http://localhost:1313/myblog/all-about-dec/</link>
       <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/all-about-dec/</guid>
+      <guid>http://localhost:1313/myblog/all-about-dec/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;dec1.png&#34; alt=&#34;DEC 1&#34; title=&#34;DEC 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;dec2.jpg#right&#34; alt=&#34;DEC 2&#34; title=&#34;DEC 2&#34;&gt;&#xA;Digital Equipment Corporation (DEC) was born in the late 1950s when it was lucrative to make computers that cost a ton of money.  And DEC was good - they would make computers that would perform much better and cost significantly less than the IBM equivalent (IBM mainframes back then were expensive behemoths).&lt;/p&gt;&#xA;&lt;p&gt;The DEC PDP (Programmed Data Processor) line of minicomputers were so good and inexpensive, you’d be hard pressed to NOT find one in your local university. The PDP-7 was the first computer to run the infamous UNIX operating system. The PDP-10 was the first computer to introduce time sharing and TCP/IP implementation for the Internet (there were plenty of PDP-10 nodes on the early Internet, or ARPANET). The PDP-11 was the most influential and mass-produced minicomputer of its time that led to the creation of the C programming language as well as the designs of CP/M, DOS, and the Motorola 68000 architecture.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Are you a Mac or a PC?</title>
-      <link>https://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</link>
+      <link>http://localhost:1313/myblog/are-you-a-mac-or-pc/</link>
       <pubDate>Thu, 13 Mar 2008 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/are-you-a-mac-or-pc/</guid>
+      <guid>http://localhost:1313/myblog/are-you-a-mac-or-pc/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;jot.jpg#right&#34; alt=&#34;JoT&#34; title=&#34;JoT&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you are ultra-Mac, you prefer to use an aesthetic computer that “just works” - as a result, you are usually sexy, artistic and cool.&lt;/p&gt;&#xA;&lt;p&gt;If you are ultra-PC, you prefer to use a clunky un-aesthetic computer that is difficult to use, crashes often, is a virus hell, yet is guaranteed to work with any piece of hardware with a software driver written by a 10-year-old boy in a barn in China - as a result, you are nerdy, cheap and non-cool.&lt;/p&gt;</description>
     </item>
     <item>
       <title>1. Operating Systems</title>
-      <link>https://jasoneckert.github.io/info/operatingsystems/</link>
+      <link>http://localhost:1313/info/operatingsystems/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/info/operatingsystems/</guid>
+      <guid>http://localhost:1313/info/operatingsystems/</guid>
       <description>&lt;h1 id=&#34;unix&#34;&gt;UNIX&lt;/h1&gt;&#xA;&lt;p&gt;UNIX is the grandfather of all modern operating systems, and today it still remains the most powerful and least known. But if you use an Apple computer running macOS, or an iPhone or iPad running iOS, you are using a UNIX operating system. And if you do online banking, somewhere tucked away in the bank is likely a series of UNIX systems running Oracle Solaris UNIX, HP-UX UNIX, or AIX UNIX. Your Internet Service Provider (ISP) likely runs BSD UNIX networking equipment and servers, and you’ll even find QNX UNIX in most cars today as well as running the streetlights in your city.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2. My published books</title>
-      <link>https://jasoneckert.github.io/bio/my-published-books/</link>
+      <link>http://localhost:1313/bio/my-published-books/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/bio/my-published-books/</guid>
+      <guid>http://localhost:1313/bio/my-published-books/</guid>
       <description>&lt;p&gt;Perhaps one of my more famous achievements is the authoring of several textbooks for Course Technology, Cengage, Nelson, Thompson/Delmar and Wiley. I&amp;rsquo;ve listed their details in chronological order here (oldest to newest) with cover pictures below:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification (ISBN: 0-619-13004-0) &lt;a href=&#34;0-619-13004-0_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-13004-0_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Guide to UNIX System Administration (ISBN: 0-619-13041-5) &lt;a href=&#34;0-619-13041-5_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-13041-5_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ In Depth (ISBN: 1-59200-062-2) &lt;a href=&#34;1-59200-062-2_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-59200-062-2_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;MCSE Guide to Managing a Microsoft Windows Server 2003 Network (ISBN: 0-619-12029-0) &lt;a href=&#34;0-619-12029-0_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-12029-0_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt; &lt;a href=&#34;0-619-12029-0_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - 2nd Edition (ISBN: 0-619-21621-2) &lt;a href=&#34;0-619-21621-2_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;0-619-21621-2_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ 2005 In Depth (ISBN: 1-59200-728-7) &lt;a href=&#34;1-59200-728-7_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-59200-728-7_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Novell&amp;rsquo;s Guide to CompTIA&amp;rsquo;s Linux+ (Course 3060) (ISBN: 1-4188-3730-X) &lt;a href=&#34;1-4188-3730-X_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3730-X_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Server Administration (Course 3037) (ISBN: 1-4188-3731-8) &lt;a href=&#34;1-4188-3731-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3731-8_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Advanced SUSE Linux Enterprise Server Administration (Course 3038) (ISBN: 1-4188-3732-6) &lt;a href=&#34;1-4188-3732-6_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3732-6_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Microsoft Windows Vista Guide (ISBN: 1-4188-3757-1) &lt;a href=&#34;1-4188-3757-1_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4188-3757-1_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt; &lt;a href=&#34;1-4188-3757-1_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Desktop Administration (Course 3086) (ISBN: 1-4283-2227-2) &lt;a href=&#34;1-4283-2227-2_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4283-2227-2_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Server Security (Course 3075) (ISBN: 1-4283-2223-X) &lt;a href=&#34;1-4283-2223-X_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;1-4283-2223-X_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Microsoft Official Academic Course (MOAC): Exchange Server 2007 Exam 70-236 (ISBN: 978-0-470-38029-1) &lt;a href=&#34;978-0-470-38029-1_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-0-470-38029-1_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - 3rd Edition (ISBN: 978-1-418-83721-1) &lt;a href=&#34;978-1-418-83721-1_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-1-418-83721-1_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;SUSE Linux Enterprise Server 11 Administration (ISBN: 978-1-111-54003-6) &lt;a href=&#34;978-1-111-54003-6_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-1-111-54003-6_rear.jpg&#34; title=&#34;rear&#34;&gt;rear&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - International Edition (ISBN: 978-1-111-54153-8)&lt;/li&gt;&#xA;&lt;li&gt;Linux+ Guide to Linux Certification - 4th Edition (ISBN: 978-1-305-10716-8) &lt;a href=&#34;978-1-305-10716-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ and LPIC-1 Guide to Linux Certification - 5th Edition (ISBN: 978-1-337-56979-8) &lt;a href=&#34;978-1-337-56979-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Hands-On Windows Server 2019 - 3rd Edition (ISBN: 978-0-357-43615-8) &lt;a href=&#34;978-0-357-43615-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;978-0-357-43615-8_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ and LPIC-1 Guide to Linux Certification - 6th Edition (ISBN: 979-8-214-00080-0) &lt;a href=&#34;979-8-214-00080-0_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;979-8-214-00080-0_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Hands-On Windows Server 2022 - 4th Edition (ISBN: 979-8-214-01160-8) &lt;a href=&#34;979-8-214-01160-8_front.jpg&#34; title=&#34;front&#34;&gt;front&lt;/a&gt; &lt;a href=&#34;979-8-214-01160-8_dedication.jpg&#34; title=&#34;dedication&#34;&gt;dedication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Linux+ and LPIC-1 Guide to Linux Certification - 7th Edition (ISBN: 979-8-214-40996-2) Available late 2025 or early 2026!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Moreover, I&amp;rsquo;ve worked as a technical editor for numerous Linux and software development titles for both Wiley and Pearson, as well as wrote 6 books for Research in Motion (RIM) on BlackBerry Enterprise Server 4.1 &amp;amp; 5 (uncredited and consequently not listed here).&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,360 +2,367 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Internet on Jason Eckert&#39;s Website and Blog</title>
-    <link>https://jasoneckert.github.io/tags/internet/</link>
+    <link>http://localhost:1313/tags/internet/</link>
     <description>Recent content in Internet on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jasoneckert.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Hugo</title>
+      <link>http://localhost:1313/myblog/hugo/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/myblog/hugo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;hugo.png#center&#34; alt=&#34;Hugo title&#34; title=&#34;Hugo title&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-hugo&#34;&gt;What is Hugo?&lt;/h1&gt;&#xA;&lt;p&gt;Simply put, Hugo generates websites. More specifically, it generates static HTML, CSS, and JavaScript files from your content and themes. Your content is specified in Markdown and YAML/TOML text format and there are hundreds of design themes available at &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;themes.gohugo.io&lt;/a&gt;, most of which are freely available under the MIT License.&lt;/p&gt;&#xA;&lt;h1 id=&#34;installing-hugo&#34;&gt;Installing Hugo&lt;/h1&gt;&#xA;&lt;p&gt;You can install Hugo very easily via a terminal command on your operating system:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How an Ancient PowerBook Captured a Summer Vacation</title>
-      <link>https://jasoneckert.github.io/myblog/powerbook-summer-vacation/</link>
+      <link>http://localhost:1313/myblog/powerbook-summer-vacation/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/powerbook-summer-vacation/</guid>
+      <guid>http://localhost:1313/myblog/powerbook-summer-vacation/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;powerbook145.jpg#center&#34; alt=&#34;Apple PowerBook 145&#34; title=&#34;Apple PowerBook 145&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While cleaning out a corner of my basement today, I stumbled upon a relic from the early days of portable computing: a 1992 Apple PowerBook 145 laptop. Just like that, I was back in 2006, reliving a summer vacation with my daughter.&lt;/p&gt;&#xA;&lt;p&gt;It’s strange how a piece of outdated hardware can tie itself to a moment in time. Here&amp;rsquo;s the story behind it.&#xA;&lt;img src=&#34;dwight-bay.jpg#right&#34; alt=&#34;Dwight Bay&#34; title=&#34;Dwight Bay&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>It’s Still Your Call: Ethics in the Age of AI</title>
-      <link>https://jasoneckert.github.io/myblog/ethics-in-the-age-of-ai/</link>
+      <link>http://localhost:1313/myblog/ethics-in-the-age-of-ai/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/ethics-in-the-age-of-ai/</guid>
+      <guid>http://localhost:1313/myblog/ethics-in-the-age-of-ai/</guid>
       <description>&lt;p&gt;AI is rapidly transforming how we work, learn, and communicate. But as it evolves, we face new questions: What decisions should we let AI make? Who is responsible when it gets things wrong? And how do we ensure that the technology reflects – not replaces – our values and ideas?&lt;/p&gt;&#xA;&lt;p&gt;In this post, we’ll explore the ethical dimensions of artificial intelligence (AI) – and ideally, leave with more questions than answers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Story Behind the Mac vs PC Rivalry — And Where Linux Quietly Took Over</title>
-      <link>https://jasoneckert.github.io/myblog/mac-vs-pc/</link>
+      <link>http://localhost:1313/myblog/mac-vs-pc/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/mac-vs-pc/</guid>
+      <guid>http://localhost:1313/myblog/mac-vs-pc/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;mac-vs-pc.jpg#center&#34; alt=&#34;Mac vs PC&#34; title=&#34;Mac vs PC&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to computers, most people today use either a Mac or a PC. In this post, I’ll explore how this digital rivalry began, how it shaped modern computing — and how Linux quietly carved out a space of its own.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-early-days-roots-of-the-rivalry&#34;&gt;The Early Days: Roots of the Rivalry&lt;/h1&gt;&#xA;&lt;p&gt;In the 1980s, personal computers (PCs) began appearing in homes, schools, and businesses across the world. A wide range of companies entered the market, including Apple, IBM, Tandy, Commodore, Atari, Texas Instruments, and Sinclair. Most of these early machines featured basic text-based interfaces — often just a simple version of the BASIC programming language. But a few notable outliers, like the Apple Macintosh and the IBM PC, ran more sophisticated operating systems that hinted at what modern computing would eventually become.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Practical Cybersafety for Everyone</title>
-      <link>https://jasoneckert.github.io/myblog/cybersafety/</link>
+      <link>http://localhost:1313/myblog/cybersafety/</link>
       <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/cybersafety/</guid>
+      <guid>http://localhost:1313/myblog/cybersafety/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cybersafety.jpg#center&#34; alt=&#34;Cybersafety&#34; title=&#34;Cybersafety&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Internet is a dangerous place. In this post, I’ll cover five basic Cybersafety tips that anyone (including those who aren&amp;rsquo;t tech-savvy) can use to stay safe online.&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-protect-against-viruses-and-malware&#34;&gt;1. Protect against viruses and malware&lt;/h1&gt;&#xA;&lt;p&gt;Most computer &lt;em&gt;&lt;strong&gt;viruses&lt;/strong&gt;&lt;/em&gt; are small sections of code that are embedded into files such as PowerPoint presentations and PDFs. When these files are opened in a software app (e.g., Microsoft PowerPoint or Adobe Reader), the app inadvertently executes the malicious code. Alternatively, &lt;em&gt;&lt;strong&gt;malware&lt;/strong&gt;&lt;/em&gt; (short for malicious software) includes apps that often run silently in the background to perform malicious tasks, such as stealing information or encrypting files until you pay a ransom (called &lt;em&gt;&lt;strong&gt;ransomware&lt;/strong&gt;&lt;/em&gt;). As a result, malware is one of the most dangerous threats to computer users today, and many viruses merely download and execute malware from Internet sites.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuring GitHub Discussions to provide Blog Comments</title>
-      <link>https://jasoneckert.github.io/myblog/github-discussions-blog/</link>
+      <link>http://localhost:1313/myblog/github-discussions-blog/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/github-discussions-blog/</guid>
+      <guid>http://localhost:1313/myblog/github-discussions-blog/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;comments.png#center&#34; alt=&#34;Comments button&#34; title=&#34;Comments button&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There are a few reasons why I&amp;rsquo;ve avoided adding a comment section to my blog these past two decades. Firstly, it can promote inappropriate and low effort responses&amp;hellip; especially if comments can be made anonymously. As a result, my home page encourages readers to email me directly. I&amp;rsquo;ve received well over a thousand emails from readers over the years, and I&amp;rsquo;ve enjoyed replying to each one. Secondly, introducing a comment section requires the execution of dynamic content that usually stores comments within a database. I instead prefer to use a simple, static website for my personal blog that can be easily hosted anywhere I choose. This also means I don&amp;rsquo;t have to configure and maintain databases.&lt;/p&gt;</description>
     </item>
     <item>
       <title>7 Tips for a Healthy Digital Lifestyle</title>
-      <link>https://jasoneckert.github.io/myblog/digital-lifestyle/</link>
+      <link>http://localhost:1313/myblog/digital-lifestyle/</link>
       <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/digital-lifestyle/</guid>
+      <guid>http://localhost:1313/myblog/digital-lifestyle/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;phonewedding.jpg#right&#34; alt=&#34;Phone at Wedding&#34; title=&#34;Phone at Wedding&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As our world becomes more and more digital, so does the need for us to periodically evaluate our technology habits. A 2023 &lt;a href=&#34;https://www.reviews.org/mobile/cell-phone-addiction/&#34;&gt;reviews.org&lt;/a&gt; study found that people check their phone around 144 times a day. And according to &lt;a href=&#34;https://www.statista.com/statistics/1258232/daily-time-spent-online-worldwide/&#34;&gt;Statista&lt;/a&gt;, people spend over 3 hours a day online at a PC for activities not related to work or school.&lt;/p&gt;&#xA;&lt;p&gt;Spending too much unstructured time on any device &amp;ndash; whether it be a phone, tablet, or PC &amp;ndash; has been linked to both physical and mental health issues, including increased feelings of stress, anxiety, and depression.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2023 in Review</title>
-      <link>https://jasoneckert.github.io/myblog/2023-in-review/</link>
+      <link>http://localhost:1313/myblog/2023-in-review/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2023-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2023-in-review/</guid>
       <description>&lt;p&gt;For me, 2023 turned out to be a year of learning, growth, adventure, and gratitude. And since there&amp;rsquo;s plenty for me to talk about, I&amp;rsquo;ve divided my review into two sections: one that summarizes my professional pursuits, and one that summarizes everything else.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-professional-stuff&#34;&gt;The professional stuff:&lt;/h1&gt;&#xA;&lt;p&gt;On the college front, the new &lt;a href=&#34;https://www.trios.com/programs-courses/technology/&#34;&gt;technology programs&lt;/a&gt; I&amp;rsquo;ve been pushing since 2020 finally got to market! My favourite one is &lt;em&gt;&lt;strong&gt;Mobile Web Developer&lt;/strong&gt;&lt;/em&gt;, as it&amp;rsquo;s a radical departure from what we did previously. The whole program is taught exclusively on macOS, has two interlaced capstones, and is carefully crafted to allow students to build solid developer skills using modern industry tooling and processes with zero tests/quizzes (students instead perform weekly assignments). These weekly assignments allow instructors to assess and guide skills development for individual students throughout each course, as well as echo the sprint cadence used within industry that students must become accustomed to. We also have a new &lt;em&gt;&lt;strong&gt;IT Professional (Infrastructure, Cloud &amp;amp; Cybersecurity)&lt;/strong&gt;&lt;/em&gt; program that restructures and augments many of the topics in our previous IT Professional program to allow for expansion into the areas of cloud and cybersecurity (both of which are key industry focal points today).&lt;/p&gt;</description>
     </item>
     <item>
       <title>2022 in Review</title>
-      <link>https://jasoneckert.github.io/myblog/2022-in-review/</link>
+      <link>http://localhost:1313/myblog/2022-in-review/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2022-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2022-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;raybans.jpg#right&#34; alt=&#34;Ray Bans&#34; title=&#34;Ray Bans&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2022 was definitely an interesting year. COVID was given far less attention and we started living with it much like we live with the flu virus. Mask requirements were dropped, and many social events have resumed. Crazy COVID conspiracy theories and uproar are distant memories (at least for me).&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m still teaching IT classes remotely, which has resulted in better educational outcomes compared to the physical classroom. Working with operating systems and IT software within virtual machines on home PCs promotes tinkering and resourcefulness while allowing students to continue and expand upon class work at any time. Being able to revisit class videos afterwards is a huge bonus that everyone enjoys, as is the lack of commute-related stress. Since our IT programs include several CompTIA certifications, I decided to write a bunch of them this year, including the biggest one: CompTIA Advanced Security Practitioner (CASP+). I&amp;rsquo;m also planning on writing 5 more of them in the first half of 2023 because I have the exam vouchers from the CompTIA Instructor Network program.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2021 in Review</title>
-      <link>https://jasoneckert.github.io/myblog/2021-in-review/</link>
+      <link>http://localhost:1313/myblog/2021-in-review/</link>
       <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2021-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2021-in-review/</guid>
       <description>&lt;p&gt;While 2020 introduced a slew of changes to everyone&amp;rsquo;s personal and professional lives, these changes were considerably less pronounced for those of us working in tech fields. After all, most software engineering and server/cloud configuration was already performed remotely before the pandemic using long-standing processes/tools. Adapting to online tech teaching in the college was a welcome challenge, and also more relevant for the industry.&lt;/p&gt;&#xA;&lt;p&gt;As 2020 was ending, we all knew that 2021 would bring vaccine rollouts but not a complete return to normalcy. I was very interested to see how the pandemic shakeup would transform the workplace and our use of technology in 2021, but also knew that 2021 would be more like season 2 of 2020. Consequently, I decided to make the most out of the more delightful aspects of 2020, including work-from-home, online tech conferences, and local outdoor activities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes Quickstart</title>
-      <link>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</link>
+      <link>http://localhost:1313/myblog/kubernetes-quickstart/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/kubernetes-quickstart/</guid>
+      <guid>http://localhost:1313/myblog/kubernetes-quickstart/</guid>
       <description>&lt;p&gt;Over the past two decades, we&amp;rsquo;ve shifted from running servers bare metal to running them almost exclusively within virtual machines (VMs). More recently we&amp;rsquo;ve seen another shift to running servers within containers. Like VMs, containers are servers that contain a unique filesystem, IP stack and software. But unlike VMs, containers do not contain a full operating system or operating system kernel. Instead they rely on an underlying operating system that runs the container using a &lt;em&gt;&lt;strong&gt;container runtime&lt;/strong&gt;&lt;/em&gt;, such as Docker. Consequently, containers are much smaller than VMs and ideal for running software within cloud environments where resource utilization must be kept to a minimum to control costs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An overview of cloud buzz words</title>
-      <link>https://jasoneckert.github.io/myblog/cloud-buzz-words/</link>
+      <link>http://localhost:1313/myblog/cloud-buzz-words/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/cloud-buzz-words/</guid>
+      <guid>http://localhost:1313/myblog/cloud-buzz-words/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;dilbert.jpg#center&#34; alt=&#34;Dilbert comic&#34; title=&#34;Dilbert comic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As this Dilbert comic eloquently illustrates, there&amp;rsquo;s no shortage of cloud buzz words thrown around today. But as strange and complex as they may sound (even to seasoned developers and system administrators), they are not difficult to understand. In this blog post, I&amp;rsquo;ll walk through the different components and features of the cloud, explaining the associated buzz words along the way.&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-the-cloud&#34;&gt;What is the cloud?&lt;/h1&gt;&#xA;&lt;p&gt;Back in the early 1990s, when the US government sold off parts of their ARPAnet and NSFnet to private companies (later called Internet Service Providers, or ISPs) to create the public Internet, there wasn&amp;rsquo;t anything exciting about the Internet at all. After all, the Internet was just a physical computer network that allowed your computer to talk to other computers, usually through a telephone network via a modem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Work-from-home is the new BlackBerry</title>
-      <link>https://jasoneckert.github.io/myblog/work-from-home-is-the-new-blackberry/</link>
+      <link>http://localhost:1313/myblog/work-from-home-is-the-new-blackberry/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/work-from-home-is-the-new-blackberry/</guid>
+      <guid>http://localhost:1313/myblog/work-from-home-is-the-new-blackberry/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;blackberry.jpeg#right&#34; alt=&#34;BlackBerry&#34; title=&#34;BlackBerry&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I vividly remember the first time I was issued a BlackBerry smartphone back in the 2000s for work. I&amp;rsquo;d read emails while in line at the Pita shop during lunch hour, formulating a plan and response before I returned to my desk to reply. For emails that required a quick response, I&amp;rsquo;d hammer out a response on the BlackBerry keyboard while in line. And having access to my Outlook calendar on the BlackBerry meant that I could view, schedule and prioritize my tasks anywhere. There was never any doubt in my mind that it made me far more productive.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The future looks a lot like mainframe computing</title>
-      <link>https://jasoneckert.github.io/myblog/mainframe-computing-is-the-future/</link>
+      <link>http://localhost:1313/myblog/mainframe-computing-is-the-future/</link>
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/mainframe-computing-is-the-future/</guid>
+      <guid>http://localhost:1313/myblog/mainframe-computing-is-the-future/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ibm.jpeg#center&#34; alt=&#34;IBM mainframe&#34; title=&#34;IBM mainframe&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mainframe computers, like the IBM one shown above, were the first digital computers that started appearing in big companies during the 1950s. They were room-sized behemoths of circuitry and steel primarily used to generate balance sheets and income statements. And while IBM still sells a small number of mainframe computers today, they only enjoyed mainstream popularity until the late 1980s.&lt;/p&gt;&#xA;&lt;p&gt;While early mainframes were only accessed by the people who managed it, most mainframes of the 1970s and 1980s ran programs that were accessed by remote users via a dumb terminal. Dumb terminals were not standalone computers; they had a display and keyboard, but merely allowed you to interact with a central mainframe computer across a network connection.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Relating Silicon Valley to the Toronto-Waterloo Corridor</title>
-      <link>https://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</link>
+      <link>http://localhost:1313/myblog/silicon-valley-toronto-waterloo/</link>
       <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/silicon-valley-toronto-waterloo/</guid>
+      <guid>http://localhost:1313/myblog/silicon-valley-toronto-waterloo/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;sv.jpeg#right&#34; alt=&#34;HBO&amp;rsquo;s Silicon Valley&#34; title=&#34;HBO&#39;s Silicon Valley&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Silicon Valley is an HBO comedy series that aired from 2014-2019. It follows a group of software engineers as they journey from creating their own apps in a home-based tech incubator in California&amp;rsquo;s Silicon Valley to creating a new decentralized Internet in their own venture capital-funded tech company.&lt;/p&gt;&#xA;&lt;p&gt;From the beginning, its creators (Mike Judge and Alec Berg) aimed to make the series an entertaining and accurate depiction of Silicon Valley tech culture, icons and events. And according to those with an intimate knowledge of Silicon Valley, they succeeded tremendously:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The computer that saved Apple</title>
-      <link>https://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</link>
+      <link>http://localhost:1313/myblog/the-computer-that-saved-apple/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/the-computer-that-saved-apple/</guid>
+      <guid>http://localhost:1313/myblog/the-computer-that-saved-apple/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;imacbb.jpg#center&#34; alt=&#34;iMac Bondi Blue&#34; title=&#34;iMac Bondi Blue&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The very first iMac model (shown above) was released in 1998, came in one colour called Bondi Blue, and had a semi-translucent case that allowed you to see the components inside. It had a 233MHz PowerPC G3 CPU, 32MB of RAM, CD-ROM drive, and shipped with MacOS 8.1 (soon upgraded to MacOS 9 - the last version before Apple moved to Mac OS X).&lt;/p&gt;&#xA;&lt;p&gt;While passing by a convenience store in my home town of Hespeler, I muttered in distaste when I noticed that someone had dumped a lot of furniture and various other household items next to the already-full dumpster at the back. But just as I was about to look away, I noticed something familiar. Peeking out of the top of a Rubbermaid tub was what looked like the rear of an old iMac. When I walked over to it, I noticed that it was a Bondi Blue iMac in mint condition, with the original keyboard and mouse. So I took it home, turned it on, and it booted to life.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An introduction to WireGuard VPN</title>
-      <link>https://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</link>
+      <link>http://localhost:1313/myblog/an-introduction-to-wireguard-vpn/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/an-introduction-to-wireguard-vpn/</guid>
+      <guid>http://localhost:1313/myblog/an-introduction-to-wireguard-vpn/</guid>
       <description>&lt;h1 id=&#34;1-why-wireguard&#34;&gt;1. Why WireGuard?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;wireguard.png#right&#34; alt=&#34;WireGuard logo&#34; title=&#34;WireGuard logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to encrypting traffic between systems, there are a wide variety of different &lt;em&gt;&lt;strong&gt;Virtual Private Network (VPN)&lt;/strong&gt;&lt;/em&gt; software available, some of which have been used since the 1990s. Each of them focus on different encryption algorithms and flow control strategies, alongside mechanisms for providing for secure authentication and negotiating encryption keys. Unfortunately, this complexity often translates to more problems, slower traffic, as well fewer use cases and supported operating systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2020 in review</title>
-      <link>https://jasoneckert.github.io/myblog/2020-in-review/</link>
+      <link>http://localhost:1313/myblog/2020-in-review/</link>
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2020-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2020-in-review/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;techworkers.jpg#right&#34; alt=&#34;Tech workers&#34; title=&#34;Tech workers&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I know what you&amp;rsquo;re thinking - 2020 sucked! Worst year ever! The COVID-19 pandemic, no social gatherings, no dine-in restaurants, no gyms, the US Trumpster fire, and most importantly to those of us in the tech world: Red Hat terminating CentOS development.&lt;/p&gt;&#xA;&lt;p&gt;Of course, most people will remember 2020 for the pandemic, and that&amp;rsquo;s completely understandable. None of us have experienced a pandemic in our lifetime, and both our society and economy were not prepared to deal with it gracefully. Many businesses folded or downsized, and the lack of social contact caused mental health issues for many people of all ages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I love teaching online</title>
-      <link>https://jasoneckert.github.io/myblog/why-i-love-teaching-online/</link>
+      <link>http://localhost:1313/myblog/why-i-love-teaching-online/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/why-i-love-teaching-online/</guid>
+      <guid>http://localhost:1313/myblog/why-i-love-teaching-online/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;onlineteaching.jpg#center&#34; alt=&#34;OnlineTeaching&#34; title=&#34;OnlineTeaching&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When the pandemic hit earlier this year, schools around the globe quickly embraced online teaching to continue their curriculum. While online teaching wasn&amp;rsquo;t entirely new in this space, it certainly wasn&amp;rsquo;t the norm. This meant that many teachers had to adapt quickly, as these 2 funny videos illustrate:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CCe5PaeAeew&#34;&gt;https://www.youtube.com/watch?v=CCe5PaeAeew&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Zy_y9yOrgxk&#34;&gt;https://www.youtube.com/watch?v=Zy_y9yOrgxk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;However, I&amp;rsquo;ve loved every part of this transition because I absolutely love teaching tech courses online.&lt;/p&gt;&#xA;&lt;p&gt;Grant you, I&amp;rsquo;ve had some practice prior to 2020, as well as a general interest in how the Web could be used for education. Back in the early 2000s, I designed and wrote all of the online Linux curriculum for Caldera (including the HTML and Perl scripts that hosted it). It was an early stab at online education that had as many faults as it did benefits, but I learned a great deal during the process. Years later, I got to refine what I learned during my online computer science courses at Nova Southeastern, as well as the Train-the-Trainer courses I taught for CompTIA. By this time, technology had caught up to the needs of education, and online education was quite mature with a set of common best practices and technologies that everyone implemented.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A brief history of technology</title>
-      <link>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</link>
+      <link>http://localhost:1313/myblog/a-brief-history-of-technology/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</guid>
+      <guid>http://localhost:1313/myblog/a-brief-history-of-technology/</guid>
       <description>&lt;p&gt;Technology is a crazy ride, and like that lyric in the Talking Heads song &lt;em&gt;&lt;strong&gt;Once in a Lifetime&lt;/strong&gt;&lt;/em&gt;, &amp;ldquo;&amp;hellip;you may ask yourself, well, how did I get here?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;If that&amp;rsquo;s the case, you&amp;rsquo;re in luck, because this post is a no-nonsense, give-me-the-big-picture timeline of what the heck happened in the technology landscape these past 50 years. Of course, not every little detail is in there. Just those that are actually important (in my expert opinion, of course ;-) Enjoy!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Most people don&#39;t want a computer</title>
-      <link>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</link>
+      <link>http://localhost:1313/myblog/most-people-dont-want-a-computer/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</guid>
+      <guid>http://localhost:1313/myblog/most-people-dont-want-a-computer/</guid>
       <description>&lt;p&gt;In the past few decades, people of all ages across North America have become technology-literate in some way or another. Many of them weren&amp;rsquo;t introduced to technology via desktop or laptop computers, but instead through a smartphone or tablet. Similarly, many desktop and laptop users have switched to using their smartphone or tablet over the past decade to interact with the online world.&lt;/p&gt;&#xA;&lt;p&gt;After all, smartphones and tablets are incredibly easy to use. You open an app to do what you want (social media, shopping, taking pics of food, etc.), and the rest can be done in a Web browser. It doesn&amp;rsquo;t matter where your files are stored locally because they&amp;rsquo;re easily searchable, and they&amp;rsquo;re automatically synced to the cloud so that you don&amp;rsquo;t lose them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>So, you think online conferencing is new?</title>
-      <link>https://jasoneckert.github.io/myblog/so-you-think-online-conferencing-is-new/</link>
+      <link>http://localhost:1313/myblog/so-you-think-online-conferencing-is-new/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/so-you-think-online-conferencing-is-new/</guid>
+      <guid>http://localhost:1313/myblog/so-you-think-online-conferencing-is-new/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;hespeler.png#center&#34; alt=&#34;Olde Hespeler&#34; title=&#34;Olde Hespeler&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The city that I live in (Cambridge, Ontario) was formed as an amalgamation of three smaller towns (Hespeler, Preston and Galt) in 1973. Hespeler gets its name from Jacob Hespeler, who built an impressive industrial empire in the town in 1845. Through his widespread influence, he secured railway access, as well as attracted engineering talent from as far away as Europe. By the start of World War I, Hespeler housed the largest textile mill in the British Empire, and had an electric passenger railway (Grand River Railway) that allowed easy transit to the rest of the region.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The old Web was fun</title>
-      <link>https://jasoneckert.github.io/myblog/the-old-web-was-fun/</link>
+      <link>http://localhost:1313/myblog/the-old-web-was-fun/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/the-old-web-was-fun/</guid>
+      <guid>http://localhost:1313/myblog/the-old-web-was-fun/</guid>
       <description>&lt;p&gt;I was around during the birth of the web in the early 1990s and have enjoyed every twist and turn since then. Even before creating my own personal website and blog (this site) in 1998, I maintained the Department of Science website at UW (originally &lt;a href=&#34;http://sciborg.uwaterloo.ca&#34;&gt;http://sciborg.uwaterloo.ca&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;And while I’ve enjoyed watching the evolution of the web, I still think the old web was more fun. In this blog post, I’ll tell you why. But first, let’s cover some background info!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Getting the most out of your online course</title>
-      <link>https://jasoneckert.github.io/myblog/getting-the-most-out-of-your-online-course/</link>
+      <link>http://localhost:1313/myblog/getting-the-most-out-of-your-online-course/</link>
       <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/getting-the-most-out-of-your-online-course/</guid>
+      <guid>http://localhost:1313/myblog/getting-the-most-out-of-your-online-course/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;onlineclass.png#center&#34; alt=&#34;Online class&#34; title=&#34;Online class&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The COVID-19 virus has forced colleges and universities in Ontario to quickly move their stuff to an online format to allow classes to continue using social isolation.&lt;/p&gt;&#xA;&lt;p&gt;As a learner, this means that you’ll be immersed in a new learning format that is very different from a physical classroom environment. Both physical and online learning have their own unique advantages, and you’ll likely be engaging in both over the course of your career. As a result, it’s good to familiarize yourself with online learning sooner than later!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tips to survive teaching an online course</title>
-      <link>https://jasoneckert.github.io/myblog/tips-to-survive-teaching-an-online-course/</link>
+      <link>http://localhost:1313/myblog/tips-to-survive-teaching-an-online-course/</link>
       <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/tips-to-survive-teaching-an-online-course/</guid>
+      <guid>http://localhost:1313/myblog/tips-to-survive-teaching-an-online-course/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;award.jpg#right&#34; alt=&#34;CompTIA award&#34; title=&#34;CompTIA award&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The COVID-19 virus has forced colleges and universities in Canada to quickly move their stuff to an online format to allow classes to continue using social isolation. One teacher even wrote a funny song about it: &lt;a href=&#34;https://www.youtube.com/watch?v=CCe5PaeAeew&#34;&gt;https://www.youtube.com/watch?v=CCe5PaeAeew&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’m luckier than most, since I’ve been doing online seminars and classes for a wide variety of different organizations for many years now. Most of these sessions have been Train the Trainer (TTT) classes where I teach a course to other technical instructors worldwide. Apparently I’ve gotten so good at it that I was voted best TTT instructor in 2019 by members of the Computing Technology Industry Association (CompTIA), and won their annual award at their summit in Vegas!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why you should use technology less</title>
-      <link>https://jasoneckert.github.io/myblog/why-you-should-use-technology-less/</link>
+      <link>http://localhost:1313/myblog/why-you-should-use-technology-less/</link>
       <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/why-you-should-use-technology-less/</guid>
+      <guid>http://localhost:1313/myblog/why-you-should-use-technology-less/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;techbad.png#center&#34; alt=&#34;Tech bad&#34; title=&#34;Tech bad&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Over the past few years, I’ve taken to using technology less and less in my daily life.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I leave my phone in the car when going to a party or social event. I’ll only fetch it if I want to take a picture, and only after appreciating the moment I’d like to capture to the fullest.&lt;/li&gt;&#xA;&lt;li&gt;When I listen to music on my phone (via headphones) during the long walks I take to get exercise and relax, I don’t check my phone at all. If the environment around me is interesting enough, I’ll stop the music to take in the sounds around me.&lt;/li&gt;&#xA;&lt;li&gt;I limit the time I spend perusing social media to 15 minutes at a time, and only when I’m in a relaxed mood, often in the evening. If I’m sent an interesting article during the day, I’ll quickly post it to LinkedIn/Twitter to share with others who could benefit from it, but not use that opportunity to browse other’s posts.&lt;/li&gt;&#xA;&lt;li&gt;When it comes to work commitments, I will call or meet with people when possible, rather than message or email them.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;A decade ago, my habits were entirely different:&lt;/p&gt;</description>
     </item>
     <item>
       <title>What it&#39;s like a year after quitting Facebook</title>
-      <link>https://jasoneckert.github.io/myblog/what-its-like-a-year-after-quitting-facebook/</link>
+      <link>http://localhost:1313/myblog/what-its-like-a-year-after-quitting-facebook/</link>
       <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/what-its-like-a-year-after-quitting-facebook/</guid>
+      <guid>http://localhost:1313/myblog/what-its-like-a-year-after-quitting-facebook/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;quitfacebook.png#center&#34; alt=&#34;Quit Facebook&#34; title=&#34;Quit Facebook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Just under a year ago, I quit Facebook. Yup. After a decade of using it frequently, with over 10,000 posts and 7,000 pictures.&lt;/p&gt;&#xA;&lt;p&gt;It was the best decision I made.&lt;/p&gt;&#xA;&lt;p&gt;The original premise of Facebook has always appealed to me: connect with others you know in real life, but online, in order to share pictures and information to keep current. But it also has a lot of negatives:&lt;/p&gt;</description>
     </item>
     <item>
       <title>What Nokia tells us about the Internet in 2008</title>
-      <link>https://jasoneckert.github.io/myblog/what-nokia-tells-us-about-the-internet-in-2008/</link>
+      <link>http://localhost:1313/myblog/what-nokia-tells-us-about-the-internet-in-2008/</link>
       <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/what-nokia-tells-us-about-the-internet-in-2008/</guid>
+      <guid>http://localhost:1313/myblog/what-nokia-tells-us-about-the-internet-in-2008/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;n810.png#center&#34; alt=&#34;Nokia N810&#34; title=&#34;Nokia N810&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While cleaning out a drawer last night, I came across my old, beloved Nokia N810 Internet appliance that I bought in early 2008. This thing was sexy and entirely made of aluminum. It had a touchscreen (and stylus), backlit slide-out keyboard, expandable SD storage, GPS and front-facing webcam running Maemo Linux on an ARM CPU.&lt;/p&gt;&#xA;&lt;p&gt;The N810 came out shortly after the iPhone in 2007, and just before Android phones started hitting the market en mass in 2008. But the N810 was not a phone at all.  Instead, it was a portable WiFi-only, Internet-in-your-pocket device, and something that appealed tremendously to me when I first saw it reviewed on the GeekBrief podcast with Cali Lewis.  Better yet, using the promo code on the podcast gave you 20% off and free shipping if you were in the US. When I phoned Nokia, they gladly honoured the deal for me in Canada, and I scored one for under $400 CDN.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Three reasons why incubators breed failure</title>
-      <link>https://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</link>
+      <link>http://localhost:1313/myblog/three-reasons-why-incubators-breed-failure/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/three-reasons-why-incubators-breed-failure/</guid>
+      <guid>http://localhost:1313/myblog/three-reasons-why-incubators-breed-failure/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;incubator1.png#center&#34; alt=&#34;incubator1&#34; title=&#34;incubator1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;These past few years, I’ve provided various types of support for some tech incubators in the Kitchener-Waterloo region where I live (it’s a complex arrangement that I won’t go into within this post, but mostly involves helping people with technology implementation issues related to software).  It’s not hard to find tech incubators nowadays - they’ve become quite popular this past decade, and larger cities often have several incubators of various sizes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How the cloud grew up around Linux</title>
-      <link>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</link>
+      <link>http://localhost:1313/myblog/how-the-cloud-grew-up-around-linux/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/how-the-cloud-grew-up-around-linux/</guid>
+      <guid>http://localhost:1313/myblog/how-the-cloud-grew-up-around-linux/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cloudy.png#center&#34; alt=&#34;cloudy&#34; title=&#34;cloudy&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Open source software has had a powerful effect on computing. When the ARPANET/NSFNET was sold to different companies in the 1990s to create the commercial Internet, nobody expected it to grow as fast as it did. It was the open source Apache Web server running on the open source Linux (and BSD UNIX) operating system that ultimately allowed the Internet to grow quickly and attract the attention of the world.  Apache on Linux allowed anyone with a computer and Internet connection to implement a Web server to serve Web pages as part of the World Wide Web of Internet resources. In short, if there was no open source Web server or operating system freely available in the 1990s, the rise of the Internet would have been dramatically slower or even non-existent until the 2000s. The Internet and the World Wide Web grew up around open source and Linux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blockchain for IT pros</title>
-      <link>https://jasoneckert.github.io/myblog/blockchain-for-it-pros/</link>
+      <link>http://localhost:1313/myblog/blockchain-for-it-pros/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/blockchain-for-it-pros/</guid>
+      <guid>http://localhost:1313/myblog/blockchain-for-it-pros/</guid>
       <description>&lt;p&gt;IT professionals are often asked to describe technologies to others within their organization, and this includes buzz words they may have heard in some tech article or trade magazine:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;bc1.gif#center&#34; alt=&#34;BC1&#34; title=&#34;BC1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There’s definitely no shortage of these buzz words in the tech industry - “the cloud,” “the Web 2.0,” “XaaS,” “CyberSecurity,” and of course “bitcoin” and “blockchain” are layered as thick as possible within articles and blogs to bolster clicks, likes and shares.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Halt and Catch Fire</title>
-      <link>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</link>
+      <link>http://localhost:1313/myblog/halt-and-catch-fire/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</guid>
+      <guid>http://localhost:1313/myblog/halt-and-catch-fire/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;haltandcatchfire.png#center&#34; alt=&#34;Halt and Catch Fire&#34; title=&#34;Halt and Catch Fire&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Halt and Catch Fire is an AMC television series that ran for four seasons from 2014-2017, and covers the culture and pivotal aspects of the computing industry from 1983 (just after the release of the IBM PC) to 1994 (when the Internet and World Wide Web exploded).&lt;/p&gt;&#xA;&lt;p&gt;You can binge watch it on Netflix if you like today, and trust me - you won’t be disappointed!  Halt and Catch Fire is the best drama I’ve ever seen - an emotional rollercoaster like no other.  The characters are unforgettable, the acting is nothing short of phenomenal, and the entire series has an incredible message about technology and human progress that you only get once you see the final episode!&lt;/p&gt;</description>
     </item>
     <item>
       <title>10 years of Facebook humour</title>
-      <link>https://jasoneckert.github.io/myblog/10-years-of-facebook-humour/</link>
+      <link>http://localhost:1313/myblog/10-years-of-facebook-humour/</link>
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/10-years-of-facebook-humour/</guid>
+      <guid>http://localhost:1313/myblog/10-years-of-facebook-humour/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;facebook.png#right&#34; alt=&#34;Facebook&#34; title=&#34;Facebook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While most of my posts are pictures (funny pictures, persona pictures, memes, etc.), I’ve also got lots of funny text posts.  I got a chuckle out of reading them again, so I thought I’d share them here for others to enjoy!&lt;/p&gt;&#xA;&lt;p&gt;Here they are, sorted from newest to oldest:&lt;/p&gt;&#xA;&lt;p&gt;If you want to rapidly get through a crowded area, just carry a clipboard and try to make eye contact with people. People will give you space&amp;hellip;.fast ;-)&lt;/p&gt;</description>
     </item>
     <item>
       <title>The World Wide Web turns 25 years old today</title>
-      <link>https://jasoneckert.github.io/myblog/www-turns-25/</link>
+      <link>http://localhost:1313/myblog/www-turns-25/</link>
       <pubDate>Tue, 23 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/www-turns-25/</guid>
+      <guid>http://localhost:1313/myblog/www-turns-25/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;www1.png#center&#34; alt=&#34;WWW1&#34; title=&#34;WWW1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;On August 6, 1991, Tim Berners-Lee created a post detailing his World Wide Web project on a newsgroup called alt.hypertext in order to entice others to collaborate with him and create and host Web pages for the World Wide Web.  However, it wasn’t until August 23, 1991 that it was made publicly accessible for the world to see.  You could argue that August 6 is the real birth of the World Wide Web, but most websites and news aggregators acknowledge August 23 as the true birth of the World Wide Web, including Facebook, which included it as a news item today for everyone!&lt;/p&gt;</description>
     </item>
     <item>
       <title>A look back at the dotcom bubble</title>
-      <link>https://jasoneckert.github.io/myblog/the-dotcom-bubble/</link>
+      <link>http://localhost:1313/myblog/the-dotcom-bubble/</link>
       <pubDate>Fri, 20 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/the-dotcom-bubble/</guid>
+      <guid>http://localhost:1313/myblog/the-dotcom-bubble/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;dotcom.png#center&#34; alt=&#34;dotcom&#34; title=&#34;dotcom&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Just over a decade ago, the dotcom bubble burst, and for the next 3-4 years, the IT industry (and IT job market) was in a slump.&lt;/p&gt;&#xA;&lt;p&gt;During the last presentation I did for Game On 2.0 on August 29th, one of the audience members asked me what the dotcom bubble actually was.  I supplied the standard Web answer of “overspending in the IT market” and “mismanagement of IT resources” (or something like that).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reddit took down my website!</title>
-      <link>https://jasoneckert.github.io/myblog/reddit-took-down-my-site/</link>
+      <link>http://localhost:1313/myblog/reddit-took-down-my-site/</link>
       <pubDate>Sun, 30 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/reddit-took-down-my-site/</guid>
+      <guid>http://localhost:1313/myblog/reddit-took-down-my-site/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;reddit1.png#center&#34; alt=&#34;Reddit1&#34; title=&#34;Reddit1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yup - I woke up Saturday to find the message above when I visited my website. I’ve used Primus (Planet Domain) for the past 8 years as a hosting provider, and I’ve never had any issues whatsoever - including reaching my bandwidth cap.&lt;/p&gt;&#xA;&lt;p&gt;For starters, I was a little concerned, so I logged into my cpanel and checked out the AWSTATS first:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;reddit2.jpg#center&#34; alt=&#34;Reddit2&#34; title=&#34;Reddit2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Holy crap!  Did I just get too much traffic this month?  I have been doing a lot of linking to my site from twitter for Game On 2.0 at the Ontario Science Centre. So I decided to view the day-by-day bandwidth:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Marshall McLuhan was right</title>
-      <link>https://jasoneckert.github.io/myblog/marshall-mcluhan-was-right/</link>
+      <link>http://localhost:1313/myblog/marshall-mcluhan-was-right/</link>
       <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/marshall-mcluhan-was-right/</guid>
+      <guid>http://localhost:1313/myblog/marshall-mcluhan-was-right/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;mcluhan.png#center&#34; alt=&#34;McLuhan&#34; title=&#34;McLuhan&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Everyone understands, to some degree, the impact that technology has on our lives.  However, if you are an avid reader of “idea” books (for lack of a better word), then you also know that some people understand it poorly at best.&lt;/p&gt;&#xA;&lt;p&gt;Take, for example, the book &lt;em&gt;&lt;strong&gt;The Shallows&lt;/strong&gt;&lt;/em&gt; by Nicholas Carr.  Carr argues that the Internet has reduced our ability to carefully reason through problems and use our imagination.  And plenty of people have taken the time to carefully point out the flaws in his views.  And you can do it easily - just take a few moments to reflect on what you do to accomplish some of the small tasks you perform today.  Now think of those same small tasks 20 years ago, and what you had to do to accomplish them back then - you’ll see a world of difference.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How the term &#39;cloud&#39; was invented</title>
-      <link>https://jasoneckert.github.io/myblog/how-the-term-cloud-was-coined/</link>
+      <link>http://localhost:1313/myblog/how-the-term-cloud-was-coined/</link>
       <pubDate>Thu, 26 Jul 2012 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/how-the-term-cloud-was-coined/</guid>
+      <guid>http://localhost:1313/myblog/how-the-term-cloud-was-coined/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cloud.png#center&#34; alt=&#34;cloud term&#34; title=&#34;cloud term&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in the 1990s, you could look smart my talking about the “Information Superhighway” (the Internet).  In the early 2000s, the catch-phase of the day was “eCommerce” (buying crap on the Internet), and in the late 2000s non-technical managers would often toot about “Web 2.0” (an imaginary Internet that basically is the current Internet, but with more content).&lt;/p&gt;&#xA;&lt;p&gt;Around 2010, non-technical managers, CIOs, and executives were struggling to find a new BS phrase to call the Internet that will make them look good in meetings.  Well, that name has now been chosen, and it is the most retarded named used so far:  the cloud.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QNX on a moon rover</title>
-      <link>https://jasoneckert.github.io/myblog/qnx-on-a-moon-rover/</link>
+      <link>http://localhost:1313/myblog/qnx-on-a-moon-rover/</link>
       <pubDate>Mon, 02 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/qnx-on-a-moon-rover/</guid>
+      <guid>http://localhost:1313/myblog/qnx-on-a-moon-rover/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;moon.png#center&#34; alt=&#34;moon&#34; title=&#34;moon&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in September 2011, a group of McMaster business and engineering students started a project aimed to build a moon rover that would be run by the QNX operating system on a BlackBerry PlayBook - a Canadian initiative with Canadian technologies (QNX is 100% Canadian). Here is a link to the original article on CrackBerry.com from the beginning of the project: &lt;a href=&#34;https://crackberry.com/forums-new-group-aims-put-blackberry-playbook-powered-rover-moon&#34;&gt;https://crackberry.com/forums-new-group-aims-put-blackberry-playbook-powered-rover-moon&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I reached out to them because of that article since I’ve had experience with QNX and PlayBook development.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SOPA and PIPA</title>
-      <link>https://jasoneckert.github.io/myblog/sopa-and-pipa/</link>
+      <link>http://localhost:1313/myblog/sopa-and-pipa/</link>
       <pubDate>Sat, 21 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/sopa-and-pipa/</guid>
+      <guid>http://localhost:1313/myblog/sopa-and-pipa/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;sopapipa.jpg#right&#34; alt=&#34;SOPA and PIPA&#34; title=&#34;SOPA and PIPA&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;With the massive SOPA/PIPA website content blackout on January 18th (including major sites such as Wikipedia), the general public suddenly became far more educated on digital freedom issues.&lt;/p&gt;&#xA;&lt;p&gt;The music and movie industry has amassed a fortune in the last 50 years selling music and movies before the dawn of the Internet.  Back then, if you wanted music, you had to buy it on some physical medium such as a cassette tape or CD.  Similarly, if you wanted to see a movie, you went to the movie theatre and then bought the VHS tape or DVD 6 months later.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Google like a pro</title>
-      <link>https://jasoneckert.github.io/myblog/using-google-like-a-pro/</link>
+      <link>http://localhost:1313/myblog/using-google-like-a-pro/</link>
       <pubDate>Sat, 14 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/using-google-like-a-pro/</guid>
+      <guid>http://localhost:1313/myblog/using-google-like-a-pro/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;google.png#right&#34; alt=&#34;Google&#34; title=&#34;Google&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Google is an extremely powerful set of tools (not just the search engine - Google apps as well!).  However, few people really know how to find what they want using it.  So here are a few tips you can use when using Google:&lt;/p&gt;&#xA;&lt;p&gt;Putting quotes around a set of words tells Google to search for those words specifically as a single item - for example, to search only for cell phone radiation you could enter:&lt;/p&gt;</description>
     </item>
     <item>
       <title>BCE, CE, and the new IE</title>
-      <link>https://jasoneckert.github.io/myblog/bce-ce-ie/</link>
+      <link>http://localhost:1313/myblog/bce-ce-ie/</link>
       <pubDate>Mon, 22 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/bce-ce-ie/</guid>
+      <guid>http://localhost:1313/myblog/bce-ce-ie/</guid>
       <description>&lt;p&gt;I Google everything.  What I find annoying is this:  When you Google something that existed before the Internet and has no ongoing importance today (such as local landmarks that have since disappeared), there is literally NOTHING on the Internet about it.&lt;/p&gt;&#xA;&lt;p&gt;For example, Leisure Lodge was a very large and glorious hall on the outskirts of Preston (now a part of Cambridge, Ontario) that was THE place to go from the 1950s to 1970s - they had their own big band group (the John Kostigian orchestra), and in the 1970s, they were the biggest disco joint around (they even hosted the Miss Nude World Competition one year).  It burned down in 1980 and the ruins of it still exist at the edge of the Kinsmen Stadium next to Hwy 401 between Cambridge and Kitchener, Ontario.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Funny Internet Shakespeare typo</title>
-      <link>https://jasoneckert.github.io/myblog/funny-internet-shakespeare-typo/</link>
+      <link>http://localhost:1313/myblog/funny-internet-shakespeare-typo/</link>
       <pubDate>Wed, 17 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/funny-internet-shakespeare-typo/</guid>
+      <guid>http://localhost:1313/myblog/funny-internet-shakespeare-typo/</guid>
       <description>&lt;p&gt;I’m currently finishing the 3rd edition of my Guide To Linux Certification for Cengage.  In Chapter 7, I used the following text from Shakespeare in the section on the stream editor (sed):&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;    Two households, both alike in dignity,&#xA;    In fair Verona, where we lay our scene,&#xA;    From ancient grudge break to new mutiny,&#xA;    Where civil blood makes civil hands unclean.&#xA;    From forth the fatal loins of these two foes&#xA;    A pair of star-cross’d lovers take their life;&#xA;    Whole misadventured piteous overthrows&#xA;    Do with their death bury their parents’ strife.&#xA;    The fearful passage of their death-mark’d love,&#xA;    And the continuance of their parents’ rage,&#xA;    Which, but their children’s end, nought could remove,&#xA;    Is now the two hours’ traffic of our stage;&#xA;    The which if you with patient ears attend,&#xA;    What here shall miss, our toil shall strive to mend.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I originally grabbed that passage from the Internet (copy-and-paste is easier than typing), but the technical editor caught a typo (Whole misadventured piteous overthrows should be Whose misadventured piteous overthrows). I verified it on the Internet and just thought it was one of those weird Olde English things, but the copyeditor verified it as a typo (she has an English degree) and also found out that it was a simple transcription typo (Whose &amp;ndash;&amp;gt; Whole) that managed to spread quickly across the Internet because most people prefer to copy-and-paste Shakespeare rather than type it out manually!  Hilarious.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jaron Lanier on technology</title>
-      <link>https://jasoneckert.github.io/myblog/jaron-lanier-on-technology/</link>
+      <link>http://localhost:1313/myblog/jaron-lanier-on-technology/</link>
       <pubDate>Sun, 23 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/jaron-lanier-on-technology/</guid>
+      <guid>http://localhost:1313/myblog/jaron-lanier-on-technology/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;jaron.jpg#right&#34; alt=&#34;Jaron Lanier&#34; title=&#34;Jaron Lanier&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jaron Lanier is a technologist who is known for coining the term “virtual reality” in the 1980s (he started VPL Research - the first virtual reality company).&lt;/p&gt;&#xA;&lt;p&gt;I saw him speak during on the of the debates at the Quantum to Cosmos festival last year (a Pi Institute event in Waterloo, Ontario), and quickly Googled him (since he was the only person during the debate who actually said anything worth listening to).  A few months ago, his first book (You are not a gadget) was released, and I just finished reading it twice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Copyright in Canada</title>
-      <link>https://jasoneckert.github.io/myblog/copyright-in-canada/</link>
+      <link>http://localhost:1313/myblog/copyright-in-canada/</link>
       <pubDate>Sat, 23 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/copyright-in-canada/</guid>
+      <guid>http://localhost:1313/myblog/copyright-in-canada/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;copyright.jpg#right&#34; alt=&#34;Copyright&#34; title=&#34;Copyright&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thirty years ago, people bought music on a record&amp;hellip;.a tangible thing like any other item for sale in a store.  Now, people can download information (text, music, movies, etc.) from the Internet effortlessly.  This copying of information has threatened the business models of many large and powerful companies such as music labels and movie producers.  And these companies have reacted to their shrinking profits by abusing copyright and suing their customers rather than changing their business models.&lt;/p&gt;</description>
     </item>
     <item>
       <title>BlackBerry then and now</title>
-      <link>https://jasoneckert.github.io/myblog/blackberry-then-and-now/</link>
+      <link>http://localhost:1313/myblog/blackberry-then-and-now/</link>
       <pubDate>Wed, 28 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/blackberry-then-and-now/</guid>
+      <guid>http://localhost:1313/myblog/blackberry-then-and-now/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;bb.png#center&#34; alt=&#34;BlackBerry 950 and 8830&#34; title=&#34;BlackBerry 950 and 8830&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;You know - most technologies change drastically over time.  As a result, I got my hands on an old BlackBerry 950 model from 1998 (the 850/950 series were the original BlackBerry smartphones on the 800/900 MHz Mobitex networks, respectively).&lt;/p&gt;&#xA;&lt;p&gt;The problem is this:  It really hasn’t changed that much.  Aside from the color and graphics, the BlackBerry 950 running BlackBerry Device Software 2.5 had pretty much the same applications and functionality as the BlackBerry 8830 running BlackBerry Device Software 4.5!&lt;/p&gt;</description>
     </item>
     <item>
       <title>I created the Internet</title>
-      <link>https://jasoneckert.github.io/myblog/i-created-the-internet/</link>
+      <link>http://localhost:1313/myblog/i-created-the-internet/</link>
       <pubDate>Tue, 16 Dec 2008 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/i-created-the-internet/</guid>
+      <guid>http://localhost:1313/myblog/i-created-the-internet/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;theinternet.jpg#center&#34; alt=&#34;The Internet&#34; title=&#34;The Internet&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Complete with blinking light! It&amp;rsquo;s amazing what you can make with a soldering iron and the spare electrical parts you have in your basement.&lt;/p&gt;&#xA;&lt;p&gt;If you are wondering what the heck I am talking about, just watch the BBC sitcom “The IT Crowd” Series 3 Episode 4.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Netscape RIP 1994-2008</title>
-      <link>https://jasoneckert.github.io/myblog/netscape-rip-1994-2008/</link>
+      <link>http://localhost:1313/myblog/netscape-rip-1994-2008/</link>
       <pubDate>Wed, 02 Jan 2008 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/netscape-rip-1994-2008/</guid>
+      <guid>http://localhost:1313/myblog/netscape-rip-1994-2008/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;netscape.jpg#right&#34; alt=&#34;Netscape Navigator&#34; title=&#34;Netscape Navigator&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When I read my Google news today and found out that AOL is no longer going to develop and support Netscape as of February 2008, the first thing that came to mind was:  What the heck?  I thought Netscape was already dead!&lt;/p&gt;&#xA;&lt;p&gt;I always equated Netscape with older systems such as Windows 9x and SCO Unixware 7.1.2 (the only web browser that ran on its crappy GUI).  I haven’t heard  anyone who has used the browser in years.  Everyone I know uses IE, Firefox or Safari.  After AOL bought Netscape, I thought they distributed Netscape for a while and then gave up&amp;hellip;&amp;hellip;.I didn’t think it was still out there.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Anniversary of the World Wide Web</title>
-      <link>https://jasoneckert.github.io/myblog/anniversary-of-the-world-wide-web/</link>
+      <link>http://localhost:1313/myblog/anniversary-of-the-world-wide-web/</link>
       <pubDate>Mon, 12 Nov 2007 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/anniversary-of-the-world-wide-web/</guid>
+      <guid>http://localhost:1313/myblog/anniversary-of-the-world-wide-web/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;theweb.png#right&#34; alt=&#34;web&#34; title=&#34;web&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Do you remember the dawn of the Internet in the mid 1990s?  Everyone was talking about the “Information Superhighway” (a cheesy term for the Internet back then) and how it would change everyone’s life.  Then people starting talking about the World Wide Web (WWW) and email and facebook.&lt;/p&gt;&#xA;&lt;p&gt;Still today, many people don’t know how to properly define the World Wide Web and the Internet.  At dinner parties with non-geek friends, I like to bring this up by asking, “So, can anyone here tell me what the Internet and World Wide Web are?”.  People start by blurting out things such as email and text messaging and doing taxes online, and usually someone argues that it is a social phenomenon or something, but eventually people start to realize that they really have no idea what the Internet and World Wide Web actually are.  I can be a bastard sometimes, but it is fun.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Server closet Buddha shrine</title>
-      <link>https://jasoneckert.github.io/myblog/server-closet-buddha-shrine/</link>
+      <link>http://localhost:1313/myblog/server-closet-buddha-shrine/</link>
       <pubDate>Fri, 10 Aug 2007 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/server-closet-buddha-shrine/</guid>
+      <guid>http://localhost:1313/myblog/server-closet-buddha-shrine/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;buddha.jpg#center&#34; alt=&#34;Buddha shrine&#34; title=&#34;Buddha shrine&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;For the past 2 years, I have had a Buddha Shrine in the server closet in my office.  I carefully researched proper Buddha Shrine requirements and styles on Google before I chose the above arrangement (Buddha must be elevated and surrounded by objects that represent tokens of life).&lt;/p&gt;&#xA;&lt;p&gt;Why did I do this?  Simple.  To speed up our current Internet access and reduce the number of times that we need to reboot/reset classroom routers (when caches fill up, etc.). Since I encourage instructors and TAs to reset their own router as necessary to maintain Internet access, I have made some easy-to-follow instructions and placed them on the wall of the server closet:&lt;/p&gt;</description>
     </item>
     <item>
       <title>New Years security resolutions for 2006</title>
-      <link>https://jasoneckert.github.io/myblog/new-years-security-resolutions-for-2006/</link>
+      <link>http://localhost:1313/myblog/new-years-security-resolutions-for-2006/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/new-years-security-resolutions-for-2006/</guid>
+      <guid>http://localhost:1313/myblog/new-years-security-resolutions-for-2006/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ie.png#center&#34; alt=&#34;funny&#34; title=&#34;funny&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-dont-give-personal-information-to-obtain-documents-on-the-web&#34;&gt;1. Don’t give personal information to obtain documents on the web&lt;/h1&gt;&#xA;&lt;p&gt;Many sites want you to register to get a free document or certain web page.  What do you think they use your information for?  Spam, spam and more spam.  If you want to get these documents without putting in your personal information, simply put the URL for the site in &lt;a href=&#34;http://bugmenot.com&#34;&gt;http://bugmenot.com&lt;/a&gt; and get past the registration!&lt;/p&gt;&#xA;&lt;h1 id=&#34;2-protect-against-viruses&#34;&gt;2. Protect against Viruses&lt;/h1&gt;&#xA;&lt;p&gt;Use Firefox  - Many spyware/malware/viruses have code that targets Internet Explorer.  Why not use Firefox instead?  It’s the web browser that crackers (who make the spyware/malware/viruses) use to browse the web and it stops most pop-up windows, viruses and spyware.&lt;/p&gt;</description>
     </item>
   </channel>

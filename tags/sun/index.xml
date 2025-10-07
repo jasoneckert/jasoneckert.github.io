@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SUN on Jason Eckert&#39;s Website and Blog</title>
-    <link>https://jasoneckert.github.io/tags/sun/</link>
+    <link>http://localhost:1313/tags/sun/</link>
     <description>Recent content in SUN on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jasoneckert.github.io/tags/sun/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/sun/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RISCy business: The long and convoluted rise of today&#39;s dominant computing platform</title>
-      <link>https://jasoneckert.github.io/myblog/riscy-business/</link>
+      <link>http://localhost:1313/myblog/riscy-business/</link>
       <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/riscy-business/</guid>
+      <guid>http://localhost:1313/myblog/riscy-business/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;RISC.png#center&#34; alt=&#34;RISC timeline&#34; title=&#34;RISC timeline&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;risc-vs-cisc&#34;&gt;RISC vs CISC&lt;/h1&gt;&#xA;&lt;p&gt;Traditionally, most computing platforms were built with the burden of software in mind. To ensure that a software program could be written easily and with fewer instructions, additional circuitry was added to the central processing unit (CPU) to compensate. This was referred to as complex instruction set computing (CISC). CISC architecture is still common today thanks to the x86 architecture used by Intel and AMD CPUs in most workstations and servers. Unfortunately, the added circuitry within CISC CPUs equated to added cost and complexity - both of which made it more expensive to evolve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SPARCbook teardown</title>
-      <link>https://jasoneckert.github.io/myblog/sparcbook-teardown/</link>
+      <link>http://localhost:1313/myblog/sparcbook-teardown/</link>
       <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/sparcbook-teardown/</guid>
+      <guid>http://localhost:1313/myblog/sparcbook-teardown/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;s3000_ad.gif#right&#34; alt=&#34;SPARCbook 3000ST ad&#34; title=&#34;SPARCbook 3000ST ad&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in 2019, I picked up a rare SPARC-based laptop from the 1990s running Solaris UNIX (marketed as the &lt;em&gt;&lt;strong&gt;ultimate UNIX portable&lt;/strong&gt;&lt;/em&gt; on the Tadpole website in 1997). You can read my blog post on it here: &lt;a href=&#34;../../myblog/sparcbook3000st-the-coolest-90s-laptop/&#34; title=&#34;SPARCbook 3000ST: The coolest 90s laptop&#34;&gt;SPARCbook 3000ST: The coolest 90s laptop&lt;/a&gt;. It occasionally shows up on Hacker News, and I get plenty of comments whenever I post it on Reddit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Halt and Catch Fire</title>
-      <link>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</link>
+      <link>http://localhost:1313/myblog/halt-and-catch-fire/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/halt-and-catch-fire/</guid>
+      <guid>http://localhost:1313/myblog/halt-and-catch-fire/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;haltandcatchfire.png#center&#34; alt=&#34;Halt and Catch Fire&#34; title=&#34;Halt and Catch Fire&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Halt and Catch Fire is an AMC television series that ran for four seasons from 2014-2017, and covers the culture and pivotal aspects of the computing industry from 1983 (just after the release of the IBM PC) to 1994 (when the Internet and World Wide Web exploded).&lt;/p&gt;&#xA;&lt;p&gt;You can binge watch it on Netflix if you like today, and trust me - you won’t be disappointed!  Halt and Catch Fire is the best drama I’ve ever seen - an emotional rollercoaster like no other.  The characters are unforgettable, the acting is nothing short of phenomenal, and the entire series has an incredible message about technology and human progress that you only get once you see the final episode!&lt;/p&gt;</description>
     </item>
     <item>
       <title>RIP Solaris</title>
-      <link>https://jasoneckert.github.io/myblog/rip-solaris/</link>
+      <link>http://localhost:1313/myblog/rip-solaris/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/rip-solaris/</guid>
+      <guid>http://localhost:1313/myblog/rip-solaris/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;solaris.png#center&#34; alt=&#34;Solaris&#34; title=&#34;Solaris&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The 80s and 90s was a period of intense development in the computer hardware and software worlds.  On the hardware side, processors started to become much more powerful, and the word on the streets was that RISC (Reduced Instruction Set Computing) was going to be the way of the future.  Powerful RISC platforms emerged during this time, including Sun Microsystems SPARC, HP PA-RISC, SGI MIPS, IBM PowerPC, and the DEC Alpha - these platforms were very powerful, and ushered in 64-bit computing over a decade before it became common in home computers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>50 shades of Cray</title>
-      <link>https://jasoneckert.github.io/myblog/50-shades-of-cray/</link>
+      <link>http://localhost:1313/myblog/50-shades-of-cray/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/50-shades-of-cray/</guid>
+      <guid>http://localhost:1313/myblog/50-shades-of-cray/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cray.png#center&#34; alt=&#34;CRAY&#34; title=&#34;CRAY&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you wanted a fast computer back in 1976, you bought the 5.5 ton, $9 million Cray-1 made by Cray Research.  The Cray-1 was dubbed the first supercomputer as it was designed to be much faster than other (more massive) computers of the time.&lt;/p&gt;&#xA;&lt;p&gt;It was incredibly successful in the large computing space and Cray subsequently released a much faster model called the Cray X-MP in 1983 (shown in the picture at the top of this post).  By today’s standards, the Cray X-MP was nothing special (it was only half as powerful as an original Xbox from 2001). but for the 1980s, it was incredibly powerful!  The graphics in the movie “The Last Starfighter” were created on a Cray X-MP.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Futuretech &#39;92</title>
-      <link>https://jasoneckert.github.io/myblog/futuretech-92/</link>
+      <link>http://localhost:1313/myblog/futuretech-92/</link>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/futuretech-92/</guid>
+      <guid>http://localhost:1313/myblog/futuretech-92/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ft92a.png#center&#34; alt=&#34;FT92a&#34; title=&#34;FT92a&#34;&gt;&#xA;&lt;img src=&#34;ft92b.png#left&#34; alt=&#34;FT92b&#34; title=&#34;FT92b&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This year marks Canada’s 150th anniversary (1867-2017), and while there are some cool events happening this year (e.g. National Parks have free admission), there really isn’t a lot of hoopla surrounding it.&lt;/p&gt;&#xA;&lt;p&gt;However, I have very fond memories of Canada’s 125th anniversary in 1992, because that’s when I got to go to Alberta as part of a student enrichment event.&lt;/p&gt;&#xA;&lt;p&gt;In the summer of 1992, the Canadian government hosted an event called Futuretech ’92,   where 125 of the top students from Eastern Canada were flown to Calgary for a week of educational motivation, and 125 of the top students from Western Canada were flown to Montreal for the same.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2. Retro Computers</title>
-      <link>https://jasoneckert.github.io/info/retrocomputers/</link>
+      <link>http://localhost:1313/info/retrocomputers/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/info/retrocomputers/</guid>
+      <guid>http://localhost:1313/info/retrocomputers/</guid>
       <description>&lt;h1 id=&#34;apple&#34;&gt;Apple&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;appleiic.jpg#right&#34; alt=&#34;Apple IIc&#34; title=&#34;Apple IIc&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Apple Computer was founded by Steve Wozniak and Steve Jobs in 1976. Steve Wozniak provided the technical genius for computer creation, while Steve Jobs provided the expertise in marketing and design. Their first major commercially adopted product was the Apple II in 1977, which had a MOS 6502 CPU (also used in Commodore computers such as the Commodore 64) and shipped with BASIC and the DOS operating system (later versions). The Apple II was very well built and had tons of expansion ports. It inspired thousands of people to enter the computer world. Thousands of programs were made for it, and it made its way into nearly every industry in a short period of time. The famous spreadsheet, Visicalc, made the Apple II a great business tool, its ease of use made it extremely popular in the school system (every school I went to had them, even in the 1990s), and its BASIC interpreter and easy expandability made it famous with hackers, engineers and scientists (the first demonstration of public key cryptography was hacked together by a few mathematicians on an Apple II).&lt;/p&gt;</description>
     </item>
     <item>
       <title>7. Three Unconventional Tips for Career Success</title>
-      <link>https://jasoneckert.github.io/info/gradspeech/</link>
+      <link>http://localhost:1313/info/gradspeech/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/info/gradspeech/</guid>
+      <guid>http://localhost:1313/info/gradspeech/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;success.png#center&#34; alt=&#34;career success&#34; title=&#34;career success&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-dont-turn-down-an-opportunity-because-it-isnt-the-job-you-want&#34;&gt;1. Don&amp;rsquo;t turn down an opportunity because it isn&amp;rsquo;t the job you want&lt;/h1&gt;&#xA;&lt;p&gt;Career progression is never a straight line, and good opportunities don&amp;rsquo;t actually have the words &lt;em&gt;&lt;strong&gt;good opportunity&lt;/strong&gt;&lt;/em&gt; written in bold letters on them &amp;ndash; you never know where they will lead you.&lt;/p&gt;&#xA;&lt;p&gt;For example, back around the year 2000 I was asked to teach a corporate Linux course on the weekends. I didn&amp;rsquo;t want to give up my weekends for a month, and quite frankly I thought it would be a boring waste of my abilities and time. But I did it anyways, and one of the amazing students in my class worked for Compaq and introduced me to SHARCnet.&lt;/p&gt;</description>
     </item>
   </channel>

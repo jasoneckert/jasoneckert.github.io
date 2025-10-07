@@ -2,136 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microsoft on Jason Eckert&#39;s Website and Blog</title>
-    <link>https://jasoneckert.github.io/tags/microsoft/</link>
+    <link>http://localhost:1313/tags/microsoft/</link>
     <description>Recent content in Microsoft on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jasoneckert.github.io/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Win10 Is Nearing End-of-Life: What Should You Do Next?</title>
-      <link>https://jasoneckert.github.io/myblog/win10eol/</link>
+      <link>http://localhost:1313/myblog/win10eol/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/win10eol/</guid>
+      <guid>http://localhost:1313/myblog/win10eol/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;win10eol.png#center&#34; alt=&#34;Win10 EOL&#34; title=&#34;Win10 EOL&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Microsoft has officially set the end-of-life (EOL) date for the Windows 10 (Win10) OS to October 14, 2025. This means that as of that date, there will be no more security updates, bug fixes, or official support for most users. While that date may seem far off (I rarely plan what I’m doing this weekend), it’s wise to start planning now, especially if you’re running Win10 on older hardware or aren’t ready (or able) to jump to Windows 11 (Win11).&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Story Behind the Mac vs PC Rivalry — And Where Linux Quietly Took Over</title>
-      <link>https://jasoneckert.github.io/myblog/mac-vs-pc/</link>
+      <link>http://localhost:1313/myblog/mac-vs-pc/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/mac-vs-pc/</guid>
+      <guid>http://localhost:1313/myblog/mac-vs-pc/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;mac-vs-pc.jpg#center&#34; alt=&#34;Mac vs PC&#34; title=&#34;Mac vs PC&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When it comes to computers, most people today use either a Mac or a PC. In this post, I’ll explore how this digital rivalry began, how it shaped modern computing — and how Linux quietly carved out a space of its own.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-early-days-roots-of-the-rivalry&#34;&gt;The Early Days: Roots of the Rivalry&lt;/h1&gt;&#xA;&lt;p&gt;In the 1980s, personal computers (PCs) began appearing in homes, schools, and businesses across the world. A wide range of companies entered the market, including Apple, IBM, Tandy, Commodore, Atari, Texas Instruments, and Sinclair. Most of these early machines featured basic text-based interfaces — often just a simple version of the BASIC programming language. But a few notable outliers, like the Apple Macintosh and the IBM PC, ran more sophisticated operating systems that hinted at what modern computing would eventually become.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Leveraging WSL2 for Systems &amp; Cloud Administration, Cybersecurity, and Software Development</title>
-      <link>https://jasoneckert.github.io/myblog/wsl2/</link>
+      <link>http://localhost:1313/myblog/wsl2/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/wsl2/</guid>
+      <guid>http://localhost:1313/myblog/wsl2/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;desktop.png#center&#34; alt=&#34;Win11 Desktop running 3 WSL2 instances&#34; title=&#34;Win11 Desktop running 3 WSL2 instances&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s quite a bit going on in the Windows 11 desktop pic shown at the top of this post. To see the details, you can pinch zoom the pic if you are on a phone or touchscreen device, or right-click the pic and choose to open it in a new browser tab if you are on a desktop computer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 in Review</title>
-      <link>https://jasoneckert.github.io/myblog/2024-in-review/</link>
+      <link>http://localhost:1313/myblog/2024-in-review/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/2024-in-review/</guid>
+      <guid>http://localhost:1313/myblog/2024-in-review/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s important to pause and reflect every so often to stay grounded and focused. So, each December I look back on the year&amp;rsquo;s events and summarize them in a blog post. And after doing this again this year, I realize that 2024 was one of reflection, gratitude, and exploration.&lt;/p&gt;&#xA;&lt;p&gt;I was fortunate enough to go on some epic winter hiking adventures with my dog Pepper in January before she &lt;a href=&#34;../remembering-pepper/&#34;&gt;passed away in February&lt;/a&gt; at the age of 13. Losing a dog is the hardest thing because we form such strong bonds, but she was an amazing dog that had an awesome life and I&amp;rsquo;m grateful for all of it. I&amp;rsquo;m reminded of a pet memorial plaque I saw many years ago that said &amp;ldquo;&lt;em&gt;&lt;strong&gt;Don&amp;rsquo;t cry because it&amp;rsquo;s over. Smile because it happened.&lt;/strong&gt;&lt;/em&gt;&amp;rdquo; I spread her ashes in the areas she loved most: my back yard, the sports park behind my house, the public park at the end of my street, and in the stream under the bridge my daughter and I often took her to on the Mill Run trail.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Running an LLM locally using Ollama</title>
-      <link>https://jasoneckert.github.io/myblog/llms-using-ollama/</link>
+      <link>http://localhost:1313/myblog/llms-using-ollama/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/llms-using-ollama/</guid>
+      <guid>http://localhost:1313/myblog/llms-using-ollama/</guid>
       <description>&lt;p&gt;If you are developing or integrating software with a Large Language Model (LLM) to add chatbot or other AI functionality, then you may have the need to host and run an LLM on your local workstation for development or testing. There are several open source LLMs available that you can freely run on your system provided that you have enough resources to do so.&lt;/p&gt;&#xA;&lt;p&gt;LLMs are just inert objects that require special software to allow people and other software to interact with it (called &lt;em&gt;&lt;strong&gt;running the model&lt;/strong&gt;&lt;/em&gt;). Unfortunately, setting up the software components to run a model is akin to nailing Jello to a tree.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installing a Fedora Linux ARM VM from a Raw Image</title>
-      <link>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</link>
+      <link>http://localhost:1313/myblog/linux-arm-raw-image/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/linux-arm-raw-image/</guid>
+      <guid>http://localhost:1313/myblog/linux-arm-raw-image/</guid>
       <description>&lt;p&gt;Many professionals who work in Information Technology (IT) or software development use an ARM-based PC, such as an Apple Silicon Mac, Snapdragon Elite X Windows Copilot+ PC, or an ARM Linux workstation such as the System76 Thelio Astra. Similarly, many students learning IT or software development may also use an ARM-based PC. For all of these people, it&amp;rsquo;s commonplace to deploy Linux virtual machines (VMs) on a PC using hypervisor software to test cloud apps, host server software, or run specialized tools.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Copilot&#43; PC Review: Windows on ARM is finally here</title>
-      <link>https://jasoneckert.github.io/myblog/windows-on-arm/</link>
+      <link>http://localhost:1313/myblog/windows-on-arm/</link>
       <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/windows-on-arm/</guid>
+      <guid>http://localhost:1313/myblog/windows-on-arm/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;desktop.png#center&#34; alt=&#34;Copilot+ PC Desktop&#34; title=&#34;Copilot+ PC Desktop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in 2017, I wrote a &lt;a href=&#34;../get-ready-for-the-chip-wars/&#34;&gt;blog post&lt;/a&gt; predicting intense competition between Intel x86-based and ARM-based PCs. And finally, after many years of lukewarm development efforts on the part of Microsoft and Qualcomm, that competition is here with Windows 11 Copilot+ PCs running powerful ARM-based Qualcomm Snapdragon X Elite CPUs with built in graphics and AI acceleration.&lt;/p&gt;&#xA;&lt;p&gt;As shown in the desktop screenshot at the top of this post I&amp;rsquo;ve been using a Copilot+ PC as a productivity and development workstation this month, and I must say that I&amp;rsquo;m thoroughly impressed overall. In this blog post, I&amp;rsquo;ll outline why.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Demystifying Artificial Intelligence (AI)</title>
-      <link>https://jasoneckert.github.io/myblog/demystifying-ai/</link>
+      <link>http://localhost:1313/myblog/demystifying-ai/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/demystifying-ai/</guid>
+      <guid>http://localhost:1313/myblog/demystifying-ai/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;unwantedAI.jpg#right&#34; alt=&#34;Unwanted AI buzz&#34; title=&#34;Unwanted AI buzz&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re tired of all of the &lt;em&gt;&lt;strong&gt;Artificial Intelligence (AI)&lt;/strong&gt;&lt;/em&gt; buzz recently, you&amp;rsquo;re not alone. Most of us in the tech industry are as well. In this post, I&amp;rsquo;ll outline what AI is and how it works, why you&amp;rsquo;re hearing so much AI hype nowadays, and how AI functionality will eventually be built into the software products we use.&lt;/p&gt;&#xA;&lt;h1 id=&#34;so-what-is-ai&#34;&gt;So, what is AI?&lt;/h1&gt;&#xA;&lt;p&gt;Firstly, AI is nothing new. The term itself was coined in 1955 by John McCarthy as a way to discuss how computers could make decisions based on inputs and logic provided. However, the idea of intelligent machines (or robots) has been popular in sci-fi writing for the past century, and can be found as far back as Samuel Butler&amp;rsquo;s 1863 article &lt;em&gt;&lt;strong&gt;Darwin among the Machines&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Extending the life of an Intel-based Mac using Windows 11</title>
-      <link>https://jasoneckert.github.io/myblog/intel-mac-win11/</link>
+      <link>http://localhost:1313/myblog/intel-mac-win11/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/intel-mac-win11/</guid>
+      <guid>http://localhost:1313/myblog/intel-mac-win11/</guid>
       <description>&lt;p&gt;Back in 2020, Apple introduced the first Macs that used Apple Silicon processors instead of Intel ones, and this transition from Intel to Apple Silicon was completed earlier this year across Apple&amp;rsquo;s entire product line. While Apple promised they&amp;rsquo;d continue supporting macOS on Intel-based Macs for the near future, those of us who remember Apple&amp;rsquo;s previous transitions from M68k-to-PowerPC and PowerPC-to-Intel know full well that this support is going to end sooner than later. Even the last two versions of macOS have far fewer features when run on Intel Macs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Essential keyboard shortcuts (Windows/macOS/Linux/UNIX)</title>
-      <link>https://jasoneckert.github.io/myblog/shortcuts/</link>
+      <link>http://localhost:1313/myblog/shortcuts/</link>
       <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/shortcuts/</guid>
+      <guid>http://localhost:1313/myblog/shortcuts/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;hands.jpg#center&#34; alt=&#34;Hands on keyboard&#34; title=&#34;Hands on keyboard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Following are some shortcuts that I believe all desktop users should be familiar with. It is not a complete list by any means, and does not include virtual desktop or app pinning shortcuts as I felt those were beyond the scope of common desktop shortcuts. If you feel I omitted a common shortcut, email me (&lt;a href=&#34;mailto:jason.eckert@trios.com&#34;&gt;jason.eckert@trios.com&lt;/a&gt;) and I&amp;rsquo;ll add it to the list!&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-windows-shortcuts&#34;&gt;1. Windows shortcuts&lt;/h1&gt;&#xA;&lt;p&gt;The Windows (⊞) key on your keyboard has the Windows logo printed on it. Modern keyboards use the newer Windows logo with four equally-sized squares, while older keyboards use a Windows logo with four slanted or curved squares.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My first textbook is now in its sixth edition</title>
-      <link>https://jasoneckert.github.io/myblog/linux-sixth-edition/</link>
+      <link>http://localhost:1313/myblog/linux-sixth-edition/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/linux-sixth-edition/</guid>
+      <guid>http://localhost:1313/myblog/linux-sixth-edition/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;first-and-sixth.png#center&#34; alt=&#34;First and sixth edition of my Linux textbook&#34; title=&#34;First and sixth edition of my Linux textbook&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;While I&amp;rsquo;ve written &lt;a href=&#34;../../bio/my-published-books/&#34;&gt;many textbooks&lt;/a&gt; on different topics over the past two decades, my favourite subject area by far is Linux. After all, Linux has evolved to be one of the most foundational topics in tech education. Information Technology (IT) fields such as server/network administration, cloud administration, cybersecurity, and software development now require a solid grasp of the Linux operating system.&#xA;&lt;img src=&#34;sixthedition.jpg#right&#34; alt=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34; title=&#34;CompTIA Linux+ and LPIC-1 Guide to Linux Certification, Sixth Edition&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>RISCy business: The long and convoluted rise of today&#39;s dominant computing platform</title>
-      <link>https://jasoneckert.github.io/myblog/riscy-business/</link>
+      <link>http://localhost:1313/myblog/riscy-business/</link>
       <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/riscy-business/</guid>
+      <guid>http://localhost:1313/myblog/riscy-business/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;RISC.png#center&#34; alt=&#34;RISC timeline&#34; title=&#34;RISC timeline&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;risc-vs-cisc&#34;&gt;RISC vs CISC&lt;/h1&gt;&#xA;&lt;p&gt;Traditionally, most computing platforms were built with the burden of software in mind. To ensure that a software program could be written easily and with fewer instructions, additional circuitry was added to the central processing unit (CPU) to compensate. This was referred to as complex instruction set computing (CISC). CISC architecture is still common today thanks to the x86 architecture used by Intel and AMD CPUs in most workstations and servers. Unfortunately, the added circuitry within CISC CPUs equated to added cost and complexity - both of which made it more expensive to evolve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A brief history of technology</title>
-      <link>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</link>
+      <link>http://localhost:1313/myblog/a-brief-history-of-technology/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/a-brief-history-of-technology/</guid>
+      <guid>http://localhost:1313/myblog/a-brief-history-of-technology/</guid>
       <description>&lt;p&gt;Technology is a crazy ride, and like that lyric in the Talking Heads song &lt;em&gt;&lt;strong&gt;Once in a Lifetime&lt;/strong&gt;&lt;/em&gt;, &amp;ldquo;&amp;hellip;you may ask yourself, well, how did I get here?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;If that&amp;rsquo;s the case, you&amp;rsquo;re in luck, because this post is a no-nonsense, give-me-the-big-picture timeline of what the heck happened in the technology landscape these past 50 years. Of course, not every little detail is in there. Just those that are actually important (in my expert opinion, of course ;-) Enjoy!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Most people don&#39;t want a computer</title>
-      <link>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</link>
+      <link>http://localhost:1313/myblog/most-people-dont-want-a-computer/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/most-people-dont-want-a-computer/</guid>
+      <guid>http://localhost:1313/myblog/most-people-dont-want-a-computer/</guid>
       <description>&lt;p&gt;In the past few decades, people of all ages across North America have become technology-literate in some way or another. Many of them weren&amp;rsquo;t introduced to technology via desktop or laptop computers, but instead through a smartphone or tablet. Similarly, many desktop and laptop users have switched to using their smartphone or tablet over the past decade to interact with the online world.&lt;/p&gt;&#xA;&lt;p&gt;After all, smartphones and tablets are incredibly easy to use. You open an app to do what you want (social media, shopping, taking pics of food, etc.), and the rest can be done in a Web browser. It doesn&amp;rsquo;t matter where your files are stored locally because they&amp;rsquo;re easily searchable, and they&amp;rsquo;re automatically synced to the cloud so that you don&amp;rsquo;t lose them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microsoft turns 45</title>
-      <link>https://jasoneckert.github.io/myblog/microsoft-turns-45/</link>
+      <link>http://localhost:1313/myblog/microsoft-turns-45/</link>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/microsoft-turns-45/</guid>
+      <guid>http://localhost:1313/myblog/microsoft-turns-45/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ms45.png#center&#34; alt=&#34;Microsoft cake&#34; title=&#34;Microsoft cake&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;On April 4th 1975, a small company called Microsoft was founded in Albuquerque, New Mexico. They would later become the most pivotal company in the technology world, and their co-founder Bill Gates would become the world’s most prolific philanthropist.&lt;/p&gt;&#xA;&lt;p&gt;Like many tech companies, Microsoft has had a colourful past. Started by two whiz kids (Paul Allen and Bill Gates), they started by selling operating system and supporting software.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bill Gates steps down today</title>
-      <link>https://jasoneckert.github.io/myblog/bill-gates-steps-down-today/</link>
+      <link>http://localhost:1313/myblog/bill-gates-steps-down-today/</link>
       <pubDate>Mon, 30 Jun 2008 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/bill-gates-steps-down-today/</guid>
+      <guid>http://localhost:1313/myblog/bill-gates-steps-down-today/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;billgates.png#right&#34; alt=&#34;Bill Gates&#34; title=&#34;Bill Gates&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today is Bill Gates’ last day at the helm of the largest software company in history: Microsoft.   Bill, thanks for creating and running a company that has transformed the industry like no other - I wish you the best!&lt;/p&gt;&#xA;&lt;p&gt;Although I am not a huge fan of proprietary software today or some of the things that Microsoft has done (e.g. FUD) and is currently doing (e.g. Vista), I have always had a large amount of respect for Microsoft’s role in industry - in the early 1990’s, I really wanted to work for Microsoft like everyone else, and I was an early Windows advocate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The end of 2007</title>
-      <link>https://jasoneckert.github.io/myblog/the-end-of-2007/</link>
+      <link>http://localhost:1313/myblog/the-end-of-2007/</link>
       <pubDate>Mon, 31 Dec 2007 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/the-end-of-2007/</guid>
+      <guid>http://localhost:1313/myblog/the-end-of-2007/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;woot.png#right&#34; alt=&#34;woot&#34; title=&#34;woot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It has truly been an exciting year, and I wish to take a few moments to reflect on some of the most important events of 2007 in geekdom:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Halo 3 being released (I love that game)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Microsoft pissing off millions with Vista&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The death of SCO (may they rot in hell)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Apple releasing the iPhone and iPod touch (the next generation interface for everything)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The introduction of the Nokia N810 Internet Tablet running Linux (drool&amp;hellip;.)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microsoft Energize IT conference</title>
-      <link>https://jasoneckert.github.io/myblog/microsoft-energize-it-conference/</link>
+      <link>http://localhost:1313/myblog/microsoft-energize-it-conference/</link>
       <pubDate>Sat, 16 Jun 2007 00:00:00 +0000</pubDate>
-      <guid>https://jasoneckert.github.io/myblog/microsoft-energize-it-conference/</guid>
+      <guid>http://localhost:1313/myblog/microsoft-energize-it-conference/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;stage.png#center&#34; alt=&#34;Microsoft stage&#34; title=&#34;Microsoft stage&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today, I attended the Microsoft Energize IT Conference at the Convention Centre in Toronto.  Having been to many Microsoft conferences in the past, I was reluctant to attend since most of them were a biased propaganda show for sales people and managers.&lt;/p&gt;&#xA;&lt;p&gt;Energize IT was a typical Microsoft conference: lots of money, free food and swank.  When the keynote presentations started, it looked promising.  The first few speakers emphasized the need for feedback from the audience such that Microsoft can adapt to the changing needs of their customers, as well as the need for a sense of “community” amongst us. And to make things even better, there were power bars at each table in the auditorium for laptop use as well as free wireless access (I brought my laptop and was able to check my emails during the boring parts of the presentation).   From people’s facial expressions and body language, everyone seemed engaged.&lt;/p&gt;</description>
     </item>
   </channel>
