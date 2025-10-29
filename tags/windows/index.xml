@@ -6,8 +6,15 @@
     <description>Recent content in Windows on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jasoneckert.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows on ARM: One Year Later</title>
+      <link>https://jasoneckert.github.io/myblog/windows-on-arm-1year/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/windows-on-arm-1year/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;snapdragondevkit.jpg#center&#34; alt=&#34;Snapdragon Dev Kit&#34; title=&#34;Snapdragon Dev Kit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A little over a year ago, I got my hands on a Snapdragon Dev Kit for Windows powered by Qualcomm’s new Snapdragon X Elite CPU, and that inspired me to share &lt;a href=&#34;../windows-on-arm/&#34;&gt;my first impressions of Windows on ARM&lt;/a&gt;. Back then, the platform felt polished but had a few quirks. Now, after a full year of daily use, here’s how it’s held up.&lt;/p&gt;&#xA;&lt;p&gt;A year ago, I was curious whether this emerging platform could hold up in day-to-day use, particularly in tech-heavy environments like software development and data science &amp;ndash; for example, creating and running AI models. While the platform felt polished, there were some limitations: hardcore gaming required more than the integrated Adreno GPU, nested virtualization in Hyper-V wasn’t supported, and a few apps were unavailable for ARM, requiring emulation.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Introduction to Hugo</title>
       <link>https://jasoneckert.github.io/myblog/hugo/</link>
