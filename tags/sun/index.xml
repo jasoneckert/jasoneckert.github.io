@@ -6,8 +6,15 @@
     <description>Recent content in SUN on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jasoneckert.github.io/tags/sun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grace Blackwell Desktop Supercomputer: First Impressions</title>
+      <link>https://jasoneckert.github.io/myblog/grace-blackwell/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/grace-blackwell/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;dellpromax-gb10.png#center&#34; alt=&#34;Dell Pro Max with GB10&#34; title=&#34;Dell Pro Max with GB10&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Earlier this year, NVIDIA caused quite a stir in the data-science community when they announced the DGX Spark: a desktop-sized AI supercomputer. It’s aimed at developers and data scientists who need to prototype, tune, and run AI models locally without constantly relying on expensive cloud hardware.&lt;/p&gt;&#xA;&lt;p&gt;At the heart of the DGX Spark is the new GB10 chip, which combines NVIDIA’s 20-core Grace ARM CPU with the Blackwell GPU. Together, they deliver roughly 1 petaflop of AI compute and come paired with 128 GB of memory and 4 TB of fast local storage. The system ships with Ubuntu Linux 24.04, which immediately appealed to my inner UNIX/Linux fanatic.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>RISCy business: The long and convoluted rise of today&#39;s dominant computing platform</title>
       <link>https://jasoneckert.github.io/myblog/riscy-business/</link>
