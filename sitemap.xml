@@ -2,28 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jasoneckert.github.io/myblog/2025-in-review/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/books/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/development/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/myblog/grace-blackwell/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/linux/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/nature/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/programming/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/myblog/grace-blackwell/</loc>
     <lastmod>2025-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/science/</loc>
@@ -33,9 +48,6 @@
     <lastmod>2025-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/sun/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/tech/</loc>
     <lastmod>2025-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/unix/</loc>
@@ -95,9 +107,6 @@
     <loc>https://jasoneckert.github.io/myblog/ethics-in-the-age-of-ai/</loc>
     <lastmod>2025-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/programming/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/tags/ibm/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -120,12 +129,6 @@
     <lastmod>2025-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/2024-in-review/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/books/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/nature/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/llms-using-ollama/</loc>
