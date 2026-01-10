@@ -235,12 +235,10 @@
 <p>Oh well. RIP, powerful little ARM box.</p>
 <p><em><strong>P.S. If Qualcomm ever releases a firmware recovery tool for this thing, I’ll happily update this post.</strong></em></p>
 <h1 id="update-its-alive">Update: It&rsquo;s alive!</h1>
-<p>After publishing this post, I shared it on Hacker News, where it blew up and garnered plenty of comments. Many people suggested that the symptoms pointed to a hardware failure (often RAM) and that I might be too quick to blame Microsoft. One commenter even said it “<em><strong>felt like an appeal to anti-Microsoft clicks.</strong></em>”</p>
-<p>Fair enough.</p>
+<p>After publishing this post, I shared it on Hacker News, where it blew up and garnered plenty of comments. Many people suggested that the symptoms pointed to a hardware failure (often RAM) and that I might be too quick to blame Microsoft. One commenter even said it “<em><strong>felt like an appeal to anti-Microsoft clicks.</strong></em>” Fair enough.</p>
 <p>More importantly, however, someone else reached out in my blog comments who had imaged their Snapdragon Dev Kit SSD shortly after receiving it. They offered me the image in case the hardware itself was fine and the issue really was disk or firmware corruption triggered by the failed Windows update.</p>
 <p>I took them up on it.</p>
-<p>I pulled the NVMe SSD from the Dev Kit, dropped it into a USB enclosure, and used <code>dd</code> from my Fedora Asahi Remix system to restore the image. After reinstalling the SSD, I powered the system on and it booted&hellip; straight into Windows 11 setup!</p>
-<p>I completed the setup, restored my files, checked Event Viewer (no hardware errors), and even ran a memory diagnostic (also clean). That was yesterday, and everything has been running smoothly since.</p>
+<p>I pulled the NVMe SSD from the Dev Kit, dropped it into a USB enclosure, and used <code>dd</code> from my Fedora Asahi Remix system to restore the image. After reinstalling the SSD, I powered the system on and it booted&hellip; straight into Windows 11 setup! So I completed the setup, restored my files, checked Event Viewer (no hardware errors), and even ran a memory diagnostic (also clean). That was yesterday, and everything has been running smoothly since.</p>
 <p>Interestingly, the BDS menu is still unusable. None of the options are selectable, but since the system boots Windows reliably now, I can live with that.</p>
 <p>So what’s the takeaway? If you’re running a system with no documented recovery path or support, take an image of the SSD while it’s healthy. Future you (or someone else) may really appreciate it.</p>
 
