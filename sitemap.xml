@@ -2,14 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jasoneckert.github.io/tags/apple/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jasoneckert.github.io/tags/bio/</loc>
-    <lastmod>2026-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2026-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2026-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/computing/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/development/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/microsoft/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/programming/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/video-games/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/myblog/vg-programs/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/windows/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/books/</loc>
     <lastmod>2026-02-21T00:00:00+00:00</lastmod>
@@ -20,40 +50,19 @@
     <loc>https://jasoneckert.github.io/tags/it/</loc>
     <lastmod>2026-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/</loc>
-    <lastmod>2026-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2026-02-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/tags/web/</loc>
     <lastmod>2026-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/computing/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/how-microsoft-killed-my-snapdragon-devkit/</loc>
     <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/microsoft/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/windows/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/myblog/2025-in-review/</loc>
-    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/development/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/linux/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/nature/</loc>
-    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/programming/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/grace-blackwell/</loc>
@@ -88,9 +97,6 @@
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/win10eol/</loc>
     <lastmod>2025-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/apple/</loc>
-    <lastmod>2025-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/arm-ci/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
@@ -231,9 +237,6 @@
     <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/the-time-i-yoga-balled-an-apple-store-employee/</loc>
-    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/video-games/</loc>
     <lastmod>2023-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/2022-in-review/</loc>
