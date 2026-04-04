@@ -6,8 +6,15 @@
     <description>Recent content in Computing on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jasoneckert.github.io/tags/computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Rise of Local AI (and Why It Won’t Replace Cloud AI)</title>
+      <link>https://jasoneckert.github.io/myblog/rise-of-local-ai/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/rise-of-local-ai/</guid>
+      <description>&lt;p&gt;Artificial Intelligence (AI) is fast becoming commonplace in our daily lives. If you made it through the AI vendor hype in 2024 and 2025, you’ve probably learned at least a few things about what &lt;a href=&#34;../demystifying-ai/&#34;&gt;AI, machine learning models, and large language models (LLMs)&lt;/a&gt; are. And chances are, this year your organization is having you complete a &lt;a href=&#34;https://www.youtube.com/watch?v=C_dhhQHM8L0&#34;&gt;plethora&lt;/a&gt; of different training courses in hopes you’ll become efficient at leveraging it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cloud-ai&#34;&gt;Cloud AI:&lt;/h2&gt;&#xA;&lt;p&gt;When leveraging AI, you’re most likely interacting with an LLM hosted on some powerful &lt;a href=&#34;https://triosdevelopers.com/jason.eckert/stuff/Linux_cloud.png&#34;&gt;Linux server in the cloud&lt;/a&gt; across the Internet. You could interact with this cloud LLM using a website (e.g., chatgpt.com, copilot.microsoft.com, or gemini.google.com), or from an app that runs on your phone or computer (e.g., Android Gemini, Microsoft Copilot, or Claude Code). Many other apps also have built-in AI features that connect to some cloud LLM for functionality (e.g., the AI features of Microsoft Office, Slack, or Grammarly).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>What I Learned Running Two College Video Game Programs (2011-2018)</title>
       <link>https://jasoneckert.github.io/myblog/vg-programs/</link>
