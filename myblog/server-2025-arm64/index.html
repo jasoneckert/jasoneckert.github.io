@@ -232,9 +232,7 @@
 </ul>
 <p>Then, I ran the following within PowerShell on each VM to generate some load, and watched the results in Performance Monitor:</p>
 <pre tabindex="0"><code>1..8 | ForEach-Object {
-    while ($true) {
-        Get-Process | Sort-Object CPU -Descending | Select-Object -First 5 | Out-Null
-    }
+    while ($true) { Get-Process | Sort-Object CPU -Descending | Select-Object -First 5 | Out-Null }
 }
 </code></pre><p>The Snapdragon had that steady, sustained performance I expected while the Intel had the typical boost/throttle variation. % Processor Time fluctuated far less on the Snapdragon system. Processor Queue Length stayed at zero on Snapdragon, but periodically spiked on Intel. CPU Wait Time Per Dispatch was flat and consistent on Snapdragon, but varied significantly on Intel.</p>
 <h2 id="measuring-service-responsiveness">Measuring service responsiveness</h2>
