@@ -212,7 +212,7 @@
     <p><img src="windows-admin-center-snapdragon.png#center" alt="Windows Server 2025 Admin Center" title="Windows Server 2025 Admin Center"></p>
 <p>I’m currently working on the next edition of my Windows Server book for Cengage, updating everything from Windows Server 2022 to 2025. As you’d expect, my primary lab machine is a high-end 14th Gen Intel Core i9 system running Windows 11, hosting multiple Hyper-V virtual machines (VMs) for roles like Active Directory, IIS, DNS, DHCP, and more.</p>
 <p>Out of curiosity (and honestly, just for fun), I decided to spin up the same Windows Server 2025 environment in Hyper-V on my Snapdragon X Elite system running Windows 11 on ARM. Microsoft does not provide an official installation ISO image of Windows Server 2025 for ARM on their website, so I used <a href="https://uupdump.net">UUP dump</a> to generate one from Microsoft’s update servers and installed the same set of VMs with it.</p>
-<p>Everything worked exactly as expected. It was stable, functional, and fully usable. But there was one big difference that stood out: Everything felt noticeably faster! Services started more quickly (including Active Directory, which is usually a bit of a slog), management consoles opened faster, and the same hands-on tasks I was writing for my textbook consistently completed in less time.</p>
+<p>It was stable, functional, and fully usable as you&rsquo;d expect&hellip; but there was one big difference: Everything felt much, much faster! Services started more quickly (including Active Directory, which is usually a bit of a slog), management consoles opened faster, and the same hands-on tasks I was writing for my textbook consistently completed in less time.</p>
 <p>The Hyper-V VMs are configured identically in terms of memory, virtual processors, and installed roles for their native CPU architectures:</p>
 <ul>
 <li>Snapdragon X Elite = ARM64 guest on ARM64 host</li>
@@ -251,7 +251,7 @@
 mkdir $path -ea 0
 
 Measure-Command {
-    1..2000 | ForEach-Object {
+    1..2000 | foreach {
         $file = &#34;$path\file$_.txt&#34;
         Set-Content $file &#34;test&#34;
         Get-Content $file | Out-Null
@@ -261,7 +261,7 @@ Measure-Command {
 </code></pre><p>Across multiple runs of each test, the Snapdragon system produced consistent, repeatable timings nearly every time. On the Intel system, results varied significantly, occasionally beating the Snapdragon, but most of the time falling behind. The Snapdragon was the clear winner on each test overall.</p>
 <h2 id="summary">Summary</h2>
 <p>The common thread across these results is latency consistency. These Windows Server workloads need predictable scheduling and fast response to small, frequent operations&hellip; especially under virtualization. If your workloads depend on peak throughput, x64 systems still have clear advantages. But if your environment looks like a typical Windows Server deployment with many small, latency-sensitive operations running under virtualization, then consistency may matter more than raw speed.</p>
-<p>And in that context, ARM64 is starting to look very compelling. Plus, it&rsquo;s already widely used in cloud environments, which begs the question: If Windows Server workloads benefit from this kind of performance, shouldn&rsquo;t Microsoft be making ARM64 play a larger role in its future? Right now, Microsoft doesn&rsquo;t fully support Windows Server on ARM64, yet 33% of all new Microsoft Azure VM instances last year were ARM64 (50% for Amazon&rsquo;s AWS).</p>
+<p>And in that context, ARM64 looks very attractive. Plus, it&rsquo;s already widely used in cloud environments where the performance-to-cost ratio is much better than x64&hellip; which begs the question: If Windows Server workloads benefit from this kind of performance, shouldn&rsquo;t Microsoft be making ARM64 play a larger role in its future? Right now, Microsoft doesn&rsquo;t fully support Windows Server on ARM64, yet 33% of all new Microsoft Azure VM instances last year were ARM64 (50% for Amazon&rsquo;s AWS).</p>
 <p>Hopefully Microsoft will spend more time in the future on their server product strategy and less on Copilot ;-)</p>
 <p><em><strong>Note: For my Cengage textbook, I’m still standardizing on x64. The reason is simple: nested virtualization is part of the lab setup, and that’s not yet supported on ARM64 in Hyper-V. Students could adapt the labs to work around this, but one of the goals of the book is reproducibility&hellip; having everything “just work” step by step. For now, x64 remains the practical choice for teaching.</strong></em></p>
 
