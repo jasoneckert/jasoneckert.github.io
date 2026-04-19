@@ -6,8 +6,15 @@
     <description>Recent content in Windows on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jasoneckert.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows Server 2025 Runs Better on ARM</title>
+      <link>https://jasoneckert.github.io/myblog/server-2025-arm64/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/server-2025-arm64/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;windows-admin-center-snapdragon.png#center&#34; alt=&#34;Windows Server 2025 Admin Center&#34; title=&#34;Windows Server 2025 Admin Center&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’m currently working on the next edition of my Windows Server book for Cengage, updating everything from Windows Server 2022 to 2025. As you’d expect, my primary lab machine is a high-end 14th Gen Intel Core i9 system running Windows 11, hosting multiple Hyper-V virtual machines (VMs) for roles like Active Directory, IIS, DNS, DHCP, and more.&lt;/p&gt;&#xA;&lt;p&gt;Out of curiosity (and honestly, just for fun), I decided to spin up the same Windows Server 2025 environment in Hyper-V on my Snapdragon X Elite system running Windows 11 on ARM. Microsoft does not provide an official installation ISO image of Windows Server 2025 for ARM on their website, so I used &lt;a href=&#34;https://uupdump.net&#34;&gt;UUP dump&lt;/a&gt; to generate one from Microsoft’s update servers and installed the same set of VMs with it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Rise of Local AI (and Why It Won’t Replace Cloud AI)</title>
       <link>https://jasoneckert.github.io/myblog/rise-of-local-ai/</link>
