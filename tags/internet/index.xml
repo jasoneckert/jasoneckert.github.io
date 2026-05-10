@@ -6,8 +6,15 @@
     <description>Recent content in Internet on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jasoneckert.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Return of the UNIX Workstation (Now With AI)</title>
+      <link>https://jasoneckert.github.io/myblog/return-of-the-unix-workstation/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/return-of-the-unix-workstation/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;gb10.png#center&#34; alt=&#34;NVIDIA GB10 Desktop&#34; title=&#34;NVIDIA GB10 Desktop&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was a heavy UNIX user throughout the 1990s, back when powerful RISC UNIX workstations roamed the Earth. SGI Octanes, Sun Ultras, DEC Alphastations&amp;hellip; all absurdly expensive and built for science, engineering, and development work. These workstations used RISC processors (because RISC was the future!) and cost a small fortune. God, they were powerful. And on many of them, I installed Linux (basically open source UNIX).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Rise of Local AI (and Why It Won’t Replace Cloud AI)</title>
       <link>https://jasoneckert.github.io/myblog/rise-of-local-ai/</link>
