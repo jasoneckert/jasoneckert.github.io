@@ -119,13 +119,13 @@
 <article class="border rounded p-3 position-relative" style="margin-top: 2.5em;">
   <div class="header">
     <h1 style="font-size: 2.5em;">
-      The Return of the UNIX Workstation (Now With AI)
+      Open Source Gatherings Still Rock in 2026
     </h1>
     <div
     class="mb-1 mr-3 pl-1 pr-1 rounded bg-dark"
     style="position: absolute; top: -19px; font-size: 0.9em;"
   >
-    <time>2026-05-10</time>    
+    <time>2026-05-24</time>    
     <span
       class="more"
       style="font-size: 1.5em;"
@@ -139,7 +139,7 @@
   <div class="metadata-value mb-1 taxa taxa-container-div list-sections">
     <div>
       Reading Time: 
-5 mins
+3 mins
       
     </div>
     <div>
@@ -256,24 +256,6 @@
       title="tags"
     >Open Source</a>
     
-    <a
-      class="pl-1 pr-1 rounded border border-secondary"
-      href="/tags/sun"
-      title="tags"
-    >SUN</a>
-    
-    <a
-      class="pl-1 pr-1 rounded border border-secondary"
-      href="/tags/sgi"
-      title="tags"
-    >SGI</a>
-    
-    <a
-      class="pl-1 pr-1 rounded border border-secondary"
-      href="/tags/dec"
-      title="tags"
-    >DEC</a>
-    
   </div>
   
   
@@ -281,57 +263,35 @@
 </div>
   <div class="article pb-3 pt-3 border-bottom border-top">
     
-    <p><img src="gb10.png#center" alt="NVIDIA GB10 Desktop" title="NVIDIA GB10 Desktop"></p>
-<p>I was a heavy UNIX user throughout the 1990s, back when powerful RISC UNIX workstations roamed the Earth. SGI Octanes, Sun Ultras, DEC Alphastations&hellip; all absurdly expensive and built for science, engineering, and development work. These workstations used RISC processors (because RISC was the future!) and cost a small fortune. God, they were powerful. And on many of them, I installed Linux (basically open source UNIX).</p>
-<p>But in the 2000s, commodity Intel/AMD x86 PCs had a better performance/cost ratio, and powerful RISC UNIX workstations went extinct. But it was OK… those PCs still ran Linux. And Apple Macs ran macOS (which is UNIX). So all of the concepts and commands never went anywhere. In fact the web and cloud – including the associated development frameworks – grew up around Linux. So when the cloud and Linux suddenly became “a thing” in mainstream media back in the early 2010s, us <a href="https://www.perturb.org/images/1/dilbert-unix.png">smug UNIX folk</a> just sat back and smiled.</p>
-<p><img src="clouds.png#center" alt="The Cloud is mostly Linux" title="The Cloud is mostly Linux"></p>
-<p>Fast-forward to 2020: Apple announces they’re moving off Intel x86 processors to a insanely fast <a href="https://en.wikipedia.org/wiki/Mac_transition_to_Apple_silicon">ARM processor of their own design</a>. ARM is a RISC processor, and macOS is UNIX. So Apple brought back the powerful RISC UNIX workstation of the 1990s (albeit much cheaper).</p>
-<p>Now macOS is a good UNIX, but it’s not as good as Linux. Luckily, the Asahi open source project reverse engineered Apple’s platform and figured out how to run Linux on it natively (after all, Linux supported ARM long before any other hardware vendor). I was one of the first users, and today I run <a href="../fedora-asahi-remix/">Fedora Asahi Remix Linux</a> natively on a Mac Studio M1 (20 core ARM processor with 128 GB of memory and 4 TB of storage).</p>
-<p>This was perfect, since I run a lot of virtualized Linux servers and containers, as well as develop a lot of software to run in them. So a powerful RISC workstation running Linux was a breath of fresh air and dramatically increased my productivity.</p>
-<p>However, I now need to do a lot of data science work, and that involves training, tuning, and running various machine learning and AI models.</p>
-<p>Luckily, in 2025 NVIDIA released their Grace Blackwell GB10 desktop supercomputer platform: a Linux workstation with a 20-core ARM CPU, 128 GB of memory, 4 TB of storage, and an absurdly powerful NVIDIA GPU capable of up to 1 petaFLOP of AI performance. In other words: a modern RISC UNIX workstation built specifically for AI and data science workloads.</p>
-<p><img src="gb10launch.jpg#center" alt="NVIDIA GB10 Launch" title="NVIDIA GB10 Launch"></p>
-<p>While NVIDIA’s version of the GB10 is called the DGX Spark, <a href="../grace-blackwell/">I got the Dell version of it</a> back in November (the Dell Pro Max with GB10), which has better cooling. I originally used it as a server that I would remotely connect to, but it has since become my main workstation. After all, it essentially has the same specs as my Mac Studio (20-core ARM processor, 128 GB memory, 4 TB storage) and runs Linux out-of-the-box without having to rely on an open source project that reverse engineered Apple’s hardware. But it also has that powerful NVIDIA GPU for my data science work, and NVIDIA provides some polished tools that make it easier for me to run all the data science stuff I need.</p>
-<p>Performance-wise, the ARM CPU is on par with my Mac Studio, and Linux absolutely flies on both systems. So I migrated all of my virtualized Linux servers, containers, Kubernetes clusters, and Ansible files over, and installed my full development stack. Suddenly I had one machine that could do everything: software development, virtualization, containers, devops, data science, AI inference, and local AI agents. Boom. The 90s are back, baby!</p>
-<p>But, there’s more! The GB10 is an AI supercomputer and NVIDIA has made running anything AI-related super easy (they have <a href="https://build.nvidia.com/spark">detailed documentation</a> for setting everything up). So, I’m also running a NemoClaw AI agent that helps me with my tasks. NemoClaw basically turns the DGX Spark into a local AI operator that can automate development workflows, inspect files, write code and scripts, summarize documents, run commands, and analyze logs instead of just responding to prompts like a traditional chatbot. That means I can delegate real tasks for it to do, instead of just asking questions.</p>
-<p>It leverages the <a href="https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/">Nemotron 3 Super</a> 120B-parameter AI model, and primarily uses Telegram as the chatbot interface. It isolates the AI agent from the host system, which makes it much safer than just running the underlying OpenClaw directly (I can easily restrict what the AI agent has access to and what it is integrated with). Everything runs beautifully on the system alongside my other workloads. A few years ago, this kind of setup would have required an entire server rack. Now it runs on my desktop. That still feels slightly absurd in the best possible way.</p>
-<p>I also leverage the <a href="https://openai.com/index/introducing-gpt-oss/">GPT-OSS</a> 120B-parameter model locally on the DGX Spark for AI-assisted development within VS Code. As a senior developer, I treat AI less as “vibe coding” and more as a force multiplier for the repetitive work that slows down real software engineering. It means I can spend more time focusing on architecture, systems design, and problem solving.</p>
-<p>What’s fascinating to me is that the industry somehow ended up back where we started: powerful local UNIX workstations running on RISC architectures, used by engineers, scientists, and developers to do computationally intensive work. The difference is that the workload is no longer just statistical analysis, 3D rendering, or scientific visualization&hellip; now we’re running AI models locally on our UNIX workstations. Wicked.</p>
-<p><em><strong>Disclaimer: I still use macOS and Windows systems to support the IT, software development, and data science programs at the college since they are taught either on a Windows PC or a Mac.</strong></em></p>
-<h3 id="for-those-interested-heres-my-current-workstation-stack">For those interested, here&rsquo;s my current Workstation Stack</h3>
+    <p>This past Wednesday, a handful of us from the <a href="https://kwlug.org/">Kitchener-Waterloo Linux Users Group (KWLUG)</a> gathered for one of our monthly social meetups. This month’s meetup was also part of <a href="https://libreplanet.org/wiki/Group:Librelocal/2026">LibreLocal</a>, a Free Software Foundation initiative that promotes local free software communities.</p>
+<p>Unlike our regular KWLUG presentation nights hosted at the University of Waterloo, these dinners are intentionally informal. No laptop. No projector. No slide deck. No scheduled talks. Just food, conversation, and whatever topics naturally emerge once a table full of Linux and open source enthusiasts settles in for the evening.</p>
+<p>This month’s gathering included (from left to right) Anton, Mark, Mikalai, Andrew, and myself&hellip; with Colin taking the photo (who attempted to escape without appearing in one himself, but failed). Note the lack of UNIX beards (this is a Linux group after all!).</p>
+<p><img src="meetup.jpg#center" alt="KW-LUG LibreLocal" title="KW-LUG LibreLocal"></p>
+<p>The discussion wandered across just about every topic you might expect from a room full of technically opinionated people: Linux distributions, Systemd, Wayland, AI tooling, running local AI models, how Azure sucks, writing efficient software, open hardware, drones, privacy, politics, self-hosting, digital sovereignty, and the future of the web.</p>
+<p>But we also spent a lot of time discussing why local technical communities still matter. After all, KW-LUG has been one of the most vibrant LUGs in existence, going strong for nearly 3 decades (partly due to amazing leadership by Paul and Andrew). We live in an era where so much interaction happens through isolating online platforms, yet there’s still enormous value in sitting around a table with curious people and talking for hours about technology and open source. Open source has always been about more than code repositories, <a href="https://triosdevelopers.com/jason.eckert/stuff/MIT_License.mp3">licenses</a>, and philosophy. It&rsquo;s about shared knowledge, mentorship, collaboration, humour, and friendship, and that human side of technology is easy to forget.</p>
+<p>The MOST interesting thing about free and open source software in 2026 is that many of the ideas the community fought for decades ago have now become mainstream conversations again, and made even more relevant by modern technology, geopolitics, and AI (or as we say in Canada, &ldquo;EhI&rdquo;):</p>
 <ul>
-<li>Dell Pro Max GB10</li>
-<li>Ubuntu Linux</li>
-<li>NemoClaw</li>
-<li>Nemotron 3 Super</li>
-<li>GPT-OSS:120b</li>
-<li>Ollama</li>
-<li>VS Code and vim (a “vi-able” alternative)</li>
-<li>JupyterLab</li>
-<li>Podman/Docker</li>
-<li>NextCloud</li>
-<li>Ansible (control node with hundreds of playbooks and roles)</li>
-<li>Kubernetes (k3s)</li>
-<li>KVM/QEMU</li>
+<li>transparency (can we trust it? can we audit it?),</li>
+<li>interoperability (and the risks of over-centralization),</li>
+<li>ownership (who owns the data? who owns the infrastructure?),</li>
+<li>digital autonomy and privacy,</li>
+<li>benefits and dangers of decentralization,</li>
+<li>and resistance to vendor lock-in.</li>
 </ul>
+<p>Local Linux user groups may seem old-fashioned compared to Discord servers or Reddit threads (we still use a massive mailing list!), but there’s something uniquely valuable about in-person communities. You can disagree passionately about editors, init systems, package managers, or the philosophical implications of AI, and then immediately laugh about it over dinner. And after many long-winded conversations and reminiscence, everyone eventually arrived at the following revelation (in Mikalai&rsquo;s vernacular): <em><strong>There are two centers in this world: the place where you are from, and Kitchener-Waterloo.</strong></em></p>
+<p>After all, this is Canada’s Silicon Valley&hellip; the place where strange technical magic keeps happening. You can even buy the Lord Kitchener shirt:</p>
+<p><img src="kitchener.jpg#center" alt="There&rsquo;s no place Bitchener than Kitchener" title="There's no place Bitchener than Kitchener"></p>
+<p>Thanks to KWLUG, LibreLocal, and everyone who came out for another evening of open source conversation, philosophical derailments, technical arguments, and camaraderie. As AI becomes increasingly centralized and resource-intensive, there are few better places to discuss the implications for ownership, transparency, software freedom, and local control than with Linux nerds at a dinner table.</p>
 
   </div>
   <div class="mt-4 d-flex flex-row justify-content-around">
+  <div><i class="text-secondary fas fa-chevron-circle-left" style="font-size: 2em;"></i></div>
   <div>
     <a
-      href="/myblog/open-source-gatherings/"
+      href="/myblog/return-of-the-unix-workstation/"
       data-toggle="tooltip"
       data-placement="top"
-      title="Open Source Gatherings Still Rock in 2026"
-      ><i class="fas fa-chevron-circle-left" style="font-size: 2em;"></i></a
-    >
-  </div>
-  <div>
-    <a
-      href="/myblog/server-2025-arm64/"
-      data-toggle="tooltip"
-      data-placement="top"
-      title="Windows Server 2025 Runs Better on ARM"
+      title="The Return of the UNIX Workstation (Now With AI)"
       ><i class="fas fa-chevron-circle-right" style="font-size: 2em;"></i></a
     >
   </div>

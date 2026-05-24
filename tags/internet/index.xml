@@ -6,8 +6,15 @@
     <description>Recent content in Internet on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jasoneckert.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Source Gatherings Still Rock in 2026</title>
+      <link>https://jasoneckert.github.io/myblog/open-source-gatherings/</link>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/open-source-gatherings/</guid>
+      <description>&lt;p&gt;This past Wednesday, a handful of us from the &lt;a href=&#34;https://kwlug.org/&#34;&gt;Kitchener-Waterloo Linux Users Group (KWLUG)&lt;/a&gt; gathered for one of our monthly social meetups. This month’s meetup was also part of &lt;a href=&#34;https://libreplanet.org/wiki/Group:Librelocal/2026&#34;&gt;LibreLocal&lt;/a&gt;, a Free Software Foundation initiative that promotes local free software communities.&lt;/p&gt;&#xA;&lt;p&gt;Unlike our regular KWLUG presentation nights hosted at the University of Waterloo, these dinners are intentionally informal. No laptop. No projector. No slide deck. No scheduled talks. Just food, conversation, and whatever topics naturally emerge once a table full of Linux and open source enthusiasts settles in for the evening.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Return of the UNIX Workstation (Now With AI)</title>
       <link>https://jasoneckert.github.io/myblog/return-of-the-unix-workstation/</link>
