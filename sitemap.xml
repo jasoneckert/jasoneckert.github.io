@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jasoneckert.github.io/tags/apple/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
+    <loc>https://jasoneckert.github.io/tags/bio/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/myblog/nature/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/outdoors/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/apple/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/computing/</loc>
@@ -21,9 +33,6 @@
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/linux/</loc>
@@ -82,9 +91,6 @@
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/rise-of-local-ai/</loc>
     <lastmod>2026-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/bio/</loc>
-    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/video-games/</loc>
     <lastmod>2026-03-15T00:00:00+00:00</lastmod>
@@ -168,9 +174,6 @@
     <lastmod>2024-10-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/hiking/</loc>
-    <lastmod>2024-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/outdoors/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/cybersafety/</loc>
