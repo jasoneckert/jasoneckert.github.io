@@ -6,8 +6,15 @@
     <description>Recent content in Internet on Jason Eckert&#39;s Website and Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jasoneckert.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Brief History of Computing</title>
+      <link>https://jasoneckert.github.io/myblog/a-brief-history-of-computing/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://jasoneckert.github.io/myblog/a-brief-history-of-computing/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;retrocomputing.jpg#center&#34; alt=&#34;Retro Computing&#34; title=&#34;Retro Computing&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-cambrian-explosion-1969-1999&#34;&gt;The Cambrian Explosion (1969-1999)&lt;/h1&gt;&#xA;&lt;p&gt;In the beginning there was UNIX.&lt;/p&gt;&#xA;&lt;p&gt;Historians will correctly point out that there were computers before UNIX (1969). These historians are technically correct, which, as every IT professional knows, is the worst kind of correct.&lt;/p&gt;&#xA;&lt;p&gt;Before UNIX lay the Mainframe Era, a mysterious geological period populated by refrigerator-sized computers, punched cards, magnetic tape, and system operators who possessed powers indistinguishable from magic. Little documentation survives because it was printed on green-and-white tractor-feed paper that has since fossilized.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Open Source Gatherings Still Rock in 2026</title>
       <link>https://jasoneckert.github.io/myblog/open-source-gatherings/</link>
