@@ -2,19 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jasoneckert.github.io/categories/blog/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/myblog/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/computing/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/it/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/linux/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/macos/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/open-source/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/retro/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/sysadmin/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/tech/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/myblog/teletype/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/unix/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jasoneckert.github.io/tags/windows/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jasoneckert.github.io/myblog/vacation-2026/</loc>
     <lastmod>2026-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/bio/</loc>
-    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/categories/blog/</loc>
-    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/myblog/</loc>
-    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/</loc>
     <lastmod>2026-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/a-brief-history-of-computing/</loc>
@@ -24,9 +57,6 @@
     <lastmod>2026-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/commodore/</loc>
-    <lastmod>2026-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/computing/</loc>
     <lastmod>2026-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/dec/</loc>
@@ -41,40 +71,16 @@
     <loc>https://jasoneckert.github.io/tags/internet/</loc>
     <lastmod>2026-07-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/it/</loc>
-    <lastmod>2026-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/linux/</loc>
-    <lastmod>2026-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/macos/</loc>
-    <lastmod>2026-07-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/tags/microsoft/</loc>
     <lastmod>2026-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/tags/programming/</loc>
     <lastmod>2026-07-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/retro/</loc>
-    <lastmod>2026-07-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/tags/sco/</loc>
     <lastmod>2026-07-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jasoneckert.github.io/tags/sysadmin/</loc>
-    <lastmod>2026-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/tech/</loc>
-    <lastmod>2026-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/unix/</loc>
-    <lastmod>2026-07-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jasoneckert.github.io/tags/web/</loc>
-    <lastmod>2026-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/windows/</loc>
     <lastmod>2026-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/nature/</loc>
@@ -82,9 +88,6 @@
   </url><url>
     <loc>https://jasoneckert.github.io/tags/outdoors/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jasoneckert.github.io/tags/open-source/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jasoneckert.github.io/myblog/open-source-gatherings/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
